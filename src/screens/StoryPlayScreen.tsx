@@ -14,6 +14,9 @@ import { useStoryStore } from '../store/storyStore';
 import { useUserStore } from '../store/userStore';
 import { Choice } from '../types';
 
+const FALLBACK_IMAGE =
+  'https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=800';
+
 const { width, height } = Dimensions.get('window');
 
 interface StoryPlayScreenProps {
@@ -29,6 +32,7 @@ export const StoryPlayScreen: React.FC<StoryPlayScreenProps> = ({
     useStoryStore();
   const { trackProgress } = useUserStore();
   const [fadeAnim] = useState(new Animated.Value(0));
+  const [imageError, setImageError] = useState(false);
 
   useEffect(() => {
     loadStory(storyId);
@@ -36,6 +40,7 @@ export const StoryPlayScreen: React.FC<StoryPlayScreenProps> = ({
 
   useEffect(() => {
     if (currentNode) {
+      setImageError(false);
       Animated.timing(fadeAnim, {
         toValue: 1,
         duration: 800,
@@ -80,8 +85,13 @@ export const StoryPlayScreen: React.FC<StoryPlayScreenProps> = ({
     <View style={styles.container}>
       <Animated.View style={[styles.content, { opacity: fadeAnim }]}>
         <Image
-          source={{ uri: currentNode.imageUrl }}
+          source={{ uri: imageError ? FALLBACK_IMAGE : currentNode.imageUrl }}
           style={styles.backgroundImage}
+          resizeMode="cover"
+          onError={() => {
+            console.log('Image failed to load:', currentNode.imageUrl);
+            setImageError(true);
+          }}
         />
         <View style={styles.overlay} />
 
@@ -153,6 +163,7 @@ const styles = StyleSheet.create({
     width,
     height,
     resizeMode: 'cover',
+    backgroundColor: '#1a1a2e',
   },
   overlay: {
     position: 'absolute',

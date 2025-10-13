@@ -1,6 +1,8 @@
 import { Story } from '../types';
+import { timeLoopStory } from './story3_timeloop';
+import { newStories } from './newStories';
 
-export const sampleStories: Story[] = [
+const originalStories: Story[] = [
   {
     id: 'story-1',
     title: 'The Enchanted Forest',
@@ -190,4 +192,10 @@ export const sampleStories: Story[] = [
       },
     ],
   },
+];
+
+export const sampleStories: Story[] = [
+  ...originalStories,
+  timeLoopStory,
+  ...newStories,
 ];
