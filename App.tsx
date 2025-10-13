@@ -1,45 +1,92 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
+import React, { useState, useEffect } from 'react';
+import { StatusBar } from 'react-native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
-import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
-import {
-  SafeAreaProvider,
-  useSafeAreaInsets,
-} from 'react-native-safe-area-context';
+import { SplashScreen } from './src/screens/SplashScreen';
+import { HomeScreen } from './src/screens/HomeScreen';
+import { StoryDetailScreen } from './src/screens/StoryDetailScreen';
+import { StoryPlayScreen } from './src/screens/StoryPlayScreen';
+import { useStoryStore } from './src/store/storyStore';
+import { useUserStore } from './src/store/userStore';
+import { sampleStories } from './src/data/sampleStories';
+
+type RootStackParamList = {
+  Home: undefined;
+  StoryDetail: { storyId: string };
+  StoryPlay: { storyId: string };
+};
+
+const Stack = createNativeStackNavigator<RootStackParamList>();
 
 function App() {
-  const isDarkMode = useColorScheme() === 'dark';
+  const [showSplash, setShowSplash] = useState(true);
+  const setStories = useStoryStore(state => state.setStories);
+  const initializeUser = useUserStore(state => state.initializeUser);
+
+  useEffect(() => {
+    // Initialize app data
+    setStories(sampleStories);
+    initializeUser();
+  }, []);
+
+  if (showSplash) {
+    return (
+      <SafeAreaProvider>
+        <StatusBar barStyle="light-content" />
+        <SplashScreen onFinish={() => setShowSplash(false)} />
+      </SafeAreaProvider>
+    );
+  }
 
   return (
-    <SafeAreaProvider>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <AppContent />
-    </SafeAreaProvider>
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <SafeAreaProvider>
+        <StatusBar barStyle="dark-content" />
+        <NavigationContainer>
+          <Stack.Navigator
+            screenOptions={{
+              headerShown: false,
+              animation: 'slide_from_right',
+            }}
+          >
+            <Stack.Screen name="Home">
+              {({ navigation }) => (
+                <HomeScreen
+                  onStoryPress={storyId =>
+                    navigation.navigate('StoryDetail', { storyId })
+                  }
+                />
+              )}
+            </Stack.Screen>
+            <Stack.Screen name="StoryDetail">
+              {({ route, navigation }) => (
+                <StoryDetailScreen
+                  storyId={route.params.storyId}
+                  onBack={() => navigation.goBack()}
+                  onStartStory={() =>
+                    navigation.navigate('StoryPlay', {
+                      storyId: route.params.storyId,
+                    })
+                  }
+                />
+              )}
+            </Stack.Screen>
+            <Stack.Screen name="StoryPlay">
+              {({ route, navigation }) => (
+                <StoryPlayScreen
+                  storyId={route.params.storyId}
+                  onExit={() => navigation.navigate('Home')}
+                />
+              )}
+            </Stack.Screen>
+          </Stack.Navigator>
+        </NavigationContainer>
+      </SafeAreaProvider>
+    </GestureHandlerRootView>
   );
 }
-
-function AppContent() {
-  const safeAreaInsets = useSafeAreaInsets();
-
-  return (
-    <View style={styles.container}>
-      <NewAppScreen
-        templateFileName="App.tsx"
-        safeAreaInsets={safeAreaInsets}
-      />
-    </View>
-  );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-});
 
 export default App;
