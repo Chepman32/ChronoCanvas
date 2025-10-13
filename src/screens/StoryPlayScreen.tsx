@@ -228,7 +228,7 @@ const styles = StyleSheet.create({
   endingText: {
     fontSize: 14,
     fontWeight: 'bold',
-    color: '#FFFFFF',
+    color: '#000',
   },
   choicesContainer: {
     marginTop: spacing.lg,
