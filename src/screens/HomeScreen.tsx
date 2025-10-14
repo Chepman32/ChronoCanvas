@@ -29,6 +29,7 @@ const genreLabels: Record<StoryGenre, string> = {
   romance: 'Romance',
   horror: 'Horror',
   adventure: 'Adventure',
+  detective: 'Detective',
 };
 
 export const HomeScreen: React.FC<HomeScreenProps> = ({ onStoryPress }) => {

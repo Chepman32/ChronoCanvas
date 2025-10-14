@@ -11,6 +11,7 @@ import { emberCrownOathStory } from './story9845237719284_emberCrownOath';
 import { rootweaversPactStory } from './story9932045517721_rootweaversPact';
 import { echoesMoonlitGroveStory } from './story8743921042_echoesMoonlitGrove';
 import { cityOfSecondChancesStory } from './story8742190384_cityOfSecondChances';
+import { midnightCuratorStory } from './story_midnight_curator';
 
 const originalStories: Story[] = [
   {
@@ -218,4 +219,5 @@ export const sampleStories: Story[] = [
   rootweaversPactStory,
   echoesMoonlitGroveStory,
   cityOfSecondChancesStory,
+  midnightCuratorStory,
 ];

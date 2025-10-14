@@ -5,7 +5,8 @@ export type StoryGenre =
   | 'mystery'
   | 'romance'
   | 'horror'
-  | 'adventure';
+  | 'adventure'
+  | 'detective';
 
 export interface Story {
   id: string;
