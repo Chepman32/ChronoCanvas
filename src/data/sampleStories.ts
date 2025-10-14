@@ -10,6 +10,7 @@ import { timekeepersHeartStory } from './story583921467_timekeepersHeart';
 import { emberCrownOathStory } from './story9845237719284_emberCrownOath';
 import { rootweaversPactStory } from './story9932045517721_rootweaversPact';
 import { echoesMoonlitGroveStory } from './story8743921042_echoesMoonlitGrove';
+import { cityOfSecondChancesStory } from './story8742190384_cityOfSecondChances';
 
 const originalStories: Story[] = [
   {
@@ -216,4 +217,5 @@ export const sampleStories: Story[] = [
   emberCrownOathStory,
   rootweaversPactStory,
   echoesMoonlitGroveStory,
+  cityOfSecondChancesStory,
 ];

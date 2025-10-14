@@ -13,7 +13,7 @@ export const lettersOnTheWindStory: Story = {
   genre: ['romance', 'adventure'],
   difficulty: 'easy',
   estimatedDuration: 30,
-  isPremium: true,
+  isPremium: false,
   productId: 'com.app.story.letters-on-the-wind',
   version: '1.0',
   createdAt: '2025-01-17',

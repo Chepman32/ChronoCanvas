@@ -34,22 +34,27 @@ const genreLabels: Record<StoryGenre, string> = {
 export const HomeScreen: React.FC<HomeScreenProps> = ({ onStoryPress }) => {
   const stories = useStoryStore(state => state.stories);
 
+  const featuredStories = useMemo(() => stories.slice(0, 5), [stories]);
+
   const storiesByGenre = useMemo(() => {
     const genreMap: Partial<Record<StoryGenre, Story[]>> = {};
+    const featuredIds = new Set(featuredStories.map(s => s.id));
 
     stories.forEach(story => {
+      if (featuredIds.has(story.id)) return;
+
       story.genre.forEach(genre => {
         if (!genreMap[genre]) {
           genreMap[genre] = [];
         }
         if (!genreMap[genre]!.some(s => s.id === story.id)) {
-          genreMap[genre]!.push(story);
+          genreMap[genre]!.unshift(story);
         }
       });
     });
 
     return genreMap;
-  }, [stories]);
+  }, [stories, featuredStories]);
 
   const renderStoryCard = (story: Story) => (
     <TouchableOpacity
@@ -133,7 +138,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ onStoryPress }) => {
         <View style={styles.featuredSection}>
           <Text style={styles.sectionTitle}>Featured Stories</Text>
           <FlatList
-            data={stories.slice(0, 5)}
+            data={featuredStories}
             renderItem={({ item }) => renderFeaturedCard(item)}
             keyExtractor={item => `featured-${item.id}`}
             horizontal
