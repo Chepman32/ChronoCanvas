@@ -1,4 +1,4 @@
-package com.chronocanvas
+package com.fableflow
 
 import android.app.Application
 import com.facebook.react.PackageList

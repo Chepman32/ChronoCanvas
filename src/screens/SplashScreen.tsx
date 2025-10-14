@@ -47,7 +47,7 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({ onFinish }) => {
           },
         ]}
       >
-        <Text style={styles.logo}>ChronoCanvas</Text>
+        <Text style={styles.logo}>Fableflow</Text>
         <Text style={styles.tagline}>Your Story, Your Choice</Text>
       </Animated.View>
     </View>

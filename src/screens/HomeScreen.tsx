@@ -121,7 +121,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ onStoryPress }) => {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>ChronoCanvas</Text>
+        <Text style={styles.headerTitle}>Fableflow</Text>
         <Text style={styles.headerSubtitle}>Choose Your Adventure</Text>
       </View>
 
