@@ -9,8 +9,9 @@ import {
   Dimensions,
   FlatList,
 } from 'react-native';
-import { colors, spacing, borderRadius } from '../theme/colors';
+import { spacing, borderRadius } from '../theme/colors';
 import { useStoryStore } from '../store/storyStore';
+import { useSettingsStore } from '../store/settingsStore';
 import { Story, StoryGenre } from '../types';
 
 const { width } = Dimensions.get('window');
@@ -20,6 +21,7 @@ const FEATURED_CARD_HEIGHT = 210;
 
 interface HomeScreenProps {
   onStoryPress: (storyId: string) => void;
+  onSettingsPress: () => void;
 }
 
 const genreLabels: Record<StoryGenre, string> = {
@@ -32,8 +34,9 @@ const genreLabels: Record<StoryGenre, string> = {
   detective: 'Detective',
 };
 
-export const HomeScreen: React.FC<HomeScreenProps> = ({ onStoryPress }) => {
+export const HomeScreen: React.FC<HomeScreenProps> = ({ onStoryPress, onSettingsPress }) => {
   const stories = useStoryStore(state => state.stories);
+  const theme = useSettingsStore(state => state.theme);
 
   const featuredStories = useMemo(() => stories.slice(0, 5), [stories]);
 
@@ -111,7 +114,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ onStoryPress }) => {
 
   const renderGenreSection = (genre: StoryGenre, stories: Story[]) => (
     <View key={genre} style={styles.genreSection}>
-      <Text style={styles.sectionTitle}>{genreLabels[genre]}</Text>
+      <Text style={[styles.sectionTitle, { color: theme.textPrimary }]}>{genreLabels[genre]}</Text>
       <FlatList
         data={stories}
         renderItem={({ item }) => renderStoryCard(item)}
@@ -125,10 +128,21 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ onStoryPress }) => {
   );
 
   return (
-    <View style={styles.container}>
-      <View style={styles.header}>
-        <Text style={styles.headerTitle}>Fableflow</Text>
-        <Text style={styles.headerSubtitle}>Choose Your Adventure</Text>
+    <View style={[styles.container, { backgroundColor: theme.background }]}>
+      <View style={[styles.header, { backgroundColor: theme.primary }]}>
+        <View style={styles.headerTop}>
+          <View>
+            <Text style={styles.headerTitle}>ChronoCanvas</Text>
+            <Text style={styles.headerSubtitle}>Choose Your Adventure</Text>
+          </View>
+          <TouchableOpacity
+            style={styles.settingsButton}
+            onPress={onSettingsPress}
+            activeOpacity={0.7}
+          >
+            <Text style={styles.settingsIcon}>⚙</Text>
+          </TouchableOpacity>
+        </View>
       </View>
 
       <ScrollView
@@ -137,7 +151,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ onStoryPress }) => {
         showsVerticalScrollIndicator={false}
       >
         <View style={styles.featuredSection}>
-          <Text style={styles.sectionTitle}>Featured Stories</Text>
+          <Text style={[styles.sectionTitle, { color: theme.textPrimary }]}>Featured Stories</Text>
           <FlatList
             data={featuredStories}
             renderItem={({ item }) => renderFeaturedCard(item)}
@@ -162,13 +176,16 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ onStoryPress }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: colors.background,
   },
   header: {
     paddingTop: 60,
     paddingHorizontal: spacing.md,
     paddingBottom: spacing.lg,
-    backgroundColor: colors.primary,
+  },
+  headerTop: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
   },
   headerTitle: {
     fontSize: 32,
@@ -179,6 +196,18 @@ const styles = StyleSheet.create({
   headerSubtitle: {
     fontSize: 16,
     color: 'rgba(255, 255, 255, 0.8)',
+  },
+  settingsButton: {
+    width: 44,
+    height: 44,
+    borderRadius: 22,
+    backgroundColor: 'rgba(255, 255, 255, 0.2)',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  settingsIcon: {
+    fontSize: 24,
+    color: '#FFFFFF',
   },
   scrollView: {
     flex: 1,
@@ -195,7 +224,6 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: colors.textPrimary,
     marginBottom: spacing.md,
     paddingHorizontal: spacing.md,
   },
@@ -217,13 +245,13 @@ const styles = StyleSheet.create({
     height: FEATURED_CARD_HEIGHT,
     borderTopLeftRadius: borderRadius.large,
     borderTopRightRadius: borderRadius.large,
-    backgroundColor: colors.surface,
+    backgroundColor: '#F5F5F5',
   },
   featuredPremiumBadge: {
     position: 'absolute',
     top: 12,
     right: 12,
-    backgroundColor: colors.gold,
+    backgroundColor: '#FFD700',
     paddingHorizontal: 12,
     paddingVertical: 6,
     borderRadius: borderRadius.small,
@@ -234,12 +262,12 @@ const styles = StyleSheet.create({
   featuredCardTitle: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: colors.textPrimary,
+    color: '#212121',
     marginBottom: 6,
   },
   featuredCardAuthor: {
     fontSize: 14,
-    color: colors.textSecondary,
+    color: '#757575',
     marginBottom: 8,
   },
   card: {
@@ -257,13 +285,13 @@ const styles = StyleSheet.create({
     height: 140,
     borderTopLeftRadius: borderRadius.medium,
     borderTopRightRadius: borderRadius.medium,
-    backgroundColor: colors.surface,
+    backgroundColor: '#F5F5F5',
   },
   premiumBadge: {
     position: 'absolute',
     top: 8,
     right: 8,
-    backgroundColor: colors.gold,
+    backgroundColor: '#FFD700',
     paddingHorizontal: 8,
     paddingVertical: 4,
     borderRadius: borderRadius.small,
@@ -279,12 +307,12 @@ const styles = StyleSheet.create({
   cardTitle: {
     fontSize: 16,
     fontWeight: '600',
-    color: colors.textPrimary,
+    color: '#212121',
     marginBottom: 4,
   },
   cardAuthor: {
     fontSize: 12,
-    color: colors.textSecondary,
+    color: '#757575',
     marginBottom: 8,
   },
   cardMeta: {
@@ -293,7 +321,7 @@ const styles = StyleSheet.create({
   },
   metaText: {
     fontSize: 11,
-    color: colors.textSecondary,
+    color: '#757575',
     marginRight: 4,
   },
 });

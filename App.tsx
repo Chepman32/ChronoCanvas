@@ -9,6 +9,7 @@ import { SplashScreen } from './src/screens/SplashScreen';
 import { HomeScreen } from './src/screens/HomeScreen';
 import { StoryDetailScreen } from './src/screens/StoryDetailScreen';
 import { StoryPlayScreen } from './src/screens/StoryPlayScreen';
+import { SettingsScreen } from './src/screens/SettingsScreen';
 import { useStoryStore } from './src/store/storyStore';
 import { useUserStore } from './src/store/userStore';
 import { sampleStories } from './src/data/sampleStories';
@@ -17,6 +18,7 @@ type RootStackParamList = {
   Home: undefined;
   StoryDetail: { storyId: string };
   StoryPlay: { storyId: string };
+  Settings: undefined;
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -58,6 +60,7 @@ function App() {
                   onStoryPress={storyId =>
                     navigation.navigate('StoryDetail', { storyId })
                   }
+                  onSettingsPress={() => navigation.navigate('Settings')}
                 />
               )}
             </Stack.Screen>
@@ -80,6 +83,11 @@ function App() {
                   storyId={route.params.storyId}
                   onExit={() => navigation.navigate('Home')}
                 />
+              )}
+            </Stack.Screen>
+            <Stack.Screen name="Settings">
+              {({ navigation }) => (
+                <SettingsScreen onBack={() => navigation.goBack()} />
               )}
             </Stack.Screen>
           </Stack.Navigator>

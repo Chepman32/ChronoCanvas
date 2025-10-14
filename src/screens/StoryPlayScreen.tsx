@@ -9,9 +9,10 @@ import {
   ScrollView,
   Animated,
 } from 'react-native';
-import { colors, spacing, borderRadius } from '../theme/colors';
+import { spacing, borderRadius } from '../theme/colors';
 import { useStoryStore } from '../store/storyStore';
 import { useUserStore } from '../store/userStore';
+import { useSettingsStore } from '../store/settingsStore';
 import { Choice } from '../types';
 
 const FALLBACK_IMAGE =
@@ -31,6 +32,7 @@ export const StoryPlayScreen: React.FC<StoryPlayScreenProps> = ({
   const { loadStory, navigateToNode, currentNode, currentStory } =
     useStoryStore();
   const { trackProgress, getStoryProgress } = useUserStore();
+  const theme = useSettingsStore(state => state.theme);
   const [fadeAnim] = useState(new Animated.Value(0));
   const [imageError, setImageError] = useState(false);
 
@@ -108,11 +110,11 @@ export const StoryPlayScreen: React.FC<StoryPlayScreenProps> = ({
             style={styles.narrationScroll}
             contentContainerStyle={styles.narrationContent}
           >
-            <Text style={styles.nodeTitle}>{currentNode.title}</Text>
-            <Text style={styles.narrationText}>{currentNode.narration}</Text>
+            <Text style={[styles.nodeTitle, { color: theme.textPrimary }]}>{currentNode.title}</Text>
+            <Text style={[styles.narrationText, { color: theme.textPrimary }]}>{currentNode.narration}</Text>
 
             {isEnding && (
-              <View style={styles.endingBadge}>
+              <View style={[styles.endingBadge, { backgroundColor: theme.gold }]}>
                 <Text style={styles.endingText}>THE END</Text>
               </View>
             )}
@@ -142,7 +144,7 @@ export const StoryPlayScreen: React.FC<StoryPlayScreenProps> = ({
           )}
 
           {isEnding && (
-            <TouchableOpacity style={styles.finishButton} onPress={handleExit}>
+            <TouchableOpacity style={[styles.finishButton, { backgroundColor: theme.primary }]} onPress={handleExit}>
               <Text style={styles.finishButtonText}>Finish Story</Text>
             </TouchableOpacity>
           )}
@@ -211,18 +213,15 @@ const styles = StyleSheet.create({
   nodeTitle: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#FFFFFF',
     marginBottom: spacing.sm,
   },
   narrationText: {
     fontSize: 16,
-    color: 'rgba(255, 255, 255, 0.9)',
     lineHeight: 24,
   },
   endingBadge: {
     marginTop: spacing.lg,
     alignSelf: 'center',
-    backgroundColor: colors.gold,
     paddingHorizontal: spacing.lg,
     paddingVertical: spacing.sm,
     borderRadius: borderRadius.medium,
@@ -254,7 +253,6 @@ const styles = StyleSheet.create({
   },
   finishButton: {
     marginTop: spacing.lg,
-    backgroundColor: colors.primary,
     paddingVertical: spacing.md,
     borderRadius: borderRadius.medium,
     alignItems: 'center',
