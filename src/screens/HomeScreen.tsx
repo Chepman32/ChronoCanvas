@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import {
   View,
   Text,
@@ -7,24 +7,50 @@ import {
   TouchableOpacity,
   Image,
   Dimensions,
+  FlatList,
 } from 'react-native';
 import { colors, spacing, borderRadius } from '../theme/colors';
 import { useStoryStore } from '../store/storyStore';
-import { Story } from '../types';
+import { Story, StoryGenre } from '../types';
 
 const { width } = Dimensions.get('window');
-const CARD_WIDTH = (width - spacing.md * 3) / 2;
+const CARD_WIDTH = width * 0.65;
 
 interface HomeScreenProps {
   onStoryPress: (storyId: string) => void;
 }
 
+const genreLabels: Record<StoryGenre, string> = {
+  fantasy: 'Fantasy',
+  scifi: 'Science Fiction',
+  mystery: 'Mystery',
+  romance: 'Romance',
+  horror: 'Horror',
+  adventure: 'Adventure',
+};
+
 export const HomeScreen: React.FC<HomeScreenProps> = ({ onStoryPress }) => {
   const stories = useStoryStore(state => state.stories);
 
+  const storiesByGenre = useMemo(() => {
+    const genreMap: Partial<Record<StoryGenre, Story[]>> = {};
+
+    stories.forEach(story => {
+      story.genre.forEach(genre => {
+        if (!genreMap[genre]) {
+          genreMap[genre] = [];
+        }
+        if (!genreMap[genre]!.some(s => s.id === story.id)) {
+          genreMap[genre]!.push(story);
+        }
+      });
+    });
+
+    return genreMap;
+  }, [stories]);
+
   const renderStoryCard = (story: Story) => (
     <TouchableOpacity
-      key={story.id}
       style={styles.card}
       onPress={() => onStoryPress(story.id)}
       activeOpacity={0.8}
@@ -49,6 +75,21 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ onStoryPress }) => {
     </TouchableOpacity>
   );
 
+  const renderGenreSection = (genre: StoryGenre, stories: Story[]) => (
+    <View key={genre} style={styles.genreSection}>
+      <Text style={styles.sectionTitle}>{genreLabels[genre]}</Text>
+      <FlatList
+        data={stories}
+        renderItem={({ item }) => renderStoryCard(item)}
+        keyExtractor={item => `${genre}-${item.id}`}
+        horizontal
+        showsHorizontalScrollIndicator={false}
+        contentContainerStyle={styles.carouselContent}
+        ItemSeparatorComponent={() => <View style={{ width: spacing.md }} />}
+      />
+    </View>
+  );
+
   return (
     <View style={styles.container}>
       <View style={styles.header}>
@@ -61,8 +102,9 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ onStoryPress }) => {
         contentContainerStyle={styles.scrollContent}
         showsVerticalScrollIndicator={false}
       >
-        <Text style={styles.sectionTitle}>Featured Stories</Text>
-        <View style={styles.grid}>{stories.map(renderStoryCard)}</View>
+        {Object.entries(storiesByGenre).map(([genre, genreStories]) =>
+          renderGenreSection(genre as StoryGenre, genreStories)
+        )}
       </ScrollView>
     </View>
   );
@@ -93,24 +135,25 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   scrollContent: {
-    padding: spacing.md,
+    paddingVertical: spacing.md,
+  },
+  genreSection: {
+    marginBottom: spacing.lg,
   },
   sectionTitle: {
     fontSize: 24,
     fontWeight: 'bold',
     color: colors.textPrimary,
     marginBottom: spacing.md,
+    paddingHorizontal: spacing.md,
   },
-  grid: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    justifyContent: 'space-between',
+  carouselContent: {
+    paddingHorizontal: spacing.md,
   },
   card: {
     width: CARD_WIDTH,
     backgroundColor: '#FFFFFF',
     borderRadius: borderRadius.medium,
-    marginBottom: spacing.md,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
