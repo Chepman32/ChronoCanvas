@@ -6,7 +6,7 @@ interface StoryStore {
   currentStory: Story | null;
   currentNode: StoryNode | null;
   setStories: (stories: Story[]) => void;
-  loadStory: (storyId: string) => void;
+  loadStory: (storyId: string, savedNodeId?: string) => void;
   navigateToNode: (nodeId: string) => void;
   resetStory: () => void;
 }
@@ -18,11 +18,20 @@ export const useStoryStore = create<StoryStore>((set, get) => ({
 
   setStories: stories => set({ stories }),
 
-  loadStory: storyId => {
+  loadStory: (storyId, savedNodeId) => {
     const story = get().stories.find(s => s.id === storyId);
     if (story) {
-      const startNode = story.nodes.find(n => n.id === story.startNodeId);
-      set({ currentStory: story, currentNode: startNode || story.nodes[0] });
+      let nodeToLoad: StoryNode | undefined;
+
+      if (savedNodeId) {
+        nodeToLoad = story.nodes.find(n => n.id === savedNodeId);
+      }
+
+      if (!nodeToLoad) {
+        nodeToLoad = story.nodes.find(n => n.id === story.startNodeId);
+      }
+
+      set({ currentStory: story, currentNode: nodeToLoad || story.nodes[0] });
     }
   },
 

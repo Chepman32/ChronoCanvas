@@ -30,12 +30,14 @@ export const StoryPlayScreen: React.FC<StoryPlayScreenProps> = ({
 }) => {
   const { loadStory, navigateToNode, currentNode, currentStory } =
     useStoryStore();
-  const { trackProgress } = useUserStore();
+  const { trackProgress, getStoryProgress } = useUserStore();
   const [fadeAnim] = useState(new Animated.Value(0));
   const [imageError, setImageError] = useState(false);
 
   useEffect(() => {
-    loadStory(storyId);
+    const progress = getStoryProgress(storyId);
+    const savedNodeId = progress?.currentNodeId;
+    loadStory(storyId, savedNodeId);
   }, [storyId]);
 
   useEffect(() => {
