@@ -12,6 +12,7 @@ import { spacing, borderRadius } from '../theme/colors';
 import { useStoryStore } from '../store/storyStore';
 import { useUserStore } from '../store/userStore';
 import { useSettingsStore } from '../store/settingsStore';
+import { useTranslation } from '../localization/useTranslation';
 
 const { width, height } = Dimensions.get('window');
 
@@ -30,44 +31,67 @@ export const StoryDetailScreen: React.FC<StoryDetailScreenProps> = ({
   const story = stories.find(s => s.id === storyId);
   const progress = useUserStore(state => state.getStoryProgress(storyId));
   const theme = useSettingsStore(state => state.theme);
+  const t = useTranslation();
 
   if (!story) return null;
 
-  const buttonText = progress ? 'Continue Story' : 'Start Adventure';
+  const buttonText = progress ? t.continueStory : t.startAdventure;
 
   return (
     <View style={[styles.container, { backgroundColor: theme.background }]}>
       <ScrollView showsVerticalScrollIndicator={false}>
         <Image source={{ uri: story.coverImageUrl }} style={styles.heroImage} />
         <TouchableOpacity style={styles.backButton} onPress={onBack}>
-          <Text style={styles.backButtonText}>← Back</Text>
+          <Text style={styles.backButtonText}>← {t.back}</Text>
         </TouchableOpacity>
 
         <View style={styles.content}>
           <View style={styles.header}>
-            <Text style={[styles.title, { color: theme.textPrimary }]}>{story.title}</Text>
-            <Text style={[styles.author, { color: theme.textSecondary }]}>by {story.author}</Text>
+            <Text style={[styles.title, { color: theme.textPrimary }]}>
+              {story.title}
+            </Text>
+            <Text style={[styles.author, { color: theme.textSecondary }]}>
+              {t.by} {story.author}
+            </Text>
           </View>
 
           <View style={[styles.statsRow, { backgroundColor: theme.surface }]}>
             <View style={styles.stat}>
-              <Text style={[styles.statValue, { color: theme.primary }]}>{story.estimatedDuration}</Text>
-              <Text style={[styles.statLabel, { color: theme.textSecondary }]}>minutes</Text>
+              <Text style={[styles.statValue, { color: theme.primary }]}>
+                {story.estimatedDuration}
+              </Text>
+              <Text style={[styles.statLabel, { color: theme.textSecondary }]}>
+                {t.minutes}
+              </Text>
             </View>
             <View style={styles.stat}>
-              <Text style={[styles.statValue, { color: theme.primary }]}>{story.totalEndings}</Text>
-              <Text style={[styles.statLabel, { color: theme.textSecondary }]}>endings</Text>
+              <Text style={[styles.statValue, { color: theme.primary }]}>
+                {story.totalEndings}
+              </Text>
+              <Text style={[styles.statLabel, { color: theme.textSecondary }]}>
+                {t.endings}
+              </Text>
             </View>
             <View style={styles.stat}>
-              <Text style={[styles.statValue, { color: theme.primary }]}>{story.difficulty}</Text>
-              <Text style={[styles.statLabel, { color: theme.textSecondary }]}>difficulty</Text>
+              <Text style={[styles.statValue, { color: theme.primary }]}>
+                {story.difficulty}
+              </Text>
+              <Text style={[styles.statLabel, { color: theme.textSecondary }]}>
+                {t.difficulty}
+              </Text>
             </View>
           </View>
 
           {progress && (
             <View style={styles.progressSection}>
-              <Text style={[styles.progressLabel, { color: theme.textPrimary }]}>Your Progress</Text>
-              <View style={[styles.progressBar, { backgroundColor: theme.surface }]}>
+              <Text
+                style={[styles.progressLabel, { color: theme.textPrimary }]}
+              >
+                {t.yourProgress}
+              </Text>
+              <View
+                style={[styles.progressBar, { backgroundColor: theme.surface }]}
+              >
                 <View
                   style={[
                     styles.progressFill,
@@ -80,21 +104,33 @@ export const StoryDetailScreen: React.FC<StoryDetailScreenProps> = ({
                   ]}
                 />
               </View>
-              <Text style={[styles.progressText, { color: theme.textSecondary }]}>
-                {progress.visitedNodes.length} of {story.totalNodes} scenes
-                visited
+              <Text
+                style={[styles.progressText, { color: theme.textSecondary }]}
+              >
+                {progress.visitedNodes.length} {t.of} {story.totalNodes}{' '}
+                {t.scenesVisited}
               </Text>
             </View>
           )}
 
           <View style={styles.descriptionSection}>
-            <Text style={[styles.sectionTitle, { color: theme.textPrimary }]}>Story</Text>
-            <Text style={[styles.description, { color: theme.textSecondary }]}>{story.description}</Text>
+            <Text style={[styles.sectionTitle, { color: theme.textPrimary }]}>
+              {t.story}
+            </Text>
+            <Text style={[styles.description, { color: theme.textSecondary }]}>
+              {story.description}
+            </Text>
           </View>
 
           <View style={styles.genreSection}>
             {story.genre.map(genre => (
-              <View key={genre} style={[styles.genreTag, { backgroundColor: theme.primaryLight }]}>
+              <View
+                key={genre}
+                style={[
+                  styles.genreTag,
+                  { backgroundColor: theme.primaryLight },
+                ]}
+              >
                 <Text style={styles.genreText}>{genre}</Text>
               </View>
             ))}
@@ -102,8 +138,16 @@ export const StoryDetailScreen: React.FC<StoryDetailScreenProps> = ({
         </View>
       </ScrollView>
 
-      <View style={[styles.footer, { backgroundColor: theme.surface, borderTopColor: theme.border }]}>
-        <TouchableOpacity style={[styles.startButton, { backgroundColor: theme.primary }]} onPress={onStartStory}>
+      <View
+        style={[
+          styles.footer,
+          { backgroundColor: theme.surface, borderTopColor: theme.border },
+        ]}
+      >
+        <TouchableOpacity
+          style={[styles.startButton, { backgroundColor: theme.primary }]}
+          onPress={onStartStory}
+        >
           <Text style={styles.startButtonText}>{buttonText}</Text>
         </TouchableOpacity>
       </View>

@@ -10,36 +10,55 @@ import {
 import { useSettingsStore } from '../store/settingsStore';
 import { ThemeName } from '../theme/colors';
 import { spacing, borderRadius } from '../theme/colors';
+import { useTranslation } from '../localization/useTranslation';
+import { Language, languageNames } from '../localization/translations';
 
 interface SettingsScreenProps {
   onBack: () => void;
 }
 
-const themeOptions: { value: ThemeName; label: string }[] = [
-  { value: 'light', label: 'Light' },
-  { value: 'dark', label: 'Dark' },
-  { value: 'solar', label: 'Solar' },
-  { value: 'mono', label: 'Mono' },
+const languageOptions: Language[] = [
+  'en',
+  'ru',
+  'es',
+  'de',
+  'fr',
+  'pt',
+  'ja',
+  'zh',
+  'ko',
+  'uk',
 ];
 
 export const SettingsScreen: React.FC<SettingsScreenProps> = ({ onBack }) => {
   const {
     themeName,
     theme,
+    language,
     soundEnabled,
     hapticsEnabled,
     setTheme,
+    setLanguage,
     toggleSound,
     toggleHaptics,
   } = useSettingsStore();
+
+  const t = useTranslation();
+
+  const themeOptions: { value: ThemeName; label: string }[] = [
+    { value: 'light', label: t.themeLight },
+    { value: 'dark', label: t.themeDark },
+    { value: 'solar', label: t.themeSolar },
+    { value: 'mono', label: t.themeMono },
+  ];
 
   return (
     <View style={[styles.container, { backgroundColor: theme.background }]}>
       <View style={[styles.header, { backgroundColor: theme.primary }]}>
         <TouchableOpacity style={styles.backButton} onPress={onBack}>
-          <Text style={styles.backButtonText}>← Back</Text>
+          <Text style={styles.backButtonText}>← {t.back}</Text>
         </TouchableOpacity>
-        <Text style={styles.headerTitle}>Settings</Text>
+        <Text style={styles.headerTitle}>{t.settings}</Text>
       </View>
 
       <ScrollView
@@ -50,10 +69,10 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({ onBack }) => {
         {/* Theme Section */}
         <View style={styles.section}>
           <Text style={[styles.sectionTitle, { color: theme.textPrimary }]}>
-            Theme
+            {t.theme}
           </Text>
           <View style={styles.themeGrid}>
-            {themeOptions.map((option) => (
+            {themeOptions.map(option => (
               <TouchableOpacity
                 key={option.value}
                 style={[
@@ -61,9 +80,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({ onBack }) => {
                   {
                     backgroundColor: theme.surface,
                     borderColor:
-                      themeName === option.value
-                        ? theme.primary
-                        : theme.border,
+                      themeName === option.value ? theme.primary : theme.border,
                     borderWidth: themeName === option.value ? 2 : 1,
                   },
                 ]}
@@ -75,7 +92,8 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({ onBack }) => {
                     styles.themeLabel,
                     {
                       color: theme.textPrimary,
-                      fontWeight: themeName === option.value ? 'bold' : 'normal',
+                      fontWeight:
+                        themeName === option.value ? 'bold' : 'normal',
                     },
                   ]}
                 >
@@ -96,10 +114,57 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({ onBack }) => {
           </View>
         </View>
 
+        {/* Language Section */}
+        <View style={styles.section}>
+          <Text style={[styles.sectionTitle, { color: theme.textPrimary }]}>
+            {t.language}
+          </Text>
+          <View style={styles.themeGrid}>
+            {languageOptions.map(lang => (
+              <TouchableOpacity
+                key={lang}
+                style={[
+                  styles.themeCard,
+                  {
+                    backgroundColor: theme.surface,
+                    borderColor:
+                      language === lang ? theme.primary : theme.border,
+                    borderWidth: language === lang ? 2 : 1,
+                  },
+                ]}
+                onPress={() => setLanguage(lang)}
+                activeOpacity={0.7}
+              >
+                <Text
+                  style={[
+                    styles.themeLabel,
+                    {
+                      color: theme.textPrimary,
+                      fontWeight: language === lang ? 'bold' : 'normal',
+                    },
+                  ]}
+                >
+                  {languageNames[lang]}
+                </Text>
+                {language === lang && (
+                  <View
+                    style={[
+                      styles.checkmark,
+                      { backgroundColor: theme.primary },
+                    ]}
+                  >
+                    <Text style={styles.checkmarkText}>✓</Text>
+                  </View>
+                )}
+              </TouchableOpacity>
+            ))}
+          </View>
+        </View>
+
         {/* Sound Section */}
         <View style={styles.section}>
           <Text style={[styles.sectionTitle, { color: theme.textPrimary }]}>
-            Audio
+            {t.audio}
           </Text>
           <View
             style={[
@@ -109,12 +174,15 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({ onBack }) => {
           >
             <View>
               <Text style={[styles.settingLabel, { color: theme.textPrimary }]}>
-                Sound Effects
+                {t.soundEffects}
               </Text>
               <Text
-                style={[styles.settingDescription, { color: theme.textSecondary }]}
+                style={[
+                  styles.settingDescription,
+                  { color: theme.textSecondary },
+                ]}
               >
-                Enable sound effects during gameplay
+                {t.soundEffectsDescription}
               </Text>
             </View>
             <Switch
@@ -129,7 +197,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({ onBack }) => {
         {/* Haptics Section */}
         <View style={styles.section}>
           <Text style={[styles.sectionTitle, { color: theme.textPrimary }]}>
-            Feedback
+            {t.feedback}
           </Text>
           <View
             style={[
@@ -139,12 +207,15 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({ onBack }) => {
           >
             <View>
               <Text style={[styles.settingLabel, { color: theme.textPrimary }]}>
-                Haptic Feedback
+                {t.hapticFeedback}
               </Text>
               <Text
-                style={[styles.settingDescription, { color: theme.textSecondary }]}
+                style={[
+                  styles.settingDescription,
+                  { color: theme.textSecondary },
+                ]}
               >
-                Enable vibration feedback for interactions
+                {t.hapticFeedbackDescription}
               </Text>
             </View>
             <Switch
@@ -159,10 +230,10 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({ onBack }) => {
         {/* App Info */}
         <View style={[styles.section, styles.infoSection]}>
           <Text style={[styles.infoText, { color: theme.textSecondary }]}>
-            ChronoCanvas v1.0
+            {t.appVersion}
           </Text>
           <Text style={[styles.infoText, { color: theme.textSecondary }]}>
-            Interactive Story Experience
+            {t.appDescription}
           </Text>
         </View>
       </ScrollView>

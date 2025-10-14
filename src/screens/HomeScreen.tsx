@@ -13,6 +13,7 @@ import { spacing, borderRadius } from '../theme/colors';
 import { useStoryStore } from '../store/storyStore';
 import { useSettingsStore } from '../store/settingsStore';
 import { Story, StoryGenre } from '../types';
+import { useTranslation } from '../localization/useTranslation';
 
 const { width } = Dimensions.get('window');
 const CARD_WIDTH = width * 0.65;
@@ -24,19 +25,23 @@ interface HomeScreenProps {
   onSettingsPress: () => void;
 }
 
-const genreLabels: Record<StoryGenre, string> = {
-  fantasy: 'Fantasy',
-  scifi: 'Science Fiction',
-  mystery: 'Mystery',
-  romance: 'Romance',
-  horror: 'Horror',
-  adventure: 'Adventure',
-  detective: 'Detective',
-};
-
-export const HomeScreen: React.FC<HomeScreenProps> = ({ onStoryPress, onSettingsPress }) => {
+export const HomeScreen: React.FC<HomeScreenProps> = ({
+  onStoryPress,
+  onSettingsPress,
+}) => {
   const stories = useStoryStore(state => state.stories);
   const theme = useSettingsStore(state => state.theme);
+  const t = useTranslation();
+
+  const genreLabels: Record<StoryGenre, string> = {
+    fantasy: t.genreFantasy,
+    scifi: t.genreSciFi,
+    mystery: t.genreMystery,
+    romance: t.genreRomance,
+    horror: t.genreHorror,
+    adventure: t.genreAdventure,
+    detective: t.genreDetective,
+  };
 
   const featuredStories = useMemo(() => stories.slice(0, 5), [stories]);
 
@@ -69,7 +74,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ onStoryPress, onSettings
       <Image source={{ uri: story.thumbnailUrl }} style={styles.cardImage} />
       {story.isPremium && (
         <View style={styles.premiumBadge}>
-          <Text style={styles.premiumText}>Premium</Text>
+          <Text style={styles.premiumText}>{t.premium}</Text>
         </View>
       )}
       <View style={styles.cardContent}>
@@ -78,7 +83,9 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ onStoryPress, onSettings
         </Text>
         <Text style={styles.cardAuthor}>{story.author}</Text>
         <View style={styles.cardMeta}>
-          <Text style={styles.metaText}>{story.estimatedDuration} min</Text>
+          <Text style={styles.metaText}>
+            {story.estimatedDuration} {t.minutes}
+          </Text>
           <Text style={styles.metaText}>•</Text>
           <Text style={styles.metaText}>{story.difficulty}</Text>
         </View>
@@ -92,10 +99,13 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ onStoryPress, onSettings
       onPress={() => onStoryPress(story.id)}
       activeOpacity={0.8}
     >
-      <Image source={{ uri: story.coverImageUrl }} style={styles.featuredCardImage} />
+      <Image
+        source={{ uri: story.coverImageUrl }}
+        style={styles.featuredCardImage}
+      />
       {story.isPremium && (
         <View style={styles.featuredPremiumBadge}>
-          <Text style={styles.premiumText}>Premium</Text>
+          <Text style={styles.premiumText}>{t.premium}</Text>
         </View>
       )}
       <View style={styles.featuredCardContent}>
@@ -104,7 +114,9 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ onStoryPress, onSettings
         </Text>
         <Text style={styles.featuredCardAuthor}>{story.author}</Text>
         <View style={styles.cardMeta}>
-          <Text style={styles.metaText}>{story.estimatedDuration} min</Text>
+          <Text style={styles.metaText}>
+            {story.estimatedDuration} {t.minutes}
+          </Text>
           <Text style={styles.metaText}>•</Text>
           <Text style={styles.metaText}>{story.difficulty}</Text>
         </View>
@@ -114,7 +126,9 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ onStoryPress, onSettings
 
   const renderGenreSection = (genre: StoryGenre, stories: Story[]) => (
     <View key={genre} style={styles.genreSection}>
-      <Text style={[styles.sectionTitle, { color: theme.textPrimary }]}>{genreLabels[genre]}</Text>
+      <Text style={[styles.sectionTitle, { color: theme.textPrimary }]}>
+        {genreLabels[genre]}
+      </Text>
       <FlatList
         data={stories}
         renderItem={({ item }) => renderStoryCard(item)}
@@ -132,8 +146,8 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ onStoryPress, onSettings
       <View style={[styles.header, { backgroundColor: theme.primary }]}>
         <View style={styles.headerTop}>
           <View>
-            <Text style={styles.headerTitle}>ChronoCanvas</Text>
-            <Text style={styles.headerSubtitle}>Choose Your Adventure</Text>
+            <Text style={styles.headerTitle}>{t.appName}</Text>
+            <Text style={styles.headerSubtitle}>{t.appTagline}</Text>
           </View>
           <TouchableOpacity
             style={styles.settingsButton}
@@ -151,7 +165,9 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ onStoryPress, onSettings
         showsVerticalScrollIndicator={false}
       >
         <View style={styles.featuredSection}>
-          <Text style={[styles.sectionTitle, { color: theme.textPrimary }]}>Featured Stories</Text>
+          <Text style={[styles.sectionTitle, { color: theme.textPrimary }]}>
+            {t.featuredStories}
+          </Text>
           <FlatList
             data={featuredStories}
             renderItem={({ item }) => renderFeaturedCard(item)}
@@ -161,12 +177,14 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ onStoryPress, onSettings
             contentContainerStyle={styles.carouselContent}
             snapToInterval={FEATURED_CARD_WIDTH + spacing.md}
             decelerationRate="fast"
-            ItemSeparatorComponent={() => <View style={{ width: spacing.md }} />}
+            ItemSeparatorComponent={() => (
+              <View style={{ width: spacing.md }} />
+            )}
           />
         </View>
 
         {Object.entries(storiesByGenre).map(([genre, genreStories]) =>
-          renderGenreSection(genre as StoryGenre, genreStories)
+          renderGenreSection(genre as StoryGenre, genreStories),
         )}
       </ScrollView>
     </View>

@@ -14,6 +14,7 @@ import { useStoryStore } from '../store/storyStore';
 import { useUserStore } from '../store/userStore';
 import { useSettingsStore } from '../store/settingsStore';
 import { Choice } from '../types';
+import { useTranslation } from '../localization/useTranslation';
 
 const FALLBACK_IMAGE =
   'https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=800';
@@ -33,6 +34,7 @@ export const StoryPlayScreen: React.FC<StoryPlayScreenProps> = ({
     useStoryStore();
   const { trackProgress, getStoryProgress } = useUserStore();
   const theme = useSettingsStore(state => state.theme);
+  const t = useTranslation();
   const [fadeAnim] = useState(new Animated.Value(0));
   const [imageError, setImageError] = useState(false);
 
@@ -78,7 +80,7 @@ export const StoryPlayScreen: React.FC<StoryPlayScreenProps> = ({
   if (!currentNode || !currentStory) {
     return (
       <View style={styles.container}>
-        <Text style={styles.loadingText}>Loading story...</Text>
+        <Text style={styles.loadingText}>{t.loadingStory}</Text>
       </View>
     );
   }
@@ -110,12 +112,18 @@ export const StoryPlayScreen: React.FC<StoryPlayScreenProps> = ({
             style={styles.narrationScroll}
             contentContainerStyle={styles.narrationContent}
           >
-            <Text style={[styles.nodeTitle, { color: theme.textPrimary }]}>{currentNode.title}</Text>
-            <Text style={[styles.narrationText, { color: theme.textPrimary }]}>{currentNode.narration}</Text>
+            <Text style={[styles.nodeTitle, { color: theme.textPrimary }]}>
+              {currentNode.title}
+            </Text>
+            <Text style={[styles.narrationText, { color: theme.textPrimary }]}>
+              {currentNode.narration}
+            </Text>
 
             {isEnding && (
-              <View style={[styles.endingBadge, { backgroundColor: theme.gold }]}>
-                <Text style={styles.endingText}>THE END</Text>
+              <View
+                style={[styles.endingBadge, { backgroundColor: theme.gold }]}
+              >
+                <Text style={styles.endingText}>{t.theEnd}</Text>
               </View>
             )}
           </ScrollView>
@@ -144,8 +152,11 @@ export const StoryPlayScreen: React.FC<StoryPlayScreenProps> = ({
           )}
 
           {isEnding && (
-            <TouchableOpacity style={[styles.finishButton, { backgroundColor: theme.primary }]} onPress={handleExit}>
-              <Text style={styles.finishButtonText}>Finish Story</Text>
+            <TouchableOpacity
+              style={[styles.finishButton, { backgroundColor: theme.primary }]}
+              onPress={handleExit}
+            >
+              <Text style={styles.finishButtonText}>{t.finishStory}</Text>
             </TouchableOpacity>
           )}
         </View>
