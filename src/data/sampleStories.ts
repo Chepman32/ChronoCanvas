@@ -7,6 +7,9 @@ import { heartlineRewindStory } from './story9123457712345_heartlineRewind';
 import { lettersOnTheWindStory } from './story9328745634021_lettersOnTheWind';
 import { midnightGardenStory } from './story745829103_midnightGarden';
 import { timekeepersHeartStory } from './story583921467_timekeepersHeart';
+import { emberCrownOathStory } from './story9845237719284_emberCrownOath';
+import { rootweaversPactStory } from './story9932045517721_rootweaversPact';
+import { echoesMoonlitGroveStory } from './story8743921042_echoesMoonlitGrove';
 
 const originalStories: Story[] = [
   {
@@ -210,4 +213,7 @@ export const sampleStories: Story[] = [
   lettersOnTheWindStory,
   midnightGardenStory,
   timekeepersHeartStory,
+  emberCrownOathStory,
+  rootweaversPactStory,
+  echoesMoonlitGroveStory,
 ];
