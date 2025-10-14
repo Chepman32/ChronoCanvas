@@ -15,6 +15,8 @@ import { Story, StoryGenre } from '../types';
 
 const { width } = Dimensions.get('window');
 const CARD_WIDTH = width * 0.65;
+const FEATURED_CARD_WIDTH = width - spacing.md * 2;
+const FEATURED_CARD_HEIGHT = 210;
 
 interface HomeScreenProps {
   onStoryPress: (storyId: string) => void;
@@ -75,6 +77,32 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ onStoryPress }) => {
     </TouchableOpacity>
   );
 
+  const renderFeaturedCard = (story: Story) => (
+    <TouchableOpacity
+      style={styles.featuredCard}
+      onPress={() => onStoryPress(story.id)}
+      activeOpacity={0.8}
+    >
+      <Image source={{ uri: story.coverImageUrl }} style={styles.featuredCardImage} />
+      {story.isPremium && (
+        <View style={styles.featuredPremiumBadge}>
+          <Text style={styles.premiumText}>Premium</Text>
+        </View>
+      )}
+      <View style={styles.featuredCardContent}>
+        <Text style={styles.featuredCardTitle} numberOfLines={2}>
+          {story.title}
+        </Text>
+        <Text style={styles.featuredCardAuthor}>{story.author}</Text>
+        <View style={styles.cardMeta}>
+          <Text style={styles.metaText}>{story.estimatedDuration} min</Text>
+          <Text style={styles.metaText}>•</Text>
+          <Text style={styles.metaText}>{story.difficulty}</Text>
+        </View>
+      </View>
+    </TouchableOpacity>
+  );
+
   const renderGenreSection = (genre: StoryGenre, stories: Story[]) => (
     <View key={genre} style={styles.genreSection}>
       <Text style={styles.sectionTitle}>{genreLabels[genre]}</Text>
@@ -102,6 +130,21 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ onStoryPress }) => {
         contentContainerStyle={styles.scrollContent}
         showsVerticalScrollIndicator={false}
       >
+        <View style={styles.featuredSection}>
+          <Text style={styles.sectionTitle}>Featured Stories</Text>
+          <FlatList
+            data={stories.slice(0, 5)}
+            renderItem={({ item }) => renderFeaturedCard(item)}
+            keyExtractor={item => `featured-${item.id}`}
+            horizontal
+            showsHorizontalScrollIndicator={false}
+            contentContainerStyle={styles.carouselContent}
+            snapToInterval={FEATURED_CARD_WIDTH + spacing.md}
+            decelerationRate="fast"
+            ItemSeparatorComponent={() => <View style={{ width: spacing.md }} />}
+          />
+        </View>
+
         {Object.entries(storiesByGenre).map(([genre, genreStories]) =>
           renderGenreSection(genre as StoryGenre, genreStories)
         )}
@@ -137,6 +180,9 @@ const styles = StyleSheet.create({
   scrollContent: {
     paddingVertical: spacing.md,
   },
+  featuredSection: {
+    marginBottom: spacing.xl,
+  },
   genreSection: {
     marginBottom: spacing.lg,
   },
@@ -149,6 +195,46 @@ const styles = StyleSheet.create({
   },
   carouselContent: {
     paddingHorizontal: spacing.md,
+  },
+  featuredCard: {
+    width: FEATURED_CARD_WIDTH,
+    backgroundColor: '#FFFFFF',
+    borderRadius: borderRadius.large,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.15,
+    shadowRadius: 12,
+    elevation: 5,
+  },
+  featuredCardImage: {
+    width: '100%',
+    height: FEATURED_CARD_HEIGHT,
+    borderTopLeftRadius: borderRadius.large,
+    borderTopRightRadius: borderRadius.large,
+    backgroundColor: colors.surface,
+  },
+  featuredPremiumBadge: {
+    position: 'absolute',
+    top: 12,
+    right: 12,
+    backgroundColor: colors.gold,
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: borderRadius.small,
+  },
+  featuredCardContent: {
+    padding: spacing.md,
+  },
+  featuredCardTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: colors.textPrimary,
+    marginBottom: 6,
+  },
+  featuredCardAuthor: {
+    fontSize: 14,
+    color: colors.textSecondary,
+    marginBottom: 8,
   },
   card: {
     width: CARD_WIDTH,
