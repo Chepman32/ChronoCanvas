@@ -24,8 +24,14 @@ export const useSettingsStore = create<SettingsStore>((set) => ({
   setTheme: (themeName) =>
     set({ themeName, theme: themes[themeName] }),
 
-  setLanguage: (language) =>
-    set({ language }),
+  setLanguage: (language) => {
+    set({ language });
+    // Refresh localized stories when language changes
+    // Import is done dynamically to avoid circular dependency
+    import('../store/storyStore').then(({ useStoryStore }) => {
+      useStoryStore.getState().refreshLocalizedStories();
+    });
+  },
 
   toggleSound: () =>
     set((state) => ({ soundEnabled: !state.soundEnabled })),

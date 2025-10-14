@@ -1,5 +1,6 @@
 import { Story } from '../types';
 import { timeLoopStory } from './story3_timeloop';
+import { deepSeaStory } from './story4_deepsea';
 import { paradoxPaletteStory } from './story8923745610923_paradoxPalette';
 import { newStories } from './newStories';
 import { theLastLetterStory } from './story892746531_theLastLetter';
@@ -208,6 +209,7 @@ const originalStories: Story[] = [
 export const sampleStories: Story[] = [
   ...originalStories,
   timeLoopStory,
+  deepSeaStory,
   ...newStories,
   paradoxPaletteStory,
   theLastLetterStory,
