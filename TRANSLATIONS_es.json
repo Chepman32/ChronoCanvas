@@ -1,0 +1,9 @@
+{
+  "_instructions": {
+    "language": "Spanish (es)",
+    "status": "NEEDS TRANSLATION",
+    "note": "This file contains the same structure as TRANSLATION_SOURCE.json. All English text values need to be translated to Spanish. Keep all IDs and keys unchanged."
+  },
+  "_translationStatus": "PENDING - Please translate all text values to Spanish",
+  "stories": []
+}

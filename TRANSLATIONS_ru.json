@@ -1,0 +1,39 @@
+{
+  "_instructions": {
+    "purpose": "Этот файл содержит весь текст на русском языке из историй, которые требуют перевода",
+    "targetLanguages": [
+      "Russian (ru)",
+      "Spanish (es)",
+      "German (de)",
+      "French (fr)",
+      "Portuguese (pt)",
+      "Japanese (ja)",
+      "Chinese (zh)",
+      "Korean (ko)",
+      "Ukrainian (uk)"
+    ],
+    "howToUse": [
+      "1. Скопируйте всю эту структуру JSON",
+      "2. Для каждого целевого языка переводите ТОЛЬКО текстовые значения (не ключи)",
+      "3. Сохраняйте все идентификаторы, структуру и форматирование точно такими же",
+      "4. Сохраните каждый язык как TRANSLATIONS_[LANG_CODE].json (например, TRANSLATIONS_ru.json)",
+      "5. Верните переведенные файлы"
+    ],
+    "doNotTranslate": [
+      "storyId",
+      "nodeId",
+      "choiceId",
+      "любые ключи, заканчивающиеся на 'Id'"
+    ],
+    "translateThese": [
+      "title",
+      "description",
+      "author",
+      "genres (значения массива)",
+      "narration",
+      "text",
+      "описания выборов"
+    ]
+  },
+  "stories": []
+}

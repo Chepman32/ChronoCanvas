@@ -116,10 +116,10 @@ export const StoryPlayScreen: React.FC<StoryPlayScreenProps> = ({
             style={styles.narrationScroll}
             contentContainerStyle={styles.narrationContent}
           >
-            <Text style={[styles.nodeTitle, { color: theme.textPrimary }]}>
+            <Text style={styles.nodeTitle}>
               {currentNode.title}
             </Text>
-            <Text style={[styles.narrationText, { color: theme.textPrimary }]}>
+            <Text style={styles.narrationText}>
               {currentNode.narration}
             </Text>
 
@@ -229,10 +229,12 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: spacing.sm,
+    color: '#FFFFFF',
   },
   narrationText: {
     fontSize: 16,
     lineHeight: 24,
+    color: '#FFFFFF',
   },
   endingBadge: {
     marginTop: spacing.lg,
@@ -260,10 +262,12 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '600',
     color: '#FFFFFF',
+    opacity: 1,
   },
   choiceDescription: {
     fontSize: 13,
-    color: 'rgba(255, 255, 255, 0.7)',
+    color: '#FFFFFF',
+    opacity: 0.9,
     marginTop: 4,
   },
   finishButton: {

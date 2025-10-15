@@ -1,0 +1,9 @@
+{
+  "_instructions": {
+    "language": "Korean (ko)",
+    "status": "NEEDS TRANSLATION",
+    "note": "This file contains the same structure as TRANSLATION_SOURCE.json. All English text values need to be translated to Korean. Keep all IDs and keys unchanged."
+  },
+  "_translationStatus": "PENDING - Please translate all text values to Korean",
+  "stories": []
+}

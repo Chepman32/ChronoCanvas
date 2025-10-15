@@ -1,0 +1,995 @@
+{
+  "_instructions": {
+    "purpose": "This file contains all English text from stories that needs translation",
+    "targetLanguages": [
+      "Russian (ru)",
+      "Spanish (es)",
+      "German (de)",
+      "French (fr)",
+      "Portuguese (pt)",
+      "Japanese (ja)",
+      "Chinese (zh)",
+      "Korean (ko)",
+      "Ukrainian (uk)"
+    ],
+    "howToUse": [
+      "1. Copy this entire JSON structure",
+      "2. For each target language, translate ONLY the text values (not the keys)",
+      "3. Keep all IDs, structure, and formatting exactly the same",
+      "4. Save each language as TRANSLATIONS_[LANG_CODE].json (e.g., TRANSLATIONS_ru.json)",
+      "5. Return the translated files"
+    ],
+    "doNotTranslate": [
+      "storyId",
+      "nodeId",
+      "choiceId",
+      "any keys ending with 'Id'"
+    ],
+    "translateThese": [
+      "title",
+      "description",
+      "author",
+      "genres (array values)",
+      "narration",
+      "text",
+      "choice descriptions"
+    ]
+  },
+  "stories": [
+    {
+      "storyId": "story-7481296",
+      "title": "Midnight Missing",
+      "description": "When a young woman vanishes without a trace, a determined detective must navigate city shadows and unravel a web of clues before time runs out. Every decision could mean a life saved or a trail gone cold.",
+      "author": "Morgan Steele",
+      "genres": [
+        "detective",
+        "mystery"
+      ],
+      "nodes": [
+        {
+          "nodeId": "story-7481296-1",
+          "title": "Missing at Midnight",
+          "narration": "A neon-lit clock strikes midnight as you sit in your cramped office, rain drumming on the window. The phone's ring shatters the silence – a panicked voice reports that **Emily Parker** is missing. Emily vanished from her apartment just hours ago. You grab your coat, heart pounding, knowing every minute counts. With the city asleep and clues already fading, you vow to uncover the truth before dawn.",
+          "choices": []
+        },
+        {
+          "nodeId": "story-7481296-2",
+          "title": "Ransacked Home",
+          "narration": "Emily's apartment is eerily quiet. The door is unlocked and slightly ajar, a single lamp spilling light on a chaotic scene. Drawers hang open and belongings are strewn across the floor, as if someone left in a hurry. You step carefully over a toppled chair and notice two things: a crumpled business card from her **office coworker** on the coffee table, and a matchbook from **Serpent's Den Bar**, Emily's favorite late-night spot, lying near the door. The air is tense with the smell of spilled coffee and fear.",
+          "choices": []
+        },
+        {
+          "nodeId": "story-7481296-3",
+          "title": "Desperate Confidant",
+          "narration": "At a quiet all-night diner, **Ava Mitchell** wrings her hands around a mug of cold coffee. Her eyes are red from crying and exhaustion. She explains that Emily had been anxious lately – she'd confided about a conflict with a **coworker** who had been acting strangely towards her. Ava also recalls Emily mentioning a **bar** she'd been visiting to meet someone, and hints at Emily's **ex-boyfriend** who had a bitter breakup with her last month. The possibilities swirl, and Ava pleads, \"Please, find her.\"",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c5",
+              "text": "Investigate the hostile coworker",
+              "description": "Confront the colleague Emily feared"
+            },
+            {
+              "choiceId": "story-7481296-c6",
+              "text": "Check out the bar Emily frequented",
+              "description": "She might have met someone dangerous there"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-4",
+          "title": "Office Suspicions",
+          "narration": "The city's financial tower looms overhead as you arrive at Emily's workplace. Inside, you confront **Alan Ridge**, her coworker. Alan's smile is thin and nervous under the fluorescent office lights. He insists he barely knew Emily outside work, but sweat beads on his brow. On his desk, you glimpse a document with Emily's name partly visible – quickly, Alan shuffles it away. A gut feeling tells you he's hiding something. As you probe about his after-hours activities, Alan's leg bounces anxiously under the table. You must decide how to handle this tense encounter.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c8",
+              "text": "Press Alan aggressively for answers",
+              "description": "Confront him head-on about Emily"
+            },
+            {
+              "choiceId": "story-7481296-c9",
+              "text": "Back off and snoop around discreetly",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-5",
+          "title": "Neon Trail",
+          "narration": "The **Serpent's Den Bar** throbs with low music and neon haze. As you push through the dimly lit crowd, you scan for any sign of Emily. The bartender eyes you warily while polishing a glass. In the corner, a hooded man watches the room intently, his posture stiffening when he notices your badge. The air smells of spilled beer and something acrid – fear, perhaps. You suspect either the bartender or that patron might know something. Every second here matters; Emily could have met her fate within these walls.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c10",
+              "text": "Follow the hooded man quietly",
+              "description": "He might lead you to a clue or suspect"
+            },
+            {
+              "choiceId": "story-7481296-c11",
+              "text": "Question the bartender for info",
+              "description": "Maybe Emily mentioned something or was seen here"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-6",
+          "title": "Old Grudges",
+          "narration": "You find **Mark Wheeler**, Emily's ex, at his apartment, which is cluttered with moving boxes. Mark's jaw tightens at the mention of Emily. He claims he hasn't seen her in weeks, bitterness lingering in his voice. He points out that he was out of town tonight – an alibi you'll need to verify. As you look around, you notice a picture of them smiling together, now cracked and lying face-down on a shelf. Mark insists he'd never harm Emily, but there's anger in his eyes. It's unclear whether he's truly in the dark or hiding pain behind denial.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c12",
+              "text": "Believe Mark and shift focus elsewhere",
+              "description": "His emotions seem genuine; pursue other leads"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-7",
+          "title": "Flight and Fury",
+          "narration": "Alan's composure shatters under your barrage of questions. Suddenly, he bolts from his chair and dashes for the exit, panic in his eyes. \"Stop!\" you shout, racing after him through the empty office corridors. He shoves open the stairwell door, footsteps echoing as he descends frantically. Your heart pounds – he could be running straight to Emily, or trying to destroy evidence. The night air hits as he bursts out a side door into the parking garage. You skid to a halt, torn between tackling this now or taking a different approach as his car engine roars to life.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c14",
+              "text": "Chase Alan down immediately",
+              "description": ""
+            },
+            {
+              "choiceId": "story-7481296-c15",
+              "text": "Let him go and search his office",
+              "description": "He left in a hurry – maybe he left clues behind"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-8",
+          "title": "Paper Trail",
+          "narration": "With Alan gone, his office is yours to scour. You slip on gloves and rifle through the scattered paperwork in the dim light. On his desk, you uncover Emily's personnel file and notes about a **\"Project Catalyst\"** – something Emily and Alan worked on together. There's also an address scrawled on a sticky note: an old **warehouse on the outskirts of town**. Your pulse quickens; this could be where he's headed with Emily. Outside, the city is dark and silent. You know you have a location – the only question is how you'll approach it.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c16",
+              "text": "Rush to the warehouse alone",
+              "description": "No time for backup; every second counts"
+            },
+            {
+              "choiceId": "story-7481296-c17",
+              "text": "Call the police for backup",
+              "description": "Secure support before confronting a kidnapper"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-9",
+          "title": "Shadowing a Stranger",
+          "narration": "You decide to tail the hooded man. He slips out of the bar into a back alley and you follow at a cautious distance, heart thudding in your chest. He glances over his shoulder, then picks up pace when a distant siren wail pierces the night. You trail him through winding streets and derelict blocks until he reaches an old **warehouse** with broken windows on the city's edge. He disappears inside, leaving the metal door slightly ajar. The building stands silent, a hulking silhouette under the streetlights. You steel yourself — Emily could be in there.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c18",
+              "text": "Remain hidden and observe",
+              "description": "Gather intel quietly before acting"
+            },
+            {
+              "choiceId": "story-7481296-c19",
+              "text": "Confront him immediately",
+              "description": "Burst in and catch him off guard"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-10",
+          "title": "Barroom Intel",
+          "narration": "You flash your badge at the bartender. He sighs, setting down a glass. \"Emily? Yeah, I've seen her around,\" he mutters, glancing nervously toward the door. He reveals that Emily was here earlier in the evening meeting a man in a dark hoodie. They left together and the man mentioned heading to \"the **old warehouse by the docks**\" while settling his tab. Your stomach drops – a location at last. As you turn to leave, the bartender grips your arm, voice low: \"Be careful. Those people... they're dangerous.\" You step out into the night, rain on your face, armed with a crucial lead.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c20",
+              "text": "Drive straight to the docks warehouse",
+              "description": "Speed to the location alone"
+            },
+            {
+              "choiceId": "story-7481296-c21",
+              "text": "Alert the police and wait for backup",
+              "description": "Go with reinforcement to the warehouse"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-11",
+          "title": "Dead-End Dedication",
+          "narration": "Convinced that Mark is hiding the truth, you spend precious hours digging into his alibi and past. You shadow him, search his social media, even call in a favor to pull his phone records. But as dawn approaches, it becomes painfully clear that Mark truly had nothing to do with Emily's disappearance – the time wasted is a heavy weight on your shoulders. An early morning call from headquarters informs you that the coworker, Alan, is now missing as well, and new evidence points back to that warehouse lead. You realize your focus on Mark might have cost you dearly in this race against time.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c22",
+              "text": "Refocus and race to the warehouse now",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-12",
+          "title": "High-Speed Pursuit",
+          "narration": "Tires screech as you chase Alan's car through the deserted city streets. Neon signs and traffic lights blur past. Alan drives like a madman, desperate to shake you. Ahead, you see him veering towards an industrial area – likely the warehouse district by the docks. Your car's engine howls as you close the distance. In the beam of your headlights, Alan's face is a mask of terror glancing from his rearview mirror. Adrenaline surges; this is your chance to end this chase, but one wrong move could be fatal for Emily if she's with him.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c24",
+              "text": "Force him off the road",
+              "description": "Stop the car at any cost, even if it crashes"
+            },
+            {
+              "choiceId": "story-7481296-c25",
+              "text": "Follow him from a distance",
+              "description": "Stay on his tail to see where he goes"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-13",
+          "title": "At the Hideout",
+          "narration": "You arrive at the old warehouse just as purple-gray dawn light touches the horizon. The building stands silent and decrepit, its corrugated metal walls streaked with rust. Through a high window, you catch a glimpse of movement inside – a shadow pacing. Your heart leaps, thinking it could be Emily or her captor. The front entrance is a heavy sliding door, slightly ajar. You stand alone in the chill morning air; your backup is still minutes away or nonexistent. Steeling yourself, you draw your weapon, knowing Emily's fate lies just beyond that door.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c26",
+              "text": "Enter silently through the side door",
+              "description": "Use stealth to catch them off guard"
+            },
+            {
+              "choiceId": "story-7481296-c27",
+              "text": "Rush in through the main entrance",
+              "description": "Surprise them with a direct approach"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-14",
+          "title": "SWAT at Dawn",
+          "narration": "Red and blue lights flash across the deserted docks as two patrol cars and a SWAT van roll in to back you up. Armed officers silently surround the warehouse, their boots crunching on gravel. The commanding officer whispers the plan: a coordinated breach on your signal. Inside, a muffled cry – it must be Emily. You stand at the warehouse's side entrance, adrenaline coursing, with a team at the front. The sun edges over the horizon, illuminating the tense faces around you. This is it – one decisive move will end this nightmare, one way or another.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c28",
+              "text": "Breach quietly and take them by surprise",
+              "description": "Coordinate a silent entry with the team"
+            },
+            {
+              "choiceId": "story-7481296-c29",
+              "text": "Go loud with a full-force raid",
+              "description": "Storm in guns drawn, overwhelming any resistance"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-15",
+          "title": "Silent Entry",
+          "narration": "You slip into the warehouse's shadowy interior as quietly as a ghost. Whether alone or with a couple of officers at your back, you move between stacks of dusty crates. In the dim light, you finally spot **Emily**: tied to a chair at the center of the floor, eyes wide above a gag. **Alan Ridge** stands nearby, nervously checking his phone – likely awaiting orders or a ransom response. He hasn't noticed you yet. Emily locks eyes with you for a split second, hope and fear mingled. You have the element of surprise, but a single misstep could put Emily in jeopardy.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c30",
+              "text": "Overpower Alan first",
+              "description": "Neutralize the threat before tending to Emily"
+            },
+            {
+              "choiceId": "story-7481296-c31",
+              "text": "Free Emily immediately",
+              "description": "Prioritize getting Emily out of danger"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-16",
+          "title": "Guns Blazing",
+          "narration": "With a shout of \"Police!\" you and the team charge through the warehouse entrance. The rusted door clangs as it slams against the wall. Alan whips around in alarm. He grabs Emily, yanking her up as a human shield, his hand trembling as it presses a knife to her throat. \"Stay back!\" he shrieks, panic in his voice. Your heart pounds. Guns are trained on Alan, your finger on your trigger. Emily's eyes glisten with tears as the standoff freezes in a deadly tableau. One wrong move now could spell disaster for everyone.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c32",
+              "text": "Take the shot at Alan",
+              "description": "Use force to end this quickly"
+            },
+            {
+              "choiceId": "story-7481296-c33",
+              "text": "Try to talk him down",
+              "description": "Negotiate and stall, seeking a safer resolution"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-17",
+          "title": "Rescue and Justice",
+          "narration": "Seizing the moment of distraction, you lunge from the shadows and tackle **Alan** to the ground. He yelps in surprise – the knife skitters away across the concrete. Within seconds you have him restrained, adrenaline fueling your strength. Backup officers rush in (or your sheer determination suffices) to secure him in handcuffs. **Emily** sobs with relief as you free her from the ropes. She's shaken but alive, clinging to you as the morning light spills in. Alan, the orchestrator of the kidnapping, is led away in cuffs, and Emily is safe at last. **You solved the case and saved Emily, delivering justice as dawn breaks.**",
+          "choices": []
+        },
+        {
+          "nodeId": "story-7481296-18",
+          "title": "Narrow Escape",
+          "narration": "You rush directly to **Emily**, sawing through the ropes with anything you can grab. \"It's okay, I'm here,\" you whisper as her bonds loosen. But in that split second of focus on Emily, **Alan** seizes the opportunity – he bolts for a back exit, disappearing into the maze of crates. By the time you ensure Emily is safe and pursue, he's gone. Outside, only the pale morning greets you. Emily is saved, trembling in your arms, but her kidnapper vanished into the city's shadows. Paramedics arrive to tend to Emily's minor injuries. She will recover, thanks to you, but **Alan remains at large, leaving an unfinished chapter in the case.**",
+          "choices": []
+        },
+        {
+          "nodeId": "story-7481296-19",
+          "title": "Pyrrhic Victory",
+          "narration": "Time slows as you squeeze the trigger. The gunshot echoes through the cavernous warehouse. **Alan** staggers backward, the knife dropping from his hand. Your shot strikes true, incapacitating him before he could harm **Emily**. Officers swarm in and Emily runs toward you, but not before a stray piece of shrapnel from the concrete grazes her side. She winces in pain, bleeding lightly – hurt but alive. Alan lies on the floor, wounded and moaning. As medics are called, you wrap Emily in a blanket. **The kidnapper is stopped permanently, and Emily is saved, but the violent end leaves you with a hollow feeling as dawn breaks.**",
+          "choices": []
+        },
+        {
+          "nodeId": "story-7481296-20",
+          "title": "Tragic Standoff",
+          "narration": "\"Alan, it doesn't have to end like this,\" you plead, lowering your weapon slightly. Your words hang in the air as dawn's first rays slip through the cracks of the warehouse walls. But Alan's desperation has reached its peak. In a blur, he drags **Emily** toward a side door. Your team moves in too late – Alan shoves Emily into a waiting van and it screeches away before you can fire a shot. You give chase, but the vehicle vanishes down labyrinthine streets. By the time an alert is issued, they're gone without a trace. The warehouse stands empty, and you're left alone in the feeble morning light with only guilt as company. **Emily remains missing, the trail gone cold due to one hesitant moment.**",
+          "choices": []
+        },
+        {
+          "nodeId": "story-7481296-21",
+          "title": "Case Cold",
+          "narration": "Exhausted and defeated, you sit in your car as the first light of day creeps over the skyline. Leads have dried up and precious hours were lost chasing the wrong trail. **Emily Parker's** face stares at you from a missing person flyer on the seat beside you. In the days that follow, the case grows colder; Alan vanishes from his apartment, and no new evidence emerges. Every night, you replay your choices, wondering what vital clue you overlooked while pursuing Mark. The police continue the search, but hope dwindles. **You'll carry the weight of this unfinished investigation, a harsh reminder that in the world of detective work, not every mystery finds its answer.**",
+          "choices": []
+        }
+      ]
+    },
+    {
+      "storyId": "story-8273910265",
+      "title": "Shadows of the Vanished Star",
+      "description": "When a tech heiress vanishes and only a cryptic ornament remains, private detective Sam Mercer is drawn into a labyrinth of rain-soaked alleys, secret libraries and shadowed docks. Every clue raises new questions and every decision pulls him deeper into a conspiracy that reaches the city\\",
+      "author": "Daphne Sawyer",
+      "genres": [
+        "detective",
+        "mystery"
+      ],
+      "nodes": [
+        {
+          "nodeId": "story-8273910265-1",
+          "title": "Midnight Client",
+          "narration": "The rain beats against your office window as you stare at the blinking neon outside. A shadow crosses the threshold and a woman in a soaked trench coat steps in, her eyes pleading as she produces a star‑shaped ornament and whispers about a missing heiress. The scent of damp pavement and old paper fills the room as you weigh the danger in her words. The city hums with secrets and you sense this is only the beginning.",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c1",
+              "text": "Take the case and head to the crime scene",
+              "description": "Duty calls, even in the rain."
+            },
+            {
+              "choiceId": "story-8273910265-c2",
+              "text": "Decline and watch from your window",
+              "description": "Stay detached, observe what unfolds."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-2",
+          "title": "Crime Scene Chaos",
+          "narration": "Police tape flutters in the wet wind as blue lights wash over the alley where the heiress was last seen. Officers hustle to and fro, questions echoing off brick walls while onlookers murmur behind umbrellas. The victim's belongings are scattered, glinting with rain. Somewhere in this chaos lies your first clue.",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c3",
+              "text": "Inspect the body and surroundings",
+              "description": "Search for evidence yourself."
+            },
+            {
+              "choiceId": "story-8273910265-c4",
+              "text": "Interview the nervous witness",
+              "description": "Someone saw something."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-3",
+          "title": "Reluctant Watch",
+          "narration": "You send the woman away but curiosity gnaws at you. Through the rain‑streaked glass you spot a figure lurking across the street, camera in hand, snapping shots of your office. The alley glistens under streetlights, the city breathing like a beast. You can either plunge into the rain after him or keep your distance.",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c5",
+              "text": "Follow the shadow down the street",
+              "description": "Get closer, risk exposure."
+            },
+            {
+              "choiceId": "story-8273910265-c6",
+              "text": "Stay in the shadows and watch",
+              "description": "Patience may pay off."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-4",
+          "title": "Hidden Note",
+          "narration": "Kneeling beside the lifeless form, you catch the metallic smell of blood mingled with rain. Tucked beneath the victim's jacket you find a sealed envelope, edges tinged crimson. Voices blur around you as the world narrows to this paper – it could be a trap or the key to the mystery.",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c7",
+              "text": "Open the envelope here",
+              "description": "What secrets does it hold?"
+            },
+            {
+              "choiceId": "story-8273910265-c8",
+              "text": "Secure it for analysis",
+              "description": "Better safe than sorry."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-5",
+          "title": "Nervous Witness",
+          "narration": "A jittery bystander leans against a rain‑speckled window, phone pressed to their ear. Eyes darting, they clutch their coat tighter as you approach. The hum of the city seems to fade as you decide whether to coax the truth out gently or grease the wheels with cash.",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c9",
+              "text": "Calmly ask what they saw",
+              "description": "Gain trust through empathy."
+            },
+            {
+              "choiceId": "story-8273910265-c10",
+              "text": "Slip them some money for answers",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-6",
+          "title": "Watching in the Rain",
+          "narration": "You blend into the downpour, letting the suspect lead you through alleys washed in neon. Each puddle reflects a fractured world. From beneath your coat you feel the weight of your own tech; a laptop hums faintly, begging to breach encrypted messages. Do you tap into their communications or continue to tail them in person?",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c11",
+              "text": "Hack their communications feed",
+              "description": "Digital secrets are often the juiciest."
+            },
+            {
+              "choiceId": "story-8273910265-c12",
+              "text": "Keep tailing from the shadows",
+              "description": "Stay on the ground."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-7",
+          "title": "Message in Red",
+          "narration": "Inside the envelope you find a photograph of a star‑shaped pendant and a coded message written in red ink. The paper feels slick under your wet fingers. The symbols hint at library catalogues and old secrets. You must decide where to unravel it.",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c13",
+              "text": "Head to the city library",
+              "description": "Research in dusty stacks."
+            },
+            {
+              "choiceId": "story-8273910265-c14",
+              "text": "Call your hacker friend",
+              "description": "Decode with digital help."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-8",
+          "title": "Forensic Report",
+          "narration": "Back in your own lab, flickering monitors illuminate your face. You scan the envelope for prints and analyze the ink under glaring light. A fingerprint matches an underworld fixer, and a GPS tag points toward the docks. You can pursue the data trail or act on the intel.",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c15",
+              "text": "Run fingerprints through the database",
+              "description": "Information is power."
+            },
+            {
+              "choiceId": "story-8273910265-c16",
+              "text": "Head to the docks to track them",
+              "description": "Confront the suspect in person."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-9",
+          "title": "Warehouse Intel",
+          "narration": "Your efforts pay off: a whispered confession or hacked message reveals a rendezvous at an abandoned warehouse tagged with graffiti. The building looms like a dark monument against the skyline. You can burst in and risk everything or take time to plan.",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c17",
+              "text": "Infiltrate the warehouse now",
+              "description": "Time is of the essence."
+            },
+            {
+              "choiceId": "story-8273910265-c18",
+              "text": "Gather more intel first",
+              "description": "A cautious approach may pay off."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-10",
+          "title": "Last Train Out",
+          "narration": "The suspect slips onto a midnight train and you hurry to the yard, steam hissing from dormant engines. Darkness cloaks the tracks as the last call echoes through loudspeakers. You can board the train now or try to outsmart them at the next stop.",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c19",
+              "text": "Jump aboard the train",
+              "description": "Stay close to your target."
+            },
+            {
+              "choiceId": "story-8273910265-c20",
+              "text": "Intercept at the next station",
+              "description": "Plan an ambush ahead."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-11",
+          "title": "Stacks of Secrets",
+          "narration": "Dust motes dance in shafts of light as you wander endless stacks of books. The smell of old paper surrounds you. You trace obscure catalog numbers until your fingers land on a tome describing a star ornament that unlocks secrets in bank vaults. Do you test the key or dig deeper into the archives?",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c21",
+              "text": "Go to the bank with the ornament",
+              "description": "The vault may hold the truth."
+            },
+            {
+              "choiceId": "story-8273910265-c22",
+              "text": "Search further in the archives",
+              "description": "There might be more to uncover."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-12",
+          "title": "Codes and Colleagues",
+          "narration": "Rows of green code cascade down your friend's monitors as you talk over static‑filled headsets. Within moments, coordinates emerge pointing to a desolate pier under the full moon. The hacker warns you: go alone and stay invisible, or bring backup and risk scaring them off.",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c23",
+              "text": "Go to the pier alone",
+              "description": "Trust your instincts."
+            },
+            {
+              "choiceId": "story-8273910265-c24",
+              "text": "Assemble backup before going",
+              "description": "Safety in numbers."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-13",
+          "title": "Dockside Shadows",
+          "narration": "The smell of salt and diesel hangs heavy as you creep between crates at the docks. A lone boat rocks gently against weathered pilings, voices murmuring above the splash of waves. Do you remain hidden to gather evidence or step into the light to confront the gang leader?",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c25",
+              "text": "Gather evidence quietly",
+              "description": "Patience could bring proof."
+            },
+            {
+              "choiceId": "story-8273910265-c26",
+              "text": "Confront the gang leader",
+              "description": "Force the issue now."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-14",
+          "title": "Rooftop Showdown",
+          "narration": "Wind whips across the rooftop as you corner the suspect against a backdrop of towering skyscrapers, their windows glittering like stars. Sweat beads under your collar despite the cold. With nowhere left to run, your quarry eyes the gap between buildings. Your next move will decide both your fates.",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c27",
+              "text": "Talk them down and bargain",
+              "description": "Words can be weapons."
+            },
+            {
+              "choiceId": "story-8273910265-c28",
+              "text": "Tackle them to the ground",
+              "description": "Use force to end the chase."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-15",
+          "title": "Station Ambush",
+          "narration": "The train pulls away and you find yourself in a deserted station corridor, fluorescent lights flickering overhead. Footsteps echo in the distance, then vanish. Your target has slipped into the darkness. Do you wait for them to double back or call in a contact who owes you a favor?",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c29",
+              "text": "Wait in the shadows",
+              "description": "Patience might catch them."
+            },
+            {
+              "choiceId": "story-8273910265-c30",
+              "text": "Call in a favor",
+              "description": "Leverage your network."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-16",
+          "title": "Vaulted Truth",
+          "narration": "Deep beneath marble floors, a chilled vault door swings open with a hiss. Using the star ornament as a key, you reveal folders of damning documents linking the city's elite to the disappearance. The weight of this evidence sits heavy in your hands. Do you hand it over or keep it for yourself?",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c31",
+              "text": "Turn the evidence over to the police",
+              "description": "Let justice take its course."
+            },
+            {
+              "choiceId": "story-8273910265-c32",
+              "text": "Keep it for leverage",
+              "description": "Power comes at a price."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-17",
+          "title": "Midnight Pier",
+          "narration": "Moonlight paints the pier silver as waves lap against its weathered boards. A lone figure waits beneath a lamp, face hidden beneath a hood. They offer you a choice – join them and share in the profits of the conspiracy, or refuse and expose the whole operation. Trust and betrayal hang in the salty air.",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c33",
+              "text": "Accept their deal",
+              "description": "Join the shadow network."
+            },
+            {
+              "choiceId": "story-8273910265-c34",
+              "text": "Refuse and expose everything",
+              "description": "Blow the whistle."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-18",
+          "title": "Breaking In",
+          "narration": "With allies at your side, you push open a door into a long, dim hallway. Footsteps echo as you approach a meeting in progress, voices low and conspiratorial. Do you storm in and make arrests or stay back to record the exchange for the world to see?",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c35",
+              "text": "Intervene and arrest them",
+              "description": "Bring them to justice."
+            },
+            {
+              "choiceId": "story-8273910265-c36",
+              "text": "Record everything for a leak",
+              "description": "Expose the conspiracy publicly."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-19",
+          "title": "Case Slips Away",
+          "narration": "You charge into the fray and the gang scatters like shadows in rain. A shot rings out, a boat engine roars, and the mastermind vanishes into the night. Weeks later you stare at your cork board, threads of yarn connecting photos that lead nowhere. The case goes cold and the city forgets, but you cannot.",
+          "choices": []
+        },
+        {
+          "nodeId": "story-8273910265-20",
+          "title": "Justice Served",
+          "narration": "You choose the lawful path. With solid evidence in hand and back‑up at your side, you watch as the conspirators are hauled before a judge. The courtroom's wooden benches creak as verdicts are read and justice reverberates through marble halls. The heiress is found alive, and you feel a rare sense of closure.",
+          "choices": []
+        },
+        {
+          "nodeId": "story-8273910265-21",
+          "title": "Deal with the Devil",
+          "narration": "Temptation wins. You pocket the files and step into the inner circle. The ladder you climb may be gilded, but every rung is slick with guilt. Wealth and connections flow your way, yet in quiet moments you wonder what became of the young woman whose ornament unlocked your fortune.",
+          "choices": []
+        },
+        {
+          "nodeId": "story-8273910265-22",
+          "title": "Whistleblower",
+          "narration": "You choose exposure over safety. Hidden behind glowing monitors, you compile recordings and documents and leak them to the press. Headlines explode, powerful figures fall, and the city convulses. You become both hero and target, vanishing into digital shadows while knowing you did the right thing.",
+          "choices": []
+        }
+      ]
+    },
+    {
+      "storyId": "story-847362910",
+      "title": "The Midnight Caller",
+      "description": "Someone knows what you did last summer. The phone rings at 3 AM with a voice from your past, and now you have 48 hours to find them before they find you. Every choice could be your last.",
+      "author": "Elena Blackwood",
+      "genres": [
+        "detective",
+        "mystery"
+      ],
+      "nodes": [
+        {
+          "nodeId": "story-847362910-1",
+          "title": "The Call",
+          "narration": "Your phone screams at 3:17 AM, shattering the silence of your apartment. The number is blocked, but you answer anyway—nobody calls this late with good news. A distorted voice whispers through static: \"Detective Cross, I know what happened at Riverside Park. You have 48 hours.\" The line goes dead before you can respond, leaving only the pounding of your heart and the ghost of their words.",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c1",
+              "text": "Check your old case files from Riverside Park",
+              "description": "Dig into the past you tried to forget"
+            },
+            {
+              "choiceId": "story-847362910-c2",
+              "text": "Trace the call immediately",
+              "description": "Use your police contacts to find the source"
+            },
+            {
+              "choiceId": "story-847362910-c3",
+              "text": "Go to Riverside Park right now",
+              "description": "Face whatever is waiting in the dark"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-2",
+          "title": "Buried Evidence",
+          "narration": "The file box sits in your closet where you left it three years ago, covered in dust and regret. Inside, crime scene photos show the park at dawn, yellow tape cordoning off the gazebo. The victim, Marcus Dalton, stares up from glossy paper with lifeless eyes. Your notes mention a witness who never came forward—someone saw everything but disappeared. Then you notice it: a photo is missing from the sequence. Someone has been in your apartment.",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c4",
+              "text": "Check your apartment for signs of a break-in",
+              "description": "They were here. They might still be close."
+            },
+            {
+              "choiceId": "story-847362910-c5",
+              "text": "Focus on finding the missing witness",
+              "description": "The caller might be the witness from three years ago"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-3",
+          "title": "Digital Footprints",
+          "narration": "You call in a favor at the precinct. Officer Martinez sounds annoyed until you mention the threat, then his tone shifts. Twenty minutes later, he sends you coordinates—the call bounced through three towers, but originated from somewhere in the industrial district near the old cannery. That building has been abandoned for a decade, ever since the Dalton family shut it down. Marcus Dalton owned that cannery. This can't be a coincidence.",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c6",
+              "text": "Head to the cannery alone",
+              "description": "Going in quiet might give you the advantage"
+            },
+            {
+              "choiceId": "story-847362910-c7",
+              "text": "Request backup and wait",
+              "description": "Safety in numbers, but they might run"
+            },
+            {
+              "choiceId": "story-847362910-c8",
+              "text": "Research the Dalton family first",
+              "description": "Knowledge is power in this game"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-4",
+          "title": "Shadows in the Park",
+          "narration": "Riverside Park looks different at 4 AM—the playground equipment casts twisted shadows across the grass, and fog rolls off the water like something alive. You make your way to the gazebo where Marcus Dalton took his last breath. Fresh flowers sit on the steps, still wet with dew. A note is pinned beneath them, written in shaky handwriting: \"He didn't deserve to die, but someone had to pay. You let the wrong person walk free.\" Movement in the trees makes you spin around, hand on your weapon.",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c9",
+              "text": "Pursue whoever is in the trees",
+              "description": "Chase them down before they escape"
+            },
+            {
+              "choiceId": "story-847362910-c10",
+              "text": "Examine the flowers and note carefully",
+              "description": "Evidence first, suspects second"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-5",
+          "title": "Uninvited Guest",
+          "narration": "Your door lock shows fresh scratches—someone picked it recently, and they knew what they were doing. Inside, everything looks normal at first glance, but your detective instincts scream otherwise. The coffee mug you left in the sink is in the drying rack. Your bedroom window is open just a crack, and you always keep it locked. Then you see it: a single photograph placed face-down on your kitchen table. When you flip it over, your blood runs cold—it's you, asleep in your bed, taken last night.",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c11",
+              "text": "Call for police protection immediately",
+              "description": "This stalker is too dangerous to face alone"
+            },
+            {
+              "choiceId": "story-847362910-c12",
+              "text": "Set a trap and wait for them to return",
+              "description": "Turn the tables on your hunter"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-6",
+          "title": "The Ghost Witness",
+          "narration": "Your notes mention a name that was never in the official report: Sarah Chen, a jogger who supposedly saw someone leaving the gazebo at 6:15 AM. You tracked her down once, but she refused to talk, claimed she saw nothing, and moved away two weeks later. A quick search shows she's back in town, working at a bookstore on Morrison Street. When you arrive, the owner says Sarah called in sick today—the first time in eight months. She gives you an address, but warns you: \"Sarah's been jumpy lately, looking over her shoulder like someone's following her.\"",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c14",
+              "text": "Stake out the bookstore",
+              "description": "Wait to see if the caller shows up"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-7",
+          "title": "The Empty Cannery",
+          "narration": "The cannery looms against the pre-dawn sky like a rusted cathedral. You slip through a broken fence and enter through a side door hanging off its hinges. Inside, machinery sits frozen in time, covered in layers of dust and pigeon droppings. Your flashlight cuts through the darkness, revealing footprints in the dust—fresh ones, leading deeper into the building. Then you hear it: music playing somewhere above you, a scratchy recording of an old jazz standard. The same song that was playing when Marcus Dalton died.",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c15",
+              "text": "Follow the music upstairs",
+              "description": "Someone wants you to find them"
+            },
+            {
+              "choiceId": "story-847362910-c16",
+              "text": "Search the ground floor first",
+              "description": "Clear each room methodically and safely"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-8",
+          "title": "Backup Delayed",
+          "narration": "Martinez says backup is at least forty minutes out—there was a multi-car accident on the highway and everyone's tied up. You watch the cannery from across the street, and that's when you see them: a figure moving past a third-floor window, backlit by flashlight. They're inside right now, and forty minutes is an eternity. Your phone buzzes with a text from an unknown number: \"Tick tock, Detective. The truth is waiting, but so is someone else. Come alone or Sarah Chen dies in twenty minutes.\"",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c17",
+              "text": "Rush in to save Sarah",
+              "description": ""
+            },
+            {
+              "choiceId": "story-847362910-c18",
+              "text": "Wait for backup despite the threat",
+              "description": "This could be a trap to isolate you"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-9",
+          "title": "Family Secrets",
+          "narration": "You dig into the Dalton family history and find something the original investigation missed. Marcus had a younger sister, Rebecca, who was institutionalized after his death. The official story said she had a breakdown from grief, but her medical records tell a different story—she tried to confess to killing her brother, but doctors dismissed it as delusion. She was released six months ago. According to her file, Rebecca claimed Marcus was laundering money through the cannery and she confronted him. They fought. He fell. But here's the kicker: the medical director who declared her delusional retired early and moved to Costa Rica with a million dollars.",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c19",
+              "text": "Find Rebecca Dalton",
+              "description": "She might be your midnight caller"
+            },
+            {
+              "choiceId": "story-847362910-c20",
+              "text": "Investigate the medical director",
+              "description": "Someone paid him to cover up the truth"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-10",
+          "title": "The Chase",
+          "narration": "You sprint into the trees, branches whipping past your face as you pursue the fleeing shadow. They're fast, but you're faster, and you tackle them behind a cluster of oak trees. When you flip them over, you freeze—it's a kid, maybe sixteen, terrified and sobbing. \"Please don't hurt me,\" he gasps. \"She paid me fifty bucks to leave the flowers and watch for you. I don't know her name, I swear! She was wearing a hoodie and sunglasses. She said to text her when you showed up.\" His phone buzzes in his hand with a new message: \"Good work, Detective. Now look behind you.\"",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c21",
+              "text": "Turn around and face whoever is there",
+              "description": "Confront the person behind this"
+            },
+            {
+              "choiceId": "story-847362910-c22",
+              "text": "Use the kid as a shield",
+              "description": "Desperate times call for desperate measures"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-11",
+          "title": "Hidden Message",
+          "narration": "The flowers are white lilies—funeral flowers. The note is written on expensive paper, watermarked with the logo of the Morrison Hotel. You photograph everything with your phone, but when you lift the flowers, there's something underneath: a key card for room 412 at the Morrison Hotel and a time written in red ink—6:00 AM. That's in ninety minutes. The figure in the trees is gone now, but you hear footsteps on the path behind you, running away. You have to choose: chase them or follow the invitation.",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c23",
+              "text": "Chase the person fleeing on the path",
+              "description": "Catch them before they disappear"
+            },
+            {
+              "choiceId": "story-847362910-c24",
+              "text": "Go to the Morrison Hotel",
+              "description": "Find out who invited you and why"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-12",
+          "title": "Protected Target",
+          "narration": "Two officers arrive within fifteen minutes and sweep your apartment. They find the entry point—your fire escape window—and set up surveillance. You try to sleep, but your mind races with questions. At 7 AM, one of the officers knocks on your bedroom door. \"Detective Cross, you need to see this.\" They found something behind your bathroom mirror: a small camera, still recording. They traced its signal to an IP address registered to Marcus Dalton's estate. Someone in that family has been watching you, waiting for the right moment to strike.",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c25",
+              "text": "Confront the Dalton family immediately",
+              "description": "Take the fight to them"
+            },
+            {
+              "choiceId": "story-847362910-c26",
+              "text": "Use the camera to feed false information",
+              "description": "Turn their surveillance against them"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-13",
+          "title": "The Trap",
+          "narration": "You spend the day loudly telling your empty apartment that you're going to the police station at midnight to turn over new evidence in the Dalton case. Then you hide in your closet with your weapon drawn and wait. At 11:47 PM, you hear it—the subtle scrape of metal on metal as someone picks your lock again. Footsteps move through your apartment, searching. They enter your bedroom, and through the crack in the closet door, you see a woman in dark clothes rifling through your desk. When she turns, you recognize her from the case file photos: Rebecca Dalton, Marcus's sister. She's holding a gun.",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c27",
+              "text": "Burst out and disarm her",
+              "description": "Use the element of surprise"
+            },
+            {
+              "choiceId": "story-847362910-c28",
+              "text": "Call out and try to talk her down",
+              "description": "She might be the victim here, not the villain"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-14",
+          "title": "Room 412",
+          "narration": "The Morrison Hotel smells like old carpet and regret. You take the stairs to the fourth floor, weapon ready, and approach room 412. The key card works. Inside, the room is dark except for a laptop glowing on the desk, playing security footage on a loop—footage of you investigating the Dalton crime scene three years ago. There's also a folder full of documents: bank transfers, emails, photos of police evidence logged and \"lost.\" Someone high up in the department buried evidence that would have proven Rebecca Dalton's confession was real. Then you hear the shower turn off in the bathroom. Someone else is here.",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c29",
+              "text": "Confront whoever is in the bathroom",
+              "description": "Demand answers face to face"
+            },
+            {
+              "choiceId": "story-847362910-c30",
+              "text": "Take the evidence and leave quickly",
+              "description": "Get out before things turn violent"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-15",
+          "title": "Watching and Waiting",
+          "narration": "You park across from the bookstore with a clear view of the entrance. Hours pass. At 2 PM, a woman in a dark coat and sunglasses approaches the store, looks around nervously, and slips inside. She emerges ten minutes later with the store owner, who points in your direction. The woman in the coat freezes when she sees your car, then runs. You chase her three blocks before she ducks into an alley. When you corner her, she pulls off the sunglasses—it's Rebecca Dalton, and she's crying. \"I didn't want to scare you,\" she says. \"I just needed someone to finally listen. My brother was murdered, and the police covered it up. You're the only one who might believe me.\"",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c32",
+              "text": "Arrest her for harassment and stalking",
+              "description": "She broke into your home and threatened you"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-16",
+          "title": "Following the Music",
+          "narration": "The metal stairs groan under your weight as you climb toward the music. Third floor, fourth floor—the building seems to stretch on forever. Finally, you reach a door hanging open, and the music is louder now. Inside, the room is set up like a shrine: photos of Marcus Dalton cover the walls, newspaper clippings about his death, and in the center, Sarah Chen tied to a chair, conscious but gagged. She's shaking her head frantically, trying to warn you. Too late—you feel the barrel of a gun press against the back of your skull. \"Hello, Detective,\" a woman's voice says. \"Thank you for coming. Now we can finally set the record straight.\"",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c33",
+              "text": "Try to disarm the attacker",
+              "description": "Risk everything to save Sarah"
+            },
+            {
+              "choiceId": "story-847362910-c34",
+              "text": "Comply and hear her out",
+              "description": "Buy time until you see an opening"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-17",
+          "title": "Ground Floor Secrets",
+          "narration": "You methodically search each room on the ground floor—old offices, a break room with moldy coffee cups, storage closets full of rusted equipment. In the last office, you find something that makes your heart race: recent activity. Someone has been living here. Sleeping bag, food wrappers, and a wall covered in newspaper clippings about police corruption. Photos of you are mixed in with images of your former partner, Captain Morrison, the one who closed the Dalton case. Then you see it: a whiteboard with a timeline connecting Morrison to the Dalton family business, with arrows pointing to offshore accounts. The music stops upstairs. Footsteps descend toward you.",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c35",
+              "text": "Hide and ambush whoever is coming",
+              "description": "Attack from the shadows"
+            },
+            {
+              "choiceId": "story-847362910-c36",
+              "text": "Announce yourself and ask to talk",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-18",
+          "title": "Bureaucratic Justice",
+          "narration": "You wait for backup, and when they arrive, the cannery is empty. Sarah Chen is found safe at home—the text was a bluff. Rebecca Dalton is arrested trying to board a plane to Mexico. In custody, she confesses everything: Marcus was laundering drug money, Captain Morrison was on the payroll, and when Rebecca confronted her brother, Morrison killed him to silence them both. But without the evidence Rebecca gathered—now destroyed in her panic—nothing sticks. Morrison retires with full pension. Rebecca goes to prison for stalking and breaking and entering. The case officially closes, but you know the truth. Sometimes the system protects the guilty, and sometimes justice is nothing more than paperwork and compromises. You hand in your badge three months later.",
+          "choices": []
+        },
+        {
+          "nodeId": "story-847362910-19",
+          "title": "The Truth Revealed",
+          "narration": "Rebecca Dalton lowers her weapon and tells you everything. Her brother Marcus discovered that Captain Morrison was using the Dalton cannery to store and distribute drugs seized from evidence. When Marcus threatened to expose him, Morrison killed him and framed it as a random attack. Rebecca saw everything from her car that morning—she was bringing Marcus coffee, their weekly ritual. Morrison paid the medical director to declare her mentally unfit, ensuring no one would believe her confession. But Rebecca spent three years in an institution gathering evidence through smuggled letters and phone calls. She recorded everything. The midnight call was her final desperate attempt to find one honest cop. You listen to the recordings, look at the documents, and make your choice. Together, you bring Morrison down. He gets life without parole. Rebecca is cleared. You're promoted. Some nights, you still wonder if you did enough, but then Rebecca texts you photos of her opening a bakery with her settlement money, and you remember: this time, the good guys won.",
+          "choices": []
+        },
+        {
+          "nodeId": "story-847362910-20",
+          "title": "Lone Wolf",
+          "narration": "You grab the evidence folder and slip out of the hotel room before whoever is in the bathroom emerges. Back in your apartment, you spend the night going through the documents. The web of corruption goes deeper than you imagined—not just Morrison, but judges, prosecutors, even the mayor. Taking this public could bring down half the city's government. You make copies and send them to three different newspapers, then you pack a bag. By morning, your story breaks on every news channel. You're already in another state when the FBI arrives to take over the investigation. Morrison is arrested at the airport trying to flee. Rebecca is exonerated posthumously—she died two days ago, finally free of her burden. You never return to the city. You change your name, open a small detective agency in Montana, and help people with smaller mysteries. Sometimes you wonder if running away was cowardice or wisdom. Then you remember: you lived, and you stopped them. That has to be enough.",
+          "choices": []
+        },
+        {
+          "nodeId": "story-847362910-21",
+          "title": "Dead End",
+          "narration": "You make your move, fast and decisive, but she's faster. The gun goes off twice. Pain explodes in your chest and everything goes sideways. You hit the ground hard, your vision swimming with red and black spots. Rebecca stands over you, still holding the smoking weapon, tears streaming down her face. \"I'm sorry,\" she whispers. \"I just wanted someone to care that he died. I just wanted the truth to matter.\" She drops the gun and runs. You try to reach for your radio, but your fingers won't work right. Your phone is buzzing in your pocket—probably Martinez, wondering where you are. The ceiling tiles blur together. You think about Marcus Dalton, dead in a gazebo at dawn. You think about how he probably felt this same cold creeping through his veins, this same fading light. At least you know the truth now. At least someone will find the evidence and finish what you started. The world goes dark, and your last thought is that maybe Rebecca was right about one thing: the truth does matter, even when it costs everything.",
+          "choices": []
+        },
+        {
+          "nodeId": "story-847362910-22",
+          "title": "Moral Compromise",
+          "narration": "You grab the teenager and pull him in front of you like a shield, your weapon drawn. \"Show yourself!\" you shout into the darkness. Nothing. No one. You check the kid's phone—the message was automated, sent on a timer to mess with your head. There was never anyone behind you. But the damage is done. The kid is traumatized, crying about how you hurt him, how scared he was. Park security cameras caught everything. By morning, you're suspended pending investigation. The kid's parents hire a lawyer. The story goes viral: Detective Uses Child as Human Shield. Morrison quietly closes the Dalton case again while everyone is focused on your scandal. Rebecca Dalton disappears, probably dead or in hiding. You fight the suspension for six months before taking a settlement and resigning in disgrace. The truth about Morrison and Marcus Dalton stays buried. You spend your days wondering if you could have done things differently, if you could have been braver, smarter, better. The midnight caller never contacts you again. Maybe because she realized you weren't the hero she thought you were. Maybe because some battles are lost before they even begin.",
+          "choices": []
+        }
+      ]
+    }
+  ]
+}
