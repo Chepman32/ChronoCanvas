@@ -6,6 +6,7 @@ interface UserStore {
   initializeUser: () => void;
   trackProgress: (storyId: string, nodeId: string, choiceId?: string) => void;
   getStoryProgress: (storyId: string) => StoryProgress | undefined;
+  clearStoryProgress: (storyId: string) => void;
 }
 
 export const useUserStore = create<UserStore>((set, get) => ({
@@ -64,5 +65,20 @@ export const useUserStore = create<UserStore>((set, get) => ({
   getStoryProgress: storyId => {
     const { profile } = get();
     return profile?.storyProgress[storyId];
+  },
+
+  clearStoryProgress: storyId => {
+    const { profile } = get();
+    if (!profile) return;
+
+    const updatedProgress = { ...profile.storyProgress };
+    delete updatedProgress[storyId];
+
+    set({
+      profile: {
+        ...profile,
+        storyProgress: updatedProgress,
+      },
+    });
   },
 }));

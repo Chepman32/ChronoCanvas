@@ -32,7 +32,7 @@ export const StoryPlayScreen: React.FC<StoryPlayScreenProps> = ({
 }) => {
   const { loadStory, navigateToNode, currentNode, currentStory } =
     useStoryStore();
-  const { trackProgress, getStoryProgress } = useUserStore();
+  const { trackProgress, getStoryProgress, clearStoryProgress } = useUserStore();
   const theme = useSettingsStore(state => state.theme);
   const t = useTranslation();
   const [fadeAnim] = useState(new Animated.Value(0));
@@ -72,7 +72,11 @@ export const StoryPlayScreen: React.FC<StoryPlayScreenProps> = ({
 
   const handleExit = () => {
     if (currentNode) {
-      trackProgress(storyId, currentNode.id);
+      if (currentNode.type === 'ending') {
+        clearStoryProgress(storyId);
+      } else {
+        trackProgress(storyId, currentNode.id);
+      }
     }
     onExit();
   };

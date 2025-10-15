@@ -3,6 +3,7 @@ import { deepSeaStoryTranslations } from './story4_deepsea_i18n';
 import { enchantedForestStoryTranslations } from './story1_enchantedforest_i18n';
 import { midnightCuratorStoryTranslations } from './story_midnight_curator_i18n';
 import { neonNightsStoryTranslations } from './story2_neonnights_i18n';
+import { midnightMissingStoryTranslations } from './story7481296_midnightMissing_i18n';
 
 interface StoryTranslations {
   title: string;
@@ -35,6 +36,7 @@ export const storyTranslationsRegistry: Record<
   'story-2': neonNightsStoryTranslations,
   'story-4': deepSeaStoryTranslations,
   'story-847362951': midnightCuratorStoryTranslations,
+  'story-7481296': midnightMissingStoryTranslations,
   // Add more story translations here as they become available
   // 'story-3': timeloopStoryTranslations,
   // etc.
