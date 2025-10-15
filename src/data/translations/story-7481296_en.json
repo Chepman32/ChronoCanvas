@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "storyId": "story-7481296",
+    "language": "en",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.380Z"
+  },
+  "story": {
+    "title": "Midnight Missing",
+    "author": "Morgan Steele",
+    "description": "When a young woman vanishes without a trace, a determined detective must navigate city shadows and unravel a web of clues before time runs out. Every decision could mean a life saved or a trail gone cold.",
+    "genre": [
+      "detective",
+      "mystery"
+    ],
+    "difficulty": "medium",
+    "estimatedDuration": 20
+  },
+  "nodes": [
+    {
+      "id": "story-7481296-19",
+      "type": "ending",
+      "title": "Pyrrhic Victory",
+      "narration": "Time slows as you squeeze the trigger. The gunshot echoes through the cavernous warehouse. **Alan** staggers backward, the knife dropping from his hand. Your shot strikes true, incapacitating him before he could harm **Emily**. Officers swarm in and Emily runs toward you, but not before a stray piece of shrapnel from the concrete grazes her side. She winces in pain, bleeding lightly – hurt but alive. Alan lies on the floor, wounded and moaning. As medics are called, you wrap Emily in a blanket. **The kidnapper is stopped permanently, and Emily is saved, but the violent end leaves you with a hollow feeling as dawn breaks.**",
+      "choices": []
+    }
+  ]
+}

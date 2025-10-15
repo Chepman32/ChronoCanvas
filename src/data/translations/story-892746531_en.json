@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "storyId": "story-892746531",
+    "language": "en",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.395Z"
+  },
+  "story": {
+    "title": "The Last Letter",
+    "author": "Elena Rousseau",
+    "description": "When you discover a mysterious love letter in your late grandmother",
+    "genre": [
+      "romance",
+      "mystery"
+    ],
+    "difficulty": "medium",
+    "estimatedDuration": 35
+  },
+  "nodes": [
+    {
+      "id": "story-892746531-3",
+      "type": "decision",
+      "title": "Family Secrets",
+      "narration": "Your aunt goes pale when you mention the letter. She pours tea with shaking hands and admits that your grandmother spent a year in Paris before meeting your grandfather. She came home suddenly, never explained why, and forbade anyone from mentioning it. Your aunt produces a small photograph: your grandmother at 23, radiant in a sundress, standing next to a young man whose face is turned away.",
+      "choices": [
+        {
+          "id": "story-892746531-c5",
+          "text": "Take the photo and go to Paris immediately",
+          "description": "The mystery deepens"
+        },
+        {
+          "id": "story-892746531-c6",
+          "text": "Press your aunt for more details about the man",
+          "description": "Learn everything first"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "version": "1.0",
+    "language": "es",
+    "description": "Traducciones al español para todas las historias interactivas",
+    "generatedAt": "2025-10-15T15:30:00.000Z",
+    "totalStories": 18,
+    "translator": "Your Name",
+    "reviewedBy": "Native Speaker Name"
+  },
+  "stories": {
+    "story-1": {
+      "fileName": "sampleStories",
+      "metadata": {
+        "id": "story-1",
+        "title": "El Bosque Encantado",
+        "author": "Elena Rivers",
+        "description": "Un viaje místico a través de un bosque ancestral donde cada elección moldea tu destino."
+      },
+      "nodes": [
+        {
+          "id": "node-1",
+          "type": "start",
+          "title": "La Entrada del Bosque",
+          "narration": "Te encuentras al borde de un bosque ancestral. Los árboles se elevan sobre ti, sus ramas formando un dosel que filtra la luz del sol en patrones danzantes sobre el suelo del bosque. Un camino gastado conduce más profundo en el bosque, mientras un arroyo brilla a tu derecha.",
+          "choices": [
+            {
+              "id": "choice-1",
+              "text": "Seguir el camino gastado",
+              "description": "El camino parece muy transitado"
+            },
+            {
+              "id": "choice-2",
+              "text": "Seguir el arroyo",
+              "description": "El agua brilla invitadoramente"
+            }
+          ]
+        },
+        {
+          "id": "node-2",
+          "type": "decision",
+          "title": "El Roble Ancestral",
+          "narration": "El camino te lleva a un roble masivo, su tronco más ancho que una casa. Símbolos extraños están tallados en su corteza, brillando débilmente con una luz etérea. Escuchas susurros en el viento.",
+          "choices": [
+            {
+              "id": "choice-3",
+              "text": "Tocar los símbolos brillantes",
+              "description": null
+            },
+            {
+              "id": "choice-4",
+              "text": "Continuar más allá del árbol",
+              "description": null
+            }
+          ]
+        },
+        {
+          "id": "node-3",
+          "type": "decision",
+          "title": "La Piscina de Cristal",
+          "narration": "Siguiendo el arroyo, descubres una piscina cristalina. El agua es tan transparente que puedes ver peces coloridos nadando debajo. En el centro de la piscina, una pequeña isla sostiene una sola flor blanca.",
+          "choices": [
+            {
+              "id": "choice-5",
+              "text": "Vadear hasta la isla",
+              "description": null
+            },
+            {
+              "id": "choice-6",
+              "text": "Descansar junto a la piscina",
+              "description": null
+            }
+          ]
+        },
+        {
+          "id": "node-4",
+          "type": "ending",
+          "title": "El Guardián del Bosque",
+          "narration": "Tu elección despierta al guardián del bosque, un espíritu majestuoso de luz y naturaleza. Ella te agradece por tu valentía y te otorga el don de comprender a todos los seres vivos. Dejas el bosque cambiado para siempre, capaz de escuchar los susurros de la naturaleza.",
+          "choices": []
+        },
+        {
+          "id": "node-5",
+          "type": "ending",
+          "title": "Viaje Pacífico",
+          "narration": "Continúas tu viaje a través del bosque, disfrutando de su belleza y tranquilidad. Al emerger del otro lado, te sientes renovado y en paz. El bosque te ha dado un regalo de serenidad que permanecerá contigo siempre.",
+          "choices": []
+        }
+      ]
+    },
+    "story-2": {
+      "fileName": "sampleStories",
+      "metadata": {
+        "id": "story-2",
+        "title": "Noches de Neón",
+        "author": "Marcus Chen",
+        "description": "Navega por las calles cyberpunk de Neo Tokio en esta emocionante aventura de ciencia ficción."
+      },
+      "nodes": [
+        {
+          "id": "node-6",
+          "type": "start",
+          "title": "Centro de Neo Tokio",
+          "narration": "La lluvia cae sobre las calles iluminadas con neón de Neo Tokio. Tu implante neural vibra con un mensaje encriptado. Alguien necesita tu ayuda, pero ¿puedes confiar en ellos?",
+          "choices": [
+            {
+              "id": "choice-7",
+              "text": "Aceptar la misión",
+              "description": null
+            },
+            {
+              "id": "choice-8",
+              "text": "Ignorar y alejarse",
+              "description": null
+            }
+          ]
+        },
+        {
+          "id": "node-7",
+          "type": "ending",
+          "title": "La Conspiración",
+          "narration": "Descubres una conspiración masiva que alcanza los niveles más altos del poder. Tu elección de investigar lo ha cambiado todo.",
+          "choices": []
+        },
+        {
+          "id": "node-8",
+          "type": "ending",
+          "title": "Otra Noche",
+          "narration": "Te alejas hacia la noche de neón. A veces la mejor elección es mantenerse fuera de problemas.",
+          "choices": []
+        }
+      ]
+    }
+  }
+}

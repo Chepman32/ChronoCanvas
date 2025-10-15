@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "storyId": "story-847362951",
+    "language": "en",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.399Z"
+  },
+  "story": {
+    "title": "The Midnight Curator",
+    "author": "Detective Marcus Reed",
+    "description": "A renowned art curator is found dead in a locked gallery on the eve of the biggest exhibition of her career. As the lead detective, you have until dawn to solve the murder before the press descends and the killer disappears forever.",
+    "genre": [
+      "detective",
+      "mystery"
+    ],
+    "difficulty": "medium",
+    "estimatedDuration": 18
+  },
+  "nodes": [
+    {
+      "id": "story-847362951-4",
+      "type": "decision",
+      "title": "Sealed Chamber",
+      "narration": "The main entrance deadbolt is engaged from inside, the security chain still latched. Every window remains locked, their sensors undisturbed according to the security system. The only other exit leads to a fire escape, but its alarm is armed and shows no sign of being triggered. This should be impossible. Then you notice something odd: fresh scratches around the ventilation grate near the ceiling, and a single black thread caught on its edge.",
+      "choices": [
+        {
+          "id": "story-847362951-c8",
+          "text": "Climb up to examine the ventilation system",
+          "description": "Could someone have used the vents?"
+        },
+        {
+          "id": "story-847362951-c9",
+          "text": "Review the security camera footage",
+          "description": "Technology doesn"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "version": "1.0",
+    "generatedAt": "2025-10-15T16:45:00.000Z",
+    "totalStories": 18,
+    "description": "Index of all story translations"
+  },
+  "stories": [
+    {
+      "id": "story-1",
+      "title": "The Enchanted Forest",
+      "author": "Elena Rivers",
+      "genre": ["fantasy", "adventure"],
+      "difficulty": "easy",
+      "nodes": 5,
+      "availableLanguages": ["en"]
+    },
+    {
+      "id": "story-2",
+      "title": "Neon Nights",
+      "author": "Marcus Chen",
+      "genre": ["scifi", "mystery"],
+      "difficulty": "medium",
+      "nodes": 3,
+      "availableLanguages": ["en"]
+    },
+    {
+      "id": "story-3",
+      "title": "The Time Loop Paradox",
+      "author": "Dr. Sarah Chen",
+      "genre": ["scifi", "mystery"],
+      "difficulty": "hard",
+      "nodes": 42,
+      "availableLanguages": ["en", "es"]
+    },
+    {
+      "id": "story-4",
+      "title": "Abyssal Secrets",
+      "author": "Captain Marina Torres",
+      "genre": ["mystery", "adventure"],
+      "difficulty": "medium",
+      "nodes": 20,
+      "availableLanguages": ["en"]
+    },
+    {
+      "id": "story-847362951",
+      "title": "The Midnight Curator",
+      "author": "Detective Marcus Reed",
+      "genre": ["detective", "mystery"],
+      "difficulty": "medium",
+      "nodes": 22,
+      "availableLanguages": ["en"]
+    },
+    {
+      "id": "story-7481296",
+      "title": "Midnight Missing",
+      "author": "Morgan Steele",
+      "genre": ["detective", "mystery"],
+      "difficulty": "medium",
+      "nodes": 21,
+      "availableLanguages": ["en"]
+    },
+    {
+      "id": "story-8273910265",
+      "title": "Shadows of the Vanished Star",
+      "author": "Daphne Sawyer",
+      "genre": ["detective", "mystery"],
+      "difficulty": "hard",
+      "nodes": 22,
+      "availableLanguages": ["en"]
+    },
+    {
+      "id": "story-847362910",
+      "title": "The Midnight Caller",
+      "author": "Elena Blackwood",
+      "genre": ["detective", "mystery"],
+      "difficulty": "medium",
+      "nodes": 22,
+      "availableLanguages": ["en"]
+    },
+    {
+      "id": "story-583921467",
+      "title": "The Timekeeper's Heart",
+      "author": "Marcus Sterling",
+      "genre": ["romance", "scifi"],
+      "difficulty": "easy",
+      "nodes": 22,
+      "availableLanguages": ["en"]
+    },
+    {
+      "id": "story-745829103",
+      "title": "The Midnight Garden",
+      "author": "Isabella Crane",
+      "genre": ["romance", "fantasy"],
+      "difficulty": "medium",
+      "nodes": 23,
+      "availableLanguages": ["en"]
+    },
+    {
+      "id": "story-892746531",
+      "title": "The Last Letter",
+      "author": "Elena Rousseau",
+      "genre": ["romance", "mystery"],
+      "difficulty": "medium",
+      "nodes": 24,
+      "availableLanguages": ["en"]
+    },
+    {
+      "id": "story-9123457712345",
+      "title": "Heartline Rewind",
+      "author": "ChronoCanvas Studio",
+      "genre": ["romance", "scifi"],
+      "difficulty": "medium",
+      "nodes": 22,
+      "availableLanguages": ["en"]
+    },
+    {
+      "id": "story-9328745634021",
+      "title": "Letters on the Wind",
+      "author": "ChronoCanvas Studio",
+      "genre": ["romance", "adventure"],
+      "difficulty": "easy",
+      "nodes": 22,
+      "availableLanguages": ["en"]
+    },
+    {
+      "id": "story-8742190384",
+      "title": "City of Second Chances",
+      "author": "A. Marin",
+      "genre": ["romance"],
+      "difficulty": "medium",
+      "nodes": 22,
+      "availableLanguages": ["en"]
+    },
+    {
+      "id": "story-8743921042",
+      "title": "Echoes of the Moonlit Grove",
+      "author": "Daria Voronova",
+      "genre": ["fantasy", "adventure"],
+      "difficulty": "medium",
+      "nodes": 22,
+      "availableLanguages": ["en"]
+    },
+    {
+      "id": "story-8923745610923",
+      "title": "Paradox Palette",
+      "author": "ChronoCanvas Studio",
+      "genre": ["scifi", "mystery"],
+      "difficulty": "medium",
+      "nodes": 24,
+      "availableLanguages": ["en"]
+    },
+    {
+      "id": "story-9845237719284",
+      "title": "Ember Crown Oath",
+      "author": "ChronoCanvas Studio",
+      "genre": ["fantasy", "adventure"],
+      "difficulty": "medium",
+      "nodes": 24,
+      "availableLanguages": ["en"]
+    },
+    {
+      "id": "story-9932045517721",
+      "title": "Rootweaver's Pact",
+      "author": "ChronoCanvas Studio",
+      "genre": ["fantasy", "mystery"],
+      "difficulty": "easy",
+      "nodes": 22,
+      "availableLanguages": ["en"]
+    }
+  ],
+  "availableLanguages": {
+    "en": "English",
+    "es": "Spanish",
+    "fr": "French",
+    "de": "German",
+    "it": "Italian",
+    "pt": "Portuguese",
+    "ru": "Russian",
+    "ja": "Japanese",
+    "ko": "Korean",
+    "zh": "Chinese",
+    "ar": "Arabic"
+  },
+  "instructions": {
+    "translate": "Copy story_[id]_en.json to story_[id]_[lang].json and translate the content",
+    "example": "cp story-3_en.json story-3_fr.json",
+    "guide": "See TRANSLATION_PER_STORY_GUIDE.md for detailed instructions"
+  }
+}

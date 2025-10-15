@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "storyId": "story-4",
+    "language": "en",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.373Z"
+  },
+  "story": {
+    "title": "Abyssal Secrets",
+    "author": "Captain Marina Torres",
+    "description": "Dive into the deepest ocean trench where an ancient civilization awaits discovery.",
+    "genre": [
+      "mystery",
+      "adventure"
+    ],
+    "difficulty": "medium",
+    "estimatedDuration": 30
+  },
+  "nodes": [
+    {
+      "id": "ds-2",
+      "type": "decision",
+      "title": "Ancient Ruins",
+      "narration": "Massive stone pillars covered in bioluminescent algae rise from the ocean floor. They form a perfect circle around what appears to be a temple entrance.",
+      "choices": [
+        {
+          "id": "ds-c3",
+          "text": "Enter the temple",
+          "description": null
+        },
+        {
+          "id": "ds-c4",
+          "text": "Circle around",
+          "description": null
+        }
+      ]
+    }
+  ]
+}

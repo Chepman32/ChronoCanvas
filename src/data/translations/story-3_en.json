@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "storyId": "story-3",
+    "language": "en",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:45:00.000Z"
+  },
+  "story": {
+    "title": "The Time Loop Paradox",
+    "author": "Dr. Sarah Chen",
+    "description": "Trapped in a repeating day, you must uncover the mystery and break free from the temporal prison.",
+    "genre": ["scifi", "mystery"],
+    "difficulty": "hard",
+    "estimatedDuration": 35
+  },
+  "nodes": [
+    {
+      "id": "tl-1",
+      "type": "start",
+      "title": "Morning Again",
+      "narration": "Your alarm rings at 7:00 AM. Again. This is the 47th time you've woken up to this exact moment. The same sunlight, the same bird chirping outside, the same coffee stain on your ceiling.",
+      "choices": [
+        {
+          "id": "tl-c1",
+          "text": "Check your journal",
+          "description": null
+        },
+        {
+          "id": "tl-c2",
+          "text": "Rush to the lab immediately",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "tl-2",
+      "type": "decision",
+      "title": "The Journal",
+      "narration": "Your journal is filled with notes from previous loops. \"Day 47: The quantum stabilizer malfunctions at 3:47 PM. Dr. Martinez always spills coffee at 10:23 AM. The security code changes daily but follows a pattern.\"",
+      "choices": [
+        {
+          "id": "tl-c3",
+          "text": "Study the pattern",
+          "description": null
+        },
+        {
+          "id": "tl-c4",
+          "text": "Go find Dr. Martinez",
+          "description": null
+        }
+      ]
+    }
+  ]
+}

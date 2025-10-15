@@ -1,9 +1,322 @@
 {
   "_instructions": {
-    "language": "French (fr)",
-    "status": "NEEDS TRANSLATION",
-    "note": "This file contains the same structure as TRANSLATION_SOURCE.json. All English text values need to be translated to French. Keep all IDs and keys unchanged."
+    "purpose": "Ce fichier contient tout le texte français des histoires nécessitant une traduction",
+    "targetLanguages": [
+      "Russian (ru)",
+      "Spanish (es)",
+      "German (de)",
+      "French (fr)",
+      "Portuguese (pt)",
+      "Japanese (ja)",
+      "Chinese (zh)",
+      "Korean (ko)",
+      "Ukrainian (uk)"
+    ],
+    "howToUse": [
+      "1. Copiez toute cette structure JSON",
+      "2. Pour chaque langue cible, traduisez UNIQUEMENT les valeurs textuelles (pas les clés)",
+      "3. Gardez tous les identifiants, la structure et le formatage exactement identiques",
+      "4. Enregistrez chaque langue comme TRANSLATIONS_[LANG_CODE].json (par exemple, TRANSLATIONS_ru.json)",
+      "5. Retournez les fichiers traduits"
+    ],
+    "doNotTranslate": [
+      "storyId",
+      "nodeId",
+      "choiceId",
+      "toutes les clés se terminant par 'Id'"
+    ],
+    "translateThese": [
+      "title",
+      "description",
+      "author",
+      "genres (valeurs du tableau)",
+      "narration",
+      "text",
+      "descriptions de choix"
+    ]
   },
-  "_translationStatus": "PENDING - Please translate all text values to French",
-  "stories": []
+  "stories": [
+    {
+      "storyId": "story-7481296",
+      "title": "Disparue à minuit",
+      "description": "Quand une jeune femme disparaît sans laisser de trace, un détective déterminé doit naviguer dans les ombres de la ville et démêler un réseau d'indices avant que le temps ne s'écoule. Chaque décision pourrait signifier une vie sauvée ou une piste refroidie.",
+      "author": "Morgan Steele",
+      "genres": [
+        "policier",
+        "mystère"
+      ],
+      "nodes": [
+        {
+          "nodeId": "story-7481296-1",
+          "title": "Disparue à minuit",
+          "narration": "Une horloge éclairée au néon sonne minuit alors que vous êtes assis dans votre bureau exigu, la pluie tambourinant contre la fenêtre. La sonnerie du téléphone brise le silence – une voix paniquée signale qu'**Emily Parker** a disparu. Emily s'est volatilisée de son appartement il y a quelques heures à peine. Vous attrapez votre manteau, le cœur battant, sachant que chaque minute compte. Avec la ville endormie et les indices déjà en train de s'estomper, vous jurez de découvrir la vérité avant l'aube.",
+          "choices": []
+        },
+        {
+          "nodeId": "story-7481296-2",
+          "title": "Appartement saccagé",
+          "narration": "L'appartement d'Emily est étrangement silencieux. La porte est déverrouillée et légèrement entrouverte, une seule lampe éclaire une scène chaotique. Les tiroirs sont ouverts et les affaires sont éparpillées sur le sol, comme si quelqu'un était parti à la hâte. Vous enjambez prudemment une chaise renversée et remarquez deux choses : une carte de visite froissée de son **collègue de bureau** sur la table basse, et une pochette d'allumettes du **Bar Serpent's Den**, l'endroit préféré d'Emily pour les sorties nocturnes, près de la porte. L'air est tendu avec l'odeur de café renversé et de peur.",
+          "choices": []
+        },
+        {
+          "nodeId": "story-7481296-3",
+          "title": "Confidente désespérée",
+          "narration": "Dans un resto ouvert toute la nuit, **Ava Mitchell** serre nerveusement une tasse de café froid entre ses mains. Ses yeux sont rouges de larmes et d'épuisement. Elle explique qu'Emily était anxieuse ces derniers temps – elle s'était confiée à propos d'un conflit avec un **collègue** qui se comportait étrangement envers elle. Ava se souvient aussi qu'Emily avait mentionné un **bar** qu'elle fréquentait pour rencontrer quelqu'un, et fait allusion à l'**ex-petit ami** d'Emily qui avait vécu une rupture amère avec elle le mois dernier. Les possibilités tourbillonnent, et Ava supplie : « S'il vous plaît, trouvez-la. »",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c5",
+              "text": "Enquêter sur le collègue hostile",
+              "description": "Confronter le collègue qu'Emily craignait"
+            },
+            {
+              "choiceId": "story-7481296-c6",
+              "text": "Vérifier le bar qu'Emily fréquentait",
+              "description": "Elle pourrait y avoir rencontré quelqu'un de dangereux"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-4",
+          "title": "Soupçons au bureau",
+          "narration": "La tour financière de la ville se dresse au-dessus de vous alors que vous arrivez au lieu de travail d'Emily. À l'intérieur, vous confrontez **Alan Ridge**, son collègue. Le sourire d'Alan est mince et nerveux sous les lumières fluorescentes du bureau. Il insiste sur le fait qu'il connaissait à peine Emily en dehors du travail, mais des perles de sueur apparaissent sur son front. Sur son bureau, vous apercevez un document avec le nom d'Emily partiellement visible – rapidement, Alan le range. Un pressentiment vous dit qu'il cache quelque chose. Lorsque vous l'interrogez sur ses activités après les heures de travail, la jambe d'Alan rebondit nerveusement sous la table. Vous devez décider comment gérer cette rencontre tendue.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c8",
+              "text": "Presser Alan agressivement pour obtenir des réponses",
+              "description": "Le confronter directement au sujet d'Emily"
+            },
+            {
+              "choiceId": "story-7481296-c9",
+              "text": "Reculer et fouiner discrètement",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-5",
+          "title": "Piste néon",
+          "narration": "Le **Bar Serpent's Den** palpite de musique basse et de brume néon. Alors que vous vous frayez un chemin à travers la foule faiblement éclairée, vous scrutez à la recherche du moindre signe d'Emily. Le barman vous observe avec méfiance tout en polissant un verre. Dans le coin, un homme encapuchonné observe la salle attentivement, sa posture se raidissant lorsqu'il remarque votre insigne. L'air sent la bière renversée et quelque chose d'âcre – la peur, peut-être. Vous soupçonnez que soit le barman, soit ce client pourrait savoir quelque chose. Chaque seconde ici compte ; Emily aurait pu trouver son destin entre ces murs.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c10",
+              "text": "Suivre discrètement l'homme encapuchonné",
+              "description": "Il pourrait vous mener à un indice ou un suspect"
+            },
+            {
+              "choiceId": "story-7481296-c11",
+              "text": "Interroger le barman pour obtenir des informations",
+              "description": "Peut-être qu'Emily a mentionné quelque chose ou a été vue ici"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-6",
+          "title": "Vieilles rancunes",
+          "narration": "Vous trouvez **Mark Wheeler**, l'ex d'Emily, dans son appartement encombré de cartons de déménagement. La mâchoire de Mark se crispe à la mention d'Emily. Il prétend ne pas l'avoir vue depuis des semaines, l'amertume persistant dans sa voix. Il souligne qu'il était hors de la ville ce soir – un alibi que vous devrez vérifier. En regardant autour de vous, vous remarquez une photo d'eux souriant ensemble, maintenant fissurée et posée face contre terre sur une étagère. Mark insiste qu'il ne ferait jamais de mal à Emily, mais il y a de la colère dans ses yeux. Il n'est pas clair s'il est vraiment dans le noir ou s'il cache la douleur derrière le déni.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c12",
+              "text": "Croire Mark et changer de focus",
+              "description": "Ses émotions semblent authentiques ; poursuivre d'autres pistes"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-7",
+          "title": "Fuite et fureur",
+          "narration": "La composure d'Alan se brise sous votre barrage de questions. Soudain, il bondit de sa chaise et se précipite vers la sortie, la panique dans les yeux. « Arrêtez ! » criez-vous, le poursuivant à travers les couloirs vides du bureau. Il pousse la porte de la cage d'escalier, les pas résonnant alors qu'il descend frénétiquement. Votre cœur bat la chamade – il pourrait courir directement vers Emily, ou tenter de détruire des preuves. L'air nocturne vous frappe alors qu'il jaillit par une porte latérale dans le parking. Vous dérapez jusqu'à l'arrêt, tiraillé entre l'envie de l'attraper maintenant ou d'adopter une approche différente alors que le moteur de sa voiture rugit.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c14",
+              "text": "Poursuivre Alan immédiatement",
+              "description": ""
+            },
+            {
+              "choiceId": "story-7481296-c15",
+              "text": "Le laisser partir et fouiller son bureau",
+              "description": "Il est parti en hâte – peut-être a-t-il laissé des indices"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-8",
+          "title": "Piste papier",
+          "narration": "Avec Alan parti, son bureau vous appartient pour fouiller. Vous enfilez des gants et fouillez dans la paperasse éparpillée dans la lumière tamisée. Sur son bureau, vous découvrez le dossier personnel d'Emily et des notes sur un **« Projet Catalyst »** – quelque chose sur lequel Emily et Alan travaillaient ensemble. Il y a aussi une adresse griffonnée sur un post-it : un vieil **entrepôt à la périphérie de la ville**. Votre pouls s'accélère ; cela pourrait être là où il se dirige avec Emily. Dehors, la ville est sombre et silencieuse. Vous connaissez l'emplacement – la seule question est comment vous allez l'approcher.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c16",
+              "text": "Se précipiter seul à l'entrepôt",
+              "description": "Pas de temps pour les renforts ; chaque seconde compte"
+            },
+            {
+              "choiceId": "story-7481296-c17",
+              "text": "Appeler la police pour des renforts",
+              "description": "Sécuriser du soutien avant d'affronter un kidnappeur"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-9",
+          "title": "Filature d'un étranger",
+          "narration": "Vous décidez de filer l'homme encapuchonné. Il se glisse hors du bar dans une ruelle arrière et vous suivez à distance prudente, le cœur battant dans votre poitrine. Il jette un coup d'œil par-dessus son épaule, puis accélère le pas quand un hurlement de sirène lointaine perce la nuit. Vous le suivez à travers des rues sinueuses et des quartiers délabrés jusqu'à ce qu'il atteigne un vieil **entrepôt** aux fenêtres brisées à la périphérie de la ville. Il disparaît à l'intérieur, laissant la porte métallique légèrement entrouverte. Le bâtiment se dresse silencieux, une silhouette massive sous les lampadaires. Vous vous armez de courage – Emily pourrait être là-dedans.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c18",
+              "text": "Rester caché et observer",
+              "description": "Rassembler des informations discrètement avant d'agir"
+            },
+            {
+              "choiceId": "story-7481296-c19",
+              "text": "Le confronter immédiatement",
+              "description": "Faire irruption et le prendre par surprise"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-10",
+          "title": "Informations du bar",
+          "narration": "Vous montrez votre insigne au barman. Il soupire en posant un verre. « Emily ? Oui, je l'ai vue ici », marmonne-t-il en jetant un regard nerveux vers la porte. Il révèle qu'Emily était ici plus tôt dans la soirée en train de rencontrer un homme en sweat à capuche sombre. Ils sont partis ensemble et l'homme a mentionné se diriger vers « le **vieil entrepôt près des docks** » en réglant son addition. Votre estomac se noue – enfin un emplacement. Alors que vous vous retournez pour partir, le barman saisit votre bras, la voix basse : « Faites attention. Ces gens... ils sont dangereux. » Vous sortez dans la nuit, la pluie sur votre visage, armé d'un indice crucial.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c20",
+              "text": "Conduire directement à l'entrepôt des docks",
+              "description": "Foncer vers l'emplacement seul"
+            },
+            {
+              "choiceId": "story-7481296-c21",
+              "text": "Alerter la police et attendre des renforts",
+              "description": "Aller avec du renfort à l'entrepôt"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-11",
+          "title": "Dévouement sans issue",
+          "narration": "Convaincu que Mark cache la vérité, vous passez de précieuses heures à creuser dans son alibi et son passé. Vous le filez, fouillez ses réseaux sociaux, appelez même une faveur pour obtenir ses relevés téléphoniques. Mais alors que l'aube approche, il devient douloureusement clair que Mark n'avait vraiment rien à voir avec la disparition d'Emily – le temps gaspillé pèse lourd sur vos épaules. Un appel matinal du quartier général vous informe que le collègue, Alan, a maintenant disparu lui aussi, et de nouvelles preuves pointent de nouveau vers cette piste de l'entrepôt. Vous réalisez que votre concentration sur Mark pourrait vous avoir coûté cher dans cette course contre la montre.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c22",
+              "text": "Se reconcentrer et foncer vers l'entrepôt maintenant",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-12",
+          "title": "Poursuite à haute vitesse",
+          "narration": "Les pneus crissent alors que vous poursuivez la voiture d'Alan dans les rues désertes de la ville. Les enseignes au néon et les feux de circulation défilent. Alan conduit comme un fou, désespéré de vous semer. Devant, vous le voyez virer vers une zone industrielle – probablement le quartier des entrepôts près des docks. Le moteur de votre voiture hurle alors que vous réduisez la distance. Dans le faisceau de vos phares, le visage d'Alan est un masque de terreur jetant des coups d'œil dans son rétroviseur. L'adrénaline monte ; c'est votre chance de mettre fin à cette poursuite, mais un faux mouvement pourrait être fatal pour Emily si elle est avec lui.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c24",
+              "text": "Le forcer à quitter la route",
+              "description": "Arrêter la voiture à tout prix, même si elle s'écrase"
+            },
+            {
+              "choiceId": "story-7481296-c25",
+              "text": "Le suivre à distance",
+              "description": "Rester sur ses talons pour voir où il va"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-13",
+          "title": "À la planque",
+          "narration": "Vous arrivez au vieil entrepôt juste au moment où la lumière de l'aube pourpre-grise touche l'horizon. Le bâtiment se dresse silencieux et délabré, ses murs métalliques ondulés striés de rouille. À travers une fenêtre haute, vous apercevez un mouvement à l'intérieur – une ombre qui fait les cent pas. Votre cœur bondit, pensant que cela pourrait être Emily ou son ravisseur. L'entrée principale est une lourde porte coulissante, légèrement entrouverte. Vous vous tenez seul dans l'air frais du matin ; vos renforts sont encore à quelques minutes ou inexistants. Vous armant de courage, vous sortez votre arme, sachant que le destin d'Emily se trouve juste derrière cette porte.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c26",
+              "text": "Entrer silencieusement par la porte latérale",
+              "description": "Utiliser la furtivité pour les prendre par surprise"
+            },
+            {
+              "choiceId": "story-7481296-c27",
+              "text": "Faire irruption par l'entrée principale",
+              "description": "Les surprendre avec une approche directe"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-14",
+          "title": "SWAT à l'aube",
+          "narration": "Les lumières rouges et bleues clignotent sur les docks déserts alors que deux voitures de patrouille et un fourgon du SWAT arrivent pour vous soutenir. Des agents armés entourent silencieusement l'entrepôt, leurs bottes crissant sur le gravier. Le commandant chuchote le plan : une entrée coordonnée à votre signal. À l'intérieur, un cri étouffé – ce doit être Emily. Vous vous tenez à l'entrée latérale de l'entrepôt, l'adrénaline pulsant, avec une équipe à l'avant. Le soleil se lève à l'horizon, illuminant les visages tendus autour de vous. C'est le moment – un mouvement décisif mettra fin à ce cauchemar, d'une manière ou d'une autre.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c28",
+              "text": "Entrer discrètement et les prendre par surprise",
+              "description": "Coordonner une entrée silencieuse avec l'équipe"
+            },
+            {
+              "choiceId": "story-7481296-c29",
+              "text": "Y aller fort avec un raid en force totale",
+              "description": "Faire irruption armes au poing, submergeant toute résistance"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-15",
+          "title": "Entrée silencieuse",
+          "narration": "Vous vous glissez dans l'intérieur ombragé de l'entrepôt aussi silencieusement qu'un fantôme. Que vous soyez seul ou avec quelques agents derrière vous, vous vous déplacez entre des piles de caisses poussiéreuses. Dans la lumière tamisée, vous repérez enfin **Emily** : attachée à une chaise au centre du sol, les yeux écarquillés au-dessus d'un bâillon. **Alan Ridge** se tient à proximité, vérifiant nerveusement son téléphone – probablement en attente d'ordres ou d'une réponse de rançon. Il ne vous a pas encore remarqué. Emily croise votre regard pendant une fraction de seconde, espoir et peur mêlés. Vous avez l'effet de surprise, mais un seul faux pas pourrait mettre Emily en danger.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c30",
+              "text": "Maîtriser Alan d'abord",
+              "description": "Neutraliser la menace avant de s'occuper d'Emily"
+            },
+            {
+              "choiceId": "story-7481296-c31",
+              "text": "Libérer Emily immédiatement",
+              "description": "Prioriser la sortie d'Emily du danger"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-16",
+          "title": "Armes dégainées",
+          "narration": "Avec un cri de « Police ! » vous et l'équipe chargez à travers l'entrée de l'entrepôt. La porte rouillée claque contre le mur. Alan se retourne brusquement, alarmé. Il attrape Emily, la tirant comme un bouclier humain, sa main tremblant alors qu'elle presse un couteau contre sa gorge. « Reculez ! » hurle-t-il, paniqué. Votre cœur bat la chamade. Les armes sont braquées sur Alan, votre doigt sur la gâchette. Les yeux d'Emily brillent de larmes alors que l'impasse se fige dans un tableau mortel. Un faux mouvement maintenant pourrait signifier la catastrophe pour tout le monde.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c32",
+              "text": "Tirer sur Alan",
+              "description": "Utiliser la force pour en finir rapidement"
+            },
+            {
+              "choiceId": "story-7481296-c33",
+              "text": "Essayer de le calmer",
+              "description": "Négocier et gagner du temps, cherchant une résolution plus sûre"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-17",
+          "title": "Sauvetage et justice",
+          "narration": "Saisissant le moment de distraction, vous bondissez de l'ombre et plaquez **Alan** au sol. Il crie de surprise – le couteau glisse sur le béton. En quelques secondes vous l'avez maîtrisé, l'adrénaline alimentant votre force. Les agents de renfort se précipitent (ou votre pure détermination suffit) pour lui passer les menottes. **Emily** sanglote de soulagement alors que vous la libérez des cordes. Elle est secouée mais vivante, s'accrochant à vous alors que la lumière du matin pénètre. Alan, l'organisateur de l'enlèvement, est emmené menotté, et Emily est enfin en sécurité. **Vous avez résolu l'affaire et sauvé Emily, rendant justice alors que l'aube se lève.**",
+          "choices": []
+        },
+        {
+          "nodeId": "story-7481296-18",
+          "title": "Évasion de justesse",
+          "narration": "Vous vous précipitez directement vers **Emily**, coupant les cordes avec tout ce que vous pouvez attraper. « Ça va aller, je suis là », chuchotez-vous alors que ses liens se desserrent. Mais dans cette fraction de seconde de concentration sur Emily, **Alan** saisit l'opportunité – il se précipite vers une sortie arrière, disparaissant dans le labyrinthe de caisses. Au moment où vous vous assurez qu'Emily est en sécurité et poursuivez, il est parti. Dehors, seul le matin pâle vous accueille. Emily est sauvée, tremblant dans vos bras, mais son kidnappeur s'est évanoui dans les ombres de la ville. Les ambulanciers arrivent pour soigner les blessures mineures d'Emily. Elle se remettra, grâce à vous, mais **Alan reste en liberté, laissant un chapitre inachevé dans l'affaire.**",
+          "choices": []
+        },
+        {
+          "nodeId": "story-7481296-19",
+          "title": "Victoire à la Pyrrhus",
+          "narration": "Le temps ralentit alors que vous pressez la détente. Le coup de feu résonne dans l'entrepôt caverneux. **Alan** titube en arrière, le couteau tombant de sa main. Votre tir est précis, le neutralisant avant qu'il ne puisse faire du mal à **Emily**. Les agents affluent et Emily court vers vous, mais pas avant qu'un éclat de béton ne lui érafle le flanc. Elle grimace de douleur, saignant légèrement – blessée mais vivante. Alan gît au sol, blessé et gémissant. Alors que les secours sont appelés, vous enveloppez Emily dans une couverture. **Le kidnappeur est définitivement arrêté, et Emily est sauvée, mais la fin violente vous laisse un sentiment de vide alors que l'aube se lève.**",
+          "choices": []
+        },
+        {
+          "nodeId": "story-7481296-20",
+          "title": "Impasse tragique",
+          "narration": "« Alan, ça ne doit pas se terminer comme ça », plaidez-vous en baissant légèrement votre arme. Vos mots flottent dans l'air alors que les premiers rayons de l'aube se glissent à travers les fissures des murs de l'entrepôt. Mais le désespoir d'Alan a atteint son paroxysme. En un éclair, il traîne **Emily** vers une porte latérale. Votre équipe intervient trop tard – Alan pousse Emily dans un fourgon en attente et il démarre en trombe avant que vous ne puissiez tirer un coup. Vous donnez la poursuite, mais le véhicule disparaît dans des rues labyrinthiques. Au moment où une alerte est émise, ils ont disparu sans laisser de trace. L'entrepôt reste vide, et vous restez seul dans la faible lumière du matin avec seulement la culpabilité comme compagnie. **Emily reste portée disparue, la piste refroidie à cause d'un moment d'hésitation.**",
+          "choices": []
+        },
+        {
+          "nodeId": "story-7481296-21",
+          "title": "Affaire refroidie",
+          "narration": "Épuisé et vaincu, vous êtes assis dans votre voiture alors que la première lumière du jour rampe sur l'horizon. Les pistes se sont taries et de précieuses heures ont été perdues à poursuivre la mauvaise piste. Le visage d'**Emily Parker** vous fixe depuis un tract de personne disparue sur le siège à côté de vous. Dans les jours qui suivent, l'affaire devient plus froide ; Alan disparaît de son appartement, et aucune nouvelle preuve n'émerge. Chaque nuit, vous rejouez vos choix, vous demandant quel indice vital vous avez négligé en poursuivant Mark. La police continue les recherches, mais l'espoir s'amenuise. **Vous porterez le poids de cette enquête inachevée, un rappel brutal que dans le monde du travail de détective, tous les mystères ne trouvent pas leur réponse.**",
+          "choices": []
+        }
+      ]
+    }
+  ]
 }

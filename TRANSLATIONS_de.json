@@ -1,9 +1,995 @@
 {
   "_instructions": {
-    "language": "German (de)",
-    "status": "NEEDS TRANSLATION",
-    "note": "This file contains the same structure as TRANSLATION_SOURCE.json. All English text values need to be translated to German. Keep all IDs and keys unchanged."
+    "purpose": "Diese Datei enthält den gesamten deutschen Text aus Geschichten, die eine Übersetzung benötigen",
+    "targetLanguages": [
+      "Russian (ru)",
+      "Spanish (es)",
+      "German (de)",
+      "French (fr)",
+      "Portuguese (pt)",
+      "Japanese (ja)",
+      "Chinese (zh)",
+      "Korean (ko)",
+      "Ukrainian (uk)"
+    ],
+    "howToUse": [
+      "1. Kopieren Sie diese gesamte JSON-Struktur",
+      "2. Für jede Zielsprache übersetzen Sie NUR die Textwerte (nicht die Schlüssel)",
+      "3. Behalten Sie alle IDs, Struktur und Formatierung genau gleich",
+      "4. Speichern Sie jede Sprache als TRANSLATIONS_[LANG_CODE].json (z.B. TRANSLATIONS_ru.json)",
+      "5. Geben Sie die übersetzten Dateien zurück"
+    ],
+    "doNotTranslate": [
+      "storyId",
+      "nodeId",
+      "choiceId",
+      "alle Schlüssel, die mit 'Id' enden"
+    ],
+    "translateThese": [
+      "title",
+      "description",
+      "author",
+      "genres (Array-Werte)",
+      "narration",
+      "text",
+      "Wahlbeschreibungen"
+    ]
   },
-  "_translationStatus": "PENDING - Please translate all text values to German",
-  "stories": []
+  "stories": [
+    {
+      "storyId": "story-7481296",
+      "title": "Vermisst um Mitternacht",
+      "description": "Als eine junge Frau spurlos verschwindet, muss ein entschlossener Detektiv durch die Schatten der Stadt navigieren und ein Netz von Hinweisen entwirren, bevor die Zeit abläuft. Jede Entscheidung könnte ein gerettetes Leben oder eine kalte Spur bedeuten.",
+      "author": "Morgan Steele",
+      "genres": [
+        "Detektiv",
+        "Krimi"
+      ],
+      "nodes": [
+        {
+          "nodeId": "story-7481296-1",
+          "title": "Vermisst um Mitternacht",
+          "narration": "Eine neonbeleuchtete Uhr schlägt Mitternacht, als Sie in Ihrem beengten Büro sitzen, während der Regen gegen das Fenster trommelt. Das Klingeln des Telefons zerschmettert die Stille – eine panische Stimme meldet, dass **Emily Parker** vermisst wird. Emily verschwand vor wenigen Stunden aus ihrer Wohnung. Sie greifen nach Ihrem Mantel, das Herz hämmert, wissend, dass jede Minute zählt. Mit der schlafenden Stadt und bereits verblassenden Hinweisen schwören Sie, die Wahrheit vor der Morgendämmerung aufzudecken.",
+          "choices": []
+        },
+        {
+          "nodeId": "story-7481296-2",
+          "title": "Verwüstete Wohnung",
+          "narration": "Emilys Wohnung ist unheimlich still. Die Tür ist unverschlossen und leicht angelehnt, eine einzelne Lampe wirft Licht auf eine chaotische Szene. Schubladen hängen offen und Habseligkeiten sind über den Boden verstreut, als wäre jemand in Eile aufgebrochen. Sie treten vorsichtig über einen umgestürzten Stuhl und bemerken zwei Dinge: eine zerknitterte Visitenkarte ihres **Bürokollegen** auf dem Couchtisch und ein Streichholzheft vom **Serpent's Den Bar**, Emilys Lieblings-Nachtlokal, liegt nahe der Tür. Die Luft ist angespannt mit dem Geruch von verschüttetem Kaffee und Angst.",
+          "choices": []
+        },
+        {
+          "nodeId": "story-7481296-3",
+          "title": "Verzweifelte Vertraute",
+          "narration": "In einem ruhigen Nachtimbiss ringt **Ava Mitchell** die Hände um eine Tasse kalten Kaffees. Ihre Augen sind rot vom Weinen und der Erschöpfung. Sie erklärt, dass Emily in letzter Zeit ängstlich war – sie hatte sich über einen Konflikt mit einem **Kollegen** anvertraut, der sich ihr gegenüber seltsam verhalten hatte. Ava erinnert sich auch, dass Emily eine **Bar** erwähnte, die sie besuchte, um jemanden zu treffen, und deutet Emilys **Ex-Freund** an, der im letzten Monat eine bittere Trennung mit ihr hatte. Die Möglichkeiten wirbeln umher, und Ava fleht: „Bitte, finden Sie sie."",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c5",
+              "text": "Den feindseligen Kollegen untersuchen",
+              "description": "Den Kollegen konfrontieren, den Emily fürchtete"
+            },
+            {
+              "choiceId": "story-7481296-c6",
+              "text": "Die Bar überprüfen, die Emily besuchte",
+              "description": "Sie könnte dort jemanden Gefährlichen getroffen haben"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-4",
+          "title": "Verdacht im Büro",
+          "narration": "Der städtische Finanzturm ragt über Ihnen auf, als Sie an Emilys Arbeitsplatz ankommen. Drinnen konfrontieren Sie **Alan Ridge**, ihren Kollegen. Alans Lächeln ist dünn und nervös unter dem fluoreszierenden Bürolicht. Er besteht darauf, dass er Emily außerhalb der Arbeit kaum kannte, aber Schweiß perlt auf seiner Stirn. Auf seinem Schreibtisch erblicken Sie ein Dokument mit Emilys teilweise sichtbarem Namen – schnell schiebt Alan es weg. Ein Bauchgefühl sagt Ihnen, dass er etwas verbirgt. Als Sie über seine Aktivitäten nach Feierabend nachfragen, hüpft Alans Bein nervös unter dem Tisch. Sie müssen entscheiden, wie Sie mit dieser angespannten Begegnung umgehen.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c8",
+              "text": "Alan aggressiv unter Druck setzen",
+              "description": "Ihn direkt wegen Emily konfrontieren"
+            },
+            {
+              "choiceId": "story-7481296-c9",
+              "text": "Zurückweichen und diskret herumschnüffeln",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-5",
+          "title": "Neonspur",
+          "narration": "Die **Serpent's Den Bar** pulsiert mit leiser Musik und Neondunst. Als Sie sich durch die schwach beleuchtete Menge drängen, suchen Sie nach jedem Zeichen von Emily. Der Barkeeper beäugt Sie misstrauisch, während er ein Glas poliert. In der Ecke beobachtet ein Mann mit Kapuze den Raum aufmerksam, seine Haltung versteift sich, als er Ihre Marke bemerkt. Die Luft riecht nach verschüttetem Bier und etwas Beißendem – Angst vielleicht. Sie vermuten, dass entweder der Barkeeper oder dieser Gast etwas wissen könnte. Jede Sekunde hier zählt; Emily könnte ihr Schicksal innerhalb dieser Mauern gefunden haben.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c10",
+              "text": "Dem Mann mit Kapuze leise folgen",
+              "description": "Er könnte zu einem Hinweis oder Verdächtigen führen"
+            },
+            {
+              "choiceId": "story-7481296-c11",
+              "text": "Den Barkeeper nach Informationen befragen",
+              "description": "Vielleicht hat Emily etwas erwähnt oder wurde hier gesehen"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-6",
+          "title": "Alter Groll",
+          "narration": "Sie finden **Mark Wheeler**, Emilys Ex, in seiner Wohnung, die mit Umzugskartons übersät ist. Marks Kiefer spannt sich bei der Erwähnung von Emily an. Er behauptet, er habe sie seit Wochen nicht gesehen, Bitterkeit schwingt in seiner Stimme mit. Er weist darauf hin, dass er heute Nacht außerhalb der Stadt war – ein Alibi, das Sie überprüfen müssen. Als Sie sich umsehen, bemerken Sie ein Bild von ihnen, wie sie zusammen lächeln, jetzt gebrochen und mit dem Gesicht nach unten auf einem Regal liegend. Mark besteht darauf, dass er Emily niemals schaden würde, aber Wut liegt in seinen Augen. Es ist unklar, ob er wirklich im Dunkeln tappt oder Schmerz hinter Verleugnung verbirgt.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c12",
+              "text": "Mark glauben und den Fokus verlagern",
+              "description": "Seine Emotionen scheinen echt; andere Spuren verfolgen"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-7",
+          "title": "Flucht und Wut",
+          "narration": "Alans Fassung zerbricht unter Ihrem Hagel von Fragen. Plötzlich springt er von seinem Stuhl auf und stürmt zum Ausgang, Panik in seinen Augen. „Halt!\" schreien Sie und jagen ihm durch die leeren Büroflure nach. Er stößt die Tür zum Treppenhaus auf, Schritte hallen, während er panisch hinabsteigt. Ihr Herz pocht – er könnte direkt zu Emily rennen oder versuchen, Beweise zu vernichten. Die Nachtluft trifft Sie, als er durch eine Seitentür in die Parkgarage platzt. Sie rutschen zum Stillstand, zerrissen zwischen der Entscheidung, ihn jetzt zu stellen oder einen anderen Ansatz zu wählen, während sein Automotor aufheult.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c14",
+              "text": "Alan sofort jagen",
+              "description": ""
+            },
+            {
+              "choiceId": "story-7481296-c15",
+              "text": "Ihn gehen lassen und sein Büro durchsuchen",
+              "description": "Er ging in Eile – vielleicht hat er Hinweise hinterlassen"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-8",
+          "title": "Papierspur",
+          "narration": "Mit Alan weg, ist sein Büro Ihres zum Durchsuchen. Sie ziehen Handschuhe an und durchstöbern die verstreuten Papiere im schwachen Licht. Auf seinem Schreibtisch entdecken Sie Emilys Personalakte und Notizen über ein **„Projekt Catalyst\"** – etwas, woran Emily und Alan zusammenarbeiteten. Es gibt auch eine auf einem Haftnotiz gekritzelte Adresse: ein altes **Lagerhaus am Stadtrand**. Ihr Puls beschleunigt sich; das könnte sein Ziel mit Emily sein. Draußen ist die Stadt dunkel und still. Sie kennen den Standort – die einzige Frage ist, wie Sie ihn angehen werden.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c16",
+              "text": "Allein zum Lagerhaus eilen",
+              "description": "Keine Zeit für Verstärkung; jede Sekunde zählt"
+            },
+            {
+              "choiceId": "story-7481296-c17",
+              "text": "Die Polizei um Verstärkung rufen",
+              "description": "Unterstützung sichern, bevor man einen Entführer konfrontiert"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-9",
+          "title": "Einem Fremden folgen",
+          "narration": "Sie entscheiden sich, dem Mann mit Kapuze zu folgen. Er schlüpft aus der Bar in eine Hintergasse und Sie folgen in vorsichtigem Abstand, das Herz klopft in Ihrer Brust. Er blickt über seine Schulter, dann beschleunigt er, als ein fernes Sirenenheulen die Nacht durchdringt. Sie folgen ihm durch gewundene Straßen und heruntergekommene Blocks, bis er ein altes **Lagerhaus** mit zerbrochenen Fenstern am Stadtrand erreicht. Er verschwindet drinnen und lässt die Metalltür leicht angelehnt. Das Gebäude steht still, eine klobige Silhouette unter den Straßenlaternen. Sie wappnen sich – Emily könnte dort drinnen sein.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c18",
+              "text": "Versteckt bleiben und beobachten",
+              "description": "Leise Informationen sammeln, bevor man handelt"
+            },
+            {
+              "choiceId": "story-7481296-c19",
+              "text": "Ihn sofort konfrontieren",
+              "description": "Hereinstürmen und ihn überraschen"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-10",
+          "title": "Informationen aus der Bar",
+          "narration": "Sie zeigen dem Barkeeper Ihre Marke. Er seufzt und stellt ein Glas ab. „Emily? Ja, ich habe sie hier gesehen", murmelt er und wirft einen nervösen Blick zur Tür. Er enthüllt, dass Emily früher am Abend hier war und einen Mann in dunkler Kapuzenjacke traf. Sie gingen zusammen und der Mann erwähnte, zum „**alten Lagerhaus bei den Docks**" zu gehen, während er seine Rechnung beglich. Ihr Magen zieht sich zusammen – endlich ein Standort. Als Sie sich zum Gehen wenden, greift der Barkeeper Ihren Arm, die Stimme leise: „Seien Sie vorsichtig. Diese Leute... sie sind gefährlich." Sie treten in die Nacht hinaus, Regen auf Ihrem Gesicht, bewaffnet mit einem entscheidenden Hinweis.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c20",
+              "text": "Direkt zum Dockslagerhaus fahren",
+              "description": "Allein zum Standort rasen"
+            },
+            {
+              "choiceId": "story-7481296-c21",
+              "text": "Die Polizei alarmieren und auf Verstärkung warten",
+              "description": "Mit Unterstützung zum Lagerhaus gehen"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-11",
+          "title": "Sackgassen-Hingabe",
+          "narration": "Überzeugt, dass Mark die Wahrheit verbirgt, verbringen Sie kostbare Stunden damit, in sein Alibi und seine Vergangenheit zu graben. Sie beschatten ihn, durchsuchen seine sozialen Medien, rufen sogar einen Gefallen ab, um seine Telefonaufzeichnungen zu ziehen. Aber als die Morgendämmerung naht, wird schmerzhaft klar, dass Mark wirklich nichts mit Emilys Verschwinden zu tun hatte – die vergeudete Zeit liegt schwer auf Ihren Schultern. Ein Anruf am frühen Morgen vom Hauptquartier informiert Sie, dass der Kollege Alan nun ebenfalls vermisst wird und neue Beweise zurück auf diese Lagerhausspur deuten. Sie erkennen, dass Ihr Fokus auf Mark Sie teuer gekostet haben könnte in diesem Wettlauf gegen die Zeit.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c22",
+              "text": "Neu fokussieren und jetzt zum Lagerhaus rasen",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-12",
+          "title": "Hochgeschwindigkeitsverfolgung",
+          "narration": "Reifen quietschen, als Sie Alans Auto durch die verlassenen Stadtstraßen jagen. Neonschilder und Ampeln verschwimmen vorbei. Alan fährt wie ein Verrückter, verzweifelt darum bemüht, Sie abzuschütteln. Voraus sehen Sie ihn in Richtung eines Industriegebiets schwenken – wahrscheinlich das Lagerhaus-Viertel bei den Docks. Der Motor Ihres Autos heult, als Sie die Distanz verkürzen. Im Strahl Ihrer Scheinwerfer ist Alans Gesicht eine Maske des Terrors, der aus seinem Rückspiegel blickt. Adrenalin steigt auf; dies ist Ihre Chance, diese Verfolgung zu beenden, aber ein falscher Schritt könnte für Emily tödlich sein, wenn sie bei ihm ist.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c24",
+              "text": "Ihn von der Straße drängen",
+              "description": "Das Auto um jeden Preis stoppen, selbst wenn es crasht"
+            },
+            {
+              "choiceId": "story-7481296-c25",
+              "text": "Ihm aus der Distanz folgen",
+              "description": "An seiner Ferse bleiben, um zu sehen, wohin er geht"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-13",
+          "title": "Am Versteck",
+          "narration": "Sie kommen am alten Lagerhaus an, gerade als purpur-graues Morgenlicht den Horizont berührt. Das Gebäude steht still und verfallen da, seine gewellten Metallwände mit Rost gestreift. Durch ein hohes Fenster erhaschen Sie einen Blick auf Bewegung drinnen – ein Schatten, der hin und her geht. Ihr Herz springt auf, denkend, es könnte Emily oder ihr Entführer sein. Der Haupteingang ist eine schwere Schiebetür, leicht angelehnt. Sie stehen allein in der kühlen Morgenluft; Ihre Verstärkung ist noch Minuten entfernt oder nicht vorhanden. Sie wappnen sich, ziehen Ihre Waffe und wissen, dass Emilys Schicksal direkt hinter dieser Tür liegt.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c26",
+              "text": "Leise durch die Seitentür eintreten",
+              "description": "Heimlichkeit nutzen, um sie zu überraschen"
+            },
+            {
+              "choiceId": "story-7481296-c27",
+              "text": "Durch den Haupteingang hereinstürmen",
+              "description": "Sie mit einem direkten Ansatz überraschen"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-14",
+          "title": "SWAT im Morgengrauen",
+          "narration": "Rote und blaue Lichter blinken über die verlassenen Docks, als zwei Streifenwagen und ein SWAT-Van einrollen, um Sie zu unterstützen. Bewaffnete Beamte umstellen schweigend das Lagerhaus, ihre Stiefel knirschen auf Kies. Der kommandierende Offizier flüstert den Plan: ein koordinierter Durchbruch auf Ihr Signal. Drinnen ein gedämpfter Schrei – das muss Emily sein. Sie stehen am Seiteneingang des Lagerhauses, Adrenalin pulsiert, mit einem Team am vorderen Eingang. Die Sonne schiebt sich über den Horizont und beleuchtet die angespannten Gesichter um Sie herum. Das ist es – eine entscheidende Bewegung wird diesen Albtraum beenden, so oder so.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c28",
+              "text": "Leise eindringen und sie überraschen",
+              "description": "Einen stillen Eintritt mit dem Team koordinieren"
+            },
+            {
+              "choiceId": "story-7481296-c29",
+              "text": "Laut mit einem Vollkraft-Überfall vorgehen",
+              "description": "Mit gezogenen Waffen hereinstürmen, jeden Widerstand überwältigend"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-15",
+          "title": "Stiller Eintritt",
+          "narration": "Sie schlüpfen in das schattige Innere des Lagerhauses so leise wie ein Geist. Ob allein oder mit ein paar Beamten im Rücken, Sie bewegen sich zwischen Stapeln staubiger Kisten. Im schwachen Licht entdecken Sie schließlich **Emily**: an einen Stuhl in der Mitte des Bodens gefesselt, Augen weit über einem Knebel. **Alan Ridge** steht in der Nähe und überprüft nervös sein Telefon – wahrscheinlich wartet er auf Befehle oder eine Lösegeldrückmeldung. Er hat Sie noch nicht bemerkt. Emily macht für einen Bruchteil einer Sekunde Augenkontakt mit Ihnen, Hoffnung und Angst vermischt. Sie haben das Element der Überraschung, aber ein falscher Schritt könnte Emily in Gefahr bringen.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c30",
+              "text": "Zuerst Alan überwältigen",
+              "description": "Die Bedrohung neutralisieren, bevor man sich Emily zuwendet"
+            },
+            {
+              "choiceId": "story-7481296-c31",
+              "text": "Emily sofort befreien",
+              "description": "Priorität setzen, Emily aus der Gefahr zu bringen"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-16",
+          "title": "Mit gezogenen Waffen",
+          "narration": "Mit einem Ruf von „Polizei!" stürmen Sie und das Team durch den Lagerhaus-Eingang. Die rostige Tür knallt, als sie gegen die Wand schlägt. Alan wirbelt alarmiert herum. Er greift nach Emily und zerrt sie als menschlichen Schutzschild hoch, seine Hand zittert, als sie ein Messer an ihre Kehle drückt. „Bleiben Sie zurück!" kreischt er in Panik. Ihr Herz pocht. Waffen sind auf Alan gerichtet, Ihr Finger am Abzug. Emilys Augen glänzen vor Tränen, während die Pattsituation in einem tödlichen Tableau einfriert. Eine falsche Bewegung jetzt könnte für alle zur Katastrophe werden.",
+          "choices": [
+            {
+              "choiceId": "story-7481296-c32",
+              "text": "Auf Alan schießen",
+              "description": "Gewalt anwenden, um dies schnell zu beenden"
+            },
+            {
+              "choiceId": "story-7481296-c33",
+              "text": "Versuchen, ihn zu beruhigen",
+              "description": "Verhandeln und Zeit schinden, nach einer sichereren Lösung suchend"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-7481296-17",
+          "title": "Rettung und Gerechtigkeit",
+          "narration": "Den Moment der Ablenkung nutzend, stürzen Sie aus den Schatten und tackeln **Alan** zu Boden. Er jault überrascht – das Messer rutscht über den Beton. Innerhalb von Sekunden haben Sie ihn festgehalten, Adrenalin treibt Ihre Kraft an. Verstärkungsbeamte stürmen herein (oder Ihre bloße Entschlossenheit genügt), um ihm Handschellen anzulegen. **Emily** schluchzt vor Erleichterung, als Sie sie von den Seilen befreien. Sie ist erschüttert, aber lebendig und klammert sich an Sie, während das Morgenlicht hereinfällt. Alan, der Organisator der Entführung, wird in Handschellen abgeführt, und Emily ist endlich sicher. **Sie haben den Fall gelöst und Emily gerettet und Gerechtigkeit gebracht, als die Morgendämmerung anbricht.**",
+          "choices": []
+        },
+        {
+          "nodeId": "story-7481296-18",
+          "title": "Knappe Flucht",
+          "narration": "Sie eilen direkt zu **Emily** und sägen mit allem, was Sie greifen können, durch die Seile. „Es ist okay, ich bin hier", flüstern Sie, während ihre Fesseln sich lockern. Aber in diesem kurzen Moment der Konzentration auf Emily nutzt **Alan** die Gelegenheit – er stürmt zu einem Hinterausgang und verschwindet im Labyrinth der Kisten. Bis Sie sicherstellen, dass Emily sicher ist und die Verfolgung aufnehmen, ist er weg. Draußen begrüßt Sie nur der blasse Morgen. Emily ist gerettet, zitternd in Ihren Armen, aber ihr Entführer ist in den Schatten der Stadt verschwunden. Sanitäter kommen, um Emilys leichte Verletzungen zu versorgen. Sie wird sich erholen, dank Ihnen, aber **Alan bleibt auf freiem Fuß und hinterlässt ein unvollendetes Kapitel im Fall.**",
+          "choices": []
+        },
+        {
+          "nodeId": "story-7481296-19",
+          "title": "Pyrrhussieg",
+          "narration": "Die Zeit verlangsamt sich, als Sie den Abzug drücken. Der Schuss hallt durch das höhlenartige Lagerhaus. **Alan** taumelt rückwärts, das Messer fällt aus seiner Hand. Ihr Schuss trifft präzise und macht ihn kampfunfähig, bevor er **Emily** schaden konnte. Beamte schwärmen herein und Emily rennt auf Sie zu, aber nicht bevor ein verirrtes Splitter vom Beton ihre Seite streift. Sie zuckt vor Schmerz zusammen, blutet leicht – verletzt, aber am Leben. Alan liegt auf dem Boden, verwundet und stöhnend. Als Sanitäter gerufen werden, wickeln Sie Emily in eine Decke. **Der Entführer ist dauerhaft gestoppt und Emily ist gerettet, aber das gewaltsame Ende hinterlässt bei Ihnen ein hohles Gefühl, als die Morgendämmerung anbricht.**",
+          "choices": []
+        },
+        {
+          "nodeId": "story-7481296-20",
+          "title": "Tragische Pattsituation",
+          "narration": "„Alan, es muss nicht so enden", flehen Sie und senken Ihre Waffe leicht. Ihre Worte hängen in der Luft, während die ersten Strahlen der Morgendämmerung durch die Risse der Lagerhauswände schlüpfen. Aber Alans Verzweiflung hat ihren Höhepunkt erreicht. In einem Wirbel zerrt er **Emily** zu einer Seitentür. Ihr Team bewegt sich zu spät – Alan schiebt Emily in einen wartenden Van und er rast davon, bevor Sie einen Schuss abgeben können. Sie nehmen die Verfolgung auf, aber das Fahrzeug verschwindet in labyrinthartigen Straßen. Bis ein Alarm ausgegeben wird, sind sie spurlos verschwunden. Das Lagerhaus steht leer, und Sie bleiben allein im schwachen Morgenlicht mit nur Schuldgefühlen als Gesellschaft. **Emily bleibt vermisst, die Spur ist erkaltet wegen eines zögernden Moments.**",
+          "choices": []
+        },
+        {
+          "nodeId": "story-7481296-21",
+          "title": "Fall erkaltet",
+          "narration": "Erschöpft und besiegt sitzen Sie in Ihrem Auto, als das erste Tageslicht über die Skyline kriecht. Spuren sind ausgetrocknet und kostbare Stunden wurden verloren, während man der falschen Spur folgte. **Emily Parkers** Gesicht starrt Sie von einem Vermisstenflyer auf dem Sitz neben Ihnen an. In den folgenden Tagen wird der Fall kälter; Alan verschwindet aus seiner Wohnung, und es tauchen keine neuen Beweise auf. Jede Nacht spielen Sie Ihre Entscheidungen durch und fragen sich, welchen wichtigen Hinweis Sie übersehen haben, während Sie Mark verfolgten. Die Polizei setzt die Suche fort, aber die Hoffnung schwindet. **Sie werden das Gewicht dieser unvollendeten Ermittlung tragen, eine harte Erinnerung daran, dass in der Welt der Detektivarbeit nicht jedes Geheimnis seine Antwort findet.**",
+          "choices": []
+        }
+      ]
+    },
+    {
+      "storyId": "story-8273910265",
+      "title": "Schatten des verschwundenen Sterns",
+      "description": "Als eine Tech-Erbin verschwindet und nur ein kryptisches Ornament zurückbleibt, wird Privatdetektiv Sam Mercer in ein Labyrinth aus regennassen Gassen, geheimen Bibliotheken und schattigen Docks gezogen. Jeder Hinweis wirft neue Fragen auf und jede Entscheidung zieht ihn tiefer in eine Verschwörung, die die Stadt erreicht",
+      "author": "Daphne Sawyer",
+      "genres": [
+        "Detektiv",
+        "Krimi"
+      ],
+      "nodes": [
+        {
+          "nodeId": "story-8273910265-1",
+          "title": "Mitternachtsklient",
+          "narration": "Der Regen prasselt gegen Ihr Bürofenster, während Sie auf das blinkende Neon draußen starren. Ein Schatten überquert die Schwelle und eine Frau in einem durchnässten Trenchcoat tritt ein, ihre Augen flehend, als sie ein sternförmiges Ornament hervorbringt und über eine vermisste Erbin flüstert. Der Geruch von nassem Gehweg und altem Papier erfüllt den Raum, während Sie die Gefahr in ihren Worten abwägen. Die Stadt summt vor Geheimnissen und Sie spüren, dass dies erst der Anfang ist.",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c1",
+              "text": "Den Fall annehmen und zum Tatort gehen",
+              "description": "Die Pflicht ruft, auch im Regen."
+            },
+            {
+              "choiceId": "story-8273910265-c2",
+              "text": "Ablehnen und aus dem Fenster beobachten",
+              "description": "Distanziert bleiben, beobachten, was sich entfaltet."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-2",
+          "title": "Tatort-Chaos",
+          "narration": "Polizeiband flattert im nassen Wind, während blaue Lichter die Gasse überfluten, wo die Erbin zuletzt gesehen wurde. Beamte eilen hin und her, Fragen hallen von Ziegelwänden wider, während Schaulustige hinter Regenschirmen murmeln. Die Habseligkeiten des Opfers sind verstreut, glänzend vom Regen. Irgendwo in diesem Chaos liegt Ihr erster Hinweis.",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c3",
+              "text": "Den Leichnam und die Umgebung untersuchen",
+              "description": "Selbst nach Beweisen suchen."
+            },
+            {
+              "choiceId": "story-8273910265-c4",
+              "text": "Den nervösen Zeugen befragen",
+              "description": "Jemand hat etwas gesehen."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-3",
+          "title": "Widerwillige Beobachtung",
+          "narration": "Sie schicken die Frau weg, aber Neugier nagt an Ihnen. Durch das regengestreifte Glas entdecken Sie eine Figur, die auf der anderen Straßenseite lauert, Kamera in der Hand, Aufnahmen von Ihrem Büro macht. Die Gasse glänzt unter Straßenlaternen, die Stadt atmet wie ein Biest. Sie können entweder in den Regen hinter ihm her stürzen oder Ihre Distanz wahren.",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c5",
+              "text": "Dem Schatten die Straße hinunter folgen",
+              "description": "Näher kommen, Enthüllung riskieren."
+            },
+            {
+              "choiceId": "story-8273910265-c6",
+              "text": "In den Schatten bleiben und beobachten",
+              "description": "Geduld könnte sich auszahlen."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-4",
+          "title": "Versteckte Notiz",
+          "narration": "Neben der leblosen Form kniend, fangen Sie den metallischen Geruch von Blut vermischt mit Regen auf. Unter der Jacke des Opfers finden Sie einen versiegelten Umschlag, Ränder karmesinrot getönt. Stimmen verschwimmen um Sie herum, als die Welt sich auf dieses Papier verengt – es könnte eine Falle oder der Schlüssel zum Geheimnis sein.",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c7",
+              "text": "Den Umschlag hier öffnen",
+              "description": "Welche Geheimnisse birgt er?"
+            },
+            {
+              "choiceId": "story-8273910265-c8",
+              "text": "Ihn zur Analyse sichern",
+              "description": "Besser sicher als leidtun."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-5",
+          "title": "Nervöser Zeuge",
+          "narration": "Ein nervöser Zuschauer lehnt sich gegen ein regengesprenkelte Fenster, Telefon ans Ohr gedrückt. Mit umherschweifenden Augen klammern sie ihren Mantel fester, als Sie sich nähern. Das Summen der Stadt scheint zu verblassen, während Sie entscheiden, ob Sie die Wahrheit sanft herauslocken oder die Räder mit Bargeld schmieren.",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c9",
+              "text": "Ruhig fragen, was sie gesehen haben",
+              "description": "Vertrauen durch Empathie gewinnen."
+            },
+            {
+              "choiceId": "story-8273910265-c10",
+              "text": "Ihnen etwas Geld für Antworten zuschieben",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-6",
+          "title": "Beobachtung im Regen",
+          "narration": "Sie verschmelzen mit dem Wolkenbruch und lassen den Verdächtigen Sie durch mit Neon gewaschene Gassen führen. Jede Pfütze reflektiert eine zerbrochene Welt. Unter Ihrem Mantel fühlen Sie das Gewicht Ihrer eigenen Technik; ein Laptop summt leise und fleht darum, verschlüsselte Nachrichten zu knacken. Sollen Sie ihre Kommunikation anzapfen oder sie weiter persönlich verfolgen?",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c11",
+              "text": "Ihren Kommunikationsfeed hacken",
+              "description": "Digitale Geheimnisse sind oft die saftigsten."
+            },
+            {
+              "choiceId": "story-8273910265-c12",
+              "text": "Weiter aus den Schatten verfolgen",
+              "description": "Am Boden bleiben."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-7",
+          "title": "Nachricht in Rot",
+          "narration": "Im Umschlag finden Sie ein Foto eines sternförmigen Anhängers und eine codierte Nachricht in roter Tinte geschrieben. Das Papier fühlt sich glatt unter Ihren nassen Fingern an. Die Symbole deuten auf Bibliothekskataloge und alte Geheimnisse hin. Sie müssen entscheiden, wo Sie es entwirren.",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c13",
+              "text": "Zur Stadtbibliothek gehen",
+              "description": "Recherche in staubigen Regalen."
+            },
+            {
+              "choiceId": "story-8273910265-c14",
+              "text": "Ihren Hacker-Freund anrufen",
+              "description": "Mit digitaler Hilfe entschlüsseln."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-8",
+          "title": "Forensischer Bericht",
+          "narration": "Zurück in Ihrem eigenen Labor beleuchten flackernde Monitore Ihr Gesicht. Sie scannen den Umschlag auf Fingerabdrücke und analysieren die Tinte unter grellem Licht. Ein Fingerabdruck passt zu einem Unterwelt-Vermittler, und ein GPS-Tag zeigt auf die Docks. Sie können der Datenspur folgen oder auf die Informationen reagieren.",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c15",
+              "text": "Fingerabdrücke durch die Datenbank laufen lassen",
+              "description": "Information ist Macht."
+            },
+            {
+              "choiceId": "story-8273910265-c16",
+              "text": "Zu den Docks gehen, um sie zu verfolgen",
+              "description": "Den Verdächtigen persönlich konfrontieren."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-9",
+          "title": "Lagerhaus-Information",
+          "narration": "Ihre Bemühungen zahlen sich aus: ein geflüstertes Geständnis oder gehackte Nachricht enthüllt ein Treffen in einem verlassenen Lagerhaus, mit Graffiti gekennzeichnet. Das Gebäude ragt wie ein dunkles Monument gegen die Skyline auf. Sie können hereinstürmen und alles riskieren oder sich Zeit nehmen, um zu planen.",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c17",
+              "text": "Jetzt in das Lagerhaus eindringen",
+              "description": "Zeit ist von entscheidender Bedeutung."
+            },
+            {
+              "choiceId": "story-8273910265-c18",
+              "text": "Zuerst mehr Informationen sammeln",
+              "description": "Ein vorsichtiger Ansatz könnte sich auszahlen."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-10",
+          "title": "Letzter Zug hinaus",
+          "narration": "Der Verdächtige schlüpft in einen Mitternachtszug und Sie eilen zum Bahnhof, Dampf zischt von ruhenden Motoren. Dunkelheit umhüllt die Gleise, während der letzte Aufruf durch Lautsprecher hallt. Sie können jetzt in den Zug einsteigen oder versuchen, sie an der nächsten Haltestelle zu überlisten.",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c19",
+              "text": "In den Zug springen",
+              "description": "Nah am Ziel bleiben."
+            },
+            {
+              "choiceId": "story-8273910265-c20",
+              "text": "An der nächsten Station abfangen",
+              "description": "Einen Hinterhalt voraus planen."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-11",
+          "title": "Stapel von Geheimnissen",
+          "narration": "Staubpartikel tanzen in Lichtstrahlen, während Sie durch endlose Bücherregale wandern. Der Geruch von altem Papier umgibt Sie. Sie verfolgen obskure Katalognummern, bis Ihre Finger auf einem Band landen, das ein Sternornament beschreibt, das Geheimnisse in Bankschließfächern freischaltet. Sollen Sie den Schlüssel testen oder tiefer in die Archive eintauchen?",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c21",
+              "text": "Zur Bank mit dem Ornament gehen",
+              "description": "Das Schließfach könnte die Wahrheit enthalten."
+            },
+            {
+              "choiceId": "story-8273910265-c22",
+              "text": "Weiter in den Archiven suchen",
+              "description": "Es könnte mehr zu entdecken geben."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-12",
+          "title": "Codes und Kollegen",
+          "narration": "Reihen von grünem Code fallen über die Monitore Ihres Freundes, während Sie über statikgefüllte Headsets sprechen. Innerhalb von Momenten tauchen Koordinaten auf, die auf einen einsamen Pier unter dem Vollmond zeigen. Der Hacker warnt Sie: Gehen Sie allein und bleiben Sie unsichtbar, oder bringen Sie Verstärkung mit und riskieren Sie, sie zu verscheuchen.",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c23",
+              "text": "Allein zum Pier gehen",
+              "description": "Ihren Instinkten vertrauen."
+            },
+            {
+              "choiceId": "story-8273910265-c24",
+              "text": "Verstärkung vor dem Gang zusammenstellen",
+              "description": "Sicherheit in Zahlen."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-13",
+          "title": "Schatten am Dock",
+          "narration": "Der Geruch von Salz und Diesel hängt schwer, während Sie zwischen Kisten an den Docks herumschleichen. Ein einsames Boot schaukelt sanft gegen verwitterte Pfähle, Stimmen murmeln über dem Plätschern der Wellen. Sollen Sie versteckt bleiben, um Beweise zu sammeln, oder ins Licht treten, um den Bandenchef zu konfrontieren?",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c25",
+              "text": "Leise Beweise sammeln",
+              "description": "Geduld könnte Beweise bringen."
+            },
+            {
+              "choiceId": "story-8273910265-c26",
+              "text": "Den Bandenchef konfrontieren",
+              "description": "Die Angelegenheit jetzt forcieren."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-14",
+          "title": "Showdown auf dem Dach",
+          "narration": "Wind peitscht über das Dach, als Sie den Verdächtigen gegen eine Kulisse von hochragenden Wolkenkratzern in die Enge treiben, deren Fenster wie Sterne glitzern. Schweiß perlt unter Ihrem Kragen trotz der Kälte. Ohne Ausweg beäugt Ihre Beute die Lücke zwischen den Gebäuden. Ihr nächster Schritt wird beide Schicksale entscheiden.",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c27",
+              "text": "Sie beruhigen und verhandeln",
+              "description": "Worte können Waffen sein."
+            },
+            {
+              "choiceId": "story-8273910265-c28",
+              "text": "Sie zu Boden tackeln",
+              "description": "Gewalt anwenden, um die Jagd zu beenden."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-15",
+          "title": "Hinterhalt am Bahnhof",
+          "narration": "Der Zug fährt ab und Sie befinden sich in einem verlassenen Bahnhofskorridor, Neonröhren flackern über Kopf. Schritte hallen in der Ferne, dann verschwinden. Ihr Ziel ist in die Dunkelheit geschlüpft. Sollen Sie warten, bis sie zurückkommen, oder einen Kontakt anrufen, der Ihnen einen Gefallen schuldet?",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c29",
+              "text": "In den Schatten warten",
+              "description": "Geduld könnte sie fangen."
+            },
+            {
+              "choiceId": "story-8273910265-c30",
+              "text": "Einen Gefallen einfordern",
+              "description": "Ihr Netzwerk nutzen."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-16",
+          "title": "Gesicherte Wahrheit",
+          "narration": "Tief unter Marmorböden schwingt eine gekühlte Tresortür mit einem Zischen auf. Mit dem Sternornament als Schlüssel enthüllen Sie Ordner mit belastenden Dokumenten, die die Elite der Stadt mit dem Verschwinden verbinden. Das Gewicht dieser Beweise liegt schwer in Ihren Händen. Sollen Sie sie übergeben oder für sich behalten?",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c31",
+              "text": "Die Beweise der Polizei übergeben",
+              "description": "Die Gerechtigkeit ihren Lauf nehmen lassen."
+            },
+            {
+              "choiceId": "story-8273910265-c32",
+              "text": "Sie als Druckmittel behalten",
+              "description": "Macht hat ihren Preis."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-17",
+          "title": "Mitternachtspier",
+          "narration": "Mondlicht malt den Pier silbern, während Wellen gegen seine verwitterten Bretter lecken. Eine einsame Figur wartet unter einer Lampe, Gesicht unter einer Kapuze verborgen. Sie bieten Ihnen eine Wahl – schließen Sie sich ihnen an und teilen Sie die Gewinne der Verschwörung, oder lehnen Sie ab und enthüllen Sie die ganze Operation. Vertrauen und Verrat hängen in der salzigen Luft.",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c33",
+              "text": "Ihren Deal akzeptieren",
+              "description": "Dem Schattennetzwerk beitreten."
+            },
+            {
+              "choiceId": "story-8273910265-c34",
+              "text": "Ablehnen und alles enthüllen",
+              "description": "Die Pfeife blasen."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-18",
+          "title": "Einbruch",
+          "narration": "Mit Verbündeten an Ihrer Seite drücken Sie eine Tür in einen langen, dämmrigen Flur auf. Schritte hallen, während Sie sich einem laufenden Treffen nähern, Stimmen leise und verschwörerisch. Sollen Sie hereinstürmen und Verhaftungen vornehmen oder zurückbleiben, um den Austausch für die Welt aufzuzeichnen?",
+          "choices": [
+            {
+              "choiceId": "story-8273910265-c35",
+              "text": "Eingreifen und sie verhaften",
+              "description": "Sie der Gerechtigkeit zuführen."
+            },
+            {
+              "choiceId": "story-8273910265-c36",
+              "text": "Alles für ein Leak aufzeichnen",
+              "description": "Die Verschwörung öffentlich enthüllen."
+            }
+          ]
+        },
+        {
+          "nodeId": "story-8273910265-19",
+          "title": "Fall entgleitet",
+          "narration": "Sie stürmen ins Gefecht und die Bande zerstreut sich wie Schatten im Regen. Ein Schuss knallt, ein Bootsmotor brüllt, und der Drahtzieher verschwindet in der Nacht. Wochen später starren Sie auf Ihre Pinnwand, Garnfäden verbinden Fotos, die nirgendwohin führen. Der Fall wird kalt und die Stadt vergisst, aber Sie können es nicht.",
+          "choices": []
+        },
+        {
+          "nodeId": "story-8273910265-20",
+          "title": "Gerechtigkeit vollzogen",
+          "narration": "Sie wählen den rechtmäßigen Weg. Mit soliden Beweisen in der Hand und Verstärkung an Ihrer Seite beobachten Sie, wie die Verschwörer vor einen Richter gebracht werden. Die Holzbänke des Gerichtssaals knarren, als Urteile verlesen werden und Gerechtigkeit durch Marmorhallen widerhallt. Die Erbin wird lebend gefunden, und Sie fühlen ein seltenes Gefühl des Abschlusses.",
+          "choices": []
+        },
+        {
+          "nodeId": "story-8273910265-21",
+          "title": "Deal mit dem Teufel",
+          "narration": "Versuchung gewinnt. Sie stecken die Akten ein und treten in den inneren Kreis ein. Die Leiter, die Sie erklimmen, mag vergoldet sein, aber jede Sprosse ist glitschig vor Schuld. Reichtum und Verbindungen fließen Ihnen zu, doch in ruhigen Momenten fragen Sie sich, was aus der jungen Frau wurde, deren Ornament Ihr Vermögen freischloss.",
+          "choices": []
+        },
+        {
+          "nodeId": "story-8273910265-22",
+          "title": "Whistleblower",
+          "narration": "Sie wählen Enthüllung über Sicherheit. Hinter leuchtenden Monitoren versteckt, kompilieren Sie Aufzeichnungen und Dokumente und leaken sie an die Presse. Schlagzeilen explodieren, mächtige Figuren fallen, und die Stadt krampft. Sie werden sowohl Held als auch Ziel und verschwinden in digitalen Schatten, während Sie wissen, dass Sie das Richtige getan haben.",
+          "choices": []
+        }
+      ]
+    },
+    {
+      "storyId": "story-847362910",
+      "title": "Der Mitternachtsanrufer",
+      "description": "Jemand weiß, was Sie letzten Sommer getan haben. Das Telefon klingelt um 3 Uhr morgens mit einer Stimme aus Ihrer Vergangenheit, und jetzt haben Sie 48 Stunden, um sie zu finden, bevor sie Sie finden. Jede Wahl könnte Ihre letzte sein.",
+      "author": "Elena Blackwood",
+      "genres": [
+        "Detektiv",
+        "Krimi"
+      ],
+      "nodes": [
+        {
+          "nodeId": "story-847362910-1",
+          "title": "Der Anruf",
+          "narration": "Ihr Telefon schreit um 3:17 Uhr morgens und zerschmettert die Stille Ihrer Wohnung. Die Nummer ist blockiert, aber Sie gehen trotzdem ran – niemand ruft so spät mit guten Nachrichten an. Eine verzerrte Stimme flüstert durch Rauschen: „Detective Cross, ich weiß, was im Riverside Park passiert ist. Sie haben 48 Stunden." Die Leitung ist tot, bevor Sie antworten können, und lässt nur das Pochen Ihres Herzens und den Geist ihrer Worte zurück.",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c1",
+              "text": "Ihre alten Fallakten vom Riverside Park überprüfen",
+              "description": "In die Vergangenheit graben, die Sie vergessen wollten"
+            },
+            {
+              "choiceId": "story-847362910-c2",
+              "text": "Den Anruf sofort zurückverfolgen",
+              "description": "Ihre Polizeikontakte nutzen, um die Quelle zu finden"
+            },
+            {
+              "choiceId": "story-847362910-c3",
+              "text": "Jetzt sofort zum Riverside Park gehen",
+              "description": "Sich dem stellen, was in der Dunkelheit wartet"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-2",
+          "title": "Begrabene Beweise",
+          "narration": "Die Fallkiste sitzt in Ihrem Schrank, wo Sie sie vor drei Jahren gelassen haben, bedeckt mit Staub und Reue. Drinnen zeigen Tatortfotos den Park im Morgengrauen, gelbes Band grenzt den Pavillon ab. Das Opfer, Marcus Dalton, starrt von glänzendem Papier mit leblosen Augen auf. Ihre Notizen erwähnen einen Zeugen, der nie auftauchte – jemand sah alles, aber verschwand. Dann bemerken Sie es: Ein Foto fehlt in der Sequenz. Jemand war in Ihrer Wohnung.",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c4",
+              "text": "Ihre Wohnung auf Anzeichen eines Einbruchs überprüfen",
+              "description": "Sie waren hier. Sie könnten noch in der Nähe sein."
+            },
+            {
+              "choiceId": "story-847362910-c5",
+              "text": "Sich darauf konzentrieren, den vermissten Zeugen zu finden",
+              "description": "Der Anrufer könnte der Zeuge von vor drei Jahren sein"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-3",
+          "title": "Digitale Fußspuren",
+          "narration": "Sie rufen einen Gefallen im Revier ab. Officer Martinez klingt verärgert, bis Sie die Drohung erwähnen, dann ändert sich sein Ton. Zwanzig Minuten später schickt er Ihnen Koordinaten – der Anruf sprang über drei Türme, stammte aber irgendwo aus dem Industrieviertel nahe der alten Konservenfabrik. Dieses Gebäude ist seit einem Jahrzehnt verlassen, seit die Familie Dalton es schloss. Marcus Dalton besaß diese Fabrik. Das kann kein Zufall sein.",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c6",
+              "text": "Allein zur Fabrik gehen",
+              "description": "Leises Eindringen könnte den Vorteil bringen"
+            },
+            {
+              "choiceId": "story-847362910-c7",
+              "text": "Verstärkung anfordern und warten",
+              "description": "Sicherheit in Zahlen, aber sie könnten fliehen"
+            },
+            {
+              "choiceId": "story-847362910-c8",
+              "text": "Zuerst die Familie Dalton recherchieren",
+              "description": "Wissen ist Macht in diesem Spiel"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-4",
+          "title": "Schatten im Park",
+          "narration": "Der Riverside Park sieht um 4 Uhr morgens anders aus – die Spielgeräte werfen verdrehte Schatten über das Gras, und Nebel rollt vom Wasser wie etwas Lebendiges. Sie bahnen sich Ihren Weg zum Pavillon, wo Marcus Dalton seinen letzten Atemzug tat. Frische Blumen liegen auf den Stufen, noch nass vom Tau. Eine Notiz ist darunter befestigt, in zittriger Handschrift geschrieben: „Er verdiente es nicht zu sterben, aber jemand musste bezahlen. Sie haben die falsche Person frei laufen lassen." Bewegung in den Bäumen lässt Sie herumwirbeln, Hand an Ihrer Waffe.",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c9",
+              "text": "Verfolgen, wer in den Bäumen ist",
+              "description": "Sie jagen, bevor sie entkommen"
+            },
+            {
+              "choiceId": "story-847362910-c10",
+              "text": "Die Blumen und Notiz sorgfältig untersuchen",
+              "description": "Beweise zuerst, Verdächtige danach"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-5",
+          "title": "Ungebetener Gast",
+          "narration": "Ihr Türschloss zeigt frische Kratzer – jemand hat es kürzlich geknackt, und sie wussten, was sie taten. Drinnen sieht alles auf den ersten Blick normal aus, aber Ihr Detektivinstinkt schreit anders. Die Kaffeetasse, die Sie in der Spüle gelassen haben, steht im Abtropfgestell. Ihr Schlafzimmerfenster ist einen Spalt offen, und Sie halten es immer verschlossen. Dann sehen Sie es: ein einzelnes Foto liegt mit dem Gesicht nach unten auf Ihrem Küchentisch. Als Sie es umdrehen, stockt Ihnen das Blut in den Adern – es zeigt Sie, schlafend in Ihrem Bett, aufgenommen letzte Nacht.",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c11",
+              "text": "Sofort um Polizeischutz rufen",
+              "description": "Dieser Stalker ist zu gefährlich, um ihn allein zu stellen"
+            },
+            {
+              "choiceId": "story-847362910-c12",
+              "text": "Eine Falle stellen und auf ihre Rückkehr warten",
+              "description": "Den Spieß umdrehen gegen Ihren Jäger"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-6",
+          "title": "Der Geisterzeuge",
+          "narration": "Ihre Notizen erwähnen einen Namen, der nie im offiziellen Bericht stand: Sarah Chen, eine Joggerin, die angeblich jemanden um 6:15 Uhr morgens den Pavillon verlassen sah. Sie spürten sie einmal auf, aber sie weigerte sich zu reden, behauptete, nichts gesehen zu haben, und zog zwei Wochen später weg. Eine schnelle Suche zeigt, dass sie zurück in der Stadt ist und in einem Buchladen in der Morrison Street arbeitet. Als Sie ankommen, sagt die Besitzerin, Sarah habe sich heute krank gemeldet – das erste Mal in acht Monaten. Sie gibt Ihnen eine Adresse, warnt aber: „Sarah war in letzter Zeit nervös, schaut über die Schulter, als würde sie jemand verfolgen."",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c14",
+              "text": "Den Buchladen beobachten",
+              "description": "Warten, ob der Anrufer auftaucht"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-7",
+          "title": "Die leere Fabrik",
+          "narration": "Die Fabrik ragt gegen den Vorhimmel wie eine rostige Kathedrale. Sie schlüpfen durch einen gebrochenen Zaun und betreten durch eine Seitentür, die aus den Angeln hängt. Drinnen sitzt Maschinerie in der Zeit eingefroren, bedeckt mit Schichten von Staub und Taubenkot. Ihre Taschenlampe schneidet durch die Dunkelheit und enthüllt Fußspuren im Staub – frische, die tiefer ins Gebäude führen. Dann hören Sie es: Musik, die irgendwo über Ihnen spielt, eine kratzende Aufnahme eines alten Jazzstandards. Dasselbe Lied, das spielte, als Marcus Dalton starb.",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c15",
+              "text": "Der Musik nach oben folgen",
+              "description": "Jemand will, dass Sie sie finden"
+            },
+            {
+              "choiceId": "story-847362910-c16",
+              "text": "Zuerst das Erdgeschoss durchsuchen",
+              "description": "Jeden Raum methodisch und sicher absuchen"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-8",
+          "title": "Verstärkung verzögert",
+          "narration": "Martinez sagt, Verstärkung ist mindestens vierzig Minuten entfernt – es gab einen Mehrfahrzeug-Unfall auf der Autobahn und alle sind gebunden. Sie beobachten die Fabrik von der anderen Straßenseite, und genau da sehen Sie sie: eine Figur bewegt sich an einem Fenster im dritten Stock vorbei, von hinten von einer Taschenlampe beleuchtet. Sie sind jetzt drinnen, und vierzig Minuten sind eine Ewigkeit. Ihr Telefon vibriert mit einer Nachricht von einer unbekannten Nummer: „Tick-tack, Detective. Die Wahrheit wartet, aber auch jemand anderes. Kommen Sie allein oder Sarah Chen stirbt in zwanzig Minuten."",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c17",
+              "text": "Hineinstürmen, um Sarah zu retten",
+              "description": ""
+            },
+            {
+              "choiceId": "story-847362910-c18",
+              "text": "Trotz der Drohung auf Verstärkung warten",
+              "description": "Das könnte eine Falle sein, um Sie zu isolieren"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-9",
+          "title": "Familiengeheimnisse",
+          "narration": "Sie graben in die Geschichte der Familie Dalton und finden etwas, das die ursprüngliche Ermittlung übersehen hat. Marcus hatte eine jüngere Schwester, Rebecca, die nach seinem Tod in eine psychiatrische Anstalt eingewiesen wurde. Die offizielle Story besagte, sie hatte einen Zusammenbruch aus Trauer, aber ihre medizinischen Unterlagen erzählen eine andere Geschichte – sie versuchte zu gestehen, ihren Bruder getötet zu haben, aber Ärzte wiesen es als Wahn ab. Sie wurde vor sechs Monaten entlassen. Laut ihrer Akte behauptete Rebecca, Marcus habe Geld durch die Fabrik gewaschen und sie konfrontierte ihn. Sie kämpften. Er fiel. Aber hier ist der Haken: Der medizinische Direktor, der sie als wahnhaft erklärte, ging vorzeitig in Rente und zog mit einer Million Dollar nach Costa Rica.",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c19",
+              "text": "Rebecca Dalton finden",
+              "description": "Sie könnte Ihr Mitternachtsanrufer sein"
+            },
+            {
+              "choiceId": "story-847362910-c20",
+              "text": "Den medizinischen Direktor untersuchen",
+              "description": "Jemand hat ihn bezahlt, die Wahrheit zu vertuschen"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-10",
+          "title": "Die Jagd",
+          "narration": "Sie sprinten in die Bäume, Äste peitschen an Ihrem Gesicht vorbei, während Sie den fliehenden Schatten verfolgen. Sie sind schnell, aber Sie sind schneller, und Sie tackeln sie hinter einem Cluster von Eichen. Als Sie sie umdrehen, erstarren Sie – es ist ein Kind, vielleicht sechzehn, verängstigt und schluchzend. „Bitte tun Sie mir nicht weh", keucht er. „Sie hat mir fünfzig Dollar bezahlt, die Blumen zu hinterlassen und auf Sie zu warten. Ich kenne ihren Namen nicht, ich schwöre! Sie trug eine Kapuzenjacke und Sonnenbrille. Sie sagte, ich soll ihr eine SMS schicken, wenn Sie auftauchen." Sein Telefon vibriert in seiner Hand mit einer neuen Nachricht: „Gute Arbeit, Detective. Jetzt schauen Sie hinter sich."",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c21",
+              "text": "Sich umdrehen und sich stellen, wer da ist",
+              "description": "Der Person hinter diesem gegenübertreten"
+            },
+            {
+              "choiceId": "story-847362910-c22",
+              "text": "Das Kind als Schutzschild benutzen",
+              "description": "Verzweifelte Zeiten erfordern verzweifelte Maßnahmen"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-11",
+          "title": "Versteckte Nachricht",
+          "narration": "Die Blumen sind weiße Lilien – Beerdigungsblumen. Die Notiz ist auf teurem Papier geschrieben, mit Wasserzeichen des Morrison Hotels. Sie fotografieren alles mit Ihrem Telefon, aber als Sie die Blumen anheben, ist etwas darunter: eine Schlüsselkarte für Zimmer 412 im Morrison Hotel und eine in roter Tinte geschriebene Uhrzeit – 6:00 Uhr morgens. Das ist in neunzig Minuten. Die Figur in den Bäumen ist jetzt weg, aber Sie hören Schritte auf dem Weg hinter Ihnen, die weglaufen. Sie müssen wählen: sie jagen oder der Einladung folgen.",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c23",
+              "text": "Die Person jagen, die auf dem Weg flieht",
+              "description": "Sie fangen, bevor sie verschwinden"
+            },
+            {
+              "choiceId": "story-847362910-c24",
+              "text": "Zum Morrison Hotel gehen",
+              "description": "Herausfinden, wer Sie eingeladen hat und warum"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-12",
+          "title": "Geschütztes Ziel",
+          "narration": "Zwei Beamte kommen innerhalb von fünfzehn Minuten an und durchkämmen Ihre Wohnung. Sie finden den Eintrittspunkt – Ihr Feuerleiterfenster – und richten Überwachung ein. Sie versuchen zu schlafen, aber Ihr Verstand rast mit Fragen. Um 7 Uhr morgens klopft einer der Beamten an Ihre Schlafzimmertür. „Detective Cross, Sie müssen das sehen." Sie fanden etwas hinter Ihrem Badezimmerspiegel: eine kleine Kamera, immer noch aufzeichnend. Sie verfolgten ihr Signal zu einer IP-Adresse, die auf Marcus Daltons Anwesen registriert ist. Jemand in dieser Familie hat Sie beobachtet und auf den richtigen Moment gewartet, um zuzuschlagen.",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c25",
+              "text": "Die Familie Dalton sofort konfrontieren",
+              "description": "Den Kampf zu ihnen bringen"
+            },
+            {
+              "choiceId": "story-847362910-c26",
+              "text": "Die Kamera benutzen, um falsche Informationen einzuspeisen",
+              "description": "Ihre Überwachung gegen sie wenden"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-13",
+          "title": "Die Falle",
+          "narration": "Sie verbringen den Tag damit, Ihrer leeren Wohnung laut zu erzählen, dass Sie um Mitternacht zur Polizeistation gehen, um neue Beweise im Dalton-Fall zu übergeben. Dann verstecken Sie sich im Schrank mit gezogener Waffe und warten. Um 23:47 Uhr hören Sie es – das subtile Kratzen von Metall auf Metall, als jemand wieder Ihr Schloss knackt. Schritte bewegen sich durch Ihre Wohnung, suchend. Sie betreten Ihr Schlafzimmer, und durch den Spalt in der Schranktür sehen Sie eine Frau in dunkler Kleidung, die Ihren Schreibtisch durchwühlt. Als sie sich umdreht, erkennen Sie sie von den Fallaktenfotos: Rebecca Dalton, Marcus' Schwester. Sie hält eine Waffe.",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c27",
+              "text": "Herausspringen und sie entwaffnen",
+              "description": "Das Element der Überraschung nutzen"
+            },
+            {
+              "choiceId": "story-847362910-c28",
+              "text": "Rufen und versuchen, sie zu beruhigen",
+              "description": "Sie könnte das Opfer sein, nicht der Bösewicht"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-14",
+          "title": "Zimmer 412",
+          "narration": "Das Morrison Hotel riecht nach altem Teppich und Reue. Sie nehmen die Treppe in den vierten Stock, Waffe bereit, und nähern sich Zimmer 412. Die Schlüsselkarte funktioniert. Drinnen ist der Raum dunkel, außer einem Laptop, der auf dem Schreibtisch leuchtet und Überwachungsaufnahmen in einer Schleife abspielt – Aufnahmen von Ihnen, die vor drei Jahren den Tatort Dalton untersuchen. Es gibt auch einen Ordner voller Dokumente: Banküberweisungen, E-Mails, Fotos von Polizeibeweisen, die protokolliert und „verloren" wurden. Jemand hoch oben in der Abteilung hat Beweise begraben, die Rebeccas Daltons Geständnis als echt bewiesen hätten. Dann hören Sie, wie die Dusche im Bad ausgeschaltet wird. Noch jemand ist hier.",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c29",
+              "text": "Konfrontieren, wer im Badezimmer ist",
+              "description": "Von Angesicht zu Angesicht Antworten fordern"
+            },
+            {
+              "choiceId": "story-847362910-c30",
+              "text": "Die Beweise nehmen und schnell gehen",
+              "description": "Raus, bevor es gewalttätig wird"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-15",
+          "title": "Beobachten und Warten",
+          "narration": "Sie parken gegenüber dem Buchladen mit klarer Sicht auf den Eingang. Stunden vergehen. Um 14 Uhr nähert sich eine Frau in dunklem Mantel und Sonnenbrille dem Laden, schaut sich nervös um und schlüpft hinein. Sie kommt zehn Minuten später mit der Ladenbesitzerin heraus, die in Ihre Richtung zeigt. Die Frau im Mantel erstarrt, als sie Ihr Auto sieht, dann rennt sie. Sie jagen sie drei Blocks, bevor sie in eine Gasse abbiegt. Als Sie sie in die Enge treiben, zieht sie die Sonnenbrille ab – es ist Rebecca Dalton, und sie weint. „Ich wollte Sie nicht erschrecken", sagt sie. „Ich brauchte nur jemanden, der endlich zuhört. Mein Bruder wurde ermordet, und die Polizei hat es vertuscht. Sie sind der einzige, der mir glauben könnte."",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c32",
+              "text": "Sie wegen Belästigung und Stalking verhaften",
+              "description": "Sie ist in Ihr Haus eingebrochen und hat Sie bedroht"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-16",
+          "title": "Der Musik folgen",
+          "narration": "Die Metallstufen stöhnen unter Ihrem Gewicht, als Sie zur Musik hinaufsteigen. Dritter Stock, vierter Stock – das Gebäude scheint sich endlos auszudehnen. Schließlich erreichen Sie eine offen hängende Tür, und die Musik ist jetzt lauter. Drinnen ist der Raum wie ein Schrein eingerichtet: Fotos von Marcus Dalton bedecken die Wände, Zeitungsausschnitte über seinen Tod, und in der Mitte Sarah Chen, an einen Stuhl gefesselt, bei Bewusstsein, aber geknebelt. Sie schüttelt verzweifelt den Kopf und versucht Sie zu warnen. Zu spät – Sie spüren den Lauf einer Waffe, der gegen Ihren Hinterkopf gedrückt wird. „Hallo, Detective", sagt eine Frauenstimme. „Danke, dass Sie gekommen sind. Jetzt können wir endlich die Wahrheit klarstellen."",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c33",
+              "text": "Versuchen, den Angreifer zu entwaffnen",
+              "description": "Alles riskieren, um Sarah zu retten"
+            },
+            {
+              "choiceId": "story-847362910-c34",
+              "text": "Nachgeben und ihr zuhören",
+              "description": "Zeit gewinnen, bis Sie eine Öffnung sehen"
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-17",
+          "title": "Geheimnisse im Erdgeschoss",
+          "narration": "Sie durchsuchen methodisch jeden Raum im Erdgeschoss – alte Büros, einen Pausenraum mit schimmeligen Kaffeetassen, Lagerräume voller verrosteter Ausrüstung. Im letzten Büro finden Sie etwas, das Ihr Herz rasen lässt: kürzliche Aktivität. Jemand hat hier gelebt. Schlafsack, Essensverpackungen und eine Wand voller Zeitungsausschnitte über Polizeikorruption. Fotos von Ihnen sind mit Bildern Ihres ehemaligen Partners, Captain Morrison, vermischt, der den Fall Dalton schloss. Dann sehen Sie es: ein Whiteboard mit einer Timeline, die Morrison mit dem Geschäft der Familie Dalton verbindet, mit Pfeilen zu Offshore-Konten. Die Musik oben hört auf. Schritte steigen zu Ihnen herab.",
+          "choices": [
+            {
+              "choiceId": "story-847362910-c35",
+              "text": "Sich verstecken und einen Hinterhalt für den Kommenden legen",
+              "description": "Aus den Schatten angreifen"
+            },
+            {
+              "choiceId": "story-847362910-c36",
+              "text": "Sich ankündigen und um ein Gespräch bitten",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "nodeId": "story-847362910-18",
+          "title": "Bürokratische Gerechtigkeit",
+          "narration": "Sie warten auf Verstärkung, und als sie ankommen, ist die Fabrik leer. Sarah Chen wird sicher zu Hause gefunden – die SMS war ein Bluff. Rebecca Dalton wird verhaftet, als sie versucht, in ein Flugzeug nach Mexiko zu steigen. In Gewahrsam gesteht sie alles: Marcus wusch Drogengeld, Captain Morrison war auf der Gehaltsliste, und als Rebecca ihren Bruder konfrontierte, tötete Morrison ihn, um beide zum Schweigen zu bringen. Aber ohne die Beweise, die Rebecca gesammelt hatte – jetzt in ihrer Panik zerstört – bleibt nichts hängen. Morrison geht mit voller Pension in Rente. Rebecca kommt wegen Stalking und Einbruch ins Gefängnis. Der Fall wird offiziell geschlossen, aber Sie kennen die Wahrheit. Manchmal schützt das System die Schuldigen, und manchmal ist Gerechtigkeit nichts weiter als Papierkram und Kompromisse. Sie geben Ihre Marke drei Monate später ab.",
+          "choices": []
+        },
+        {
+          "nodeId": "story-847362910-19",
+          "title": "Die Wahrheit enthüllt",
+          "narration": "Rebecca Dalton senkt ihre Waffe und erzählt Ihnen alles. Ihr Bruder Marcus entdeckte, dass Captain Morrison die Dalton-Fabrik nutzte, um aus Beweismitteln beschlagnahmte Drogen zu lagern und zu verteilen. Als Marcus drohte, ihn bloßzustellen, tötete Morrison ihn und gab es als zufälligen Angriff aus. Rebecca sah alles aus ihrem Auto an jenem Morgen – sie brachte Marcus Kaffee, ihr wöchentliches Ritual. Morrison bezahlte den medizinischen Direktor, sie für psychisch ungeeignet zu erklären und sicherzustellen, dass niemand ihrem Geständnis glauben würde. Aber Rebecca verbrachte drei Jahre in einer Anstalt und sammelte Beweise durch geschmuggelte Briefe und Telefonanrufe. Sie nahm alles auf. Der Mitternachtsanruf war ihr letzter verzweifelter Versuch, einen ehrlichen Cop zu finden. Sie hören die Aufnahmen, schauen sich die Dokumente an und treffen Ihre Wahl. Gemeinsam bringen Sie Morrison zu Fall. Er bekommt lebenslang ohne Bewährung. Rebecca wird freigesprochen. Sie werden befördert. Manche Nächte fragen Sie sich immer noch, ob Sie genug getan haben, aber dann schickt Rebecca Ihnen Fotos von ihrer Eröffnung einer Bäckerei mit ihrem Vergleichsgeld, und Sie erinnern sich: Dieses Mal haben die Guten gewonnen.",
+          "choices": []
+        },
+        {
+          "nodeId": "story-847362910-20",
+          "title": "Einsamer Wolf",
+          "narration": "Sie greifen den Beweisordner und schlüpfen aus dem Hotelzimmer, bevor jemand aus dem Bad kommt. Zurück in Ihrer Wohnung verbringen Sie die Nacht damit, die Dokumente durchzugehen. Das Netz der Korruption geht tiefer als Sie sich vorgestellt haben – nicht nur Morrison, sondern Richter, Staatsanwälte, sogar der Bürgermeister. Dies öffentlich zu machen, könnte die halbe Stadtregierung zu Fall bringen. Sie machen Kopien und schicken sie an drei verschiedene Zeitungen, dann packen Sie eine Tasche. Am Morgen bricht Ihre Geschichte auf jedem Nachrichtenkanal. Sie sind bereits in einem anderen Staat, als das FBI kommt, um die Ermittlungen zu übernehmen. Morrison wird am Flughafen verhaftet, als er versucht zu fliehen. Rebecca wird posthum freigesprochen – sie starb vor zwei Tagen, endlich frei von ihrer Last. Sie kehren nie in die Stadt zurück. Sie ändern Ihren Namen, eröffnen eine kleine Detektei in Montana und helfen Menschen mit kleineren Geheimnissen. Manchmal fragen Sie sich, ob Weglaufen Feigheit oder Weisheit war. Dann erinnern Sie sich: Sie haben überlebt und sie gestoppt. Das muss genug sein.",
+          "choices": []
+        },
+        {
+          "nodeId": "story-847362910-21",
+          "title": "Sackgasse",
+          "narration": "Sie machen Ihren Zug, schnell und entschieden, aber sie ist schneller. Die Waffe feuert zweimal. Schmerz explodiert in Ihrer Brust und alles kippt. Sie treffen hart auf den Boden, Ihre Sicht schwimmt mit roten und schwarzen Flecken. Rebecca steht über Ihnen, hält immer noch die rauchende Waffe, Tränen strömen über ihr Gesicht. „Es tut mir leid", flüstert sie. „Ich wollte nur, dass es jemandem wichtig ist, dass er gestorben ist. Ich wollte nur, dass die Wahrheit zählt." Sie lässt die Waffe fallen und rennt. Sie versuchen nach Ihrem Funkgerät zu greifen, aber Ihre Finger funktionieren nicht richtig. Ihr Telefon vibriert in Ihrer Tasche – wahrscheinlich Martinez, der sich fragt, wo Sie sind. Die Deckenplatten verschwimmen. Sie denken an Marcus Dalton, tot in einem Pavillon im Morgengrauen. Sie denken daran, wie er wahrscheinlich dieselbe Kälte fühlte, die durch seine Adern kroch, dasselbe schwindende Licht. Wenigstens kennen Sie jetzt die Wahrheit. Wenigstens wird jemand die Beweise finden und beenden, was Sie begonnen haben. Die Welt wird dunkel, und Ihr letzter Gedanke ist, dass Rebecca vielleicht in einer Sache recht hatte: Die Wahrheit zählt, selbst wenn sie alles kostet.",
+          "choices": []
+        },
+        {
+          "nodeId": "story-847362910-22",
+          "title": "Moralischer Kompromiss",
+          "narration": "Sie greifen den Teenager und ziehen ihn vor sich wie einen Schutzschild, Ihre Waffe gezogen. „Zeigen Sie sich!" rufen Sie in die Dunkelheit. Nichts. Niemand. Sie überprüfen das Telefon des Jungen – die Nachricht war automatisiert, auf einem Timer gesendet, um mit Ihrem Kopf zu spielen. Es war nie jemand hinter Ihnen. Aber der Schaden ist angerichtet. Das Kind ist traumatisiert, weint darüber, wie Sie ihm wehgetan haben, wie verängstigt er war. Park-Sicherheitskameras haben alles aufgenommen. Am Morgen sind Sie suspendiert, bis zur Untersuchung. Die Eltern des Jungen heuern einen Anwalt an. Die Geschichte geht viral: Detective benutzt Kind als menschlichen Schutzschild. Morrison schließt den Fall Dalton leise wieder, während alle auf Ihren Skandal fokussiert sind. Rebecca Dalton verschwindet, wahrscheinlich tot oder versteckt. Sie kämpfen sechs Monate gegen die Suspendierung, bevor Sie einen Vergleich nehmen und in Ungnade zurücktreten. Die Wahrheit über Morrison und Marcus Dalton bleibt begraben. Sie verbringen Ihre Tage damit, sich zu fragen, ob Sie es anders hätten machen können, ob Sie mutiger, klüger, besser hätten sein können. Der Mitternachtsanrufer kontaktiert Sie nie wieder. Vielleicht weil sie erkannte, dass Sie nicht der Held waren, für den sie Sie hielt. Vielleicht weil manche Schlachten verloren sind, bevor sie überhaupt beginnen.",
+          "choices": []
+        }
+      ]
+    }
+  ]
 }
