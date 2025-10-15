@@ -43,6 +43,19 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
     detective: t.genreDetective,
   };
 
+  const getDifficultyLabel = (difficulty: string) => {
+    switch (difficulty) {
+      case 'easy':
+        return t.difficultyEasy;
+      case 'medium':
+        return t.difficultyMedium;
+      case 'hard':
+        return t.difficultyHard;
+      default:
+        return difficulty;
+    }
+  };
+
   const featuredStories = useMemo(() => stories.slice(0, 5), [stories]);
 
   const storiesByGenre = useMemo(() => {
@@ -87,7 +100,9 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
             {story.estimatedDuration} {t.minutes}
           </Text>
           <Text style={styles.metaText}>•</Text>
-          <Text style={styles.metaText}>{story.difficulty}</Text>
+          <Text style={styles.metaText}>
+            {getDifficultyLabel(story.difficulty)}
+          </Text>
         </View>
       </View>
     </TouchableOpacity>
@@ -118,7 +133,9 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
             {story.estimatedDuration} {t.minutes}
           </Text>
           <Text style={styles.metaText}>•</Text>
-          <Text style={styles.metaText}>{story.difficulty}</Text>
+          <Text style={styles.metaText}>
+            {getDifficultyLabel(story.difficulty)}
+          </Text>
         </View>
       </View>
     </TouchableOpacity>

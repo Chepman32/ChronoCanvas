@@ -37,6 +37,19 @@ export const StoryDetailScreen: React.FC<StoryDetailScreenProps> = ({
 
   const buttonText = progress ? t.continueStory : t.startAdventure;
 
+  const getDifficultyLabel = (difficulty: string) => {
+    switch (difficulty) {
+      case 'easy':
+        return t.difficultyEasy;
+      case 'medium':
+        return t.difficultyMedium;
+      case 'hard':
+        return t.difficultyHard;
+      default:
+        return difficulty;
+    }
+  };
+
   return (
     <View style={[styles.container, { backgroundColor: theme.background }]}>
       <ScrollView showsVerticalScrollIndicator={false}>
@@ -74,7 +87,7 @@ export const StoryDetailScreen: React.FC<StoryDetailScreenProps> = ({
             </View>
             <View style={styles.stat}>
               <Text style={[styles.statValue, { color: theme.primary }]}>
-                {story.difficulty}
+                {getDifficultyLabel(story.difficulty)}
               </Text>
               <Text style={[styles.statLabel, { color: theme.textSecondary }]}>
                 {t.difficulty}
