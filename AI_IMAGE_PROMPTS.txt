@@ -1,0 +1,3326 @@
+# AI Image Generation Prompts
+
+Total images to generate: 333
+
+## Instructions
+1. Copy each prompt to your AI image generator (Midjourney, DALL-E, etc.)
+2. Save the generated image with the exact filename shown
+3. Place images in the correct folder (covers/, thumbnails/, or nodes/)
+
+---
+
+## 1. cover-story-3.jpg
+Story: The Time Loop Paradox
+Folder: src/assets/images/covers/
+
+Prompt:
+Trapped in a repeating day, you must uncover the mystery and break free from the temporal prison. Cinematic cover art, scifi, mystery style, dramatic lighting, high quality, 800x600px
+
+---
+
+## 2. story-3-story-3.jpg
+Story: The Time Loop Paradox
+Node: story-3
+Folder: src/assets/images/nodes/
+
+Prompt:
+Your journal is filled with notes from previous loops. "Day 47: The quantum stabilizer malfunctions at 3:47 PM. Dr. Martinez always spills coffee at 10:23 AM. The security code changes daily but follo scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 3. story-3-tl-c1.jpg
+Story: The Time Loop Paradox
+Node: tl-c1
+Folder: src/assets/images/nodes/
+
+Prompt:
+Your journal is filled with notes from previous loops. "Day 47: The quantum stabilizer malfunctions at 3:47 PM. Dr. Martinez always spills coffee at 10:23 AM. The security code changes daily but follo scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 4. story-3-tl-c3.jpg
+Story: The Time Loop Paradox
+Node: tl-c3
+Folder: src/assets/images/nodes/
+
+Prompt:
+The quantum physics lab is empty this early. The particle accelerator hums ominously. You know from previous loops that something goes wrong here today. scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 5. story-3-tl-c5.jpg
+Story: The Time Loop Paradox
+Node: tl-c5
+Folder: src/assets/images/nodes/
+
+Prompt:
+You find Dr. Martinez in the cafeteria. Before she can spill her coffee, you catch it. Her eyes widen. "You remember too, don\ scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 6. story-3-tl-c7.jpg
+Story: The Time Loop Paradox
+Node: tl-c7
+Folder: src/assets/images/nodes/
+
+Prompt:
+You find Dr. Martinez in the cafeteria. Before she can spill her coffee, you catch it. Her eyes widen. "You remember too, don\ scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 7. story-3-tl-c9.jpg
+Story: The Time Loop Paradox
+Node: tl-c9
+Folder: src/assets/images/nodes/
+
+Prompt:
+The particle accelerator has an unauthorized modification. Someone installed a temporal feedback loop. The readings show it will activate at 3:47 PM. scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 8. story-3-tl-c11.jpg
+Story: The Time Loop Paradox
+Node: tl-c11
+Folder: src/assets/images/nodes/
+
+Prompt:
+The logs show someone accessed the lab at 3:45 PM yesterday - two minutes before the loop started. The ID badge belongs to... you. scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 9. story-3-tl-c13.jpg
+Story: The Time Loop Paradox
+Node: tl-c13
+Folder: src/assets/images/nodes/
+
+Prompt:
+The restricted area contains a second accelerator - a prototype temporal stabilizer. Notes indicate it was designed to prevent paradoxes, but something went wrong. scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 10. story-3-tl-c15.jpg
+Story: The Time Loop Paradox
+Node: tl-c15
+Folder: src/assets/images/nodes/
+
+Prompt:
+Dr. Martinez reveals she\ scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 11. story-3-tl-c17.jpg
+Story: The Time Loop Paradox
+Node: tl-c17
+Folder: src/assets/images/nodes/
+
+Prompt:
+Dr. Martinez reveals she\ scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 12. story-3-tl-c19.jpg
+Story: The Time Loop Paradox
+Node: tl-c19
+Folder: src/assets/images/nodes/
+
+Prompt:
+She explains: "The loop isn\ scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 13. story-3-tl-c21.jpg
+Story: The Time Loop Paradox
+Node: tl-c21
+Folder: src/assets/images/nodes/
+
+Prompt:
+As you reach for the controls, you realize this is exactly what caused the loop in the first place. Your past self tried to stop it and created the paradox. scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 14. story-3-tl-c23.jpg
+Story: The Time Loop Paradox
+Node: tl-c23
+Folder: src/assets/images/nodes/
+
+Prompt:
+You created the loop deliberately. But why? There must be a reason you trapped yourself here. Something you needed to prevent or discover. scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 15. story-3-tl-c25.jpg
+Story: The Time Loop Paradox
+Node: tl-c25
+Folder: src/assets/images/nodes/
+
+Prompt:
+You created the loop deliberately. But why? There must be a reason you trapped yourself here. Something you needed to prevent or discover. scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 16. story-3-tl-c27.jpg
+Story: The Time Loop Paradox
+Node: tl-c27
+Folder: src/assets/images/nodes/
+
+Prompt:
+You created the loop deliberately. But why? There must be a reason you trapped yourself here. Something you needed to prevent or discover. scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 17. story-3-tl-c29.jpg
+Story: The Time Loop Paradox
+Node: tl-c29
+Folder: src/assets/images/nodes/
+
+Prompt:
+The stabilizer hums to life. Reality begins to shimmer. You see multiple timelines converging. In one, the lab explodes. In another, humanity achieves time travel. Your choice will determine which bec scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 18. story-3-tl-c31.jpg
+Story: The Time Loop Paradox
+Node: tl-c31
+Folder: src/assets/images/nodes/
+
+Prompt:
+The notes reveal a catastrophic event: "Original timeline: Lab explosion at 4:00 PM kills 47 people. Loop created to prevent disaster. Must find the saboteur." scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 19. story-3-tl-c33.jpg
+Story: The Time Loop Paradox
+Node: tl-c33
+Folder: src/assets/images/nodes/
+
+Prompt:
+Director Chen shares his research. "The loop can only be broken from the inside. We need to create a controlled paradox - something that exists in all iterations simultaneously." scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 20. story-3-tl-c35.jpg
+Story: The Time Loop Paradox
+Node: tl-c35
+Folder: src/assets/images/nodes/
+
+Prompt:
+"I created the loop," Chen admits. "Not intentionally. I was trying to prevent a disaster, but I made it worse. Now we\ scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 21. story-3-tl-c37.jpg
+Story: The Time Loop Paradox
+Node: tl-c37
+Folder: src/assets/images/nodes/
+
+Prompt:
+You find the third person - the janitor, Mr. Kim. "I\ scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 22. story-3-tl-c39.jpg
+Story: The Time Loop Paradox
+Node: tl-c39
+Folder: src/assets/images/nodes/
+
+Prompt:
+You disable the device, but it creates a cascade paradox. Reality fractures. You exist in all timelines simultaneously - free from the loop but scattered across infinite possibilities. You are everywh scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 23. story-3-tl-c41.jpg
+Story: The Time Loop Paradox
+Node: tl-c41
+Folder: src/assets/images/nodes/
+
+Prompt:
+You disable the device, but it creates a cascade paradox. Reality fractures. You exist in all timelines simultaneously - free from the loop but scattered across infinite possibilities. You are everywh scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 24. story-3-tl-c43.jpg
+Story: The Time Loop Paradox
+Node: tl-c43
+Folder: src/assets/images/nodes/
+
+Prompt:
+You disable the device, but it creates a cascade paradox. Reality fractures. You exist in all timelines simultaneously - free from the loop but scattered across infinite possibilities. You are everywh scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 25. story-3-tl-24.jpg
+Story: The Time Loop Paradox
+Node: tl-24
+Folder: src/assets/images/nodes/
+
+Prompt:
+You find a note in your own handwriting: "The answer is in the quantum foam. Look between the moments. The loop is a message, not a prison." scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 26. story-3-tl-25.jpg
+Story: The Time Loop Paradox
+Node: tl-25
+Folder: src/assets/images/nodes/
+
+Prompt:
+You find a note in your own handwriting: "The answer is in the quantum foam. Look between the moments. The loop is a message, not a prison." scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 27. story-3-tl-26.jpg
+Story: The Time Loop Paradox
+Node: tl-26
+Folder: src/assets/images/nodes/
+
+Prompt:
+You find a note in your own handwriting: "The answer is in the quantum foam. Look between the moments. The loop is a message, not a prison." scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 28. story-3-tl-c45.jpg
+Story: The Time Loop Paradox
+Node: tl-c45
+Folder: src/assets/images/nodes/
+
+Prompt:
+You find a note in your own handwriting: "The answer is in the quantum foam. Look between the moments. The loop is a message, not a prison." scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 29. story-3-tl-c47.jpg
+Story: The Time Loop Paradox
+Node: tl-c47
+Folder: src/assets/images/nodes/
+
+Prompt:
+You follow your own path from the original day. At 3:45 PM, you entered the lab. At 3:47 PM, you activated the accelerator. At 3:48 PM... nothing. The loop started at 3:47 PM exactly. scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 30. story-3-tl-c49.jpg
+Story: The Time Loop Paradox
+Node: tl-c49
+Folder: src/assets/images/nodes/
+
+Prompt:
+You theorize that if you can create a stable closed timelike curve, you can exit the loop without breaking causality. It requires perfect timing and quantum precision. scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 31. story-3-tl-30.jpg
+Story: The Time Loop Paradox
+Node: tl-30
+Folder: src/assets/images/nodes/
+
+Prompt:
+You theorize that if you can create a stable closed timelike curve, you can exit the loop without breaking causality. It requires perfect timing and quantum precision. scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 32. story-3-tl-c51.jpg
+Story: The Time Loop Paradox
+Node: tl-c51
+Folder: src/assets/images/nodes/
+
+Prompt:
+You theorize that if you can create a stable closed timelike curve, you can exit the loop without breaking causality. It requires perfect timing and quantum precision. scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 33. story-3-tl-32.jpg
+Story: The Time Loop Paradox
+Node: tl-32
+Folder: src/assets/images/nodes/
+
+Prompt:
+You theorize that if you can create a stable closed timelike curve, you can exit the loop without breaking causality. It requires perfect timing and quantum precision. scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 34. story-3-tl-c53.jpg
+Story: The Time Loop Paradox
+Node: tl-c53
+Folder: src/assets/images/nodes/
+
+Prompt:
+"Someone must stay behind," Mr. Kim explains. "The loop needs an anchor. One consciousness must remain to hold the timeline stable while others escape. I\ scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 35. story-3-tl-c55.jpg
+Story: The Time Loop Paradox
+Node: tl-c55
+Folder: src/assets/images/nodes/
+
+Prompt:
+You confront Dr. Reeves. He breaks down: "They have my family. I had no choice." You help him. Together, you expose the conspiracy and save everyone. The loop breaks. You\ scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 36. story-3-tl-c57.jpg
+Story: The Time Loop Paradox
+Node: tl-c57
+Folder: src/assets/images/nodes/
+
+Prompt:
+You confront Dr. Reeves. He breaks down: "They have my family. I had no choice." You help him. Together, you expose the conspiracy and save everyone. The loop breaks. You\ scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 37. story-3-tl-c59.jpg
+Story: The Time Loop Paradox
+Node: tl-c59
+Folder: src/assets/images/nodes/
+
+Prompt:
+You confront Dr. Reeves. He breaks down: "They have my family. I had no choice." You help him. Together, you expose the conspiracy and save everyone. The loop breaks. You\ scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 38. story-3-tl-37.jpg
+Story: The Time Loop Paradox
+Node: tl-37
+Folder: src/assets/images/nodes/
+
+Prompt:
+You confront Dr. Reeves. He breaks down: "They have my family. I had no choice." You help him. Together, you expose the conspiracy and save everyone. The loop breaks. You\ scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 39. story-3-tl-38.jpg
+Story: The Time Loop Paradox
+Node: tl-38
+Folder: src/assets/images/nodes/
+
+Prompt:
+You work with the time traveler. Together, you create a temporal beacon that prevents the loop from ever forming. Reality shifts. You wake up in a world where none of this happened. But you remember.  scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 40. story-3-tl-39.jpg
+Story: The Time Loop Paradox
+Node: tl-39
+Folder: src/assets/images/nodes/
+
+Prompt:
+You work with the time traveler. Together, you create a temporal beacon that prevents the loop from ever forming. Reality shifts. You wake up in a world where none of this happened. But you remember.  scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 41. story-3-tl-40.jpg
+Story: The Time Loop Paradox
+Node: tl-40
+Folder: src/assets/images/nodes/
+
+Prompt:
+You work with the time traveler. Together, you create a temporal beacon that prevents the loop from ever forming. Reality shifts. You wake up in a world where none of this happened. But you remember.  scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 42. story-3-tl-41.jpg
+Story: The Time Loop Paradox
+Node: tl-41
+Folder: src/assets/images/nodes/
+
+Prompt:
+You work with the time traveler. Together, you create a temporal beacon that prevents the loop from ever forming. Reality shifts. You wake up in a world where none of this happened. But you remember.  scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 43. story-3-tl-42.jpg
+Story: The Time Loop Paradox
+Node: tl-42
+Folder: src/assets/images/nodes/
+
+Prompt:
+You embrace the superposition. Your consciousness expands across all possible timelines. You exist in every version of this day simultaneously. You are no longer trapped in time - you ARE time. Infini scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 44. story-3-tl-end1.jpg
+Story: The Time Loop Paradox
+Node: tl-end1
+Folder: src/assets/images/nodes/
+
+Prompt:
+You choose safety. The timeline stabilizes. The loop breaks. You wake up in a world where the research never succeeded, but everyone is safe. No time travel, no paradoxes, no danger. Just normal life. scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 45. story-3-tl-end2.jpg
+Story: The Time Loop Paradox
+Node: tl-end2
+Folder: src/assets/images/nodes/
+
+Prompt:
+You choose safety. The timeline stabilizes. The loop breaks. You wake up in a world where the research never succeeded, but everyone is safe. No time travel, no paradoxes, no danger. Just normal life. scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 46. story-3-tl-end3.jpg
+Story: The Time Loop Paradox
+Node: tl-end3
+Folder: src/assets/images/nodes/
+
+Prompt:
+Trapped in a repeating day, you must uncover the mystery and break free from the temporal prison. scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 47. cover-story-4.jpg
+Story: Abyssal Secrets
+Folder: src/assets/images/covers/
+
+Prompt:
+Dive into the deepest ocean trench where an ancient civilization awaits discovery. Cinematic cover art, mystery, adventure style, dramatic lighting, high quality, 800x600px
+
+---
+
+## 48. story-4-story-4.jpg
+Story: Abyssal Secrets
+Node: story-4
+Folder: src/assets/images/nodes/
+
+Prompt:
+Massive stone pillars covered in bioluminescent algae rise from the ocean floor. They form a perfect circle around what appears to be a temple entrance. mystery, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 49. story-4-ds-c1.jpg
+Story: Abyssal Secrets
+Node: ds-c1
+Folder: src/assets/images/nodes/
+
+Prompt:
+Massive stone pillars covered in bioluminescent algae rise from the ocean floor. They form a perfect circle around what appears to be a temple entrance. mystery, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 50. cover-story-583921467.jpg
+Story: The Backward Watch
+Folder: src/assets/images/covers/
+
+Prompt:
+Stay grounded in reality Cinematic cover art, romance, scifi style, dramatic lighting, high quality, 800x600px
+
+---
+
+## 51. story-583921467-story-583921467.jpg
+Story: The Backward Watch
+Node: story-583921467
+Folder: src/assets/images/nodes/
+
+Prompt:
+Stay grounded in reality romance, scifi style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 52. cover-story-745829103.jpg
+Story: The Midnight Garden
+Folder: src/assets/images/covers/
+
+Prompt:
+Investigate the mysterious fragrance Cinematic cover art, romance, fantasy style, dramatic lighting, high quality, 800x600px
+
+---
+
+## 53. story-745829103-story-745829103.jpg
+Story: The Midnight Garden
+Node: story-745829103
+Folder: src/assets/images/nodes/
+
+Prompt:
+The letter from the estate lawyer arrived on your thirtieth birthday. A great-aunt you never knew existed has left you Thornewood Manor—a crumbling Victorian mansion on the edge of a forgotten town. T romance, fantasy style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 54. story-745829103-story-745829103-c1.jpg
+Story: The Midnight Garden
+Node: story-745829103-c1
+Folder: src/assets/images/nodes/
+
+Prompt:
+The mansion swallows you in velvet darkness. Oil portraits watch from the walls, and the air hums with a note you feel more than hear. Moonlight leaks through fractured stained glass, painting the flo romance, fantasy style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 55. story-745829103-story-745829103-c3.jpg
+Story: The Midnight Garden
+Node: story-745829103-c3
+Folder: src/assets/images/nodes/
+
+Prompt:
+The mansion swallows you in velvet darkness. Oil portraits watch from the walls, and the air hums with a note you feel more than hear. Moonlight leaks through fractured stained glass, painting the flo romance, fantasy style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 56. story-745829103-story-745829103-c5.jpg
+Story: The Midnight Garden
+Node: story-745829103-c5
+Folder: src/assets/images/nodes/
+
+Prompt:
+The gardener straightens, eyes glinting like silvered leaves. His voice trembles between relief and dread as he says, "My name is Elias Thorne, bound to this garden until the right heir arrives." The  romance, fantasy style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 57. story-745829103-story-745829103-c7.jpg
+Story: The Midnight Garden
+Node: story-745829103-c7
+Folder: src/assets/images/nodes/
+
+Prompt:
+As your fingers brush the bloom, liquid light pours through you. Your pulse syncs with the garden and you glimpse memories that are not yours—moonlit dances, whispered vows, a lonely gardener tending  romance, fantasy style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 58. story-745829103-story-745829103-c9.jpg
+Story: The Midnight Garden
+Node: story-745829103-c9
+Folder: src/assets/images/nodes/
+
+Prompt:
+A domed conservatory waits beyond a curtain of ivy. Inside, instruments of brass and crystal hang like constellations, each tremor of the humming note setting them aglow. A hidden door is edged with f romance, fantasy style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 59. story-745829103-story-745829103-c11.jpg
+Story: The Midnight Garden
+Node: story-745829103-c11
+Folder: src/assets/images/nodes/
+
+Prompt:
+Dust billows as the sealed study yields. Ledgers, maps, and a portrait of a woman who shares your eyes crowd the shelves. A silver key shaped like a crescent rests atop a velvet journal, waiting for s romance, fantasy style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 60. story-745829103-story-745829103-c13.jpg
+Story: The Midnight Garden
+Node: story-745829103-c13
+Folder: src/assets/images/nodes/
+
+Prompt:
+Elias exhales, revealing that the garden blooms only for the Thorne bloodline. He explains how he pledged himself to guard the liminal gate until an heir could see the midnight blossoms and decide the romance, fantasy style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 61. story-745829103-story-745829103-c15.jpg
+Story: The Midnight Garden
+Node: story-745829103-c15
+Folder: src/assets/images/nodes/
+
+Prompt:
+Your vision synchronizes with Elias\ romance, fantasy style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 62. story-745829103-story-745829103-c17.jpg
+Story: The Midnight Garden
+Node: story-745829103-c17
+Folder: src/assets/images/nodes/
+
+Prompt:
+The energy you pulled back coils inside your chest like a captured comet. Every heartbeat sends sparks down your arms, and the flowers nearest you bloom brighter, bending toward your warmth. romance, fantasy style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 63. story-745829103-story-745829103-c19.jpg
+Story: The Midnight Garden
+Node: story-745829103-c19
+Folder: src/assets/images/nodes/
+
+Prompt:
+The journal reveals a pact struck a century ago: the first heir able to see the midnight blooms must choose to keep the garden between worlds or seal it forever. Elias remains bound until that choice  romance, fantasy style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 64. story-745829103-story-745829103-c21.jpg
+Story: The Midnight Garden
+Node: story-745829103-c21
+Folder: src/assets/images/nodes/
+
+Prompt:
+Standing within the circle of moonlight, you feel the garden attune to both your breaths. Elias speaks of dawns he has never witnessed and futures he no longer dares imagine. romance, fantasy style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 65. story-745829103-story-745829103-c23.jpg
+Story: The Midnight Garden
+Node: story-745829103-c23
+Folder: src/assets/images/nodes/
+
+Prompt:
+The crescent key warms in your palm, unfolding into a talisman etched with constellations. You sense it can disrupt the enchantment—or redirect it—depending on whose name you speak. romance, fantasy style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 66. story-745829103-story-745829103-c25.jpg
+Story: The Midnight Garden
+Node: story-745829103-c25
+Folder: src/assets/images/nodes/
+
+Prompt:
+Behind the humming door you find a lantern suspended in midair, its crystal core shattered into hovering fragments. Each shard holds a memory of the garden at different moons, suspended in time. romance, fantasy style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 67. story-745829103-story-745829103-c27.jpg
+Story: The Midnight Garden
+Node: story-745829103-c27
+Folder: src/assets/images/nodes/
+
+Prompt:
+Accepting the vow floods you with lineage—faces of keepers who chose duty over daylight. Elias watches, an unreadable tenderness in his gaze, as the garden recognizes you as its next guardian. romance, fantasy style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 68. story-745829103-story-745829103-c29.jpg
+Story: The Midnight Garden
+Node: story-745829103-c29
+Folder: src/assets/images/nodes/
+
+Prompt:
+You challenge the oath, weaving new words into the air. The blooms flicker between fear and exhilaration while Elias steadies you, ready to follow wherever you lead. romance, fantasy style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 69. story-745829103-story-745829103-c31.jpg
+Story: The Midnight Garden
+Node: story-745829103-c31
+Folder: src/assets/images/nodes/
+
+Prompt:
+With the lantern restored, the garden hums in harmony. Moonlight and heartbeat blend until you cannot tell where you end and Elias begins. romance, fantasy style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 70. story-745829103-story-745829103-c33.jpg
+Story: The Midnight Garden
+Node: story-745829103-c33
+Folder: src/assets/images/nodes/
+
+Prompt:
+You hold the surge of magic without surrendering to it. The manor groans as the boundary between worlds thins, offering a path back to sunlight if you dare step through together. romance, fantasy style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 71. story-745829103-story-745829103-c35.jpg
+Story: The Midnight Garden
+Node: story-745829103-c35
+Folder: src/assets/images/nodes/
+
+Prompt:
+As the talisman flares and shards scatter, time stutters around the garden. Petals freeze mid-fall while distant church bells ring backward. You have seconds to decide what this new freedom will cost. romance, fantasy style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 72. story-745829103-story-745829103-c37.jpg
+Story: The Midnight Garden
+Node: story-745829103-c37
+Folder: src/assets/images/nodes/
+
+Prompt:
+You choose the moonlit path, remaining with Elias as the garden\ romance, fantasy style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 73. story-745829103-story-745829103-21.jpg
+Story: The Midnight Garden
+Node: story-745829103-21
+Folder: src/assets/images/nodes/
+
+Prompt:
+You guide Elias beyond the gates as dawn breaks, carrying a single luminous bloom as proof the magic can survive the sun. The manor awakens to laughter, music, and a garden that finally welcomes dayli romance, fantasy style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 74. story-745829103-story-745829103-22.jpg
+Story: The Midnight Garden
+Node: story-745829103-22
+Folder: src/assets/images/nodes/
+
+Prompt:
+You release the trapped hours, breaking the oath that bound Elias. The garden erupts in a final blaze of light before the blooms dissolve into stardust. Freedom is yours, but the midnight wonder becom romance, fantasy style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 75. story-745829103-story-745829103-23.jpg
+Story: The Midnight Garden
+Node: story-745829103-23
+Folder: src/assets/images/nodes/
+
+Prompt:
+You seal the garden away to spare Elias the curse, but the magic withers without the moon. The manor grows quiet, the blooms preserved only in portraits and dreams. Every night you wonder if another c romance, fantasy style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 76. cover-story-7481296.jpg
+Story: Midnight Missing
+Folder: src/assets/images/covers/
+
+Prompt:
+When a young woman vanishes without a trace, a determined detective must navigate city shadows and unravel a web of clues before time runs out. Every decision could mean a life saved or a trail gone cold. Cinematic cover art, detective, mystery style, dramatic lighting, high quality, 800x600px
+
+---
+
+## 77. story-7481296-story-7481296.jpg
+Story: Midnight Missing
+Node: story-7481296
+Folder: src/assets/images/nodes/
+
+Prompt:
+Alan\ detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 78. story-7481296-story-7481296-c1.jpg
+Story: Midnight Missing
+Node: story-7481296-c1
+Folder: src/assets/images/nodes/
+
+Prompt:
+Alan\ detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 79. story-7481296-story-7481296-c3.jpg
+Story: Midnight Missing
+Node: story-7481296-c3
+Folder: src/assets/images/nodes/
+
+Prompt:
+Alan\ detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 80. story-7481296-story-7481296-c5.jpg
+Story: Midnight Missing
+Node: story-7481296-c5
+Folder: src/assets/images/nodes/
+
+Prompt:
+Alan\ detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 81. story-7481296-story-7481296-c8.jpg
+Story: Midnight Missing
+Node: story-7481296-c8
+Folder: src/assets/images/nodes/
+
+Prompt:
+Alan\ detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 82. story-7481296-story-7481296-c10.jpg
+Story: Midnight Missing
+Node: story-7481296-c10
+Folder: src/assets/images/nodes/
+
+Prompt:
+Alan\ detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 83. story-7481296-story-7481296-c12.jpg
+Story: Midnight Missing
+Node: story-7481296-c12
+Folder: src/assets/images/nodes/
+
+Prompt:
+Alan\ detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 84. story-7481296-story-7481296-c14.jpg
+Story: Midnight Missing
+Node: story-7481296-c14
+Folder: src/assets/images/nodes/
+
+Prompt:
+You flash your badge at the bartender. He sighs, setting down a glass. "Emily? Yeah, I\ detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 85. story-7481296-story-7481296-c16.jpg
+Story: Midnight Missing
+Node: story-7481296-c16
+Folder: src/assets/images/nodes/
+
+Prompt:
+You flash your badge at the bartender. He sighs, setting down a glass. "Emily? Yeah, I\ detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 86. story-7481296-story-7481296-c18.jpg
+Story: Midnight Missing
+Node: story-7481296-c18
+Folder: src/assets/images/nodes/
+
+Prompt:
+You flash your badge at the bartender. He sighs, setting down a glass. "Emily? Yeah, I\ detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 87. story-7481296-story-7481296-c20.jpg
+Story: Midnight Missing
+Node: story-7481296-c20
+Folder: src/assets/images/nodes/
+
+Prompt:
+With a shout of "Police!" you and the team charge through the warehouse entrance. The rusted door clangs as it slams against the wall. Alan whips around in alarm. He grabs Emily, yanking her up as a h detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 88. story-7481296-story-7481296-c22.jpg
+Story: Midnight Missing
+Node: story-7481296-c22
+Folder: src/assets/images/nodes/
+
+Prompt:
+With a shout of "Police!" you and the team charge through the warehouse entrance. The rusted door clangs as it slams against the wall. Alan whips around in alarm. He grabs Emily, yanking her up as a h detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 89. story-7481296-story-7481296-c24.jpg
+Story: Midnight Missing
+Node: story-7481296-c24
+Folder: src/assets/images/nodes/
+
+Prompt:
+With a shout of "Police!" you and the team charge through the warehouse entrance. The rusted door clangs as it slams against the wall. Alan whips around in alarm. He grabs Emily, yanking her up as a h detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 90. story-7481296-story-7481296-c26.jpg
+Story: Midnight Missing
+Node: story-7481296-c26
+Folder: src/assets/images/nodes/
+
+Prompt:
+With a shout of "Police!" you and the team charge through the warehouse entrance. The rusted door clangs as it slams against the wall. Alan whips around in alarm. He grabs Emily, yanking her up as a h detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 91. story-7481296-story-7481296-c28.jpg
+Story: Midnight Missing
+Node: story-7481296-c28
+Folder: src/assets/images/nodes/
+
+Prompt:
+With a shout of "Police!" you and the team charge through the warehouse entrance. The rusted door clangs as it slams against the wall. Alan whips around in alarm. He grabs Emily, yanking her up as a h detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 92. story-7481296-story-7481296-c30.jpg
+Story: Midnight Missing
+Node: story-7481296-c30
+Folder: src/assets/images/nodes/
+
+Prompt:
+With a shout of "Police!" you and the team charge through the warehouse entrance. The rusted door clangs as it slams against the wall. Alan whips around in alarm. He grabs Emily, yanking her up as a h detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 93. story-7481296-story-7481296-c32.jpg
+Story: Midnight Missing
+Node: story-7481296-c32
+Folder: src/assets/images/nodes/
+
+Prompt:
+Time slows as you squeeze the trigger. The gunshot echoes through the cavernous warehouse. **Alan** staggers backward, the knife dropping from his hand. Your shot strikes true, incapacitating him befo detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 94. story-7481296-story-7481296-18.jpg
+Story: Midnight Missing
+Node: story-7481296-18
+Folder: src/assets/images/nodes/
+
+Prompt:
+Time slows as you squeeze the trigger. The gunshot echoes through the cavernous warehouse. **Alan** staggers backward, the knife dropping from his hand. Your shot strikes true, incapacitating him befo detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 95. story-7481296-story-7481296-19.jpg
+Story: Midnight Missing
+Node: story-7481296-19
+Folder: src/assets/images/nodes/
+
+Prompt:
+Time slows as you squeeze the trigger. The gunshot echoes through the cavernous warehouse. **Alan** staggers backward, the knife dropping from his hand. Your shot strikes true, incapacitating him befo detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 96. story-7481296-story-7481296-20.jpg
+Story: Midnight Missing
+Node: story-7481296-20
+Folder: src/assets/images/nodes/
+
+Prompt:
+When a young woman vanishes without a trace, a determined detective must navigate city shadows and unravel a web of clues before time runs out. Every decision could mean a life saved or a trail gone cold. detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 97. story-7481296-story-7481296-21.jpg
+Story: Midnight Missing
+Node: story-7481296-21
+Folder: src/assets/images/nodes/
+
+Prompt:
+When a young woman vanishes without a trace, a determined detective must navigate city shadows and unravel a web of clues before time runs out. Every decision could mean a life saved or a trail gone cold. detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 98. cover-story-8273910265.jpg
+Story: Shadows of the Vanished Star
+Folder: src/assets/images/covers/
+
+Prompt:
+When a tech heiress vanishes and only a cryptic ornament remains, private detective Sam Mercer is drawn into a labyrinth of rain‑soaked alleys, secret libraries and shadowed docks. Every clue raises new questions and every decision pulls him deeper into a conspiracy that reaches the city Cinematic cover art, detective, mystery style, dramatic lighting, high quality, 800x600px
+
+---
+
+## 99. story-8273910265-story-8273910265.jpg
+Story: Shadows of the Vanished Star
+Node: story-8273910265
+Folder: src/assets/images/nodes/
+
+Prompt:
+The rain beats against your office window as you stare at the blinking neon outside. A shadow crosses the threshold and a woman in a soaked trench coat steps in, her eyes pleading as she produces a st detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 100. story-8273910265-story-8273910265-c1.jpg
+Story: Shadows of the Vanished Star
+Node: story-8273910265-c1
+Folder: src/assets/images/nodes/
+
+Prompt:
+Police tape flutters in the wet wind as blue lights wash over the alley where the heiress was last seen. Officers hustle to and fro, questions echoing off brick walls while onlookers murmur behind umb detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 101. story-8273910265-story-8273910265-c3.jpg
+Story: Shadows of the Vanished Star
+Node: story-8273910265-c3
+Folder: src/assets/images/nodes/
+
+Prompt:
+You send the woman away but curiosity gnaws at you. Through the rain‑streaked glass you spot a figure lurking across the street, camera in hand, snapping shots of your office. The alley glistens under detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 102. story-8273910265-story-8273910265-c5.jpg
+Story: Shadows of the Vanished Star
+Node: story-8273910265-c5
+Folder: src/assets/images/nodes/
+
+Prompt:
+Kneeling beside the lifeless form, you catch the metallic smell of blood mingled with rain. Tucked beneath the victim\ detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 103. story-8273910265-story-8273910265-c7.jpg
+Story: Shadows of the Vanished Star
+Node: story-8273910265-c7
+Folder: src/assets/images/nodes/
+
+Prompt:
+A jittery bystander leans against a rain‑speckled window, phone pressed to their ear. Eyes darting, they clutch their coat tighter as you approach. The hum of the city seems to fade as you decide whet detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 104. story-8273910265-story-8273910265-c9.jpg
+Story: Shadows of the Vanished Star
+Node: story-8273910265-c9
+Folder: src/assets/images/nodes/
+
+Prompt:
+You blend into the downpour, letting the suspect lead you through alleys washed in neon. Each puddle reflects a fractured world. From beneath your coat you feel the weight of your own tech; a laptop h detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 105. story-8273910265-story-8273910265-c11.jpg
+Story: Shadows of the Vanished Star
+Node: story-8273910265-c11
+Folder: src/assets/images/nodes/
+
+Prompt:
+Inside the envelope you find a photograph of a star‑shaped pendant and a coded message written in red ink. The paper feels slick under your wet fingers. The symbols hint at library catalogues and old  detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 106. story-8273910265-story-8273910265-c13.jpg
+Story: Shadows of the Vanished Star
+Node: story-8273910265-c13
+Folder: src/assets/images/nodes/
+
+Prompt:
+Back in your own lab, flickering monitors illuminate your face. You scan the envelope for prints and analyze the ink under glaring light. A fingerprint matches an underworld fixer, and a GPS tag point detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 107. story-8273910265-story-8273910265-c15.jpg
+Story: Shadows of the Vanished Star
+Node: story-8273910265-c15
+Folder: src/assets/images/nodes/
+
+Prompt:
+Your efforts pay off: a whispered confession or hacked message reveals a rendezvous at an abandoned warehouse tagged with graffiti. The building looms like a dark monument against the skyline. You can detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 108. story-8273910265-story-8273910265-c17.jpg
+Story: Shadows of the Vanished Star
+Node: story-8273910265-c17
+Folder: src/assets/images/nodes/
+
+Prompt:
+The suspect slips onto a midnight train and you hurry to the yard, steam hissing from dormant engines. Darkness cloaks the tracks as the last call echoes through loudspeakers. You can board the train  detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 109. story-8273910265-story-8273910265-c19.jpg
+Story: Shadows of the Vanished Star
+Node: story-8273910265-c19
+Folder: src/assets/images/nodes/
+
+Prompt:
+Dust motes dance in shafts of light as you wander endless stacks of books. The smell of old paper surrounds you. You trace obscure catalog numbers until your fingers land on a tome describing a star o detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 110. story-8273910265-story-8273910265-c21.jpg
+Story: Shadows of the Vanished Star
+Node: story-8273910265-c21
+Folder: src/assets/images/nodes/
+
+Prompt:
+Rows of green code cascade down your friend\ detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 111. story-8273910265-story-8273910265-c23.jpg
+Story: Shadows of the Vanished Star
+Node: story-8273910265-c23
+Folder: src/assets/images/nodes/
+
+Prompt:
+The smell of salt and diesel hangs heavy as you creep between crates at the docks. A lone boat rocks gently against weathered pilings, voices murmuring above the splash of waves. Do you remain hidden  detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 112. story-8273910265-story-8273910265-c25.jpg
+Story: Shadows of the Vanished Star
+Node: story-8273910265-c25
+Folder: src/assets/images/nodes/
+
+Prompt:
+Wind whips across the rooftop as you corner the suspect against a backdrop of towering skyscrapers, their windows glittering like stars. Sweat beads under your collar despite the cold. With nowhere le detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 113. story-8273910265-story-8273910265-c27.jpg
+Story: Shadows of the Vanished Star
+Node: story-8273910265-c27
+Folder: src/assets/images/nodes/
+
+Prompt:
+The train pulls away and you find yourself in a deserted station corridor, fluorescent lights flickering overhead. Footsteps echo in the distance, then vanish. Your target has slipped into the darknes detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 114. story-8273910265-story-8273910265-c29.jpg
+Story: Shadows of the Vanished Star
+Node: story-8273910265-c29
+Folder: src/assets/images/nodes/
+
+Prompt:
+Deep beneath marble floors, a chilled vault door swings open with a hiss. Using the star ornament as a key, you reveal folders of damning documents linking the city\ detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 115. story-8273910265-story-8273910265-c31.jpg
+Story: Shadows of the Vanished Star
+Node: story-8273910265-c31
+Folder: src/assets/images/nodes/
+
+Prompt:
+Moonlight paints the pier silver as waves lap against its weathered boards. A lone figure waits beneath a lamp, face hidden beneath a hood. They offer you a choice – join them and share in the profits detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 116. story-8273910265-story-8273910265-c33.jpg
+Story: Shadows of the Vanished Star
+Node: story-8273910265-c33
+Folder: src/assets/images/nodes/
+
+Prompt:
+With allies at your side, you push open a door into a long, dim hallway. Footsteps echo as you approach a meeting in progress, voices low and conspiratorial. Do you storm in and make arrests or stay b detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 117. story-8273910265-story-8273910265-c35.jpg
+Story: Shadows of the Vanished Star
+Node: story-8273910265-c35
+Folder: src/assets/images/nodes/
+
+Prompt:
+You charge into the fray and the gang scatters like shadows in rain. A shot rings out, a boat engine roars, and the mastermind vanishes into the night. Weeks later you stare at your cork board, thread detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 118. story-8273910265-story-8273910265-20.jpg
+Story: Shadows of the Vanished Star
+Node: story-8273910265-20
+Folder: src/assets/images/nodes/
+
+Prompt:
+You choose the lawful path. With solid evidence in hand and back‑up at your side, you watch as the conspirators are hauled before a judge. The courtroom\ detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 119. story-8273910265-story-8273910265-21.jpg
+Story: Shadows of the Vanished Star
+Node: story-8273910265-21
+Folder: src/assets/images/nodes/
+
+Prompt:
+Temptation wins. You pocket the files and step into the inner circle. The ladder you climb may be gilded, but every rung is slick with guilt. Wealth and connections flow your way, yet in quiet moments detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 120. story-8273910265-story-8273910265-22.jpg
+Story: Shadows of the Vanished Star
+Node: story-8273910265-22
+Folder: src/assets/images/nodes/
+
+Prompt:
+You choose exposure over safety. Hidden behind glowing monitors, you compile recordings and documents and leak them to the press. Headlines explode, powerful figures fall, and the city convulses. You  detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 121. cover-story-847362910.jpg
+Story: The Midnight Caller
+Folder: src/assets/images/covers/
+
+Prompt:
+Someone knows what you did last summer. The phone rings at 3 AM with a voice from your past, and now you have 48 hours to find them before they find you. Every choice could be your last. Cinematic cover art, detective, mystery style, dramatic lighting, high quality, 800x600px
+
+---
+
+## 122. story-847362910-story-847362910.jpg
+Story: The Midnight Caller
+Node: story-847362910
+Folder: src/assets/images/nodes/
+
+Prompt:
+Your phone screams at 3:17 AM, shattering the silence of your apartment. The number is blocked, but you answer anyway—nobody calls this late with good news. A distorted voice whispers through static:  detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 123. story-847362910-story-847362910-c1.jpg
+Story: The Midnight Caller
+Node: story-847362910-c1
+Folder: src/assets/images/nodes/
+
+Prompt:
+The file box sits in your closet where you left it three years ago, covered in dust and regret. Inside, crime scene photos show the park at dawn, yellow tape cordoning off the gazebo. The victim, Marc detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 124. story-847362910-story-847362910-c4.jpg
+Story: The Midnight Caller
+Node: story-847362910-c4
+Folder: src/assets/images/nodes/
+
+Prompt:
+Riverside Park looks different at 4 AM—the playground equipment casts twisted shadows across the grass, and fog rolls off the water like something alive. You make your way to the gazebo where Marcus D detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 125. story-847362910-story-847362910-c6.jpg
+Story: The Midnight Caller
+Node: story-847362910-c6
+Folder: src/assets/images/nodes/
+
+Prompt:
+Riverside Park looks different at 4 AM—the playground equipment casts twisted shadows across the grass, and fog rolls off the water like something alive. You make your way to the gazebo where Marcus D detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 126. story-847362910-story-847362910-c9.jpg
+Story: The Midnight Caller
+Node: story-847362910-c9
+Folder: src/assets/images/nodes/
+
+Prompt:
+The cannery looms against the pre-dawn sky like a rusted cathedral. You slip through a broken fence and enter through a side door hanging off its hinges. Inside, machinery sits frozen in time, covered detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 127. story-847362910-story-847362910-c11.jpg
+Story: The Midnight Caller
+Node: story-847362910-c11
+Folder: src/assets/images/nodes/
+
+Prompt:
+The cannery looms against the pre-dawn sky like a rusted cathedral. You slip through a broken fence and enter through a side door hanging off its hinges. Inside, machinery sits frozen in time, covered detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 128. story-847362910-story-847362910-c13.jpg
+Story: The Midnight Caller
+Node: story-847362910-c13
+Folder: src/assets/images/nodes/
+
+Prompt:
+The cannery looms against the pre-dawn sky like a rusted cathedral. You slip through a broken fence and enter through a side door hanging off its hinges. Inside, machinery sits frozen in time, covered detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 129. story-847362910-story-847362910-c15.jpg
+Story: The Midnight Caller
+Node: story-847362910-c15
+Folder: src/assets/images/nodes/
+
+Prompt:
+You sprint into the trees, branches whipping past your face as you pursue the fleeing shadow. They\ detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 130. story-847362910-story-847362910-c17.jpg
+Story: The Midnight Caller
+Node: story-847362910-c17
+Folder: src/assets/images/nodes/
+
+Prompt:
+You sprint into the trees, branches whipping past your face as you pursue the fleeing shadow. They\ detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 131. story-847362910-story-847362910-c19.jpg
+Story: The Midnight Caller
+Node: story-847362910-c19
+Folder: src/assets/images/nodes/
+
+Prompt:
+You sprint into the trees, branches whipping past your face as you pursue the fleeing shadow. They\ detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 132. story-847362910-story-847362910-c21.jpg
+Story: The Midnight Caller
+Node: story-847362910-c21
+Folder: src/assets/images/nodes/
+
+Prompt:
+Two officers arrive within fifteen minutes and sweep your apartment. They find the entry point—your fire escape window—and set up surveillance. You try to sleep, but your mind races with questions. At detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 133. story-847362910-story-847362910-c23.jpg
+Story: The Midnight Caller
+Node: story-847362910-c23
+Folder: src/assets/images/nodes/
+
+Prompt:
+Two officers arrive within fifteen minutes and sweep your apartment. They find the entry point—your fire escape window—and set up surveillance. You try to sleep, but your mind races with questions. At detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 134. story-847362910-story-847362910-c25.jpg
+Story: The Midnight Caller
+Node: story-847362910-c25
+Folder: src/assets/images/nodes/
+
+Prompt:
+The Morrison Hotel smells like old carpet and regret. You take the stairs to the fourth floor, weapon ready, and approach room 412. The key card works. Inside, the room is dark except for a laptop glo detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 135. story-847362910-story-847362910-c27.jpg
+Story: The Midnight Caller
+Node: story-847362910-c27
+Folder: src/assets/images/nodes/
+
+Prompt:
+The Morrison Hotel smells like old carpet and regret. You take the stairs to the fourth floor, weapon ready, and approach room 412. The key card works. Inside, the room is dark except for a laptop glo detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 136. story-847362910-story-847362910-c29.jpg
+Story: The Midnight Caller
+Node: story-847362910-c29
+Folder: src/assets/images/nodes/
+
+Prompt:
+You park across from the bookstore with a clear view of the entrance. Hours pass. At 2 PM, a woman in a dark coat and sunglasses approaches the store, looks around nervously, and slips inside. She eme detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 137. story-847362910-story-847362910-c31.jpg
+Story: The Midnight Caller
+Node: story-847362910-c31
+Folder: src/assets/images/nodes/
+
+Prompt:
+The metal stairs groan under your weight as you climb toward the music. Third floor, fourth floor—the building seems to stretch on forever. Finally, you reach a door hanging open, and the music is lou detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 138. story-847362910-story-847362910-c33.jpg
+Story: The Midnight Caller
+Node: story-847362910-c33
+Folder: src/assets/images/nodes/
+
+Prompt:
+You methodically search each room on the ground floor—old offices, a break room with moldy coffee cups, storage closets full of rusted equipment. In the last office, you find something that makes your detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 139. story-847362910-story-847362910-c35.jpg
+Story: The Midnight Caller
+Node: story-847362910-c35
+Folder: src/assets/images/nodes/
+
+Prompt:
+You wait for backup, and when they arrive, the cannery is empty. Sarah Chen is found safe at home—the text was a bluff. Rebecca Dalton is arrested trying to board a plane to Mexico. In custody, she co detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 140. story-847362910-story-847362910-19.jpg
+Story: The Midnight Caller
+Node: story-847362910-19
+Folder: src/assets/images/nodes/
+
+Prompt:
+You make your move, fast and decisive, but she\ detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 141. story-847362910-story-847362910-20.jpg
+Story: The Midnight Caller
+Node: story-847362910-20
+Folder: src/assets/images/nodes/
+
+Prompt:
+You make your move, fast and decisive, but she\ detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 142. story-847362910-story-847362910-21.jpg
+Story: The Midnight Caller
+Node: story-847362910-21
+Folder: src/assets/images/nodes/
+
+Prompt:
+You make your move, fast and decisive, but she\ detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 143. story-847362910-story-847362910-22.jpg
+Story: The Midnight Caller
+Node: story-847362910-22
+Folder: src/assets/images/nodes/
+
+Prompt:
+Someone knows what you did last summer. The phone rings at 3 AM with a voice from your past, and now you have 48 hours to find them before they find you. Every choice could be your last. detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 144. cover-story-8743921042.jpg
+Story: Echoes of the Moonlit Grove
+Folder: src/assets/images/covers/
+
+Prompt:
+When the moon rises full over Blackbriar Forest, an old bargain wakes. You carry a shard of a broken sigil that hums near the trees, calling you toward a forgotten crown and a debt the grove intends to collect. Choose allies, honor, or power—but the grove always takes its due. Cinematic cover art, fantasy, adventure style, dramatic lighting, high quality, 800x600px
+
+---
+
+## 145. story-8743921042-story-8743921042.jpg
+Story: Echoes of the Moonlit Grove
+Node: story-8743921042
+Folder: src/assets/images/nodes/
+
+Prompt:
+A blue-white moon climbs above Blackbriar’s tangled crowns, and the shard in your pocket warms as if it remembers a promise. Owls fall silent. Between the pines, a narrow path gleams like wet ink, pul fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 146. story-8743921042-story-8743921042-c1.jpg
+Story: Echoes of the Moonlit Grove
+Node: story-8743921042-c1
+Folder: src/assets/images/nodes/
+
+Prompt:
+Mist coils at your knees, whispering your name in voices you almost know. Pale moths drift ahead, forming arrows that point deeper. A smell of wet iron rides the air. Somewhere distant, a bell rings o fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 147. story-8743921042-story-8743921042-c3.jpg
+Story: Echoes of the Moonlit Grove
+Node: story-8743921042-c3
+Folder: src/assets/images/nodes/
+
+Prompt:
+The shard is a crescent of dark glass etched with thorny runes. When you breathe across it, frost halos the markings and a second pattern blooms—a crown without a wearer. The wood answers with a low g fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 148. story-8743921042-story-8743921042-c5.jpg
+Story: Echoes of the Moonlit Grove
+Node: story-8743921042-c5
+Folder: src/assets/images/nodes/
+
+Prompt:
+A yew older than any temple arches over a slow, clear rill. Red berries gleam like droplets of warning. When you touch the bark, the tree remembers you—your grandmother’s voice, a cradle-song about a  fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 149. story-8743921042-story-8743921042-c7.jpg
+Story: Echoes of the Moonlit Grove
+Node: story-8743921042-c7
+Folder: src/assets/images/nodes/
+
+Prompt:
+A rope-and-plank bridge sags over a gorge you cannot see. Down below, something breathes like surf against bone. A bell hangs from the first post, wrapped in spider-silk, as if the forest itself muzzl fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 150. story-8743921042-story-8743921042-c9.jpg
+Story: Echoes of the Moonlit Grove
+Node: story-8743921042-c9
+Folder: src/assets/images/nodes/
+
+Prompt:
+Lanterns bloom along a crooked lane where no city should be. Stalls sell bottled rain, thimble-moons, and names sewn into ribbon. A mask-maker gestures you closer, offering a face woven from briar and fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 151. story-8743921042-story-8743921042-c11.jpg
+Story: Echoes of the Moonlit Grove
+Node: story-8743921042-c11
+Folder: src/assets/images/nodes/
+
+Prompt:
+Light beads rise from the stream and spiral around you, curious as fox kits. They nudge at your chest, your hands, the shard. When one passes through your palm, your skin sings with a thin, silver ach fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 152. story-8743921042-story-8743921042-c13.jpg
+Story: Echoes of the Moonlit Grove
+Node: story-8743921042-c13
+Folder: src/assets/images/nodes/
+
+Prompt:
+A stag with tines like antlered constellations steps from the fog. Moss clings to his shoulders in a mantle; his eyes milk-white and old. He breathes frost, and the frost shapes words: “The crown must fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 153. story-8743921042-story-8743921042-c15.jpg
+Story: Echoes of the Moonlit Grove
+Node: story-8743921042-c15
+Folder: src/assets/images/nodes/
+
+Prompt:
+Carved steps descend into red stone where cold air spills like water. At the bottom yawns a door of ribbed rock and moon-metal studs. The shard in your pocket trembles, eager to be whole. fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 154. story-8743921042-story-8743921042-c17.jpg
+Story: Echoes of the Moonlit Grove
+Node: story-8743921042-c17
+Folder: src/assets/images/nodes/
+
+Prompt:
+Your guide leads you to a stone terrace where wind writes on slate. The Scribe is a hooded woman whose hair moves like ink in water. She listens to your shard, then draws three sigils that smell of ra fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 155. story-8743921042-story-8743921042-c19.jpg
+Story: Echoes of the Moonlit Grove
+Node: story-8743921042-c19
+Folder: src/assets/images/nodes/
+
+Prompt:
+The river looks still, but its surface is a skin of knives reflecting a second moon. A ferry with no ferryman waits, tied by a rope of woven hair. You can cross by trust—or test the edge and bleed a t fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 156. story-8743921042-story-8743921042-c21.jpg
+Story: Echoes of the Moonlit Grove
+Node: story-8743921042-c21
+Folder: src/assets/images/nodes/
+
+Prompt:
+A hollow tree opens like a chapel, candles guttering in sap-lit niches. Whispered names drift through—lineage, debts, vows. The shard warms until it hurts, and you understand: taking the crown means w fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 157. story-8743921042-story-8743921042-c23.jpg
+Story: Echoes of the Moonlit Grove
+Node: story-8743921042-c23
+Folder: src/assets/images/nodes/
+
+Prompt:
+A figure of roots and wind sits upon a stone chair, his brow raw where a diadem once rested. When he turns, you see your own cheekbones, your family’s eyes—your line once held the crown. The grove hum fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 158. story-8743921042-story-8743921042-c25.jpg
+Story: Echoes of the Moonlit Grove
+Node: story-8743921042-c25
+Folder: src/assets/images/nodes/
+
+Prompt:
+Stairs chipped from bone-white stone zigzag into fog. Each turn shows the moon larger until it fills the sky with a cold face. Your breath feathers; your resolve hardens to match the climb. fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 159. story-8743921042-story-8743921042-c27.jpg
+Story: Echoes of the Moonlit Grove
+Node: story-8743921042-c27
+Folder: src/assets/images/nodes/
+
+Prompt:
+A cavern opens beneath a painted sky where thousands of seeds hang in cobweb silk. Each seed beats like a tiny heart, each a future forest waiting for a promise. The crown sits upon a pedestal of wove fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 160. story-8743921042-story-8743921042-c29.jpg
+Story: Echoes of the Moonlit Grove
+Node: story-8743921042-c29
+Folder: src/assets/images/nodes/
+
+Prompt:
+On a frozen ridge, the wind hardens into a shape that mirrors you blow for blow. Each strike rings, shaking snow from black pines. The grove watches without breath, judging which self will serve it be fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 161. story-8743921042-story-8743921042-c31.jpg
+Story: Echoes of the Moonlit Grove
+Node: story-8743921042-c31
+Folder: src/assets/images/nodes/
+
+Prompt:
+Fog folds into a circle of standing stones, every surface carved with offerings—hair, teeth, rings, lullabies written in ash. The grove does not bargain without coin. You can buy a path, but you must  fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 162. story-8743921042-story-8743921042-c33.jpg
+Story: Echoes of the Moonlit Grove
+Node: story-8743921042-c33
+Folder: src/assets/images/nodes/
+
+Prompt:
+The crown accepts the shard, and the grove exhales a spring-scented breath. Birds wake as the first gold spills through the trees. You walk out wearing no metal, only a garland of fresh shoots—steward fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 163. story-8743921042-story-8743921042-19.jpg
+Story: Echoes of the Moonlit Grove
+Node: story-8743921042-19
+Folder: src/assets/images/nodes/
+
+Prompt:
+Seeds burst in a rush of roots that crack stone and swallow halls. The crown smothers under a green tide that does not care for kings. Years later, travelers whisper of a new wood that grows too quick fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 164. story-8743921042-story-8743921042-20.jpg
+Story: Echoes of the Moonlit Grove
+Node: story-8743921042-20
+Folder: src/assets/images/nodes/
+
+Prompt:
+You bow to your reflection, and it steps forward, wearing your face and a crown of living vine. The aurora ripples in the antlers of the watching stag as roots rise to form a throne. You will rule by  fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 165. story-8743921042-story-8743921042-21.jpg
+Story: Echoes of the Moonlit Grove
+Node: story-8743921042-21
+Folder: src/assets/images/nodes/
+
+Prompt:
+The mirror shatters, but so does the path home. You learn the side-trails of the grove, guiding wanderers to safe clearings with a lantern of your own making. Some nights you almost remember a differe fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 166. story-8743921042-story-8743921042-22.jpg
+Story: Echoes of the Moonlit Grove
+Node: story-8743921042-22
+Folder: src/assets/images/nodes/
+
+Prompt:
+On a shore where roots drink the tide, you swear to carry the grove’s law beyond its trees. The crown dissolves to light that threads your veins, cold and clean. You leave footprints that sprout grass fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 167. cover-story-8923745610923.jpg
+Story: Paradox Palette
+Folder: src/assets/images/covers/
+
+Prompt:
+At midnight, a museum restorer discovers a sketchbook that can repaint time. Each line drawn mends one fracture and splits another, as a grieving curator moves to excise a tragic hour forever. Can you compose a timeline that holds--before the canvas tears itself apart? Cinematic cover art, scifi, mystery style, dramatic lighting, high quality, 800x600px
+
+---
+
+## 168. story-8923745610923-story-8923745610923.jpg
+Story: Paradox Palette
+Node: story-8923745610923
+Folder: src/assets/images/nodes/
+
+Prompt:
+On a workbench beneath a single lamp, gears glint like stars embedded in brass. Nova flips open a jet-black sketchbook--the ChronoCanvas--and a faint hum prickles the air. A line drawn across the page scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 169. story-8923745610923-story-8923745610923-c1.jpg
+Story: Paradox Palette
+Node: story-8923745610923-c1
+Folder: src/assets/images/nodes/
+
+Prompt:
+Rain needles the neon-slick pavement behind the museum. Nova sketches a thin arc; the puddle ripples backwards, raindrops leaping up like rewinding glass. A greenish seam opens above the gutter for a  scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 170. story-8923745610923-story-8923745610923-c3.jpg
+Story: Paradox Palette
+Node: story-8923745610923-c3
+Folder: src/assets/images/nodes/
+
+Prompt:
+Rain needles the neon-slick pavement behind the museum. Nova sketches a thin arc; the puddle ripples backwards, raindrops leaping up like rewinding glass. A greenish seam opens above the gutter for a  scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 171. story-8923745610923-story-8923745610923-c5.jpg
+Story: Paradox Palette
+Node: story-8923745610923-c5
+Folder: src/assets/images/nodes/
+
+Prompt:
+The curator pauses beneath vaulted ceilings, murmuring to the blueprint as if it might answer. The paper glows faintly where ink maps a spiral of hours cut from a single day. A name--"The Hour We Refu scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 172. story-8923745610923-story-8923745610923-c7.jpg
+Story: Paradox Palette
+Node: story-8923745610923-c7
+Folder: src/assets/images/nodes/
+
+Prompt:
+The central mechanism opens like a ribcage, gears glistening with oil and memory. With a careful stroke, Nova bridges a missing tooth; the second hand exhales into smooth motion. In that calm, a hidde scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 173. story-8923745610923-story-8923745610923-c9.jpg
+Story: Paradox Palette
+Node: story-8923745610923-c9
+Folder: src/assets/images/nodes/
+
+Prompt:
+The central mechanism opens like a ribcage, gears glistening with oil and memory. With a careful stroke, Nova bridges a missing tooth; the second hand exhales into smooth motion. In that calm, a hidde scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 174. story-8923745610923-story-8923745610923-c12.jpg
+Story: Paradox Palette
+Node: story-8923745610923-c12
+Folder: src/assets/images/nodes/
+
+Prompt:
+The central mechanism opens like a ribcage, gears glistening with oil and memory. With a careful stroke, Nova bridges a missing tooth; the second hand exhales into smooth motion. In that calm, a hidde scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 175. story-8923745610923-story-8923745610923-c14.jpg
+Story: Paradox Palette
+Node: story-8923745610923-c14
+Folder: src/assets/images/nodes/
+
+Prompt:
+The central mechanism opens like a ribcage, gears glistening with oil and memory. With a careful stroke, Nova bridges a missing tooth; the second hand exhales into smooth motion. In that calm, a hidde scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 176. story-8923745610923-story-8923745610923-c16.jpg
+Story: Paradox Palette
+Node: story-8923745610923-c16
+Folder: src/assets/images/nodes/
+
+Prompt:
+The central mechanism opens like a ribcage, gears glistening with oil and memory. With a careful stroke, Nova bridges a missing tooth; the second hand exhales into smooth motion. In that calm, a hidde scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 177. story-8923745610923-story-8923745610923-c18.jpg
+Story: Paradox Palette
+Node: story-8923745610923-c18
+Folder: src/assets/images/nodes/
+
+Prompt:
+The clock face accepts a doorway like paint taking to primer. Cold air spills through, flavored with dust and a scent like sun on old stone. Beyond, sand sings softly in a chamber that should not be. scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 178. story-8923745610923-story-8923745610923-c20.jpg
+Story: Paradox Palette
+Node: story-8923745610923-c20
+Folder: src/assets/images/nodes/
+
+Prompt:
+In a back room smelling of binders and cedar, a torn vellum shard hides inside an old conservation file. The piece shows a glyph that looks like a brushstroke shaped into a number nine lying on its si scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 179. story-8923745610923-story-8923745610923-c22.jpg
+Story: Paradox Palette
+Node: story-8923745610923-c22
+Folder: src/assets/images/nodes/
+
+Prompt:
+In a back room smelling of binders and cedar, a torn vellum shard hides inside an old conservation file. The piece shows a glyph that looks like a brushstroke shaped into a number nine lying on its si scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 180. story-8923745610923-story-8923745610923-c24.jpg
+Story: Paradox Palette
+Node: story-8923745610923-c24
+Folder: src/assets/images/nodes/
+
+Prompt:
+You corner the curator in a gallery of antique clocks; time around you hushes in respect. Their eyes are salted with grief, voice brittle as they admit the plan: cut the hour of loss and refuse its ec scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 181. story-8923745610923-story-8923745610923-c26.jpg
+Story: Paradox Palette
+Node: story-8923745610923-c26
+Folder: src/assets/images/nodes/
+
+Prompt:
+A sand-scented draft whispers from an armored seam behind stacked crates. The fragment fits like a missing tooth into a circular lock, and the wall unstitches into a spiral stair. Something ancient an scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 182. story-8923745610923-story-8923745610923-c28.jpg
+Story: Paradox Palette
+Node: story-8923745610923-c28
+Folder: src/assets/images/nodes/
+
+Prompt:
+Radios crackle--guards turn their route toward the clock hall. Nova sketches a detour, lines sliding a doorway three feet to the left, just enough to slip through. The building sighs, aggravated but c scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 183. story-8923745610923-story-8923745610923-c31.jpg
+Story: Paradox Palette
+Node: story-8923745610923-c31
+Folder: src/assets/images/nodes/
+
+Prompt:
+Moonlight pools in a roofless chamber where sand drifts like snow. Reliefs show artists painting with comet tails, their murals looping days into new shapes. Footprints--fresh--circle a dais carved in scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 184. story-8923745610923-story-8923745610923-c33.jpg
+Story: Paradox Palette
+Node: story-8923745610923-c33
+Folder: src/assets/images/nodes/
+
+Prompt:
+Nova sketches a surrogate fragment: a patient curve, a breath, a return. The room brightens as the ink settles, reality acknowledging a plausible stand-in. In the margin, the ChronoCanvas writes back- scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 185. story-8923745610923-story-8923745610923-c35.jpg
+Story: Paradox Palette
+Node: story-8923745610923-c35
+Folder: src/assets/images/nodes/
+
+Prompt:
+Stars blink like nodes in a network, lines of potential connecting past to now. The blueprint overlays reality, showing the cut hour as a bright wound. The ChronoCanvas pulses, demanding a choice: hea scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 186. story-8923745610923-story-8923745610923-c37.jpg
+Story: Paradox Palette
+Node: story-8923745610923-c37
+Folder: src/assets/images/nodes/
+
+Prompt:
+The curator arrives, eyes wet but steadied by your invitation. Together you place the fragment on the dais; your hands shake in mirror. In this shared frame, grief could become a brush instead of a bl scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 187. story-8923745610923-story-8923745610923-c39.jpg
+Story: Paradox Palette
+Node: story-8923745610923-c39
+Folder: src/assets/images/nodes/
+
+Prompt:
+Wind combs the sand into patient spirals. The murals whisper an answer: to fix a wound, paint over oneself where the wound would be. The dais thrums, counting down in a language of dust and heartbeat. scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 188. story-8923745610923-story-8923745610923-c41.jpg
+Story: Paradox Palette
+Node: story-8923745610923-c41
+Folder: src/assets/images/nodes/
+
+Prompt:
+You restore the hour, accepting the backlash as a personal undertow. Days later, you wake with a new tremor, a ghost-tick in your wrist that syncs with distant storms. The world continues--whole--whil scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 189. story-8923745610923-story-8923745610923-22.jpg
+Story: Paradox Palette
+Node: story-8923745610923-22
+Folder: src/assets/images/nodes/
+
+Prompt:
+The ChronoCanvas drinks its own ink, page by page, until only a smell of rain remains. The wound closes without a seam, history smoothing over like wet paint drying. You will never sketch time again,  scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 190. story-8923745610923-story-8923745610923-23.jpg
+Story: Paradox Palette
+Node: story-8923745610923-23
+Folder: src/assets/images/nodes/
+
+Prompt:
+Given the canvas, the curator redraws the hour entirely--perfect, painless, impossible. The timeline refuses the lie, shredding into bright threads that sing like wire. You spend the rest of your days scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 191. story-8923745610923-story-8923745610923-24.jpg
+Story: Paradox Palette
+Node: story-8923745610923-24
+Folder: src/assets/images/nodes/
+
+Prompt:
+You paint a careful scar into your own days, a looped nine-and-eye embedded in your memory. The paradox swallows the wound and leaves you different--a little out of phase, bright at the edges. Sometim scifi, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 192. cover-story-892746531.jpg
+Story: The Last Letter
+Folder: src/assets/images/covers/
+
+Prompt:
+Follow the mystery to its source Cinematic cover art, romance, mystery style, dramatic lighting, high quality, 800x600px
+
+---
+
+## 193. story-892746531-story-892746531.jpg
+Story: The Last Letter
+Node: story-892746531
+Folder: src/assets/images/nodes/
+
+Prompt:
+Follow the mystery to its source romance, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 194. story-892746531-story-892746531-c1.jpg
+Story: The Last Letter
+Node: story-892746531-c1
+Folder: src/assets/images/nodes/
+
+Prompt:
+Follow the mystery to its source romance, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 195. story-892746531-story-892746531-c3.jpg
+Story: The Last Letter
+Node: story-892746531-c3
+Folder: src/assets/images/nodes/
+
+Prompt:
+Follow the mystery to its source romance, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 196. story-892746531-story-892746531-c5.jpg
+Story: The Last Letter
+Node: story-892746531-c5
+Folder: src/assets/images/nodes/
+
+Prompt:
+Follow the mystery to its source romance, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 197. story-892746531-story-892746531-c7.jpg
+Story: The Last Letter
+Node: story-892746531-c7
+Folder: src/assets/images/nodes/
+
+Prompt:
+Follow the mystery to its source romance, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 198. story-892746531-story-892746531-c9.jpg
+Story: The Last Letter
+Node: story-892746531-c9
+Folder: src/assets/images/nodes/
+
+Prompt:
+Follow the mystery to its source romance, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 199. story-892746531-story-892746531-c11.jpg
+Story: The Last Letter
+Node: story-892746531-c11
+Folder: src/assets/images/nodes/
+
+Prompt:
+Follow the mystery to its source romance, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 200. story-892746531-story-892746531-c13.jpg
+Story: The Last Letter
+Node: story-892746531-c13
+Folder: src/assets/images/nodes/
+
+Prompt:
+Follow the mystery to its source romance, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 201. story-892746531-story-892746531-c15.jpg
+Story: The Last Letter
+Node: story-892746531-c15
+Folder: src/assets/images/nodes/
+
+Prompt:
+Follow the mystery to its source romance, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 202. story-892746531-story-892746531-c17.jpg
+Story: The Last Letter
+Node: story-892746531-c17
+Folder: src/assets/images/nodes/
+
+Prompt:
+Follow the mystery to its source romance, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 203. story-892746531-story-892746531-c19.jpg
+Story: The Last Letter
+Node: story-892746531-c19
+Folder: src/assets/images/nodes/
+
+Prompt:
+Follow the mystery to its source romance, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 204. story-892746531-story-892746531-c21.jpg
+Story: The Last Letter
+Node: story-892746531-c21
+Folder: src/assets/images/nodes/
+
+Prompt:
+Follow the mystery to its source romance, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 205. story-892746531-story-892746531-c24.jpg
+Story: The Last Letter
+Node: story-892746531-c24
+Folder: src/assets/images/nodes/
+
+Prompt:
+Follow the mystery to its source romance, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 206. story-892746531-story-892746531-c26.jpg
+Story: The Last Letter
+Node: story-892746531-c26
+Folder: src/assets/images/nodes/
+
+Prompt:
+Follow the mystery to its source romance, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 207. story-892746531-story-892746531-c28.jpg
+Story: The Last Letter
+Node: story-892746531-c28
+Folder: src/assets/images/nodes/
+
+Prompt:
+Follow the mystery to its source romance, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 208. story-892746531-story-892746531-c30.jpg
+Story: The Last Letter
+Node: story-892746531-c30
+Folder: src/assets/images/nodes/
+
+Prompt:
+Follow the mystery to its source romance, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 209. story-892746531-story-892746531-c32.jpg
+Story: The Last Letter
+Node: story-892746531-c32
+Folder: src/assets/images/nodes/
+
+Prompt:
+Follow the mystery to its source romance, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 210. story-892746531-story-892746531-c34.jpg
+Story: The Last Letter
+Node: story-892746531-c34
+Folder: src/assets/images/nodes/
+
+Prompt:
+Follow the mystery to its source romance, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 211. story-892746531-story-892746531-c36.jpg
+Story: The Last Letter
+Node: story-892746531-c36
+Folder: src/assets/images/nodes/
+
+Prompt:
+Follow the mystery to its source romance, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 212. story-892746531-story-892746531-c38.jpg
+Story: The Last Letter
+Node: story-892746531-c38
+Folder: src/assets/images/nodes/
+
+Prompt:
+Follow the mystery to its source romance, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 213. story-892746531-story-892746531-c40.jpg
+Story: The Last Letter
+Node: story-892746531-c40
+Folder: src/assets/images/nodes/
+
+Prompt:
+Follow the mystery to its source romance, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 214. story-892746531-story-892746531-c42.jpg
+Story: The Last Letter
+Node: story-892746531-c42
+Folder: src/assets/images/nodes/
+
+Prompt:
+Follow the mystery to its source romance, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 215. story-892746531-story-892746531-23.jpg
+Story: The Last Letter
+Node: story-892746531-23
+Folder: src/assets/images/nodes/
+
+Prompt:
+Follow the mystery to its source romance, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 216. story-892746531-story-892746531-24.jpg
+Story: The Last Letter
+Node: story-892746531-24
+Folder: src/assets/images/nodes/
+
+Prompt:
+Follow the mystery to its source romance, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 217. cover-story-9123457712345.jpg
+Story: Heartline Rewind
+Folder: src/assets/images/covers/
+
+Prompt:
+A city is trapped in a 59-minute loop, and your sketches can splice the hours back together. But every repair ripples the past--especially the night you lost Maya. Will you restore the timeline or redraw your fate? Cinematic cover art, romance, scifi style, dramatic lighting, high quality, 800x600px
+
+---
+
+## 218. story-9123457712345-story-9123457712345.jpg
+Story: Heartline Rewind
+Node: story-9123457712345
+Folder: src/assets/images/nodes/
+
+Prompt:
+Rain stitches silver dashes across the street as a clock tower stutters: 11:01--again. Your ChronoCanvas hums in your palm like a caged metronome, the line you draw echoing through puddles and neon si romance, scifi style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 219. story-9123457712345-story-9123457712345-c1.jpg
+Story: Heartline Rewind
+Node: story-9123457712345-c1
+Folder: src/assets/images/nodes/
+
+Prompt:
+Wind chimes the guy wires around the telescope dome. Maya stands beneath a sky cleaved by clouds, studying a faint anomaly like a thumbprint in the stars. She glances toward the stairwell as if expect romance, scifi style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 220. story-9123457712345-story-9123457712345-c3.jpg
+Story: Heartline Rewind
+Node: story-9123457712345-c3
+Folder: src/assets/images/nodes/
+
+Prompt:
+Steam ghosts the cafe windows as raindrops march backwards along the glass--time snagging, then resuming. Maya laughs at a memory you should not know yet, and the laugh thins when the lights flutter t romance, scifi style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 221. story-9123457712345-story-9123457712345-c5.jpg
+Story: Heartline Rewind
+Node: story-9123457712345-c5
+Folder: src/assets/images/nodes/
+
+Prompt:
+Words spill: the hour repeats, you have met her here before, and each time you learn a little more. Maya studies you, not unkindly; her fingers find yours as thunder mutters. "If that is true," she sa romance, scifi style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 222. story-9123457712345-story-9123457712345-c7.jpg
+Story: Heartline Rewind
+Node: story-9123457712345-c7
+Folder: src/assets/images/nodes/
+
+Prompt:
+A cathedral of pendulums debates the present in overlapping ticks. One massive regulator argues loudly--its seconds hand double-steps, then sulks. You can feel the loop snag on its teeth. romance, scifi style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 223. story-9123457712345-story-9123457712345-c9.jpg
+Story: Heartline Rewind
+Node: story-9123457712345-c9
+Folder: src/assets/images/nodes/
+
+Prompt:
+A seam in the rain hangs like a cut in film; beyond it, stars glitter like screws. The air tastes of static and wet stone, tugging at your sleeves both forward and back. One bold line could anchor the romance, scifi style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 224. story-9123457712345-story-9123457712345-c12.jpg
+Story: Heartline Rewind
+Node: story-9123457712345-c12
+Folder: src/assets/images/nodes/
+
+Prompt:
+Blueprint scribbles hide coordinates beneath ornamental curls--someone nested a map in a flourish. The missing corner forms a sideways nine that also reads as an eye. You\ romance, scifi style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 225. story-9123457712345-story-9123457712345-c14.jpg
+Story: Heartline Rewind
+Node: story-9123457712345-c14
+Folder: src/assets/images/nodes/
+
+Prompt:
+Emergency lights braid your shadow with the curator\ romance, scifi style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 226. story-9123457712345-story-9123457712345-c16.jpg
+Story: Heartline Rewind
+Node: story-9123457712345-c16
+Folder: src/assets/images/nodes/
+
+Prompt:
+Your stroke bridges a missing tooth, and the seconds hand exhales to true pace. A hidden panel unlocks with a polite click. Inside: the torn vellum fragment and a key shaped like a question mark. romance, scifi style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 227. story-9123457712345-story-9123457712345-c18.jpg
+Story: Heartline Rewind
+Node: story-9123457712345-c18
+Folder: src/assets/images/nodes/
+
+Prompt:
+Ink takes to brass like dew to dawn. The clock face softens, accepting a drawn door that opens on dry, singing sand. Cold air with a scent of sun on stone brushes your cheeks. romance, scifi style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 228. story-9123457712345-story-9123457712345-c20.jpg
+Story: Heartline Rewind
+Node: story-9123457712345-c20
+Folder: src/assets/images/nodes/
+
+Prompt:
+A lattice of strokes hums around the rip, bracing it like scaffolding. The headache in your jaw loosens, and distant traffic remembers to move forward. For a blink, the loop\ romance, scifi style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 229. story-9123457712345-story-9123457712345-c22.jpg
+Story: Heartline Rewind
+Node: story-9123457712345-c22
+Folder: src/assets/images/nodes/
+
+Prompt:
+Dust motes drift like lost seconds in lamplight. In a conservation folder, the torn vellum fragment waits with an inked looped-nine--an eye and a spiral in one. It warms the air when your fingers brus romance, scifi style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 230. story-9123457712345-story-9123457712345-c24.jpg
+Story: Heartline Rewind
+Node: story-9123457712345-c24
+Folder: src/assets/images/nodes/
+
+Prompt:
+You corner the curator by a case of marine chronometers. Their grief is a raw note under their voice: they want to cut the hour they lost someone in, to unmake that pain. "Help me fix it--safely," you romance, scifi style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 231. story-9123457712345-story-9123457712345-c26.jpg
+Story: Heartline Rewind
+Node: story-9123457712345-c26
+Folder: src/assets/images/nodes/
+
+Prompt:
+Behind stacked crates, a circular seam exhales a desert draft. The vellum fragment seats into a lock that unfurls like a blooming spiral. Stairs sink toward a chamber where sand waits like a patient p romance, scifi style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 232. story-9123457712345-story-9123457712345-c28.jpg
+Story: Heartline Rewind
+Node: story-9123457712345-c28
+Folder: src/assets/images/nodes/
+
+Prompt:
+Radios crackle; footsteps align with the hall\ romance, scifi style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 233. story-9123457712345-story-9123457712345-c31.jpg
+Story: Heartline Rewind
+Node: story-9123457712345-c31
+Folder: src/assets/images/nodes/
+
+Prompt:
+Moonlight gathers in a roofless chamber; sand whispers in little avalanches. Murals show artists painting with comet tails, looping days into gentler shapes. Two sets of footprints circle the dais--yo romance, scifi style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 234. story-9123457712345-story-9123457712345-c33.jpg
+Story: Heartline Rewind
+Node: story-9123457712345-c33
+Folder: src/assets/images/nodes/
+
+Prompt:
+You draw a patient curve, a breath, a return--close to the real glyph, not quite. The Canvas writes back in a translucent note: "Almost." The loop pauses, listening. romance, scifi style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 235. story-9123457712345-story-9123457712345-c35.jpg
+Story: Heartline Rewind
+Node: story-9123457712345-c35
+Folder: src/assets/images/nodes/
+
+Prompt:
+The blueprint overlays reality: the cut hour is a bright wound, throbbing. Your Canvas pulses with two clear options--restore the hour and take the shock yourself, or let the Canvas consume itself to  romance, scifi style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 236. story-9123457712345-story-9123457712345-c37.jpg
+Story: Heartline Rewind
+Node: story-9123457712345-c37
+Folder: src/assets/images/nodes/
+
+Prompt:
+The hour returns with a soft click--rain resumes, traffic murmurs, and the city exhales. Your wrist ticks sometimes in storms, a private thunder you carry without complaint. Maya kisses the place the  romance, scifi style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 237. story-9123457712345-story-9123457712345-20.jpg
+Story: Heartline Rewind
+Node: story-9123457712345-20
+Folder: src/assets/images/nodes/
+
+Prompt:
+The Canvas drinks its own ink until only the scent of rain remains. Time smooths like fresh paint drying, and clocks across the city breathe easier. You and Maya walk out under honest weather, empty-h romance, scifi style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 238. story-9123457712345-story-9123457712345-21.jpg
+Story: Heartline Rewind
+Node: story-9123457712345-21
+Folder: src/assets/images/nodes/
+
+Prompt:
+A perfect rewrite erases the hurt--and the truth that shaped it. The timeline refuses the lie and frays into bright threads that sing like wire. You spend long nights re-braiding possibilities, and so romance, scifi style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 239. story-9123457712345-story-9123457712345-22.jpg
+Story: Heartline Rewind
+Node: story-9123457712345-22
+Folder: src/assets/images/nodes/
+
+Prompt:
+You paint a careful scar across your days, a looped nine resting under the skin of memory. The city moves on, loopless; you and Maya learn the rhythm of imperfect time. Some mornings you wake already  romance, scifi style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 240. cover-story-9328745634021.jpg
+Story: Letters on the Wind
+Folder: src/assets/images/covers/
+
+Prompt:
+Bottled notes wash ashore at dawn, each penned in the same graceful hand. When you finally meet the writer, a storm bears down and a developer eyes your boathouse. Love, like tide, asks: will you anchor--or sail? Cinematic cover art, romance, adventure style, dramatic lighting, high quality, 800x600px
+
+---
+
+## 241. story-9328745634021-story-9328745634021.jpg
+Story: Letters on the Wind
+Node: story-9328745634021
+Folder: src/assets/images/nodes/
+
+Prompt:
+A glass bottle nudges your boot at first light, sealed with blue wax and a braided thread of sea grass. Inside: a letter written in sweeping ink, addressed "To the one who listens." The air smells lik romance, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 242. story-9328745634021-story-9328745634021-c1.jpg
+Story: Letters on the Wind
+Node: story-9328745634021-c1
+Folder: src/assets/images/nodes/
+
+Prompt:
+Wind leans against the lighthouse rail as gulls draft on the upcurrent. The letter speaks of leaving cities for names written in water, of boats that know their owners by heartbeat. A postscript: "If  romance, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 243. story-9328745634021-story-9328745634021-c3.jpg
+Story: Letters on the Wind
+Node: story-9328745634021-c3
+Folder: src/assets/images/nodes/
+
+Prompt:
+Sails freckle the bay as crews practice tacks for tomorrow\ romance, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 244. story-9328745634021-story-9328745634021-c5.jpg
+Story: Letters on the Wind
+Node: story-9328745634021-c5
+Folder: src/assets/images/nodes/
+
+Prompt:
+Wind bells chime along a string of clipped letters outside a market stall. The vendor smiles: "She trades ink like others trade salt. Says every town speaks its own handwriting." One card reads: "Ligh romance, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 245. story-9328745634021-story-9328745634021-c7.jpg
+Story: Letters on the Wind
+Node: story-9328745634021-c7
+Folder: src/assets/images/nodes/
+
+Prompt:
+The boathouse smells of cedar and rope; hulls rest like sleeping whales. You unfold the letter on your workbench, and the words settle into your ribs. Outside, the tide climbs a rung on the ladder. romance, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 246. story-9328745634021-story-9328745634021-c9.jpg
+Story: Letters on the Wind
+Node: story-9328745634021-c9
+Folder: src/assets/images/nodes/
+
+Prompt:
+Your pen hesitates, then the words spill: a story about a boat that learned its owner\ romance, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 247. story-9328745634021-story-9328745634021-c11.jpg
+Story: Letters on the Wind
+Node: story-9328745634021-c11
+Folder: src/assets/images/nodes/
+
+Prompt:
+The high road curls above surf that chews the cliffs in patient bites. A van marked "Seafront Redevelopments" idles at a turnout, surveying the old boathouse. In your pocket, the letter warms like a h romance, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 248. story-9328745634021-story-9328745634021-c13.jpg
+Story: Letters on the Wind
+Node: story-9328745634021-c13
+Folder: src/assets/images/nodes/
+
+Prompt:
+Fishmongers sing prices; children chase each other with kites shaped like gulls. At a stall of handmade paper, a woman with ink-blotted fingers looks up. "I was hoping you\ romance, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 249. story-9328745634021-story-9328745634021-c15.jpg
+Story: Letters on the Wind
+Node: story-9328745634021-c15
+Folder: src/assets/images/nodes/
+
+Prompt:
+Lanterns bead the pier in a patient line; beneath them, water knits and unknits. You and Amaya trade stories like shells, light catching on their edges. Clouds bruise the horizon--tomorrow\ romance, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 250. story-9328745634021-story-9328745634021-c17.jpg
+Story: Letters on the Wind
+Node: story-9328745634021-c17
+Folder: src/assets/images/nodes/
+
+Prompt:
+A bell tinkles as you duck into the harbor bookshop; the owner knows every love story by salt-smell. You find a sea journal with blank charts, a perfect place to chart a life together. The first page  romance, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 251. story-9328745634021-story-9328745634021-c19.jpg
+Story: Letters on the Wind
+Node: story-9328745634021-c19
+Folder: src/assets/images/nodes/
+
+Prompt:
+Thunder rolls like barrels along the horizon. Rain teases, then commits. Beside you, Amaya wraps her scarf twice and grins: "We can\ romance, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 252. story-9328745634021-story-9328745634021-c21.jpg
+Story: Letters on the Wind
+Node: story-9328745634021-c21
+Folder: src/assets/images/nodes/
+
+Prompt:
+Town records smell of dust and lemon oil. A folded plan shows the boathouse labeled "derelict," slated for demolition after the storm "for safety." A clerk shrugs: "If someone proposed a community wor romance, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 253. story-9328745634021-story-9328745634021-c23.jpg
+Story: Letters on the Wind
+Node: story-9328745634021-c23
+Folder: src/assets/images/nodes/
+
+Prompt:
+From the bluff, the harbor looks like a hand full of coins. You gather photos, names, and signatures; the storm clock counts down. Amaya scribbles flourishes on the petition\ romance, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 254. story-9328745634021-story-9328745634021-c25.jpg
+Story: Letters on the Wind
+Node: story-9328745634021-c25
+Folder: src/assets/images/nodes/
+
+Prompt:
+Wind yanks at pennants as crews secure lines against the front. The developer\ romance, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 255. story-9328745634021-story-9328745634021-c27.jpg
+Story: Letters on the Wind
+Node: story-9328745634021-c27
+Folder: src/assets/images/nodes/
+
+Prompt:
+You speak of a love that sank and a year spent patching leaks you couldn\ romance, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 256. story-9328745634021-story-9328745634021-c29.jpg
+Story: Letters on the Wind
+Node: story-9328745634021-c29
+Folder: src/assets/images/nodes/
+
+Prompt:
+You walk her through the boathouse plans: benches, loaner tools, Friday potluck varnish nights. She sketches signage as if it already hangs, brush letters dancing. Hope smells like cedar and warm brea romance, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 257. story-9328745634021-story-9328745634021-c31.jpg
+Story: Letters on the Wind
+Node: story-9328745634021-c31
+Folder: src/assets/images/nodes/
+
+Prompt:
+You climb until your thighs burn, petition clamped in your teeth as wind jostles the pages. The council chair meets you halfway up, amused and moved. "All right," she says, "convince me." romance, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 258. story-9328745634021-story-9328745634021-c33.jpg
+Story: Letters on the Wind
+Node: story-9328745634021-c33
+Folder: src/assets/images/nodes/
+
+Prompt:
+The storm\ romance, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 259. story-9328745634021-story-9328745634021-c35.jpg
+Story: Letters on the Wind
+Node: story-9328745634021-c35
+Folder: src/assets/images/nodes/
+
+Prompt:
+The council approves your workshop with a rubber stamp and a grin. On opening night, lanterns sway like constellations hung low; hands that once waved goodbye learn to plane and splice. Amaya paints t romance, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 260. story-9328745634021-story-9328745634021-20.jpg
+Story: Letters on the Wind
+Node: story-9328745634021-20
+Folder: src/assets/images/nodes/
+
+Prompt:
+You brace windows, sandbag doors, and share soup with neighbors by candlelight. Morning sifts gold through the clouds; the boathouse stands--scarred, sturdy, claimed. You and Amaya dance paint across  romance, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 261. story-9328745634021-story-9328745634021-21.jpg
+Story: Letters on the Wind
+Node: story-9328745634021-21
+Folder: src/assets/images/nodes/
+
+Prompt:
+You chase warmer winds along a chain of ports, letters no longer bottled but read aloud between tides. The old town becomes a sweet ache that doesn\ romance, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 262. story-9328745634021-story-9328745634021-22.jpg
+Story: Letters on the Wind
+Node: story-9328745634021-22
+Folder: src/assets/images/nodes/
+
+Prompt:
+You hesitate one letter too long. The developer\ romance, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 263. cover-story-9845237719284.jpg
+Story: Ember Crown Oath
+Folder: src/assets/images/covers/
+
+Prompt:
+When a mapmaker’s sketch warms to living ember, forgotten waylines flare across the coast. A warlord moves to rekindle the mountain and seize the Crown that now answers your hand. Will you share its fire, break it, or wear it? Cinematic cover art, fantasy, adventure style, dramatic lighting, high quality, 800x600px
+
+---
+
+## 264. story-9845237719284-story-9845237719284.jpg
+Story: Ember Crown Oath
+Node: story-9845237719284
+Folder: src/assets/images/nodes/
+
+Prompt:
+Dawn breathes mist through pines as your charcoal map glows from within, lines pulsing like sleeping embers. A circlet of blackened gold, warm to the touch, lies where no crown should—inside your satc fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 265. story-9845237719284-story-9845237719284-c1.jpg
+Story: Ember Crown Oath
+Node: story-9845237719284-c1
+Folder: src/assets/images/nodes/
+
+Prompt:
+Tents ripple like scales; charms clink on strings against the sea breeze. A toothless broker eyes the ember crown’s glow bleeding through your satchel and gestures you closer. “Maps burn truer near th fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 266. story-9845237719284-story-9845237719284-c3.jpg
+Story: Ember Crown Oath
+Node: story-9845237719284-c3
+Folder: src/assets/images/nodes/
+
+Prompt:
+Black sand ribbons the coast; smoke fingers rise from a far caldera. On the wind: marching drums and the iron-salt smell of quenched blades. A glint moves below—Firebrand scouts skirting the road towa fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 267. story-9845237719284-story-9845237719284-c5.jpg
+Story: Ember Crown Oath
+Node: story-9845237719284-c5
+Folder: src/assets/images/nodes/
+
+Prompt:
+Transparent vellum drinks a drop of crown-heat and blooms with hidden paths. A faint sigil points not only to the river but to a “secret passage” etched beneath the cliffs. The broker smiles, gums shi fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 268. story-9845237719284-story-9845237719284-c7.jpg
+Story: Ember Crown Oath
+Node: story-9845237719284-c7
+Folder: src/assets/images/nodes/
+
+Prompt:
+A lone scout pauses beneath a wind-bent pine, checking a charcoal schedule. Ash-marks stripe their jaw—loyalty lines to the Warlord. When the crown warms, the scout’s eyes lift, sensing a lord’s prese fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 269. story-9845237719284-story-9845237719284-c9.jpg
+Story: Ember Crown Oath
+Node: story-9845237719284-c9
+Folder: src/assets/images/nodes/
+
+Prompt:
+Basalt arches drink the surf in hollow gulps; lichen glitters like small constellations. Old chisels lie rusting near a narrow stair spiraling down. The crown hums at the threshold, half warning, half fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 270. story-9845237719284-story-9845237719284-c11.jpg
+Story: Ember Crown Oath
+Node: story-9845237719284-c11
+Folder: src/assets/images/nodes/
+
+Prompt:
+Boats rock against tarred ropes; ferrymen mutter about “oathfire” and “sky shrines.” A chalk-boarded post lists tithe rates from the Warlord’s quartermaster. Villagers watch you as one might watch app fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 271. story-9845237719284-story-9845237719284-c13.jpg
+Story: Ember Crown Oath
+Node: story-9845237719284-c13
+Folder: src/assets/images/nodes/
+
+Prompt:
+You trace a sigil on stone; the seam accepts you with a sigh. Candles that no one lit gutter to life, revealing chalk tallies—many passes, few returns. The corridor slopes toward a crystalline hum. fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 272. story-9845237719284-story-9845237719284-c15.jpg
+Story: Ember Crown Oath
+Node: story-9845237719284-c15
+Folder: src/assets/images/nodes/
+
+Prompt:
+Pinned against basalt, the scout yields quickly when the crown’s heat prickles the air. “The Warlord feeds a kiln under the mountain,” they whisper, eyes wet with smoke. “When it roars, your villages  fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 273. story-9845237719284-story-9845237719284-c17.jpg
+Story: Ember Crown Oath
+Node: story-9845237719284-c17
+Folder: src/assets/images/nodes/
+
+Prompt:
+A narrow span sings with every step; your breath returns to you in other voices. In the drop below, crystals chime like rain on glass. The crown’s glow threads thin paths over the void, as if offering fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 274. story-9845237719284-story-9845237719284-c19.jpg
+Story: Ember Crown Oath
+Node: story-9845237719284-c19
+Folder: src/assets/images/nodes/
+
+Prompt:
+Elders sit with hands like driftwood and eyes like tidepools. They speak of oathfire—flame that binds without burning—and a shrine that chooses bearers by breath, not birth. Children circle at a dista fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 275. story-9845237719284-story-9845237719284-c21.jpg
+Story: Ember Crown Oath
+Node: story-9845237719284-c21
+Folder: src/assets/images/nodes/
+
+Prompt:
+A brazier sleeps, rimmed with ash sigils. When you lower the crown, the brazier flares white-gold without consuming. Every heartbeat writes a line of light in the air, a ledger of intent that cannot l fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 276. story-9845237719284-story-9845237719284-c23.jpg
+Story: Ember Crown Oath
+Node: story-9845237719284-c23
+Folder: src/assets/images/nodes/
+
+Prompt:
+Maps pinned to a stolen ledger show fuel depots feeding a subterranean kiln. A marked date looms: “Ignition.” A note in a different hand reads: “The Crown bows to breath—steal the bearer’s voice.” fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 277. story-9845237719284-story-9845237719284-c25.jpg
+Story: Ember Crown Oath
+Node: story-9845237719284-c25
+Folder: src/assets/images/nodes/
+
+Prompt:
+Stars comb the sky; the span hums a scale you feel in your teeth. Wind threads the crown with thin, cold fingers, asking questions without language. Footprints lead upward—others came, or will. fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 278. story-9845237719284-story-9845237719284-c27.jpg
+Story: Ember Crown Oath
+Node: story-9845237719284-c27
+Folder: src/assets/images/nodes/
+
+Prompt:
+Flame climbs your wrist like a tame vine and leaves a warm cuff of light. Villagers exhale—a sound like surf relieving itself against shore. The crown softens, less heavy, as if pleased by shared weig fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 279. story-9845237719284-story-9845237719284-c29.jpg
+Story: Ember Crown Oath
+Node: story-9845237719284-c29
+Folder: src/assets/images/nodes/
+
+Prompt:
+A door appears where a door shouldn’t and opens into salt-stale dark. Crates whisper of quiet defiance: rope, oil, old charts with honest corrections. Footfalls echo—friends or foes learning to be bot fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 280. story-9845237719284-story-9845237719284-c31.jpg
+Story: Ember Crown Oath
+Node: story-9845237719284-c31
+Folder: src/assets/images/nodes/
+
+Prompt:
+Stone lungs heave heat; chains rattle like winter bones. Workers feed timber and fear into a throat of red. A single valve groans—one twist from scream or silence. fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 281. story-9845237719284-story-9845237719284-c33.jpg
+Story: Ember Crown Oath
+Node: story-9845237719284-c33
+Folder: src/assets/images/nodes/
+
+Prompt:
+High above stormbanks, bells made of clouded glass ring without hands. A voice like weather asks nothing and knows everything. The crown cools as if in the presence of a parent, waiting to see what yo fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 282. story-9845237719284-story-9845237719284-c35.jpg
+Story: Ember Crown Oath
+Node: story-9845237719284-c35
+Folder: src/assets/images/nodes/
+
+Prompt:
+When you listen, a chorus answers—past bearers singing through tooth and tongue. They warn of a simpler path: wear the crown deeply, let others orbit your certainty. The warmth tastes like honey; the  fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 283. story-9845237719284-story-9845237719284-c37.jpg
+Story: Ember Crown Oath
+Node: story-9845237719284-c37
+Folder: src/assets/images/nodes/
+
+Prompt:
+The mountain holds its breath; the villages hold theirs with it. Your next stroke will decide the shape of heat tomorrow. In your palm, the crown weighs like promise and warning. fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 284. story-9845237719284-story-9845237719284-c39.jpg
+Story: Ember Crown Oath
+Node: story-9845237719284-c39
+Folder: src/assets/images/nodes/
+
+Prompt:
+The crown roots through your voice and the mountain kneels. Villages bow—and flinch. Peace arrives quickly, like a storm’s eye: calm and watched. Your maps go out of date; your name does not. fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 285. story-9845237719284-story-9845237719284-22.jpg
+Story: Ember Crown Oath
+Node: story-9845237719284-22
+Folder: src/assets/images/nodes/
+
+Prompt:
+You lift the crown and it divides like bread, embers taking root in many hands. The kiln cools; the Warlord’s plans die choked on community. Festivals bloom where garrisons would have stood, and maps  fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 286. story-9845237719284-story-9845237719284-23.jpg
+Story: Ember Crown Oath
+Node: story-9845237719284-23
+Folder: src/assets/images/nodes/
+
+Prompt:
+You leave the crown where bells remember you fondly. The mountain dozes uneasily, but never wakes angry. Years later, children follow a traveling mapmaker who draws safe paths through ash fields by li fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 287. story-9845237719284-story-9845237719284-24.jpg
+Story: Ember Crown Oath
+Node: story-9845237719284-24
+Folder: src/assets/images/nodes/
+
+Prompt:
+Gold screams like glass when you strike it on stone; embers leap, then settle as soft, ordinary warmth. The shrine sighs with relief, and history loses a tyrant it might have met. Your hands keep a fa fantasy, adventure style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 288. cover-story-9932045517721.jpg
+Story: Rootweaver’s Pact
+Folder: src/assets/images/covers/
+
+Prompt:
+Letters carved by sap bleed through bark: the world-tree is unwell. You can hear its pulse if you press your ear to the grain—and if you dare, you can answer. Will you heal with memory, bargain with fae, or cut what must be cut? Cinematic cover art, fantasy, mystery style, dramatic lighting, high quality, 800x600px
+
+---
+
+## 289. story-9932045517721-story-9932045517721.jpg
+Story: Rootweaver’s Pact
+Node: story-9932045517721
+Folder: src/assets/images/nodes/
+
+Prompt:
+Moss cups the roots where market lanterns once hung; now they flicker with uncertain breath. Pressing your ear to bark, you hear a tide-slow pulse and faint words shaped by sap: “Help me remember.” Th fantasy, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 290. story-9932045517721-story-9932045517721-c1.jpg
+Story: Rootweaver’s Pact
+Node: story-9932045517721-c1
+Folder: src/assets/images/nodes/
+
+Prompt:
+Vendors braid vines into charms and stack mushrooms that glow like moons. A blind archivist in a barkcloak smells your hands and nods, recognizing sap-scent. “Memory threads snap,” she says. “You will fantasy, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 291. story-9932045517721-story-9932045517721-c3.jpg
+Story: Rootweaver’s Pact
+Node: story-9932045517721-c3
+Folder: src/assets/images/nodes/
+
+Prompt:
+The spring exhales fog that curls into half-formed letters above the pool. Fallen coins are furred with green and hum when you hum back, matching pitch. Footprints circle the bank and vanish into a ho fantasy, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 292. story-9932045517721-story-9932045517721-c5.jpg
+Story: Rootweaver’s Pact
+Node: story-9932045517721-c5
+Folder: src/assets/images/nodes/
+
+Prompt:
+Pages stitched with rootfiber rustle under your fingers. Margins whisper when the archivist breathes on them: “Vows bind memory. Pacts borrow it.” A ring of layered wood sits in a velvet hollow, its g fantasy, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 293. story-9932045517721-story-9932045517721-c7.jpg
+Story: Rootweaver’s Pact
+Node: story-9932045517721-c7
+Folder: src/assets/images/nodes/
+
+Prompt:
+The spores cup your breath, then blink awake like tiny eyes. Held in darkness, they bloom into a map of possible steps—the brighter the dot, the kinder the outcome. In their dim, you see two strong op fantasy, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 294. story-9932045517721-story-9932045517721-c9.jpg
+Story: Rootweaver’s Pact
+Node: story-9932045517721-c9
+Folder: src/assets/images/nodes/
+
+Prompt:
+Roots arch like ribs; the air smells of penny rain and bruised mint. Scratched into bark at shoulder height: tally marks ending with a heart. A far-off ringing answers your step as if a bridge were pl fantasy, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 295. story-9932045517721-story-9932045517721-c11.jpg
+Story: Rootweaver’s Pact
+Node: story-9932045517721-c11
+Folder: src/assets/images/nodes/
+
+Prompt:
+Wood cool as river shade slides over your finger and tightens until comfortable. A line of text unspools in your mind—not a command, a promise. The tree hums approval, low and relieved. fantasy, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 296. story-9932045517721-story-9932045517721-c13.jpg
+Story: Rootweaver’s Pact
+Node: story-9932045517721-c13
+Folder: src/assets/images/nodes/
+
+Prompt:
+A door without hinges opens when you breathe the right note. Inside, maps show rings like years in a stump, each ring a district of paths. One path—the “pith door”—is marked with a warning sigil shape fantasy, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 297. story-9932045517721-story-9932045517721-c15.jpg
+Story: Rootweaver’s Pact
+Node: story-9932045517721-c15
+Folder: src/assets/images/nodes/
+
+Prompt:
+Spores crowd your lips with glow and truth. When you speak your name, three other names arrive—selves that might have been, each offering a tool. The tree waits to see which you borrow. fantasy, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 298. story-9932045517721-story-9932045517721-c17.jpg
+Story: Rootweaver’s Pact
+Node: story-9932045517721-c17
+Folder: src/assets/images/nodes/
+
+Prompt:
+A bridge of living thorns hums like bees. A fae collector in a dandelion crown smiles too widely: “One memory, please. We’ll return it when you’re someone else.” The wind refuses to help. fantasy, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 299. story-9932045517721-story-9932045517721-c19.jpg
+Story: Rootweaver’s Pact
+Node: story-9932045517721-c19
+Folder: src/assets/images/nodes/
+
+Prompt:
+A silver thread tugs from your rib to a tunnel speckled with glow. Each step sings a chord you recognize from childhood lullabies. The thread splits: one way pulses steady as a heartbeat; the other ji fantasy, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 300. story-9932045517721-story-9932045517721-c21.jpg
+Story: Rootweaver’s Pact
+Node: story-9932045517721-c21
+Folder: src/assets/images/nodes/
+
+Prompt:
+You whittle a small guardian with ears like leaves and a mouth full of promises. When you blow on it, the totem tastes your breath and points, paws steady. It won’t fight, but it will warn. fantasy, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 301. story-9932045517721-story-9932045517721-c23.jpg
+Story: Rootweaver’s Pact
+Node: story-9932045517721-c23
+Folder: src/assets/images/nodes/
+
+Prompt:
+The door opens like a blinking eye. The air inside tastes of old sugar and rain rot. Voices mutter in rings, each a year you did and didn’t live. fantasy, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 302. story-9932045517721-story-9932045517721-c25.jpg
+Story: Rootweaver’s Pact
+Node: story-9932045517721-c25
+Folder: src/assets/images/nodes/
+
+Prompt:
+Sleep comes quick as moss. In the dream, the tree shows you a split root—one half slick with dark, the other pale and thirsty. A deer with lantern eyes nods toward a door made of ribs. fantasy, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 303. story-9932045517721-story-9932045517721-c27.jpg
+Story: Rootweaver’s Pact
+Node: story-9932045517721-c27
+Folder: src/assets/images/nodes/
+
+Prompt:
+Thorn sprites lounge like cats, grooming barbs. The dandelion-crowned collector applauds your audacity. “A pact then: mend three broken barbs, and we forgive one memory-debt.” fantasy, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 304. story-9932045517721-story-9932045517721-c29.jpg
+Story: Rootweaver’s Pact
+Node: story-9932045517721-c29
+Folder: src/assets/images/nodes/
+
+Prompt:
+Walls throb with slow light; resin beads like tears. You set the vow ring against the grain and feel your heartbeat braid with the tree’s. The rhythm steadies—enough to risk a deeper cut. fantasy, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 305. story-9932045517721-story-9932045517721-c31.jpg
+Story: Rootweaver’s Pact
+Node: story-9932045517721-c31
+Folder: src/assets/images/nodes/
+
+Prompt:
+The center is not empty; it’s full of quiet. Threads of light run like veins through honeyed wood. A dark knot pulses irregularly, blooming a bitter fragrance with each beat. fantasy, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 306. story-9932045517721-story-9932045517721-c33.jpg
+Story: Rootweaver’s Pact
+Node: story-9932045517721-c33
+Folder: src/assets/images/nodes/
+
+Prompt:
+The tree opens a mouth where no mouth was, showing night through day—an outside that doesn’t match. Wind tastes of coins and lullabies. Your next choice will set the debt, the cure, and the cost. fantasy, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 307. story-9932045517721-story-9932045517721-c35.jpg
+Story: Rootweaver’s Pact
+Node: story-9932045517721-c35
+Folder: src/assets/images/nodes/
+
+Prompt:
+Your vow twines the rings into a brighter cadence. Market lanterns learn your heartbeat and keep time with it. Children grow up thinking trees hum like that everywhere. fantasy, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 308. story-9932045517721-story-9932045517721-20.jpg
+Story: Rootweaver’s Pact
+Node: story-9932045517721-20
+Folder: src/assets/images/nodes/
+
+Prompt:
+You split the rot and reroute growth; one district goes fallow so the rest may sing. People move, grieve, and then build new markets where mushrooms take kindly to song. The tree breathes easier with  fantasy, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 309. story-9932045517721-story-9932045517721-21.jpg
+Story: Rootweaver’s Pact
+Node: story-9932045517721-21
+Folder: src/assets/images/nodes/
+
+Prompt:
+Thorn sprites patrol the borders and thieves vanish like pollen on wind. The forest is safer; so are your choices. Once a year, the collector taps your shoulder and takes a small memory like a tithe—n fantasy, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 310. story-9932045517721-story-9932045517721-22.jpg
+Story: Rootweaver’s Pact
+Node: story-9932045517721-22
+Folder: src/assets/images/nodes/
+
+Prompt:
+You sever the black root with a cry that shivers birds from miles of branches. The tree survives and forgets the ache; the exiled root crawls toward a far horizon, seeking a name you no longer answer  fantasy, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 311. cover-story-847362951.jpg
+Story: The Midnight Curator
+Folder: src/assets/images/covers/
+
+Prompt:
+A renowned art curator is found dead in a locked gallery on the eve of the biggest exhibition of her career. As the lead detective, you have until dawn to solve the murder before the press descends and the killer disappears forever. Cinematic cover art, detective, mystery style, dramatic lighting, high quality, 800x600px
+
+---
+
+## 312. story-847362951-story-847362951.jpg
+Story: The Midnight Curator
+Node: story-847362951
+Folder: src/assets/images/nodes/
+
+Prompt:
+The main entrance deadbolt is engaged from inside, the security chain still latched. Every window remains locked, their sensors undisturbed according to the security system. The only other exit leads  detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 313. story-847362951-story-847362951-c1.jpg
+Story: The Midnight Curator
+Node: story-847362951-c1
+Folder: src/assets/images/nodes/
+
+Prompt:
+The main entrance deadbolt is engaged from inside, the security chain still latched. Every window remains locked, their sensors undisturbed according to the security system. The only other exit leads  detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 314. story-847362951-story-847362951-c4.jpg
+Story: The Midnight Curator
+Node: story-847362951-c4
+Folder: src/assets/images/nodes/
+
+Prompt:
+The main entrance deadbolt is engaged from inside, the security chain still latched. Every window remains locked, their sensors undisturbed according to the security system. The only other exit leads  detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 315. story-847362951-story-847362951-c6.jpg
+Story: The Midnight Curator
+Node: story-847362951-c6
+Folder: src/assets/images/nodes/
+
+Prompt:
+The main entrance deadbolt is engaged from inside, the security chain still latched. Every window remains locked, their sensors undisturbed according to the security system. The only other exit leads  detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 316. story-847362951-story-847362951-c8.jpg
+Story: The Midnight Curator
+Node: story-847362951-c8
+Folder: src/assets/images/nodes/
+
+Prompt:
+Your tech specialist recovers the deleted message. It\ detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 317. story-847362951-story-847362951-c10.jpg
+Story: The Midnight Curator
+Node: story-847362951-c10
+Folder: src/assets/images/nodes/
+
+Prompt:
+Lab analysis confirms two people drank from the glass: Victoria and someone wearing "Crimson Noir," an expensive limited-edition lipstick. Only 200 bottles were sold worldwide. Your database check rev detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 318. story-847362951-story-847362951-c12.jpg
+Story: The Midnight Curator
+Node: story-847362951-c12
+Folder: src/assets/images/nodes/
+
+Prompt:
+James breaks down under questioning. He admits he lied about leaving at 9 PM. He was here until 11:15 PM, hiding in the storage room after overhearing Victoria arguing with someone on the phone. The a detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 319. story-847362951-story-847362951-c14.jpg
+Story: The Midnight Curator
+Node: story-847362951-c14
+Folder: src/assets/images/nodes/
+
+Prompt:
+James hesitates, then reveals Victoria had been different lately: paranoid, secretive, making suspicious phone calls. Two weeks ago, she received a package that made her go pale. She mentioned owing s detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 320. story-847362951-story-847362951-c16.jpg
+Story: The Midnight Curator
+Node: story-847362951-c16
+Folder: src/assets/images/nodes/
+
+Prompt:
+Elena Volkov sits across from you with unsettling composure. She admits to being at the gallery and drinking champagne with Victoria. They were negotiating: Victoria offered Elena fifty thousand dolla detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 321. story-847362951-story-847362951-c18.jpg
+Story: The Midnight Curator
+Node: story-847362951-c18
+Folder: src/assets/images/nodes/
+
+Prompt:
+Elena Volkov sits across from you with unsettling composure. She admits to being at the gallery and drinking champagne with Victoria. They were negotiating: Victoria offered Elena fifty thousand dolla detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 322. story-847362951-story-847362951-c20.jpg
+Story: The Midnight Curator
+Node: story-847362951-c20
+Folder: src/assets/images/nodes/
+
+Prompt:
+Elena Volkov sits across from you with unsettling composure. She admits to being at the gallery and drinking champagne with Victoria. They were negotiating: Victoria offered Elena fifty thousand dolla detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 323. story-847362951-story-847362951-c22.jpg
+Story: The Midnight Curator
+Node: story-847362951-c22
+Folder: src/assets/images/nodes/
+
+Prompt:
+Elena Volkov sits across from you with unsettling composure. She admits to being at the gallery and drinking champagne with Victoria. They were negotiating: Victoria offered Elena fifty thousand dolla detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 324. story-847362951-story-847362951-c24.jpg
+Story: The Midnight Curator
+Node: story-847362951-c24
+Folder: src/assets/images/nodes/
+
+Prompt:
+Elena Volkov sits across from you with unsettling composure. She admits to being at the gallery and drinking champagne with Victoria. They were negotiating: Victoria offered Elena fifty thousand dolla detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 325. story-847362951-story-847362951-c26.jpg
+Story: The Midnight Curator
+Node: story-847362951-c26
+Folder: src/assets/images/nodes/
+
+Prompt:
+James describes the voice as sophisticated, controlled despite the anger. Eastern European accent, possibly Russian. He heard phrases like "you promised me" and "I\ detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 326. story-847362951-story-847362951-c28.jpg
+Story: The Midnight Curator
+Node: story-847362951-c28
+Folder: src/assets/images/nodes/
+
+Prompt:
+James describes the voice as sophisticated, controlled despite the anger. Eastern European accent, possibly Russian. He heard phrases like "you promised me" and "I\ detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 327. story-847362951-story-847362951-c30.jpg
+Story: The Midnight Curator
+Node: story-847362951-c30
+Folder: src/assets/images/nodes/
+
+Prompt:
+A renowned art curator is found dead in a locked gallery on the eve of the biggest exhibition of her career. As the lead detective, you have until dawn to solve the murder before the press descends and the killer disappears forever. detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 328. story-847362951-story-847362951-c32.jpg
+Story: The Midnight Curator
+Node: story-847362951-c32
+Folder: src/assets/images/nodes/
+
+Prompt:
+A renowned art curator is found dead in a locked gallery on the eve of the biggest exhibition of her career. As the lead detective, you have until dawn to solve the murder before the press descends and the killer disappears forever. detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 329. story-847362951-story-847362951-c34.jpg
+Story: The Midnight Curator
+Node: story-847362951-c34
+Folder: src/assets/images/nodes/
+
+Prompt:
+A renowned art curator is found dead in a locked gallery on the eve of the biggest exhibition of her career. As the lead detective, you have until dawn to solve the murder before the press descends and the killer disappears forever. detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 330. story-847362951-story-847362951-c36.jpg
+Story: The Midnight Curator
+Node: story-847362951-c36
+Folder: src/assets/images/nodes/
+
+Prompt:
+A renowned art curator is found dead in a locked gallery on the eve of the biggest exhibition of her career. As the lead detective, you have until dawn to solve the murder before the press descends and the killer disappears forever. detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 331. story-847362951-story-847362951-c38.jpg
+Story: The Midnight Curator
+Node: story-847362951-c38
+Folder: src/assets/images/nodes/
+
+Prompt:
+A renowned art curator is found dead in a locked gallery on the eve of the biggest exhibition of her career. As the lead detective, you have until dawn to solve the murder before the press descends and the killer disappears forever. detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 332. story-847362951-story-847362951-21.jpg
+Story: The Midnight Curator
+Node: story-847362951-21
+Folder: src/assets/images/nodes/
+
+Prompt:
+A renowned art curator is found dead in a locked gallery on the eve of the biggest exhibition of her career. As the lead detective, you have until dawn to solve the murder before the press descends and the killer disappears forever. detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+
+## 333. story-847362951-story-847362951-22.jpg
+Story: The Midnight Curator
+Node: story-847362951-22
+Folder: src/assets/images/nodes/
+
+Prompt:
+A renowned art curator is found dead in a locked gallery on the eve of the biggest exhibition of her career. As the lead detective, you have until dawn to solve the murder before the press descends and the killer disappears forever. detective, mystery style, cinematic, detailed, high quality, 800x600px
+
+---
+

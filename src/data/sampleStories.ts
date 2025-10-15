@@ -12,6 +12,9 @@ import { rootweaversPactStory } from './story9932045517721_rootweaversPact';
 import { echoesMoonlitGroveStory } from './story8743921042_echoesMoonlitGrove';
 import { cityOfSecondChancesStory } from './story8742190384_cityOfSecondChances';
 import { midnightCuratorStory } from './story_midnight_curator';
+import { midnightMissingStory } from './story7481296_midnightMissing';
+import { shadowsVanishedStarStory } from './story8273910265_shadowsVanishedStar';
+import { midnightCallerStory } from './story847362910_midnightCaller';
 
 const originalStories: Story[] = [
   {
@@ -220,4 +223,7 @@ export const sampleStories: Story[] = [
   echoesMoonlitGroveStory,
   cityOfSecondChancesStory,
   midnightCuratorStory,
+  midnightMissingStory,
+  shadowsVanishedStarStory,
+  midnightCallerStory,
 ];

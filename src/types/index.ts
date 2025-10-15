@@ -12,8 +12,8 @@ export interface Story {
   id: string;
   title: string;
   description: string;
-  coverImageUrl: string;
-  thumbnailUrl: string;
+  coverImageUrl: string | number; // string for URLs, number for require()
+  thumbnailUrl: string | number; // string for URLs, number for require()
   author: string;
   genre: StoryGenre[];
   difficulty: 'easy' | 'medium' | 'hard';
@@ -34,7 +34,7 @@ export interface StoryNode {
   storyId: string;
   type: 'start' | 'decision' | 'ending' | 'checkpoint';
   title: string;
-  imageUrl: string;
+  imageUrl: string | number; // string for URLs, number for require()
   narration: string;
   choices: Choice[];
 }
