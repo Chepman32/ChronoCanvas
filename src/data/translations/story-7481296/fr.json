@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "storyId": "story-7481296",
+    "language": "fr",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.380Z"
+  },
+  "story": {
+    "title": "Disparition à minuit",
+    "author": "Morgan Steele",
+    "description": "Lorsqu'une jeune femme disparaît sans laisser de trace, un détective déterminé doit naviguer dans les ombres de la ville et démêler un réseau d'indices avant qu'il ne soit trop tard. Chaque décision pourrait signifier une vie sauvée ou une piste perdue.",
+    "genre": [
+      "détective",
+      "mystère"
+    ],
+    "difficulty": "moyen",
+    "estimatedDuration": 20
+  },
+  "nodes": [
+    {
+      "id": "story-7481296-19",
+      "type": "ending",
+      "title": "Victoire à la Pyrrhus",
+      "narration": "Le temps ralentit alors que vous appuyez sur la gâchette. Le coup de feu résonne dans l'entrepôt caverneux. **Alan** titube en arrière, le couteau tombant de sa main. Votre tir est précis, le neutralisant avant qu'il ne puisse faire du mal à **Emily**. Les officiers se précipitent et Emily court vers vous, mais pas avant qu'un éclat de béton ne lui érafle le flanc. Elle grimace de douleur, saignant légèrement – blessée mais vivante. Alan gît au sol, blessé et gémissant. Pendant que les secouristes sont appelés, vous enveloppez Emily dans une couverture. **Le kidnappeur est arrêté définitivement et Emily est sauvée, mais cette fin violente vous laisse un sentiment de vide alors que l'aube se lève.**",
+      "choices": []
+    }
+  ]
+}

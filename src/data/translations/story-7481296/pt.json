@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "storyId": "story-7481296",
+    "language": "pt",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.380Z"
+  },
+  "story": {
+    "title": "Desaparecimento à Meia-Noite",
+    "author": "Morgan Steele",
+    "description": "Quando uma jovem mulher desaparece sem deixar rastros, um detetive determinado deve navegar pelas sombras da cidade e desvendar uma teia de pistas antes que o tempo acabe. Cada decisão pode significar uma vida salva ou um rastro perdido.",
+    "genre": [
+      "detetive",
+      "mistério"
+    ],
+    "difficulty": "médio",
+    "estimatedDuration": 20
+  },
+  "nodes": [
+    {
+      "id": "story-7481296-19",
+      "type": "ending",
+      "title": "Vitória de Pirro",
+      "narration": "O tempo desacelera quando você aperta o gatilho. O tiro ecoa pelo armazém cavernoso. **Alan** cambaleou para trás, a faca caindo de sua mão. Seu tiro acerta em cheio, incapacitando-o antes que ele pudesse machucar **Emily**. Os oficiais invadem e Emily corre em sua direção, mas não antes que um pedaço perdido de concreto arranhe seu lado. Ela se contorce de dor, sangrando levemente – ferida, mas viva. Alan está no chão, ferido e gemendo. Enquanto os médicos são chamados, você envolve Emily em um cobertor. **O sequestrador é detido permanentemente e Emily está salva, mas o fim violento deixa você com um sentimento vazio quando o amanhecer chega.**",
+      "choices": []
+    }
+  ]
+}

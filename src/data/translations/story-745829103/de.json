@@ -1,0 +1,294 @@
+{
+  "meta": {
+    "storyId": "story-745829103",
+    "language": "de",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.377Z"
+  },
+  "story": {
+    "title": "Der Mitternachtsgarten",
+    "author": "Isabella Crane",
+    "description": "Du erbst ein viktorianisches Herrenhaus mit einem Garten, der nur um Mitternacht blüht. Als du den rätselhaften Gärtner triffst, der ihn pflegt, entdeckst du, dass er",
+    "genre": [
+      "Romantik",
+      "Fantasy"
+    ],
+    "difficulty": "mittel",
+    "estimatedDuration": 38
+  },
+  "nodes": [
+    {
+      "id": "story-745829103-1",
+      "type": "start",
+      "title": "Das Erbe",
+      "narration": "Der Brief vom Nachlassanwalt traf an deinem dreißigsten Geburtstag ein. Eine Großtante, von deren Existenz du nie wusstest, hat dir Thornewood Manor vererbt – ein verfallenes viktorianisches Herrenhaus am Rande einer vergessenen Stadt. Die Bedingung ist seltsam: Du musst einen vollständigen Mondzyklus dort leben, bevor du entscheidest, ob du es behalten willst. Als du um Mitternacht ankommst, öffnen sich die schmiedeeisernen Tore wie von selbst, und du riechst Blumen, die unmöglich in der Winterluft blühen.",
+      "choices": [
+        {
+          "id": "story-745829103-c1",
+          "text": "Folge dem Duft der Blumen in den Garten",
+          "description": "Untersuche den geheimnisvollen Duft"
+        },
+        {
+          "id": "story-745829103-c2",
+          "text": "Betrete zuerst das Herrenhaus zum Erkunden",
+          "description": "Gehe der Reihe nach vor"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-3",
+      "type": "decision",
+      "title": "Hallende Flure",
+      "narration": "Das Herrenhaus verschluckt dich in samtiger Dunkelheit. Ölporträts beobachten von den Wänden, und die Luft summt mit einem Ton, den du mehr fühlst als hörst. Mondlicht sickert durch zerbrochenes Buntglas und malt den Boden in Saphirmustern.",
+      "choices": [
+        {
+          "id": "story-745829103-c5",
+          "text": "Folge dem Summen durch den Korridor",
+          "description": "Lass dich vom Klang leiten"
+        },
+        {
+          "id": "story-745829103-c6",
+          "text": "Öffne die versiegelte Studierzimmertür mit Gewalt",
+          "description": "Suche nach Antworten im Herrenhaus"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-5",
+      "type": "decision",
+      "title": "Schimmernde Vision",
+      "narration": "Als deine Finger die Blüte berühren, strömt flüssiges Licht durch dich hindurch. Dein Puls synchronisiert sich mit dem Garten und du erblickst Erinnerungen, die nicht deine sind – mondbeleuchtete Tänze, geflüsterte Schwüre, ein einsamer Gärtner, der Blütenblätter pflegt, die jede Jahreszeit überdauern.",
+      "choices": [
+        {
+          "id": "story-745829103-c9",
+          "text": "Lass die Vision dich tiefer ziehen",
+          "description": "Ergib dich der Erinnerung"
+        },
+        {
+          "id": "story-745829103-c10",
+          "text": "Löse den Kontakt und stabilisiere dich",
+          "description": "Erlange die Kontrolle zurück"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-6",
+      "type": "decision",
+      "title": "Mondgebundenes Wintergartenzimmer",
+      "narration": "Ein kuppelförmiges Wintergartenzimmer wartet hinter einem Vorhang aus Efeu. Im Inneren hängen Instrumente aus Messing und Kristall wie Sternbilder, jedes Zittern des summenden Tons lässt sie erglühen. Eine verborgene Tür ist mit Frost gesäumt und atmet Mitternachtsluft aus.",
+      "choices": [
+        {
+          "id": "story-745829103-c11",
+          "text": "Folge dem Summen zur verborgenen Tür",
+          "description": "Entdecke, was der Klang beschützt"
+        },
+        {
+          "id": "story-745829103-c12",
+          "text": "Schneide eine leuchtende Blüte ab, um sie Elias zu zeigen",
+          "description": "Trage einen Beweis zurück in den Garten"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-7",
+      "type": "decision",
+      "title": "Ahnenstudierstube",
+      "narration": "Staub wirbelt auf, als das versiegelte Arbeitszimmer nachgibt. Kassenbücher, Karten und ein Porträt einer Frau, die deine Augen teilt, füllen die Regale. Ein silberner Schlüssel in Form einer Mondsichel ruht auf einem Samtjournal und wartet darauf, dass jemand ihn beansprucht.",
+      "choices": [
+        {
+          "id": "story-745829103-c13",
+          "text": "Öffne das samtgebundene Journal",
+          "description": "Erfahre, was deine Vorfahrin aufgezeichnet hat"
+        },
+        {
+          "id": "story-745829103-c14",
+          "text": "Stecke den silbernen Mondsichelschlüssel ein",
+          "description": "Nimm das Amulett für später"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-10",
+      "type": "decision",
+      "title": "Puls des Sternenlichts",
+      "narration": "Die Energie, die du zurückgezogen hast, wickelt sich wie ein eingefangener Komet in deiner Brust zusammen. Jeder Herzschlag sendet Funken durch deine Arme, und die Blumen in deiner Nähe blühen heller und biegen sich deiner Wärme entgegen.",
+      "choices": [
+        {
+          "id": "story-745829103-c19",
+          "text": "Lenke die Kraft ins Herrenhaus",
+          "description": null
+        },
+        {
+          "id": "story-745829103-c20",
+          "text": "Halte die Kraft in dir und kehre zu Elias zurück",
+          "description": "Teste, ob du beide Welten verbinden kannst"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-11",
+      "type": "decision",
+      "title": "Schwur von Thornewood",
+      "narration": "Das Journal offenbart einen Pakt, der vor einem Jahrhundert geschlossen wurde: Der erste Erbe, der die Mitternachtsblüten sehen kann, muss wählen, ob er den Garten zwischen den Welten bewahrt oder ihn für immer versiegelt. Elias bleibt gebunden, bis diese Wahl aus freiem Herzen getroffen wird.",
+      "choices": [
+        {
+          "id": "story-745829103-c21",
+          "text": "Schwöre, den alten Eid zu wahren",
+          "description": "Akzeptiere die Pflicht wie geschrieben"
+        },
+        {
+          "id": "story-745829103-c22",
+          "text": "Entscheide dich, den Pakt völlig neu zu schreiben",
+          "description": "Stelle das Vermächtnis infrage"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-12",
+      "type": "decision",
+      "title": "Resonantes Versprechen",
+      "narration": "Im Kreis des Mondlichts stehend, spürst du, wie der Garten sich auf beide eurer Atemzüge einstimmt. Elias spricht von Morgendämmerungen, die er nie gesehen hat, und Zukünften, die er nicht mehr zu erträumen wagt.",
+      "choices": [
+        {
+          "id": "story-745829103-c23",
+          "text": "Tritt vollständig neben ihn in den Kreis",
+          "description": "Verbinde deinen Rhythmus mit dem Garten"
+        },
+        {
+          "id": "story-745829103-c24",
+          "text": "Behalte einen Fuß in der sterblichen Welt",
+          "description": "Schaffe Raum für eine gemeinsame Morgendämmerung"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-13",
+      "type": "decision",
+      "title": "Mond-Talisman",
+      "narration": "Der Mondsichelschlüssel erwärmt sich in deiner Handfläche und entfaltet sich zu einem Talisman, der mit Sternbildern eingraviert ist. Du spürst, dass er die Verzauberung stören kann – oder umlenken – je nachdem, wessen Namen du aussprichst.",
+      "choices": [
+        {
+          "id": "story-745829103-c25",
+          "text": "Benutze den Talisman am schmiedeeisernen Tor",
+          "description": "Teste, ob du eine neue Türöffnung schaffen kannst"
+        },
+        {
+          "id": "story-745829103-c26",
+          "text": "Offenbare Elias den Talisman",
+          "description": "Lade ihn in die Entscheidung ein"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-14",
+      "type": "decision",
+      "title": "Zeitliche Laterne",
+      "narration": "Hinter der summenden Tür findest du eine Laterne, die in der Luft schwebt, ihr Kristallkern in schwebende Fragmente zerbrochen. Jede Scherbe hält eine Erinnerung an den Garten bei verschiedenen Monden, in der Zeit eingefroren.",
+      "choices": [
+        {
+          "id": "story-745829103-c27",
+          "text": "Schmieде den Kristall mit deiner neuen Energie neu",
+          "description": "Stabilisiere die Magie gemeinsam"
+        },
+        {
+          "id": "story-745829103-c28",
+          "text": "Verstreue die Scherben, um die Schleife zu brechen",
+          "description": "Befreie die gefangenen Momente"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-16",
+      "type": "decision",
+      "title": "Den Pakt brechen",
+      "narration": "Du stellst den Eid infrage und webst neue Worte in die Luft. Die Blüten flackern zwischen Angst und Freude, während Elias dich stützt, bereit, dir zu folgen, wohin auch immer du führst.",
+      "choices": [
+        {
+          "id": "story-745829103-c31",
+          "text": "Zerschmettere die Bindung, um euch beide zu befreien",
+          "description": "Riskiere den Garten für die Freiheit"
+        },
+        {
+          "id": "story-745829103-c32",
+          "text": "Ziehe die Magie allein in dich",
+          "description": "Trage die Kosten, damit Elias gehen kann"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-17",
+      "type": "decision",
+      "title": "Ausgerichtete Herzschläge",
+      "narration": "Mit der wiederhergestellten Laterne summt der Garten in Harmonie. Mondlicht und Herzschlag verschmelzen, bis du nicht mehr sagen kannst, wo du endest und Elias beginnt.",
+      "choices": [
+        {
+          "id": "story-745829103-c33",
+          "text": "Bleibe mit ihm in der Mitternachtsblüte",
+          "description": "Wähle ein Leben aus Sternenlicht gewoben"
+        },
+        {
+          "id": "story-745829103-c34",
+          "text": "Führe den Garten zur kommenden Morgendämmerung",
+          "description": "Teile seine Magie mit der erwachenden Welt"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-18",
+      "type": "decision",
+      "title": "Schwelle der Morgendämmerung",
+      "narration": "Du hältst die Woge der Magie, ohne dich ihr hinzugeben. Das Herrenhaus ächzt, als die Grenze zwischen den Welten sich verdünnt und einen Weg zurück ins Sonnenlicht bietet, wenn ihr es wagt, ihn gemeinsam zu beschreiten.",
+      "choices": [
+        {
+          "id": "story-745829103-c35",
+          "text": "Führe Elias in die erwachende Welt",
+          "description": "Versprich ihm einen Sonnenaufgang"
+        },
+        {
+          "id": "story-745829103-c36",
+          "text": "Lass die Magie dich neben ihm verankern",
+          "description": "Akzeptiere eine Zwielichtexistenz"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-19",
+      "type": "decision",
+      "title": "Entfesselte Zeit",
+      "narration": "Als der Talisman aufleuchtet und die Scherben sich verstreuen, stolpert die Zeit um den Garten herum. Blütenblätter frieren mitten im Fallen ein, während entfernte Kirchenglocken rückwärts läuten. Du hast Sekunden, um zu entscheiden, was diese neue Freiheit kosten wird.",
+      "choices": [
+        {
+          "id": "story-745829103-c37",
+          "text": "Entlasse die gefangenen Stunden in die Nacht",
+          "description": "Lass den Garten sein Schicksal wählen"
+        },
+        {
+          "id": "story-745829103-c38",
+          "text": "Schließe den Garten für immer von der Zeit ab",
+          "description": "Versiegle die Magie, selbst wenn sie verwelkt"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-21",
+      "type": "ending",
+      "title": "Gemeinsamer Sonnenaufgang",
+      "narration": "Du führst Elias über die Tore hinaus, während die Morgendämmerung anbricht, und trägst eine einzelne leuchtende Blüte als Beweis dafür, dass die Magie die Sonne überleben kann. Das Herrenhaus erwacht zu Lachen, Musik und einem Garten, der endlich das Tageslicht willkommen heißt. Liebe und Vermächtnis schlagen Wurzeln unter freiem Himmel.",
+      "choices": []
+    },
+    {
+      "id": "story-745829103-22",
+      "type": "ending",
+      "title": "Zerbrochener Zauber",
+      "narration": "Du entlässt die gefangenen Stunden und brichst den Eid, der Elias band. Der Garten bricht in einem letzten Lichtblitz aus, bevor die Blüten sich in Sternenstaub auflösen. Die Freiheit gehört euch, aber das Mitternachtswunder wird zu einer Erinnerung, die ihr beide in unbekannte Zukünfte tragt.",
+      "choices": []
+    },
+    {
+      "id": "story-745829103-23",
+      "type": "ending",
+      "title": "Verblassende Blütenblätter",
+      "narration": "Du versiegelst den Garten, um Elias vom Fluch zu verschonen, aber die Magie verwelkt ohne den Mond. Das Herrenhaus wird still, die Blüten nur in Porträts und Träumen bewahrt. Jede Nacht fragst du dich, ob eine andere Wahl die Schönheit hätte retten können, die du geopfert hast.",
+      "choices": []
+    }
+  ]
+}

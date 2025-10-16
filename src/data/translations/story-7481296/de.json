@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "storyId": "story-7481296",
+    "language": "de",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.380Z"
+  },
+  "story": {
+    "title": "Mitternachts-Vermisst",
+    "author": "Morgan Steele",
+    "description": "Als eine junge Frau spurlos verschwindet, muss ein entschlossener Detektiv sich durch die Schatten der Stadt navigieren und ein Netz aus Hinweisen entwirren, bevor die Zeit abläuft. Jede Entscheidung könnte ein gerettetes Leben oder eine verlorene Spur bedeuten.",
+    "genre": [
+      "Detektiv",
+      "Mystery"
+    ],
+    "difficulty": "mittel",
+    "estimatedDuration": 20
+  },
+  "nodes": [
+    {
+      "id": "story-7481296-19",
+      "type": "ending",
+      "title": "Pyrrhussieg",
+      "narration": "Die Zeit verlangsamt sich, als Sie den Abzug drücken. Der Schuss hallt durch das höhlenartige Lagerhaus. **Alan** taumelt rückwärts, das Messer fällt aus seiner Hand. Ihr Schuss trifft genau, Sie machen ihn kampfunfähig, bevor er **Emily** verletzen konnte. Beamte stürmen herein und Emily läuft auf Sie zu, aber nicht bevor ein verirrtes Betonstück ihre Seite streift. Sie verzieht das Gesicht vor Schmerz und blutet leicht – verletzt, aber am Leben. Alan liegt am Boden, verwundet und stöhnend. Während Sanitäter gerufen werden, wickeln Sie Emily in eine Decke. **Der Entführer ist endgültig gestoppt und Emily ist gerettet, aber das gewaltsame Ende hinterlässt ein hohles Gefühl in Ihnen, als die Morgendämmerung anbricht.**",
+      "choices": []
+    }
+  ]
+}

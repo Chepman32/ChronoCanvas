@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "storyId": "story-3",
+    "language": "es",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:45:00.000Z",
+    "translator": "Example Translator"
+  },
+  "story": {
+    "title": "La Paradoja del Bucle Temporal",
+    "author": "Dr. Sarah Chen",
+    "description": "Atrapado en un día que se repite, debes descubrir el misterio y liberarte de la prisión temporal.",
+    "genre": ["scifi", "mystery"],
+    "difficulty": "hard",
+    "estimatedDuration": 35
+  },
+  "nodes": [
+    {
+      "id": "tl-1",
+      "type": "start",
+      "title": "Mañana Otra Vez",
+      "narration": "Tu alarma suena a las 7:00 AM. Otra vez. Esta es la vez número 47 que despiertas en este momento exacto. La misma luz del sol, el mismo pájaro cantando afuera, la misma mancha de café en tu techo.",
+      "choices": [
+        {
+          "id": "tl-c1",
+          "text": "Revisar tu diario",
+          "description": null
+        },
+        {
+          "id": "tl-c2",
+          "text": "Correr al laboratorio inmediatamente",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "tl-2",
+      "type": "decision",
+      "title": "El Diario",
+      "narration": "Tu diario está lleno de notas de bucles anteriores. \"Día 47: El estabilizador cuántico falla a las 3:47 PM. La Dra. Martínez siempre derrama café a las 10:23 AM. El código de seguridad cambia diariamente pero sigue un patrón.\"",
+      "choices": [
+        {
+          "id": "tl-c3",
+          "text": "Estudiar el patrón",
+          "description": null
+        },
+        {
+          "id": "tl-c4",
+          "text": "Ir a buscar a la Dra. Martínez",
+          "description": null
+        }
+      ]
+    }
+  ]
+}

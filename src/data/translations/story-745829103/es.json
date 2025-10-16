@@ -1,0 +1,294 @@
+{
+  "meta": {
+    "storyId": "story-745829103",
+    "language": "es",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.377Z"
+  },
+  "story": {
+    "title": "El Jardín de Medianoche",
+    "author": "Isabella Crane",
+    "description": "Heredas una mansión victoriana con un jardín que solo florece a medianoche. Cuando conoces al enigmático jardinero que lo cuida, descubres que él",
+    "genre": [
+      "romance",
+      "fantasía"
+    ],
+    "difficulty": "medio",
+    "estimatedDuration": 38
+  },
+  "nodes": [
+    {
+      "id": "story-745829103-1",
+      "type": "start",
+      "title": "La Herencia",
+      "narration": "La carta del abogado de sucesiones llegó el día de tu trigésimo cumpleaños. Una tía abuela de cuya existencia nunca supiste te ha dejado la Mansión Thornewood, una casa señorial victoriana en ruinas al borde de un pueblo olvidado. La condición es extraña: debes vivir allí durante un ciclo lunar completo antes de decidir si quedártela. Cuando llegas a medianoche, las puertas de hierro se abren solas, y hueles flores floreciendo imposiblemente en el aire invernal.",
+      "choices": [
+        {
+          "id": "story-745829103-c1",
+          "text": "Sigue el aroma de las flores hacia el jardín",
+          "description": "Investiga la fragancia misteriosa"
+        },
+        {
+          "id": "story-745829103-c2",
+          "text": "Entra primero a la mansión para explorar",
+          "description": "Haz las cosas en orden"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-3",
+      "type": "decision",
+      "title": "Pasillos Resonantes",
+      "narration": "La mansión te envuelve en oscuridad aterciopelada. Retratos al óleo observan desde las paredes, y el aire zumba con una nota que sientes más que oyes. La luz de la luna se filtra a través de vitrales fracturados, pintando el suelo con patrones de zafiro.",
+      "choices": [
+        {
+          "id": "story-745829103-c5",
+          "text": "Sigue el zumbido a través del corredor",
+          "description": "Deja que el sonido te guíe"
+        },
+        {
+          "id": "story-745829103-c6",
+          "text": "Fuerza la puerta sellada del estudio",
+          "description": "Busca respuestas en la mansión"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-5",
+      "type": "decision",
+      "title": "Visión Resplandeciente",
+      "narration": "Cuando tus dedos rozan la flor, luz líquida fluye a través de ti. Tu pulso se sincroniza con el jardín y vislumbras recuerdos que no son tuyos: bailes iluminados por la luna, votos susurrados, un jardinero solitario cuidando pétalos que sobreviven a cada estación.",
+      "choices": [
+        {
+          "id": "story-745829103-c9",
+          "text": "Deja que la visión te arrastre más profundo",
+          "description": "Ríndete al recuerdo"
+        },
+        {
+          "id": "story-745829103-c10",
+          "text": "Rompe el contacto y estabilízate",
+          "description": "Recupera el control"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-6",
+      "type": "decision",
+      "title": "Conservatorio Lunar",
+      "narration": "Un conservatorio abovedado aguarda más allá de una cortina de hiedra. En el interior, instrumentos de latón y cristal cuelgan como constelaciones, cada temblor de la nota zumbante los hace brillar. Una puerta oculta está bordeada de escarcha, exhalando aire de medianoche.",
+      "choices": [
+        {
+          "id": "story-745829103-c11",
+          "text": "Sigue el zumbido hacia la puerta oculta",
+          "description": "Descubre qué protege el sonido"
+        },
+        {
+          "id": "story-745829103-c12",
+          "text": "Corta una flor resplandeciente para mostrársela a Elias",
+          "description": "Lleva una prueba de vuelta al jardín"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-7",
+      "type": "decision",
+      "title": "Estudio Ancestral",
+      "narration": "El polvo se arremolina cuando el estudio sellado cede. Libros de cuentas, mapas y un retrato de una mujer que comparte tus ojos llenan los estantes. Una llave plateada con forma de media luna descansa sobre un diario de terciopelo, esperando que alguien la reclame.",
+      "choices": [
+        {
+          "id": "story-745829103-c13",
+          "text": "Abre el diario forrado en terciopelo",
+          "description": "Aprende lo que registró tu antepasada"
+        },
+        {
+          "id": "story-745829103-c14",
+          "text": "Guarda la llave de media luna plateada",
+          "description": "Toma el talismán para más tarde"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-10",
+      "type": "decision",
+      "title": "Pulso de Luz Estelar",
+      "narration": "La energía que retiraste se enrolla dentro de tu pecho como un cometa capturado. Cada latido envía chispas por tus brazos, y las flores más cercanas a ti florecen más brillantes, inclinándose hacia tu calor.",
+      "choices": [
+        {
+          "id": "story-745829103-c19",
+          "text": "Canaliza el poder hacia la mansión",
+          "description": null
+        },
+        {
+          "id": "story-745829103-c20",
+          "text": "Mantén el poder dentro y regresa con Elias",
+          "description": "Prueba si puedes unir ambos mundos"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-11",
+      "type": "decision",
+      "title": "Juramento de Thornewood",
+      "narration": "El diario revela un pacto sellado hace un siglo: el primer heredero capaz de ver las flores de medianoche debe elegir mantener el jardín entre mundos o sellarlo para siempre. Elias permanece atado hasta que esa elección se haga con corazón dispuesto.",
+      "choices": [
+        {
+          "id": "story-745829103-c21",
+          "text": "Jura mantener el antiguo voto",
+          "description": "Acepta el deber como está escrito"
+        },
+        {
+          "id": "story-745829103-c22",
+          "text": "Decide reescribir el pacto por completo",
+          "description": "Desafía el legado"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-12",
+      "type": "decision",
+      "title": "Promesa Resonante",
+      "narration": "De pie dentro del círculo de luz lunar, sientes que el jardín se sintoniza con ambas respiraciones. Elias habla de amaneceres que nunca ha presenciado y futuros que ya no se atreve a imaginar.",
+      "choices": [
+        {
+          "id": "story-745829103-c23",
+          "text": "Entra completamente en el círculo junto a él",
+          "description": "Vincula tu ritmo al jardín"
+        },
+        {
+          "id": "story-745829103-c24",
+          "text": "Mantén un pie en el mundo mortal",
+          "description": "Reserva espacio para un amanecer compartido"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-13",
+      "type": "decision",
+      "title": "Talismán Lunar",
+      "narration": "La llave de media luna se calienta en tu palma, desplegándose en un talismán grabado con constelaciones. Percibes que puede interrumpir el encantamiento, o redirigirlo, dependiendo de qué nombre pronuncies.",
+      "choices": [
+        {
+          "id": "story-745829103-c25",
+          "text": "Usa el talismán en la puerta de hierro forjado",
+          "description": "Prueba si puedes abrir una nueva puerta"
+        },
+        {
+          "id": "story-745829103-c26",
+          "text": "Revela el talismán a Elias",
+          "description": "Invítalo a la decisión"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-14",
+      "type": "decision",
+      "title": "Linterna Temporal",
+      "narration": "Detrás de la puerta zumbante encuentras una linterna suspendida en el aire, su núcleo de cristal fragmentado en pedazos flotantes. Cada fragmento contiene un recuerdo del jardín en diferentes lunas, suspendido en el tiempo.",
+      "choices": [
+        {
+          "id": "story-745829103-c27",
+          "text": "Reforja el cristal con tu nueva energía",
+          "description": "Estabilicen la magia juntos"
+        },
+        {
+          "id": "story-745829103-c28",
+          "text": "Dispersa los fragmentos para romper el ciclo",
+          "description": "Libera los momentos atrapados"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-16",
+      "type": "decision",
+      "title": "Rompiendo el Pacto",
+      "narration": "Desafías el juramento, tejiendo nuevas palabras en el aire. Las flores parpadean entre miedo y júbilo mientras Elias te sostiene, listo para seguirte adonde sea que lleves.",
+      "choices": [
+        {
+          "id": "story-745829103-c31",
+          "text": "Destruye el vínculo para liberarlos a ambos",
+          "description": "Arriesga el jardín por la libertad"
+        },
+        {
+          "id": "story-745829103-c32",
+          "text": "Atrae la magia solo hacia ti",
+          "description": "Carga con el costo para que Elias pueda irse"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-17",
+      "type": "decision",
+      "title": "Latidos Alineados",
+      "narration": "Con la linterna restaurada, el jardín zumba en armonía. Luz lunar y latido se mezclan hasta que no puedes distinguir dónde terminas tú y dónde comienza Elias.",
+      "choices": [
+        {
+          "id": "story-745829103-c33",
+          "text": "Quédate en la floración de medianoche con él",
+          "description": "Elige una vida tejida de luz estelar"
+        },
+        {
+          "id": "story-745829103-c34",
+          "text": "Guía el jardín hacia el amanecer que viene",
+          "description": "Comparte su magia con el mundo despierto"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-18",
+      "type": "decision",
+      "title": "Umbral del Amanecer",
+      "narration": "Sostienes la oleada de magia sin rendirte a ella. La mansión gime mientras el límite entre mundos se adelgaza, ofreciendo un camino de regreso a la luz del sol si se atreven a cruzarlo juntos.",
+      "choices": [
+        {
+          "id": "story-745829103-c35",
+          "text": "Guía a Elias hacia el mundo despierto",
+          "description": "Prométele un amanecer"
+        },
+        {
+          "id": "story-745829103-c36",
+          "text": "Deja que la magia te ancle junto a él",
+          "description": "Acepta una existencia crepuscular"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-19",
+      "type": "decision",
+      "title": "Tiempo Liberado",
+      "narration": "Cuando el talismán brilla y los fragmentos se dispersan, el tiempo titubea alrededor del jardín. Los pétalos se congelan a mitad de caída mientras campanas de iglesia distantes suenan hacia atrás. Tienes segundos para decidir qué costará esta nueva libertad.",
+      "choices": [
+        {
+          "id": "story-745829103-c37",
+          "text": "Libera las horas capturadas en la noche",
+          "description": "Deja que el jardín elija su destino"
+        },
+        {
+          "id": "story-745829103-c38",
+          "text": "Encierra el jardín lejos del tiempo para siempre",
+          "description": "Sella la magia aunque se marchite"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-21",
+      "type": "ending",
+      "title": "Amanecer Compartido",
+      "narration": "Guías a Elias más allá de las puertas mientras el amanecer rompe, llevando una única flor luminosa como prueba de que la magia puede sobrevivir al sol. La mansión despierta con risas, música y un jardín que finalmente da la bienvenida a la luz del día. El amor y el legado echan raíces al aire libre.",
+      "choices": []
+    },
+    {
+      "id": "story-745829103-22",
+      "type": "ending",
+      "title": "Hechizo Destrozado",
+      "narration": "Liberas las horas atrapadas, rompiendo el juramento que ataba a Elias. El jardín estalla en un resplandor final de luz antes de que las flores se disuelvan en polvo de estrellas. La libertad es vuestra, pero la maravilla de medianoche se convierte en un recuerdo que ambos llevan hacia futuros desconocidos.",
+      "choices": []
+    },
+    {
+      "id": "story-745829103-23",
+      "type": "ending",
+      "title": "Pétalos Desvaneciéndose",
+      "narration": "Sellas el jardín para librar a Elias de la maldición, pero la magia se marchita sin la luna. La mansión se vuelve silenciosa, las flores preservadas solo en retratos y sueños. Cada noche te preguntas si otra elección podría haber salvado la belleza que sacrificaste.",
+      "choices": []
+    }
+  ]
+}

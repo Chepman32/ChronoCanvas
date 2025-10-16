@@ -1,0 +1,294 @@
+{
+  "meta": {
+    "storyId": "story-745829103",
+    "language": "fr",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.377Z"
+  },
+  "story": {
+    "title": "Le Jardin de Minuit",
+    "author": "Isabella Crane",
+    "description": "Vous héritez d'un manoir victorien avec un jardin qui ne fleurit qu'à minuit. Lorsque vous rencontrez l'énigmatique jardinier qui en prend soin, vous découvrez qu'il",
+    "genre": [
+      "romance",
+      "fantaisie"
+    ],
+    "difficulty": "moyen",
+    "estimatedDuration": 38
+  },
+  "nodes": [
+    {
+      "id": "story-745829103-1",
+      "type": "start",
+      "title": "L'Héritage",
+      "narration": "La lettre de l'avocat successoral est arrivée le jour de votre trentième anniversaire. Une grand-tante dont vous ignoriez l'existence vous a légué le Manoir de Thornewood, un manoir victorien en ruine à la lisière d'une ville oubliée. La condition est étrange : vous devez y vivre pendant un cycle lunaire complet avant de décider si vous le gardez. Lorsque vous arrivez à minuit, les grilles de fer s'ouvrent d'elles-mêmes, et vous sentez des fleurs fleurir impossiblement dans l'air hivernal.",
+      "choices": [
+        {
+          "id": "story-745829103-c1",
+          "text": "Suivez le parfum des fleurs dans le jardin",
+          "description": "Enquêtez sur la fragrance mystérieuse"
+        },
+        {
+          "id": "story-745829103-c2",
+          "text": "Entrez d'abord dans le manoir pour explorer",
+          "description": "Procédez dans l'ordre"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-3",
+      "type": "decision",
+      "title": "Couloirs Résonnants",
+      "narration": "Le manoir vous engloutit dans une obscurité veloutée. Des portraits à l'huile observent depuis les murs, et l'air bourdonne d'une note que vous ressentez plus que vous n'entendez. Le clair de lune s'infiltre à travers des vitraux fracturés, peignant le sol de motifs saphir.",
+      "choices": [
+        {
+          "id": "story-745829103-c5",
+          "text": "Suivez le bourdonnement à travers le couloir",
+          "description": "Laissez le son vous guider"
+        },
+        {
+          "id": "story-745829103-c6",
+          "text": "Forcez la porte scellée du bureau",
+          "description": "Cherchez des réponses dans le manoir"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-5",
+      "type": "decision",
+      "title": "Vision Scintillante",
+      "narration": "Lorsque vos doigts effleurent la fleur, une lumière liquide traverse votre être. Votre pouls se synchronise avec le jardin et vous apercevez des souvenirs qui ne sont pas les vôtres : des danses éclairées par la lune, des vœux murmurés, un jardinier solitaire cultivant des pétales qui survivent à chaque saison.",
+      "choices": [
+        {
+          "id": "story-745829103-c9",
+          "text": "Laissez la vision vous entraîner plus profondément",
+          "description": "Abandonnez-vous au souvenir"
+        },
+        {
+          "id": "story-745829103-c10",
+          "text": "Rompez le contact et stabilisez-vous",
+          "description": "Reprenez le contrôle"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-6",
+      "type": "decision",
+      "title": "Conservatoire Lunaire",
+      "narration": "Un conservatoire en forme de dôme attend au-delà d'un rideau de lierre. À l'intérieur, des instruments de laiton et de cristal pendent comme des constellations, chaque vibration de la note bourdonnante les fait briller. Une porte cachée est bordée de givre, exhalant l'air de minuit.",
+      "choices": [
+        {
+          "id": "story-745829103-c11",
+          "text": "Suivez le bourdonnement vers la porte cachée",
+          "description": "Découvrez ce que le son protège"
+        },
+        {
+          "id": "story-745829103-c12",
+          "text": "Coupez une fleur lumineuse pour la montrer à Elias",
+          "description": "Rapportez une preuve au jardin"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-7",
+      "type": "decision",
+      "title": "Bureau Ancestral",
+      "narration": "La poussière tourbillonne lorsque le bureau scellé cède. Des registres, des cartes et un portrait d'une femme qui partage vos yeux remplissent les étagères. Une clé d'argent en forme de croissant repose sur un journal de velours, attendant que quelqu'un la réclame.",
+      "choices": [
+        {
+          "id": "story-745829103-c13",
+          "text": "Ouvrez le journal relié de velours",
+          "description": "Apprenez ce que votre ancêtre a enregistré"
+        },
+        {
+          "id": "story-745829103-c14",
+          "text": "Empochez la clé en croissant d'argent",
+          "description": "Prenez le talisman pour plus tard"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-10",
+      "type": "decision",
+      "title": "Pulsation de Lumière Stellaire",
+      "narration": "L'énergie que vous avez retirée se love dans votre poitrine comme une comète capturée. Chaque battement de cœur envoie des étincelles dans vos bras, et les fleurs les plus proches de vous fleurissent plus brillamment, se penchant vers votre chaleur.",
+      "choices": [
+        {
+          "id": "story-745829103-c19",
+          "text": "Canalisez le pouvoir vers le manoir",
+          "description": null
+        },
+        {
+          "id": "story-745829103-c20",
+          "text": "Gardez le pouvoir en vous et retournez vers Elias",
+          "description": "Testez si vous pouvez relier les deux mondes"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-11",
+      "type": "decision",
+      "title": "Serment de Thornewood",
+      "narration": "Le journal révèle un pacte conclu il y a un siècle : le premier héritier capable de voir les fleurs de minuit doit choisir de préserver le jardin entre les mondes ou de le sceller à jamais. Elias reste lié jusqu'à ce que ce choix soit fait d'un cœur consentant.",
+      "choices": [
+        {
+          "id": "story-745829103-c21",
+          "text": "Jurez de maintenir le vœu ancien",
+          "description": "Acceptez le devoir tel qu'il est écrit"
+        },
+        {
+          "id": "story-745829103-c22",
+          "text": "Décidez de réécrire entièrement le pacte",
+          "description": "Défiez l'héritage"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-12",
+      "type": "decision",
+      "title": "Promesse Résonnante",
+      "narration": "Debout dans le cercle de clair de lune, vous sentez le jardin s'accorder à vos deux respirations. Elias parle d'aubes qu'il n'a jamais vues et de futurs qu'il n'ose plus imaginer.",
+      "choices": [
+        {
+          "id": "story-745829103-c23",
+          "text": "Entrez complètement dans le cercle à ses côtés",
+          "description": "Liez votre rythme au jardin"
+        },
+        {
+          "id": "story-745829103-c24",
+          "text": "Gardez un pied dans le monde mortel",
+          "description": "Réservez l'espace pour une aube partagée"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-13",
+      "type": "decision",
+      "title": "Talisman Lunaire",
+      "narration": "La clé en croissant se réchauffe dans votre paume, se dépliant en un talisman gravé de constellations. Vous sentez qu'il peut perturber l'enchantement, ou le rediriger, selon le nom que vous prononcez.",
+      "choices": [
+        {
+          "id": "story-745829103-c25",
+          "text": "Utilisez le talisman sur la grille en fer forgé",
+          "description": "Testez si vous pouvez ouvrir un nouveau passage"
+        },
+        {
+          "id": "story-745829103-c26",
+          "text": "Révélez le talisman à Elias",
+          "description": "Invitez-le dans la décision"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-14",
+      "type": "decision",
+      "title": "Lanterne Temporelle",
+      "narration": "Derrière la porte bourdonnante, vous trouvez une lanterne suspendue dans les airs, son noyau de cristal brisé en fragments flottants. Chaque éclat contient un souvenir du jardin à différentes lunes, suspendu dans le temps.",
+      "choices": [
+        {
+          "id": "story-745829103-c27",
+          "text": "Reforgez le cristal avec votre nouvelle énergie",
+          "description": "Stabilisez la magie ensemble"
+        },
+        {
+          "id": "story-745829103-c28",
+          "text": "Dispersez les éclats pour briser la boucle",
+          "description": "Libérez les moments piégés"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-16",
+      "type": "decision",
+      "title": "Briser le Pacte",
+      "narration": "Vous défiez le serment, tissant de nouveaux mots dans l'air. Les fleurs vacillent entre peur et exaltation tandis qu'Elias vous soutient, prêt à vous suivre où que vous meniez.",
+      "choices": [
+        {
+          "id": "story-745829103-c31",
+          "text": "Brisez le lien pour vous libérer tous les deux",
+          "description": "Risquez le jardin pour la liberté"
+        },
+        {
+          "id": "story-745829103-c32",
+          "text": "Attirez la magie en vous seul",
+          "description": "Portez le fardeau pour qu'Elias puisse partir"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-17",
+      "type": "decision",
+      "title": "Battements de Cœur Alignés",
+      "narration": "Avec la lanterne restaurée, le jardin bourdonne en harmonie. Clair de lune et battement de cœur se mélangent jusqu'à ce que vous ne puissiez plus dire où vous finissez et où Elias commence.",
+      "choices": [
+        {
+          "id": "story-745829103-c33",
+          "text": "Restez dans la floraison de minuit avec lui",
+          "description": "Choisissez une vie tissée de lumière stellaire"
+        },
+        {
+          "id": "story-745829103-c34",
+          "text": "Guidez le jardin vers l'aube à venir",
+          "description": "Partagez sa magie avec le monde éveillé"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-18",
+      "type": "decision",
+      "title": "Seuil de l'Aube",
+      "narration": "Vous maintenez la vague de magie sans vous y abandonner. Le manoir gémit tandis que la frontière entre les mondes s'amincit, offrant un chemin de retour vers la lumière du soleil si vous osez le franchir ensemble.",
+      "choices": [
+        {
+          "id": "story-745829103-c35",
+          "text": "Conduisez Elias vers le monde éveillé",
+          "description": "Promettez-lui un lever de soleil"
+        },
+        {
+          "id": "story-745829103-c36",
+          "text": "Laissez la magie vous ancrer à ses côtés",
+          "description": "Acceptez une existence crépusculaire"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-19",
+      "type": "decision",
+      "title": "Temps Libéré",
+      "narration": "Lorsque le talisman flamboie et que les éclats se dispersent, le temps trébuche autour du jardin. Les pétales se figent en pleine chute tandis que des cloches d'église lointaines sonnent à l'envers. Vous avez quelques secondes pour décider ce que cette nouvelle liberté coûtera.",
+      "choices": [
+        {
+          "id": "story-745829103-c37",
+          "text": "Libérez les heures capturées dans la nuit",
+          "description": "Laissez le jardin choisir son destin"
+        },
+        {
+          "id": "story-745829103-c38",
+          "text": "Enfermez le jardin hors du temps pour toujours",
+          "description": "Scellez la magie même si elle se flétrit"
+        }
+      ]
+    },
+    {
+      "id": "story-745829103-21",
+      "type": "ending",
+      "title": "Lever de Soleil Partagé",
+      "narration": "Vous guidez Elias au-delà des grilles tandis que l'aube se lève, portant une seule fleur lumineuse comme preuve que la magie peut survivre au soleil. Le manoir s'éveille aux rires, à la musique et à un jardin qui accueille enfin la lumière du jour. L'amour et l'héritage prennent racine en plein air.",
+      "choices": []
+    },
+    {
+      "id": "story-745829103-22",
+      "type": "ending",
+      "title": "Sort Brisé",
+      "narration": "Vous libérez les heures piégées, brisant le serment qui liait Elias. Le jardin éclate dans un ultime flamboiement de lumière avant que les fleurs ne se dissolvent en poussière d'étoiles. La liberté est vôtre, mais la merveille de minuit devient un souvenir que vous portez tous deux vers des avenirs inconnus.",
+      "choices": []
+    },
+    {
+      "id": "story-745829103-23",
+      "type": "ending",
+      "title": "Pétales Fanés",
+      "narration": "Vous scellez le jardin pour épargner à Elias la malédiction, mais la magie se flétrit sans la lune. Le manoir devient silencieux, les fleurs ne sont préservées que dans les portraits et les rêves. Chaque nuit, vous vous demandez si un autre choix aurait pu sauver la beauté que vous avez sacrifiée.",
+      "choices": []
+    }
+  ]
+}
