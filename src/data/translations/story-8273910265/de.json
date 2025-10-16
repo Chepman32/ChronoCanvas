@@ -1,0 +1,294 @@
+{
+  "meta": {
+    "storyId": "story-8273910265",
+    "language": "de",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.382Z"
+  },
+  "story": {
+    "title": "Schatten des verschwundenen Sterns",
+    "author": "Daphne Sawyer",
+    "description": "Als eine Tech-Erbin verschwindet und nur ein rätselhaftes Ornament zurückbleibt, wird Privatdetektiv Sam Mercer in ein Labyrinth aus regennassen Gassen, geheimen Bibliotheken und schattigen Docks hineingezogen. Jeder Hinweis wirft neue Fragen auf und jede Entscheidung zieht ihn tiefer in eine Verschwörung, die bis in die Stadtspitze reicht.",
+    "genre": [
+      "Detektiv",
+      "Krimi"
+    ],
+    "difficulty": "schwer",
+    "estimatedDuration": 30
+  },
+  "nodes": [
+    {
+      "id": "story-8273910265-1",
+      "type": "start",
+      "title": "Mitternachtsklient",
+      "narration": "Der Regen prasselt gegen dein Bürofenster, während du auf das blinkende Neon draußen starrst. Ein Schatten durchquert die Schwelle und eine Frau in durchnässtem Trenchcoat tritt ein, ihre Augen flehend, als sie ein sternförmiges Ornament hervorzieht und von einer vermissten Erbin flüstert. Der Geruch von nassem Asphalt und altem Papier erfüllt den Raum, während du die Gefahr in ihren Worten abwägst. Die Stadt summt vor Geheimnissen und du spürst, dass dies erst der Anfang ist.",
+      "choices": [
+        {
+          "id": "story-8273910265-c1",
+          "text": "Nimm den Fall an und begib dich zum Tatort",
+          "description": "Die Pflicht ruft, selbst im Regen."
+        },
+        {
+          "id": "story-8273910265-c2",
+          "text": "Lehne ab und beobachte von deinem Fenster aus",
+          "description": "Bleib distanziert, beobachte, was sich entfaltet."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-3",
+      "type": "decision",
+      "title": "Widerwillige Beobachtung",
+      "narration": "Du schickst die Frau weg, aber die Neugier nagt an dir. Durch das regengestreifte Glas siehst du eine Gestalt, die auf der anderen Straßenseite lauert, Kamera in der Hand, Schnappschüsse von deinem Büro macht. Die Gasse glitzert unter Straßenlaternen, die Stadt atmet wie ein Biest. Du kannst ihm entweder durch den Regen nachrennen oder auf Distanz bleiben.",
+      "choices": [
+        {
+          "id": "story-8273910265-c5",
+          "text": "Folge dem Schatten die Straße hinunter",
+          "description": "Komm näher, riskiere Aufdeckung."
+        },
+        {
+          "id": "story-8273910265-c6",
+          "text": "Bleib in den Schatten und beobachte",
+          "description": "Geduld könnte sich auszahlen."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-5",
+      "type": "decision",
+      "title": "Nervöser Zeuge",
+      "narration": "Ein nervöser Passant lehnt sich gegen ein regengesprenkeltes Fenster, das Telefon ans Ohr gedrückt. Mit hastigen Blicken zieht er seinen Mantel enger, als du dich näherst. Das Summen der Stadt scheint zu verblassen, während du entscheidest, ob du die Wahrheit sanft herauslocken oder die Räder mit Bargeld schmieren willst.",
+      "choices": [
+        {
+          "id": "story-8273910265-c9",
+          "text": "Frage ruhig, was sie gesehen haben",
+          "description": "Gewinne Vertrauen durch Empathie."
+        },
+        {
+          "id": "story-8273910265-c10",
+          "text": "Stecke ihnen etwas Geld für Antworten zu",
+          "description": "Geld spricht, wenn Angst schweigt."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-6",
+      "type": "decision",
+      "title": "Beobachtung im Regen",
+      "narration": "Du verschmilzt mit dem Regen und lässt den Verdächtigen dich durch neongewaschene Gassen führen. Jede Pfütze reflektiert eine zerbrochene Welt. Unter deinem Mantel spürst du das Gewicht deiner eigenen Technik; ein Laptop summt leise und verlangt danach, verschlüsselte Nachrichten zu knacken. Hackst du ihre Kommunikation oder verfolgst du sie weiter persönlich?",
+      "choices": [
+        {
+          "id": "story-8273910265-c11",
+          "text": "Hacke ihren Kommunikationsfeed",
+          "description": "Digitale Geheimnisse sind oft die saftigsten."
+        },
+        {
+          "id": "story-8273910265-c12",
+          "text": "Verfolge sie weiter aus den Schatten",
+          "description": "Bleib vor Ort."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-7",
+      "type": "decision",
+      "title": "Nachricht in Rot",
+      "narration": "Im Umschlag findest du ein Foto eines sternförmigen Anhängers und eine codierte Nachricht in roter Tinte. Das Papier fühlt sich glatt unter deinen nassen Fingern an. Die Symbole deuten auf Bibliothekskataloge und alte Geheimnisse hin. Du musst entscheiden, wo du es enträtseln willst.",
+      "choices": [
+        {
+          "id": "story-8273910265-c13",
+          "text": "Gehe zur Stadtbibliothek",
+          "description": "Forschung in staubigen Regalen."
+        },
+        {
+          "id": "story-8273910265-c14",
+          "text": "Rufe deinen Hacker-Freund an",
+          "description": "Entschlüsseln mit digitaler Hilfe."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-8",
+      "type": "decision",
+      "title": "Forensischer Bericht",
+      "narration": "Zurück in deinem eigenen Labor beleuchten flackernde Monitore dein Gesicht. Du scannst den Umschlag nach Fingerabdrücken und analysierst die Tinte unter grellem Licht. Ein Fingerabdruck passt zu einem Unterwelt-Vermittler, und ein GPS-Tag weist Richtung Docks. Du kannst der Datenspur folgen oder auf die Informationen reagieren.",
+      "choices": [
+        {
+          "id": "story-8273910265-c15",
+          "text": "Gleiche die Fingerabdrücke mit der Datenbank ab",
+          "description": "Information ist Macht."
+        },
+        {
+          "id": "story-8273910265-c16",
+          "text": "Begib dich zu den Docks, um sie aufzuspüren",
+          "description": "Konfrontiere den Verdächtigen persönlich."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-9",
+      "type": "decision",
+      "title": "Lagerhaus-Info",
+      "narration": "Deine Bemühungen zahlen sich aus: Ein geflüstertes Geständnis oder eine gehackte Nachricht enthüllt ein Treffen in einem verlassenen Lagerhaus, das mit Graffiti markiert ist. Das Gebäude ragt wie ein dunkles Monument gegen die Skyline. Du kannst hineinstürmen und alles riskieren oder dir Zeit nehmen, um zu planen.",
+      "choices": [
+        {
+          "id": "story-8273910265-c17",
+          "text": "Infiltriere das Lagerhaus jetzt",
+          "description": "Zeit ist entscheidend."
+        },
+        {
+          "id": "story-8273910265-c18",
+          "text": "Sammle zuerst mehr Informationen",
+          "description": "Ein vorsichtiger Ansatz könnte sich lohnen."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-10",
+      "type": "decision",
+      "title": "Letzter Zug hinaus",
+      "narration": "Der Verdächtige schlüpft in einen Mitternachtszug und du eilst zum Bahnhof, Dampf zischt von schlafenden Lokomotiven. Dunkelheit umhüllt die Gleise, während der letzte Aufruf durch Lautsprecher hallt. Du kannst jetzt in den Zug einsteigen oder versuchen, sie am nächsten Halt zu überlisten.",
+      "choices": [
+        {
+          "id": "story-8273910265-c19",
+          "text": "Spring in den Zug",
+          "description": "Bleib nah an deinem Ziel."
+        },
+        {
+          "id": "story-8273910265-c20",
+          "text": "Fange sie am nächsten Bahnhof ab",
+          "description": "Plane einen Hinterhalt im Voraus."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-11",
+      "type": "decision",
+      "title": "Stapel von Geheimnissen",
+      "narration": "Staubteilchen tanzen in Lichtstrahlen, während du durch endlose Bücherregale wanderst. Der Geruch von altem Papier umgibt dich. Du verfolgst obskure Katalognummern, bis deine Finger auf einem Wälzer landen, der ein Stern-Ornament beschreibt, das Geheimnisse in Banktresoren öffnet. Testest du den Schlüssel oder gräbst du tiefer in den Archiven?",
+      "choices": [
+        {
+          "id": "story-8273910265-c21",
+          "text": "Gehe mit dem Ornament zur Bank",
+          "description": "Der Tresor könnte die Wahrheit bergen."
+        },
+        {
+          "id": "story-8273910265-c22",
+          "text": "Suche weiter in den Archiven",
+          "description": "Es könnte mehr zu entdecken geben."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-13",
+      "type": "decision",
+      "title": "Schatten am Kai",
+      "narration": "Der Geruch von Salz und Diesel liegt schwer in der Luft, während du dich zwischen Kisten an den Docks hindurchschleichst. Ein einsames Boot schaukelt sanft gegen verwitterte Pfähle, Stimmen murmeln über dem Plätschern der Wellen. Bleibst du verborgen, um Beweise zu sammeln, oder trittst du ins Licht, um den Bandenchef zu konfrontieren?",
+      "choices": [
+        {
+          "id": "story-8273910265-c25",
+          "text": "Sammle leise Beweise",
+          "description": "Geduld könnte Beweise bringen."
+        },
+        {
+          "id": "story-8273910265-c26",
+          "text": "Konfrontiere den Bandenchef",
+          "description": "Erzwinge jetzt eine Entscheidung."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-14",
+      "type": "decision",
+      "title": "Showdown auf dem Dach",
+      "narration": "Wind peitscht über das Dach, während du den Verdächtigen vor der Kulisse hoch aufragender Wolkenkratzer in die Enge treibst, deren Fenster wie Sterne glitzern. Schweiß perlt trotz der Kälte unter deinem Kragen. Ohne Fluchtweg blickt dein Ziel auf die Lücke zwischen den Gebäuden. Dein nächster Schritt entscheidet über euer beider Schicksal.",
+      "choices": [
+        {
+          "id": "story-8273910265-c27",
+          "text": "Rede auf sie ein und verhandle",
+          "description": "Worte können Waffen sein."
+        },
+        {
+          "id": "story-8273910265-c28",
+          "text": "Ringe sie zu Boden",
+          "description": "Nutze Gewalt, um die Jagd zu beenden."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-15",
+      "type": "decision",
+      "title": "Hinterhalt am Bahnhof",
+      "narration": "Der Zug fährt ab und du befindest dich in einem verlassenen Bahnhofskorridor, Neonlichter flackern über dir. Schritte hallen in der Ferne, dann verstummen sie. Dein Ziel ist in der Dunkelheit verschwunden. Wartest du, bis sie zurückkehren, oder rufst du einen Kontakt an, der dir einen Gefallen schuldet?",
+      "choices": [
+        {
+          "id": "story-8273910265-c29",
+          "text": "Warte in den Schatten",
+          "description": "Geduld könnte sie fangen."
+        },
+        {
+          "id": "story-8273910265-c30",
+          "text": "Fordere einen Gefallen ein",
+          "description": "Nutze dein Netzwerk."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-17",
+      "type": "decision",
+      "title": "Mitternachtspier",
+      "narration": "Mondlicht färbt den Pier silbern, während Wellen gegen seine verwitterten Planken schlagen. Eine einsame Gestalt wartet unter einer Lampe, das Gesicht unter einer Kapuze verborgen. Sie bieten dir eine Wahl – schließe dich ihnen an und teile die Profite der Verschwörung, oder lehne ab und decke die ganze Operation auf. Vertrauen und Verrat hängen in der salzigen Luft.",
+      "choices": [
+        {
+          "id": "story-8273910265-c33",
+          "text": "Akzeptiere ihren Deal",
+          "description": "Tritt dem Schattennetzwerk bei."
+        },
+        {
+          "id": "story-8273910265-c34",
+          "text": "Lehne ab und decke alles auf",
+          "description": "Schlage Alarm."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-18",
+      "type": "decision",
+      "title": "Einbruch",
+      "narration": "Mit Verbündeten an deiner Seite drückst du eine Tür zu einem langen, dunklen Flur auf. Schritte hallen, während du dich einem laufenden Treffen näherst, Stimmen leise und verschwörerisch. Stürmst du hinein und nimmst Verhaftungen vor oder bleibst du zurück, um den Austausch für die Weltöffentlichkeit aufzuzeichnen?",
+      "choices": [
+        {
+          "id": "story-8273910265-c35",
+          "text": "Greife ein und verhafte sie",
+          "description": "Bringe sie vor Gericht."
+        },
+        {
+          "id": "story-8273910265-c36",
+          "text": "Zeichne alles für ein Leak auf",
+          "description": "Decke die Verschwörung öffentlich auf."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-19",
+      "type": "ending",
+      "title": "Der Fall entgleitet",
+      "narration": "Du stürmst ins Gefecht und die Bande zerstreut sich wie Schatten im Regen. Ein Schuss knallt, ein Bootsmotor heult auf, und der Drahtzieher verschwindet in der Nacht. Wochen später starrst du auf deine Pinnwand, Garnfäden verbinden Fotos, die nirgendwohin führen. Der Fall wird kalt und die Stadt vergisst, aber du kannst es nicht.",
+      "choices": []
+    },
+    {
+      "id": "story-8273910265-21",
+      "type": "ending",
+      "title": "Pakt mit dem Teufel",
+      "narration": "Die Versuchung siegt. Du steckst die Akten ein und trittst in den inneren Kreis ein. Die Leiter, die du erklimmst, mag vergoldet sein, aber jede Sprosse ist glitschig vor Schuld. Reichtum und Verbindungen fließen dir zu, doch in stillen Momenten fragst du dich, was aus der jungen Frau wurde, deren Ornament dein Vermögen freischaltete.",
+      "choices": []
+    },
+    {
+      "id": "story-8273910265-22",
+      "type": "ending",
+      "title": "Whistleblower",
+      "narration": "Du wählst Aufdeckung statt Sicherheit. Hinter leuchtenden Monitoren verborgen, stellst du Aufzeichnungen und Dokumente zusammen und leckst sie an die Presse. Schlagzeilen explodieren, mächtige Figuren fallen, und die Stadt konvulsiert. Du wirst sowohl Held als auch Zielscheibe und verschwindest in digitalen Schatten, während du weißt, dass du das Richtige getan hast.",
+      "choices": []
+    }
+  ]
+}

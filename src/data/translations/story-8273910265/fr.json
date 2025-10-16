@@ -1,0 +1,294 @@
+{
+  "meta": {
+    "storyId": "story-8273910265",
+    "language": "fr",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.382Z"
+  },
+  "story": {
+    "title": "Ombres de l'Étoile Disparue",
+    "author": "Daphne Sawyer",
+    "description": "Quand une héritière de la tech disparaît et qu'il ne reste qu'un ornement cryptique, le détective privé Sam Mercer est entraîné dans un labyrinthe de ruelles détrempées, de bibliothèques secrètes et de quais ombragés. Chaque indice soulève de nouvelles questions et chaque décision l'enfonce plus profondément dans un complot qui atteint les sommets de la ville.",
+    "genre": [
+      "détective",
+      "mystère"
+    ],
+    "difficulty": "difficile",
+    "estimatedDuration": 30
+  },
+  "nodes": [
+    {
+      "id": "story-8273910265-1",
+      "type": "start",
+      "title": "Cliente de Minuit",
+      "narration": "La pluie bat contre la fenêtre de votre bureau tandis que vous fixez le néon clignotant dehors. Une ombre franchit le seuil et une femme en imperméable trempé entre, ses yeux implorants alors qu'elle sort un ornement en forme d'étoile et murmure au sujet d'une héritière disparue. L'odeur de l'asphalte humide et du vieux papier emplit la pièce pendant que vous pesez le danger dans ses mots. La ville bourdonne de secrets et vous sentez que ce n'est que le début.",
+      "choices": [
+        {
+          "id": "story-8273910265-c1",
+          "text": "Accepter l'affaire et se rendre sur la scène de crime",
+          "description": "Le devoir appelle, même sous la pluie."
+        },
+        {
+          "id": "story-8273910265-c2",
+          "text": "Refuser et observer depuis votre fenêtre",
+          "description": "Rester détaché, observer ce qui se déroule."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-3",
+      "type": "decision",
+      "title": "Surveillance Réticente",
+      "narration": "Vous renvoyez la femme mais la curiosité vous ronge. À travers la vitre striée de pluie, vous repérez une silhouette qui rôde de l'autre côté de la rue, appareil photo en main, prenant des clichés de votre bureau. La ruelle scintille sous les lampadaires, la ville respire comme une bête. Vous pouvez soit plonger dans la pluie à sa poursuite, soit garder vos distances.",
+      "choices": [
+        {
+          "id": "story-8273910265-c5",
+          "text": "Suivre l'ombre dans la rue",
+          "description": "Se rapprocher, risquer l'exposition."
+        },
+        {
+          "id": "story-8273910265-c6",
+          "text": "Rester dans l'ombre et observer",
+          "description": "La patience pourrait payer."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-5",
+      "type": "decision",
+      "title": "Témoin Nerveux",
+      "narration": "Un passant nerveux s'appuie contre une fenêtre tachetée de pluie, téléphone collé à l'oreille. Les yeux fuyants, ils serrent leur manteau plus fort alors que vous approchez. Le bourdonnement de la ville semble s'estomper pendant que vous décidez si vous devez obtenir la vérité en douceur ou graisser les rouages avec de l'argent.",
+      "choices": [
+        {
+          "id": "story-8273910265-c9",
+          "text": "Demander calmement ce qu'ils ont vu",
+          "description": "Gagner la confiance par l'empathie."
+        },
+        {
+          "id": "story-8273910265-c10",
+          "text": "Leur glisser de l'argent pour des réponses",
+          "description": "L'argent parle quand la peur fait taire."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-6",
+      "type": "decision",
+      "title": "Surveillance Sous la Pluie",
+      "narration": "Vous vous fondez dans l'averse, laissant le suspect vous guider à travers des ruelles baignées de néon. Chaque flaque reflète un monde fracturé. Sous votre manteau, vous sentez le poids de votre propre technologie ; un ordinateur portable bourdonne faiblement, suppliant de percer des messages cryptés. Piratez-vous leur flux de communication ou continuez-vous à les suivre en personne ?",
+      "choices": [
+        {
+          "id": "story-8273910265-c11",
+          "text": "Pirater leur flux de communications",
+          "description": "Les secrets numériques sont souvent les plus juteux."
+        },
+        {
+          "id": "story-8273910265-c12",
+          "text": "Continuer à filer depuis l'ombre",
+          "description": "Rester sur le terrain."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-7",
+      "type": "decision",
+      "title": "Message en Rouge",
+      "narration": "Dans l'enveloppe, vous trouvez une photographie d'un pendentif en forme d'étoile et un message codé écrit à l'encre rouge. Le papier est glissant sous vos doigts mouillés. Les symboles évoquent des catalogues de bibliothèque et de vieux secrets. Vous devez décider où le déchiffrer.",
+      "choices": [
+        {
+          "id": "story-8273910265-c13",
+          "text": "Se rendre à la bibliothèque municipale",
+          "description": "Recherche dans les rayons poussiéreux."
+        },
+        {
+          "id": "story-8273910265-c14",
+          "text": "Appeler votre ami hacker",
+          "description": "Décoder avec l'aide numérique."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-8",
+      "type": "decision",
+      "title": "Rapport Médico-légal",
+      "narration": "De retour dans votre propre laboratoire, des moniteurs vacillants illuminent votre visage. Vous scannez l'enveloppe pour les empreintes et analysez l'encre sous une lumière éblouissante. Une empreinte correspond à un intermédiaire du milieu, et une balise GPS pointe vers les quais. Vous pouvez suivre la piste numérique ou agir sur les renseignements.",
+      "choices": [
+        {
+          "id": "story-8273910265-c15",
+          "text": "Vérifier les empreintes dans la base de données",
+          "description": "L'information, c'est le pouvoir."
+        },
+        {
+          "id": "story-8273910265-c16",
+          "text": "Se rendre aux quais pour les traquer",
+          "description": "Confronter le suspect en personne."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-9",
+      "type": "decision",
+      "title": "Renseignements sur l'Entrepôt",
+      "narration": "Vos efforts portent leurs fruits : un aveu murmuré ou un message piraté révèle un rendez-vous dans un entrepôt abandonné tagué de graffitis. Le bâtiment se dresse comme un monument sombre contre l'horizon. Vous pouvez faire irruption et tout risquer ou prendre le temps de planifier.",
+      "choices": [
+        {
+          "id": "story-8273910265-c17",
+          "text": "Infiltrer l'entrepôt maintenant",
+          "description": "Le temps est essentiel."
+        },
+        {
+          "id": "story-8273910265-c18",
+          "text": "Rassembler plus de renseignements d'abord",
+          "description": "Une approche prudente pourrait payer."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-10",
+      "type": "decision",
+      "title": "Dernier Train",
+      "narration": "Le suspect se glisse dans un train de minuit et vous vous précipitez vers la gare, la vapeur sifflant des locomotives endormies. L'obscurité enveloppe les voies alors que le dernier appel résonne dans les haut-parleurs. Vous pouvez monter dans le train maintenant ou essayer de les déjouer au prochain arrêt.",
+      "choices": [
+        {
+          "id": "story-8273910265-c19",
+          "text": "Sauter à bord du train",
+          "description": "Rester proche de votre cible."
+        },
+        {
+          "id": "story-8273910265-c20",
+          "text": "Intercepter à la prochaine gare",
+          "description": "Planifier une embuscade à l'avance."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-11",
+      "type": "decision",
+      "title": "Piles de Secrets",
+      "narration": "Des particules de poussière dansent dans les rayons de lumière pendant que vous errez dans des piles infinies de livres. L'odeur du vieux papier vous entoure. Vous tracez des numéros de catalogue obscurs jusqu'à ce que vos doigts se posent sur un tome décrivant un ornement en forme d'étoile qui déverrouille des secrets dans les coffres bancaires. Testez-vous la clé ou creusez-vous plus profondément dans les archives ?",
+      "choices": [
+        {
+          "id": "story-8273910265-c21",
+          "text": "Aller à la banque avec l'ornement",
+          "description": "Le coffre pourrait contenir la vérité."
+        },
+        {
+          "id": "story-8273910265-c22",
+          "text": "Chercher plus loin dans les archives",
+          "description": "Il pourrait y avoir plus à découvrir."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-13",
+      "type": "decision",
+      "title": "Ombres sur les Quais",
+      "narration": "L'odeur de sel et de diesel est lourde pendant que vous vous faufilez entre les caisses sur les quais. Un bateau solitaire se balance doucement contre des piliers usés, des voix murmurent au-dessus du clapotis des vagues. Restez-vous caché pour recueillir des preuves ou sortez-vous dans la lumière pour affronter le chef de gang ?",
+      "choices": [
+        {
+          "id": "story-8273910265-c25",
+          "text": "Recueillir des preuves discrètement",
+          "description": "La patience pourrait apporter des preuves."
+        },
+        {
+          "id": "story-8273910265-c26",
+          "text": "Affronter le chef de gang",
+          "description": "Forcer la situation maintenant."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-14",
+      "type": "decision",
+      "title": "Confrontation sur le Toit",
+      "narration": "Le vent fouette le toit pendant que vous acculez le suspect sur fond de gratte-ciels imposants, leurs fenêtres scintillant comme des étoiles. La sueur perle sous votre col malgré le froid. Sans nulle part où fuir, votre proie regarde l'écart entre les bâtiments. Votre prochain mouvement décidera de vos deux destins.",
+      "choices": [
+        {
+          "id": "story-8273910265-c27",
+          "text": "Les raisonner et négocier",
+          "description": "Les mots peuvent être des armes."
+        },
+        {
+          "id": "story-8273910265-c28",
+          "text": "Les plaquer au sol",
+          "description": "Utiliser la force pour finir la poursuite."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-15",
+      "type": "decision",
+      "title": "Embuscade à la Gare",
+      "narration": "Le train s'éloigne et vous vous retrouvez dans un couloir de gare désert, les lumières fluorescentes vacillant au-dessus. Des pas résonnent au loin, puis disparaissent. Votre cible s'est glissée dans l'obscurité. Attendez-vous qu'ils reviennent sur leurs pas ou appelez-vous un contact qui vous doit une faveur ?",
+      "choices": [
+        {
+          "id": "story-8273910265-c29",
+          "text": "Attendre dans l'ombre",
+          "description": "La patience pourrait les attraper."
+        },
+        {
+          "id": "story-8273910265-c30",
+          "text": "Appeler pour une faveur",
+          "description": "Utiliser votre réseau."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-17",
+      "type": "decision",
+      "title": "Jetée de Minuit",
+      "narration": "Le clair de lune peint la jetée en argent tandis que les vagues lèchent ses planches usées. Une silhouette solitaire attend sous une lampe, le visage caché sous une capuche. Ils vous offrent un choix – les rejoindre et partager les profits du complot, ou refuser et exposer toute l'opération. La confiance et la trahison flottent dans l'air salé.",
+      "choices": [
+        {
+          "id": "story-8273910265-c33",
+          "text": "Accepter leur accord",
+          "description": "Rejoindre le réseau de l'ombre."
+        },
+        {
+          "id": "story-8273910265-c34",
+          "text": "Refuser et tout exposer",
+          "description": "Sonner l'alarme."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-18",
+      "type": "decision",
+      "title": "Effraction",
+      "narration": "Avec des alliés à vos côtés, vous poussez une porte vers un long couloir sombre. Les pas résonnent pendant que vous approchez d'une réunion en cours, les voix basses et conspiratoires. Faites-vous irruption et procédez aux arrestations ou restez-vous en retrait pour enregistrer l'échange pour que le monde le voie ?",
+      "choices": [
+        {
+          "id": "story-8273910265-c35",
+          "text": "Intervenir et les arrêter",
+          "description": "Les traduire en justice."
+        },
+        {
+          "id": "story-8273910265-c36",
+          "text": "Tout enregistrer pour une fuite",
+          "description": "Exposer le complot publiquement."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-19",
+      "type": "ending",
+      "title": "L'Affaire Échappe",
+      "narration": "Vous vous précipitez dans la mêlée et le gang se disperse comme des ombres dans la pluie. Un coup de feu retentit, un moteur de bateau rugit, et le cerveau disparaît dans la nuit. Des semaines plus tard, vous fixez votre tableau de liège, des fils de laine reliant des photos qui ne mènent nulle part. L'affaire refroidit et la ville oublie, mais vous ne le pouvez pas.",
+      "choices": []
+    },
+    {
+      "id": "story-8273910265-21",
+      "type": "ending",
+      "title": "Pacte avec le Diable",
+      "narration": "La tentation l'emporte. Vous empoche les dossiers et entrez dans le cercle intérieur. L'échelle que vous grimpez peut être dorée, mais chaque barreau est glissant de culpabilité. La richesse et les connexions affluent vers vous, mais dans les moments tranquilles, vous vous demandez ce qu'est devenue la jeune femme dont l'ornement a déverrouillé votre fortune.",
+      "choices": []
+    },
+    {
+      "id": "story-8273910265-22",
+      "type": "ending",
+      "title": "Lanceur d'Alerte",
+      "narration": "Vous choisissez l'exposition plutôt que la sécurité. Caché derrière des moniteurs lumineux, vous compilez enregistrements et documents et les divulguez à la presse. Les gros titres explosent, les personnalités puissantes tombent, et la ville convulse. Vous devenez à la fois héros et cible, disparaissant dans les ombres numériques tout en sachant que vous avez fait ce qu'il fallait.",
+      "choices": []
+    }
+  ]
+}

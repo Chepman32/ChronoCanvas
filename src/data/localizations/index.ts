@@ -1,7 +1,16 @@
 import { Language } from '../../localization/translations';
 
+import { story_10012001StoryTranslations } from './story-10012001_i18n';
+import { story_10012002StoryTranslations } from './story-10012002_i18n';
+import { story_10012003StoryTranslations } from './story-10012003_i18n';
+import { story_10012004StoryTranslations } from './story-10012004_i18n';
+import { story_10012005StoryTranslations } from './story-10012005_i18n';
+import { story_10012006StoryTranslations } from './story-10012006_i18n';
+import { story_10012007StoryTranslations } from './story-10012007_i18n';
+import { story_10012008StoryTranslations } from './story-10012008_i18n';
 import { story_3StoryTranslations } from './story-3_i18n';
 import { story_4StoryTranslations } from './story-4_i18n';
+import { story_583921467StoryTranslations } from './story-583921467_i18n';
 import { story_745829103StoryTranslations } from './story-745829103_i18n';
 import { story_7481296StoryTranslations } from './story-7481296_i18n';
 import { story_8273910265StoryTranslations } from './story-8273910265_i18n';
@@ -41,8 +50,17 @@ export const storyTranslationsRegistry: Record<
   string,
   Record<Language, StoryTranslations>
 > = {
+  'story-10012001': story_10012001StoryTranslations,
+  'story-10012002': story_10012002StoryTranslations,
+  'story-10012003': story_10012003StoryTranslations,
+  'story-10012004': story_10012004StoryTranslations,
+  'story-10012005': story_10012005StoryTranslations,
+  'story-10012006': story_10012006StoryTranslations,
+  'story-10012007': story_10012007StoryTranslations,
+  'story-10012008': story_10012008StoryTranslations,
   'story-3': story_3StoryTranslations,
   'story-4': story_4StoryTranslations,
+  'story-583921467': story_583921467StoryTranslations,
   'story-745829103': story_745829103StoryTranslations,
   'story-7481296': story_7481296StoryTranslations,
   'story-8273910265': story_8273910265StoryTranslations,

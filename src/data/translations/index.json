@@ -2,8 +2,8 @@
   "meta": {
     "version": "2.0",
     "structure": "folder-per-story",
-    "generatedAt": "2025-10-15T17:00:00.000Z",
-    "totalStories": 18,
+    "generatedAt": "2025-01-21T00:00:00.000Z",
+    "totalStories": 26,
     "description": "Index of all story translations - each story has its own folder"
   },
   "structure": {
@@ -95,10 +95,10 @@
     {
       "id": "story-583921467",
       "title": "The Timekeeper's Heart",
-      "author": "Marcus Sterling",
+      "author": "Nova Strickland",
       "genre": ["romance", "scifi"],
-      "difficulty": "easy",
-      "nodes": 22,
+      "difficulty": "medium",
+      "nodes": 12,
       "folder": "story-583921467",
       "availableLanguages": ["en"]
     },
@@ -190,6 +190,86 @@
       "difficulty": "easy",
       "nodes": 22,
       "folder": "story-9932045517721",
+      "availableLanguages": ["en"]
+    },
+    {
+      "id": "story-10012001",
+      "title": "Cosmic Castaway",
+      "author": "Commander Lyra Hayes",
+      "genre": ["scifi", "adventure"],
+      "difficulty": "medium",
+      "nodes": 7,
+      "folder": "story-10012001",
+      "availableLanguages": ["en"]
+    },
+    {
+      "id": "story-10012002",
+      "title": "Digital Rebellion",
+      "author": "Jax Harper",
+      "genre": ["scifi", "adventure"],
+      "difficulty": "hard",
+      "nodes": 7,
+      "folder": "story-10012002",
+      "availableLanguages": ["en"]
+    },
+    {
+      "id": "story-10012003",
+      "title": "Chance Encounter",
+      "author": "Sasha Nguyen",
+      "genre": ["romance"],
+      "difficulty": "easy",
+      "nodes": 7,
+      "folder": "story-10012003",
+      "availableLanguages": ["en"]
+    },
+    {
+      "id": "story-10012004",
+      "title": "Hearts Divided",
+      "author": "Amelia Thornton",
+      "genre": ["romance"],
+      "difficulty": "medium",
+      "nodes": 7,
+      "folder": "story-10012004",
+      "availableLanguages": ["en"]
+    },
+    {
+      "id": "story-10012005",
+      "title": "Murder at the Mansion",
+      "author": "Inspector Greyson Ward",
+      "genre": ["detective", "mystery"],
+      "difficulty": "medium",
+      "nodes": 6,
+      "folder": "story-10012005",
+      "availableLanguages": ["en"]
+    },
+    {
+      "id": "story-10012006",
+      "title": "Temple of Secrets",
+      "author": "Dr. Maya Castillo",
+      "genre": ["adventure"],
+      "difficulty": "medium",
+      "nodes": 9,
+      "folder": "story-10012006",
+      "availableLanguages": ["en"]
+    },
+    {
+      "id": "story-10012007",
+      "title": "Sands of Fate",
+      "author": "Professor Leila Farouk",
+      "genre": ["adventure"],
+      "difficulty": "easy",
+      "nodes": 7,
+      "folder": "story-10012007",
+      "availableLanguages": ["en"]
+    },
+    {
+      "id": "story-10012008",
+      "title": "Frozen Pass",
+      "author": "Everett Cole",
+      "genre": ["adventure"],
+      "difficulty": "hard",
+      "nodes": 7,
+      "folder": "story-10012008",
       "availableLanguages": ["en"]
     }
   ],
