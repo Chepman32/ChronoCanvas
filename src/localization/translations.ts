@@ -83,9 +83,9 @@ export interface Translations {
 export const translations: Record<Language, Translations> = {
   // English
   en: {
-    appName: 'ChronoCanvas',
+    appName: 'FableFlow',
     appTagline: 'Choose Your Adventure',
-    appVersion: 'ChronoCanvas v1.0',
+    appVersion: 'FableFlow v1.0',
     appDescription: 'Interactive Story Experience',
 
     back: 'Back',
@@ -145,9 +145,9 @@ export const translations: Record<Language, Translations> = {
 
   // Russian (Русский)
   ru: {
-    appName: 'ChronoCanvas',
+    appName: 'FableFlow',
     appTagline: 'Выберите своё приключение',
-    appVersion: 'ChronoCanvas v1.0',
+    appVersion: 'FableFlow v1.0',
     appDescription: 'Интерактивные истории',
 
     back: 'Назад',
@@ -207,9 +207,9 @@ export const translations: Record<Language, Translations> = {
 
   // Spanish (Español)
   es: {
-    appName: 'ChronoCanvas',
+    appName: 'FableFlow',
     appTagline: 'Elige tu aventura',
-    appVersion: 'ChronoCanvas v1.0',
+    appVersion: 'FableFlow v1.0',
     appDescription: 'Experiencia de historia interactiva',
 
     back: 'Atrás',
@@ -269,9 +269,9 @@ export const translations: Record<Language, Translations> = {
 
   // German (Deutsch)
   de: {
-    appName: 'ChronoCanvas',
+    appName: 'FableFlow',
     appTagline: 'Wähle dein Abenteuer',
-    appVersion: 'ChronoCanvas v1.0',
+    appVersion: 'FableFlow v1.0',
     appDescription: 'Interaktives Geschichtenerlebnis',
 
     back: 'Zurück',
@@ -332,9 +332,9 @@ export const translations: Record<Language, Translations> = {
 
   // French (Français)
   fr: {
-    appName: 'ChronoCanvas',
+    appName: 'FableFlow',
     appTagline: 'Choisissez votre aventure',
-    appVersion: 'ChronoCanvas v1.0',
+    appVersion: 'FableFlow v1.0',
     appDescription: "Expérience d'histoire interactive",
 
     back: 'Retour',
@@ -395,9 +395,9 @@ export const translations: Record<Language, Translations> = {
 
   // Portuguese (Português)
   pt: {
-    appName: 'ChronoCanvas',
+    appName: 'FableFlow',
     appTagline: 'Escolha sua aventura',
-    appVersion: 'ChronoCanvas v1.0',
+    appVersion: 'FableFlow v1.0',
     appDescription: 'Experiência de história interativa',
 
     back: 'Voltar',
@@ -457,9 +457,9 @@ export const translations: Record<Language, Translations> = {
 
   // Japanese (日本語)
   ja: {
-    appName: 'ChronoCanvas',
+    appName: 'FableFlow',
     appTagline: '冒険を選ぼう',
-    appVersion: 'ChronoCanvas v1.0',
+    appVersion: 'FableFlow v1.0',
     appDescription: 'インタラクティブストーリー体験',
 
     back: '戻る',
@@ -520,9 +520,9 @@ export const translations: Record<Language, Translations> = {
 
   // Chinese (中文)
   zh: {
-    appName: 'ChronoCanvas',
+    appName: 'FableFlow',
     appTagline: '选择你的冒险',
-    appVersion: 'ChronoCanvas v1.0',
+    appVersion: 'FableFlow v1.0',
     appDescription: '互动故事体验',
 
     back: '返回',
@@ -582,9 +582,9 @@ export const translations: Record<Language, Translations> = {
 
   // Korean (한국어)
   ko: {
-    appName: 'ChronoCanvas',
+    appName: 'FableFlow',
     appTagline: '모험을 선택하세요',
-    appVersion: 'ChronoCanvas v1.0',
+    appVersion: 'FableFlow v1.0',
     appDescription: '인터랙티브 스토리 경험',
 
     back: '뒤로',
@@ -644,9 +644,9 @@ export const translations: Record<Language, Translations> = {
 
   // Ukrainian (Українська)
   uk: {
-    appName: 'ChronoCanvas',
+    appName: 'FableFlow',
     appTagline: 'Обери свою пригоду',
-    appVersion: 'ChronoCanvas v1.0',
+    appVersion: 'FableFlow v1.0',
     appDescription: 'Інтерактивні історії',
 
     back: 'Назад',

@@ -171,7 +171,10 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
             onPress={onSettingsPress}
             activeOpacity={0.7}
           >
-            <Text style={styles.settingsIcon}>⚙</Text>
+            <Image
+              source={require('../assets/icons/settings.png')}
+              style={styles.settingsIcon}
+            />
           </TouchableOpacity>
         </View>
       </View>
@@ -241,8 +244,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   settingsIcon: {
-    fontSize: 24,
-    color: '#FFFFFF',
+    width: 24,
+    height: 24,
+    tintColor: '#FFFFFF',
   },
   scrollView: {
     flex: 1,
