@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "storyId": "story-847362951",
+    "language": "fr",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.399Z"
+  },
+  "story": {
+    "title": "La Conservatrice de Minuit",
+    "author": "Détective Marcus Reed",
+    "description": "Une conservatrice d'art renommée est retrouvée morte dans une galerie verrouillée à la veille de la plus grande exposition de sa carrière. En tant que détective principal, vous avez jusqu'à l'aube pour résoudre le meurtre avant que la presse ne débarque et que le tueur ne disparaisse à jamais.",
+    "genre": [
+      "détective",
+      "mystère"
+    ],
+    "difficulty": "moyen",
+    "estimatedDuration": 18
+  },
+  "nodes": [
+    {
+      "id": "story-847362951-4",
+      "type": "decision",
+      "title": "Chambre Scellée",
+      "narration": "Le verrou de l'entrée principale est engagé de l'intérieur, la chaîne de sécurité encore accrochée. Chaque fenêtre reste verrouillée, leurs capteurs non perturbés selon le système de sécurité. La seule autre sortie mène à un escalier de secours, mais son alarme est armée et ne montre aucun signe d'avoir été déclenchée. Cela devrait être impossible. Puis vous remarquez quelque chose d'étrange : des rayures fraîches autour de la grille de ventilation près du plafond, et un seul fil noir pris sur son bord.",
+      "choices": [
+        {
+          "id": "story-847362951-c8",
+          "text": "Grimper pour examiner le système de ventilation",
+          "description": "Quelqu'un aurait-il pu utiliser les conduits ?"
+        },
+        {
+          "id": "story-847362951-c9",
+          "text": "Examiner les enregistrements des caméras de sécurité",
+          "description": "La technologie ne ment pas"
+        }
+      ]
+    }
+  ]
+}

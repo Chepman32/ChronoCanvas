@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "storyId": "story-847362910",
+    "language": "pt",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.386Z"
+  },
+  "story": {
+    "title": "A Chamada da Meia-Noite",
+    "author": "Elena Blackwood",
+    "description": "Alguém sabe o que você fez no verão passado. O telefone toca às 3 da manhã com uma voz do seu passado, e agora você tem 48 horas para encontrá-los antes que eles encontrem você. Cada escolha pode ser a última.",
+    "genre": [
+      "detetive",
+      "mistério"
+    ],
+    "difficulty": "médio",
+    "estimatedDuration": 18
+  },
+  "nodes": [
+    {
+      "id": "story-847362910-2",
+      "type": "decision",
+      "title": "Evidências Enterradas",
+      "narration": "A caixa de arquivos está no seu armário onde você a deixou há três anos, coberta de poeira e arrependimento. Dentro, fotos da cena do crime mostram o parque ao amanhecer, fita amarela isolando o coreto. A vítima, Marcus Dalton, olha para cima do papel brilhante com olhos sem vida. Suas anotações mencionam uma testemunha que nunca apareceu - alguém viu tudo mas desapareceu. Então você percebe: uma foto está faltando na sequência. Alguém esteve no seu apartamento.",
+      "choices": [
+        {
+          "id": "story-847362910-c4",
+          "text": "Verificar seu apartamento em busca de sinais de arrombamento",
+          "description": "Eles estiveram aqui. Podem ainda estar por perto."
+        },
+        {
+          "id": "story-847362910-c5",
+          "text": "Focar em encontrar a testemunha desaparecida",
+          "description": "O autor da chamada pode ser a testemunha de três anos atrás"
+        }
+      ]
+    },
+    {
+      "id": "story-847362910-7",
+      "type": "decision",
+      "title": "A Conserveira Vazia",
+      "narration": "A conserveira se ergue contra o céu pré-amanhecer como uma catedral enferrujada. Você desliza por uma cerca quebrada e entra por uma porta lateral pendurada nas dobradiças. Dentro, a maquinaria permanece congelada no tempo, coberta em camadas de poeira e fezes de pombo. Sua lanterna corta a escuridão, revelando pegadas na poeira - frescas, levando para mais fundo no edifício. Então você ouve: música tocando em algum lugar acima de você, uma gravação arranhada de um velho standard de jazz. A mesma música que estava tocando quando Marcus Dalton morreu.",
+      "choices": [
+        {
+          "id": "story-847362910-c15",
+          "text": "Seguir a música para o andar de cima",
+          "description": "Alguém quer que você os encontre"
+        },
+        {
+          "id": "story-847362910-c16",
+          "text": "Procurar primeiro no térreo",
+          "description": "Verificar cada sala metodicamente e com segurança"
+        }
+      ]
+    },
+    {
+      "id": "story-847362910-17",
+      "type": "decision",
+      "title": "Segredos do Térreo",
+      "narration": "Você procura metodicamente em cada sala no térreo - escritórios velhos, uma sala de descanso com xícaras de café mofadas, armários de armazenamento cheios de equipamento enferrujado. No último escritório, você encontra algo que faz seu coração disparar: atividade recente. Alguém esteve morando aqui. Saco de dormir, embalagens de comida e uma parede coberta de recortes de jornal sobre corrupção policial. Fotos suas estão misturadas com imagens do seu ex-parceiro, Capitão Morrison, aquele que fechou o caso Dalton. Então você vê: um quadro branco com uma linha do tempo conectando Morrison aos negócios da família Dalton, com setas apontando para contas offshore. A música para lá em cima. Passos descem em sua direção.",
+      "choices": [
+        {
+          "id": "story-847362910-c35",
+          "text": "Esconder e emboscar quem estiver vindo",
+          "description": "Atacar das sombras"
+        },
+        {
+          "id": "story-847362910-c36",
+          "text": "Anunciar-se e pedir para conversar",
+          "description": "Talvez a violência não"
+        }
+      ]
+    },
+    {
+      "id": "story-847362910-18",
+      "type": "ending",
+      "title": "Justiça Burocrática",
+      "narration": "Você espera por reforços, e quando eles chegam, a conserveira está vazia. Sarah Chen é encontrada em segurança em casa - a mensagem era um blefe. Rebecca Dalton é presa tentando embarcar em um avião para o México. Sob custódia, ela confessa tudo: Marcus estava lavando dinheiro de drogas, Capitão Morrison estava na folha de pagamento, e quando Rebecca confrontou seu irmão, Morrison o matou para silenciar ambos. Mas sem as evidências que Rebecca reuniu - agora destruídas em seu pânico - nada se sustenta. Morrison se aposenta com pensão completa. Rebecca vai para a prisão por perseguição e invasão. O caso se fecha oficialmente, mas você conhece a verdade. Às vezes o sistema protege os culpados, e às vezes justiça não é mais que papelada e compromissos. Você entrega seu distintivo três meses depois.",
+      "choices": []
+    }
+  ]
+}

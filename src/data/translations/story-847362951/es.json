@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "storyId": "story-847362951",
+    "language": "es",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.399Z"
+  },
+  "story": {
+    "title": "La Curadora de Medianoche",
+    "author": "Detective Marcus Reed",
+    "description": "Una renombrada curadora de arte es encontrada muerta en una galería cerrada en la víspera de la mayor exposición de su carrera. Como detective principal, tienes hasta el amanecer para resolver el asesinato antes de que la prensa llegue y el asesino desaparezca para siempre.",
+    "genre": [
+      "detective",
+      "misterio"
+    ],
+    "difficulty": "medio",
+    "estimatedDuration": 18
+  },
+  "nodes": [
+    {
+      "id": "story-847362951-4",
+      "type": "decision",
+      "title": "Cámara Sellada",
+      "narration": "El cerrojo de la entrada principal está activado desde el interior, la cadena de seguridad aún enganchada. Cada ventana permanece cerrada, sus sensores sin perturbaciones según el sistema de seguridad. La única otra salida conduce a una escalera de incendios, pero su alarma está armada y no muestra señales de haber sido activada. Esto debería ser imposible. Entonces notas algo extraño: rasguños frescos alrededor de la rejilla de ventilación cerca del techo, y un solo hilo negro atrapado en su borde.",
+      "choices": [
+        {
+          "id": "story-847362951-c8",
+          "text": "Subir para examinar el sistema de ventilación",
+          "description": "¿Podría alguien haber usado los conductos?"
+        },
+        {
+          "id": "story-847362951-c9",
+          "text": "Revisar las grabaciones de las cámaras de seguridad",
+          "description": "La tecnología no miente"
+        }
+      ]
+    }
+  ]
+}

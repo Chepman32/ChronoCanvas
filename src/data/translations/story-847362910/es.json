@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "storyId": "story-847362910",
+    "language": "es",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.386Z"
+  },
+  "story": {
+    "title": "La Llamada de Medianoche",
+    "author": "Elena Blackwood",
+    "description": "Alguien sabe lo que hiciste el verano pasado. El teléfono suena a las 3 AM con una voz de tu pasado, y ahora tienes 48 horas para encontrarlos antes de que ellos te encuentren a ti. Cada decisión podría ser la última.",
+    "genre": [
+      "detective",
+      "misterio"
+    ],
+    "difficulty": "medio",
+    "estimatedDuration": 18
+  },
+  "nodes": [
+    {
+      "id": "story-847362910-2",
+      "type": "decision",
+      "title": "Evidencia Enterrada",
+      "narration": "La caja de archivos está en tu armario donde la dejaste hace tres años, cubierta de polvo y arrepentimiento. Dentro, las fotos de la escena del crimen muestran el parque al amanecer, cinta amarilla acordonando el mirador. La víctima, Marcus Dalton, mira hacia arriba desde el papel brillante con ojos sin vida. Tus notas mencionan a un testigo que nunca se presentó: alguien lo vio todo pero desapareció. Entonces lo notas: falta una foto de la secuencia. Alguien ha estado en tu apartamento.",
+      "choices": [
+        {
+          "id": "story-847362910-c4",
+          "text": "Revisa tu apartamento en busca de señales de allanamiento",
+          "description": "Estuvieron aquí. Podrían estar todavía cerca."
+        },
+        {
+          "id": "story-847362910-c5",
+          "text": "Concéntrate en encontrar al testigo desaparecido",
+          "description": "El que llama podría ser el testigo de hace tres años"
+        }
+      ]
+    },
+    {
+      "id": "story-847362910-7",
+      "type": "decision",
+      "title": "La Conservera Vacía",
+      "narration": "La conservera se alza contra el cielo previo al amanecer como una catedral oxidada. Te deslizas a través de una valla rota y entras por una puerta lateral que cuelga de sus bisagras. Dentro, la maquinaria permanece congelada en el tiempo, cubierta de capas de polvo y excrementos de palomas. Tu linterna corta la oscuridad, revelando huellas en el polvo, frescas, que conducen más adentro del edificio. Entonces lo oyes: música sonando en algún lugar arriba, una grabación rayada de un viejo estándar de jazz. La misma canción que sonaba cuando Marcus Dalton murió.",
+      "choices": [
+        {
+          "id": "story-847362910-c15",
+          "text": "Sigue la música hacia arriba",
+          "description": "Alguien quiere que los encuentres"
+        },
+        {
+          "id": "story-847362910-c16",
+          "text": "Busca primero en la planta baja",
+          "description": "Despeja cada habitación metódica y seguramente"
+        }
+      ]
+    },
+    {
+      "id": "story-847362910-17",
+      "type": "decision",
+      "title": "Secretos en la Planta Baja",
+      "narration": "Buscas metódicamente en cada habitación de la planta baja: oficinas viejas, una sala de descanso con tazas de café mohosas, armarios de almacenamiento llenos de equipo oxidado. En la última oficina, encuentras algo que hace que tu corazón se acelere: actividad reciente. Alguien ha estado viviendo aquí. Saco de dormir, envoltorios de comida y una pared cubierta de recortes de periódico sobre corrupción policial. Fotos tuyas están mezcladas con imágenes de tu antiguo compañero, el Capitán Morrison, quien cerró el caso Dalton. Entonces lo ves: una pizarra blanca con una línea de tiempo conectando a Morrison con el negocio de la familia Dalton, con flechas apuntando a cuentas offshore. La música se detiene arriba. Pasos descienden hacia ti.",
+      "choices": [
+        {
+          "id": "story-847362910-c35",
+          "text": "Escóndete y embosca a quien venga",
+          "description": "Ataca desde las sombras"
+        },
+        {
+          "id": "story-847362910-c36",
+          "text": "Anúnciate y pide hablar",
+          "description": "Quizás la violencia no"
+        }
+      ]
+    },
+    {
+      "id": "story-847362910-18",
+      "type": "ending",
+      "title": "Justicia Burocrática",
+      "narration": "Esperas refuerzos, y cuando llegan, la conservera está vacía. Sarah Chen es encontrada sana y salva en casa: el mensaje era un engaño. Rebecca Dalton es arrestada intentando abordar un avión a México. Bajo custodia, confiesa todo: Marcus lavaba dinero de drogas, el Capitán Morrison estaba en la nómina, y cuando Rebecca confrontó a su hermano, Morrison lo mató para silenciarlos a ambos. Pero sin las pruebas que Rebecca reunió, ahora destruidas en su pánico, nada se sostiene. Morrison se retira con pensión completa. Rebecca va a prisión por acoso y allanamiento. El caso se cierra oficialmente, pero tú conoces la verdad. A veces el sistema protege a los culpables, y a veces la justicia no es más que papeleo y compromisos. Entregas tu placa tres meses después.",
+      "choices": []
+    }
+  ]
+}

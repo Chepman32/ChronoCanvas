@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "storyId": "story-847362910",
+    "language": "fr",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.386Z"
+  },
+  "story": {
+    "title": "L'Appel de Minuit",
+    "author": "Elena Blackwood",
+    "description": "Quelqu'un sait ce que tu as fait l'été dernier. Le téléphone sonne à 3 heures du matin avec une voix de ton passé, et maintenant tu as 48 heures pour les trouver avant qu'ils ne te trouvent. Chaque choix pourrait être le dernier.",
+    "genre": [
+      "détective",
+      "mystère"
+    ],
+    "difficulty": "moyen",
+    "estimatedDuration": 18
+  },
+  "nodes": [
+    {
+      "id": "story-847362910-2",
+      "type": "decision",
+      "title": "Preuves Enterrées",
+      "narration": "La boîte de dossiers est dans ton placard où tu l'as laissée il y a trois ans, couverte de poussière et de regrets. À l'intérieur, les photos de scène de crime montrent le parc à l'aube, du ruban jaune délimitant le kiosque. La victime, Marcus Dalton, fixe le vide depuis le papier glacé avec des yeux sans vie. Tes notes mentionnent un témoin qui ne s'est jamais manifesté : quelqu'un a tout vu mais a disparu. Puis tu le remarques : une photo manque dans la séquence. Quelqu'un est entré dans ton appartement.",
+      "choices": [
+        {
+          "id": "story-847362910-c4",
+          "text": "Vérifie ton appartement pour des signes d'effraction",
+          "description": "Ils étaient ici. Ils pourraient être encore proches."
+        },
+        {
+          "id": "story-847362910-c5",
+          "text": "Concentre-toi sur la recherche du témoin disparu",
+          "description": "L'appelant pourrait être le témoin d'il y a trois ans"
+        }
+      ]
+    },
+    {
+      "id": "story-847362910-7",
+      "type": "decision",
+      "title": "La Conserverie Vide",
+      "narration": "La conserverie se dresse contre le ciel d'avant l'aube comme une cathédrale rouillée. Tu te glisses à travers une clôture brisée et entres par une porte latérale qui pend de ses gonds. À l'intérieur, les machines sont figées dans le temps, couvertes de couches de poussière et de fientes de pigeons. Ta lampe torche transperce l'obscurité, révélant des empreintes dans la poussière, fraîches, menant plus profondément dans le bâtiment. Puis tu l'entends : de la musique jouant quelque part au-dessus de toi, un enregistrement grinçant d'un vieux standard de jazz. La même chanson qui jouait quand Marcus Dalton est mort.",
+      "choices": [
+        {
+          "id": "story-847362910-c15",
+          "text": "Suis la musique à l'étage",
+          "description": "Quelqu'un veut que tu le trouves"
+        },
+        {
+          "id": "story-847362910-c16",
+          "text": "Fouille d'abord le rez-de-chaussée",
+          "description": "Inspecte chaque pièce méthodiquement et en toute sécurité"
+        }
+      ]
+    },
+    {
+      "id": "story-847362910-17",
+      "type": "decision",
+      "title": "Secrets du Rez-de-Chaussée",
+      "narration": "Tu fouilles méthodiquement chaque pièce du rez-de-chaussée : vieux bureaux, une salle de pause avec des tasses de café moisies, des placards de rangement remplis d'équipement rouillé. Dans le dernier bureau, tu trouves quelque chose qui fait battre ton cœur : une activité récente. Quelqu'un a vécu ici. Sac de couchage, emballages de nourriture et un mur couvert de coupures de presse sur la corruption policière. Des photos de toi sont mélangées avec des images de ton ancien partenaire, le Capitaine Morrison, celui qui a clos l'affaire Dalton. Puis tu le vois : un tableau blanc avec une chronologie reliant Morrison aux affaires de la famille Dalton, avec des flèches pointant vers des comptes offshore. La musique s'arrête à l'étage. Des pas descendent vers toi.",
+      "choices": [
+        {
+          "id": "story-847362910-c35",
+          "text": "Cache-toi et attaque celui qui vient",
+          "description": "Attaque depuis l'ombre"
+        },
+        {
+          "id": "story-847362910-c36",
+          "text": "Annonce-toi et demande à parler",
+          "description": "Peut-être que la violence n'est"
+        }
+      ]
+    },
+    {
+      "id": "story-847362910-18",
+      "type": "ending",
+      "title": "Justice Bureaucratique",
+      "narration": "Tu attends les renforts, et quand ils arrivent, la conserverie est vide. Sarah Chen est retrouvée saine et sauve chez elle : le message était un bluff. Rebecca Dalton est arrêtée en tentant de monter dans un avion pour le Mexique. En garde à vue, elle avoue tout : Marcus blanchissait de l'argent de la drogue, le Capitaine Morrison était sur la liste de paie, et quand Rebecca a confronté son frère, Morrison l'a tué pour les faire taire tous les deux. Mais sans les preuves que Rebecca avait rassemblées, maintenant détruites dans sa panique, rien ne tient. Morrison prend sa retraite avec une pension complète. Rebecca va en prison pour harcèlement et effraction. L'affaire est officiellement close, mais tu connais la vérité. Parfois le système protège les coupables, et parfois la justice n'est rien de plus que de la paperasse et des compromis. Tu rends ton badge trois mois plus tard.",
+      "choices": []
+    }
+  ]
+}

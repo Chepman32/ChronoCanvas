@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "storyId": "story-847362951",
+    "language": "pt",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.399Z"
+  },
+  "story": {
+    "title": "A Curadora da Meia-Noite",
+    "author": "Detetive Marcus Reed",
+    "description": "Uma renomada curadora de arte é encontrada morta em uma galeria trancada na véspera da maior exposição de sua carreira. Como detetive principal, você tem até o amanhecer para resolver o assassinato antes que a imprensa chegue e o assassino desapareça para sempre.",
+    "genre": [
+      "detetive",
+      "mistério"
+    ],
+    "difficulty": "médio",
+    "estimatedDuration": 18
+  },
+  "nodes": [
+    {
+      "id": "story-847362951-4",
+      "type": "decision",
+      "title": "Câmara Selada",
+      "narration": "O ferrolho da entrada principal está acionado por dentro, a corrente de segurança ainda presa. Cada janela permanece trancada, seus sensores não perturbados de acordo com o sistema de segurança. A única outra saída leva a uma escada de incêndio, mas seu alarme está armado e não mostra sinais de ter sido acionado. Isso deveria ser impossível. Então você nota algo estranho: arranhões frescos ao redor da grade de ventilação perto do teto, e um único fio preto preso em sua borda.",
+      "choices": [
+        {
+          "id": "story-847362951-c8",
+          "text": "Subir para examinar o sistema de ventilação",
+          "description": "Alguém poderia ter usado os dutos?"
+        },
+        {
+          "id": "story-847362951-c9",
+          "text": "Revisar as gravações das câmeras de segurança",
+          "description": "A tecnologia não minte"
+        }
+      ]
+    }
+  ]
+}

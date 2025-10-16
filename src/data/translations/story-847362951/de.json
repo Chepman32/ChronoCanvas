@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "storyId": "story-847362951",
+    "language": "de",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.399Z"
+  },
+  "story": {
+    "title": "Der Mitternachtskurator",
+    "author": "Detective Marcus Reed",
+    "description": "Eine renommierte Kunstkuratorin wird am Vorabend der größten Ausstellung ihrer Karriere tot in einer verschlossenen Galerie aufgefunden. Als leitender Ermittler haben Sie bis zum Morgengrauen Zeit, den Mord aufzuklären, bevor die Presse eintrifft und der Mörder für immer verschwindet.",
+    "genre": [
+      "Detektiv",
+      "Krimi"
+    ],
+    "difficulty": "mittel",
+    "estimatedDuration": 18
+  },
+  "nodes": [
+    {
+      "id": "story-847362951-4",
+      "type": "decision",
+      "title": "Versiegelte Kammer",
+      "narration": "Der Haupteingangsriegel ist von innen verriegelt, die Sicherheitskette noch eingehakt. Jedes Fenster bleibt verschlossen, ihre Sensoren laut Sicherheitssystem ungestört. Der einzige andere Ausgang führt zu einer Feuertreppe, aber deren Alarm ist scharf und zeigt keine Anzeichen einer Auslösung. Das sollte unmöglich sein. Dann bemerken Sie etwas Seltsames: frische Kratzer um das Lüftungsgitter nahe der Decke, und ein einzelner schwarzer Faden, der sich an dessen Kante verfangen hat.",
+      "choices": [
+        {
+          "id": "story-847362951-c8",
+          "text": "Hochklettern, um das Lüftungssystem zu untersuchen",
+          "description": "Könnte jemand die Lüftungsschächte benutzt haben?"
+        },
+        {
+          "id": "story-847362951-c9",
+          "text": "Die Sicherheitskamera-Aufnahmen überprüfen",
+          "description": "Technologie lügt nicht"
+        }
+      ]
+    }
+  ]
+}

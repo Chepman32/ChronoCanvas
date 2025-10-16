@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "storyId": "story-847362910",
+    "language": "de",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.386Z"
+  },
+  "story": {
+    "title": "Der Mitternachtsanrufer",
+    "author": "Elena Blackwood",
+    "description": "Jemand weiß, was du letzten Sommer getan hast. Das Telefon klingelt um 3 Uhr morgens mit einer Stimme aus deiner Vergangenheit, und jetzt hast du 48 Stunden Zeit, sie zu finden, bevor sie dich finden. Jede Entscheidung könnte deine letzte sein.",
+    "genre": [
+      "Detektiv",
+      "Krimi"
+    ],
+    "difficulty": "mittel",
+    "estimatedDuration": 18
+  },
+  "nodes": [
+    {
+      "id": "story-847362910-2",
+      "type": "decision",
+      "title": "Vergrabene Beweise",
+      "narration": "Die Aktenkiste steht in deinem Schrank, wo du sie vor drei Jahren hinterlassen hast, bedeckt mit Staub und Reue. Darin zeigen Tatortfotos den Park im Morgengrauen, gelbes Absperrband umgibt den Pavillon. Das Opfer, Marcus Dalton, starrt von glänzendem Papier mit leblosen Augen herauf. Deine Notizen erwähnen einen Zeugen, der sich nie gemeldet hat – jemand hat alles gesehen, ist aber verschwunden. Dann bemerkst du es: Ein Foto fehlt in der Sequenz. Jemand war in deiner Wohnung.",
+      "choices": [
+        {
+          "id": "story-847362910-c4",
+          "text": "Überprüfe deine Wohnung auf Einbruchsspuren",
+          "description": "Sie waren hier. Sie könnten noch in der Nähe sein."
+        },
+        {
+          "id": "story-847362910-c5",
+          "text": "Konzentriere dich darauf, den vermissten Zeugen zu finden",
+          "description": "Der Anrufer könnte der Zeuge von vor drei Jahren sein"
+        }
+      ]
+    },
+    {
+      "id": "story-847362910-7",
+      "type": "decision",
+      "title": "Die Leere Konservenfabrik",
+      "narration": "Die Konservenfabrik ragt wie eine verrostete Kathedrale gegen den Himmel vor der Morgendämmerung. Du schlüpfst durch einen kaputten Zaun und betrittst das Gebäude durch eine Seitentür, die aus den Angeln hängt. Drinnen steht die Maschinerie wie eingefroren in der Zeit, bedeckt mit Schichten aus Staub und Taubenkot. Deine Taschenlampe schneidet durch die Dunkelheit und enthüllt Fußspuren im Staub – frische, die tiefer ins Gebäude führen. Dann hörst du es: Musik spielt irgendwo über dir, eine kratzige Aufnahme eines alten Jazz-Standards. Dasselbe Lied, das spielte, als Marcus Dalton starb.",
+      "choices": [
+        {
+          "id": "story-847362910-c15",
+          "text": "Folge der Musik nach oben",
+          "description": "Jemand will, dass du ihn findest"
+        },
+        {
+          "id": "story-847362910-c16",
+          "text": "Durchsuche zuerst das Erdgeschoss",
+          "description": "Räume jeden Raum methodisch und sicher ab"
+        }
+      ]
+    },
+    {
+      "id": "story-847362910-17",
+      "type": "decision",
+      "title": "Geheimnisse im Erdgeschoss",
+      "narration": "Du durchsuchst methodisch jeden Raum im Erdgeschoss – alte Büros, einen Pausenraum mit verschimmelten Kaffeetassen, Abstellkammern voller verrosteter Ausrüstung. Im letzten Büro findest du etwas, das dein Herz rasen lässt: kürzliche Aktivität. Jemand hat hier gelebt. Schlafsack, Essensverpackungen und eine Wand bedeckt mit Zeitungsausschnitten über Polizeikorruption. Fotos von dir sind vermischt mit Bildern deines ehemaligen Partners, Captain Morrison, demjenigen, der den Dalton-Fall geschlossen hat. Dann siehst du es: ein Whiteboard mit einer Zeitleiste, die Morrison mit dem Geschäft der Dalton-Familie verbindet, mit Pfeilen, die auf Offshore-Konten zeigen. Die Musik hört oben auf. Schritte kommen auf dich zu.",
+      "choices": [
+        {
+          "id": "story-847362910-c35",
+          "text": "Verstecke dich und überfalle denjenigen, der kommt",
+          "description": "Greife aus dem Schatten an"
+        },
+        {
+          "id": "story-847362910-c36",
+          "text": "Kündige dich an und bitte um ein Gespräch",
+          "description": "Vielleicht ist Gewalt nicht"
+        }
+      ]
+    },
+    {
+      "id": "story-847362910-18",
+      "type": "ending",
+      "title": "Bürokratische Gerechtigkeit",
+      "narration": "Du wartest auf Verstärkung, und als sie eintrifft, ist die Konservenfabrik leer. Sarah Chen wird sicher zu Hause aufgefunden – die Nachricht war ein Bluff. Rebecca Dalton wird beim Versuch, in ein Flugzeug nach Mexiko zu steigen, verhaftet. In Gewahrsam gesteht sie alles: Marcus hat Drogengeld gewaschen, Captain Morrison stand auf der Gehaltsliste, und als Rebecca ihren Bruder konfrontierte, tötete Morrison ihn, um sie beide zum Schweigen zu bringen. Aber ohne die Beweise, die Rebecca gesammelt hatte – jetzt in ihrer Panik zerstört – bleibt nichts hängen. Morrison geht mit voller Pension in Rente. Rebecca kommt wegen Stalkings und Einbruchs ins Gefängnis. Der Fall wird offiziell geschlossen, aber du kennst die Wahrheit. Manchmal schützt das System die Schuldigen, und manchmal ist Gerechtigkeit nichts weiter als Papierkram und Kompromisse. Du gibst drei Monate später deine Marke ab.",
+      "choices": []
+    }
+  ]
+}
