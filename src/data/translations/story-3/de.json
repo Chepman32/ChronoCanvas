@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "storyId": "story-3",
+    "language": "de",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:45:00.000Z"
+  },
+  "story": {
+    "title": "Das Zeitschleifen-Paradoxon",
+    "author": "Dr. Sarah Chen",
+    "description": "Gefangen in einem sich wiederholenden Tag müssen Sie das Geheimnis aufdecken und sich aus dem temporalen Gefängnis befreien.",
+    "genre": ["Science-Fiction", "Mystery"],
+    "difficulty": "schwer",
+    "estimatedDuration": 35
+  },
+  "nodes": [
+    {
+      "id": "tl-1",
+      "type": "start",
+      "title": "Wieder Morgen",
+      "narration": "Ihr Wecker klingelt um 7:00 Uhr. Wieder. Dies ist das 47. Mal, dass Sie zu genau diesem Moment aufwachen. Dasselbe Sonnenlicht, derselbe Vogel, der draußen zwitschert, derselbe Kaffeefleck an Ihrer Decke.",
+      "choices": [
+        {
+          "id": "tl-c1",
+          "text": "Tagebuch überprüfen",
+          "description": null
+        },
+        {
+          "id": "tl-c2",
+          "text": "Sofort zum Labor eilen",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "tl-2",
+      "type": "decision",
+      "title": "Das Tagebuch",
+      "narration": "Ihr Tagebuch ist gefüllt mit Notizen aus früheren Schleifen. \"Tag 47: Der Quantenstabilisator funktioniert um 15:47 Uhr nicht mehr. Dr. Martinez verschüttet immer um 10:23 Uhr Kaffee. Der Sicherheitscode ändert sich täglich, folgt aber einem Muster.\"",
+      "choices": [
+        {
+          "id": "tl-c3",
+          "text": "Das Muster studieren",
+          "description": null
+        },
+        {
+          "id": "tl-c4",
+          "text": "Dr. Martinez finden",
+          "description": null
+        }
+      ]
+    }
+  ]
+}

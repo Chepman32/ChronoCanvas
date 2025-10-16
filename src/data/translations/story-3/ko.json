@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "storyId": "story-3",
+    "language": "ko",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:45:00.000Z"
+  },
+  "story": {
+    "title": "타임 루프 패러독스",
+    "author": "사라 첸 박사",
+    "description": "반복되는 하루에 갇힌 당신은 미스터리를 풀고 시간의 감옥에서 탈출해야 합니다.",
+    "genre": ["SF", "미스터리"],
+    "difficulty": "어려움",
+    "estimatedDuration": 35
+  },
+  "nodes": [
+    {
+      "id": "tl-1",
+      "type": "start",
+      "title": "또다시 아침",
+      "narration": "오전 7시에 알람이 울립니다. 또. 이 정확한 순간에 깨어난 것이 47번째입니다. 똑같은 햇빛, 똑같이 지저귀는 새, 천장의 똑같은 커피 얼룩.",
+      "choices": [
+        {
+          "id": "tl-c1",
+          "text": "일기를 확인한다",
+          "description": null
+        },
+        {
+          "id": "tl-c2",
+          "text": "즉시 연구실로 서둘러 간다",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "tl-2",
+      "type": "decision",
+      "title": "일기",
+      "narration": "당신의 일기는 이전 루프의 메모로 가득 차 있습니다. \"47일차: 양자 안정기가 오후 3시 47분에 오작동합니다. 마르티네스 박사는 항상 오전 10시 23분에 커피를 쏟습니다. 보안 코드는 매일 바뀌지만 패턴을 따릅니다.\"",
+      "choices": [
+        {
+          "id": "tl-c3",
+          "text": "패턴을 연구한다",
+          "description": null
+        },
+        {
+          "id": "tl-c4",
+          "text": "마르티네스 박사를 찾으러 간다",
+          "description": null
+        }
+      ]
+    }
+  ]
+}

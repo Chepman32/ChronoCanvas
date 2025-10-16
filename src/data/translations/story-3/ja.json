@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "storyId": "story-3",
+    "language": "ja",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:45:00.000Z"
+  },
+  "story": {
+    "title": "タイムループパラドックス",
+    "author": "サラ・チェン博士",
+    "description": "繰り返す一日に閉じ込められたあなたは、謎を解き明かし、時間の牢獄から脱出しなければならない。",
+    "genre": ["SF", "ミステリー"],
+    "difficulty": "難しい",
+    "estimatedDuration": 35
+  },
+  "nodes": [
+    {
+      "id": "tl-1",
+      "type": "start",
+      "title": "また朝",
+      "narration": "午前7時00分に目覚まし時計が鳴る。また。これで47回目だ。まったく同じ瞬間に目を覚ます。同じ日光、同じ鳥のさえずり、天井の同じコーヒーのシミ。",
+      "choices": [
+        {
+          "id": "tl-c1",
+          "text": "日記を確認する",
+          "description": null
+        },
+        {
+          "id": "tl-c2",
+          "text": "すぐに研究室に急ぐ",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "tl-2",
+      "type": "decision",
+      "title": "日記",
+      "narration": "日記には以前のループからのメモでいっぱいだ。「47日目:量子安定装置が午後3時47分に故障する。マルティネス博士は午前10時23分に必ずコーヒーをこぼす。セキュリティコードは毎日変わるがパターンに従っている。」",
+      "choices": [
+        {
+          "id": "tl-c3",
+          "text": "パターンを研究する",
+          "description": null
+        },
+        {
+          "id": "tl-c4",
+          "text": "マルティネス博士を探しに行く",
+          "description": null
+        }
+      ]
+    }
+  ]
+}

@@ -7,29 +7,36 @@
 Check what's available:
 
 ```bash
-cat src/data/translations/index.json
+ls src/data/translations/
 ```
 
-Or just look at the files:
+You'll see folders like:
+
+- `story-3/`
+- `story-847362910/`
+- `story-9123457712345/`
+- etc.
+
+### Step 2: Go to the Story Folder (30 seconds)
 
 ```bash
-ls src/data/translations/*_en.json
+cd src/data/translations/story-3
 ```
 
-### Step 2: Copy the File (30 seconds)
+### Step 3: Copy the English File (30 seconds)
 
 ```bash
 # For Spanish
-cp src/data/translations/story-3_en.json src/data/translations/story-3_es.json
+cp en.json es.json
 
 # For French
-cp src/data/translations/story-3_en.json src/data/translations/story-3_fr.json
+cp en.json fr.json
 
 # For German
-cp src/data/translations/story-3_en.json src/data/translations/story-3_de.json
+cp en.json de.json
 ```
 
-### Step 3: Update Language Code (30 seconds)
+### Step 4: Update Language Code (30 seconds)
 
 Open your new file and change:
 
@@ -41,7 +48,7 @@ Open your new file and change:
 }
 ```
 
-### Step 4: Translate! (Rest of the time)
+### Step 5: Translate! (Rest of the time)
 
 Translate these fields:
 
@@ -54,18 +61,32 @@ Translate these fields:
 
 **DON'T change any `id` fields!**
 
-### Step 5: Validate (1 min)
+### Step 6: Validate (1 min)
 
 ```bash
-cat src/data/translations/story-3_es.json | jq . > /dev/null
+cat es.json | jq . > /dev/null
 ```
 
 If it says nothing = ✅ Valid!
 If it shows error = ❌ Fix JSON syntax
 
+## 📁 Folder Structure
+
+```
+translations/
+├── story-3/
+│   ├── en.json     ← English (source)
+│   ├── es.json     ← Spanish (you create this)
+│   └── fr.json     ← French (you create this)
+├── story-847362910/
+│   ├── en.json
+│   └── es.json
+└── ...
+```
+
 ## 📖 Example
 
-### Before (English)
+### Before (English - en.json)
 
 ```json
 {
@@ -93,7 +114,7 @@ If it shows error = ❌ Fix JSON syntax
 }
 ```
 
-### After (Spanish)
+### After (Spanish - es.json)
 
 ```json
 {
@@ -123,7 +144,8 @@ If it shows error = ❌ Fix JSON syntax
 
 ## ✅ Checklist
 
-- [ ] Copied English file
+- [ ] Chose a story folder
+- [ ] Copied en.json to [language].json
 - [ ] Changed language code in meta
 - [ ] Translated story title
 - [ ] Translated story description
@@ -136,38 +158,44 @@ If it shows error = ❌ Fix JSON syntax
 
 ## 🎯 Language Codes
 
-| Language   | Code |
-| ---------- | ---- |
-| Spanish    | es   |
-| French     | fr   |
-| German     | de   |
-| Italian    | it   |
-| Portuguese | pt   |
-| Russian    | ru   |
-| Japanese   | ja   |
-| Korean     | ko   |
-| Chinese    | zh   |
+| Language   | Code | File Name |
+| ---------- | ---- | --------- |
+| Spanish    | es   | es.json   |
+| French     | fr   | fr.json   |
+| German     | de   | de.json   |
+| Italian    | it   | it.json   |
+| Portuguese | pt   | pt.json   |
+| Russian    | ru   | ru.json   |
+| Japanese   | ja   | ja.json   |
+| Korean     | ko   | ko.json   |
+| Chinese    | zh   | zh.json   |
 
 ## 📚 Need More Help?
 
 - **Full Guide**: `TRANSLATION_PER_STORY_GUIDE.md`
-- **Examples**: `story-3_en.json` and `story-3_es.json`
+- **Examples**: `src/data/translations/story-3/en.json` and `es.json`
 - **Summary**: `TRANSLATION_SYSTEM_SUMMARY.md`
 
 ## 🔧 Useful Commands
 
 ```bash
+# Navigate to story folder
+cd src/data/translations/story-3
+
+# Copy for translation
+cp en.json es.json
+
 # Validate JSON
-cat story-3_es.json | jq . > /dev/null
+cat es.json | jq . > /dev/null
 
 # Count words to translate
-cat story-3_en.json | jq -r '.nodes[].narration' | wc -w
+cat en.json | jq -r '.nodes[].narration' | wc -w
 
 # Pretty print
-cat story-3_es.json | jq .
+cat es.json | jq .
 
-# Check if translation exists
-ls story-3_es.json 2>/dev/null && echo "Exists" || echo "Not found"
+# List all translations for this story
+ls -la
 ```
 
 ## 💡 Pro Tips
@@ -186,9 +214,31 @@ ls story-3_es.json 2>/dev/null && echo "Exists" || echo "Not found"
 ❌ Forgetting to update language code
 ❌ Not preserving line breaks (`\n`)
 ❌ Translating character names unnecessarily
+❌ Putting file in wrong folder
 
 ## 🎉 That's It!
 
 You're ready to translate. Start with one story and go from there!
 
 **Happy translating!** 🌍📖✨
+
+---
+
+## Quick Command Reference
+
+```bash
+# List all stories
+ls src/data/translations/
+
+# Go to a story
+cd src/data/translations/story-3
+
+# Copy for Spanish
+cp en.json es.json
+
+# Validate
+cat es.json | jq . > /dev/null && echo "✅ Valid" || echo "❌ Invalid"
+
+# Go back to root
+cd ../../../../
+```

@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "storyId": "story-3",
+    "language": "pt",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:45:00.000Z"
+  },
+  "story": {
+    "title": "O Paradoxo do Loop Temporal",
+    "author": "Dra. Sarah Chen",
+    "description": "Preso em um dia que se repete, você deve descobrir o mistério e se libertar da prisão temporal.",
+    "genre": ["ficção científica", "mistério"],
+    "difficulty": "difícil",
+    "estimatedDuration": 35
+  },
+  "nodes": [
+    {
+      "id": "tl-1",
+      "type": "start",
+      "title": "Manhã Novamente",
+      "narration": "Seu despertador toca às 7h00. Novamente. Esta é a 47ª vez que você acorda exatamente neste momento. A mesma luz do sol, o mesmo pássaro cantando lá fora, a mesma mancha de café no seu teto.",
+      "choices": [
+        {
+          "id": "tl-c1",
+          "text": "Verificar seu diário",
+          "description": null
+        },
+        {
+          "id": "tl-c2",
+          "text": "Correr para o laboratório imediatamente",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "tl-2",
+      "type": "decision",
+      "title": "O Diário",
+      "narration": "Seu diário está cheio de anotações dos loops anteriores. \"Dia 47: O estabilizador quântico apresenta falha às 15h47. Dr. Martinez sempre derrama café às 10h23. O código de segurança muda diariamente, mas segue um padrão.\"",
+      "choices": [
+        {
+          "id": "tl-c3",
+          "text": "Estudar o padrão",
+          "description": null
+        },
+        {
+          "id": "tl-c4",
+          "text": "Ir encontrar o Dr. Martinez",
+          "description": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,9 +1,15 @@
 {
   "meta": {
-    "version": "1.0",
-    "generatedAt": "2025-10-15T16:45:00.000Z",
+    "version": "2.0",
+    "structure": "folder-per-story",
+    "generatedAt": "2025-10-15T17:00:00.000Z",
     "totalStories": 18,
-    "description": "Index of all story translations"
+    "description": "Index of all story translations - each story has its own folder"
+  },
+  "structure": {
+    "description": "Each story has its own folder with language files",
+    "example": "translations/story-3/en.json, translations/story-3/es.json",
+    "fileNaming": "[language-code].json (e.g., en.json, es.json, fr.json)"
   },
   "stories": [
     {
@@ -13,6 +19,7 @@
       "genre": ["fantasy", "adventure"],
       "difficulty": "easy",
       "nodes": 5,
+      "folder": "story-1",
       "availableLanguages": ["en"]
     },
     {
@@ -22,6 +29,7 @@
       "genre": ["scifi", "mystery"],
       "difficulty": "medium",
       "nodes": 3,
+      "folder": "story-2",
       "availableLanguages": ["en"]
     },
     {
@@ -31,6 +39,7 @@
       "genre": ["scifi", "mystery"],
       "difficulty": "hard",
       "nodes": 42,
+      "folder": "story-3",
       "availableLanguages": ["en", "es"]
     },
     {
@@ -40,6 +49,7 @@
       "genre": ["mystery", "adventure"],
       "difficulty": "medium",
       "nodes": 20,
+      "folder": "story-4",
       "availableLanguages": ["en"]
     },
     {
@@ -49,6 +59,7 @@
       "genre": ["detective", "mystery"],
       "difficulty": "medium",
       "nodes": 22,
+      "folder": "story-847362951",
       "availableLanguages": ["en"]
     },
     {
@@ -58,6 +69,7 @@
       "genre": ["detective", "mystery"],
       "difficulty": "medium",
       "nodes": 21,
+      "folder": "story-7481296",
       "availableLanguages": ["en"]
     },
     {
@@ -67,6 +79,7 @@
       "genre": ["detective", "mystery"],
       "difficulty": "hard",
       "nodes": 22,
+      "folder": "story-8273910265",
       "availableLanguages": ["en"]
     },
     {
@@ -76,6 +89,7 @@
       "genre": ["detective", "mystery"],
       "difficulty": "medium",
       "nodes": 22,
+      "folder": "story-847362910",
       "availableLanguages": ["en"]
     },
     {
@@ -85,6 +99,7 @@
       "genre": ["romance", "scifi"],
       "difficulty": "easy",
       "nodes": 22,
+      "folder": "story-583921467",
       "availableLanguages": ["en"]
     },
     {
@@ -94,6 +109,7 @@
       "genre": ["romance", "fantasy"],
       "difficulty": "medium",
       "nodes": 23,
+      "folder": "story-745829103",
       "availableLanguages": ["en"]
     },
     {
@@ -103,6 +119,7 @@
       "genre": ["romance", "mystery"],
       "difficulty": "medium",
       "nodes": 24,
+      "folder": "story-892746531",
       "availableLanguages": ["en"]
     },
     {
@@ -112,6 +129,7 @@
       "genre": ["romance", "scifi"],
       "difficulty": "medium",
       "nodes": 22,
+      "folder": "story-9123457712345",
       "availableLanguages": ["en"]
     },
     {
@@ -121,6 +139,7 @@
       "genre": ["romance", "adventure"],
       "difficulty": "easy",
       "nodes": 22,
+      "folder": "story-9328745634021",
       "availableLanguages": ["en"]
     },
     {
@@ -130,6 +149,7 @@
       "genre": ["romance"],
       "difficulty": "medium",
       "nodes": 22,
+      "folder": "story-8742190384",
       "availableLanguages": ["en"]
     },
     {
@@ -139,6 +159,7 @@
       "genre": ["fantasy", "adventure"],
       "difficulty": "medium",
       "nodes": 22,
+      "folder": "story-8743921042",
       "availableLanguages": ["en"]
     },
     {
@@ -148,6 +169,7 @@
       "genre": ["scifi", "mystery"],
       "difficulty": "medium",
       "nodes": 24,
+      "folder": "story-8923745610923",
       "availableLanguages": ["en"]
     },
     {
@@ -157,6 +179,7 @@
       "genre": ["fantasy", "adventure"],
       "difficulty": "medium",
       "nodes": 24,
+      "folder": "story-9845237719284",
       "availableLanguages": ["en"]
     },
     {
@@ -166,10 +189,11 @@
       "genre": ["fantasy", "mystery"],
       "difficulty": "easy",
       "nodes": 22,
+      "folder": "story-9932045517721",
       "availableLanguages": ["en"]
     }
   ],
-  "availableLanguages": {
+  "languageCodes": {
     "en": "English",
     "es": "Spanish",
     "fr": "French",
@@ -180,11 +204,15 @@
     "ja": "Japanese",
     "ko": "Korean",
     "zh": "Chinese",
-    "ar": "Arabic"
+    "ar": "Arabic",
+    "hi": "Hindi",
+    "nl": "Dutch",
+    "pl": "Polish",
+    "tr": "Turkish"
   },
   "instructions": {
-    "translate": "Copy story_[id]_en.json to story_[id]_[lang].json and translate the content",
-    "example": "cp story-3_en.json story-3_fr.json",
-    "guide": "See TRANSLATION_PER_STORY_GUIDE.md for detailed instructions"
+    "translate": "1. Go to story folder: cd translations/story-3\n2. Copy English file: cp en.json es.json\n3. Update language code in meta\n4. Translate content\n5. Validate: cat es.json | jq .",
+    "addLanguage": "cp translations/story-3/en.json translations/story-3/[lang].json",
+    "guide": "See TRANSLATION_QUICKSTART.md for detailed instructions"
   }
 }

@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "storyId": "story-4",
+    "language": "ko",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.373Z"
+  },
+  "story": {
+    "title": "심연의 비밀",
+    "author": "마리나 토레스 선장",
+    "description": "고대 문명이 발견을 기다리는 가장 깊은 해구로 잠수하세요.",
+    "genre": [
+      "미스터리",
+      "모험"
+    ],
+    "difficulty": "보통",
+    "estimatedDuration": 30
+  },
+  "nodes": [
+    {
+      "id": "ds-2",
+      "type": "decision",
+      "title": "고대 유적",
+      "narration": "생물 발광 조류로 덮인 거대한 돌기둥이 해저에서 솟아올라 있습니다. 그것들은 신전 입구로 보이는 것 주위에 완벽한 원을 형성하고 있습니다.",
+      "choices": [
+        {
+          "id": "ds-c3",
+          "text": "신전에 들어간다",
+          "description": null
+        },
+        {
+          "id": "ds-c4",
+          "text": "주위를 돈다",
+          "description": null
+        }
+      ]
+    }
+  ]
+}

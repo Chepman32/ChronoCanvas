@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "storyId": "story-4",
+    "language": "ja",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.373Z"
+  },
+  "story": {
+    "title": "深淵の秘密",
+    "author": "マリナ・トーレス船長",
+    "description": "古代文明の発見を待つ、最深の海溝に潜りましょう。",
+    "genre": [
+      "ミステリー",
+      "アドベンチャー"
+    ],
+    "difficulty": "中程度",
+    "estimatedDuration": 30
+  },
+  "nodes": [
+    {
+      "id": "ds-2",
+      "type": "decision",
+      "title": "古代遺跡",
+      "narration": "生物発光藻類に覆われた巨大な石柱が海底から立ち上がっている。それらは神殿の入り口と思われるものの周りに完璧な円を形成している。",
+      "choices": [
+        {
+          "id": "ds-c3",
+          "text": "神殿に入る",
+          "description": null
+        },
+        {
+          "id": "ds-c4",
+          "text": "周りを回る",
+          "description": null
+        }
+      ]
+    }
+  ]
+}

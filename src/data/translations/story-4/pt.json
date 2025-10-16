@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "storyId": "story-4",
+    "language": "pt",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.373Z"
+  },
+  "story": {
+    "title": "Segredos Abissais",
+    "author": "Capitã Marina Torres",
+    "description": "Mergulhe na fossa oceânica mais profunda onde uma civilização antiga aguarda descoberta.",
+    "genre": [
+      "mistério",
+      "aventura"
+    ],
+    "difficulty": "médio",
+    "estimatedDuration": 30
+  },
+  "nodes": [
+    {
+      "id": "ds-2",
+      "type": "decision",
+      "title": "Ruínas Antigas",
+      "narration": "Pilares de pedra maciços cobertos com algas bioluminescentes erguem-se do fundo do oceano. Eles formam um círculo perfeito ao redor do que parece ser uma entrada de templo.",
+      "choices": [
+        {
+          "id": "ds-c3",
+          "text": "Entrar no templo",
+          "description": null
+        },
+        {
+          "id": "ds-c4",
+          "text": "Dar a volta",
+          "description": null
+        }
+      ]
+    }
+  ]
+}

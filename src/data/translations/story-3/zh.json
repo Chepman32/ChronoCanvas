@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "storyId": "story-3",
+    "language": "zh",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:45:00.000Z"
+  },
+  "story": {
+    "title": "时间循环悖论",
+    "author": "陈莎拉博士",
+    "description": "困在重复的一天中,你必须揭开谜团并从时间牢笼中逃脱。",
+    "genre": ["科幻", "悬疑"],
+    "difficulty": "困难",
+    "estimatedDuration": 35
+  },
+  "nodes": [
+    {
+      "id": "tl-1",
+      "type": "start",
+      "title": "又是早晨",
+      "narration": "你的闹钟在早上7点响起。又一次。这是你第47次在这个确切的时刻醒来。同样的阳光,同样的鸟鸣,天花板上同样的咖啡渍。",
+      "choices": [
+        {
+          "id": "tl-c1",
+          "text": "查看日记",
+          "description": null
+        },
+        {
+          "id": "tl-c2",
+          "text": "立即赶往实验室",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "tl-2",
+      "type": "decision",
+      "title": "日记",
+      "narration": "你的日记里满是之前循环的笔记。\"第47天:量子稳定器在下午3点47分发生故障。马丁内斯博士总是在上午10点23分洒咖啡。安全密码每天都在变化,但遵循某种规律。\"",
+      "choices": [
+        {
+          "id": "tl-c3",
+          "text": "研究规律",
+          "description": null
+        },
+        {
+          "id": "tl-c4",
+          "text": "去找马丁内斯博士",
+          "description": null
+        }
+      ]
+    }
+  ]
+}

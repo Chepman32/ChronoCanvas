@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "storyId": "story-3",
+    "language": "fr",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:45:00.000Z"
+  },
+  "story": {
+    "title": "Le Paradoxe de la boucle temporelle",
+    "author": "Dr. Sarah Chen",
+    "description": "Piégé dans une journée qui se répète, vous devez découvrir le mystère et vous libérer de cette prison temporelle.",
+    "genre": ["science-fiction", "mystère"],
+    "difficulty": "difficile",
+    "estimatedDuration": 35
+  },
+  "nodes": [
+    {
+      "id": "tl-1",
+      "type": "start",
+      "title": "Encore le matin",
+      "narration": "Votre réveil sonne à 7h00. Encore. C'est la 47ème fois que vous vous réveillez à ce moment précis. La même lumière du soleil, le même oiseau qui gazouille dehors, la même tache de café sur votre plafond.",
+      "choices": [
+        {
+          "id": "tl-c1",
+          "text": "Consulter votre journal",
+          "description": null
+        },
+        {
+          "id": "tl-c2",
+          "text": "Se précipiter immédiatement au laboratoire",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "tl-2",
+      "type": "decision",
+      "title": "Le Journal",
+      "narration": "Votre journal est rempli de notes des boucles précédentes. \"Jour 47 : Le stabilisateur quantique dysfonctionne à 15h47. Le Dr Martinez renverse toujours son café à 10h23. Le code de sécurité change chaque jour mais suit un schéma.\"",
+      "choices": [
+        {
+          "id": "tl-c3",
+          "text": "Étudier le schéma",
+          "description": null
+        },
+        {
+          "id": "tl-c4",
+          "text": "Aller trouver le Dr Martinez",
+          "description": null
+        }
+      ]
+    }
+  ]
+}

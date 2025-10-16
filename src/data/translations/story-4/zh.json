@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "storyId": "story-4",
+    "language": "zh",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.373Z"
+  },
+  "story": {
+    "title": "深渊秘密",
+    "author": "玛丽娜·托雷斯船长",
+    "description": "潜入最深的海沟,那里有一个古老文明等待被发现。",
+    "genre": [
+      "悬疑",
+      "冒险"
+    ],
+    "difficulty": "中等",
+    "estimatedDuration": 30
+  },
+  "nodes": [
+    {
+      "id": "ds-2",
+      "type": "decision",
+      "title": "古代遗迹",
+      "narration": "覆盖着生物发光藻类的巨大石柱从海底升起。它们围绕着看起来像是神庙入口的地方形成了一个完美的圆圈。",
+      "choices": [
+        {
+          "id": "ds-c3",
+          "text": "进入神庙",
+          "description": null
+        },
+        {
+          "id": "ds-c4",
+          "text": "绕圈",
+          "description": null
+        }
+      ]
+    }
+  ]
+}

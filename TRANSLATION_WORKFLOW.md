@@ -1,47 +1,51 @@
-# Translation Workflow Guide
+# Translation Workflow
 
-## Overview
+## How to Add Translations
 
-This guide explains how to translate story content for the ChronoCanvas app using external translation services.
+### 1. Add JSON Translation Files
 
-## Current Status
+Create translation files in the story folder:
 
-✅ **TRANSLATION_SOURCE.json** has been generated with 3 detective stories:
+```
+src/data/translations/story-3/
+  ├── en.json  (English - required)
+  ├── ru.json  (Russian)
+  ├── fr.json  (French)
+  ├── es.json  (Spanish)
+  └── ...
+```
 
-- Midnight Missing (21 nodes, story-7481296)
-- Shadows of the Vanished Star (22 nodes, story-8273910265)
-- The Midnight Caller (22 nodes, story-847362910)
+### 2. JSON File Structure
 
-**Total content**: 65 nodes, 96 choices
-
-## Step-by-Step Process
-
-### Step 1: Review Source File
-
-Open `TRANSLATION_SOURCE.json` and review the content structure:
+Each translation file should follow this structure:
 
 ```json
 {
-  "_instructions": { ... },
-  "stories": [
+  "meta": {
+    "storyId": "story-3",
+    "language": "ru",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:45:00.000Z"
+  },
+  "story": {
+    "title": "Story Title",
+    "author": "Author Name",
+    "description": "Story description",
+    "genre": ["genre1", "genre2"],
+    "difficulty": "easy|medium|hard",
+    "estimatedDuration": 35
+  },
+  "nodes": [
     {
-      "storyId": "story-7481296",
-      "title": "Midnight Missing",
-      "description": "...",
-      "author": "Morgan Steele",
-      "genres": ["detective", "mystery"],
-      "nodes": [
+      "id": "node-1",
+      "type": "start|decision|ending",
+      "title": "Node Title",
+      "narration": "Node narration text",
+      "choices": [
         {
-          "nodeId": "story-7481296-1",
-          "title": "Missing at Midnight",
-          "narration": "...",
-          "choices": [
-            {
-              "choiceId": "story-7481296-c1",
-              "text": "Search Emily's apartment",
-              "description": "Her home may hide evidence"
-            }
-          ]
+          "id": "choice-1",
+          "text": "Choice text",
+          "description": null
         }
       ]
     }
@@ -49,179 +53,82 @@ Open `TRANSLATION_SOURCE.json` and review the content structure:
 }
 ```
 
-### Step 2: Translate Content
+### 3. Generate TypeScript Files
 
-Use one of these translation services:
-
-#### Option A: Professional Translation Service
-
-- **DeepL API** (recommended for quality): https://www.deepl.com/pro-api
-- **Google Cloud Translation**: https://cloud.google.com/translate
-- **Microsoft Translator**: https://azure.microsoft.com/en-us/services/cognitive-services/translator/
-
-#### Option B: Manual Translation
-
-- Copy the JSON structure
-- Translate each text field manually
-- Keep all IDs and structure intact
-
-### Step 3: Create Translation Files
-
-For each target language, create a file named `TRANSLATIONS_[LANG].json`:
-
-**Target Languages:**
-
-- `TRANSLATIONS_ru.json` - Russian (Русский)
-- `TRANSLATIONS_es.json` - Spanish (Español)
-- `TRANSLATIONS_de.json` - German (Deutsch)
-- `TRANSLATIONS_fr.json` - French (Français)
-- `TRANSLATIONS_pt.json` - Portuguese (Português)
-- `TRANSLATIONS_ja.json` - Japanese (日本語)
-- `TRANSLATIONS_zh.json` - Chinese (中文)
-- `TRANSLATIONS_ko.json` - Korean (한국어)
-- `TRANSLATIONS_uk.json` - Ukrainian (Українська)
-
-### Step 4: Translation Rules
-
-**✅ DO TRANSLATE:**
-
-- `title` - Story and node titles
-- `description` - Story descriptions
-- `author` - Author names (if appropriate)
-- `genres` - Genre names (array values)
-- `narration` - All story text
-- `text` - Choice button text
-- `description` (in choices) - Choice descriptions
-
-**❌ DO NOT TRANSLATE:**
-
-- `storyId` - Keep as-is
-- `nodeId` - Keep as-is
-- `choiceId` - Keep as-is
-- Any field ending with "Id"
-- JSON structure/keys
-
-**⚠️ IMPORTANT:**
-
-- Maintain **bold text** markers: `**text**` stays as `**translated text**`
-- Keep line breaks and formatting
-- Preserve special characters and punctuation where appropriate
-- Maintain the same JSON structure
-
-### Step 5: Example Translation
-
-**English (source):**
-
-```json
-{
-  "title": "Midnight Missing",
-  "description": "When a young woman vanishes...",
-  "genres": ["detective", "mystery"]
-}
-```
-
-**Russian (TRANSLATIONS_ru.json):**
-
-```json
-{
-  "title": "Пропавшая в полночь",
-  "description": "Когда молодая женщина исчезает...",
-  "genres": ["детектив", "мистика"]
-}
-```
-
-### Step 6: Import Translations
-
-Once you have the translated files, run:
+After adding or updating JSON translations, run:
 
 ```bash
-node scripts/import-translations.js
+npm run generate-translations
 ```
 
 This will:
 
-1. Read all `TRANSLATIONS_*.json` files
-2. Generate TypeScript localization files in `src/data/localizations/`
-3. Create properly formatted translation modules
+- ✅ Convert all JSON files to TypeScript
+- ✅ Generate translation files in `src/data/localizations/`
+- ✅ Update the registry in `src/data/localizations/index.ts`
+- ✅ Add placeholders for missing languages
 
-### Step 7: Register Translations
+### 4. Supported Languages
 
-Update `src/data/localizations/index.ts` to import and register the new translations:
+The system supports these languages:
 
-```typescript
-import { midnightMissingStoryTranslations } from './story7481296_midnightMissing_i18n';
+- `en` - English
+- `ru` - Русский (Russian)
+- `es` - Español (Spanish)
+- `de` - Deutsch (German)
+- `fr` - Français (French)
+- `pt` - Português (Portuguese)
+- `ja` - 日本語 (Japanese)
+- `zh` - 中文 (Chinese)
+- `ko` - 한국어 (Korean)
+- `uk` - Українська (Ukrainian)
 
-export const storyTranslationsRegistry = {
-  // ... existing translations
-  'story-7481296': midnightMissingStoryTranslations,
-  // ... add more
-};
+### 5. Testing Translations
+
+1. Run `npm run generate-translations`
+2. Restart your app
+3. Change language in settings
+4. Open the story to verify translations
+
+## Tips
+
+- **Always start with English** (`en.json`) as the base translation
+- **Run the generator** after any JSON changes
+- **Commit both** JSON and generated TypeScript files
+- **Use the same node IDs** across all language files
+- **Keep translations consistent** with the original story structure
+
+## Example Workflow
+
+```bash
+# 1. Add Russian translation
+# Create: src/data/translations/story-3/ru.json
+
+# 2. Generate TypeScript files
+npm run generate-translations
+
+# 3. Restart app and test
+npm start
+
+# 4. Add more languages and repeat
 ```
-
-### Step 8: Test
-
-1. Run the app
-2. Change language in settings
-3. Verify all text is translated correctly
-4. Check that genres, buttons, and narration all display in the selected language
-
-## File Locations
-
-```
-ChronoCanvas/
-├── TRANSLATION_SOURCE.json          # Source English text (generated)
-├── TRANSLATIONS_ru.json             # Russian translations (you create)
-├── TRANSLATIONS_es.json             # Spanish translations (you create)
-├── ... (other language files)
-├── scripts/
-│   ├── create-translation-template.js   # Generates source file
-│   └── import-translations.js           # Imports translated files
-└── src/data/localizations/
-    ├── index.ts                         # Translation registry
-    └── story*_i18n.ts                   # Generated translation files
-```
-
-## Tips for Quality Translations
-
-1. **Context Matters**: Read the full story to understand context
-2. **Consistency**: Use consistent terminology throughout
-3. **Cultural Adaptation**: Adapt idioms and expressions appropriately
-4. **Character Names**: Usually keep names in English unless culturally appropriate to translate
-5. **Tone**: Maintain the noir/detective tone in translations
-6. **Length**: Try to keep similar length to avoid UI issues
 
 ## Troubleshooting
 
-**Problem**: Import script fails
+**Problem:** Translations not showing
 
-- **Solution**: Check JSON syntax in translation files
-- **Tool**: Use https://jsonlint.com/ to validate
+- ✅ Run `npm run generate-translations`
+- ✅ Restart the app
+- ✅ Check that JSON file names match language codes (e.g., `ru.json`, not `russian.json`)
 
-**Problem**: Missing translations in app
+**Problem:** Script errors
 
-- **Solution**: Verify story ID matches in translation registry
+- ✅ Verify JSON syntax is valid
+- ✅ Check that all required fields are present
+- ✅ Ensure node IDs match across all translations
 
-**Problem**: Text appears in English
+**Problem:** Missing translations
 
-- **Solution**: Check that the language code matches exactly (ru, es, de, etc.)
-
-## Adding More Stories
-
-To add more stories to the translation source:
-
-1. Edit `scripts/create-translation-template.js`
-2. Add story filenames to the `storyFiles` array
-3. Run: `node scripts/create-translation-template.js`
-4. Follow the translation workflow again
-
-## Questions?
-
-If you encounter issues or need clarification, check:
-
-- The `_instructions` section in TRANSLATION_SOURCE.json
-- Example translations in `src/data/localizations/story4_deepsea_i18n.ts`
-- This guide
-
----
-
-**Ready to translate?** Open `TRANSLATION_SOURCE.json` and start translating! 🌍
+- ✅ The system will use English as fallback
+- ✅ Add the missing language JSON file
+- ✅ Run the generator again

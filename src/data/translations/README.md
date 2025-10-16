@@ -1,21 +1,31 @@
 # Story Translations
 
-## Structure
+## Folder Structure
 
-Each story has separate translation files:
+Each story has its own folder with translation files:
 
-- `story-[id]_en.json` - English (source)
-- `story-[id]_es.json` - Spanish
-- `story-[id]_fr.json` - French
-- `story-[id]_de.json` - German
-- etc.
+```
+translations/
+├── index.json                  # Index of all stories
+├── story-3/                    # Story folder
+│   ├── en.json                # English (source)
+│   ├── es.json                # Spanish
+│   ├── fr.json                # French
+│   └── de.json                # German
+├── story-847362910/           # Another story
+│   ├── en.json
+│   └── es.json
+└── ...
+```
 
 ## File Format
+
+Each translation file (e.g., `en.json`, `es.json`) contains:
 
 ```json
 {
   "meta": {
-    "storyId": "story-1",
+    "storyId": "story-3",
     "language": "en",
     "version": "1.0",
     "lastUpdated": "2025-10-15T00:00:00.000Z"
@@ -48,26 +58,36 @@ Each story has separate translation files:
 
 ## How to Translate
 
-### 1. Copy the English file
+### 1. Choose a story folder
 
 ```bash
-cp story-1_en.json story-1_es.json
+cd src/data/translations/story-3
 ```
 
-### 2. Update the meta section
+### 2. Copy the English file
+
+```bash
+# For Spanish
+cp en.json es.json
+
+# For French
+cp en.json fr.json
+
+# For German
+cp en.json de.json
+```
+
+### 3. Update the language code
 
 ```json
 {
   "meta": {
-    "storyId": "story-1",
-    "language": "es", // Change this
-    "version": "1.0",
-    "lastUpdated": "2025-10-15T00:00:00.000Z" // Update this
+    "language": "es" // Change from "en" to your language
   }
 }
 ```
 
-### 3. Translate the content
+### 4. Translate the content
 
 - `story.title` - Story title
 - `story.author` - Usually keep original
@@ -77,7 +97,7 @@ cp story-1_en.json story-1_es.json
 - `nodes[].choices[].text` - Choice button text
 - `nodes[].choices[].description` - Choice descriptions
 
-### 4. Keep unchanged
+### 5. Keep unchanged
 
 - All `id` fields
 - `type` fields
@@ -87,15 +107,16 @@ cp story-1_en.json story-1_es.json
 
 ## Available Stories
 
-Check `index.json` for the complete list of stories and their IDs.
+Check `index.json` in the parent folder for the complete list of stories.
 
 ## Integration
 
-Translation files are automatically loaded based on the user's language preference.
+Translation files are automatically loaded based on the user's language preference:
 
 ```typescript
-import storyEn from './translations/story-1_en.json';
-import storyEs from './translations/story-1_es.json';
+// Load translation for a specific story and language
+import storyEn from './translations/story-3/en.json';
+import storyEs from './translations/story-3/es.json';
 
 const translations = {
   en: storyEn,

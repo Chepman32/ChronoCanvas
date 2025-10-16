@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "storyId": "story-4",
+    "language": "de",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.373Z"
+  },
+  "story": {
+    "title": "Geheimnisse der Tiefe",
+    "author": "Kapitän Marina Torres",
+    "description": "Tauchen Sie in den tiefsten Ozeangraben, wo eine alte Zivilisation auf ihre Entdeckung wartet.",
+    "genre": [
+      "Mystery",
+      "Abenteuer"
+    ],
+    "difficulty": "mittel",
+    "estimatedDuration": 30
+  },
+  "nodes": [
+    {
+      "id": "ds-2",
+      "type": "decision",
+      "title": "Alte Ruinen",
+      "narration": "Massive Steinsäulen, bedeckt mit biolumineszierenden Algen, ragen vom Meeresboden empor. Sie bilden einen perfekten Kreis um das, was wie ein Tempeleingang aussieht.",
+      "choices": [
+        {
+          "id": "ds-c3",
+          "text": "Den Tempel betreten",
+          "description": null
+        },
+        {
+          "id": "ds-c4",
+          "text": "Herumgehen",
+          "description": null
+        }
+      ]
+    }
+  ]
+}

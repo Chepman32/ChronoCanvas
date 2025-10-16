@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "storyId": "story-4",
+    "language": "fr",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.373Z"
+  },
+  "story": {
+    "title": "Secrets abyssaux",
+    "author": "Capitaine Marina Torres",
+    "description": "Plongez dans la fosse océanique la plus profonde où une civilisation ancienne attend d'être découverte.",
+    "genre": [
+      "mystère",
+      "aventure"
+    ],
+    "difficulty": "moyen",
+    "estimatedDuration": 30
+  },
+  "nodes": [
+    {
+      "id": "ds-2",
+      "type": "decision",
+      "title": "Ruines anciennes",
+      "narration": "D'immenses piliers de pierre couverts d'algues bioluminescentes s'élèvent du fond de l'océan. Ils forment un cercle parfait autour de ce qui semble être l'entrée d'un temple.",
+      "choices": [
+        {
+          "id": "ds-c3",
+          "text": "Entrer dans le temple",
+          "description": null
+        },
+        {
+          "id": "ds-c4",
+          "text": "Faire le tour",
+          "description": null
+        }
+      ]
+    }
+  ]
+}

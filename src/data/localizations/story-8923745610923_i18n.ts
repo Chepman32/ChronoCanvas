@@ -1,0 +1,239 @@
+import { Language } from '../../localization/translations';
+
+interface StoryTranslations {
+  title: string;
+  description: string;
+  author: string;
+  nodes: {
+    [nodeId: string]: {
+      title: string;
+      narration: string;
+      choices: {
+        [choiceId: string]: {
+          text: string;
+          description?: string;
+        };
+      };
+    };
+  };
+}
+
+export const story_8923745610923StoryTranslations: Record<Language, StoryTranslations> = {
+  // English
+  en: {
+    title: 'Paradox Palette',
+    description: 'At midnight, a museum restorer discovers a sketchbook that can repaint time. Each line drawn mends one fracture and splits another, as a grieving curator moves to excise a tragic hour forever. Can you compose a timeline that holds--before the canvas tears itself apart?',
+    author: 'ChronoCanvas Studio',
+    nodes: {
+      'story-8923745610923-3': {
+        title: 'Alley Experiment',
+        narration: 'Rain needles the neon-slick pavement behind the museum. Nova sketches a thin arc; the puddle ripples backwards, raindrops leaping up like rewinding glass. A greenish seam opens above the gutter for a heartbeat--a rift that smells like ozone and old paper.',
+        choices: {
+          'story-8923745610923-c5': {
+            text: 'Return inside to the clock hall.',
+            description: 'Test the effect near a stable cadence.',
+          },
+          'story-8923745610923-c6': {
+            text: 'Coax the rift wider with a bolder stroke.',
+            description: 'High risk, high insight.',
+          },
+        },
+      },
+      'story-8923745610923-9': {
+        title: 'Clockwork Heart',
+        narration: 'The central mechanism opens like a ribcage, gears glistening with oil and memory. With a careful stroke, Nova bridges a missing tooth; the second hand exhales into smooth motion. In that calm, a hidden compartment clicks--an invitation.',
+        choices: {
+          'story-8923745610923-c18': {
+            text: 'Open the revealed compartment.',
+            description: 'Secrets cache where cadence holds.',
+          },
+          'story-8923745610923-c19': {
+            text: 'Close up and backtrack to avoid traps.',
+            description: 'Caution preserves options.',
+          },
+        },
+      },
+      'story-8923745610923-10': {
+        title: 'Drawn Doorway',
+        narration: 'The clock face accepts a doorway like paint taking to primer. Cold air spills through, flavored with dust and a scent like sun on old stone. Beyond, sand sings softly in a chamber that should not be.',
+        choices: {
+          'story-8923745610923-c20': {
+            text: 'Search for the missing fragment first.',
+            description: 'Maps matter.',
+          },
+          'story-8923745610923-c21': {
+            text: 'Step through into the desert chamber.',
+            description: 'Seize the initiative.',
+          },
+        },
+      },
+      'story-8923745610923-12': {
+        title: 'Lost Fragment',
+        narration: 'In a back room smelling of binders and cedar, a torn vellum shard hides inside an old conservation file. The piece shows a glyph that looks like a brushstroke shaped into a number nine lying on its side. When held to light, the mark resembles an eye--and a loop.',
+        choices: {
+          'story-8923745610923-c24': {
+            text: 'Sketch a replacement glyph to test the circuit.',
+            description: 'Improvise the missing key.',
+          },
+          'story-8923745610923-c25': {
+            text: 'Use the fragment to open the hidden vault.',
+            description: 'Original beats imitation.',
+          },
+        },
+      },
+      'story-8923745610923-13': {
+        title: 'Quiet Interrogation',
+        narration: 'You corner the curator in a gallery of antique clocks; time around you hushes in respect. Their eyes are salted with grief, voice brittle as they admit the plan: cut the hour of loss and refuse its echo. The blueprint trembles like a living thing.',
+        choices: {
+          'story-8923745610923-c26': {
+            text: 'Ease them back--offer to help safely.',
+            description: 'Turn an adversary into an ally.',
+          },
+          'story-8923745610923-c27': {
+            text: 'Take the blueprint and sprint for the vault.',
+            description: 'Action over argument.',
+          },
+        },
+      },
+      'story-8923745610923-14': {
+        title: 'Hidden Vault',
+        narration: 'A sand-scented draft whispers from an armored seam behind stacked crates. The fragment fits like a missing tooth into a circular lock, and the wall unstitches into a spiral stair. Something ancient and mathematical waits below.',
+        choices: {
+          'story-8923745610923-c28': {
+            text: 'Seal the paradox circuit with careful strokes.',
+            description: 'Stability first.',
+          },
+          'story-8923745610923-c29': {
+            text: 'Step through to the chamber beyond.',
+            description: 'Face the root cause.',
+          },
+          'story-8923745610923-c30': {
+            text: 'Call the curator to join you.',
+            description: 'Risk trust.',
+          },
+        },
+      },
+      'story-8923745610923-15': {
+        title: 'Security Sweep',
+        narration: 'Radios crackle--guards turn their route toward the clock hall. Nova sketches a detour, lines sliding a doorway three feet to the left, just enough to slip through. The building sighs, aggravated but compliant.',
+        choices: {
+          'story-8923745610923-c31': {
+            text: 'Loop behind and resume tailing the curator.',
+            description: 'Stay with the human variable.',
+          },
+          'story-8923745610923-c32': {
+            text: 'Return to the drawn doorway.',
+            description: 'The desert chamber calls.',
+          },
+        },
+      },
+      'story-8923745610923-16': {
+        title: 'Ancient City',
+        narration: 'Moonlight pools in a roofless chamber where sand drifts like snow. Reliefs show artists painting with comet tails, their murals looping days into new shapes. Footprints--fresh--circle a dais carved into a nine-turned-eye.',
+        choices: {
+          'story-8923745610923-c33': {
+            text: 'Study the temple',
+          },
+          'story-8923745610923-c34': {
+            text: 'Begin sealing the paradox from here.',
+            description: 'Close the loop at its source.',
+          },
+        },
+      },
+      'story-8923745610923-18': {
+        title: 'Paradox Equation',
+        narration: 'Stars blink like nodes in a network, lines of potential connecting past to now. The blueprint overlays reality, showing the cut hour as a bright wound. The ChronoCanvas pulses, demanding a choice: heal by surrender, or heal by cost.',
+        choices: {
+          'story-8923745610923-c37': {
+            text: 'Restore the hour and absorb the backlash yourself.',
+            description: 'You keep the canvas--but it keeps you.',
+          },
+          'story-8923745610923-c38': {
+            text: 'Let the canvas consume itself to close the wound.',
+            description: 'Lose the tool, save the world.',
+          },
+        },
+      },
+      'story-8923745610923-19': {
+        title: 'Allied Curator',
+        narration: 'The curator arrives, eyes wet but steadied by your invitation. Together you place the fragment on the dais; your hands shake in mirror. In this shared frame, grief could become a brush instead of a blade.',
+        choices: {
+          'story-8923745610923-c39': {
+            text: 'Seal the paradox together.',
+            description: 'Two hands, one intention.',
+          },
+          'story-8923745610923-c40': {
+            text: 'Trust them with the canvas for one stroke.',
+            description: 'Offer agency--risk betrayal.',
+          },
+        },
+      },
+      'story-8923745610923-20': {
+        title: 'Temple Trial',
+        narration: 'Wind combs the sand into patient spirals. The murals whisper an answer: to fix a wound, paint over oneself where the wound would be. The dais thrums, counting down in a language of dust and heartbeat.',
+        choices: {
+          'story-8923745610923-c41': {
+            text: 'Sacrifice the canvas to seal the breach.',
+            description: 'A brush that paints itself away.',
+          },
+          'story-8923745610923-c42': {
+            text: 'Rewrite your own thread to carry the scar.',
+            description: 'Become the patch.',
+          },
+        },
+      },
+      'story-8923745610923-21': {
+        title: 'Timeline Healed',
+        narration: 'You restore the hour, accepting the backlash as a personal undertow. Days later, you wake with a new tremor, a ghost-tick in your wrist that syncs with distant storms. The world continues--whole--while you learn to hold its weather alone.',
+        choices: {
+        },
+      },
+      'story-8923745610923-22': {
+        title: 'Canvas Consumed',
+        narration: 'The ChronoCanvas drinks its own ink, page by page, until only a smell of rain remains. The wound closes without a seam, history smoothing over like wet paint drying. You will never sketch time again, but clocks everywhere breathe easier.',
+        choices: {
+        },
+      },
+      'story-8923745610923-23': {
+        title: 'Betrayal Unraveling',
+        narration: 'Given the canvas, the curator redraws the hour entirely--perfect, painless, impossible. The timeline refuses the lie, shredding into bright threads that sing like wire. You spend the rest of your days collecting the humming filaments, a weaver of fractures.',
+        choices: {
+        },
+      },
+      'story-8923745610923-24': {
+        title: 'Self Rewrite',
+        narration: 'You paint a careful scar into your own days, a looped nine-and-eye embedded in your memory. The paradox swallows the wound and leaves you different--a little out of phase, bright at the edges. Sometimes you catch yourself mid-stroke, already finishing a line you have not yet begun.',
+        choices: {
+        },
+      },
+    },
+  },
+
+  // Русский - Not yet translated
+  ru: { title: '', description: '', author: '', nodes: {} },
+
+  // Español - Not yet translated
+  es: { title: '', description: '', author: '', nodes: {} },
+
+  // Deutsch - Not yet translated
+  de: { title: '', description: '', author: '', nodes: {} },
+
+  // Français - Not yet translated
+  fr: { title: '', description: '', author: '', nodes: {} },
+
+  // Português - Not yet translated
+  pt: { title: '', description: '', author: '', nodes: {} },
+
+  // 日本語 - Not yet translated
+  ja: { title: '', description: '', author: '', nodes: {} },
+
+  // 中文 - Not yet translated
+  zh: { title: '', description: '', author: '', nodes: {} },
+
+  // 한국어 - Not yet translated
+  ko: { title: '', description: '', author: '', nodes: {} },
+
+  // Українська - Not yet translated
+  uk: { title: '', description: '', author: '', nodes: {} },
+
+};
