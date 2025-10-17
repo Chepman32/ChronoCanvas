@@ -17,7 +17,7 @@ import { Choice } from '../types';
 import { useTranslation } from '../localization/useTranslation';
 
 const FALLBACK_IMAGE =
-  'https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=800';
+  'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=80';
 
 const { width, height } = Dimensions.get('window');
 

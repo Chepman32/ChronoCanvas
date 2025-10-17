@@ -1,0 +1,344 @@
+{
+  "meta": {
+    "storyId": "story-8743921042",
+    "language": "fr",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.391Z"
+  },
+  "story": {
+    "title": "Échos du Bosquet Lunaire",
+    "author": "Daria Voronova",
+    "description": "Quand la pleine lune se lève sur la Forêt de Roncenoire, un ancien pacte s'éveille. Tu portes un éclat d'un sceau brisé qui vibre près des arbres, t'appelant vers une couronne oubliée et une dette que le bosquet entend percevoir. Choisis des alliés, l'honneur ou le pouvoir—mais le bosquet prend toujours son dû.",
+    "genre": [
+      "fantasy",
+      "adventure"
+    ],
+    "difficulty": "medium",
+    "estimatedDuration": 35
+  },
+  "nodes": [
+    {
+      "id": "story-8743921042-1",
+      "type": "start",
+      "title": "Présage Lunaire",
+      "narration": "Une lune bleu-blanc grimpe au-dessus des cimes enchevêtrées de Roncenoire, et l'éclat dans ta poche se réchauffe comme s'il se souvenait d'une promesse. Les hiboux se taisent. Entre les pins, un sentier étroit brille comme de l'encre mouillée, tirant sur tes bottes. L'éclat vibre à nouveau, répondant à quelque chose d'ancien qui s'agite dans les racines.",
+      "choices": [
+        {
+          "id": "story-8743921042-c1",
+          "text": "Suis le sentier éclairé par la lune dans le bosquet",
+          "description": "L'éclat te veut plus profond."
+        },
+        {
+          "id": "story-8743921042-c2",
+          "text": "Étudie l'éclat du sceau et cherche des marques à proximité",
+          "description": "La connaissance avant le risque."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-2",
+      "type": "decision",
+      "title": "Sentier Murmurant",
+      "narration": "La brume s'enroule à hauteur de genoux, murmurant ton nom avec des voix que tu reconnais presque. Des phalènes pâles dérivent en avant, formant des flèches qui pointent plus profond. Une odeur de fer mouillé chevauche l'air. Quelque part au loin, une cloche sonne une fois.",
+      "choices": [
+        {
+          "id": "story-8743921042-c3",
+          "text": "Réponds aux murmures",
+          "description": "Risque de les laisser entrer."
+        },
+        {
+          "id": "story-8743921042-c4",
+          "text": "Ignore-les et pousse vers le son de la cloche",
+          "description": "Fais confiance à tes pieds, pas à tes oreilles."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-3",
+      "type": "decision",
+      "title": "Sceau Brisé",
+      "narration": "L'éclat est un croissant de verre sombre gravé de runes épineuses. Quand tu souffles dessus, le givre auréole les marques et un second motif s'épanouit—une couronne sans porteur. Le bois répond par un grondement grave, comme s'il se retournait dans son sommeil.",
+      "choices": [
+        {
+          "id": "story-8743921042-c5",
+          "text": "Presse l'éclat contre la terre et écoute",
+          "description": "Parle à l'ancienne manière."
+        },
+        {
+          "id": "story-8743921042-c6",
+          "text": "Brise un éclat pour tracer des runes de sang",
+          "description": "Le pouvoir courtise un prix."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-4",
+      "type": "decision",
+      "title": "If Ancien",
+      "narration": "Un if plus vieux que tout temple s'arque au-dessus d'un ruisseau lent et clair. Des baies rouges luisent comme des gouttes d'avertissement. Quand tu touches l'écorce, l'arbre se souvient de toi—la voix de ta grand-mère, une berceuse sur une dette envers le bosquet. L'eau s'éclaircit, montrant ton visage couronné d'épines.",
+      "choices": [
+        {
+          "id": "story-8743921042-c7",
+          "text": "Bois du ruisseau",
+          "description": "Accepte un souvenir qui n'est pas le tien."
+        },
+        {
+          "id": "story-8743921042-c8",
+          "text": "Prends de l'écorce d'if pour un charme protecteur",
+          "description": "Protection d'abord, puis marche."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-5",
+      "type": "decision",
+      "title": "Pont Enveloppé de Brume",
+      "narration": "Un pont de corde et de planches s'affaisse au-dessus d'une gorge que tu ne peux voir. En bas, quelque chose respire comme des vagues contre l'os. Une cloche pend au premier poteau, enveloppée de soie d'araignée, comme si la forêt elle-même l'avait bâillonnée.",
+      "choices": [
+        {
+          "id": "story-8743921042-c9",
+          "text": "Sonne la cloche",
+          "description": "Réveille ce qui dort pour parlementer."
+        },
+        {
+          "id": "story-8743921042-c10",
+          "text": "Traverse en silence",
+          "description": "Fais confiance à ton équilibre."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-6",
+      "type": "decision",
+      "title": "Marché des Ombres",
+      "narration": "Des lanternes fleurissent le long d'une ruelle tordue où aucune ville ne devrait être. Les étals vendent de la pluie en bouteille, des lunes à dé et des noms cousus dans du ruban. Un fabricant de masques te fait signe de t'approcher, offrant un visage tissé de ronces et de fil brillant.",
+      "choices": [
+        {
+          "id": "story-8743921042-c11",
+          "text": "Achète le masque de ronces avec une goutte de sang",
+          "description": "Les masques trompent, mais protègent."
+        },
+        {
+          "id": "story-8743921042-c12",
+          "text": "Échange l'éclat contre un guide",
+          "description": "L'information plutôt que les artefacts."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-7",
+      "type": "decision",
+      "title": "Lanternes Spirituelles",
+      "narration": "Des perles de lumière s'élèvent du ruisseau et spiralent autour de toi, curieuses comme des renardeaux. Elles poussent ta poitrine, tes mains, l'éclat. Quand l'une traverse ta paume, ta peau chante avec une douleur fine et argentée—le bosquet te juge et trouve une dette impayée.",
+      "choices": [
+        {
+          "id": "story-8743921042-c13",
+          "text": "Demande aux esprits de partager ce qu'ils savent",
+          "description": "Les questions humbles méritent des réponses."
+        },
+        {
+          "id": "story-8743921042-c14",
+          "text": "Commande les esprits avec la mémoire de l'if",
+          "description": "L'autorité peut blesser."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-9",
+      "type": "decision",
+      "title": "Porte de la Crypte",
+      "narration": "Des marches sculptées descendent dans la pierre rouge où l'air froid se déverse comme de l'eau. Au fond bâille une porte de roche nervurée et de clous de métal lunaire. L'éclat dans ta poche tremble, impatient d'être entier.",
+      "choices": [
+        {
+          "id": "story-8743921042-c17",
+          "text": "Ajuste l'éclat à la couture de métal lunaire",
+          "description": "Complète ce qui fut brisé."
+        },
+        {
+          "id": "story-8743921042-c18",
+          "text": "Refuse l'attraction et prends l'escalier supérieur",
+          "description": "Cherche un autre chemin vers le haut."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-10",
+      "type": "decision",
+      "title": "Scribe des Échos",
+      "narration": "Ton guide te mène à une terrasse de pierre où le vent écrit sur l'ardoise. La Scribe est une femme encapuchonnée dont les cheveux bougent comme de l'encre dans l'eau. Elle écoute ton éclat, puis trace trois sceaux qui sentent la pluie et le fer.",
+      "choices": [
+        {
+          "id": "story-8743921042-c19",
+          "text": "Demande un chemin vers la couronne",
+          "description": "Direct est dangereux."
+        },
+        {
+          "id": "story-8743921042-c20",
+          "text": "Demande comment briser la revendication du bosquet",
+          "description": "Défais le pacte."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-11",
+      "type": "decision",
+      "title": "Rivière de Verre",
+      "narration": "La rivière semble immobile, mais sa surface est une peau de couteaux reflétant une seconde lune. Un bac sans passeur attend, attaché par une corde de cheveux tressés. Tu peux traverser par confiance—ou tester le fil et saigner un tribut.",
+      "choices": [
+        {
+          "id": "story-8743921042-c21",
+          "text": "Monte sur le bac en attente",
+          "description": "Fais confiance au rituel du bosquet."
+        },
+        {
+          "id": "story-8743921042-c22",
+          "text": "Coupe ta paume et peins l'éclat",
+          "description": "Achète un passage sûr."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-12",
+      "type": "decision",
+      "title": "Pacte d'Épines",
+      "narration": "Un arbre creux s'ouvre comme une chapelle, des bougies vacillant dans des niches éclairées de sève. Des noms chuchotés dérivent—lignée, dettes, vœux. L'éclat se réchauffe jusqu'à faire mal, et tu comprends : prendre la couronne signifie porter la faim du bosquet.",
+      "choices": [
+        {
+          "id": "story-8743921042-c23",
+          "text": "Accepte le pacte ouvertement",
+          "description": "Pouvoir avec un prix, payé en plein jour."
+        },
+        {
+          "id": "story-8743921042-c24",
+          "text": "Refuse et cherche une échappatoire",
+          "description": "Il y a toujours une formulation."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-13",
+      "type": "decision",
+      "title": "Roi sans Couronne",
+      "narration": "Une silhouette de racines et de vent est assise sur une chaise de pierre, son front à vif où un diadème reposait autrefois. Quand il se tourne, tu vois tes propres pommettes, les yeux de ta famille—ta lignée tenait autrefois la couronne. Le bosquet bourdonne, attendant de voir ce que tu feras de la vérité.",
+      "choices": [
+        {
+          "id": "story-8743921042-c25",
+          "text": "Agenouille-toi et jure de réparer ce que ta lignée a brisé",
+          "description": "L'expiation lie fortement."
+        },
+        {
+          "id": "story-8743921042-c26",
+          "text": "Défie le Roi pour transmettre le fardeau",
+          "description": "Gagne la liberté ou un poids pire."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-14",
+      "type": "decision",
+      "title": "Escaliers de la Flèche Lunaire",
+      "narration": "Des escaliers taillés dans la pierre blanche comme l'os zigzaguent dans le brouillard. Chaque tournant montre la lune plus grande jusqu'à ce qu'elle remplisse le ciel d'un visage froid. Ton souffle s'emplume ; ta résolution se durcit pour égaler la montée.",
+      "choices": [
+        {
+          "id": "story-8743921042-c27",
+          "text": "Grimpe plus vite pour atteindre la flèche en premier",
+          "description": "Saisis l'initiative."
+        },
+        {
+          "id": "story-8743921042-c28",
+          "text": "Fais une pause pour graver une protection dans la marche",
+          "description": "Protection plutôt que hâte."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-15",
+      "type": "decision",
+      "title": "Salle des Graines",
+      "narration": "Une caverne s'ouvre sous un ciel peint où des milliers de graines pendent dans de la soie d'araignée. Chaque graine bat comme un petit cœur, chacune une forêt future attendant une promesse. La couronne repose sur un piédestal de racines tressées, pulsant au rythme de ton propre pouls.",
+      "choices": [
+        {
+          "id": "story-8743921042-c29",
+          "text": "Place l'éclat dans la couronne",
+          "description": "Complète l'instrument de règne."
+        },
+        {
+          "id": "story-8743921042-c30",
+          "text": "Disperse les graines et étouffe la couronne",
+          "description": "Brise le cycle pour toujours."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-16",
+      "type": "decision",
+      "title": "Duel du Miroir",
+      "narration": "Sur une crête gelée, le vent se durcit en une forme qui te reflète coup pour coup. Chaque frappe résonne, secouant la neige des pins noirs. Le bosquet observe sans respirer, jugeant quel soi le servira le mieux.",
+      "choices": [
+        {
+          "id": "story-8743921042-c31",
+          "text": "Cède et accepte la couronne de ton reflet",
+          "description": "Laisse l'autre toi régner."
+        },
+        {
+          "id": "story-8743921042-c32",
+          "text": "Brise le miroir avec l'éclat",
+          "description": "Brise le test pour fixer tes conditions."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-17",
+      "type": "decision",
+      "title": "Prix de la Magie",
+      "narration": "Le brouillard se plie en un cercle de pierres levées, chaque surface sculptée d'offrandes—cheveux, dents, anneaux, berceuses écrites en cendres. Le bosquet ne négocie pas sans monnaie. Tu peux acheter un chemin, mais tu dois nommer ta perte.",
+      "choices": [
+        {
+          "id": "story-8743921042-c33",
+          "text": "Offre ta voix pour une saison",
+          "description": "Le silence achète la guidance."
+        },
+        {
+          "id": "story-8743921042-c34",
+          "text": "Offre une année de ton ombre",
+          "description": "Tu marcheras plus mince."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-18",
+      "type": "ending",
+      "title": "Aube Restaurée",
+      "narration": "La couronne accepte l'éclat, et le bosquet exhale un souffle parfumé de printemps. Les oiseaux s'éveillent alors que le premier or se déverse à travers les arbres. Tu sors sans porter de métal, seulement une guirlande de pousses fraîches—intendant, pas souverain. La forêt bourdonne un oui tranquille.",
+      "choices": []
+    },
+    {
+      "id": "story-8743921042-19",
+      "type": "ending",
+      "title": "La Forêt Dévore",
+      "narration": "Les graines éclatent dans une ruée de racines qui brisent la pierre et avalent les halls. La couronne étouffe sous une marée verte qui ne se soucie pas des rois. Des années plus tard, les voyageurs murmurent d'un nouveau bois qui grandit trop vite, affamé comme une tempête. Ton nom est perdu sous les feuilles.",
+      "choices": []
+    },
+    {
+      "id": "story-8743921042-20",
+      "type": "ending",
+      "title": "Reine des Épines",
+      "narration": "Tu te prosternes devant ton reflet, et il s'avance, portant ton visage et une couronne de vigne vivante. L'aurore ondule dans les bois du cerf observateur tandis que les racines s'élèvent pour former un trône. Tu régneras en écoutant, pas besoin de lame—pourtant la couronne boit un peu de ton sommeil chaque nuit.",
+      "choices": []
+    },
+    {
+      "id": "story-8743921042-21",
+      "type": "ending",
+      "title": "Perdu Entre les Mondes",
+      "narration": "Le miroir se brise, mais aussi le chemin du retour. Tu apprends les sentiers latéraux du bosquet, guidant les vagabonds vers des clairières sûres avec une lanterne de ta propre fabrication. Certaines nuits, tu te souviens presque d'un nom différent. La lune est ta seule horloge.",
+      "choices": []
+    },
+    {
+      "id": "story-8743921042-22",
+      "type": "ending",
+      "title": "Le Serment d'Argent",
+      "narration": "Sur un rivage où les racines boivent la marée, tu jures de porter la loi du bosquet au-delà de ses arbres. La couronne se dissout en lumière qui enfle tes veines, froide et pure. Tu laisses des empreintes qui font pousser de l'herbe derrière toi, un serment marchant sur deux jambes. La dette devient une promesse tenue.",
+      "choices": []
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "meta": {
+    "storyId": "story-8743921042",
+    "language": "de",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.391Z"
+  },
+  "story": {
+    "title": "Echos des Mondhains",
+    "author": "Daria Voronova",
+    "description": "Wenn der Vollmond über dem Schwarzdornwald aufgeht, erwacht ein alter Pakt. Du trägst ein Bruchstück eines zerbrochenen Siegels, das in der Nähe der Bäume summt und dich zu einer vergessenen Krone und einer Schuld ruft, die der Hain einzufordern gedenkt. Wähle Verbündete, Ehre oder Macht – aber der Hain fordert immer seinen Tribut.",
+    "genre": [
+      "fantasy",
+      "adventure"
+    ],
+    "difficulty": "medium",
+    "estimatedDuration": 35
+  },
+  "nodes": [
+    {
+      "id": "story-8743921042-1",
+      "type": "start",
+      "title": "Mondlicht-Omen",
+      "narration": "Ein blauweißer Mond steigt über Schwarzdorns verworrene Kronen, und das Bruchstück in deiner Tasche erwärmt sich, als erinnere es sich an ein Versprechen. Eulen verstummen. Zwischen den Kiefern schimmert ein schmaler Pfad wie nasse Tinte und zieht an deinen Stiefeln. Das Bruchstück pulsiert erneut und antwortet etwas Altem, das sich in den Wurzeln regt.",
+      "choices": [
+        {
+          "id": "story-8743921042-c1",
+          "text": "Folge dem mondbeleuchteten Pfad in den Hain",
+          "description": "Das Bruchstück will dich tiefer hinein."
+        },
+        {
+          "id": "story-8743921042-c2",
+          "text": "Untersuche das Siegelbruchstück und suche nach Markierungen in der Nähe",
+          "description": "Wissen vor Risiko."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-2",
+      "type": "decision",
+      "title": "Flüsternder Pfad",
+      "narration": "Nebel ringelt sich um deine Knie und flüstert deinen Namen mit Stimmen, die du fast kennst. Blasse Motten treiben voraus und formen Pfeile, die tiefer zeigen. Ein Geruch nach nassem Eisen liegt in der Luft. Irgendwo in der Ferne läutet eine Glocke einmal.",
+      "choices": [
+        {
+          "id": "story-8743921042-c3",
+          "text": "Antworte auf das Flüstern",
+          "description": "Riskiere, sie hereinzulassen."
+        },
+        {
+          "id": "story-8743921042-c4",
+          "text": "Ignoriere sie und dränge zum Klang der Glocke",
+          "description": "Vertraue deinen Füßen, nicht deinen Ohren."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-3",
+      "type": "decision",
+      "title": "Zerbrochenes Siegel",
+      "narration": "Das Bruchstück ist ein Halbmond aus dunklem Glas, eingraviert mit dornigen Runen. Als du darüber hauchst, umsäumt Frost die Markierungen und ein zweites Muster erblüht – eine Krone ohne Träger. Der Wald antwortet mit einem tiefen Stöhnen, als würde er sich im Schlaf umdrehen.",
+      "choices": [
+        {
+          "id": "story-8743921042-c5",
+          "text": "Drücke das Bruchstück auf die Erde und lausche",
+          "description": "Sprich auf die alte Weise."
+        },
+        {
+          "id": "story-8743921042-c6",
+          "text": "Breche einen Splitter vom Bruchstück ab, um Blutrunen zu zeichnen",
+          "description": "Macht wirbt um einen Preis."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-4",
+      "type": "decision",
+      "title": "Uralte Eibe",
+      "narration": "Eine Eibe, älter als jeder Tempel, wölbt sich über einen langsamen, klaren Rinnsal. Rote Beeren leuchten wie Tropfen der Warnung. Als du die Rinde berührst, erinnert sich der Baum an dich – die Stimme deiner Großmutter, ein Wiegenlied über eine Schuld gegenüber dem Hain. Das Wasser erhellt sich und zeigt dein Gesicht, gekrönt mit Dornen.",
+      "choices": [
+        {
+          "id": "story-8743921042-c7",
+          "text": "Trinke aus dem Rinnsal",
+          "description": "Akzeptiere eine Erinnerung, die nicht deine eigene ist."
+        },
+        {
+          "id": "story-8743921042-c8",
+          "text": "Nimm Eibenrinde für einen Schutzcharme",
+          "description": "Erst schützen, dann gehen."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-5",
+      "type": "decision",
+      "title": "Nebelumhüllte Brücke",
+      "narration": "Eine Seil- und Plankenbrücke hängt über einer Schlucht, die du nicht sehen kannst. Tief unten atmet etwas wie Brandung gegen Knochen. Eine Glocke hängt am ersten Pfosten, in Spinnenseide gewickelt, als hätte der Wald selbst sie geknebelt.",
+      "choices": [
+        {
+          "id": "story-8743921042-c9",
+          "text": "Läute die Glocke",
+          "description": "Wecke, was schläft, um zu verhandeln."
+        },
+        {
+          "id": "story-8743921042-c10",
+          "text": "Überquere sie in Stille",
+          "description": "Vertraue auf dein Gleichgewicht."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-6",
+      "type": "decision",
+      "title": "Markt der Schatten",
+      "narration": "Laternen erblühen entlang einer krummen Gasse, wo keine Stadt sein sollte. Stände verkaufen abgefüllten Regen, Fingerhut-Monde und Namen, die in Bänder genäht sind. Ein Maskenmacher winkt dich näher und bietet ein Gesicht aus Dornen und hellem Faden an.",
+      "choices": [
+        {
+          "id": "story-8743921042-c11",
+          "text": "Kaufe die Dornenmaske mit einem Tropfen Blut",
+          "description": "Masken täuschen, aber schützen."
+        },
+        {
+          "id": "story-8743921042-c12",
+          "text": "Tausche das Bruchstück gegen einen Führer",
+          "description": "Information über Artefakte."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-7",
+      "type": "decision",
+      "title": "Geisterlaternen",
+      "narration": "Lichtperlen steigen aus dem Bach und wirbeln um dich herum, neugierig wie Fuchsjunge. Sie stupsen an deine Brust, deine Hände, das Bruchstück. Als eine durch deine Handfläche gleitet, singt deine Haut mit einem dünnen, silbernen Schmerz – der Hain richtet über dich und findet eine unbezahlte Schuld.",
+      "choices": [
+        {
+          "id": "story-8743921042-c13",
+          "text": "Bitte die Geister, zu teilen, was sie wissen",
+          "description": "Bescheidene Fragen verdienen Antworten."
+        },
+        {
+          "id": "story-8743921042-c14",
+          "text": "Befehlige die Geister mit der Erinnerung der Eibe",
+          "description": "Autorität kann verletzen."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-9",
+      "type": "decision",
+      "title": "Grufttor",
+      "narration": "Geschnitzte Stufen steigen hinab in roten Stein, wo kalte Luft wie Wasser strömt. Am Boden gähnt eine Tür aus geripptem Fels und Mondmetall-Nieten. Das Bruchstück in deiner Tasche zittert, begierig, wieder ganz zu werden.",
+      "choices": [
+        {
+          "id": "story-8743921042-c17",
+          "text": "Füge das Bruchstück in die Mondmetall-Naht",
+          "description": "Vervollständige, was zerbrochen war."
+        },
+        {
+          "id": "story-8743921042-c18",
+          "text": "Widerstehe dem Sog und nimm die höhere Treppe",
+          "description": "Suche einen anderen Weg nach oben."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-10",
+      "type": "decision",
+      "title": "Schreiberin der Echos",
+      "narration": "Dein Führer bringt dich zu einer steinernen Terrasse, wo der Wind auf Schiefer schreibt. Die Schreiberin ist eine verhüllte Frau, deren Haar sich wie Tinte im Wasser bewegt. Sie lauscht deinem Bruchstück, dann zeichnet sie drei Siegel, die nach Regen und Eisen duften.",
+      "choices": [
+        {
+          "id": "story-8743921042-c19",
+          "text": "Frage nach einem Pfad zur Krone",
+          "description": "Direkt ist gefährlich."
+        },
+        {
+          "id": "story-8743921042-c20",
+          "text": "Frage, wie man den Anspruch des Hains brechen kann",
+          "description": "Löse den Pakt auf."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-11",
+      "type": "decision",
+      "title": "Fluss aus Glas",
+      "narration": "Der Fluss scheint still, aber seine Oberfläche ist eine Haut aus Messern, die einen zweiten Mond reflektieren. Eine Fähre ohne Fährmann wartet, gebunden durch ein Seil aus geflochtenem Haar. Du kannst durch Vertrauen übersetzen – oder die Schneide testen und einen Tribut bluten.",
+      "choices": [
+        {
+          "id": "story-8743921042-c21",
+          "text": "Betrete die wartende Fähre",
+          "description": "Vertraue dem Ritual des Hains."
+        },
+        {
+          "id": "story-8743921042-c22",
+          "text": "Schneide in deine Handfläche und bemale das Bruchstück",
+          "description": "Erkaufe sichere Überfahrt."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-12",
+      "type": "decision",
+      "title": "Dornenpakt",
+      "narration": "Ein hohler Baum öffnet sich wie eine Kapelle, Kerzen flackern in saftbeleuchteten Nischen. Geflüsterte Namen treiben hindurch – Abstammung, Schulden, Gelübde. Das Bruchstück erwärmt sich, bis es schmerzt, und du verstehst: die Krone zu nehmen bedeutet, den Hunger des Hains zu tragen.",
+      "choices": [
+        {
+          "id": "story-8743921042-c23",
+          "text": "Akzeptiere den Pakt offen",
+          "description": "Macht mit einem Preis, bezahlt im Tageslicht."
+        },
+        {
+          "id": "story-8743921042-c24",
+          "text": "Lehne ab und suche ein Schlupfloch",
+          "description": "Es gibt immer eine Formulierung."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-13",
+      "type": "decision",
+      "title": "Kronenloser König",
+      "narration": "Eine Gestalt aus Wurzeln und Wind sitzt auf einem steinernen Stuhl, seine Stirn roh dort, wo einst ein Diadem ruhte. Als er sich umdreht, siehst du deine eigenen Wangenknochen, die Augen deiner Familie – deine Linie hielt einst die Krone. Der Hain summt und wartet darauf zu sehen, was du aus der Wahrheit machst.",
+      "choices": [
+        {
+          "id": "story-8743921042-c25",
+          "text": "Knie nieder und gelobe, zu heilen, was deine Linie zerbrach",
+          "description": "Sühne bindet stark."
+        },
+        {
+          "id": "story-8743921042-c26",
+          "text": "Fordere den König heraus, die Last weiterzugeben",
+          "description": "Gewinne Freiheit oder schlimmeres Gewicht."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-14",
+      "type": "decision",
+      "title": "Mondspiralen-Treppen",
+      "narration": "Stufen, aus knochenweißem Stein gemeißelt, zickzacken in den Nebel. Jede Wendung zeigt den Mond größer, bis er den Himmel mit einem kalten Gesicht füllt. Dein Atem federt; deine Entschlossenheit härtet sich, um dem Aufstieg zu entsprechen.",
+      "choices": [
+        {
+          "id": "story-8743921042-c27",
+          "text": "Steige schneller, um zuerst die Spitze zu erreichen",
+          "description": "Ergreife die Initiative."
+        },
+        {
+          "id": "story-8743921042-c28",
+          "text": "Halte inne, um einen Schutz in die Stufe zu ritzen",
+          "description": "Schutz vor Eile."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-15",
+      "type": "decision",
+      "title": "Halle der Samen",
+      "narration": "Eine Höhle öffnet sich unter einem bemalten Himmel, wo Tausende von Samen in Spinnenseidenfäden hängen. Jeder Samen schlägt wie ein winziges Herz, jeder ein zukünftiger Wald, der auf ein Versprechen wartet. Die Krone sitzt auf einem Sockel aus geflochtenen Wurzeln und pulsiert im Takt mit deinem eigenen Puls.",
+      "choices": [
+        {
+          "id": "story-8743921042-c29",
+          "text": "Setze das Bruchstück in die Krone",
+          "description": "Vervollständige das Instrument der Herrschaft."
+        },
+        {
+          "id": "story-8743921042-c30",
+          "text": "Verstreue die Samen und ersticke die Krone",
+          "description": "Breche den Kreislauf für immer."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-16",
+      "type": "decision",
+      "title": "Spiegelduell",
+      "narration": "Auf einem gefrorenen Grat verhärtet sich der Wind zu einer Gestalt, die dich Schlag für Schlag spiegelt. Jeder Treffer klingelt und schüttelt Schnee von schwarzen Kiefern. Der Hain beobachtet atemlos und urteilt, welches Selbst ihm am besten dienen wird.",
+      "choices": [
+        {
+          "id": "story-8743921042-c31",
+          "text": "Gib nach und akzeptiere die Krone deines Spiegelbildes",
+          "description": "Lass das andere Ich herrschen."
+        },
+        {
+          "id": "story-8743921042-c32",
+          "text": "Zerschmettere den Spiegel mit dem Bruchstück",
+          "description": "Breche die Prüfung, um deine Bedingungen zu setzen."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-17",
+      "type": "decision",
+      "title": "Preis der Magie",
+      "narration": "Nebel faltet sich zu einem Kreis aus Stehsteinen, jede Oberfläche geschnitzt mit Opfergaben – Haare, Zähne, Ringe, Wiegenlieder in Asche geschrieben. Der Hain handelt nicht ohne Münze. Du kannst einen Pfad kaufen, aber du musst deinen Verlust benennen.",
+      "choices": [
+        {
+          "id": "story-8743921042-c33",
+          "text": "Biete deine Stimme für eine Jahreszeit",
+          "description": "Stille kauft Führung."
+        },
+        {
+          "id": "story-8743921042-c34",
+          "text": "Biete ein Jahr von deinem Schatten",
+          "description": "Du wirst dünner gehen."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-18",
+      "type": "ending",
+      "title": "Wiederhergestellte Morgendämmerung",
+      "narration": "Die Krone nimmt das Bruchstück an, und der Hain atmet einen frühlingsduftenden Atemzug aus. Vögel erwachen, als das erste Gold durch die Bäume sickert. Du gehst hinaus, trägst kein Metall, nur eine Girlande aus frischen Trieben – Verwalter, nicht Herrscher. Der Wald summt ein leises Ja.",
+      "choices": []
+    },
+    {
+      "id": "story-8743921042-19",
+      "type": "ending",
+      "title": "Der Wald verschlingt",
+      "narration": "Samen bersten in einem Ansturm von Wurzeln, die Stein zerbrechen und Hallen verschlingen. Die Krone erstickt unter einer grünen Flut, die sich nicht um Könige schert. Jahre später flüstern Reisende von einem neuen Wald, der zu schnell wächst, hungrig wie ein Sturm. Dein Name ist verloren unter Blättern.",
+      "choices": []
+    },
+    {
+      "id": "story-8743921042-20",
+      "type": "ending",
+      "title": "Königin der Dornen",
+      "narration": "Du verbeugst dich vor deinem Spiegelbild, und es tritt vor, trägt dein Gesicht und eine Krone aus lebendigem Wein. Das Polarlicht kräuselt sich in den Geweihen des wachenden Hirsches, während Wurzeln aufsteigen, um einen Thron zu formen. Du wirst durch Zuhören herrschen, keine Klinge nötig – doch die Krone trinkt jede Nacht ein wenig von deinem Schlaf.",
+      "choices": []
+    },
+    {
+      "id": "story-8743921042-21",
+      "type": "ending",
+      "title": "Verloren zwischen den Welten",
+      "narration": "Der Spiegel zerbricht, aber auch der Weg nach Hause. Du lernst die Seitenpfade des Hains, führst Wanderer mit einer selbstgemachten Laterne zu sicheren Lichtungen. Manche Nächte erinnerst du dich fast an einen anderen Namen. Der Mond ist deine einzige Uhr.",
+      "choices": []
+    },
+    {
+      "id": "story-8743921042-22",
+      "type": "ending",
+      "title": "Der Silberschwur",
+      "narration": "An einem Ufer, wo Wurzeln die Flut trinken, schwörst du, das Gesetz des Hains über seine Bäume hinaus zu tragen. Die Krone löst sich zu Licht auf, das deine Adern durchzieht, kalt und rein. Du hinterlässt Fußabdrücke, die hinter dir Gras sprießen lassen, ein Schwur, der auf zwei Beinen geht. Die Schuld wird zu einem gehaltenen Versprechen.",
+      "choices": []
+    }
+  ]
+}

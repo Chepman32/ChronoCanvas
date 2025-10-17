@@ -1,0 +1,344 @@
+{
+  "meta": {
+    "storyId": "story-8743921042",
+    "language": "es",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.391Z"
+  },
+  "story": {
+    "title": "Ecos de la Arboleda Lunar",
+    "author": "Daria Voronova",
+    "description": "Cuando la luna llena se alza sobre el Bosque Espinegro, un viejo pacto despierta. Llevas un fragmento de un sello roto que vibra cerca de los árboles, llamándote hacia una corona olvidada y una deuda que la arboleda pretende cobrar. Elige aliados, honor o poder, pero la arboleda siempre cobra su tributo.",
+    "genre": [
+      "fantasy",
+      "adventure"
+    ],
+    "difficulty": "medium",
+    "estimatedDuration": 35
+  },
+  "nodes": [
+    {
+      "id": "story-8743921042-1",
+      "type": "start",
+      "title": "Presagio Lunar",
+      "narration": "Una luna azul-blanca asciende sobre las copas enmarañadas de Espinegro, y el fragmento en tu bolsillo se calienta como si recordara una promesa. Los búhos enmudecen. Entre los pinos, un sendero estrecho brilla como tinta mojada, tirando de tus botas. El fragmento vibra de nuevo, respondiendo a algo antiguo que se agita en las raíces.",
+      "choices": [
+        {
+          "id": "story-8743921042-c1",
+          "text": "Sigue el sendero iluminado por la luna hacia la arboleda",
+          "description": "El fragmento te quiere más adentro."
+        },
+        {
+          "id": "story-8743921042-c2",
+          "text": "Estudia el fragmento del sello y busca marcas cercanas",
+          "description": "Conocimiento antes que riesgo."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-2",
+      "type": "decision",
+      "title": "Sendero Susurrante",
+      "narration": "La niebla se enrosca a la altura de tus rodillas, susurrando tu nombre con voces que casi conoces. Polillas pálidas flotan adelante, formando flechas que apuntan más profundo. Un olor a hierro húmedo cabalga en el aire. En algún lugar distante, una campana suena una vez.",
+      "choices": [
+        {
+          "id": "story-8743921042-c3",
+          "text": "Responde a los susurros",
+          "description": "Arriesga dejarlos entrar."
+        },
+        {
+          "id": "story-8743921042-c4",
+          "text": "Ignóralos y avanza hacia el sonido de la campana",
+          "description": "Confía en tus pies, no en tus oídos."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-3",
+      "type": "decision",
+      "title": "Sello Fragmentado",
+      "narration": "El fragmento es una media luna de vidrio oscuro grabada con runas espinosas. Cuando respiras sobre él, la escarcha aureola las marcas y florece un segundo patrón: una corona sin portador. El bosque responde con un gemido grave, como si se diera vuelta en sueños.",
+      "choices": [
+        {
+          "id": "story-8743921042-c5",
+          "text": "Presiona el fragmento contra la tierra y escucha",
+          "description": "Habla a la antigua usanza."
+        },
+        {
+          "id": "story-8743921042-c6",
+          "text": "Rompe una astilla del fragmento para dibujar runas de sangre",
+          "description": "El poder corteja un precio."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-4",
+      "type": "decision",
+      "title": "Tejo Ancestral",
+      "narration": "Un tejo más viejo que cualquier templo se arquea sobre un arroyo lento y claro. Bayas rojas relucen como gotas de advertencia. Cuando tocas la corteza, el árbol te recuerda: la voz de tu abuela, una canción de cuna sobre una deuda con la arboleda. El agua se ilumina, mostrando tu rostro coronado de espinas.",
+      "choices": [
+        {
+          "id": "story-8743921042-c7",
+          "text": "Bebe del arroyo",
+          "description": "Acepta una memoria que no es tuya."
+        },
+        {
+          "id": "story-8743921042-c8",
+          "text": "Toma corteza de tejo para un amuleto protector",
+          "description": "Protección primero, luego camina."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-5",
+      "type": "decision",
+      "title": "Puente Envuelto en Niebla",
+      "narration": "Un puente de cuerda y tablones se hunde sobre un barranco que no puedes ver. Abajo, algo respira como oleaje contra hueso. Una campana cuelga del primer poste, envuelta en seda de araña, como si el bosque mismo la hubiera amordazado.",
+      "choices": [
+        {
+          "id": "story-8743921042-c9",
+          "text": "Toca la campana",
+          "description": "Despierta lo que duerme para parlamentar."
+        },
+        {
+          "id": "story-8743921042-c10",
+          "text": "Cruza en silencio",
+          "description": "Confía en tu equilibrio."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-6",
+      "type": "decision",
+      "title": "Mercado de Sombras",
+      "narration": "Linternas florecen a lo largo de un callejón torcido donde no debería haber ciudad. Los puestos venden lluvia embotellada, lunas de dedal y nombres cosidos en cintas. Un fabricante de máscaras te hace señas más cerca, ofreciendo un rostro tejido de zarza e hilo brillante.",
+      "choices": [
+        {
+          "id": "story-8743921042-c11",
+          "text": "Compra la máscara de zarza con una gota de sangre",
+          "description": "Las máscaras engañan, pero protegen."
+        },
+        {
+          "id": "story-8743921042-c12",
+          "text": "Intercambia el fragmento por un guía",
+          "description": "Información sobre artefactos."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-7",
+      "type": "decision",
+      "title": "Linternas Espirituales",
+      "narration": "Cuentas de luz se elevan del arroyo y giran a tu alrededor, curiosas como cachorros de zorro. Empujan tu pecho, tus manos, el fragmento. Cuando una pasa a través de tu palma, tu piel canta con un dolor fino y plateado: la arboleda te juzga y encuentra una deuda impaga.",
+      "choices": [
+        {
+          "id": "story-8743921042-c13",
+          "text": "Pide a los espíritus que compartan lo que saben",
+          "description": "Las preguntas humildes obtienen respuestas."
+        },
+        {
+          "id": "story-8743921042-c14",
+          "text": "Comanda a los espíritus con la memoria del tejo",
+          "description": "La autoridad puede herir."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-9",
+      "type": "decision",
+      "title": "Puerta de la Cripta",
+      "narration": "Escalones tallados descienden en piedra roja donde el aire frío se derrama como agua. En el fondo bosteza una puerta de roca acanalada y tachuelas de metal lunar. El fragmento en tu bolsillo tiembla, ansioso por estar completo.",
+      "choices": [
+        {
+          "id": "story-8743921042-c17",
+          "text": "Ajusta el fragmento a la costura de metal lunar",
+          "description": "Completa lo que se rompió."
+        },
+        {
+          "id": "story-8743921042-c18",
+          "text": "Resiste el tirón y toma la escalera más alta",
+          "description": "Busca otro camino hacia arriba."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-10",
+      "type": "decision",
+      "title": "Escriba de los Ecos",
+      "narration": "Tu guía te lleva a una terraza de piedra donde el viento escribe sobre pizarra. La Escriba es una mujer encapuchada cuyo cabello se mueve como tinta en agua. Escucha tu fragmento, luego dibuja tres sellos que huelen a lluvia y hierro.",
+      "choices": [
+        {
+          "id": "story-8743921042-c19",
+          "text": "Pregunta por un camino a la corona",
+          "description": "Lo directo es peligroso."
+        },
+        {
+          "id": "story-8743921042-c20",
+          "text": "Pregunta cómo romper el reclamo de la arboleda",
+          "description": "Deshaz el pacto."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-11",
+      "type": "decision",
+      "title": "Río de Cristal",
+      "narration": "El río parece quieto, pero su superficie es una piel de cuchillos que reflejan una segunda luna. Un transbordador sin barquero espera, atado por una cuerda de cabello trenzado. Puedes cruzar por confianza, o probar el filo y sangrar un tributo.",
+      "choices": [
+        {
+          "id": "story-8743921042-c21",
+          "text": "Aborda el transbordador en espera",
+          "description": "Confía en el ritual de la arboleda."
+        },
+        {
+          "id": "story-8743921042-c22",
+          "text": "Corta tu palma y pinta el fragmento",
+          "description": "Compra paso seguro."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-12",
+      "type": "decision",
+      "title": "Pacto de Espinas",
+      "narration": "Un árbol hueco se abre como una capilla, velas parpadeando en nichos iluminados por savia. Nombres susurrados flotan a través: linaje, deudas, votos. El fragmento se calienta hasta doler, y comprendes: tomar la corona significa llevar el hambre de la arboleda.",
+      "choices": [
+        {
+          "id": "story-8743921042-c23",
+          "text": "Acepta el pacto abiertamente",
+          "description": "Poder con un precio, pagado a la luz del día."
+        },
+        {
+          "id": "story-8743921042-c24",
+          "text": "Niégate y busca una laguna legal",
+          "description": "Siempre hay redacción."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-13",
+      "type": "decision",
+      "title": "Rey sin Corona",
+      "narration": "Una figura de raíces y viento se sienta sobre una silla de piedra, su frente en carne viva donde una diadema alguna vez descansó. Cuando se gira, ves tus propios pómulos, los ojos de tu familia: tu linaje una vez sostuvo la corona. La arboleda zumba, esperando ver qué harás con la verdad.",
+      "choices": [
+        {
+          "id": "story-8743921042-c25",
+          "text": "Arrodíllate y jura reparar lo que tu linaje rompió",
+          "description": "La expiación ata fuertemente."
+        },
+        {
+          "id": "story-8743921042-c26",
+          "text": "Desafía al Rey a pasar la carga",
+          "description": "Gana libertad o peor peso."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-14",
+      "type": "decision",
+      "title": "Escaleras de la Aguja Lunar",
+      "narration": "Escaleras talladas en piedra blanca como hueso zigzaguean en la niebla. Cada giro muestra la luna más grande hasta que llena el cielo con un rostro frío. Tu aliento se empluma; tu resolución se endurece para igualar la escalada.",
+      "choices": [
+        {
+          "id": "story-8743921042-c27",
+          "text": "Sube más rápido para alcanzar la aguja primero",
+          "description": "Toma la iniciativa."
+        },
+        {
+          "id": "story-8743921042-c28",
+          "text": "Haz una pausa para grabar un sello protector en el escalón",
+          "description": "Protección sobre prisa."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-15",
+      "type": "decision",
+      "title": "Salón de las Semillas",
+      "narration": "Una caverna se abre bajo un cielo pintado donde miles de semillas cuelgan en seda de telaraña. Cada semilla late como un corazón diminuto, cada una un bosque futuro esperando una promesa. La corona descansa sobre un pedestal de raíces entrelazadas, pulsando al ritmo de tu propio pulso.",
+      "choices": [
+        {
+          "id": "story-8743921042-c29",
+          "text": "Coloca el fragmento en la corona",
+          "description": "Completa el instrumento del gobierno."
+        },
+        {
+          "id": "story-8743921042-c30",
+          "text": "Esparce las semillas y sofoca la corona",
+          "description": "Rompe el ciclo para siempre."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-16",
+      "type": "decision",
+      "title": "Duelo del Espejo",
+      "narration": "En una cresta helada, el viento se endurece en una forma que te refleja golpe por golpe. Cada golpe resuena, sacudiendo nieve de pinos negros. La arboleda observa sin aliento, juzgando qué yo la servirá mejor.",
+      "choices": [
+        {
+          "id": "story-8743921042-c31",
+          "text": "Cede y acepta la corona de tu reflejo",
+          "description": "Deja que el otro tú gobierne."
+        },
+        {
+          "id": "story-8743921042-c32",
+          "text": "Rompe el espejo con el fragmento",
+          "description": "Rompe la prueba para establecer tus términos."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-17",
+      "type": "decision",
+      "title": "Precio de la Magia",
+      "narration": "La niebla se pliega en un círculo de piedras erguidas, cada superficie tallada con ofrendas: cabello, dientes, anillos, canciones de cuna escritas en ceniza. La arboleda no negocia sin moneda. Puedes comprar un camino, pero debes nombrar tu pérdida.",
+      "choices": [
+        {
+          "id": "story-8743921042-c33",
+          "text": "Ofrece tu voz por una temporada",
+          "description": "El silencio compra guía."
+        },
+        {
+          "id": "story-8743921042-c34",
+          "text": "Ofrece un año de tu sombra",
+          "description": "Caminarás más delgado."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-18",
+      "type": "ending",
+      "title": "Amanecer Restaurado",
+      "narration": "La corona acepta el fragmento, y la arboleda exhala un aliento con aroma a primavera. Los pájaros despiertan mientras el primer oro se derrama entre los árboles. Sales sin llevar metal, solo una guirnalda de brotes frescos: administrador, no soberano. El bosque zumba un sí tranquilo.",
+      "choices": []
+    },
+    {
+      "id": "story-8743921042-19",
+      "type": "ending",
+      "title": "El Bosque Devora",
+      "narration": "Las semillas estallan en una oleada de raíces que agrietan piedra y tragan salones. La corona se sofoca bajo una marea verde que no se preocupa por los reyes. Años después, los viajeros susurran de un nuevo bosque que crece demasiado rápido, hambriento como una tormenta. Tu nombre se pierde bajo las hojas.",
+      "choices": []
+    },
+    {
+      "id": "story-8743921042-20",
+      "type": "ending",
+      "title": "Reina de Espinas",
+      "narration": "Te inclinas ante tu reflejo, y este avanza, llevando tu rostro y una corona de vid viviente. La aurora ondula en las astas del ciervo vigilante mientras las raíces se elevan para formar un trono. Gobernarás escuchando, sin necesidad de espada, pero la corona bebe un poco de tu sueño cada noche.",
+      "choices": []
+    },
+    {
+      "id": "story-8743921042-21",
+      "type": "ending",
+      "title": "Perdido entre Mundos",
+      "narration": "El espejo se rompe, pero también el camino a casa. Aprendes los senderos laterales de la arboleda, guiando a los errantes a claros seguros con una linterna de tu propia creación. Algunas noches casi recuerdas un nombre diferente. La luna es tu único reloj.",
+      "choices": []
+    },
+    {
+      "id": "story-8743921042-22",
+      "type": "ending",
+      "title": "El Juramento de Plata",
+      "narration": "En una orilla donde las raíces beben la marea, juras llevar la ley de la arboleda más allá de sus árboles. La corona se disuelve en luz que enhebra tus venas, fría y limpia. Dejas huellas que brotan hierba detrás de ti, un juramento que camina sobre dos piernas. La deuda se convierte en una promesa cumplida.",
+      "choices": []
+    }
+  ]
+}

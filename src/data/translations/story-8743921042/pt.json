@@ -1,0 +1,294 @@
+{
+  "meta": {
+    "storyId": "story-8273910265",
+    "language": "pt",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.382Z"
+  },
+  "story": {
+    "title": "Sombras da Estrela Desaparecida",
+    "author": "Daphne Sawyer",
+    "description": "Quando uma herdeira da tecnologia desaparece e apenas um ornamento críptico permanece, o detetive particular Sam Mercer é arrastado para um labirinto de becos encharcados de chuva, bibliotecas secretas e docas sombrias. Cada pista levanta novas questões e cada decisão o puxa mais profundamente para uma conspiração que alcança o topo da cidade.",
+    "genre": [
+      "detetive",
+      "mistério"
+    ],
+    "difficulty": "difícil",
+    "estimatedDuration": 30
+  },
+  "nodes": [
+    {
+      "id": "story-8273910265-1",
+      "type": "start",
+      "title": "Cliente da Meia-Noite",
+      "narration": "A chuva bate contra a janela do seu escritório enquanto você olha fixamente para o néon piscando lá fora. Uma sombra cruza o limiar e uma mulher com sobretudo encharcado entra, seus olhos suplicantes enquanto ela produz um ornamento em forma de estrela e sussurra sobre uma herdeira desaparecida. O cheiro de pavimento úmido e papel velho enche a sala enquanto você pondera o perigo em suas palavras. A cidade zumbe com segredos e você sente que isso é apenas o começo.",
+      "choices": [
+        {
+          "id": "story-8273910265-c1",
+          "text": "Aceitar o caso e ir para a cena do crime",
+          "description": "O dever chama, mesmo na chuva."
+        },
+        {
+          "id": "story-8273910265-c2",
+          "text": "Recusar e observar da sua janela",
+          "description": "Manter-se distante, observar o que se desenrola."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-3",
+      "type": "decision",
+      "title": "Vigilância Relutante",
+      "narration": "Você manda a mulher embora, mas a curiosidade o corrói. Através do vidro riscado pela chuva, você avista uma figura espreitando do outro lado da rua, câmera na mão, tirando fotos do seu escritório. O beco brilha sob os postes de luz, a cidade respirando como uma besta. Você pode mergulhar na chuva atrás dele ou manter sua distância.",
+      "choices": [
+        {
+          "id": "story-8273910265-c5",
+          "text": "Seguir a sombra pela rua abaixo",
+          "description": "Aproximar-se, arriscar exposição."
+        },
+        {
+          "id": "story-8273910265-c6",
+          "text": "Ficar nas sombras e observar",
+          "description": "A paciência pode compensar."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-5",
+      "type": "decision",
+      "title": "Testemunha Nervosa",
+      "narration": "Um transeunte nervoso se apoia contra uma janela salpicada de chuva, telefone pressionado contra o ouvido. Olhos inquietos, eles apertam o casaco mais forte enquanto você se aproxima. O zumbido da cidade parece desaparecer enquanto você decide se deve arrancar a verdade gentilmente ou lubrificar as engrenagens com dinheiro.",
+      "choices": [
+        {
+          "id": "story-8273910265-c9",
+          "text": "Perguntar calmamente o que eles viram",
+          "description": "Ganhar confiança através da empatia."
+        },
+        {
+          "id": "story-8273910265-c10",
+          "text": "Dar-lhes algum dinheiro por respostas",
+          "description": "O dinheiro fala quando o medo cala."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-6",
+      "type": "decision",
+      "title": "Observando na Chuva",
+      "narration": "Você se funde com o aguaceiro, deixando o suspeito guiá-lo por becos banhados em néon. Cada poça reflete um mundo fraturado. Sob seu casaco, você sente o peso de sua própria tecnologia; um laptop zumbe fracamente, implorando para decifrar mensagens criptografadas. Você hackeia o fluxo de comunicações deles ou continua seguindo-os pessoalmente?",
+      "choices": [
+        {
+          "id": "story-8273910265-c11",
+          "text": "Hackear o fluxo de comunicações deles",
+          "description": "Segredos digitais são geralmente os mais suculentos."
+        },
+        {
+          "id": "story-8273910265-c12",
+          "text": "Continuar seguindo das sombras",
+          "description": "Permanecer no terreno."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-7",
+      "type": "decision",
+      "title": "Mensagem em Vermelho",
+      "narration": "Dentro do envelope você encontra uma fotografia de um pingente em forma de estrela e uma mensagem codificada escrita em tinta vermelha. O papel parece escorregadio sob seus dedos molhados. Os símbolos sugerem catálogos de bibliotecas e segredos antigos. Você deve decidir onde decifrá-lo.",
+      "choices": [
+        {
+          "id": "story-8273910265-c13",
+          "text": "Ir para a biblioteca municipal",
+          "description": "Pesquisa em prateleiras empoeiradas."
+        },
+        {
+          "id": "story-8273910265-c14",
+          "text": "Ligar para seu amigo hacker",
+          "description": "Decodificar com ajuda digital."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-8",
+      "type": "decision",
+      "title": "Relatório Forense",
+      "narration": "De volta ao seu próprio laboratório, monitores piscando iluminam seu rosto. Você escaneia o envelope em busca de impressões digitais e analisa a tinta sob luz ofuscante. Uma impressão digital corresponde a um intermediário do submundo, e uma etiqueta GPS aponta para as docas. Você pode seguir o rastro de dados ou agir com base na informação.",
+      "choices": [
+        {
+          "id": "story-8273910265-c15",
+          "text": "Verificar impressões digitais no banco de dados",
+          "description": "Informação é poder."
+        },
+        {
+          "id": "story-8273910265-c16",
+          "text": "Ir para as docas para rastreá-los",
+          "description": "Confrontar o suspeito pessoalmente."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-9",
+      "type": "decision",
+      "title": "Inteligência do Armazém",
+      "narration": "Seus esforços compensam: uma confissão sussurrada ou mensagem hackeada revela um encontro em um armazém abandonado marcado com grafite. O edifício se ergue como um monumento escuro contra o horizonte. Você pode invadir e arriscar tudo ou levar tempo para planejar.",
+      "choices": [
+        {
+          "id": "story-8273910265-c17",
+          "text": "Infiltrar o armazém agora",
+          "description": "O tempo é essencial."
+        },
+        {
+          "id": "story-8273910265-c18",
+          "text": "Reunir mais inteligência primeiro",
+          "description": "Uma abordagem cautelosa pode compensar."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-10",
+      "type": "decision",
+      "title": "Último Trem",
+      "narration": "O suspeito escorrega para um trem da meia-noite e você se apressa para o pátio, vapor sibilando de locomotivas adormecidas. A escuridão envolve os trilhos enquanto a última chamada ecoa pelos alto-falantes. Você pode embarcar no trem agora ou tentar enganá-los na próxima parada.",
+      "choices": [
+        {
+          "id": "story-8273910265-c19",
+          "text": "Pular a bordo do trem",
+          "description": "Ficar perto do seu alvo."
+        },
+        {
+          "id": "story-8273910265-c20",
+          "text": "Interceptar na próxima estação",
+          "description": "Planejar uma emboscada com antecedência."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-11",
+      "type": "decision",
+      "title": "Pilhas de Segredos",
+      "narration": "Partículas de poeira dançam em feixes de luz enquanto você vaga por pilhas infinitas de livros. O cheiro de papel velho o cerca. Você rastreia números de catálogo obscuros até que seus dedos pousam em um tomo descrevendo um ornamento em forma de estrela que desbloqueia segredos em cofres bancários. Você testa a chave ou cava mais fundo nos arquivos?",
+      "choices": [
+        {
+          "id": "story-8273910265-c21",
+          "text": "Ir ao banco com o ornamento",
+          "description": "O cofre pode conter a verdade."
+        },
+        {
+          "id": "story-8273910265-c22",
+          "text": "Pesquisar mais nos arquivos",
+          "description": "Pode haver mais para descobrir."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-13",
+      "type": "decision",
+      "title": "Sombras nas Docas",
+      "narration": "O cheiro de sal e diesel paira pesado enquanto você se arrasta entre caixotes nas docas. Um barco solitário balança suavemente contra estacas desgastadas, vozes murmurando acima do respingo de ondas. Você permanece escondido para reunir evidências ou sai para a luz para confrontar o líder da gangue?",
+      "choices": [
+        {
+          "id": "story-8273910265-c25",
+          "text": "Reunir evidências silenciosamente",
+          "description": "A paciência pode trazer prova."
+        },
+        {
+          "id": "story-8273910265-c26",
+          "text": "Confrontar o líder da gangue",
+          "description": "Forçar a questão agora."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-14",
+      "type": "decision",
+      "title": "Confronto no Telhado",
+      "narration": "O vento açoita o telhado enquanto você encurrala o suspeito contra um pano de fundo de arranha-céus imponentes, suas janelas cintilando como estrelas. O suor se acumula sob seu colarinho apesar do frio. Sem lugar para fugir, sua presa olha para o vão entre os edifícios. Seu próximo movimento decidirá o destino de ambos.",
+      "choices": [
+        {
+          "id": "story-8273910265-c27",
+          "text": "Convencê-los e negociar",
+          "description": "Palavras podem ser armas."
+        },
+        {
+          "id": "story-8273910265-c28",
+          "text": "Derrubá-los ao chão",
+          "description": "Usar força para terminar a perseguição."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-15",
+      "type": "decision",
+      "title": "Emboscada na Estação",
+      "narration": "O trem se afasta e você se encontra em um corredor de estação deserto, luzes fluorescentes piscando acima. Passos ecoam à distância, depois desaparecem. Seu alvo escorregou para a escuridão. Você espera que eles voltem ou liga para um contato que lhe deve um favor?",
+      "choices": [
+        {
+          "id": "story-8273910265-c29",
+          "text": "Esperar nas sombras",
+          "description": "A paciência pode pegá-los."
+        },
+        {
+          "id": "story-8273910265-c30",
+          "text": "Cobrar um favor",
+          "description": "Alavancar sua rede."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-17",
+      "type": "decision",
+      "title": "Píer da Meia-Noite",
+      "narration": "O luar pinta o píer de prata enquanto as ondas lambem suas tábuas desgastadas. Uma figura solitária espera sob uma lâmpada, rosto escondido sob um capuz. Eles lhe oferecem uma escolha – junte-se a eles e compartilhe os lucros da conspiração, ou recuse e exponha toda a operação. Confiança e traição pairam no ar salgado.",
+      "choices": [
+        {
+          "id": "story-8273910265-c33",
+          "text": "Aceitar o acordo deles",
+          "description": "Juntar-se à rede de sombras."
+        },
+        {
+          "id": "story-8273910265-c34",
+          "text": "Recusar e expor tudo",
+          "description": "Soprar o apito."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-18",
+      "type": "decision",
+      "title": "Invasão",
+      "narration": "Com aliados ao seu lado, você empurra uma porta para um longo corredor escuro. Passos ecoam enquanto você se aproxima de uma reunião em andamento, vozes baixas e conspiratórias. Você invade e faz prisões ou fica para trás para gravar a troca para o mundo ver?",
+      "choices": [
+        {
+          "id": "story-8273910265-c35",
+          "text": "Intervir e prendê-los",
+          "description": "Levá-los à justiça."
+        },
+        {
+          "id": "story-8273910265-c36",
+          "text": "Gravar tudo para um vazamento",
+          "description": "Expor a conspiração publicamente."
+        }
+      ]
+    },
+    {
+      "id": "story-8273910265-19",
+      "type": "ending",
+      "title": "O Caso Escapa",
+      "narration": "Você se lança na refrega e a gangue se dispersa como sombras na chuva. Um tiro ressoa, um motor de barco ruge, e o mentor desaparece na noite. Semanas depois você olha fixamente para seu quadro de cortiça, fios de lã conectando fotos que não levam a lugar nenhum. O caso esfria e a cidade esquece, mas você não consegue.",
+      "choices": []
+    },
+    {
+      "id": "story-8273910265-21",
+      "type": "ending",
+      "title": "Acordo com o Diabo",
+      "narration": "A tentação vence. Você embolsa os arquivos e entra no círculo interno. A escada que você sobe pode ser dourada, mas cada degrau está escorregadio de culpa. Riqueza e conexões fluem para você, mas em momentos tranquilos você se pergunta o que aconteceu com a jovem mulher cujo ornamento desbloqueou sua fortuna.",
+      "choices": []
+    },
+    {
+      "id": "story-8273910265-22",
+      "type": "ending",
+      "title": "Denunciante",
+      "narration": "Você escolhe exposição em vez de segurança. Escondido atrás de monitores brilhantes, você compila gravações e documentos e os vaza para a imprensa. Manchetes explodem, figuras poderosas caem, e a cidade convulsiona. Você se torna tanto herói quanto alvo, desaparecendo em sombras digitais sabendo que fez a coisa certa.",
+      "choices": []
+    }
+  ]
+}
