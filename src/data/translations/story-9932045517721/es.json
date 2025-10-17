@@ -1,0 +1,383 @@
+{
+  "meta": {
+    "storyId": "story-9932045517721",
+    "language": "es",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.399Z"
+  },
+  "story": {
+    "title": "El Pacto del Tejedor de Raíces",
+    "author": "Estudio ChronoCanvas",
+    "description": "Letras talladas por savia sangran a través de la corteza: el árbol del mundo está enfermo. Puedes escuchar su pulso si presionas tu oído contra la veta, y si te atreves, puedes responder. ¿Sanarás con memoria, negociarás con hadas, o cortarás lo que debe ser cortado?",
+    "genre": [
+      "fantasía",
+      "misterio"
+    ],
+    "difficulty": "fácil",
+    "estimatedDuration": 27
+  },
+  "nodes": [
+    {
+      "id": "story-9932045517721-1",
+      "type": "start",
+      "title": "Raíces Susurrantes",
+      "narration": "El musgo acuna las raíces donde antes colgaban faroles del mercado; ahora parpadean con aliento incierto. Al presionar tu oído contra la corteza, escuchas un pulso lento como la marea y palabras tenues formadas por savia: \"Ayúdame a recordar\". El aire sabe a lluvia de hierro y trueno verde.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c1",
+          "text": "Dirígete al mercado de raíces.",
+          "description": "Encuentra chismes y guías."
+        },
+        {
+          "id": "story-9932045517721-c2",
+          "text": "Busca el manantial del velo.",
+          "description": "El agua guarda verdades antiguas."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-2",
+      "type": "decision",
+      "title": "Mercado Bajo el Árbol",
+      "narration": "Los vendedores trenzan enredaderas en amuletos y apilan hongos que brillan como lunas. Una archivista ciega con capa de corteza huele tus manos y asiente, reconociendo el olor a savia. \"Los hilos de memoria se rompen\", dice. \"Necesitarás un voto o un precio\".",
+      "choices": [
+        {
+          "id": "story-9932045517721-c3",
+          "text": "Consulta los tomos de la archivista.",
+          "description": "Conocimiento antes de acción."
+        },
+        {
+          "id": "story-9932045517721-c4",
+          "text": "Compra esporas luminosas para guía.",
+          "description": "Luz que escucha."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-3",
+      "type": "decision",
+      "title": "Manantial del Velo",
+      "narration": "El manantial exhala niebla que se enrosca en letras medio formadas sobre el estanque. Las monedas caídas están cubiertas de verde y tararean cuando tú tarareas de vuelta, igualando el tono. Huellas rodean la orilla y desaparecen en una puerta hueca de raíces.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c5",
+          "text": "Entra por la puerta hueca.",
+          "description": "Sigue las huellas."
+        },
+        {
+          "id": "story-9932045517721-c6",
+          "text": "Recoge un frasco de agua del velo.",
+          "description": "Una herramienta para después."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-4",
+      "type": "decision",
+      "title": "Archivista de Corteza",
+      "narration": "Páginas cosidas con fibra de raíz susurran bajo tus dedos. Los márgenes susurran cuando la archivista sopla sobre ellos: \"Los votos atan memoria. Los pactos la prestan\". Un anillo de madera en capas descansa en un hueco de terciopelo, su veta espiral con palabras demasiado pequeñas para leer.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c7",
+          "text": "Toma el anillo de voto.",
+          "description": "Átate al árbol."
+        },
+        {
+          "id": "story-9932045517721-c8",
+          "text": "Copia el mapa de raíces.",
+          "description": "Caminos al corazón de madera."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-5",
+      "type": "decision",
+      "title": "Esporas Luminosas",
+      "narration": "Las esporas capturan tu aliento, luego parpadean despiertas como ojos diminutos. Sostenidas en la oscuridad, florecen en un mapa de pasos posibles: cuanto más brillante el punto, más amable el resultado. En su penumbra, ves dos opciones fuertes pulsando.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c9",
+          "text": "Sigue las esporas a la bóveda del mapa de raíces.",
+          "description": "Deja que la luz guíe."
+        },
+        {
+          "id": "story-9932045517721-c10",
+          "text": "Intenta la prueba de esporas solo.",
+          "description": "Demuestra valor sin juramento."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-6",
+      "type": "decision",
+      "title": "Puerta Hueca",
+      "narration": "Las raíces se arquean como costillas; el aire huele a lluvia de centavos y menta magullada. Grabado en la corteza a la altura del hombro: marcas de conteo que terminan con un corazón. Un repique lejano responde a tu paso como si un puente fuera pulsado como un arpa.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c11",
+          "text": "Emprende la prueba de esporas.",
+          "description": "Deja que el árbol te pruebe."
+        },
+        {
+          "id": "story-9932045517721-c12",
+          "text": "Paga el peaje del puente de espinas.",
+          "description": "Trata con las hadas ahora."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-7",
+      "type": "decision",
+      "title": "Anillo de Voto",
+      "narration": "Madera fresca como sombra de río se desliza sobre tu dedo y se ajusta hasta estar cómoda. Una línea de texto se despliega en tu mente, no una orden, una promesa. El árbol tararea aprobación, bajo y aliviado.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c13",
+          "text": "Sigue un hilo de memoria hacia dentro.",
+          "description": "Camina pasos antiguos hechos nuevos."
+        },
+        {
+          "id": "story-9932045517721-c14",
+          "text": "Talla un tótem de corteza para viaje seguro.",
+          "description": "Un pequeño guardián."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-8",
+      "type": "decision",
+      "title": "Bóveda del Mapa de Raíces",
+      "narration": "Una puerta sin bisagras se abre cuando respiras la nota correcta. Adentro, los mapas muestran anillos como años en un tocón, cada anillo un distrito de caminos. Un camino, la \"puerta de médula\", está marcado con un sigilo de advertencia con forma de ojo somnoliento.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c15",
+          "text": "Toma la ruta del hilo de memoria.",
+          "description": "Más segura, más lenta."
+        },
+        {
+          "id": "story-9932045517721-c16",
+          "text": "Prueba la puerta de médula de todos modos.",
+          "description": "Rápida, arriesgada."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-9",
+      "type": "decision",
+      "title": "Prueba de Esporas",
+      "narration": "Las esporas llenan tus labios con brillo y verdad. Cuando pronuncias tu nombre, llegan tres nombres más: yos que podrían haber sido, cada uno ofreciendo una herramienta. El árbol espera para ver cuál tomas prestada.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c17",
+          "text": "Toma prestado el hilo del cartógrafo paciente.",
+          "description": "Primero mapea, luego repara."
+        },
+        {
+          "id": "story-9932045517721-c18",
+          "text": "Toma prestada la cuchilla del herbolario audaz.",
+          "description": "Corta la podredumbre, salva el canto."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-10",
+      "type": "decision",
+      "title": "Peaje de Hada",
+      "narration": "Un puente de espinas vivientes zumba como abejas. Un coleccionista de hadas con corona de diente de león sonríe demasiado ampliamente: \"Un recuerdo, por favor. Te lo devolveremos cuando seas alguien más\". El viento se niega a ayudar.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c19",
+          "text": "Paga con un recuerdo feliz.",
+          "description": "Pierde dulzura; gana paso."
+        },
+        {
+          "id": "story-9932045517721-c20",
+          "text": "Negocia una renovación en su lugar.",
+          "description": "Ofrece reparar el puente."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-11",
+      "type": "decision",
+      "title": "Hilo de Memoria",
+      "narration": "Un hilo plateado tira desde tu costilla hacia un túnel salpicado de brillo. Cada paso canta un acorde que reconoces de canciones de cuna de la infancia. El hilo se divide: un camino pulsa constante como un latido; el otro tiembla como un rayo.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c21",
+          "text": "Sigue el pulso constante.",
+          "description": "Hacia la cámara de pulso."
+        },
+        {
+          "id": "story-9932045517721-c22",
+          "text": "Persigue el camino del rayo.",
+          "description": "Arriesga por velocidad."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-12",
+      "type": "decision",
+      "title": "Tótem de Corteza",
+      "narration": "Tallas un pequeño guardián con orejas como hojas y una boca llena de promesas. Cuando soplas sobre él, el tótem prueba tu aliento y señala, patas firmes. No luchará, pero advertirá.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c23",
+          "text": "Procede a la cámara de pulso.",
+          "description": "Donde el latido vacila."
+        },
+        {
+          "id": "story-9932045517721-c24",
+          "text": "Deslízate en la madriguera de sueños.",
+          "description": "Aprende durmiendo."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-13",
+      "type": "decision",
+      "title": "Puerta de Médula",
+      "narration": "La puerta se abre como un ojo que parpadea. El aire adentro sabe a azúcar viejo y podredumbre de lluvia. Las voces murmuran en anillos, cada uno un año que viviste y no viviste.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c25",
+          "text": "Apunta al corazón de madera.",
+          "description": "Más allá de los anillos."
+        },
+        {
+          "id": "story-9932045517721-c26",
+          "text": "Desvía por la corte de espinas.",
+          "description": "Paga la deuda de otra manera."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-14",
+      "type": "decision",
+      "title": "Madriguera de Sueños",
+      "narration": "El sueño llega rápido como musgo. En el sueño, el árbol te muestra una raíz dividida: una mitad resbaladiza con oscuridad, la otra pálida y sedienta. Un ciervo con ojos de linterna asiente hacia una puerta hecha de costillas.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c27",
+          "text": "Despierta y dirígete al corazón de madera.",
+          "description": "Los sueños son mapas."
+        },
+        {
+          "id": "story-9932045517721-c28",
+          "text": "Busca la cámara de pulso en su lugar.",
+          "description": "Estabiliza antes de cirugía."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-15",
+      "type": "decision",
+      "title": "Corte de Espinas",
+      "narration": "Los duendes de espinas descansan como gatos, acicalando púas. El coleccionista con corona de diente de león aplaude tu audacia. \"Un pacto entonces: repara tres púas rotas, y perdonamos una deuda de memoria\".",
+      "choices": [
+        {
+          "id": "story-9932045517721-c29",
+          "text": "Repara las púas con pegamento de savia.",
+          "description": "El trabajo compra gracia."
+        },
+        {
+          "id": "story-9932045517721-c30",
+          "text": "Ofrece un favor futuro.",
+          "description": "Debes a las hadas después."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-16",
+      "type": "decision",
+      "title": "Cámara de Pulso",
+      "narration": "Las paredes pulsan con luz lenta; la resina gotea como lágrimas. Colocas el anillo de voto contra la veta y sientes tu latido trenzarse con el del árbol. El ritmo se estabiliza, suficiente para arriesgar un corte más profundo.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c31",
+          "text": "Abre un camino al corazón de madera.",
+          "description": "Ahora, o nunca."
+        },
+        {
+          "id": "story-9932045517721-c32",
+          "text": "Llama a las hadas para testificar.",
+          "description": "Comparte culpa, comparte poder."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-17",
+      "type": "decision",
+      "title": "Corazón de Madera",
+      "narration": "El centro no está vacío; está lleno de quietud. Hilos de luz corren como venas a través de madera color miel. Un nudo oscuro pulsa irregularmente, floreciendo una fragancia amarga con cada latido.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c33",
+          "text": "Teje hilos de memoria alrededor del nudo.",
+          "description": "Sana recordando."
+        },
+        {
+          "id": "story-9932045517721-c34",
+          "text": "Corta el nudo con la cuchilla del herbolario.",
+          "description": "Duele para ayudar."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-18",
+      "type": "decision",
+      "title": "Grieta de Ruptura",
+      "narration": "El árbol abre una boca donde no había boca, mostrando noche a través del día, un afuera que no encaja. El viento sabe a monedas y canciones de cuna. Tu próxima elección establecerá la deuda, la cura y el costo.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c35",
+          "text": "Corona los anillos con tu voto.",
+          "description": "Átate como guardián."
+        },
+        {
+          "id": "story-9932045517721-c36",
+          "text": "Acepta la protección de hadas y su precio.",
+          "description": "Un bosque más seguro, una correa."
+        },
+        {
+          "id": "story-9932045517721-c37",
+          "text": "Divide la podredumbre; redirige el crecimiento.",
+          "description": "Poda agridulce."
+        },
+        {
+          "id": "story-9932045517721-c38",
+          "text": "Separa la raíz infectada completamente.",
+          "description": "Salva el todo, exilia la parte."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-19",
+      "type": "ending",
+      "title": "Corona de Anillos",
+      "narration": "Tu voto entrelaza los anillos en una cadencia más brillante. Los faroles del mercado aprenden tu latido y marcan el tiempo con él. Los niños crecen pensando que los árboles tararean así en todas partes.",
+      "choices": []
+    },
+    {
+      "id": "story-9932045517721-20",
+      "type": "ending",
+      "title": "Camino Fragmentado",
+      "narration": "Divides la podredumbre y rediriges el crecimiento; un distrito queda en barbecho para que el resto pueda cantar. La gente se muda, llora, y luego construye nuevos mercados donde los hongos responden amablemente al canto. El árbol respira más fácil con una alegría suave y complicada.",
+      "choices": []
+    },
+    {
+      "id": "story-9932045517721-21",
+      "type": "ending",
+      "title": "Libro Mayor de Hadas",
+      "narration": "Los duendes de espinas patrullan las fronteras y los ladrones desaparecen como polen en el viento. El bosque es más seguro; también lo son tus elecciones. Una vez al año, el coleccionista toca tu hombro y toma un pequeño recuerdo como un diezmo, nunca cruel, siempre vinculante.",
+      "choices": []
+    },
+    {
+      "id": "story-9932045517721-22",
+      "type": "ending",
+      "title": "Exilio sin Raíces",
+      "narration": "Separas la raíz negra con un grito que sacude pájaros de millas de ramas. El árbol sobrevive y olvida el dolor; la raíz exiliada se arrastra hacia un horizonte lejano, buscando un nombre que ya no respondes. Duermes más ligero, soñando con pasos que nunca terminan de alcanzarte.",
+      "choices": []
+    }
+  ]
+}

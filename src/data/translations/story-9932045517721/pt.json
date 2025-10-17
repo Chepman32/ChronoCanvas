@@ -1,0 +1,383 @@
+{
+  "meta": {
+    "storyId": "story-9932045517721",
+    "language": "pt",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.399Z"
+  },
+  "story": {
+    "title": "O Pacto do Tecelão de Raízes",
+    "author": "Estúdio ChronoCanvas",
+    "description": "Letras esculpidas pela seiva sangram através da casca: a árvore-mundo está doente. Podes ouvir o seu pulso se encostares o ouvido ao grão, e se ousares, podes responder. Irás curar com memória, negociar com fadas, ou cortar o que deve ser cortado?",
+    "genre": [
+      "fantasia",
+      "mistério"
+    ],
+    "difficulty": "fácil",
+    "estimatedDuration": 27
+  },
+  "nodes": [
+    {
+      "id": "story-9932045517721-1",
+      "type": "start",
+      "title": "Raízes Sussurrantes",
+      "narration": "O musgo envolve as raízes onde outrora pendiam lanternas do mercado; agora elas tremulam com respiração incerta. Ao pressionares o ouvido contra a casca, ouves um pulso lento como a maré e palavras tênues moldadas pela seiva: \"Ajuda-me a recordar\". O ar tem sabor de chuva de ferro e trovão verde.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c1",
+          "text": "Dirige-te ao mercado das raízes.",
+          "description": "Encontra mexericos e guias."
+        },
+        {
+          "id": "story-9932045517721-c2",
+          "text": "Procura a nascente do véu.",
+          "description": "A água guarda verdades antigas."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-2",
+      "type": "decision",
+      "title": "Mercado Sob a Árvore",
+      "narration": "Os vendedores entrelaçam vinhas em amuletos e empilham cogumelos que brilham como luas. Uma arquivista cega com capa de casca cheira as tuas mãos e acena, reconhecendo o cheiro de seiva. \"Os fios de memória estão a partir-se\", diz ela. \"Vais precisar de um voto ou de um preço\".",
+      "choices": [
+        {
+          "id": "story-9932045517721-c3",
+          "text": "Consulta os tomos da arquivista.",
+          "description": "Conhecimento antes da ação."
+        },
+        {
+          "id": "story-9932045517721-c4",
+          "text": "Compra esporos luminosos para orientação.",
+          "description": "Luz que escuta."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-3",
+      "type": "decision",
+      "title": "Nascente do Véu",
+      "narration": "A nascente exala névoa que se enrola em letras meio formadas sobre o charco. As moedas caídas estão cobertas de verde e zumbem quando tu zumbas de volta, igualando o tom. Pegadas circulam a margem e desaparecem numa porta oca de raízes.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c5",
+          "text": "Entra pela porta oca.",
+          "description": "Segue as pegadas."
+        },
+        {
+          "id": "story-9932045517721-c6",
+          "text": "Colhe um frasco de água do véu.",
+          "description": "Uma ferramenta para depois."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-4",
+      "type": "decision",
+      "title": "Arquivista de Casca",
+      "narration": "Páginas cosidas com fibra de raiz sussurram sob os teus dedos. As margens murmuram quando a arquivista sopra sobre elas: \"Os votos prendem a memória. Os pactos emprestam-na\". Um anel de madeira em camadas repousa num recanto de veludo, o seu grão em espiral com palavras demasiado pequenas para ler.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c7",
+          "text": "Pega no anel de voto.",
+          "description": "Liga-te à árvore."
+        },
+        {
+          "id": "story-9932045517721-c8",
+          "text": "Copia o mapa das raízes.",
+          "description": "Caminhos para o cerne."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-5",
+      "type": "decision",
+      "title": "Esporos Luminosos",
+      "narration": "Os esporos capturam a tua respiração, depois piscam acordados como olhos minúsculos. Segurados na escuridão, florescem num mapa de passos possíveis - quanto mais brilhante o ponto, mais gentil o resultado. Na sua penumbra, vês duas opções fortes a pulsar.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c9",
+          "text": "Segue os esporos até à abóbada do mapa das raízes.",
+          "description": "Deixa a luz guiar."
+        },
+        {
+          "id": "story-9932045517721-c10",
+          "text": "Tenta a prova dos esporos sozinho.",
+          "description": "Prova o valor sem juramento."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-6",
+      "type": "decision",
+      "title": "Porta Oca",
+      "narration": "As raízes arqueiam-se como costelas; o ar cheira a chuva de cêntimos e hortelã pisada. Gravado na casca à altura do ombro: marcas de contagem que terminam com um coração. Um tinido distante responde ao teu passo como se uma ponte fosse dedilhada como uma harpa.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c11",
+          "text": "Empreende a prova dos esporos.",
+          "description": "Deixa a árvore testar-te."
+        },
+        {
+          "id": "story-9932045517721-c12",
+          "text": "Paga a portagem da ponte de espinhos.",
+          "description": "Trata com as fadas agora."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-7",
+      "type": "decision",
+      "title": "Anel de Voto",
+      "narration": "Madeira fresca como sombra de rio desliza sobre o teu dedo e aperta até ficar confortável. Uma linha de texto desenrola-se na tua mente - não um comando, uma promessa. A árvore murmura aprovação, baixa e aliviada.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c13",
+          "text": "Segue um fio de memória para dentro.",
+          "description": "Caminha passos antigos tornados novos."
+        },
+        {
+          "id": "story-9932045517721-c14",
+          "text": "Esculpe um totem de casca para viagem segura.",
+          "description": "Um pequeno guardião."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-8",
+      "type": "decision",
+      "title": "Abóbada do Mapa das Raízes",
+      "narration": "Uma porta sem dobradiças abre-se quando respiras a nota certa. Lá dentro, os mapas mostram anéis como anos num toco, cada anel um distrito de caminhos. Um caminho - a \"porta de medula\" - está marcado com um sigilo de aviso em forma de olho sonolento.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c15",
+          "text": "Pega na rota do fio de memória.",
+          "description": "Mais segura, mais lenta."
+        },
+        {
+          "id": "story-9932045517721-c16",
+          "text": "Tenta a porta de medula de qualquer forma.",
+          "description": "Rápida, arriscada."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-9",
+      "type": "decision",
+      "title": "Prova dos Esporos",
+      "narration": "Os esporos enchem os teus lábios com brilho e verdade. Quando pronuncias o teu nome, três outros nomes chegam - eus que poderiam ter sido, cada um oferecendo uma ferramenta. A árvore espera para ver qual pegas emprestado.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c17",
+          "text": "Pede emprestado o fio do cartógrafo paciente.",
+          "description": "Mapeia primeiro, repara depois."
+        },
+        {
+          "id": "story-9932045517721-c18",
+          "text": "Pede emprestada a lâmina do herborista audaz.",
+          "description": "Corta a podridão, poupa o canto."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-10",
+      "type": "decision",
+      "title": "Portagem das Fadas",
+      "narration": "Uma ponte de espinhos vivos zumbe como abelhas. Um colecionador de fadas com coroa de dente-de-leão sorri demasiado amplamente: \"Uma memória, por favor. Devolvê-la-emos quando fores alguém diferente\". O vento recusa-se a ajudar.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c19",
+          "text": "Paga com uma memória feliz.",
+          "description": "Perde doçura; ganha passagem."
+        },
+        {
+          "id": "story-9932045517721-c20",
+          "text": "Negoceia uma renovação em vez disso.",
+          "description": "Oferece reparar a ponte."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-11",
+      "type": "decision",
+      "title": "Fio de Memória",
+      "narration": "Um fio prateado puxa da tua costela para um túnel salpicado de brilho. Cada passo canta um acorde que reconheces de canções de embalar da infância. O fio divide-se: um caminho pulsa firme como um batimento cardíaco; o outro treme como relâmpago.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c21",
+          "text": "Segue o pulso firme.",
+          "description": "Rumo à câmara do pulso."
+        },
+        {
+          "id": "story-9932045517721-c22",
+          "text": "Persegue o caminho do relâmpago.",
+          "description": "Arrisca por velocidade."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-12",
+      "type": "decision",
+      "title": "Totem de Casca",
+      "narration": "Esculpes um pequeno guardião com orelhas como folhas e uma boca cheia de promessas. Quando sopras sobre ele, o totem prova a tua respiração e aponta, patas firmes. Não lutará, mas avisará.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c23",
+          "text": "Prossegue para a câmara do pulso.",
+          "description": "Onde a batida vacila."
+        },
+        {
+          "id": "story-9932045517721-c24",
+          "text": "Desliza para a toca dos sonhos.",
+          "description": "Aprende dormindo."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-13",
+      "type": "decision",
+      "title": "Porta de Medula",
+      "narration": "A porta abre-se como um olho que pisca. O ar lá dentro tem sabor de açúcar velho e podridão de chuva. Vozes murmuram em anéis, cada um um ano que viveste e não viveste.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c25",
+          "text": "Aponta para o cerne.",
+          "description": "Para além dos anéis."
+        },
+        {
+          "id": "story-9932045517721-c26",
+          "text": "Desvia pela corte dos espinhos.",
+          "description": "Paga a dívida de forma diferente."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-14",
+      "type": "decision",
+      "title": "Toca dos Sonhos",
+      "narration": "O sono chega rápido como musgo. No sonho, a árvore mostra-te uma raiz dividida - metade escorregadia com escuridão, a outra pálida e sedenta. Um veado com olhos de lanterna acena para uma porta feita de costelas.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c27",
+          "text": "Acorda e dirige-te ao cerne.",
+          "description": "Os sonhos são mapas."
+        },
+        {
+          "id": "story-9932045517721-c28",
+          "text": "Procura a câmara do pulso em vez disso.",
+          "description": "Estabiliza antes da cirurgia."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-15",
+      "type": "decision",
+      "title": "Corte dos Espinhos",
+      "narration": "Duendes de espinhos espreguiçam-se como gatos, a limpar farpas. O colecionador com coroa de dente-de-leão aplaude a tua audácia. \"Um pacto então: repara três farpas partidas, e perdoamos uma dívida de memória\".",
+      "choices": [
+        {
+          "id": "story-9932045517721-c29",
+          "text": "Repara as farpas com cola de seiva.",
+          "description": "O trabalho compra graça."
+        },
+        {
+          "id": "story-9932045517721-c30",
+          "text": "Oferece um favor futuro.",
+          "description": "Deve às fadas mais tarde."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-16",
+      "type": "decision",
+      "title": "Câmara do Pulso",
+      "narration": "As paredes pulsam com luz lenta; resina pinga como lágrimas. Colocas o anel de voto contra o grão e sentes o teu batimento cardíaco entrelaçar-se com o da árvore. O ritmo estabiliza - o suficiente para arriscar um corte mais profundo.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c31",
+          "text": "Abre um caminho para o cerne.",
+          "description": "Agora, ou nunca."
+        },
+        {
+          "id": "story-9932045517721-c32",
+          "text": "Chama as fadas para testemunhar.",
+          "description": "Partilha culpa, partilha poder."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-17",
+      "type": "decision",
+      "title": "Cerne",
+      "narration": "O centro não está vazio; está cheio de quietude. Fios de luz correm como veias através de madeira cor de mel. Um nó escuro pulsa irregularmente, florescendo uma fragrância amarga a cada batida.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c33",
+          "text": "Tece fios de memória em torno do nó.",
+          "description": "Cura recordando."
+        },
+        {
+          "id": "story-9932045517721-c34",
+          "text": "Corta o nó com a lâmina do herborista.",
+          "description": "Dói para ajudar."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-18",
+      "type": "decision",
+      "title": "Fenda da Ruptura",
+      "narration": "A árvore abre uma boca onde não havia boca, mostrando noite através do dia - um exterior que não encaixa. O vento tem sabor de moedas e canções de embalar. A tua próxima escolha estabelecerá a dívida, a cura e o custo.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c35",
+          "text": "Coroa os anéis com o teu voto.",
+          "description": "Liga-te como guardião."
+        },
+        {
+          "id": "story-9932045517721-c36",
+          "text": "Aceita a proteção das fadas e o seu preço.",
+          "description": "Uma floresta mais segura, uma trela."
+        },
+        {
+          "id": "story-9932045517721-c37",
+          "text": "Divide a podridão; redireciona o crescimento.",
+          "description": "Poda agridoce."
+        },
+        {
+          "id": "story-9932045517721-c38",
+          "text": "Separa a raiz infectada completamente.",
+          "description": "Salva o todo, exila a parte."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-19",
+      "type": "ending",
+      "title": "Coroa de Anéis",
+      "narration": "O teu voto entrelaça os anéis numa cadência mais brilhante. As lanternas do mercado aprendem o teu batimento cardíaco e mantêm o tempo com ele. As crianças crescem pensando que as árvores murmuram assim em todo o lado.",
+      "choices": []
+    },
+    {
+      "id": "story-9932045517721-20",
+      "type": "ending",
+      "title": "Caminho Fragmentado",
+      "narration": "Divides a podridão e redirecionas o crescimento; um distrito fica em pousio para que o resto possa cantar. As pessoas mudam-se, lamentam, e depois constroem novos mercados onde os cogumelos respondem gentilmente ao canto. A árvore respira mais facilmente com uma alegria suave e complicada.",
+      "choices": []
+    },
+    {
+      "id": "story-9932045517721-21",
+      "type": "ending",
+      "title": "Livro-Razão das Fadas",
+      "narration": "Duendes de espinhos patrulham as fronteiras e ladrões desaparecem como pólen no vento. A floresta está mais segura; as tuas escolhas também. Uma vez por ano, o colecionador toca o teu ombro e leva uma pequena memória como um dízimo - nunca cruel, sempre vinculativo.",
+      "choices": []
+    },
+    {
+      "id": "story-9932045517721-22",
+      "type": "ending",
+      "title": "Exílio Sem Raízes",
+      "narration": "Separas a raiz negra com um grito que estremece pássaros de milhas de ramos. A árvore sobrevive e esquece a dor; a raiz exilada rasteja para um horizonte distante, procurando um nome a que já não respondes. Dormes mais leve, sonhando com passos que nunca chegam a alcançar-te.",
+      "choices": []
+    }
+  ]
+}

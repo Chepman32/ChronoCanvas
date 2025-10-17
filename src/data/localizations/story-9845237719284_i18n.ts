@@ -342,220 +342,319 @@ export const story_9845237719284StoryTranslations: Record<Language, StoryTransla
 
   // Русский
   ru: {
-    title: 'Полуночный Сад',
-    description: 'Вы наследуете викторианскую усадьбу с садом, который расцветает только в полночь. Когда вы встречаете загадочного садовника, который ухаживает за ним, вы обнаруживаете, что он',
-    author: 'Изабелла Крейн',
+    title: 'Клятва Тлеющей Короны',
+    description: 'Когда набросок картографа разогревается до живых угольков, забытые путевые линии вспыхивают вдоль побережья. Военачальник выступает, чтобы вновь разжечь гору и захватить Корону, которая теперь отвечает вашей руке. Разделите ли вы её огонь, сломаете её или наденете?',
+    author: 'Студия ХроноКанвас',
     nodes: {
-      'story-745829103-1': {
-        title: 'Наследство',
-        narration: 'Письмо от адвоката по наследственным делам пришло в день вашего тридцатилетия. Двоюродная бабушка, о существовании которой вы никогда не знали, оставила вам Поместье Торнвуд - разрушающуюся викторианскую усадьбу на краю забытого города. Условие странное: вы должны прожить там один полный лунный цикл, прежде чем решите, оставить ли её себе. Когда вы приезжаете в полночь, железные ворота открываются сами собой, и вы чувствуете запах цветов, невозможно цветущих в зимнем воздухе.',
+      'story-9845237719284-1': {
+        title: 'Пепельное Предзнаменование',
+        narration: 'Рассвет вдыхает туман сквозь сосны, пока ваша угольная карта светится изнутри, её линии пульсируют как спящие угли. Кольцо почерневшего золота, тёплое на ощупь, лежит там, где не должно быть короны—в вашей сумке, между прессованными листьями. Прошептанные слухи говорят о Пепельном Военачальнике, марширующем вглубь земли, собирающем топливо и страх. Жар короны поднимается, торопя путь, прежде чем проснётся первая деревня.',
         choices: {
-          'story-745829103-c1': {
-            text: 'Следуйте за ароматом цветов в сад',
-            description: 'Исследуйте таинственный аромат',
+          'story-9845237719284-c1': {
+            text: 'Отправиться на рынок реликвий.',
+            description: 'Искать знания и союзников.',
           },
-          'story-745829103-c2': {
-            text: 'Сначала войдите в особняк, чтобы исследовать',
-            description: 'Действуйте по порядку',
+          'story-9845237719284-c2': {
+            text: 'Разведать смотровую площадку на гребне.',
+            description: 'Прочитать намерение земли.',
           },
         },
       },
-      'story-745829103-3': {
-        title: 'Отражающиеся Коридоры',
-        narration: 'Особняк поглощает вас бархатной тьмой. Масляные портреты наблюдают со стен, а воздух гудит нотой, которую вы скорее чувствуете, чем слышите. Лунный свет просачивается сквозь разбитые витражи, расписывая пол сапфировыми узорами.',
+      'story-9845237719284-2': {
+        title: 'Рынок Реликвий',
+        narration: 'Палатки колышутся как чешуя; амулеты позвякивают на верёвках против морского бриза. Беззубая торговка замечает свечение тлеющей короны, просачивающееся сквозь вашу сумку, и манит вас ближе. «Карты горят вернее у речной переправы», хрипит она, «но теперь её сторожат разведчики Огненного Клейма».',
         choices: {
-          'story-745829103-c5': {
-            text: 'Следуйте за гудением по коридору',
-            description: 'Позвольте звуку вести вас',
+          'story-9845237719284-c3': {
+            text: 'Купить арканное наложение карты.',
+            description: 'Пусть линии раскроют линии.',
           },
-          'story-745829103-c6': {
-            text: 'Силой откройте запечатанную дверь кабинета',
-            description: 'Ищите ответы в особняке',
+          'story-9845237719284-c4': {
+            text: 'Выследить разведчика Огненного Клейма.',
+            description: 'Информация за цену.',
           },
         },
       },
-      'story-745829103-5': {
-        title: 'Мерцающее Видение',
-        narration: 'Когда ваши пальцы касаются цветка, жидкий свет проливается сквозь вас. Ваш пульс синхронизируется с садом, и вы видите воспоминания, которые не принадлежат вам - танцы при лунном свете, шёпотом произнесённые клятвы, одинокий садовник, ухаживающий за лепестками, которые переживают каждый сезон.',
+      'story-9845237719284-3': {
+        title: 'Смотровая Площадка на Гребне',
+        narration: 'Чёрный песок лентой тянется вдоль берега; дымные пальцы поднимаются из дальней кальдеры. На ветру: марширующие барабаны и железно-солёный запах закалённых клинков. Блеск движется внизу—разведчики Огненного Клейма обходят дорогу к реке.',
         choices: {
-          'story-745829103-c9': {
-            text: 'Позвольте видению затянуть вас глубже',
-            description: 'Отдайтесь воспоминанию',
+          'story-9845237719284-c5': {
+            text: 'Следовать за разведчиками незамеченным.',
+            description: 'Использовать высоту и тишину.',
           },
-          'story-745829103-c10': {
-            text: 'Прервите контакт и стабилизируйтесь',
-            description: 'Восстановите контроль',
+          'story-9845237719284-c6': {
+            text: 'Спуститься в пещерный проход как короткий путь.',
+            description: 'Старые карты показывают полость под гребнем.',
           },
         },
       },
-      'story-745829103-6': {
-        title: 'Лунная Оранжерея',
-        narration: 'Купольная оранжерея ждёт за завесой плюща. Внутри инструменты из латуни и хрусталя висят, словно созвездия, каждая дрожь гудящей ноты заставляет их сиять. Скрытая дверь окаймлена инеем, выдыхая полуночный воздух.',
+      'story-9845237719284-4': {
+        title: 'Арканное Наложение',
+        narration: 'Прозрачный пергамент впитывает каплю тепла короны и расцветает скрытыми тропами. Слабая печать указывает не только на реку, но и на «тайный проход», высеченный под утёсами. Торговка улыбается, дёсны блестят: «Каждый короткий путь—это своего рода обещание».',
         choices: {
-          'story-745829103-c11': {
-            text: 'Следуйте за гудением к скрытой двери',
-            description: 'Узнайте, что защищает звук',
+          'story-9845237719284-c7': {
+            text: 'Взять речную переправу.',
+            description: 'Открыто, под наблюдением, но быстро.',
           },
-          'story-745829103-c12': {
-            text: 'Срежьте светящийся цветок, чтобы показать Элиасу',
-            description: 'Принесите доказательство обратно в сад',
+          'story-9845237719284-c8': {
+            text: 'Найти тайный проход.',
+            description: 'Риск ради скрытности.',
           },
         },
       },
-      'story-745829103-7': {
-        title: 'Родовой Кабинет',
-        narration: 'Пыль взлетает, когда запечатанный кабинет поддаётся. Гроссбухи, карты и портрет женщины, у которой ваши глаза, заполняют полки. Серебряный ключ в форме полумесяца покоится на бархатном дневнике, ожидая, когда кто-то заберёт его.',
+      'story-9845237719284-5': {
+        title: 'Разведчик Огненного Клейма',
+        narration: 'Одинокий разведчик останавливается под согнутой ветром сосной, проверяя угольное расписание. Пепельные отметины полосами пересекают его челюсть—линии верности Военачальнику. Когда корона теплеет, глаза разведчика поднимаются, чувствуя господское присутствие там, где никого нет.',
         choices: {
-          'story-745829103-c13': {
-            text: 'Откройте бархатный дневник',
-            description: 'Узнайте, что записал ваш предок',
+          'story-9845237719284-c9': {
+            text: 'Устроить засаду и допросить.',
+            description: 'Быстро, тихо, решительно.',
           },
-          'story-745829103-c14': {
-            text: 'Положите серебряный ключ-полумесяц в карман',
-            description: 'Возьмите талисман на потом',
+          'story-9845237719284-c10': {
+            text: 'Проскользнуть мимо к реке.',
+            description: 'Обменять ответы на время.',
           },
         },
       },
-      'story-745829103-10': {
-        title: 'Пульс Звёздного Света',
-        narration: 'Энергия, которую вы оттянули назад, сворачивается внутри вашей груди, как пойманная комета. Каждое сердцебиение посылает искры вдоль ваших рук, а ближайшие к вам цветы расцветают ярче, склоняясь к вашему теплу.',
+      'story-9845237719284-6': {
+        title: 'Устье Пещеры',
+        narration: 'Базальтовые арки пьют прибой полыми глотками; лишайники мерцают как маленькие созвездия. Старые зубила лежат ржавея у узкой лестницы, спиралью уходящей вниз. Корона гудит на пороге, наполовину предупреждение, наполовину приветствие.',
         choices: {
-          'story-745829103-c19': {
-            text: 'Направьте силу в особняк',
+          'story-9845237719284-c11': {
+            text: 'Пойти по тайному проходу.',
+            description: 'Довериться старой прорубке.',
           },
-          'story-745829103-c20': {
-            text: 'Удержите силу внутри и вернитесь к Элиасу',
-            description: 'Проверьте, можете ли вы соединить оба мира',
+          'story-9845237719284-c12': {
+            text: 'Пересечь эхомост внутри.',
+            description: 'Скорость вместо скрытности.',
           },
         },
       },
-      'story-745829103-11': {
-        title: 'Клятва Торнвуда',
-        narration: 'Дневник раскрывает договор, заключённый век назад: первый наследник, способный видеть полуночные цветы, должен выбрать - сохранить сад между мирами или запечатать его навсегда. Элиас остаётся связанным, пока этот выбор не будет сделан с готовым сердцем.',
+      'story-9845237719284-7': {
+        title: 'Речная Переправа',
+        narration: 'Лодки качаются у просмолённых канатов; паромщики бормочут о «клятвенном огне» и «небесных святилищах». Меловая доска перечисляет ставки десятины от интенданта Военачальника. Деревенские жители смотрят на вас, как смотрят на приближающуюся погоду.',
         choices: {
-          'story-745829103-c21': {
-            text: 'Поклянитесь поддерживать древнюю клятву',
-            description: 'Примите обязанность как написано',
+          'story-9845237719284-c13': {
+            text: 'Договориться со старостой деревни.',
+            description: 'Завоевать доверие, выиграть время.',
           },
-          'story-745829103-c22': {
-            text: 'Решите полностью переписать договор',
-            description: 'Бросьте вызов наследию',
+          'story-9845237719284-c14': {
+            text: 'Испытать корону у брода.',
+            description: 'Сила приглашает риск.',
           },
         },
       },
-      'story-745829103-12': {
-        title: 'Резонирующее Обещание',
-        narration: 'Стоя в круге лунного света, вы чувствуете, как сад настраивается на оба ваших дыхания. Элиас говорит о рассветах, которые он никогда не видел, и будущем, которое больше не смеет представить.',
+      'story-9845237719284-8': {
+        title: 'Тайный Проход',
+        narration: 'Вы начертываете печать на камне; шов принимает вас со вздохом. Свечи, которых никто не зажигал, оживают, открывая меловые подсчёты—много проходов, мало возвратов. Коридор наклоняется к кристальному гудению.',
         choices: {
-          'story-745829103-c23': {
-            text: 'Полностью войдите в круг рядом с ним',
-            description: 'Свяжите свой ритм с садом',
+          'story-9845237719284-c15': {
+            text: 'Направиться в комнату испытания углями.',
+            description: 'Доказать ценность или заплатить.',
           },
-          'story-745829103-c24': {
-            text: 'Держите одну ногу в смертном мире',
-            description: 'Сохраните место для общего рассвета',
+          'story-9845237719284-c16': {
+            text: 'Пересечь эхомост.',
+            description: 'Сократить путь.',
           },
         },
       },
-      'story-745829103-13': {
-        title: 'Лунный Талисман',
-        narration: 'Ключ-полумесяц нагревается в вашей ладони, разворачиваясь в талисман с выгравированными созвездиями. Вы чувствуете, что он может нарушить чары - или перенаправить их - в зависимости от того, чьё имя вы произнесёте.',
+      'story-9845237719284-9': {
+        title: 'Признание Разведчика',
+        narration: 'Прижатый к базальту, разведчик быстро сдаётся, когда жар короны колет воздух. «Военачальник питает печь под горой», шепчут они, глаза влажные от дыма. «Когда она зарычит, ваши деревни преклонят колени».',
         choices: {
-          'story-745829103-c25': {
-            text: 'Используйте талисман на кованых воротах',
-            description: 'Проверьте, можете ли вы открыть новый проход',
+          'story-9845237719284-c17': {
+            text: 'Пощадить и искать деревенских союзников.',
+            description: 'Милосердие покупает гонцов.',
           },
-          'story-745829103-c26': {
-            text: 'Покажите талисман Элиасу',
-            description: 'Пригласите его к решению',
+          'story-9845237719284-c18': {
+            text: 'Спешить изучить план Военачальника.',
+            description: 'Знание—это рычаг.',
           },
         },
       },
-      'story-745829103-14': {
-        title: 'Временной Фонарь',
-        narration: 'За гудящей дверью вы находите фонарь, подвешенный в воздухе, его хрустальное ядро разбито на парящие фрагменты. Каждый осколок содержит память о саде при разных лунах, застывшую во времени.',
+      'story-9845237719284-10': {
+        title: 'Эхомост',
+        narration: 'Узкий пролёт поёт с каждым шагом; ваше дыхание возвращается к вам в других голосах. В падении внизу кристаллы звенят как дождь по стеклу. Свечение короны сплетает тонкие пути над пустотой, словно предлагая опоры, которые видите только вы.',
         choices: {
-          'story-745829103-c27': {
-            text: 'Перекуйте хрусталь своей новой энергией',
-            description: 'Стабилизируйте магию вместе',
+          'story-9845237719284-c19': {
+            text: 'Следовать по кристальной тропе к пролёту.',
+            description: 'К небесному святилищу.',
           },
-          'story-745829103-c28': {
-            text: 'Рассейте осколки, чтобы разорвать петлю',
-            description: 'Освободите пойманные моменты',
+          'story-9845237719284-c20': {
+            text: 'Свернуть к испытанию углями.',
+            description: 'Сначала доказать своё право.',
           },
         },
       },
-      'story-745829103-16': {
-        title: 'Нарушение Договора',
-        narration: 'Вы бросаете вызов клятве, вплетая новые слова в воздух. Цветы мерцают между страхом и ликованием, пока Элиас поддерживает вас, готовый следовать, куда бы вы ни повели.',
+      'story-9845237719284-11': {
+        title: 'Деревенские Переговоры',
+        narration: 'Старейшины сидят с руками как плавник и глазами как приливные лужи. Они говорят о клятвенном огне—пламени, связывающем без сжигания—и святилище, выбирающем носителей по дыханию, а не по рождению. Дети кружат на расстоянии, осмеливаясь прошептать друг другу «королева».',
         choices: {
-          'story-745829103-c31': {
-            text: 'Разрушьте узы, чтобы освободить вас обоих',
-            description: 'Рискните садом ради свободы',
+          'story-9845237719284-c21': {
+            text: 'Поклясться клятвенным огнём публично.',
+            description: 'Завоевать сердца, обрести вес.',
           },
-          'story-745829103-c32': {
-            text: 'Притяните магию только в себя',
-            description: 'Понесите цену, чтобы Элиас мог уйти',
+          'story-9845237719284-c22': {
+            text: 'Ускользнуть по контрабандному пути.',
+            description: 'Союзники потом; время сейчас.',
           },
         },
       },
-      'story-745829103-17': {
-        title: 'Выровненные Сердцебиения',
-        narration: 'С восстановленным фонарём сад гудит в гармонии. Лунный свет и сердцебиение смешиваются, пока вы не можете сказать, где заканчиваетесь вы и начинается Элиас.',
+      'story-9845237719284-12': {
+        title: 'Испытание Углями',
+        narration: 'Жаровня спит, окаймлённая пепельными печатями. Когда вы опускаете корону, жаровня вспыхивает бело-золотым без поглощения. Каждое биение сердца пишет линию света в воздухе, книгу намерений, которая не может лгать.',
         choices: {
-          'story-745829103-c33': {
-            text: 'Останьтесь в полуночном цветении с ним',
-            description: 'Выберите жизнь, сотканную из звёздного света',
+          'story-9845237719284-c23': {
+            text: 'Связать себя защитой деревень.',
+            description: 'Долг превыше силы.',
           },
-          'story-745829103-c34': {
-            text: 'Направьте сад к грядущему рассвету',
-            description: 'Поделитесь его магией с пробуждающимся миром',
+          'story-9845237719284-c24': {
+            text: 'Заявить право предстать перед небесным святилищем.',
+            description: 'Власть перед действием.',
           },
         },
       },
-      'story-745829103-18': {
-        title: 'Порог Рассвета',
-        narration: 'Вы удерживаете всплеск магии, не поддаваясь ему. Особняк стонет, пока граница между мирами истончается, предлагая путь обратно к солнечному свету, если вы осмелитесь пройти его вместе.',
+      'story-9845237719284-13': {
+        title: 'План Военачальника',
+        narration: 'Карты, приколотые к краденому реестру, показывают топливные склады, питающие подземную печь. Отмеченная дата грозит: «Воспламенение». Записка другим почерком гласит: «Корона склоняется перед дыханием—укради голос носителя».',
         choices: {
-          'story-745829103-c35': {
-            text: 'Ведите Элиаса к пробуждающемуся миру',
-            description: 'Пообещайте ему восход солнца',
+          'story-9845237719284-c25': {
+            text: 'Саботировать печные тоннели.',
+            description: 'Перерезать горло плану.',
           },
-          'story-745829103-c36': {
-            text: 'Позвольте магии закрепить вас рядом с ним',
-            description: 'Примите сумеречное существование',
-          },
-        },
-      },
-      'story-745829103-19': {
-        title: 'Освобождённое Время',
-        narration: 'Когда талисман вспыхивает и осколки рассеиваются, время спотыкается вокруг сада. Лепестки замерзают в середине падения, пока далёкие церковные колокола звонят в обратном направлении. У вас есть секунды, чтобы решить, что будет стоить эта новая свобода.',
-        choices: {
-          'story-745829103-c37': {
-            text: 'Освободите пойманные часы в ночь',
-            description: 'Позвольте саду выбрать свою судьбу',
-          },
-          'story-745829103-c38': {
-            text: 'Заприте сад вдали от времени навсегда',
-            description: 'Запечатайте магию, даже если она завянет',
+          'story-9845237719284-c26': {
+            text: 'Проскользнуть к контрабандному пути.',
+            description: 'Обойти с фланга и предупредить святилище.',
           },
         },
       },
-      'story-745829103-21': {
-        title: 'Общий Восход',
-        narration: 'Вы ведёте Элиаса за ворота, когда наступает рассвет, неся единственный светящийся цветок как доказательство того, что магия может пережить солнце. Особняк пробуждается к смеху, музыке и саду, который наконец приветствует дневной свет. Любовь и наследие пускают корни на открытом воздухе.',
+      'story-9845237719284-14': {
+        title: 'Кристальный Пролёт',
+        narration: 'Звёзды расчёсывают небо; пролёт гудит гаммой, которую вы чувствуете в зубах. Ветер продевает корону тонкими холодными пальцами, задавая вопросы без языка. Следы ведут вверх—другие приходили или придут.',
+        choices: {
+          'story-9845237719284-c27': {
+            text: 'Подняться к небесному святилищу.',
+            description: 'Искать санкцию.',
+          },
+          'story-9845237719284-c28': {
+            text: 'Свернуть к печному маршруту.',
+            description: 'Сначала остановить воспламенение.',
+          },
+        },
+      },
+      'story-9845237719284-15': {
+        title: 'Клятвенный Огонь',
+        narration: 'Пламя взбирается по вашему запястью, как приручённая лоза, и оставляет тёплый браслет света. Жители деревни выдыхают—звук как прибой, облегчающийся о берег. Корона смягчается, становится менее тяжёлой, словно довольная разделённым весом.',
+        choices: {
+          'story-9845237719284-c29': {
+            text: 'Обратиться к небесному святилищу.',
+            description: 'Нести общее дыхание вверх.',
+          },
+          'story-9845237719284-c30': {
+            text: 'Искать совета о шёпотах короны.',
+            description: 'Понять перед действием.',
+          },
+        },
+      },
+      'story-9845237719284-16': {
+        title: 'Контрабандный Путь',
+        narration: 'Дверь появляется там, где её не должно быть, и открывается в солёную затхлую тьму. Ящики шепчут о тихом неповиновении: верёвка, масло, старые карты с честными исправлениями. Шаги эхом отдаются—друзья или враги, учащиеся быть и теми, и другими.',
+        choices: {
+          'story-9845237719284-c31': {
+            text: 'Отсюда ударить по печи.',
+            description: 'Прямо в горло.',
+          },
+          'story-9845237719284-c32': {
+            text: 'Послушать совета короны.',
+            description: 'Рискнуть шёпотом.',
+          },
+        },
+      },
+      'story-9845237719284-17': {
+        title: 'Вулканическая Печь',
+        narration: 'Каменные лёгкие вздымают жар; цепи гремят как зимние кости. Работники кормят древесину и страх в глотку красного цвета. Один клапан стонет—один поворот от крика или тишины.',
+        choices: {
+          'story-9845237719284-c33': {
+            text: 'Заклинить клапан и бежать.',
+            description: 'Саботаж побеждает речи.',
+          },
+          'story-9845237719284-c34': {
+            text: 'Перенаправить давление к небесным отверстиям.',
+            description: 'Купить время для святилища.',
+          },
+        },
+      },
+      'story-9845237719284-18': {
+        title: 'Небесное Святилище',
+        narration: 'Высоко над штормовыми берегами колокола из мутного стекла звонят без рук. Голос, как погода, ничего не спрашивает и всё знает. Корона остывает, словно в присутствии родителя, ожидая увидеть, кем вы стали.',
+        choices: {
+          'story-9845237719284-c35': {
+            text: 'Попросить разделить огонь короны.',
+            description: 'Много рук, легче ноша.',
+          },
+          'story-9845237719284-c36': {
+            text: 'Попросить силы сломать её.',
+            description: 'Ни тиран, ни инструмент.',
+          },
+        },
+      },
+      'story-9845237719284-19': {
+        title: 'Шёпоты Короны',
+        narration: 'Когда вы слушаете, отвечает хор—прошлые носители поют сквозь зуб и язык. Они предупреждают о более простом пути: носить корону глубоко, позволить другим вращаться вокруг вашей уверенности. Тепло на вкус как мёд; послевкусие как пепел.',
+        choices: {
+          'story-9845237719284-c37': {
+            text: 'Отвергнуть приманку; искать святилище.',
+            description: 'Вы не плавильная печь.',
+          },
+          'story-9845237719284-c38': {
+            text: 'Склониться к суверенитету.',
+            description: 'Правление прекращает споры.',
+          },
+        },
+      },
+      'story-9845237719284-20': {
+        title: 'Финальное Приближение',
+        narration: 'Гора задерживает дыхание; деревни задерживают своё вместе с ней. Ваш следующий удар решит форму завтрашнего жара. На вашей ладони корона весит как обещание и предупреждение.',
+        choices: {
+          'story-9845237719284-c39': {
+            text: 'Заявить корону как суверен.',
+            description: 'Подчинить огонь своей воле.',
+          },
+          'story-9845237719284-c40': {
+            text: 'Разделить пламя с деревнями.',
+            description: 'Много носителей, никакого тирана.',
+          },
+          'story-9845237719284-c41': {
+            text: 'Уйти в тихое изгнание.',
+            description: 'Отказаться и от трона, и от войны.',
+          },
+          'story-9845237719284-c42': {
+            text: 'Разбить корону по слову святилища.',
+            description: 'Прекратить вопрос навсегда.',
+          },
+        },
+      },
+      'story-9845237719284-21': {
+        title: 'Пепельный Суверен',
+        narration: 'Корона укореняется сквозь ваш голос, и гора преклоняет колени. Деревни кланяются—и вздрагивают. Мир приходит быстро, как око бури: спокойный и наблюдаемый. Ваши карты устаревают; ваше имя—нет.',
         choices: {
         },
       },
-      'story-745829103-22': {
-        title: 'Разрушенное Заклинание',
-        narration: 'Вы освобождаете пойманные часы, разрывая клятву, которая связывала Элиаса. Сад взрывается в последней вспышке света, прежде чем цветы растворяются в звёздной пыли. Свобода ваша, но полуночное чудо становится воспоминанием, которое вы оба несёте в неизвестное будущее.',
+      'story-9845237719284-22': {
+        title: 'Разделённое Пламя',
+        narration: 'Вы поднимаете корону, и она делится, как хлеб, угли пускают корни во многих руках. Печь остывает; планы Военачальника умирают, задушенные общиной. Фестивали расцветают там, где стояли бы гарнизоны, и карты рисуются хором.',
         choices: {
         },
       },
-      'story-745829103-23': {
-        title: 'Увядающие Лепестки',
-        narration: 'Вы запечатываете сад, чтобы избавить Элиаса от проклятия, но магия увядает без луны. Особняк становится тихим, цветы сохраняются только в портретах и снах. Каждую ночь вы задаётесь вопросом, мог ли другой выбор спасти красоту, которой вы пожертвовали.',
+      'story-9845237719284-23': {
+        title: 'Тихое Изгнание',
+        narration: 'Вы оставляете корону там, где колокола вспоминают вас с любовью. Гора дремлет беспокойно, но никогда не просыпается в гневе. Годы спустя дети следуют за странствующим картографом, который рисует безопасные пути через пепельные поля, слушая ветер.',
+        choices: {
+        },
+      },
+      'story-9845237719284-24': {
+        title: 'Разбитая Корона',
+        narration: 'Золото кричит, как стекло, когда вы ударяете его о камень; угли подскакивают, затем оседают как мягкое, обычное тепло. Святилище вздыхает с облегчением, и история теряет тирана, которого могла бы встретить. Ваши руки сохраняют слабое свечение в зимние ночи—достаточное, чтобы вскипятить чай.',
         choices: {
         },
       },
@@ -1527,220 +1626,319 @@ export const story_9845237719284StoryTranslations: Record<Language, StoryTransla
 
   // Português
   pt: {
-    title: 'O Jardim da Meia-Noite',
-    description: 'Você herda uma mansão vitoriana com um jardim que só floresce à meia-noite. Quando você conhece o enigmático jardineiro que cuida dele, você descobre que ele',
-    author: 'Isabella Crane',
+    title: 'O Juramento da Coroa de Brasas',
+    description: 'Quando o esboço de um cartógrafo aquece até se tornar brasa viva, linhas esquecidas flamejam ao longo da costa. Um senhor da guerra marcha para reacender a montanha e tomar a Coroa que agora responde à sua mão. Você compartilhará seu fogo, a quebrará ou a usará?',
+    author: 'Estúdio ChronoCanvas',
     nodes: {
-      'story-745829103-1': {
-        title: 'A Herança',
-        narration: 'A carta do advogado de sucessões chegou no dia do seu trigésimo aniversário. Uma tia-avó cuja existência você nunca soube deixou para você a Mansão Thornewood - uma mansão vitoriana em ruínas na beira de uma cidade esquecida. A condição é estranha: você deve viver lá por um ciclo lunar completo antes de decidir se fica com ela. Quando você chega à meia-noite, os portões de ferro se abrem sozinhos, e você sente o perfume de flores florescendo impossivelmente no ar invernal.',
+      'story-9845237719284-1': {
+        title: 'Presságio de Cinzas',
+        narration: 'A aurora exala névoa através dos pinheiros enquanto seu mapa de carvão brilha por dentro, suas linhas pulsando como brasas adormecidas. Um aro de ouro enegrecido, quente ao toque, repousa onde nenhuma coroa deveria estar—dentro de sua sacola, entre folhas prensadas. Rumores sussurrados falam de um Senhor da Guerra das Cinzas marchando para o interior, reunindo combustível e medo. O calor da coroa aumenta, instando um caminho antes que a primeira aldeia desperte.',
         choices: {
-          'story-745829103-c1': {
-            text: 'Siga o perfume das flores até o jardim',
-            description: 'Investigue a fragrância misteriosa',
+          'story-9845237719284-c1': {
+            text: 'Dirigir-se ao mercado de relíquias.',
+            description: 'Buscar conhecimento e aliados.',
           },
-          'story-745829103-c2': {
-            text: 'Entre primeiro na mansão para explorar',
-            description: 'Proceda em ordem',
+          'story-9845237719284-c2': {
+            text: 'Explorar o mirante da crista.',
+            description: 'Ler a intenção da terra.',
           },
         },
       },
-      'story-745829103-3': {
-        title: 'Corredores Ecoantes',
-        narration: 'A mansão te engole em escuridão aveludada. Retratos a óleo observam das paredes, e o ar zumbe com uma nota que você sente mais do que ouve. O luar vaza através de vitrais fraturados, pintando o chão com padrões de safira.',
+      'story-9845237719284-2': {
+        title: 'Mercado de Relíquias',
+        narration: 'Tendas ondulam como escamas; amuletos tilintar em cordas contra a brisa marinha. Uma negociante desdentada observa o brilho da coroa de brasas sangrando através de sua sacola e acena para você se aproximar. "Mapas queimam mais verdadeiros perto da travessia do rio", ela raspa, "mas os batedores da Marca de Fogo a vigiam agora."',
         choices: {
-          'story-745829103-c5': {
-            text: 'Siga o zumbido pelo corredor',
-            description: 'Deixe o som guiá-lo',
+          'story-9845237719284-c3': {
+            text: 'Comprar uma sobreposição de mapa arcano.',
+            description: 'Deixar linhas revelarem linhas.',
           },
-          'story-745829103-c6': {
-            text: 'Force a porta selada do escritório',
-            description: 'Busque respostas na mansão',
+          'story-9845237719284-c4': {
+            text: 'Seguir um batedor da Marca de Fogo.',
+            description: 'Informação a um custo.',
           },
         },
       },
-      'story-745829103-5': {
-        title: 'Visão Cintilante',
-        narration: 'Quando seus dedos roçam a flor, luz líquida flui através de você. Seu pulso sincroniza com o jardim e você vislumbra memórias que não são suas - danças iluminadas pela lua, votos sussurrados, um jardineiro solitário cuidando de pétalas que sobrevivem a cada estação.',
+      'story-9845237719284-3': {
+        title: 'Mirante da Crista',
+        narration: 'Areia negra serpenteia pela costa; dedos de fumaça sobem de uma caldeira distante. No vento: tambores marchando e o cheiro de ferro e sal de lâminas temperadas. Um brilho se move abaixo—batedores da Marca de Fogo contornando a estrada em direção ao rio.',
         choices: {
-          'story-745829103-c9': {
-            text: 'Deixe a visão te puxar mais fundo',
-            description: 'Entregue-se à memória',
+          'story-9845237719284-c5': {
+            text: 'Seguir os batedores sem ser visto.',
+            description: 'Usar altura e silêncio.',
           },
-          'story-745829103-c10': {
-            text: 'Rompa o contato e se estabilize',
-            description: 'Recupere o controle',
+          'story-9845237719284-c6': {
+            text: 'Descer pela boca da caverna como atalho.',
+            description: 'Mapas antigos mostram uma cavidade sob a crista.',
           },
         },
       },
-      'story-745829103-6': {
-        title: 'Conservatório Lunar',
-        narration: 'Um conservatório em cúpula espera além de uma cortina de hera. Dentro, instrumentos de latão e cristal pendem como constelações, cada tremor da nota zumbindo os faz brilhar. Uma porta oculta é bordada com geada, exalando ar da meia-noite.',
+      'story-9845237719284-4': {
+        title: 'Sobreposição Arcana',
+        narration: 'Velino transparente bebe uma gota do calor da coroa e floresce com caminhos ocultos. Um selo tênue aponta não apenas para o rio, mas para uma "passagem secreta" gravada sob os penhascos. A negociante sorri, gengivas brilhando: "Cada atalho é uma espécie de promessa."',
         choices: {
-          'story-745829103-c11': {
-            text: 'Siga o zumbido em direção à porta oculta',
-            description: 'Descubra o que o som protege',
+          'story-9845237719284-c7': {
+            text: 'Tomar a travessia do rio.',
+            description: 'Aberta, vigiada, mas rápida.',
           },
-          'story-745829103-c12': {
-            text: 'Corte uma flor brilhante para mostrar a Elias',
-            description: 'Leve uma prova de volta ao jardim',
+          'story-9845237719284-c8': {
+            text: 'Procurar a passagem secreta.',
+            description: 'Risco por discrição.',
           },
         },
       },
-      'story-745829103-7': {
-        title: 'Escritório Ancestral',
-        narration: 'A poeira se levanta quando o escritório selado cede. Livros-razão, mapas e um retrato de uma mulher que compartilha seus olhos enchem as prateleiras. Uma chave de prata em forma de crescente repousa sobre um diário de veludo, esperando que alguém a reivindique.',
+      'story-9845237719284-5': {
+        title: 'Batedor da Marca de Fogo',
+        narration: 'Um batedor solitário pausa sob um pinheiro curvado pelo vento, verificando um cronograma de carvão. Marcas de cinza listram sua mandíbula—linhas de lealdade ao Senhor da Guerra. Quando a coroa esquenta, os olhos do batedor se erguem, sentindo uma presença senhorial onde ninguém está.',
         choices: {
-          'story-745829103-c13': {
-            text: 'Abra o diário encadernado em veludo',
-            description: 'Aprenda o que seu ancestral registrou',
+          'story-9845237719284-c9': {
+            text: 'Emboscar e interrogar.',
+            description: 'Rápido, silencioso, decisivo.',
           },
-          'story-745829103-c14': {
-            text: 'Guarde a chave crescente de prata no bolso',
-            description: 'Pegue o talismã para depois',
+          'story-9845237719284-c10': {
+            text: 'Esgueirar-se em direção ao rio.',
+            description: 'Trocar respostas por tempo.',
           },
         },
       },
-      'story-745829103-10': {
-        title: 'Pulso de Luz Estelar',
-        narration: 'A energia que você puxou de volta se enrola dentro do seu peito como um cometa capturado. Cada batida cardíaca envia faíscas pelos seus braços, e as flores mais próximas de você florescem mais brilhantes, curvando-se em direção ao seu calor.',
+      'story-9845237719284-6': {
+        title: 'Boca da Caverna',
+        narration: 'Arcos de basalto bebem a ressaca em goles ocos; líquenes brilham como pequenas constelações. Cinzéis velhos jazem enferrujando perto de uma escada estreita espiralando para baixo. A coroa zumbe no limiar, meio aviso, meio boas-vindas.',
         choices: {
-          'story-745829103-c19': {
-            text: 'Canalize o poder para a mansão',
+          'story-9845237719284-c11': {
+            text: 'Tomar a passagem secreta.',
+            description: 'Confiar no corte antigo.',
           },
-          'story-745829103-c20': {
-            text: 'Mantenha o poder dentro e retorne para Elias',
-            description: 'Teste se você pode unir ambos os mundos',
+          'story-9845237719284-c12': {
+            text: 'Atravessar a ponte de eco por dentro.',
+            description: 'Velocidade sobre discrição.',
           },
         },
       },
-      'story-745829103-11': {
-        title: 'Juramento de Thornewood',
-        narration: 'O diário revela um pacto feito há um século: o primeiro herdeiro capaz de ver as flores da meia-noite deve escolher manter o jardim entre mundos ou selá-lo para sempre. Elias permanece preso até que essa escolha seja feita com um coração disposto.',
+      'story-9845237719284-7': {
+        title: 'Travessia do Rio',
+        narration: 'Barcos balançam contra cordas alcatroadas; barqueiros murmuram sobre "fogo de juramento" e "santuários do céu". Um quadro de giz lista taxas de dízimo do intendente do Senhor da Guerra. Aldeões observam você como se observa o tempo que se aproxima.',
         choices: {
-          'story-745829103-c21': {
-            text: 'Jure manter o voto antigo',
-            description: 'Aceite o dever como está escrito',
+          'story-9845237719284-c13': {
+            text: 'Parlamentar com o chefe da aldeia.',
+            description: 'Ganhar confiança, ganhar tempo.',
           },
-          'story-745829103-c22': {
-            text: 'Decida reescrever o pacto inteiramente',
-            description: 'Desafie o legado',
+          'story-9845237719284-c14': {
+            text: 'Testar a coroa no vau.',
+            description: 'Poder convida risco.',
           },
         },
       },
-      'story-745829103-12': {
-        title: 'Promessa Ressonante',
-        narration: 'De pé dentro do círculo de luar, você sente o jardim se sintonizar com ambas as suas respirações. Elias fala de amanheceres que nunca testemunhou e futuros que não ousa mais imaginar.',
+      'story-9845237719284-8': {
+        title: 'Passagem Secreta',
+        narration: 'Você traça um selo na pedra; a costura aceita você com um suspiro. Velas que ninguém acendeu ganham vida, revelando contagens de giz—muitas passagens, poucos retornos. O corredor inclina-se em direção a um zumbido cristalino.',
         choices: {
-          'story-745829103-c23': {
-            text: 'Entre completamente no círculo ao lado dele',
-            description: 'Vincule seu ritmo ao jardim',
+          'story-9845237719284-c15': {
+            text: 'Dirigir-se à câmara de teste de brasas.',
+            description: 'Provar valor, ou pagar.',
           },
-          'story-745829103-c24': {
-            text: 'Mantenha um pé no mundo mortal',
-            description: 'Reserve espaço para um amanhecer compartilhado',
+          'story-9845237719284-c16': {
+            text: 'Atravessar a ponte de eco.',
+            description: 'Encurtar o caminho.',
           },
         },
       },
-      'story-745829103-13': {
-        title: 'Talismã Lunar',
-        narration: 'A chave crescente aquece na sua palma, desdobrando-se em um talismã gravado com constelações. Você sente que pode perturbar o encantamento - ou redirecioná-lo - dependendo de qual nome você pronuncia.',
+      'story-9845237719284-9': {
+        title: 'Confissão do Batedor',
+        narration: 'Preso contra basalto, o batedor cede rapidamente quando o calor da coroa espeta o ar. "O Senhor da Guerra alimenta uma fornalha sob a montanha", eles sussurram, olhos úmidos de fumaça. "Quando rugir, suas aldeias ajoelharão."',
         choices: {
-          'story-745829103-c25': {
-            text: 'Use o talismã no portão de ferro forjado',
-            description: 'Teste se você pode abrir uma nova passagem',
+          'story-9845237719284-c17': {
+            text: 'Poupá-los e buscar aliados na aldeia.',
+            description: 'Misericórdia compra mensageiros.',
           },
-          'story-745829103-c26': {
-            text: 'Revele o talismã para Elias',
-            description: 'Convide-o para a decisão',
+          'story-9845237719284-c18': {
+            text: 'Apressar-se para estudar o plano do Senhor da Guerra.',
+            description: 'Conhecimento é alavancagem.',
           },
         },
       },
-      'story-745829103-14': {
-        title: 'Lanterna Temporal',
-        narration: 'Atrás da porta zumbindo você encontra uma lanterna suspensa no ar, seu núcleo de cristal estilhaçado em fragmentos flutuantes. Cada fragmento contém uma memória do jardim em diferentes luas, suspensa no tempo.',
+      'story-9845237719284-10': {
+        title: 'Ponte de Eco',
+        narration: 'Um vão estreito canta a cada passo; seu fôlego retorna a você em outras vozes. Na queda abaixo, cristais tilintam como chuva no vidro. O brilho da coroa tece caminhos finos sobre o vazio, como se oferecesse apoios que só você pode ver.',
         choices: {
-          'story-745829103-c27': {
-            text: 'Reforje o cristal com sua nova energia',
-            description: 'Estabilize a magia juntos',
+          'story-9845237719284-c19': {
+            text: 'Seguir o caminho de cristal até o vão.',
+            description: 'Em direção ao santuário do céu.',
           },
-          'story-745829103-c28': {
-            text: 'Espalhe os fragmentos para quebrar o ciclo',
-            description: 'Liberte os momentos presos',
+          'story-9845237719284-c20': {
+            text: 'Desviar para o teste de brasas.',
+            description: 'Provar sua reivindicação primeiro.',
           },
         },
       },
-      'story-745829103-16': {
-        title: 'Quebrando o Pacto',
-        narration: 'Você desafia o juramento, tecendo novas palavras no ar. As flores tremulam entre medo e exultação enquanto Elias te apoia, pronto para seguir para onde você liderar.',
+      'story-9845237719284-11': {
+        title: 'Parlamento da Aldeia',
+        narration: 'Anciãos sentam-se com mãos como madeira flutuante e olhos como poças de maré. Eles falam de fogo de juramento—chama que liga sem queimar—e um santuário que escolhe portadores pela respiração, não pelo nascimento. Crianças circulam à distância, desafiando-se a sussurrar "rainha".',
         choices: {
-          'story-745829103-c31': {
-            text: 'Despedace o vínculo para libertar vocês dois',
-            description: 'Arrisque o jardim pela liberdade',
+          'story-9845237719284-c21': {
+            text: 'Jurar o fogo de juramento publicamente.',
+            description: 'Ganhar corações, ganhar peso.',
           },
-          'story-745829103-c32': {
-            text: 'Puxe a magia para você sozinho',
-            description: 'Carregue o custo para que Elias possa partir',
+          'story-9845237719284-c22': {
+            text: 'Escapar pelo caminho dos contrabandistas.',
+            description: 'Aliados depois; tempo agora.',
           },
         },
       },
-      'story-745829103-17': {
-        title: 'Batimentos Cardíacos Alinhados',
-        narration: 'Com a lanterna restaurada, o jardim zumbe em harmonia. Luar e batida cardíaca se misturam até que você não consegue dizer onde você termina e Elias começa.',
+      'story-9845237719284-12': {
+        title: 'Teste de Brasas',
+        narration: 'Um braseiro dorme, contornado por selos de cinza. Quando você abaixa a coroa, o braseiro inflama branco-dourado sem consumir. Cada batida cardíaca escreve uma linha de luz no ar, um registro de intenção que não pode mentir.',
         choices: {
-          'story-745829103-c33': {
-            text: 'Fique na floração da meia-noite com ele',
-            description: 'Escolha uma vida tecida de luz estelar',
+          'story-9845237719284-c23': {
+            text: 'Vincular-se a proteger as aldeias.',
+            description: 'Dever sobre poder.',
           },
-          'story-745829103-c34': {
-            text: 'Guie o jardim em direção ao amanhecer vindouro',
-            description: 'Compartilhe sua magia com o mundo desperto',
+          'story-9845237719284-c24': {
+            text: 'Reivindicar o direito de confrontar o santuário do céu.',
+            description: 'Autoridade antes da ação.',
           },
         },
       },
-      'story-745829103-18': {
-        title: 'Limiar do Amanhecer',
-        narration: 'Você segura a onda de magia sem se render a ela. A mansão geme enquanto a fronteira entre mundos se afina, oferecendo um caminho de volta à luz do sol se vocês ousarem atravessá-lo juntos.',
+      'story-9845237719284-13': {
+        title: 'Plano do Senhor da Guerra',
+        narration: 'Mapas presos a um livro-razão roubado mostram depósitos de combustível alimentando uma fornalha subterrânea. Uma data marcada ameaça: "Ignição". Uma nota em uma caligrafia diferente diz: "A Coroa se curva à respiração—roube a voz do portador."',
         choices: {
-          'story-745829103-c35': {
-            text: 'Conduza Elias em direção ao mundo desperto',
-            description: 'Prometa a ele um nascer do sol',
+          'story-9845237719284-c25': {
+            text: 'Sabotar os túneis da fornalha.',
+            description: 'Cortar a garganta do plano.',
           },
-          'story-745829103-c36': {
-            text: 'Deixe a magia ancorá-lo ao lado dele',
-            description: 'Aceite uma existência crepuscular',
-          },
-        },
-      },
-      'story-745829103-19': {
-        title: 'Tempo Desatado',
-        narration: 'Quando o talismã brilha e os fragmentos se espalham, o tempo tropeça ao redor do jardim. Pétalas congelam no meio da queda enquanto sinos de igreja distantes tocam ao contrário. Você tem segundos para decidir o que essa nova liberdade custará.',
-        choices: {
-          'story-745829103-c37': {
-            text: 'Liberte as horas capturadas na noite',
-            description: 'Deixe o jardim escolher seu destino',
-          },
-          'story-745829103-c38': {
-            text: 'Tranque o jardim longe do tempo para sempre',
-            description: 'Sele a magia mesmo que ela murche',
+          'story-9845237719284-c26': {
+            text: 'Esgueirar-se para o caminho dos contrabandistas.',
+            description: 'Flanquear e avisar o santuário.',
           },
         },
       },
-      'story-745829103-21': {
-        title: 'Nascer do Sol Compartilhado',
-        narration: 'Você guia Elias além dos portões enquanto o amanhecer desponta, carregando uma única flor luminosa como prova de que a magia pode sobreviver ao sol. A mansão desperta para risos, música e um jardim que finalmente acolhe a luz do dia. Amor e legado criam raízes ao ar livre.',
+      'story-9845237719284-14': {
+        title: 'Vão de Cristal',
+        narration: 'Estrelas penteiam o céu; o vão zumbe uma escala que você sente em seus dentes. O vento enfia a coroa com dedos finos e frios, fazendo perguntas sem linguagem. Pegadas levam para cima—outros vieram, ou virão.',
+        choices: {
+          'story-9845237719284-c27': {
+            text: 'Subir ao santuário do céu.',
+            description: 'Buscar sanção.',
+          },
+          'story-9845237719284-c28': {
+            text: 'Desviar para a rota da fornalha.',
+            description: 'Parar a ignição primeiro.',
+          },
+        },
+      },
+      'story-9845237719284-15': {
+        title: 'Fogo de Juramento',
+        narration: 'A chama sobe seu pulso como uma videira domesticada e deixa um bracelete quente de luz. Aldeões exalam—um som como ressaca aliviando-se contra a costa. A coroa amacia, menos pesada, como se estivesse satisfeita com o peso compartilhado.',
+        choices: {
+          'story-9845237719284-c29': {
+            text: 'Solicitar ao santuário do céu.',
+            description: 'Carregar a respiração comunal para cima.',
+          },
+          'story-9845237719284-c30': {
+            text: 'Buscar conselho sobre os sussurros da coroa.',
+            description: 'Compreender antes de agir.',
+          },
+        },
+      },
+      'story-9845237719284-16': {
+        title: 'Caminho dos Contrabandistas',
+        narration: 'Uma porta aparece onde não deveria haver uma e se abre para a escuridão rançosa de sal. Caixotes sussurram desafio silencioso: corda, óleo, mapas velhos com correções honestas. Passos ecoam—amigos ou inimigos aprendendo a ser ambos.',
+        choices: {
+          'story-9845237719284-c31': {
+            text: 'Daqui, atacar a fornalha.',
+            description: 'Direto para a garganta.',
+          },
+          'story-9845237719284-c32': {
+            text: 'Ouvir o conselho da coroa.',
+            description: 'Arriscar o sussurro.',
+          },
+        },
+      },
+      'story-9845237719284-17': {
+        title: 'Fornalha Vulcânica',
+        narration: 'Pulmões de pedra ofegam calor; correntes chacoalham como ossos de inverno. Trabalhadores alimentam madeira e medo em uma garganta de vermelho. Uma única válvula geme—uma volta do grito ou do silêncio.',
+        choices: {
+          'story-9845237719284-c33': {
+            text: 'Travar a válvula e fugir.',
+            description: 'Sabotagem supera discursos.',
+          },
+          'story-9845237719284-c34': {
+            text: 'Desviar a pressão para as saídas do céu.',
+            description: 'Comprar tempo para o santuário.',
+          },
+        },
+      },
+      'story-9845237719284-18': {
+        title: 'Santuário do Céu',
+        narration: 'Alto acima de bancos de tempestade, sinos feitos de vidro turvo tocam sem mãos. Uma voz como o clima não pergunta nada e sabe tudo. A coroa esfria como se estivesse na presença de um pai, esperando para ver o que você se tornou.',
+        choices: {
+          'story-9845237719284-c35': {
+            text: 'Pedir para compartilhar o fogo da coroa.',
+            description: 'Muitas mãos, carga mais leve.',
+          },
+          'story-9845237719284-c36': {
+            text: 'Pedir força para quebrá-la.',
+            description: 'Nem tirano, nem ferramenta.',
+          },
+        },
+      },
+      'story-9845237719284-19': {
+        title: 'Sussurros da Coroa',
+        narration: 'Quando você escuta, um coro responde—portadores passados cantando através de dente e língua. Eles advertem de um caminho mais simples: usar a coroa profundamente, deixar outros orbitarem sua certeza. O calor sabe como mel; o gosto residual como cinza.',
+        choices: {
+          'story-9845237719284-c37': {
+            text: 'Rejeitar a atração; buscar o santuário.',
+            description: 'Você não é uma fornalha.',
+          },
+          'story-9845237719284-c38': {
+            text: 'Inclinar-se para a soberania.',
+            description: 'Governar termina argumentos.',
+          },
+        },
+      },
+      'story-9845237719284-20': {
+        title: 'Aproximação Final',
+        narration: 'A montanha prende a respiração; as aldeias prendem a delas com ela. Seu próximo movimento decidirá a forma do calor de amanhã. Em sua palma, a coroa pesa como promessa e aviso.',
+        choices: {
+          'story-9845237719284-c39': {
+            text: 'Reivindicar a coroa como soberano.',
+            description: 'Dobrar o fogo à sua vontade.',
+          },
+          'story-9845237719284-c40': {
+            text: 'Compartilhar a chama com as aldeias.',
+            description: 'Muitos portadores, nenhum tirano.',
+          },
+          'story-9845237719284-c41': {
+            text: 'Partir para o exílio silencioso.',
+            description: 'Recusar tanto trono quanto guerra.',
+          },
+          'story-9845237719284-c42': {
+            text: 'Quebrar a coroa pela palavra do santuário.',
+            description: 'Terminar a questão para sempre.',
+          },
+        },
+      },
+      'story-9845237719284-21': {
+        title: 'Soberano das Cinzas',
+        narration: 'A coroa enraíza através de sua voz e a montanha se ajoelha. Aldeias se curvam—e estremecem. A paz chega rapidamente, como o olho de uma tempestade: calma e vigiada. Seus mapas ficam desatualizados; seu nome não.',
         choices: {
         },
       },
-      'story-745829103-22': {
-        title: 'Feitiço Despedaçado',
-        narration: 'Você liberta as horas presas, quebrando o juramento que prendia Elias. O jardim irrompe em uma explosão final de luz antes que as flores se dissolvam em poeira estelar. A liberdade é sua, mas a maravilha da meia-noite se torna uma memória que vocês dois carregam para futuros desconhecidos.',
+      'story-9845237719284-22': {
+        title: 'Chama Compartilhada',
+        narration: 'Você ergue a coroa e ela se divide como pão, brasas criando raízes em muitas mãos. A fornalha esfria; os planos do Senhor da Guerra morrem sufocados pela comunidade. Festivais florescem onde guarnições teriam estado, e mapas são desenhados em coro.',
         choices: {
         },
       },
-      'story-745829103-23': {
-        title: 'Pétalas Murchando',
-        narration: 'Você sela o jardim para poupar Elias da maldição, mas a magia murcha sem a lua. A mansão fica silenciosa, as flores preservadas apenas em retratos e sonhos. Toda noite você se pergunta se outra escolha poderia ter salvado a beleza que você sacrificou.',
+      'story-9845237719284-23': {
+        title: 'Exílio Silencioso',
+        narration: 'Você deixa a coroa onde os sinos lembram de você carinhosamente. A montanha cochila inquieta, mas nunca desperta com raiva. Anos depois, crianças seguem um cartógrafo viajante que desenha caminhos seguros através de campos de cinza ouvindo o vento.',
+        choices: {
+        },
+      },
+      'story-9845237719284-24': {
+        title: 'Coroa Quebrada',
+        narration: 'O ouro grita como vidro quando você o golpeia na pedra; brasas saltam, depois se assentam como calor suave e comum. O santuário suspira de alívio, e a história perde um tirano que poderia ter encontrado. Suas mãos mantêm um brilho fraco nas noites de inverno—suficiente para ferver chá.',
         choices: {
         },
       },
@@ -2070,220 +2268,319 @@ export const story_9845237719284StoryTranslations: Record<Language, StoryTransla
 
   // 中文
   zh: {
-    title: '午夜花园',
-    description: '你继承了一座维多利亚时代的庄园，园中有一座只在午夜时分盛开的花园。当你遇见照料花园的神秘园丁时，你发现他',
-    author: '伊莎贝拉·克莱恩',
+    title: '余烬王冠的誓言',
+    description: '当制图师的草图温热成活生生的余烬,被遗忘的路径沿着海岸燃烧起来。一位战争领主进军重新点燃山峰,并夺取现在回应你之手的王冠。你会分享它的火焰,打碎它,还是戴上它?',
+    author: '时光画布工作室',
     nodes: {
-      'story-745829103-1': {
-        title: '遗产',
-        narration: '遗产律师的信在你三十岁生日那天到达。一位你从不知道存在的叔祖母给你留下了索恩伍德庄园——一座位于被遗忘小镇边缘的破败维多利亚式宅邸。条件很奇怪：在决定是否保留之前，你必须在那里住满一个完整的月相周期。当你午夜抵达时，铁门自行打开，你闻到了在冬日空气中不可思议地盛开的花香。',
+      'story-9845237719284-1': {
+        title: '灰烬征兆',
+        narration: '黎明在松树间呼出薄雾,而你的炭笔地图从内部发光,线条像沉睡的余烬般跳动。一枚熏黑的金环,触之温暖,躺在不该有王冠的地方——在你的袋子里,在压制的叶片之间。耳语的传言说,灰烬战争领主正向内陆进军,收集燃料和恐惧。王冠的热度上升,催促着一条道路,趁第一个村庄醒来之前。',
         choices: {
-          'story-745829103-c1': {
-            text: '循着花香走进花园',
-            description: '调查神秘的香气',
+          'story-9845237719284-c1': {
+            text: '前往遗物市场。',
+            description: '寻求知识和盟友。',
           },
-          'story-745829103-c2': {
-            text: '先进入庄园探索',
-            description: '按顺序行事',
+          'story-9845237719284-c2': {
+            text: '侦察山脊瞭望台。',
+            description: '读取大地的意图。',
           },
         },
       },
-      'story-745829103-3': {
-        title: '回响的走廊',
-        narration: '庄园将你吞没在天鹅绒般的黑暗中。油画肖像从墙上注视着，空气中嗡嗡作响着一个你感觉多于听见的音符。月光从破碎的彩色玻璃中渗入，在地板上绘出蓝宝石般的图案。',
+      'story-9845237719284-2': {
+        title: '遗物市场',
+        narration: '帐篷如鳞片般起伏;护身符在海风中沿着绳索叮当作响。一位无牙的商贩注视着从你袋子里渗出的余烬王冠的光芒,向你招手示意靠近。「地图在河渡口附近燃烧得更真实」,她嘶哑地说,「但现在火印侦察兵正在监视那里。」',
         choices: {
-          'story-745829103-c5': {
-            text: '沿着走廊追随嗡嗡声',
-            description: '让声音引导你',
+          'story-9845237719284-c3': {
+            text: '购买奥术地图叠加。',
+            description: '让线条显露线条。',
           },
-          'story-745829103-c6': {
-            text: '强行打开封闭的书房门',
-            description: '在庄园中寻找答案',
+          'story-9845237719284-c4': {
+            text: '跟踪火印侦察兵。',
+            description: '以代价换取信息。',
           },
         },
       },
-      'story-745829103-5': {
-        title: '闪烁的幻象',
-        narration: '当你的手指触碰花朵时，液态的光芒流淌过你的身体。你的脉搏与花园同步，你瞥见了不属于你的记忆——月光下的舞蹈、低语的誓言、照料着超越每个季节的花瓣的孤独园丁。',
+      'story-9845237719284-3': {
+        title: '山脊瞭望台',
+        narration: '黑沙如带状盘绕海岸;烟柱从远处的破火山口升起。风中传来:行进的鼓声和淬火刀刃的铁盐气味。下方有闪光移动——火印侦察兵绕道向河流前进。',
         choices: {
-          'story-745829103-c9': {
-            text: '让幻象将你拉得更深',
-            description: '臣服于记忆',
+          'story-9845237719284-c5': {
+            text: '不被发现地追踪侦察兵。',
+            description: '利用高度和静默。',
           },
-          'story-745829103-c10': {
-            text: '断开接触并稳住自己',
-            description: '重新控制',
+          'story-9845237719284-c6': {
+            text: '从洞穴入口走捷径下降。',
+            description: '古老的地图显示山脊下有空洞。',
           },
         },
       },
-      'story-745829103-6': {
-        title: '月光温室',
-        narration: '一座圆顶温室在常春藤帘幕后等待。内部，黄铜和水晶的乐器像星座般悬挂，嗡嗡音符的每次颤动都让它们发光。一扇隐藏的门边缘结着霜，呼出午夜的空气。',
+      'story-9845237719284-4': {
+        title: '奥术叠加',
+        narration: '透明羊皮纸吸收了一滴王冠的热量,绽放出隐藏的路径。一个微弱的印记不仅指向河流,还指向刻在悬崖下的「秘密通道」。商贩微笑,牙龈闪亮:「每条捷径都是一种承诺。」',
         choices: {
-          'story-745829103-c11': {
-            text: '追随嗡嗡声走向隐藏的门',
-            description: '发现声音保护着什么',
+          'story-9845237719284-c7': {
+            text: '走河渡口。',
+            description: '开放,被监视,但快速。',
           },
-          'story-745829103-c12': {
-            text: '摘一朵发光的花给伊莱亚斯看',
-            description: '把证据带回花园',
+          'story-9845237719284-c8': {
+            text: '寻找秘密通道。',
+            description: '以风险换取隐秘。',
           },
         },
       },
-      'story-745829103-7': {
-        title: '祖传书房',
-        narration: '当封闭的书房打开时，尘埃飞扬。账本、地图和一幅与你有着相同眼睛的女人肖像挤满了书架。一把月牙形的银钥匙放在天鹅绒日记本上，等待有人来认领。',
+      'story-9845237719284-5': {
+        title: '火印侦察兵',
+        narration: '一名孤独的侦察兵在被风吹弯的松树下停顿,检查着炭笔时间表。灰烬印记条纹般横过他们的下巴——对战争领主的忠诚之线。当王冠变暖时,侦察兵的眼睛抬起,感觉到一种领主的存在,尽管那里空无一人。',
         choices: {
-          'story-745829103-c13': {
-            text: '打开天鹅绒装订的日记',
-            description: '了解你的祖先记录了什么',
+          'story-9845237719284-c9': {
+            text: '伏击并审问。',
+            description: '快速,安静,果断。',
           },
-          'story-745829103-c14': {
-            text: '把银色月牙钥匙放进口袋',
-            description: '拿走护身符留待以后',
+          'story-9845237719284-c10': {
+            text: '悄悄溜过去朝河流前进。',
+            description: '用答案交换时间。',
           },
         },
       },
-      'story-745829103-10': {
-        title: '星光的脉动',
-        narration: '你拉回的能量像被捕获的彗星般在你胸中盘旋。每次心跳都会沿着你的手臂发送火花，离你最近的花朵开得更亮，向你的温暖弯曲。',
+      'story-9845237719284-6': {
+        title: '洞穴入口',
+        narration: '玄武岩拱门以空洞的吞咽饮下浪涛;地衣像小星座般闪烁。古老的凿子在通往下方螺旋的狭窄楼梯旁生锈。王冠在门槛处嗡嗡作响,半是警告,半是欢迎。',
         choices: {
-          'story-745829103-c19': {
-            text: '将力量引导进庄园',
+          'story-9845237719284-c11': {
+            text: '走秘密通道。',
+            description: '信任古老的切口。',
           },
-          'story-745829103-c20': {
-            text: '将力量保持在体内并返回伊莱亚斯身边',
-            description: '测试你是否能连接两个世界',
+          'story-9845237719284-c12': {
+            text: '穿过内部的回声桥。',
+            description: '速度胜过隐秘。',
           },
         },
       },
-      'story-745829103-11': {
-        title: '索恩伍德的誓言',
-        narration: '日记揭示了一个世纪前达成的契约：第一个能看见午夜之花的继承人必须选择保持花园处于世界之间，或永远封印它。伊莱亚斯将保持束缚，直到这个选择出于自愿的心做出。',
+      'story-9845237719284-7': {
+        title: '河渡口',
+        narration: '船只在焦油绳索上摇晃;摆渡人低语着「誓言之火」和「天空圣殿」。一块粉笔板列出战争领主军需官的什一税率。村民们像观察即将到来的天气一样注视着你。',
         choices: {
-          'story-745829103-c21': {
-            text: '发誓维护古老的誓言',
-            description: '按照记载接受职责',
+          'story-9845237719284-c13': {
+            text: '与村长谈判。',
+            description: '赢得信任,赢得时间。',
           },
-          'story-745829103-c22': {
-            text: '决定完全重写契约',
-            description: '挑战遗产',
+          'story-9845237719284-c14': {
+            text: '在浅滩测试王冠。',
+            description: '力量招致风险。',
           },
         },
       },
-      'story-745829103-12': {
-        title: '共鸣的承诺',
-        narration: '站在月光的圆圈中，你感觉花园与你们两人的呼吸调谐。伊莱亚斯说起他从未见过的黎明和他不再敢想象的未来。',
+      'story-9845237719284-8': {
+        title: '秘密通道',
+        narration: '你在石头上描绘印记;缝隙以叹息接纳了你。没有人点燃的蜡烛复活了,显露出粉笔记录——许多通过,少数返回。走廊倾斜向水晶般的嗡鸣。',
         choices: {
-          'story-745829103-c23': {
-            text: '完全踏入他身旁的圆圈',
-            description: '将你的节奏与花园绑定',
+          'story-9845237719284-c15': {
+            text: '前往余烬试炼室。',
+            description: '证明价值,或付出代价。',
           },
-          'story-745829103-c24': {
-            text: '保持一只脚在凡人世界',
-            description: '为共享的黎明留出空间',
+          'story-9845237719284-c16': {
+            text: '穿过回声桥。',
+            description: '缩短路径。',
           },
         },
       },
-      'story-745829103-13': {
-        title: '月亮护身符',
-        narration: '月牙钥匙在你掌心变暖，展开成一个刻有星座的护身符。你感觉它可以扰乱魔法——或重新引导它——取决于你说出谁的名字。',
+      'story-9845237719284-9': {
+        title: '侦察兵的坦白',
+        narration: '被压在玄武岩上,当王冠的热量刺穿空气时,侦察兵迅速屈服。「战争领主在山下喂养一座熔炉」,他们低语,眼睛因烟雾而湿润。「当它咆哮时,你们的村庄将下跪。」',
         choices: {
-          'story-745829103-c25': {
-            text: '在锻铁大门上使用护身符',
-            description: '测试你是否能打开新的通道',
+          'story-9845237719284-c17': {
+            text: '饶恕他们并寻找村庄盟友。',
+            description: '仁慈购买信使。',
           },
-          'story-745829103-c26': {
-            text: '向伊莱亚斯展示护身符',
-            description: '邀请他参与决定',
+          'story-9845237719284-c18': {
+            text: '赶紧研究战争领主的计划。',
+            description: '知识就是筹码。',
           },
         },
       },
-      'story-745829103-14': {
-        title: '时间灯笼',
-        narration: '在嗡嗡作响的门后，你发现一盏悬浮在空中的灯笼，它的水晶核心破碎成漂浮的碎片。每个碎片都包含着花园在不同月相下的记忆，悬浮在时间中。',
+      'story-9845237719284-10': {
+        title: '回声桥',
+        narration: '狭窄的跨度每一步都在歌唱;你的呼吸以其他声音回到你身边。在下方的坠落中,水晶像玻璃上的雨般鸣响。王冠的光芒在虚空上编织细细的路径,仿佛提供只有你能看见的立足点。',
         choices: {
-          'story-745829103-c27': {
-            text: '用你的新能量重新锻造水晶',
-            description: '一起稳定魔法',
+          'story-9845237719284-c19': {
+            text: '沿着水晶路径到跨度。',
+            description: '朝向天空圣殿。',
           },
-          'story-745829103-c28': {
-            text: '散布碎片以打破循环',
-            description: '释放被困的时刻',
+          'story-9845237719284-c20': {
+            text: '绕道余烬试炼。',
+            description: '先证明你的主张。',
           },
         },
       },
-      'story-745829103-16': {
-        title: '打破契约',
-        narration: '你挑战誓言，在空中编织新的话语。花朵在恐惧和欣喜之间闪烁，而伊莱亚斯支撑着你，准备跟随你前往任何地方。',
+      'story-9845237719284-11': {
+        title: '村庄谈判',
+        narration: '长老们坐着,双手如浮木,眼睛如潮池。他们谈论誓言之火——不燃烧而束缚的火焰——以及一座通过呼吸而非出生选择承载者的圣殿。孩子们在远处盘旋,彼此大胆地低语「女王」。',
         choices: {
-          'story-745829103-c31': {
-            text: '粉碎束缚以释放你们两人',
-            description: '为了自由冒险牺牲花园',
+          'story-9845237719284-c21': {
+            text: '公开发誓誓言之火。',
+            description: '赢得人心,获得分量。',
           },
-          'story-745829103-c32': {
-            text: '将魔法只吸入你自己体内',
-            description: '承担代价让伊莱亚斯离开',
+          'story-9845237719284-c22': {
+            text: '通过走私者之路溜走。',
+            description: '盟友稍后;时间现在。',
           },
         },
       },
-      'story-745829103-17': {
-        title: '对齐的心跳',
-        narration: '随着灯笼的修复，花园在和谐中嗡嗡作响。月光和心跳混合，直到你无法分辨你在哪里结束，伊莱亚斯在哪里开始。',
+      'story-9845237719284-12': {
+        title: '余烬试炼',
+        narration: '火盆沉睡着,被灰烬印记环绕。当你放下王冠时,火盆燃起白金色而不消耗。每次心跳都在空中写下一条光线,一本不会撒谎的意图账簿。',
         choices: {
-          'story-745829103-c33': {
-            text: '与他留在午夜的花丛中',
-            description: '选择由星光编织的生活',
+          'story-9845237719284-c23': {
+            text: '束缚自己保护村庄。',
+            description: '责任胜过力量。',
           },
-          'story-745829103-c34': {
-            text: '引导花园走向即将到来的黎明',
-            description: '与苏醒的世界分享它的魔法',
+          'story-9845237719284-c24': {
+            text: '声称有权面对天空圣殿。',
+            description: '权威先于行动。',
           },
         },
       },
-      'story-745829103-18': {
-        title: '黎明的门槛',
-        narration: '你保持着魔法的涌动而不屈服于它。庄园呻吟着，世界之间的边界变薄，如果你们敢一起穿越，它提供了一条回到阳光的路径。',
+      'story-9845237719284-13': {
+        title: '战争领主的计划',
+        narration: '钉在被盗账簿上的地图显示燃料仓库正在供养地下熔炉。标记的日期逼近:「点火」。另一笔迹的笔记写道:「王冠向呼吸低头——偷走承载者的声音。」',
         choices: {
-          'story-745829103-c35': {
-            text: '引导伊莱亚斯走向苏醒的世界',
-            description: '向他承诺日出',
+          'story-9845237719284-c25': {
+            text: '破坏熔炉隧道。',
+            description: '切断计划的喉咙。',
           },
-          'story-745829103-c36': {
-            text: '让魔法将你固定在他身旁',
-            description: '接受黄昏的存在',
-          },
-        },
-      },
-      'story-745829103-19': {
-        title: '解放的时间',
-        narration: '当护身符闪耀，碎片散开时，时间在花园周围蹒跚。花瓣在半空中冻结，远处的教堂钟声倒着响起。你只有几秒钟来决定这种新自由将付出什么代价。',
-        choices: {
-          'story-745829103-c37': {
-            text: '将被捕获的时光释放入夜晚',
-            description: '让花园选择自己的命运',
-          },
-          'story-745829103-c38': {
-            text: '将花园永远锁在时间之外',
-            description: '封印魔法即使它会枯萎',
+          'story-9845237719284-c26': {
+            text: '溜向走私者之路。',
+            description: '侧翼并警告圣殿。',
           },
         },
       },
-      'story-745829103-21': {
-        title: '共享的日出',
-        narration: '当黎明破晓时，你引导伊莱亚斯越过大门，带着一朵发光的花作为魔法能在阳光下存活的证明。庄园在笑声、音乐和终于欢迎日光的花园中苏醒。爱与遗产在开放的空气中扎根。',
+      'story-9845237719284-14': {
+        title: '水晶跨度',
+        narration: '星辰梳理天空;跨度嗡鸣一个你在牙齿中感受到的音阶。风用纤细冰冷的手指穿过王冠,提出没有语言的问题。脚印向上延伸——其他人来过,或将会来。',
+        choices: {
+          'story-9845237719284-c27': {
+            text: '攀登到天空圣殿。',
+            description: '寻求批准。',
+          },
+          'story-9845237719284-c28': {
+            text: '转向熔炉路线。',
+            description: '先停止点火。',
+          },
+        },
+      },
+      'story-9845237719284-15': {
+        title: '誓言之火',
+        narration: '火焰像驯服的藤蔓般爬上你的手腕,留下温暖的光环。村民呼气——如同浪涛在岸边释放的声音。王冠变得柔软,不那么沉重,仿佛因分担的重量而感到满意。',
+        choices: {
+          'story-9845237719284-c29': {
+            text: '向天空圣殿请愿。',
+            description: '将共同的呼吸向上携带。',
+          },
+          'story-9845237719284-c30': {
+            text: '寻求关于王冠低语的建议。',
+            description: '在行动前理解。',
+          },
+        },
+      },
+      'story-9845237719284-16': {
+        title: '走私者之路',
+        narration: '一扇门出现在不该有门的地方,向盐渍陈腐的黑暗敞开。箱子低语着安静的反抗:绳索,油,带有诚实修正的旧地图。脚步声回响——朋友或敌人正在学习成为两者。',
+        choices: {
+          'story-9845237719284-c31': {
+            text: '从这里打击熔炉。',
+            description: '直捣喉咙。',
+          },
+          'story-9845237719284-c32': {
+            text: '听取王冠的建议。',
+            description: '冒低语的风险。',
+          },
+        },
+      },
+      'story-9845237719284-17': {
+        title: '火山熔炉',
+        narration: '石肺喘息着热量;链条像冬天的骨头般叮当作响。工人将木材和恐惧送入红色的喉咙。一个阀门呻吟着——离尖叫或沉默只有一次转动。',
+        choices: {
+          'story-9845237719284-c33': {
+            text: '卡住阀门并逃跑。',
+            description: '破坏胜过演讲。',
+          },
+          'story-9845237719284-c34': {
+            text: '将压力转向天空通风口。',
+            description: '为圣殿争取时间。',
+          },
+        },
+      },
+      'story-9845237719284-18': {
+        title: '天空圣殿',
+        narration: '在风暴堤岸之上,由浑浊玻璃制成的钟在无手的情况下鸣响。一个如天气般的声音什么都不问却无所不知。王冠冷却下来,仿佛在父母的面前,等待看你成为了什么。',
+        choices: {
+          'story-9845237719284-c35': {
+            text: '请求分享王冠的火焰。',
+            description: '许多双手,更轻的负担。',
+          },
+          'story-9845237719284-c36': {
+            text: '请求力量打碎它。',
+            description: '既非暴君,亦非工具。',
+          },
+        },
+      },
+      'story-9845237719284-19': {
+        title: '王冠的低语',
+        narration: '当你倾听时,合唱回应了——过去的承载者通过牙齿和舌头歌唱。他们警告一条更简单的道路:深深地戴上王冠,让其他人围绕你的确信运转。温暖尝起来像蜂蜜;回味像灰烬。',
+        choices: {
+          'story-9845237719284-c37': {
+            text: '拒绝诱惑;寻找圣殿。',
+            description: '你不是熔炉。',
+          },
+          'story-9845237719284-c38': {
+            text: '倾向主权。',
+            description: '统治结束争论。',
+          },
+        },
+      },
+      'story-9845237719284-20': {
+        title: '最后的接近',
+        narration: '山峰屏住呼吸;村庄与它一起屏住呼吸。你的下一个举动将决定明天热量的形态。在你的手掌中,王冠既像承诺又像警告般沉重。',
+        choices: {
+          'story-9845237719284-c39': {
+            text: '以君主身份宣称王冠。',
+            description: '使火焰屈服于你的意志。',
+          },
+          'story-9845237719284-c40': {
+            text: '与村庄分享火焰。',
+            description: '许多承载者,没有暴君。',
+          },
+          'story-9845237719284-c41': {
+            text: '走向安静的流放。',
+            description: '拒绝王位和战争。',
+          },
+          'story-9845237719284-c42': {
+            text: '按圣殿的话打碎王冠。',
+            description: '永远结束这个问题。',
+          },
+        },
+      },
+      'story-9845237719284-21': {
+        title: '灰烬君主',
+        narration: '王冠通过你的声音扎根,山峰跪下。村庄鞠躬——并畏缩。和平迅速到来,就像风暴之眼:平静而被监视。你的地图过时了;你的名字没有。',
         choices: {
         },
       },
-      'story-745829103-22': {
-        title: '破碎的咒语',
-        narration: '你释放被困的时光，打破了束缚伊莱亚斯的誓言。花园在最后的光芒爆发中绽放，然后花朵溶解成星尘。自由属于你们，但午夜的奇迹成为你们两人带入未知未来的记忆。',
+      'story-9845237719284-22': {
+        title: '共享的火焰',
+        narration: '你举起王冠,它像面包一样分裂,余烬在许多手中扎根。熔炉冷却;战争领主的计划被社区窒息而死。节日在本应驻扎军队的地方绽放,地图以合唱的方式绘制。',
         choices: {
         },
       },
-      'story-745829103-23': {
-        title: '凋零的花瓣',
-        narration: '你封印花园以使伊莱亚斯免受诅咒，但魔法没有月亮就枯萎了。庄园变得安静，花朵只保存在肖像和梦中。每个夜晚你都在想，另一个选择是否能拯救你牺牲的美丽。',
+      'story-9845237719284-23': {
+        title: '安静的流放',
+        narration: '你将王冠留在钟声深情记住你的地方。山峰不安地打盹,但从未愤怒地醒来。多年后,孩子们跟随着一位旅行制图师,他通过倾听风声在灰烬田野中绘制安全的路径。',
+        choices: {
+        },
+      },
+      'story-9845237719284-24': {
+        title: '破碎的王冠',
+        narration: '当你将金子撞击在石头上时,它像玻璃一样尖叫;余烬跳跃,然后沉淀成柔和、普通的温暖。圣殿如释重负地叹息,历史失去了它本可能遇到的暴君。你的手在冬夜保持着微弱的光芒——足够煮茶。',
         choices: {
         },
       },
@@ -2292,220 +2589,319 @@ export const story_9845237719284StoryTranslations: Record<Language, StoryTransla
 
   // 한국어
   ko: {
-    title: '한밤의 정원',
-    description: '자정에만 꽃이 피는 정원이 있는 빅토리아 시대 저택을 상속받게 됩니다. 정원을 돌보는 수수께끼의 정원사를 만났을 때, 당신은 그가',
-    author: '이사벨라 크레인',
+    title: '잔불 왕관의 맹세',
+    description: '지도 제작자의 스케치가 살아있는 잔불로 따뜻해지면, 잊혀진 길들이 해안을 따라 타오른다. 전쟁군주가 산을 다시 점화하고 이제 당신의 손에 응답하는 왕관을 탈취하기 위해 진군한다. 그 불을 나눌 것인가, 부술 것인가, 아니면 쓸 것인가?',
+    author: '크로노캔버스 스튜디오',
     nodes: {
-      'story-745829103-1': {
-        title: '상속',
-        narration: '유산 변호사의 편지가 당신의 서른 번째 생일에 도착했습니다. 존재조차 몰랐던 대고모가 당신에게 손우드 저택을 남겼습니다. 잊혀진 마을 가장자리에 있는 무너져가는 빅토리아 시대 저택입니다. 조건은 이상했습니다. 보유 여부를 결정하기 전에 한 달의 주기 동안 그곳에서 살아야 합니다. 자정에 도착하자 철제 대문이 저절로 열리고, 겨울 공기 속에서 불가능하게 피어나는 꽃 향기가 납니다.',
+      'story-9845237719284-1': {
+        title: '재의 징조',
+        narration: '새벽이 소나무 사이로 안개를 내뿜는 동안 당신의 숯 지도가 안쪽에서 빛나기 시작하고, 그 선들이 잠든 잔불처럼 맥박친다. 검게 그을린 금 고리, 만지면 따뜻한 것이 왕관이 있어서는 안 될 곳에 놓여있다—당신의 가방 안, 눌린 잎사귀들 사이에. 속삭이는 소문들은 재의 전쟁군주가 내륙으로 진군하며 연료와 공포를 모으고 있다고 말한다. 왕관의 열기가 올라가며, 첫 마을이 깨어나기 전에 길을 재촉한다.',
         choices: {
-          'story-745829103-c1': {
-            text: '꽃 향기를 따라 정원으로 간다',
-            description: '신비로운 향기를 조사한다',
+          'story-9845237719284-c1': {
+            text: '유물 시장으로 향한다.',
+            description: '지식과 동맹을 찾는다.',
           },
-          'story-745829103-c2': {
-            text: '먼저 저택에 들어가 탐험한다',
-            description: '순서대로 진행한다',
+          'story-9845237719284-c2': {
+            text: '능선 전망대를 정찰한다.',
+            description: '대지의 의도를 읽는다.',
           },
         },
       },
-      'story-745829103-3': {
-        title: '울려 퍼지는 복도',
-        narration: '저택이 당신을 벨벳 같은 어둠으로 삼킵니다. 유화 초상화들이 벽에서 지켜보고, 공기는 듣는다기보다 느껴지는 음으로 윙윙거립니다. 달빛이 깨진 스테인드글라스를 통해 새어 들어와 바닥에 사파이어 무늬를 그립니다.',
+      'story-9845237719284-2': {
+        title: '유물 시장',
+        narration: '천막들이 비늘처럼 물결치고, 부적들이 바닷바람에 줄을 따라 쨍그랑거린다. 이빨 없는 중개인이 당신의 가방을 통해 스며나오는 잔불 왕관의 빛을 바라보며 당신을 가까이 오라고 손짓한다. "지도는 강 건너편 근처에서 더 진실되게 탄다"고 그녀가 쉰 목소리로 말한다. "하지만 불의 낙인 정찰병들이 지금 그곳을 감시하고 있지."',
         choices: {
-          'story-745829103-c5': {
-            text: '복도를 통해 윙윙거리는 소리를 따라간다',
-            description: '소리가 인도하도록 한다',
+          'story-9845237719284-c3': {
+            text: '비술 지도 중첩을 구매한다.',
+            description: '선이 선을 드러내게 한다.',
           },
-          'story-745829103-c6': {
-            text: '봉인된 서재 문을 강제로 연다',
-            description: '저택에서 답을 찾는다',
+          'story-9845237719284-c4': {
+            text: '불의 낙인 정찰병을 미행한다.',
+            description: '정보에는 대가가 따른다.',
           },
         },
       },
-      'story-745829103-5': {
-        title: '반짝이는 환영',
-        narration: '당신의 손가락이 꽃을 스치자 액체 빛이 당신을 관통합니다. 맥박이 정원과 동기화되고 당신의 것이 아닌 기억들을 엿봅니다. 달빛 아래의 춤, 속삭이는 맹세, 모든 계절을 견디는 꽃잎을 돌보는 외로운 정원사.',
+      'story-9845237719284-3': {
+        title: '능선 전망대',
+        narration: '검은 모래가 해안을 띠처럼 두르고, 연기 손가락들이 먼 칼데라에서 솟아오른다. 바람 속에서: 행진하는 북소리와 담금질된 칼날의 철과 소금 냄새. 아래에서 무언가 반짝인다—불의 낙인 정찰병들이 강을 향해 도로를 우회하고 있다.',
         choices: {
-          'story-745829103-c9': {
-            text: '환영이 더 깊이 끌어당기게 한다',
-            description: '기억에 몸을 맡긴다',
+          'story-9845237719284-c5': {
+            text: '정찰병들을 들키지 않고 추적한다.',
+            description: '높이와 침묵을 이용한다.',
           },
-          'story-745829103-c10': {
-            text: '접촉을 끊고 안정을 되찾는다',
-            description: '통제력을 되찾는다',
+          'story-9845237719284-c6': {
+            text: '동굴 입구로 지름길로 내려간다.',
+            description: '오래된 지도는 능선 아래 공동을 보여준다.',
           },
         },
       },
-      'story-745829103-6': {
-        title: '달에 묶인 온실',
-        narration: '담쟁이 커튼 너머에 돔 형태의 온실이 기다리고 있습니다. 내부에는 황동과 수정으로 만든 악기들이 별자리처럼 매달려 있고, 윙윙거리는 음의 떨림마다 빛을 발합니다. 숨겨진 문은 서리로 테두리가 장식되어 있고 한밤의 공기를 내뿜고 있습니다.',
+      'story-9845237719284-4': {
+        title: '비술 중첩',
+        narration: '투명한 양피지가 왕관 열기의 한 방울을 마시고 숨겨진 길들로 꽃핀다. 희미한 인장이 강뿐만 아니라 절벽 아래에 새겨진 "비밀 통로"를 가리킨다. 중개인이 잇몸을 빛내며 미소 짓는다. "모든 지름길은 일종의 약속이지."',
         choices: {
-          'story-745829103-c11': {
-            text: '윙윙거리는 소리를 따라 숨겨진 문으로 간다',
-            description: '소리가 무엇을 보호하는지 발견한다',
+          'story-9845237719284-c7': {
+            text: '강 건너편을 택한다.',
+            description: '개방되고 감시되지만 빠르다.',
           },
-          'story-745829103-c12': {
-            text: '빛나는 꽃을 잘라 엘리아스에게 보여준다',
-            description: '증거를 정원으로 가져간다',
+          'story-9845237719284-c8': {
+            text: '비밀 통로를 찾는다.',
+            description: '은밀함을 위한 위험.',
           },
         },
       },
-      'story-745829103-7': {
-        title: '조상의 서재',
-        narration: '봉인된 서재가 열리자 먼지가 휘날립니다. 원장, 지도, 그리고 당신과 같은 눈을 가진 여성의 초상화가 선반을 가득 채우고 있습니다. 초승달 모양의 은 열쇠가 벨벳 일기장 위에 놓여 있고, 누군가가 그것을 차지하기를 기다리고 있습니다.',
+      'story-9845237719284-5': {
+        title: '불의 낙인 정찰병',
+        narration: '외로운 정찰병이 바람에 휘어진 소나무 아래서 멈춰 서서 숯으로 쓴 일정표를 확인한다. 재 표시가 그들의 턱을 가로지른다—전쟁군주에 대한 충성의 선. 왕관이 따뜻해지자 정찰병의 눈이 올라가며, 아무도 서있지 않은 곳에서 군주의 존재를 감지한다.',
         choices: {
-          'story-745829103-c13': {
-            text: '벨벳으로 장정된 일기장을 연다',
-            description: '조상이 기록한 것을 배운다',
+          'story-9845237719284-c9': {
+            text: '매복하고 심문한다.',
+            description: '빠르고, 조용하고, 단호하게.',
           },
-          'story-745829103-c14': {
-            text: '은 초승달 열쇠를 주머니에 넣는다',
-            description: '나중을 위해 부적을 가져간다',
+          'story-9845237719284-c10': {
+            text: '강을 향해 몰래 지나간다.',
+            description: '답을 시간과 거래한다.',
           },
         },
       },
-      'story-745829103-10': {
-        title: '별빛의 맥동',
-        narration: '당신이 되돌린 에너지가 포획된 혜성처럼 가슴 속에서 감깁니다. 심장 박동마다 팔을 따라 불꽃이 흐르고, 가장 가까운 꽃들이 더 밝게 피어나며 당신의 온기를 향해 구부러집니다.',
+      'story-9845237719284-6': {
+        title: '동굴 입구',
+        narration: '현무암 아치들이 텅 빈 삼킴으로 파도를 마시고, 지의류가 작은 별자리처럼 반짝인다. 오래된 끌들이 아래로 나선을 그리는 좁은 계단 근처에서 녹슬며 놓여있다. 왕관이 문턱에서 윙윙거린다, 반은 경고, 반은 환영.',
         choices: {
-          'story-745829103-c19': {
-            text: '힘을 저택으로 전달한다',
+          'story-9845237719284-c11': {
+            text: '비밀 통로를 택한다.',
+            description: '오래된 절단을 신뢰한다.',
           },
-          'story-745829103-c20': {
-            text: '힘을 내부에 유지하고 엘리아스에게 돌아간다',
-            description: '두 세계를 연결할 수 있는지 시험한다',
+          'story-9845237719284-c12': {
+            text: '안쪽의 메아리 다리를 건넌다.',
+            description: '은밀함보다 속도.',
           },
         },
       },
-      'story-745829103-11': {
-        title: '손우드의 맹세',
-        narration: '일기장은 한 세기 전에 맺어진 계약을 드러냅니다. 한밤의 꽃을 볼 수 있는 첫 번째 상속인은 세계 사이에 정원을 유지할지 영원히 봉인할지 선택해야 합니다. 엘리아스는 그 선택이 기꺼운 마음으로 이루어질 때까지 묶여 있습니다.',
+      'story-9845237719284-7': {
+        title: '강 건너편',
+        narration: '배들이 타르 칠한 밧줄에 흔들리고, 뱃사공들이 "맹세의 불"과 "하늘 성소"에 대해 중얼거린다. 분필로 쓴 게시판이 전쟁군주의 병참관의 십일조 요율을 나열한다. 마을 사람들이 다가오는 날씨를 보듯 당신을 바라본다.',
         choices: {
-          'story-745829103-c21': {
-            text: '고대의 맹세를 지키겠다고 맹세한다',
-            description: '쓰여진 대로 의무를 받아들인다',
+          'story-9845237719284-c13': {
+            text: '마을 우두머리와 협상한다.',
+            description: '신뢰를 얻고, 시간을 얻는다.',
           },
-          'story-745829103-c22': {
-            text: '계약을 완전히 다시 쓰기로 결정한다',
-            description: '유산에 도전한다',
+          'story-9845237719284-c14': {
+            text: '여울에서 왕관을 시험한다.',
+            description: '힘은 위험을 초대한다.',
           },
         },
       },
-      'story-745829103-12': {
-        title: '공명하는 약속',
-        narration: '달빛의 원 안에 서 있으면 정원이 두 사람의 숨결에 맞춰지는 것을 느낍니다. 엘리아스는 한 번도 본 적 없는 새벽과 더 이상 감히 상상하지 못하는 미래에 대해 이야기합니다.',
+      'story-9845237719284-8': {
+        title: '비밀 통로',
+        narration: '당신이 돌에 인장을 그리자, 이음새가 한숨과 함께 당신을 받아들인다. 아무도 켜지 않은 촛불들이 살아나며 분필 집계를 드러낸다—많은 통과, 적은 귀환. 복도가 수정의 윙윙거림을 향해 기울어진다.',
         choices: {
-          'story-745829103-c23': {
-            text: '그의 옆 원 안으로 완전히 들어간다',
-            description: '당신의 리듬을 정원에 묶는다',
+          'story-9845237719284-c15': {
+            text: '잔불 시험 방으로 향한다.',
+            description: '가치를 증명하거나 대가를 치른다.',
           },
-          'story-745829103-c24': {
-            text: '한 발을 필멸의 세계에 둔다',
-            description: '공유하는 새벽을 위한 공간을 확보한다',
+          'story-9845237719284-c16': {
+            text: '메아리 다리를 건넌다.',
+            description: '길을 단축한다.',
           },
         },
       },
-      'story-745829103-13': {
-        title: '달의 부적',
-        narration: '초승달 열쇠가 손바닥에서 따뜻해지며 별자리가 새겨진 부적으로 펼쳐집니다. 어떤 이름을 말하느냐에 따라 마법을 방해하거나 방향을 바꿀 수 있다는 것을 느낍니다.',
+      'story-9845237719284-9': {
+        title: '정찰병의 고백',
+        narration: '현무암에 붙잡힌 정찰병은 왕관의 열기가 공기를 찌를 때 빠르게 굴복한다. "전쟁군주가 산 아래 가마에 연료를 공급하고 있다"고 그들이 연기로 젖은 눈으로 속삭인다. "그것이 포효하면, 당신들의 마을은 무릎 꿇을 것이다."',
         choices: {
-          'story-745829103-c25': {
-            text: '단조 철제 문에 부적을 사용한다',
-            description: '새로운 통로를 열 수 있는지 시험한다',
+          'story-9845237719284-c17': {
+            text: '그들을 용서하고 마을 동맹을 찾는다.',
+            description: '자비는 전령을 산다.',
           },
-          'story-745829103-c26': {
-            text: '엘리아스에게 부적을 보여준다',
-            description: '그를 결정에 초대한다',
+          'story-9845237719284-c18': {
+            text: '전쟁군주의 계획을 연구하기 위해 서둔다.',
+            description: '지식은 지렛대다.',
           },
         },
       },
-      'story-745829103-14': {
-        title: '시간의 등불',
-        narration: '윙윙거리는 문 뒤에서 공중에 떠 있는 등불을 발견합니다. 수정 핵이 떠다니는 조각들로 산산이 부서져 있습니다. 각 파편은 다른 달의 정원 기억을 담고 있으며 시간 속에 정지되어 있습니다.',
+      'story-9845237719284-10': {
+        title: '메아리 다리',
+        narration: '좁은 경간이 걸음마다 노래하고, 당신의 숨결이 다른 목소리로 당신에게 돌아온다. 아래 낙하 속에서 수정들이 유리 위의 비처럼 울린다. 왕관의 빛이 공허 위로 가는 길들을 엮으며, 당신만이 볼 수 있는 발판을 제공하는 것처럼.',
         choices: {
-          'story-745829103-c27': {
-            text: '새로운 에너지로 수정을 다시 벼린다',
-            description: '함께 마법을 안정시킨다',
+          'story-9845237719284-c19': {
+            text: '경간으로 가는 수정 길을 따른다.',
+            description: '하늘 성소를 향해.',
           },
-          'story-745829103-c28': {
-            text: '파편을 흩뿌려 순환을 깬다',
-            description: '갇힌 순간들을 해방시킨다',
+          'story-9845237719284-c20': {
+            text: '잔불 시험으로 우회한다.',
+            description: '먼저 주장을 증명한다.',
           },
         },
       },
-      'story-745829103-16': {
-        title: '계약 깨기',
-        narration: '당신은 맹세에 도전하며 새로운 말들을 공기 중에 엮어냅니다. 꽃들이 두려움과 환희 사이에서 깜박이는 동안 엘리아스가 당신을 지탱하며, 당신이 이끄는 곳이면 어디든 따를 준비가 되어 있습니다.',
+      'story-9845237719284-11': {
+        title: '마을 협상',
+        narration: '장로들이 유목처럼 손과 조수 웅덩이처럼 눈으로 앉아있다. 그들은 맹세의 불—태우지 않고 묶는 불꽃—과 출생이 아닌 호흡으로 담지자를 선택하는 성소에 대해 말한다. 아이들이 거리를 두고 돌며, 서로에게 "여왕"이라고 속삭이기를 감히 한다.',
         choices: {
-          'story-745829103-c31': {
-            text: '둘 다 자유롭게 하기 위해 속박을 부순다',
-            description: '자유를 위해 정원을 위험에 빠뜨린다',
+          'story-9845237719284-c21': {
+            text: '공개적으로 맹세의 불을 맹세한다.',
+            description: '마음을 얻고, 무게를 얻는다.',
           },
-          'story-745829103-c32': {
-            text: '마법을 자신에게만 끌어당긴다',
-            description: '엘리아스가 떠날 수 있도록 대가를 짊어진다',
+          'story-9845237719284-c22': {
+            text: '밀수꾼 길로 빠져나간다.',
+            description: '동맹은 나중에; 시간은 지금.',
           },
         },
       },
-      'story-745829103-17': {
-        title: '정렬된 심장 박동',
-        narration: '등불이 복원되자 정원이 조화롭게 윙윙거립니다. 달빛과 심장 박동이 섞여 당신이 어디서 끝나고 엘리아스가 어디서 시작하는지 알 수 없게 됩니다.',
+      'story-9845237719284-12': {
+        title: '잔불 시험',
+        narration: '화로가 잠들어 있고, 재 인장으로 둘러싸여 있다. 왕관을 내리면 화로가 소비하지 않고 백금빛으로 타오른다. 심장 박동마다 공중에 빛의 선을 쓰며, 거짓말할 수 없는 의도의 장부.',
         choices: {
-          'story-745829103-c33': {
-            text: '그와 함께 한밤의 개화 속에 머문다',
-            description: '별빛으로 짜여진 삶을 선택한다',
+          'story-9845237719284-c23': {
+            text: '마을을 보호하기 위해 자신을 묶는다.',
+            description: '힘보다 의무.',
           },
-          'story-745829103-c34': {
-            text: '정원을 다가오는 새벽으로 이끈다',
-            description: '깨어나는 세상과 마법을 공유한다',
+          'story-9845237719284-c24': {
+            text: '하늘 성소에 맞설 권리를 주장한다.',
+            description: '행동 전 권위.',
           },
         },
       },
-      'story-745829103-18': {
-        title: '새벽의 문턱',
-        narration: '당신은 마법의 파도를 그것에 굴복하지 않고 붙잡습니다. 세계 사이의 경계가 얇아지면서 저택이 신음하며, 감히 함께 걸어갈 용기가 있다면 햇빛으로 돌아가는 길을 제공합니다.',
+      'story-9845237719284-13': {
+        title: '전쟁군주의 계획',
+        narration: '도난당한 원장에 고정된 지도들이 지하 가마에 연료를 공급하는 저장소들을 보여준다. 표시된 날짜가 다가온다: "점화". 다른 필체의 메모가 읽힌다: "왕관은 호흡에 굽힌다—담지자의 목소리를 훔쳐라."',
         choices: {
-          'story-745829103-c35': {
-            text: '엘리아스를 깨어나는 세상으로 이끈다',
-            description: '그에게 일출을 약속한다',
+          'story-9845237719284-c25': {
+            text: '가마 터널을 파괴한다.',
+            description: '계획의 목을 자른다.',
           },
-          'story-745829103-c36': {
-            text: '마법이 당신을 그의 곁에 고정시키게 한다',
-            description: '황혼의 존재를 받아들인다',
-          },
-        },
-      },
-      'story-745829103-19': {
-        title: '해방된 시간',
-        narration: '부적이 빛나고 파편들이 흩어지자 정원 주변에서 시간이 비틀거립니다. 꽃잎들이 낙하 도중에 얼어붙고 먼 교회 종소리가 거꾸로 울립니다. 이 새로운 자유가 무엇을 대가로 할지 결정하는 데 몇 초밖에 없습니다.',
-        choices: {
-          'story-745829103-c37': {
-            text: '갇힌 시간들을 밤으로 해방시킨다',
-            description: '정원이 운명을 선택하게 한다',
-          },
-          'story-745829103-c38': {
-            text: '정원을 영원히 시간으로부터 가둔다',
-            description: '시들더라도 마법을 봉인한다',
+          'story-9845237719284-c26': {
+            text: '밀수꾼 길로 미끄러진다.',
+            description: '측면에서 성소에 경고한다.',
           },
         },
       },
-      'story-745829103-21': {
-        title: '공유하는 일출',
-        narration: '새벽이 밝아올 때 당신은 엘리아스를 대문 너머로 인도하며, 마법이 태양을 견딜 수 있다는 증거로 하나의 빛나는 꽃을 가져갑니다. 저택은 웃음, 음악, 그리고 마침내 햇빛을 환영하는 정원과 함께 깨어납니다. 사랑과 유산이 열린 공기 속에 뿌리를 내립니다.',
+      'story-9845237719284-14': {
+        title: '수정 경간',
+        narration: '별들이 하늘을 빗질하고, 경간이 당신의 이빨에서 느껴지는 음계를 윙윙거린다. 바람이 가늘고 차가운 손가락으로 왕관을 꿰며, 언어 없는 질문을 던진다. 발자국이 위로 이어진다—다른 이들이 왔거나, 올 것이다.',
+        choices: {
+          'story-9845237719284-c27': {
+            text: '하늘 성소로 올라간다.',
+            description: '승인을 구한다.',
+          },
+          'story-9845237719284-c28': {
+            text: '가마 경로로 벗어난다.',
+            description: '먼저 점화를 멈춘다.',
+          },
+        },
+      },
+      'story-9845237719284-15': {
+        title: '맹세의 불',
+        narration: '불꽃이 길들여진 덩굴처럼 당신의 손목을 타고 올라가며 따뜻한 빛의 팔찌를 남긴다. 마을 사람들이 숨을 내쉰다—해안에 대해 스스로를 덜어내는 파도 같은 소리. 왕관이 부드러워지고 덜 무거워지며, 공유된 무게에 기뻐하는 것처럼.',
+        choices: {
+          'story-9845237719284-c29': {
+            text: '하늘 성소에 청원한다.',
+            description: '공동체의 호흡을 위로 나른다.',
+          },
+          'story-9845237719284-c30': {
+            text: '왕관의 속삭임에 대한 조언을 구한다.',
+            description: '행동하기 전에 이해한다.',
+          },
+        },
+      },
+      'story-9845237719284-16': {
+        title: '밀수꾼 길',
+        narration: '문이 있어서는 안 될 곳에 나타나고 소금 오래된 어둠 속으로 열린다. 상자들이 조용한 반항을 속삭인다: 밧줄, 기름, 정직한 수정이 있는 오래된 지도들. 발소리가 울린다—친구인지 적인지, 둘 다 되는 법을 배우는 자들.',
+        choices: {
+          'story-9845237719284-c31': {
+            text: '여기서 가마를 공격한다.',
+            description: '목으로 바로.',
+          },
+          'story-9845237719284-c32': {
+            text: '왕관의 조언을 듣는다.',
+            description: '속삭임을 위험에 빠뜨린다.',
+          },
+        },
+      },
+      'story-9845237719284-17': {
+        title: '화산 가마',
+        narration: '돌 폐가 열기를 헐떡이고, 사슬이 겨울 뼈처럼 딸그락거린다. 노동자들이 나무와 공포를 붉은 목구멍에 공급한다. 하나의 밸브가 신음한다—비명이나 침묵에서 한 번의 회전.',
+        choices: {
+          'story-9845237719284-c33': {
+            text: '밸브를 막고 도망친다.',
+            description: '파괴는 연설을 이긴다.',
+          },
+          'story-9845237719284-c34': {
+            text: '압력을 하늘 통풍구로 돌린다.',
+            description: '성소를 위한 시간을 산다.',
+          },
+        },
+      },
+      'story-9845237719284-18': {
+        title: '하늘 성소',
+        narration: '폭풍 둑 위 높은 곳에서, 흐린 유리로 만들어진 종들이 손 없이 울린다. 날씨 같은 목소리가 아무것도 묻지 않고 모든 것을 안다. 왕관이 부모의 존재 앞에 있는 것처럼 식으며, 당신이 무엇이 되었는지 보기 위해 기다린다.',
+        choices: {
+          'story-9845237719284-c35': {
+            text: '왕관의 불을 나누기를 요청한다.',
+            description: '많은 손, 가벼운 짐.',
+          },
+          'story-9845237719284-c36': {
+            text: '그것을 부술 힘을 요청한다.',
+            description: '폭군도, 도구도 아닌.',
+          },
+        },
+      },
+      'story-9845237719284-19': {
+        title: '왕관의 속삭임',
+        narration: '귀를 기울이면 합창이 답한다—과거의 담지자들이 이빨과 혀를 통해 노래한다. 그들은 더 단순한 길을 경고한다: 왕관을 깊이 쓰고, 다른 이들이 당신의 확신 주위를 공전하게 하라. 따뜻함은 꿀 맛이고, 뒷맛은 재 같다.',
+        choices: {
+          'story-9845237719284-c37': {
+            text: '유혹을 거부하고 성소를 찾는다.',
+            description: '당신은 용광로가 아니다.',
+          },
+          'story-9845237719284-c38': {
+            text: '주권으로 기운다.',
+            description: '통치는 논쟁을 끝낸다.',
+          },
+        },
+      },
+      'story-9845237719284-20': {
+        title: '최후의 접근',
+        narration: '산이 숨을 참고, 마을들도 그와 함께 숨을 참는다. 당신의 다음 행동이 내일의 열기의 형태를 결정할 것이다. 당신의 손바닥에서 왕관이 약속과 경고처럼 무겁다.',
+        choices: {
+          'story-9845237719284-c39': {
+            text: '주권자로서 왕관을 주장한다.',
+            description: '불을 당신의 의지에 굽힌다.',
+          },
+          'story-9845237719284-c40': {
+            text: '마을들과 불꽃을 나눈다.',
+            description: '많은 담지자, 폭군은 없다.',
+          },
+          'story-9845237719284-c41': {
+            text: '조용한 추방으로 떠난다.',
+            description: '왕좌와 전쟁 둘 다 거부한다.',
+          },
+          'story-9845237719284-c42': {
+            text: '성소의 말에 왕관을 부순다.',
+            description: '영원히 질문을 끝낸다.',
+          },
+        },
+      },
+      'story-9845237719284-21': {
+        title: '재의 주권자',
+        narration: '왕관이 당신의 목소리를 통해 뿌리내리고 산이 무릎 꿇는다. 마을들이 고개를 숙인다—그리고 움찔한다. 평화가 폭풍의 눈처럼 빠르게 찾아온다: 고요하고 감시된다. 당신의 지도는 구식이 된다. 당신의 이름은 그렇지 않다.',
         choices: {
         },
       },
-      'story-745829103-22': {
-        title: '산산이 부서진 주문',
-        narration: '당신은 갇힌 시간들을 해방시키며 엘리아스를 묶었던 맹세를 깨뜨립니다. 정원이 마지막 빛의 폭발과 함께 터지고 꽃들이 별먼지로 녹아듭니다. 자유는 당신들의 것이지만, 한밤의 경이는 두 사람이 미지의 미래로 가져가는 기억이 됩니다.',
+      'story-9845237719284-22': {
+        title: '나눈 불꽃',
+        narration: '당신이 왕관을 들어올리면 그것이 빵처럼 나뉘고, 잔불이 많은 손에 뿌리를 내린다. 가마가 식고, 전쟁군주의 계획은 공동체에 질식되어 죽는다. 축제가 수비대가 있었을 곳에 피어나고, 지도는 합창으로 그려진다.',
         choices: {
         },
       },
-      'story-745829103-23': {
-        title: '바래는 꽃잎들',
-        narration: '당신은 엘리아스를 저주에서 구하기 위해 정원을 봉인하지만, 마법은 달 없이는 시들어버립니다. 저택은 조용해지고, 꽃들은 초상화와 꿈 속에서만 보존됩니다. 매일 밤 다른 선택이 당신이 희생한 아름다움을 구할 수 있었을지 궁금해합니다.',
+      'story-9845237719284-23': {
+        title: '조용한 추방',
+        narration: '당신은 종들이 당신을 다정하게 기억하는 곳에 왕관을 남긴다. 산은 불안하게 졸지만 결코 화나서 깨어나지 않는다. 몇 년 후, 아이들이 바람을 들으며 재 들판을 가로질러 안전한 길을 그리는 여행하는 지도 제작자를 따른다.',
+        choices: {
+        },
+      },
+      'story-9845237719284-24': {
+        title: '부서진 왕관',
+        narration: '돌 위에 치면 금이 유리처럼 비명을 지르고, 잔불이 뛰어오른 다음 부드럽고 평범한 따뜻함으로 가라앉는다. 성소가 안도의 한숨을 쉬고, 역사는 만났을지도 모르는 폭군을 잃는다. 당신의 손은 겨울밤에 희미한 빛을 유지한다—차를 끓이기에 충분하다.',
         choices: {
         },
       },

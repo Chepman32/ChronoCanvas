@@ -1,0 +1,383 @@
+{
+  "meta": {
+    "storyId": "story-9932045517721",
+    "language": "fr",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.399Z"
+  },
+  "story": {
+    "title": "Le Pacte du Tisseur de Racines",
+    "author": "Studio ChronoCanvas",
+    "description": "Des lettres gravées par la sève saignent à travers l'écorce : l'arbre-monde est malade. Tu peux entendre son pouls si tu colles ton oreille contre le grain, et si tu oses, tu peux répondre. Guériras-tu avec la mémoire, négocieras-tu avec les fées, ou couperas-tu ce qui doit être coupé ?",
+    "genre": [
+      "fantaisie",
+      "mystère"
+    ],
+    "difficulty": "facile",
+    "estimatedDuration": 27
+  },
+  "nodes": [
+    {
+      "id": "story-9932045517721-1",
+      "type": "start",
+      "title": "Racines Chuchotantes",
+      "narration": "La mousse enveloppe les racines où pendaient autrefois les lanternes du marché ; maintenant elles vacillent d'un souffle incertain. En pressant ton oreille contre l'écorce, tu entends un pouls lent comme la marée et de faibles mots façonnés par la sève : « Aide-moi à me souvenir ». L'air a le goût de pluie de fer et de tonnerre vert.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c1",
+          "text": "Va au marché des racines.",
+          "description": "Trouve des ragots et des guides."
+        },
+        {
+          "id": "story-9932045517721-c2",
+          "text": "Cherche la source du voile.",
+          "description": "L'eau garde les vieilles vérités."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-2",
+      "type": "decision",
+      "title": "Marché Sous l'Arbre",
+      "narration": "Les vendeurs tressent des lianes en amulettes et empilent des champignons qui brillent comme des lunes. Une archiviste aveugle en manteau d'écorce sent tes mains et hoche la tête, reconnaissant l'odeur de sève. « Les fils de mémoire se brisent », dit-elle. « Tu auras besoin d'un vœu ou d'un prix ».",
+      "choices": [
+        {
+          "id": "story-9932045517721-c3",
+          "text": "Consulte les tomes de l'archiviste.",
+          "description": "Connaissance avant action."
+        },
+        {
+          "id": "story-9932045517721-c4",
+          "text": "Achète des spores lumineuses pour guidance.",
+          "description": "Lumière qui écoute."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-3",
+      "type": "decision",
+      "title": "Source du Voile",
+      "narration": "La source exhale un brouillard qui se courbe en lettres à demi formées au-dessus du bassin. Les pièces tombées sont couvertes de vert et bourdonnent quand tu bourdonnes en retour, accordant le ton. Des empreintes de pas encerclent la berge et disparaissent dans une porte creuse de racines.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c5",
+          "text": "Entre par la porte creuse.",
+          "description": "Suis les empreintes."
+        },
+        {
+          "id": "story-9932045517721-c6",
+          "text": "Récolte un flacon d'eau du voile.",
+          "description": "Un outil pour plus tard."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-4",
+      "type": "decision",
+      "title": "Archiviste d'Écorce",
+      "narration": "Des pages cousues de fibre de racine bruissent sous tes doigts. Les marges chuchotent quand l'archiviste souffle dessus : « Les vœux lient la mémoire. Les pactes l'empruntent ». Un anneau de bois stratifié repose dans un creux de velours, son grain en spirale avec des mots trop petits pour être lus.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c7",
+          "text": "Prends l'anneau de vœu.",
+          "description": "Lie-toi à l'arbre."
+        },
+        {
+          "id": "story-9932045517721-c8",
+          "text": "Copie la carte des racines.",
+          "description": "Chemins vers le cœur du bois."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-5",
+      "type": "decision",
+      "title": "Spores Lumineuses",
+      "narration": "Les spores capturent ton souffle, puis clignotent éveillées comme de minuscules yeux. Tenues dans l'obscurité, elles s'épanouissent en une carte de pas possibles – plus le point est brillant, plus le résultat est bienveillant. Dans leur pénombre, tu vois deux options fortes pulser.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c9",
+          "text": "Suis les spores vers la voûte de la carte des racines.",
+          "description": "Laisse la lumière guider."
+        },
+        {
+          "id": "story-9932045517721-c10",
+          "text": "Tente l'épreuve des spores seul.",
+          "description": "Prouve ta valeur sans serment."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-6",
+      "type": "decision",
+      "title": "Porte Creuse",
+      "narration": "Les racines s'arquent comme des côtes ; l'air sent la pluie de sous et la menthe meurtrie. Gravé dans l'écorce à hauteur d'épaule : des marques de comptage se terminant par un cœur. Un tintement lointain répond à ton pas comme si un pont était pincé comme une harpe.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c11",
+          "text": "Entreprends l'épreuve des spores.",
+          "description": "Laisse l'arbre te tester."
+        },
+        {
+          "id": "story-9932045517721-c12",
+          "text": "Paie le péage du pont d'épines.",
+          "description": "Traite avec les fées maintenant."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-7",
+      "type": "decision",
+      "title": "Anneau de Vœu",
+      "narration": "Du bois frais comme l'ombre de rivière glisse sur ton doigt et se resserre jusqu'à être confortable. Une ligne de texte se déroule dans ton esprit – pas un commandement, une promesse. L'arbre bourdonne d'approbation, bas et soulagé.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c13",
+          "text": "Suis un fil de mémoire vers l'intérieur.",
+          "description": "Marche sur d'anciens pas rendus nouveaux."
+        },
+        {
+          "id": "story-9932045517721-c14",
+          "text": "Sculpte un totem d'écorce pour un voyage sûr.",
+          "description": "Un petit gardien."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-8",
+      "type": "decision",
+      "title": "Voûte de la Carte des Racines",
+      "narration": "Une porte sans charnières s'ouvre quand tu respires la bonne note. À l'intérieur, les cartes montrent des anneaux comme des années dans une souche, chaque anneau un quartier de chemins. Un chemin – la « porte de moelle » – est marqué d'un sceau d'avertissement en forme d'œil endormi.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c15",
+          "text": "Prends la route du fil de mémoire.",
+          "description": "Plus sûre, plus lente."
+        },
+        {
+          "id": "story-9932045517721-c16",
+          "text": "Essaie quand même la porte de moelle.",
+          "description": "Rapide, risquée."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-9",
+      "type": "decision",
+      "title": "Épreuve des Spores",
+      "narration": "Les spores remplissent tes lèvres de lumière et de vérité. Quand tu prononces ton nom, trois autres noms arrivent – des soi qui auraient pu être, chacun offrant un outil. L'arbre attend de voir lequel tu empruntes.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c17",
+          "text": "Emprunte le fil du cartographe patient.",
+          "description": "Cartographie d'abord, répare ensuite."
+        },
+        {
+          "id": "story-9932045517721-c18",
+          "text": "Emprunte la lame de l'herboriste audacieux.",
+          "description": "Coupe la pourriture, épargne le chant."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-10",
+      "type": "decision",
+      "title": "Péage des Fées",
+      "narration": "Un pont d'épines vivantes bourdonne comme des abeilles. Un collecteur de fées avec une couronne de pissenlit sourit trop largement : « Un souvenir, s'il te plaît. Nous te le rendrons quand tu seras quelqu'un d'autre ». Le vent refuse d'aider.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c19",
+          "text": "Paie avec un souvenir heureux.",
+          "description": "Perds la douceur ; gagne le passage."
+        },
+        {
+          "id": "story-9932045517721-c20",
+          "text": "Négocie plutôt une rénovation.",
+          "description": "Propose de réparer le pont."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-11",
+      "type": "decision",
+      "title": "Fil de Mémoire",
+      "narration": "Un fil argenté tire de ta côte vers un tunnel parsemé de lumière. Chaque pas chante un accord que tu reconnais des berceuses de l'enfance. Le fil se divise : un chemin pulse régulier comme un battement de cœur ; l'autre tremble comme la foudre.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c21",
+          "text": "Suis le pouls régulier.",
+          "description": "Vers la chambre du pouls."
+        },
+        {
+          "id": "story-9932045517721-c22",
+          "text": "Poursuis le chemin de la foudre.",
+          "description": "Risque pour la vitesse."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-12",
+      "type": "decision",
+      "title": "Totem d'Écorce",
+      "narration": "Tu sculpes un petit gardien avec des oreilles comme des feuilles et une bouche pleine de promesses. Quand tu souffles dessus, le totem goûte ton souffle et pointe, pattes fermes. Il ne se battra pas, mais il avertira.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c23",
+          "text": "Procède à la chambre du pouls.",
+          "description": "Où le battement hésite."
+        },
+        {
+          "id": "story-9932045517721-c24",
+          "text": "Glisse-toi dans le terrier des rêves.",
+          "description": "Apprends en dormant."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-13",
+      "type": "decision",
+      "title": "Porte de Moelle",
+      "narration": "La porte s'ouvre comme un œil qui cligne. L'air à l'intérieur a le goût de vieux sucre et de pourriture de pluie. Des voix murmurent dans les anneaux, chacun une année que tu as vécue et que tu n'as pas vécue.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c25",
+          "text": "Vise le cœur du bois.",
+          "description": "Au-delà des anneaux."
+        },
+        {
+          "id": "story-9932045517721-c26",
+          "text": "Détour par la cour des épines.",
+          "description": "Paie la dette différemment."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-14",
+      "type": "decision",
+      "title": "Terrier des Rêves",
+      "narration": "Le sommeil vient vite comme la mousse. Dans le rêve, l'arbre te montre une racine fendue – une moitié glissante avec l'obscurité, l'autre pâle et assoiffée. Un cerf aux yeux de lanterne hoche la tête vers une porte faite de côtes.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c27",
+          "text": "Réveille-toi et dirige-toi vers le cœur du bois.",
+          "description": "Les rêves sont des cartes."
+        },
+        {
+          "id": "story-9932045517721-c28",
+          "text": "Cherche plutôt la chambre du pouls.",
+          "description": "Stabilise avant la chirurgie."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-15",
+      "type": "decision",
+      "title": "Cour des Épines",
+      "narration": "Les lutins d'épines se prélassent comme des chats, toilettant des barbelés. Le collecteur à couronne de pissenlit applaudit ton audace. « Un pacte alors : répare trois barbelés cassés, et nous pardonnons une dette de mémoire ».",
+      "choices": [
+        {
+          "id": "story-9932045517721-c29",
+          "text": "Répare les barbelés avec de la colle de sève.",
+          "description": "Le travail achète la grâce."
+        },
+        {
+          "id": "story-9932045517721-c30",
+          "text": "Offre une faveur future.",
+          "description": "Dois aux fées plus tard."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-16",
+      "type": "decision",
+      "title": "Chambre du Pouls",
+      "narration": "Les murs pulsent d'une lumière lente ; la résine perle comme des larmes. Tu places l'anneau de vœu contre le grain et sens ton battement de cœur se tresser avec celui de l'arbre. Le rythme se stabilise – assez pour risquer une coupe plus profonde.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c31",
+          "text": "Ouvre un chemin vers le cœur du bois.",
+          "description": "Maintenant, ou jamais."
+        },
+        {
+          "id": "story-9932045517721-c32",
+          "text": "Appelle les fées pour témoigner.",
+          "description": "Partage le blâme, partage le pouvoir."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-17",
+      "type": "decision",
+      "title": "Cœur du Bois",
+      "narration": "Le centre n'est pas vide ; il est plein de calme. Des fils de lumière courent comme des veines à travers le bois couleur miel. Un nœud sombre pulse irrégulièrement, épanouissant un parfum amer à chaque battement.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c33",
+          "text": "Tisse des fils de mémoire autour du nœud.",
+          "description": "Guéris en te souvenant."
+        },
+        {
+          "id": "story-9932045517721-c34",
+          "text": "Coupe le nœud avec la lame de l'herboriste.",
+          "description": "Blesse pour aider."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-18",
+      "type": "decision",
+      "title": "Faille de Rupture",
+      "narration": "L'arbre ouvre une bouche là où il n'y avait pas de bouche, montrant la nuit à travers le jour – un dehors qui ne correspond pas. Le vent a le goût de pièces et de berceuses. Ton prochain choix fixera la dette, le remède et le coût.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c35",
+          "text": "Couronne les anneaux de ton vœu.",
+          "description": "Lie-toi comme gardien."
+        },
+        {
+          "id": "story-9932045517721-c36",
+          "text": "Accepte la protection des fées et leur prix.",
+          "description": "Une forêt plus sûre, une laisse."
+        },
+        {
+          "id": "story-9932045517721-c37",
+          "text": "Divise la pourriture ; redirige la croissance.",
+          "description": "Taille douce-amère."
+        },
+        {
+          "id": "story-9932045517721-c38",
+          "text": "Sépare entièrement la racine infectée.",
+          "description": "Sauve le tout, exile la partie."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-19",
+      "type": "ending",
+      "title": "Couronne d'Anneaux",
+      "narration": "Ton vœu entrelace les anneaux en une cadence plus lumineuse. Les lanternes du marché apprennent ton battement de cœur et gardent le temps avec lui. Les enfants grandissent en pensant que les arbres bourdonnent comme ça partout.",
+      "choices": []
+    },
+    {
+      "id": "story-9932045517721-20",
+      "type": "ending",
+      "title": "Chemin Fragmenté",
+      "narration": "Tu divises la pourriture et rediriges la croissance ; un quartier reste en jachère pour que le reste puisse chanter. Les gens déménagent, pleurent, puis construisent de nouveaux marchés où les champignons répondent gentiment au chant. L'arbre respire plus facilement avec une joie douce et compliquée.",
+      "choices": []
+    },
+    {
+      "id": "story-9932045517721-21",
+      "type": "ending",
+      "title": "Registre des Fées",
+      "narration": "Les lutins d'épines patrouillent les frontières et les voleurs disparaissent comme du pollen dans le vent. La forêt est plus sûre ; tes choix aussi. Une fois par an, le collecteur tape sur ton épaule et prend un petit souvenir comme une dîme – jamais cruel, toujours contraignant.",
+      "choices": []
+    },
+    {
+      "id": "story-9932045517721-22",
+      "type": "ending",
+      "title": "Exil sans Racines",
+      "narration": "Tu sépares la racine noire avec un cri qui secoue les oiseaux de miles de branches. L'arbre survit et oublie la douleur ; la racine exilée rampe vers un horizon lointain, cherchant un nom auquel tu ne réponds plus. Tu dors plus légèrement, rêvant de pas qui ne rattrapent jamais tout à fait.",
+      "choices": []
+    }
+  ]
+}

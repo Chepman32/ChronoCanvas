@@ -1,0 +1,383 @@
+{
+  "meta": {
+    "storyId": "story-9932045517721",
+    "language": "de",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.399Z"
+  },
+  "story": {
+    "title": "Der Pakt des Wurzelwebers",
+    "author": "ChronoCanvas Studio",
+    "description": "In Saft geschnitzte Buchstaben bluten durch die Rinde: Der Weltenbaum ist krank. Du kannst seinen Puls hören, wenn du dein Ohr an die Maserung drückst – und wenn du es wagst, kannst du antworten. Wirst du mit Erinnerung heilen, mit Feen verhandeln oder schneiden, was geschnitten werden muss?",
+    "genre": [
+      "Fantasy",
+      "Mystery"
+    ],
+    "difficulty": "einfach",
+    "estimatedDuration": 27
+  },
+  "nodes": [
+    {
+      "id": "story-9932045517721-1",
+      "type": "start",
+      "title": "Flüsternde Wurzeln",
+      "narration": "Moos umschließt die Wurzeln, wo einst Marktlaternen hingen; jetzt flackern sie mit unsicherem Atem. Wenn du dein Ohr an die Rinde drückst, hörst du einen gezeitenlangsamen Puls und schwache, von Saft geformte Worte: \"Hilf mir zu erinnern.\" Die Luft schmeckt nach Eisenregen und grünem Donner.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c1",
+          "text": "Gehe zum Wurzelmarkt.",
+          "description": "Finde Klatsch und Führer."
+        },
+        {
+          "id": "story-9932045517721-c2",
+          "text": "Suche die Schleierquelle.",
+          "description": "Wasser bewahrt alte Wahrheiten."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-2",
+      "type": "decision",
+      "title": "Markt unter dem Baum",
+      "narration": "Händler flechten Ranken zu Amuletten und stapeln Pilze, die wie Monde leuchten. Eine blinde Archivarin im Rindenmantel riecht an deinen Händen und nickt, den Saftgeruch erkennend. \"Erinnerungsfäden reißen\", sagt sie. \"Du wirst ein Gelübde oder einen Preis brauchen.\"",
+      "choices": [
+        {
+          "id": "story-9932045517721-c3",
+          "text": "Befrage die Folianten der Archivarin.",
+          "description": "Wissen vor Handlung."
+        },
+        {
+          "id": "story-9932045517721-c4",
+          "text": "Kaufe Leuchtsporen zur Führung.",
+          "description": "Licht, das zuhört."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-3",
+      "type": "decision",
+      "title": "Schleierquelle",
+      "narration": "Die Quelle atmet Nebel aus, der sich über dem Teich zu halbgeformten Buchstaben kräuselt. Gefallene Münzen sind grün bepelzt und summen, wenn du zurücksummst und den Ton triffst. Fußspuren umkreisen das Ufer und verschwinden in einem hohlen Tor aus Wurzeln.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c5",
+          "text": "Betrete das hohle Tor.",
+          "description": "Folge den Fußspuren."
+        },
+        {
+          "id": "story-9932045517721-c6",
+          "text": "Sammle eine Phiole Schleierwasser.",
+          "description": "Ein Werkzeug für später."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-4",
+      "type": "decision",
+      "title": "Rindenarchivarin",
+      "narration": "Mit Wurzelfasern genähte Seiten rascheln unter deinen Fingern. Ränder flüstern, wenn die Archivarin sie anhaucht: \"Gelübde binden Erinnerung. Pakte leihen sie.\" Ein Ring aus geschichtetem Holz liegt in einer samtenen Mulde, seine Maserung spiralförmig mit zu kleinen Worten beschrieben.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c7",
+          "text": "Nimm den Gelübdering.",
+          "description": "Binde dich an den Baum."
+        },
+        {
+          "id": "story-9932045517721-c8",
+          "text": "Kopiere die Wurzelkarte.",
+          "description": "Pfade zum Kernholz."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-5",
+      "type": "decision",
+      "title": "Leuchtsporen",
+      "narration": "Die Sporen fangen deinen Atem ein, dann blinken sie wach wie winzige Augen. In der Dunkelheit gehalten, erblühen sie zu einer Karte möglicher Schritte – je heller der Punkt, desto freundlicher das Ergebnis. In ihrem Dämmerlicht siehst du zwei starke Optionen pulsieren.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c9",
+          "text": "Folge den Sporen zum Wurzelkarten-Gewölbe.",
+          "description": "Lass Licht führen."
+        },
+        {
+          "id": "story-9932045517721-c10",
+          "text": "Versuche die Sporenprüfung allein.",
+          "description": "Beweise Wert ohne Eid."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-6",
+      "type": "decision",
+      "title": "Hohles Tor",
+      "narration": "Wurzeln wölben sich wie Rippen; die Luft riecht nach Pfennigregen und gequetschter Minze. In die Rinde auf Schulterhöhe geritzt: Strichlisten, die mit einem Herz enden. Ein fernes Klingeln antwortet auf deinen Schritt, als würde eine Brücke wie eine Harfe gezupft.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c11",
+          "text": "Unternimm die Sporenprüfung.",
+          "description": "Lass den Baum dich prüfen."
+        },
+        {
+          "id": "story-9932045517721-c12",
+          "text": "Zahle den Zoll der Dornenbrücke.",
+          "description": "Handle jetzt mit den Feen."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-7",
+      "type": "decision",
+      "title": "Gelübdering",
+      "narration": "Holz, kühl wie Flussschatten, gleitet über deinen Finger und zieht sich fest, bis es bequem sitzt. Eine Textzeile entrollt sich in deinem Geist – kein Befehl, ein Versprechen. Der Baum summt zustimmend, tief und erleichtert.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c13",
+          "text": "Folge einem Erinnerungsfaden nach innen.",
+          "description": "Wandle alte Schritte neu gemacht."
+        },
+        {
+          "id": "story-9932045517721-c14",
+          "text": "Schnitze ein Rindentotem für sichere Reise.",
+          "description": "Ein kleiner Wächter."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-8",
+      "type": "decision",
+      "title": "Wurzelkarten-Gewölbe",
+      "narration": "Eine Tür ohne Scharniere öffnet sich, wenn du die richtige Note atmest. Drinnen zeigen Karten Ringe wie Jahre in einem Baumstumpf, jeder Ring ein Bezirk von Pfaden. Ein Pfad – die \"Marktür\" – ist mit einem Warnsigil markiert, geformt wie ein schläfriges Auge.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c15",
+          "text": "Nimm die Erinnerungsfaden-Route.",
+          "description": "Sicherer, langsamer."
+        },
+        {
+          "id": "story-9932045517721-c16",
+          "text": "Versuche trotzdem die Marktür.",
+          "description": "Schnell, riskant."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-9",
+      "type": "decision",
+      "title": "Sporenprüfung",
+      "narration": "Sporen füllen deine Lippen mit Leuchten und Wahrheit. Wenn du deinen Namen sprichst, kommen drei andere Namen – Selbste, die hätten sein können, jedes bietet ein Werkzeug. Der Baum wartet darauf zu sehen, welches du leihst.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c17",
+          "text": "Leihe den Faden des geduldigen Kartographen.",
+          "description": "Zuerst kartieren, dann heilen."
+        },
+        {
+          "id": "story-9932045517721-c18",
+          "text": "Leihe die Klinge des mutigen Kräuterkundlers.",
+          "description": "Fäulnis schneiden, Lied bewahren."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-10",
+      "type": "decision",
+      "title": "Feenzoll",
+      "narration": "Eine Brücke aus lebenden Dornen summt wie Bienen. Ein Feensammler mit Löwenzahnkrone lächelt zu breit: \"Eine Erinnerung, bitte. Wir geben sie zurück, wenn du jemand anderes bist.\" Der Wind weigert sich zu helfen.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c19",
+          "text": "Zahle mit einer glücklichen Erinnerung.",
+          "description": "Verliere Süße; gewinne Durchgang."
+        },
+        {
+          "id": "story-9932045517721-c20",
+          "text": "Handle stattdessen eine Renovierung aus.",
+          "description": "Biete an, die Brücke zu reparieren."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-11",
+      "type": "decision",
+      "title": "Erinnerungsfaden",
+      "narration": "Ein silberner Faden zieht von deiner Rippe zu einem mit Leuchten gesprenkelten Tunnel. Jeder Schritt singt einen Akkord, den du aus Kindheitswiegenliedern erkennst. Der Faden teilt sich: Ein Weg pulsiert stetig wie ein Herzschlag; der andere zuckt wie Blitz.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c21",
+          "text": "Folge dem stetigen Puls.",
+          "description": "Zur Pulskammer."
+        },
+        {
+          "id": "story-9932045517721-c22",
+          "text": "Jage den Blitzpfad.",
+          "description": "Risiko für Geschwindigkeit."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-12",
+      "type": "decision",
+      "title": "Rindentotem",
+      "narration": "Du schnitzt einen kleinen Wächter mit Ohren wie Blätter und einem Mund voller Versprechen. Wenn du darauf bläst, kostet das Totem deinen Atem und zeigt, Pfoten standhaft. Es wird nicht kämpfen, aber es wird warnen.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c23",
+          "text": "Gehe zur Pulskammer.",
+          "description": "Wo der Schlag stockt."
+        },
+        {
+          "id": "story-9932045517721-c24",
+          "text": "Schlüpfe in den Traumbau.",
+          "description": "Lerne durch Schlafen."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-13",
+      "type": "decision",
+      "title": "Marktür",
+      "narration": "Die Tür öffnet sich wie ein blinzelndes Auge. Die Luft drinnen schmeckt nach altem Zucker und Regenfäulnis. Stimmen murmeln in Ringen, jeder ein Jahr, das du gelebt hast und nicht gelebt hast.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c25",
+          "text": "Ziele auf das Kernholz.",
+          "description": "Vorbei an den Ringen."
+        },
+        {
+          "id": "story-9932045517721-c26",
+          "text": "Umweg durch den Dornenhof.",
+          "description": "Zahle die Schuld anders."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-14",
+      "type": "decision",
+      "title": "Traumbau",
+      "narration": "Schlaf kommt schnell wie Moos. Im Traum zeigt dir der Baum eine gespaltene Wurzel – eine Hälfte glitschig mit Dunkelheit, die andere bleich und durstig. Ein Reh mit Laternenaugen nickt zu einer Tür aus Rippen.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c27",
+          "text": "Erwache und gehe zum Kernholz.",
+          "description": "Träume sind Karten."
+        },
+        {
+          "id": "story-9932045517721-c28",
+          "text": "Suche stattdessen die Pulskammer.",
+          "description": "Stabilisiere vor Operation."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-15",
+      "type": "decision",
+      "title": "Dornenhof",
+      "narration": "Dornenkobolde fläzen sich wie Katzen und pflegen Widerhaken. Der löwenzahngekrönte Sammler applaudiert deiner Kühnheit. \"Ein Pakt also: Repariere drei zerbrochene Widerhaken, und wir vergeben eine Erinnerungsschuld.\"",
+      "choices": [
+        {
+          "id": "story-9932045517721-c29",
+          "text": "Repariere die Widerhaken mit Saftleim.",
+          "description": "Arbeit erkauft Gnade."
+        },
+        {
+          "id": "story-9932045517721-c30",
+          "text": "Biete einen zukünftigen Gefallen.",
+          "description": "Schulde den Feen später."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-16",
+      "type": "decision",
+      "title": "Pulskammer",
+      "narration": "Wände pulsieren mit langsamem Licht; Harz perlt wie Tränen. Du legst den Gelübdering gegen die Maserung und fühlst, wie dein Herzschlag sich mit dem des Baumes verflicht. Der Rhythmus stabilisiert sich – genug, um einen tieferen Schnitt zu riskieren.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c31",
+          "text": "Öffne einen Pfad zum Kernholz.",
+          "description": "Jetzt, oder gar nicht."
+        },
+        {
+          "id": "story-9932045517721-c32",
+          "text": "Rufe die Feen als Zeugen.",
+          "description": "Teile Schuld, teile Macht."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-17",
+      "type": "decision",
+      "title": "Kernholz",
+      "narration": "Das Zentrum ist nicht leer; es ist voll von Stille. Lichtfäden laufen wie Adern durch honigfarbenes Holz. Ein dunkler Knoten pulsiert unregelmäßig und verströmt bei jedem Schlag einen bitteren Duft.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c33",
+          "text": "Webe Erinnerungsfäden um den Knoten.",
+          "description": "Heile durch Erinnern."
+        },
+        {
+          "id": "story-9932045517721-c34",
+          "text": "Schneide den Knoten mit der Klinge des Kräuterkundlers.",
+          "description": "Verletze um zu helfen."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-18",
+      "type": "decision",
+      "title": "Bruchriss",
+      "narration": "Der Baum öffnet einen Mund, wo kein Mund war, zeigt Nacht durch Tag – ein Draußen, das nicht passt. Wind schmeckt nach Münzen und Wiegenliedern. Deine nächste Wahl wird die Schuld, die Heilung und den Preis festlegen.",
+      "choices": [
+        {
+          "id": "story-9932045517721-c35",
+          "text": "Kröne die Ringe mit deinem Gelübde.",
+          "description": "Binde dich als Hüter."
+        },
+        {
+          "id": "story-9932045517721-c36",
+          "text": "Akzeptiere Feenschutz und ihren Preis.",
+          "description": "Ein sicherer Wald, eine Leine."
+        },
+        {
+          "id": "story-9932045517721-c37",
+          "text": "Teile die Fäulnis; leite Wachstum um.",
+          "description": "Bittersüßes Beschneiden."
+        },
+        {
+          "id": "story-9932045517721-c38",
+          "text": "Trenne die infizierte Wurzel ganz ab.",
+          "description": "Rette das Ganze, verbannen den Teil."
+        }
+      ]
+    },
+    {
+      "id": "story-9932045517721-19",
+      "type": "ending",
+      "title": "Krone der Ringe",
+      "narration": "Dein Gelübde verwindet die Ringe zu einer helleren Kadenz. Marktlaternen lernen deinen Herzschlag und halten damit Takt. Kinder wachsen auf und denken, Bäume summen überall so.",
+      "choices": []
+    },
+    {
+      "id": "story-9932045517721-20",
+      "type": "ending",
+      "title": "Zersplitterter Pfad",
+      "narration": "Du spaltest die Fäulnis und leitest das Wachstum um; ein Bezirk liegt brach, damit der Rest singen kann. Menschen ziehen um, trauern und bauen dann neue Märkte, wo Pilze freundlich auf Lied reagieren. Der Baum atmet leichter mit sanfter, komplizierter Freude.",
+      "choices": []
+    },
+    {
+      "id": "story-9932045517721-21",
+      "type": "ending",
+      "title": "Feenhauptbuch",
+      "narration": "Dornenkobolde patrouillieren die Grenzen und Diebe verschwinden wie Pollen im Wind. Der Wald ist sicherer; so sind deine Entscheidungen. Einmal im Jahr tippt der Sammler auf deine Schulter und nimmt eine kleine Erinnerung wie einen Zehnten – niemals grausam, immer bindend.",
+      "choices": []
+    },
+    {
+      "id": "story-9932045517721-22",
+      "type": "ending",
+      "title": "Wurzelloses Exil",
+      "narration": "Du trennst die schwarze Wurzel mit einem Schrei ab, der Vögel aus meilenweiten Ästen erschüttert. Der Baum überlebt und vergisst den Schmerz; die verbannte Wurzel kriecht zu einem fernen Horizont und sucht einen Namen, den du nicht mehr beantwortest. Du schläfst leichter und träumst von Schritten, die niemals ganz aufholen.",
+      "choices": []
+    }
+  ]
+}
