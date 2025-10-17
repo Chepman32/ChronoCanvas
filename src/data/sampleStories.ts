@@ -15,12 +15,6 @@ import { midnightMissingStory } from './story7481296_midnightMissing';
 import { shadowsVanishedStarStory } from './story8273910265_shadowsVanishedStar';
 import { midnightCallerStory } from './story847362910_midnightCaller';
 import { cosmicCastawayStory } from './story10012001_cosmicCastaway';
-import { digitalRebellionStory } from './story10012002_digitalRebellion';
-import { chanceEncounterStory } from './story10012003_chanceEncounter';
-import { heartsDividedStory } from './story10012004_heartsDivided';
-import { murderMansionStory } from './story10012005_murderMansion';
-import { templeOfSecretsStory } from './story10012006_templeOfSecrets';
-import { sandsOfFateStory } from './story10012007_sandsOfFate';
 
 const originalStories: Story[] = [
   {
@@ -232,10 +226,4 @@ export const sampleStories: Story[] = [
   shadowsVanishedStarStory,
   midnightCallerStory,
   cosmicCastawayStory,
-  digitalRebellionStory,
-  chanceEncounterStory,
-  heartsDividedStory,
-  murderMansionStory,
-  templeOfSecretsStory,
-  sandsOfFateStory,
 ];

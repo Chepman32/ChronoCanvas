@@ -3,7 +3,7 @@
     "version": "2.0",
     "structure": "folder-per-story",
     "generatedAt": "2025-01-21T00:00:00.000Z",
-    "totalStories": 24,
+    "totalStories": 18,
     "description": "Index of all story translations - each story has its own folder"
   },
   "structure": {
@@ -190,66 +190,6 @@
       "difficulty": "medium",
       "nodes": 7,
       "folder": "story-10012001",
-      "availableLanguages": ["en"]
-    },
-    {
-      "id": "story-10012002",
-      "title": "Digital Rebellion",
-      "author": "Jax Harper",
-      "genre": ["scifi", "adventure"],
-      "difficulty": "hard",
-      "nodes": 7,
-      "folder": "story-10012002",
-      "availableLanguages": ["en"]
-    },
-    {
-      "id": "story-10012003",
-      "title": "Chance Encounter",
-      "author": "Sasha Nguyen",
-      "genre": ["romance"],
-      "difficulty": "easy",
-      "nodes": 7,
-      "folder": "story-10012003",
-      "availableLanguages": ["en"]
-    },
-    {
-      "id": "story-10012004",
-      "title": "Hearts Divided",
-      "author": "Amelia Thornton",
-      "genre": ["romance"],
-      "difficulty": "medium",
-      "nodes": 7,
-      "folder": "story-10012004",
-      "availableLanguages": ["en"]
-    },
-    {
-      "id": "story-10012005",
-      "title": "Murder at the Mansion",
-      "author": "Inspector Greyson Ward",
-      "genre": ["detective", "mystery"],
-      "difficulty": "medium",
-      "nodes": 6,
-      "folder": "story-10012005",
-      "availableLanguages": ["en"]
-    },
-    {
-      "id": "story-10012006",
-      "title": "Temple of Secrets",
-      "author": "Dr. Maya Castillo",
-      "genre": ["adventure"],
-      "difficulty": "medium",
-      "nodes": 9,
-      "folder": "story-10012006",
-      "availableLanguages": ["en"]
-    },
-    {
-      "id": "story-10012007",
-      "title": "Sands of Fate",
-      "author": "Professor Leila Farouk",
-      "genre": ["adventure"],
-      "difficulty": "easy",
-      "nodes": 7,
-      "folder": "story-10012007",
       "availableLanguages": ["en"]
     }
   ],

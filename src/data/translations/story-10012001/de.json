@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "storyId": "story-10012001",
+    "language": "de",
+    "version": "1.0",
+    "lastUpdated": "2025-01-21T00:00:00.000Z"
+  },
+  "story": {
+    "title": "Kosmischer Schiffbrüchiger",
+    "author": "Kommandantin Lyra Hayes",
+    "description": "In einem sterbenden Raumschiff erwacht, musst du entscheiden, ob du auf Notreparaturen setzt oder einen unerforschten Planeten unter dir riskierst. Jede Entscheidung zieht dich tiefer in einen Kampf ums Überleben, weit weg von zu Hause.",
+    "genre": [
+      "Science-Fiction",
+      "Abenteuer"
+    ],
+    "difficulty": "mittel",
+    "estimatedDuration": 20
+  },
+  "nodes": [
+    {
+      "id": "story-10012001-1",
+      "type": "start",
+      "title": "Katastrophales Erwachen",
+      "narration": "Du schreckt auf, Alarme heulen und Lichter flackern. Dein Raumschiff wurde von Trümmern getroffen und treibt nun im Nichts. Der Rumpf ist durchbrochen und der Sauerstoff wird knapp. Durch das Cockpitfenster siehst du einen trostlosen Planeten unter dir und die endlose Weite der Sterne. Mit ausgefallener Kommunikation und versagenden Systemen musst du schnell handeln, wenn du überleben willst.",
+      "choices": [
+        {
+          "id": "story-10012001-c1",
+          "text": "Versuche, die Systeme des Schiffes zu reparieren und Hilfe zu rufen",
+          "description": null
+        },
+        {
+          "id": "story-10012001-c2",
+          "text": "Verlasse das Schiff in einer Rettungskapsel Richtung Planet",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-10012001-2",
+      "type": "decision",
+      "title": "Kritische Reparaturen",
+      "narration": "Du bleibst an Bord, dein Herz hämmert, während du durch die verkrüppelte Kabine schwebst. Die Sauerstoffanzeige sinkt. Funken sprühen aus einer beschädigten Konsole. Du hast begrenzte Zeit und Werkzeuge. Du stabilisierst deine Atmung und erwägst deine Optionen. Die Kommunikationsanlage ist offline und die Lebenserhaltung versagt. Wenn du eines davon reparieren kannst, könnte es den Unterschied zwischen Leben und Tod bedeuten.",
+      "choices": [
+        {
+          "id": "story-10012001-c3",
+          "text": "Repariere die Kommunikationsanlage, um Rettung zu rufen",
+          "description": null
+        },
+        {
+          "id": "story-10012001-c4",
+          "text": "Konzentriere dich auf das Lebenserhaltungssystem, um mehr Zeit zu gewinnen",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-10012001-3",
+      "type": "decision",
+      "title": "Abstieg der Rettungskapsel",
+      "narration": "Du entscheidest, dass das Schiff nicht mehr zu retten ist, versiegelst deinen Helm und kletterst in die Einpersonen-Rettungskapsel. Mit einem Zischen wird sie ausgestoßen. Durch ein kleines Bullauge beobachtest du, wie dein zerstörtes Schiff zurückweicht. Die Kapsel rast auf die Planetenoberfläche zu und rüttelt heftig. Du machst dich bereit und Augenblicke später stürzt du auf einer kargen, felsigen Ebene unter einem fremden Himmel ab. Taumelnd steigst du aus und überblickst endlose rote Wüsten und zerklüftete Berge. Die Systeme der Kapsel sind intakt, aber die Ressourcen sind knapp. Während die Nacht schnell hereinbricht, musst du deinen nächsten Schritt auf dieser feindseligen Welt bestimmen.",
+      "choices": [
+        {
+          "id": "story-10012001-c5",
+          "text": "Erklimme einen Kamm und aktiviere das Notsignal der Kapsel in der Hoffnung, dass jemand es hört",
+          "description": null
+        },
+        {
+          "id": "story-10012001-c6",
+          "text": "Sammle Vorräte und suche im Tal nach Wasser und Unterschlupf",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-10012001-4",
+      "type": "ending",
+      "title": "Signal Empfangen",
+      "narration": "Die dünner werdende Luft ignorierend, leitest du Energie zur Kommunikationsanlage um und sendest einen Notruf. Quälende Minuten lang gibt es keine Antwort. Gerade als Dunkelheit dein Sichtfeld einengt, antwortet eine knisternde Stimme – ein Patrouillenschiff hat dein Notsignal aufgefangen! Du brichst erleichtert zusammen, während sie dein Signal anpeilen. Einige Zeit später öffnest du die Augen an Bord eines Rettungsschiffs, eine Sauerstoffmaske auf deinem Gesicht. Durch das Fenster siehst du, wie dein zerschmettertes Schiff zurückgelassen wird. Du bist in Sicherheit, gerettet durch das Signal, das du rechtzeitig senden konntest.",
+      "choices": []
+    },
+    {
+      "id": "story-10012001-5",
+      "type": "ending",
+      "title": "Stilles Treiben",
+      "narration": "Du widmest kostbare Energie der Reparatur der Lebenserhaltung – flickst Lecks und tauschst Notfall-Sauerstoffkanister aus. Die Luft stabilisiert sich und verschafft dir Stunden... aber ohne Kommunikation weiß niemand, dass du gestrandet bist. Du treibst allein in der stillen Dunkelheit des Weltraums, während die Zeit sich dehnt. Schließlich geht der Sauerstoff aus und die Kälte kriecht herein. Mit dem Blick auf ferne Sterne machst du Frieden mit deinem Schicksal. Dein Schiff wird dein Grab, das endlos kreist – ein einsamer Reisender, verstummt in der Leere.",
+      "choices": []
+    },
+    {
+      "id": "story-10012001-6",
+      "type": "ending",
+      "title": "Notsignal-Tragödie",
+      "narration": "Entschlossen, um Hilfe zu rufen, erkletterst du die höchste nahe gelegene Erhebung und aktivierst das Notsignal der Rettungskapsel. Ein schwaches Signal flackert hinaus. Stunden vergehen ohne Antwort. Beim Abstieg gibt der felsige Boden nach – du rutschst aus und stürzt eine Schlucht hinunter, wobei du dich schwer verletzt. Die Nacht bricht herein und mit ihr eisige Kälte. Im Morgenlicht blinkt das Notsignal noch immer pflichtbewusst neben dir, aber du regst dich nie wieder. Dein letztes Wagnis endet in einer Tragödie, deine Geschichte verloren auf einer einsamen Welt.",
+      "choices": []
+    },
+    {
+      "id": "story-10012001-7",
+      "type": "ending",
+      "title": "Überlebender der Roten Welt",
+      "narration": "Akzeptierend, dass Rettung vielleicht nie kommt, bergst du, was du von der Kapsel kannst – einen Wasserfilter, ein Messer, eine Thermodecke – und machst dich ins Unbekannte auf. Nach Tagen der Entbehrung entdeckst du eine geschützte Schlucht mit einem Rinnsal frischen Wassers und essbaren Pilzen. Es ist kein Paradies, aber es ist Leben. Im Laufe der Monate lernst du, die kleinen Felskreaturen zu jagen und die brutalen Bedingungen des karmesinroten Planeten zu ertragen. Jede Nacht starrst du auf die Sterne und fragst dich, ob dort draußen jemand sich fragt, was aus dir geworden ist – dem kosmischen Schiffbrüchigen, der nun diese fremde Welt sein Zuhause nennt.",
+      "choices": []
+    }
+  ]
+}
