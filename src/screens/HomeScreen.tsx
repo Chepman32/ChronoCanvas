@@ -297,15 +297,16 @@ const styles = StyleSheet.create({
   },
   featuredCardContent: {
     padding: spacing.md,
+    paddingBottom: spacing.sm,
   },
   featuredCardTitle: {
-    fontSize: 20,
-    fontWeight: 'bold',
+    fontSize: 26,
+    fontWeight: '500',
     color: '#212121',
     marginBottom: 6,
   },
   featuredCardAuthor: {
-    fontSize: 14,
+    fontSize: 18,
     color: '#757575',
     marginBottom: 8,
   },
@@ -338,19 +339,20 @@ const styles = StyleSheet.create({
   premiumText: {
     fontSize: 10,
     fontWeight: 'bold',
-    color: '#FFFFFF',
+    color: '#000',
   },
   cardContent: {
     padding: spacing.sm,
+    paddingBottom: 0
   },
   cardTitle: {
-    fontSize: 16,
+    fontSize: 20,
     fontWeight: '600',
     color: '#212121',
     marginBottom: 4,
   },
   cardAuthor: {
-    fontSize: 12,
+    fontSize: 16,
     color: '#757575',
     marginBottom: 8,
   },
@@ -359,7 +361,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   metaText: {
-    fontSize: 11,
+    fontSize: 14,
     color: '#757575',
     marginRight: 4,
   },

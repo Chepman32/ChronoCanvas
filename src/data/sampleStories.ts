@@ -4,7 +4,6 @@ import { paradoxPaletteStory } from './story8923745610923_paradoxPalette';
 import { newStories } from './newStories';
 import { theLastLetterStory } from './story892746531_theLastLetter';
 import { heartlineRewindStory } from './story9123457712345_heartlineRewind';
-import { lettersOnTheWindStory } from './story9328745634021_lettersOnTheWind';
 import { midnightGardenStory } from './story745829103_midnightGarden';
 import { timekeepersHeartStory } from './story583921467_timekeepersHeart';
 import { emberCrownOathStory } from './story9845237719284_emberCrownOath';
@@ -223,7 +222,6 @@ export const sampleStories: Story[] = [
   paradoxPaletteStory,
   theLastLetterStory,
   heartlineRewindStory,
-  lettersOnTheWindStory,
   midnightGardenStory,
   timekeepersHeartStory,
   emberCrownOathStory,

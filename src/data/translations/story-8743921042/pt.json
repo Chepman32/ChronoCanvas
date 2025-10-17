@@ -1,293 +1,343 @@
 {
   "meta": {
-    "storyId": "story-8273910265",
+    "storyId": "story-8743921042",
     "language": "pt",
     "version": "1.0",
-    "lastUpdated": "2025-10-15T16:37:54.382Z"
+    "lastUpdated": "2025-10-15T16:37:54.391Z"
   },
   "story": {
-    "title": "Sombras da Estrela Desaparecida",
-    "author": "Daphne Sawyer",
-    "description": "Quando uma herdeira da tecnologia desaparece e apenas um ornamento críptico permanece, o detetive particular Sam Mercer é arrastado para um labirinto de becos encharcados de chuva, bibliotecas secretas e docas sombrias. Cada pista levanta novas questões e cada decisão o puxa mais profundamente para uma conspiração que alcança o topo da cidade.",
+    "title": "Ecos do Bosque Lunar",
+    "author": "Daria Voronova",
+    "description": "Quando a lua cheia se ergue sobre a Floresta de Espinegro, um pacto antigo desperta. Você carrega um fragmento de um selo quebrado que vibra perto das árvores, chamando-o em direção a uma coroa esquecida e uma dívida que o bosque pretende cobrar. Escolha aliados, honra ou poder—mas o bosque sempre cobra seu tributo.",
     "genre": [
-      "detetive",
-      "mistério"
+      "fantasy",
+      "adventure"
     ],
-    "difficulty": "difícil",
-    "estimatedDuration": 30
+    "difficulty": "medium",
+    "estimatedDuration": 35
   },
   "nodes": [
     {
-      "id": "story-8273910265-1",
+      "id": "story-8743921042-1",
       "type": "start",
-      "title": "Cliente da Meia-Noite",
-      "narration": "A chuva bate contra a janela do seu escritório enquanto você olha fixamente para o néon piscando lá fora. Uma sombra cruza o limiar e uma mulher com sobretudo encharcado entra, seus olhos suplicantes enquanto ela produz um ornamento em forma de estrela e sussurra sobre uma herdeira desaparecida. O cheiro de pavimento úmido e papel velho enche a sala enquanto você pondera o perigo em suas palavras. A cidade zumbe com segredos e você sente que isso é apenas o começo.",
+      "title": "Presságio Lunar",
+      "narration": "Uma lua azul-branca sobe acima das copas emaranhadas de Espinegro, e o fragmento em seu bolso aquece como se lembrasse de uma promessa. As corujas silenciam. Entre os pinheiros, um caminho estreito brilha como tinta molhada, puxando suas botas. O fragmento vibra novamente, respondendo a algo antigo que se agita nas raízes.",
       "choices": [
         {
-          "id": "story-8273910265-c1",
-          "text": "Aceitar o caso e ir para a cena do crime",
-          "description": "O dever chama, mesmo na chuva."
+          "id": "story-8743921042-c1",
+          "text": "Siga o caminho iluminado pela lua para o bosque",
+          "description": "O fragmento quer você mais fundo."
         },
         {
-          "id": "story-8273910265-c2",
-          "text": "Recusar e observar da sua janela",
-          "description": "Manter-se distante, observar o que se desenrola."
+          "id": "story-8743921042-c2",
+          "text": "Estude o fragmento do selo e procure marcas próximas",
+          "description": "Conhecimento antes do risco."
         }
       ]
     },
     {
-      "id": "story-8273910265-3",
+      "id": "story-8743921042-2",
       "type": "decision",
-      "title": "Vigilância Relutante",
-      "narration": "Você manda a mulher embora, mas a curiosidade o corrói. Através do vidro riscado pela chuva, você avista uma figura espreitando do outro lado da rua, câmera na mão, tirando fotos do seu escritório. O beco brilha sob os postes de luz, a cidade respirando como uma besta. Você pode mergulhar na chuva atrás dele ou manter sua distância.",
+      "title": "Caminho Sussurrante",
+      "narration": "A névoa enrola-se na altura dos joelhos, sussurrando seu nome com vozes que você quase reconhece. Mariposas pálidas flutuam à frente, formando flechas que apontam mais fundo. Um cheiro de ferro molhado cavalga o ar. Em algum lugar distante, um sino toca uma vez.",
       "choices": [
         {
-          "id": "story-8273910265-c5",
-          "text": "Seguir a sombra pela rua abaixo",
-          "description": "Aproximar-se, arriscar exposição."
+          "id": "story-8743921042-c3",
+          "text": "Responda aos sussurros",
+          "description": "Arrisque deixá-los entrar."
         },
         {
-          "id": "story-8273910265-c6",
-          "text": "Ficar nas sombras e observar",
-          "description": "A paciência pode compensar."
+          "id": "story-8743921042-c4",
+          "text": "Ignore-os e avance em direção ao som do sino",
+          "description": "Confie em seus pés, não em seus ouvidos."
         }
       ]
     },
     {
-      "id": "story-8273910265-5",
+      "id": "story-8743921042-3",
       "type": "decision",
-      "title": "Testemunha Nervosa",
-      "narration": "Um transeunte nervoso se apoia contra uma janela salpicada de chuva, telefone pressionado contra o ouvido. Olhos inquietos, eles apertam o casaco mais forte enquanto você se aproxima. O zumbido da cidade parece desaparecer enquanto você decide se deve arrancar a verdade gentilmente ou lubrificar as engrenagens com dinheiro.",
+      "title": "Selo Estilhaçado",
+      "narration": "O fragmento é um crescente de vidro escuro gravado com runas espinhosas. Quando você sopra sobre ele, a geada auréola as marcas e um segundo padrão floresce—uma coroa sem portador. A floresta responde com um gemido grave, como se virasse no sono.",
       "choices": [
         {
-          "id": "story-8273910265-c9",
-          "text": "Perguntar calmamente o que eles viram",
-          "description": "Ganhar confiança através da empatia."
+          "id": "story-8743921042-c5",
+          "text": "Pressione o fragmento contra a terra e escute",
+          "description": "Fale à maneira antiga."
         },
         {
-          "id": "story-8273910265-c10",
-          "text": "Dar-lhes algum dinheiro por respostas",
-          "description": "O dinheiro fala quando o medo cala."
+          "id": "story-8743921042-c6",
+          "text": "Quebre uma lasca do fragmento para desenhar runas de sangue",
+          "description": "O poder corteja um preço."
         }
       ]
     },
     {
-      "id": "story-8273910265-6",
+      "id": "story-8743921042-4",
       "type": "decision",
-      "title": "Observando na Chuva",
-      "narration": "Você se funde com o aguaceiro, deixando o suspeito guiá-lo por becos banhados em néon. Cada poça reflete um mundo fraturado. Sob seu casaco, você sente o peso de sua própria tecnologia; um laptop zumbe fracamente, implorando para decifrar mensagens criptografadas. Você hackeia o fluxo de comunicações deles ou continua seguindo-os pessoalmente?",
+      "title": "Teixo Ancião",
+      "narration": "Um teixo mais velho que qualquer templo arqueia-se sobre um riacho lento e claro. Bagas vermelhas brilham como gotas de advertência. Quando você toca a casca, a árvore se lembra de você—a voz de sua avó, uma canção de ninar sobre uma dívida ao bosque. A água clareia, mostrando seu rosto coroado com espinhos.",
       "choices": [
         {
-          "id": "story-8273910265-c11",
-          "text": "Hackear o fluxo de comunicações deles",
-          "description": "Segredos digitais são geralmente os mais suculentos."
+          "id": "story-8743921042-c7",
+          "text": "Beba do riacho",
+          "description": "Aceite uma memória que não é sua."
         },
         {
-          "id": "story-8273910265-c12",
-          "text": "Continuar seguindo das sombras",
-          "description": "Permanecer no terreno."
+          "id": "story-8743921042-c8",
+          "text": "Pegue casca de teixo para um amuleto protetor",
+          "description": "Proteção primeiro, depois caminhe."
         }
       ]
     },
     {
-      "id": "story-8273910265-7",
+      "id": "story-8743921042-5",
       "type": "decision",
-      "title": "Mensagem em Vermelho",
-      "narration": "Dentro do envelope você encontra uma fotografia de um pingente em forma de estrela e uma mensagem codificada escrita em tinta vermelha. O papel parece escorregadio sob seus dedos molhados. Os símbolos sugerem catálogos de bibliotecas e segredos antigos. Você deve decidir onde decifrá-lo.",
+      "title": "Ponte Envolta em Névoa",
+      "narration": "Uma ponte de corda e tábuas pende sobre um desfiladeiro que você não consegue ver. Lá embaixo, algo respira como ondas contra osso. Um sino pende do primeiro poste, envolto em seda de aranha, como se a floresta mesma o tivesse amordaçado.",
       "choices": [
         {
-          "id": "story-8273910265-c13",
-          "text": "Ir para a biblioteca municipal",
-          "description": "Pesquisa em prateleiras empoeiradas."
+          "id": "story-8743921042-c9",
+          "text": "Toque o sino",
+          "description": "Acorde o que dorme para parlamentar."
         },
         {
-          "id": "story-8273910265-c14",
-          "text": "Ligar para seu amigo hacker",
-          "description": "Decodificar com ajuda digital."
+          "id": "story-8743921042-c10",
+          "text": "Atravesse em silêncio",
+          "description": "Confie em seu equilíbrio."
         }
       ]
     },
     {
-      "id": "story-8273910265-8",
+      "id": "story-8743921042-6",
       "type": "decision",
-      "title": "Relatório Forense",
-      "narration": "De volta ao seu próprio laboratório, monitores piscando iluminam seu rosto. Você escaneia o envelope em busca de impressões digitais e analisa a tinta sob luz ofuscante. Uma impressão digital corresponde a um intermediário do submundo, e uma etiqueta GPS aponta para as docas. Você pode seguir o rastro de dados ou agir com base na informação.",
+      "title": "Mercado das Sombras",
+      "narration": "Lanternas florescem ao longo de uma viela tortuosa onde nenhuma cidade deveria estar. Barracas vendem chuva engarrafada, luas de dedal e nomes costurados em fitas. Um fabricante de máscaras acena para você se aproximar, oferecendo um rosto tecido de sarças e fio brilhante.",
       "choices": [
         {
-          "id": "story-8273910265-c15",
-          "text": "Verificar impressões digitais no banco de dados",
-          "description": "Informação é poder."
+          "id": "story-8743921042-c11",
+          "text": "Compre a máscara de sarças com uma gota de sangue",
+          "description": "Máscaras enganam, mas protegem."
         },
         {
-          "id": "story-8273910265-c16",
-          "text": "Ir para as docas para rastreá-los",
-          "description": "Confrontar o suspeito pessoalmente."
+          "id": "story-8743921042-c12",
+          "text": "Troque o fragmento por um guia",
+          "description": "Informação sobre artefatos."
         }
       ]
     },
     {
-      "id": "story-8273910265-9",
+      "id": "story-8743921042-7",
       "type": "decision",
-      "title": "Inteligência do Armazém",
-      "narration": "Seus esforços compensam: uma confissão sussurrada ou mensagem hackeada revela um encontro em um armazém abandonado marcado com grafite. O edifício se ergue como um monumento escuro contra o horizonte. Você pode invadir e arriscar tudo ou levar tempo para planejar.",
+      "title": "Lanternas Espirituais",
+      "narration": "Contas de luz sobem do riacho e espiralam ao seu redor, curiosas como filhotes de raposa. Elas empurram seu peito, suas mãos, o fragmento. Quando uma passa através de sua palma, sua pele canta com uma dor fina e prateada—o bosque julga você e encontra uma dívida não paga.",
       "choices": [
         {
-          "id": "story-8273910265-c17",
-          "text": "Infiltrar o armazém agora",
-          "description": "O tempo é essencial."
+          "id": "story-8743921042-c13",
+          "text": "Peça aos espíritos para compartilhar o que sabem",
+          "description": "Perguntas humildes merecem respostas."
         },
         {
-          "id": "story-8273910265-c18",
-          "text": "Reunir mais inteligência primeiro",
-          "description": "Uma abordagem cautelosa pode compensar."
+          "id": "story-8743921042-c14",
+          "text": "Comande os espíritos com a memória do teixo",
+          "description": "Autoridade pode machucar."
         }
       ]
     },
     {
-      "id": "story-8273910265-10",
+      "id": "story-8743921042-9",
       "type": "decision",
-      "title": "Último Trem",
-      "narration": "O suspeito escorrega para um trem da meia-noite e você se apressa para o pátio, vapor sibilando de locomotivas adormecidas. A escuridão envolve os trilhos enquanto a última chamada ecoa pelos alto-falantes. Você pode embarcar no trem agora ou tentar enganá-los na próxima parada.",
+      "title": "Portão da Cripta",
+      "narration": "Degraus esculpidos descem em pedra vermelha onde ar frio derrama como água. No fundo boceja uma porta de rocha nervurada e pregos de metal lunar. O fragmento em seu bolso treme, ansioso para estar inteiro.",
       "choices": [
         {
-          "id": "story-8273910265-c19",
-          "text": "Pular a bordo do trem",
-          "description": "Ficar perto do seu alvo."
+          "id": "story-8743921042-c17",
+          "text": "Encaixe o fragmento na costura de metal lunar",
+          "description": "Complete o que foi quebrado."
         },
         {
-          "id": "story-8273910265-c20",
-          "text": "Interceptar na próxima estação",
-          "description": "Planejar uma emboscada com antecedência."
+          "id": "story-8743921042-c18",
+          "text": "Recuse o chamado e pegue a escada superior",
+          "description": "Procure outro caminho para cima."
         }
       ]
     },
     {
-      "id": "story-8273910265-11",
+      "id": "story-8743921042-10",
       "type": "decision",
-      "title": "Pilhas de Segredos",
-      "narration": "Partículas de poeira dançam em feixes de luz enquanto você vaga por pilhas infinitas de livros. O cheiro de papel velho o cerca. Você rastreia números de catálogo obscuros até que seus dedos pousam em um tomo descrevendo um ornamento em forma de estrela que desbloqueia segredos em cofres bancários. Você testa a chave ou cava mais fundo nos arquivos?",
+      "title": "Escriba dos Ecos",
+      "narration": "Seu guia leva você a um terraço de pedra onde o vento escreve na ardósia. A Escriba é uma mulher encapuzada cujo cabelo se move como tinta na água. Ela ouve seu fragmento, então desenha três selos que cheiram a chuva e ferro.",
       "choices": [
         {
-          "id": "story-8273910265-c21",
-          "text": "Ir ao banco com o ornamento",
-          "description": "O cofre pode conter a verdade."
+          "id": "story-8743921042-c19",
+          "text": "Pergunte sobre um caminho para a coroa",
+          "description": "Direto é perigoso."
         },
         {
-          "id": "story-8273910265-c22",
-          "text": "Pesquisar mais nos arquivos",
-          "description": "Pode haver mais para descobrir."
+          "id": "story-8743921042-c20",
+          "text": "Pergunte como quebrar a reivindicação do bosque",
+          "description": "Desfaça o pacto."
         }
       ]
     },
     {
-      "id": "story-8273910265-13",
+      "id": "story-8743921042-11",
       "type": "decision",
-      "title": "Sombras nas Docas",
-      "narration": "O cheiro de sal e diesel paira pesado enquanto você se arrasta entre caixotes nas docas. Um barco solitário balança suavemente contra estacas desgastadas, vozes murmurando acima do respingo de ondas. Você permanece escondido para reunir evidências ou sai para a luz para confrontar o líder da gangue?",
+      "title": "Rio de Vidro",
+      "narration": "O rio parece imóvel, mas sua superfície é uma pele de facas refletindo uma segunda lua. Uma balsa sem balseiro espera, amarrada por uma corda de cabelos trançados. Você pode atravessar por confiança—ou testar o fio e sangrar um tributo.",
       "choices": [
         {
-          "id": "story-8273910265-c25",
-          "text": "Reunir evidências silenciosamente",
-          "description": "A paciência pode trazer prova."
+          "id": "story-8743921042-c21",
+          "text": "Embarque na balsa em espera",
+          "description": "Confie no ritual do bosque."
         },
         {
-          "id": "story-8273910265-c26",
-          "text": "Confrontar o líder da gangue",
-          "description": "Forçar a questão agora."
+          "id": "story-8743921042-c22",
+          "text": "Corte sua palma e pinte o fragmento",
+          "description": "Compre passagem segura."
         }
       ]
     },
     {
-      "id": "story-8273910265-14",
+      "id": "story-8743921042-12",
       "type": "decision",
-      "title": "Confronto no Telhado",
-      "narration": "O vento açoita o telhado enquanto você encurrala o suspeito contra um pano de fundo de arranha-céus imponentes, suas janelas cintilando como estrelas. O suor se acumula sob seu colarinho apesar do frio. Sem lugar para fugir, sua presa olha para o vão entre os edifícios. Seu próximo movimento decidirá o destino de ambos.",
+      "title": "Pacto de Espinhos",
+      "narration": "Uma árvore oca abre-se como uma capela, velas tremulando em nichos iluminados por seiva. Nomes sussurrados flutuam—linhagem, dívidas, votos. O fragmento aquece até doer, e você compreende: tomar a coroa significa vestir a fome do bosque.",
       "choices": [
         {
-          "id": "story-8273910265-c27",
-          "text": "Convencê-los e negociar",
-          "description": "Palavras podem ser armas."
+          "id": "story-8743921042-c23",
+          "text": "Aceite o pacto abertamente",
+          "description": "Poder com um preço, pago à luz do dia."
         },
         {
-          "id": "story-8273910265-c28",
-          "text": "Derrubá-los ao chão",
-          "description": "Usar força para terminar a perseguição."
+          "id": "story-8743921042-c24",
+          "text": "Recuse e procure uma brecha",
+          "description": "Sempre há uma formulação."
         }
       ]
     },
     {
-      "id": "story-8273910265-15",
+      "id": "story-8743921042-13",
       "type": "decision",
-      "title": "Emboscada na Estação",
-      "narration": "O trem se afasta e você se encontra em um corredor de estação deserto, luzes fluorescentes piscando acima. Passos ecoam à distância, depois desaparecem. Seu alvo escorregou para a escuridão. Você espera que eles voltem ou liga para um contato que lhe deve um favor?",
+      "title": "Rei sem Coroa",
+      "narration": "Uma figura de raízes e vento senta-se sobre uma cadeira de pedra, sua testa em carne viva onde um diadema outrora repousou. Quando ele se vira, você vê suas próprias maçãs do rosto, os olhos de sua família—sua linhagem uma vez deteve a coroa. O bosque zumbe, esperando ver o que você fará da verdade.",
       "choices": [
         {
-          "id": "story-8273910265-c29",
-          "text": "Esperar nas sombras",
-          "description": "A paciência pode pegá-los."
+          "id": "story-8743921042-c25",
+          "text": "Ajoelhe e jure consertar o que sua linhagem quebrou",
+          "description": "Expiação liga fortemente."
         },
         {
-          "id": "story-8273910265-c30",
-          "text": "Cobrar um favor",
-          "description": "Alavancar sua rede."
+          "id": "story-8743921042-c26",
+          "text": "Desafie o Rei a passar o fardo",
+          "description": "Ganhe liberdade ou peso pior."
         }
       ]
     },
     {
-      "id": "story-8273910265-17",
+      "id": "story-8743921042-14",
       "type": "decision",
-      "title": "Píer da Meia-Noite",
-      "narration": "O luar pinta o píer de prata enquanto as ondas lambem suas tábuas desgastadas. Uma figura solitária espera sob uma lâmpada, rosto escondido sob um capuz. Eles lhe oferecem uma escolha – junte-se a eles e compartilhe os lucros da conspiração, ou recuse e exponha toda a operação. Confiança e traição pairam no ar salgado.",
+      "title": "Escadas da Agulha Lunar",
+      "narration": "Escadas esculpidas em pedra branca como osso ziguezagueiam na névoa. Cada curva mostra a lua maior até que ela preencha o céu com um rosto frio. Sua respiração empluma; sua resolução endurece para igualar a subida.",
       "choices": [
         {
-          "id": "story-8273910265-c33",
-          "text": "Aceitar o acordo deles",
-          "description": "Juntar-se à rede de sombras."
+          "id": "story-8743921042-c27",
+          "text": "Suba mais rápido para alcançar a agulha primeiro",
+          "description": "Tome a iniciativa."
         },
         {
-          "id": "story-8273910265-c34",
-          "text": "Recusar e expor tudo",
-          "description": "Soprar o apito."
+          "id": "story-8743921042-c28",
+          "text": "Pause para gravar uma proteção no degrau",
+          "description": "Proteção sobre pressa."
         }
       ]
     },
     {
-      "id": "story-8273910265-18",
+      "id": "story-8743921042-15",
       "type": "decision",
-      "title": "Invasão",
-      "narration": "Com aliados ao seu lado, você empurra uma porta para um longo corredor escuro. Passos ecoam enquanto você se aproxima de uma reunião em andamento, vozes baixas e conspiratórias. Você invade e faz prisões ou fica para trás para gravar a troca para o mundo ver?",
+      "title": "Salão das Sementes",
+      "narration": "Uma caverna abre-se sob um céu pintado onde milhares de sementes pendem em seda de teia de aranha. Cada semente bate como um pequeno coração, cada uma uma floresta futura esperando por uma promessa. A coroa repousa sobre um pedestal de raízes entrelaçadas, pulsando em sincronia com seu próprio pulso.",
       "choices": [
         {
-          "id": "story-8273910265-c35",
-          "text": "Intervir e prendê-los",
-          "description": "Levá-los à justiça."
+          "id": "story-8743921042-c29",
+          "text": "Coloque o fragmento na coroa",
+          "description": "Complete o instrumento de governo."
         },
         {
-          "id": "story-8273910265-c36",
-          "text": "Gravar tudo para um vazamento",
-          "description": "Expor a conspiração publicamente."
+          "id": "story-8743921042-c30",
+          "text": "Espalhe as sementes e sufoque a coroa",
+          "description": "Quebre o ciclo para sempre."
         }
       ]
     },
     {
-      "id": "story-8273910265-19",
+      "id": "story-8743921042-16",
+      "type": "decision",
+      "title": "Duelo do Espelho",
+      "narration": "Em um cume congelado, o vento endurece em uma forma que o espelha golpe por golpe. Cada golpe ressoa, sacudindo neve de pinheiros negros. O bosque observa sem respirar, julgando qual eu o servirá melhor.",
+      "choices": [
+        {
+          "id": "story-8743921042-c31",
+          "text": "Ceda e aceite a coroa de seu reflexo",
+          "description": "Deixe o outro você governar."
+        },
+        {
+          "id": "story-8743921042-c32",
+          "text": "Despedace o espelho com o fragmento",
+          "description": "Quebre o teste para definir seus termos."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-17",
+      "type": "decision",
+      "title": "Preço da Magia",
+      "narration": "A névoa dobra-se em um círculo de pedras erguidas, cada superfície esculpida com oferendas—cabelos, dentes, anéis, canções de ninar escritas em cinzas. O bosque não negocia sem moeda. Você pode comprar um caminho, mas deve nomear sua perda.",
+      "choices": [
+        {
+          "id": "story-8743921042-c33",
+          "text": "Ofereça sua voz por uma estação",
+          "description": "Silêncio compra orientação."
+        },
+        {
+          "id": "story-8743921042-c34",
+          "text": "Ofereça um ano de sua sombra",
+          "description": "Você caminhará mais fino."
+        }
+      ]
+    },
+    {
+      "id": "story-8743921042-18",
       "type": "ending",
-      "title": "O Caso Escapa",
-      "narration": "Você se lança na refrega e a gangue se dispersa como sombras na chuva. Um tiro ressoa, um motor de barco ruge, e o mentor desaparece na noite. Semanas depois você olha fixamente para seu quadro de cortiça, fios de lã conectando fotos que não levam a lugar nenhum. O caso esfria e a cidade esquece, mas você não consegue.",
+      "title": "Amanhecer Restaurado",
+      "narration": "A coroa aceita o fragmento, e o bosque exala uma respiração perfumada de primavera. Pássaros despertam quando o primeiro ouro derrama através das árvores. Você sai sem vestir metal, apenas uma guirlanda de brotos frescos—administrador, não soberano. A floresta murmura um sim tranquilo.",
       "choices": []
     },
     {
-      "id": "story-8273910265-21",
+      "id": "story-8743921042-19",
       "type": "ending",
-      "title": "Acordo com o Diabo",
-      "narration": "A tentação vence. Você embolsa os arquivos e entra no círculo interno. A escada que você sobe pode ser dourada, mas cada degrau está escorregadio de culpa. Riqueza e conexões fluem para você, mas em momentos tranquilos você se pergunta o que aconteceu com a jovem mulher cujo ornamento desbloqueou sua fortuna.",
+      "title": "Floresta Devora",
+      "narration": "Sementes estouram em uma enxurrada de raízes que racham pedra e engolem salões. A coroa sufoca sob uma maré verde que não se importa com reis. Anos depois, viajantes sussurram de uma nova floresta que cresce rápido demais, faminta como uma tempestade. Seu nome está perdido sob as folhas.",
       "choices": []
     },
     {
-      "id": "story-8273910265-22",
+      "id": "story-8743921042-20",
       "type": "ending",
-      "title": "Denunciante",
-      "narration": "Você escolhe exposição em vez de segurança. Escondido atrás de monitores brilhantes, você compila gravações e documentos e os vaza para a imprensa. Manchetes explodem, figuras poderosas caem, e a cidade convulsiona. Você se torna tanto herói quanto alvo, desaparecendo em sombras digitais sabendo que fez a coisa certa.",
+      "title": "Rainha dos Espinhos",
+      "narration": "Você se curva ao seu reflexo, e ele avança, vestindo seu rosto e uma coroa de videira viva. A aurora ondula nos chifres do veado observador enquanto raízes sobem para formar um trono. Você governará ouvindo, nenhuma lâmina necessária—mas a coroa bebe um pouco de seu sono a cada noite.",
+      "choices": []
+    },
+    {
+      "id": "story-8743921042-21",
+      "type": "ending",
+      "title": "Perdido Entre Mundos",
+      "narration": "O espelho se despedaça, mas também o caminho de casa. Você aprende as trilhas laterais do bosque, guiando errantes para clareiras seguras com uma lanterna de sua própria criação. Algumas noites você quase se lembra de um nome diferente. A lua é seu único relógio.",
+      "choices": []
+    },
+    {
+      "id": "story-8743921042-22",
+      "type": "ending",
+      "title": "O Juramento de Prata",
+      "narration": "Em uma praia onde raízes bebem a maré, você jura carregar a lei do bosque além de suas árvores. A coroa dissolve-se em luz que permeia suas veias, fria e limpa. Você deixa pegadas que brotam grama atrás de você, um juramento caminhando sobre duas pernas. A dívida torna-se uma promessa cumprida.",
       "choices": []
     }
   ]

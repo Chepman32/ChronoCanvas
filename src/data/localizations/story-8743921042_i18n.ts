@@ -284,221 +284,261 @@ export const story_8743921042StoryTranslations: Record<Language, StoryTranslatio
 
   // Русский
   ru: {
-    title: 'Тени Исчезнувшей Звезды',
-    description: 'Когда наследница технологической компании исчезает, оставив лишь загадочный орнамент, частный детектив Сэм Мерсер втягивается в лабиринт залитых дождём переулков, секретных библиотек и тенистых доков. Каждая улика порождает новые вопросы, а каждое решение затягивает его глубже в заговор, достигающий вершины города.',
-    author: 'Дафна Сойер',
+    title: 'Отголоски Лунной Рощи',
+    description: 'Когда полная луна поднимается над Лесом Черного Терна, древний договор пробуждается. Ты несешь осколок разбитой печати, который гудит возле деревьев, зовя тебя к забытой короне и долгу, который роща намерена взыскать. Выбирай союзников, честь или власть—но роща всегда берет свое.',
+    author: 'Дарья Воронова',
     nodes: {
-      'story-8273910265-1': {
-        title: 'Полуночный клиент',
-        narration: 'Дождь барабанит по окну вашего офиса, пока вы смотрите на мигающий неон снаружи. Тень пересекает порог, и женщина в промокшем плаще входит внутрь, её глаза умоляющие, когда она достаёт украшение в форме звезды и шепчет о пропавшей наследнице. Запах влажного асфальта и старой бумаги наполняет комнату, пока вы взвешиваете опасность в её словах. Город гудит секретами, и вы чувствуете, что это только начало.',
+      'story-8743921042-1': {
+        title: 'Лунное Знамение',
+        narration: 'Сине-белая луна поднимается над спутанными вершинами Черного Терна, и осколок в твоем кармане теплеет, словно вспоминая обещание. Совы замолкают. Между соснами узкая тропа блестит, как мокрые чернила, притягивая твои сапоги. Осколок снова вибрирует, отвечая чему-то древнему, что шевелится в корнях.',
         choices: {
-          'story-8273910265-c1': {
-            text: 'Взяться за дело и отправиться на место преступления',
-            description: 'Долг зовёт, даже под дождём.',
+          'story-8743921042-c1': {
+            text: 'Следуй по лунной тропе в рощу',
+            description: 'Осколок хочет завести тебя глубже.',
           },
-          'story-8273910265-c2': {
-            text: 'Отказаться и наблюдать из окна',
-            description: 'Держаться в стороне, наблюдать за развитием событий.',
+          'story-8743921042-c2': {
+            text: 'Изучи осколок печати и поищи метки поблизости',
+            description: 'Знание прежде риска.',
           },
         },
       },
-      'story-8273910265-3': {
-        title: 'Неохотное наблюдение',
-        narration: 'Вы отправляете женщину прочь, но любопытство гложет вас. Сквозь исполосованное дождём стекло вы замечаете фигуру, прячущуюся на другой стороне улицы, с камерой в руках, снимающую ваш офис. Переулок блестит под уличными фонарями, город дышит, как зверь. Вы можете броситься под дождь за ним или держать дистанцию.',
+      'story-8743921042-2': {
+        title: 'Шепчущая Тропа',
+        narration: 'Туман клубится по колено, шепча твое имя голосами, которые ты почти узнаешь. Бледные мотыльки плывут впереди, образуя стрелы, указывающие глубже. Запах мокрого железа плывет в воздухе. Где-то вдали колокол звонит один раз.',
         choices: {
-          'story-8273910265-c5': {
-            text: 'Следовать за тенью вниз по улице',
-            description: 'Подобраться ближе, рискнуть разоблачением.',
+          'story-8743921042-c3': {
+            text: 'Ответь на шепот',
+            description: 'Рискни впустить их.',
           },
-          'story-8273910265-c6': {
-            text: 'Остаться в тени и наблюдать',
-            description: 'Терпение может окупиться.',
+          'story-8743921042-c4': {
+            text: 'Игнорируй их и двигайся к звуку колокола',
+            description: 'Доверяй ногам, а не ушам.',
           },
         },
       },
-      'story-8273910265-5': {
-        title: 'Нервный свидетель',
-        narration: 'Нервный прохожий прислоняется к забрызганному дождём окну, телефон прижат к уху. Бегающие глаза, они плотнее запахивают пальто, когда вы приближаетесь. Гул города словно затихает, пока вы решаете, выманить ли правду мягко или смазать колёса наличными.',
+      'story-8743921042-3': {
+        title: 'Разбитая Печать',
+        narration: 'Осколок—это полумесяц темного стекла с выгравированными шипастыми рунами. Когда ты дышишь на него, иней обрамляет метки, и расцветает второй узор—корона без владельца. Лес отвечает низким стоном, словно поворачивается во сне.',
         choices: {
-          'story-8273910265-c9': {
-            text: 'Спокойно спросить, что они видели',
-            description: 'Завоевать доверие через эмпатию.',
+          'story-8743921042-c5': {
+            text: 'Прижми осколок к земле и слушай',
+            description: 'Говори по-старому.',
           },
-          'story-8273910265-c10': {
-            text: 'Подсунуть им денег за ответы',
-            description: 'Деньги говорят, когда страх молчит.',
+          'story-8743921042-c6': {
+            text: 'Отломи щепку от осколка, чтобы начертить кровавые руны',
+            description: 'Власть требует цены.',
           },
         },
       },
-      'story-8273910265-6': {
-        title: 'Наблюдение под дождём',
-        narration: 'Вы сливаетесь с ливнем, позволяя подозреваемому вести вас через залитые неоном переулки. Каждая лужа отражает расколотый мир. Под пальто вы чувствуете вес собственных технологий; ноутбук тихо гудит, умоляя взломать зашифрованные сообщения. Взломать их связь или продолжить личную слежку?',
+      'story-8743921042-4': {
+        title: 'Древний Тис',
+        narration: 'Тис старше любого храма арками склоняется над медленным, чистым ручьем. Красные ягоды светятся каплями предупреждения. Когда ты касаешься коры, дерево вспоминает тебя—голос твоей бабушки, колыбельная о долге перед рощей. Вода светлеет, показывая твое лицо, увенчанное шипами.',
         choices: {
-          'story-8273910265-c11': {
-            text: 'Взломать их канал связи',
-            description: 'Цифровые секреты часто самые сочные.',
+          'story-8743921042-c7': {
+            text: 'Выпей из ручья',
+            description: 'Прими память не твою.',
           },
-          'story-8273910265-c12': {
-            text: 'Продолжать слежку из тени',
-            description: 'Оставаться на земле.',
+          'story-8743921042-c8': {
+            text: 'Возьми кору тиса для защитного амулета',
+            description: 'Сначала защита, потом путь.',
           },
         },
       },
-      'story-8273910265-7': {
-        title: 'Послание красным',
-        narration: 'В конверте вы находите фотографию кулона в форме звезды и закодированное сообщение, написанное красными чернилами. Бумага кажется скользкой под вашими мокрыми пальцами. Символы намекают на библиотечные каталоги и старые секреты. Вы должны решить, где его расшифровать.',
+      'story-8743921042-5': {
+        title: 'Туманный Мост',
+        narration: 'Веревочно-досчатый мост провисает над ущельем, которое ты не видишь. Внизу что-то дышит, как прибой о кость. Колокол висит на первом столбе, обмотанный паутиной, словно сам лес заткнул ему рот.',
         choices: {
-          'story-8273910265-c13': {
-            text: 'Отправиться в городскую библиотеку',
-            description: 'Исследование в пыльных стеллажах.',
+          'story-8743921042-c9': {
+            text: 'Позвони в колокол',
+            description: 'Разбуди спящее для переговоров.',
           },
-          'story-8273910265-c14': {
-            text: 'Позвонить другу-хакеру',
-            description: 'Расшифровать с цифровой помощью.',
+          'story-8743921042-c10': {
+            text: 'Перейди в тишине',
+            description: 'Доверься своему равновесию.',
           },
         },
       },
-      'story-8273910265-8': {
-        title: 'Криминалистический отчёт',
-        narration: 'Вернувшись в собственную лабораторию, мерцающие мониторы освещают ваше лицо. Вы сканируете конверт на отпечатки и анализируете чернила под ослепительным светом. Отпечаток совпадает с подпольным посредником, а GPS-метка указывает на доки. Вы можете пойти по цифровому следу или действовать по информации.',
+      'story-8743921042-6': {
+        title: 'Рынок Теней',
+        narration: 'Фонари расцветают вдоль кривого переулка, где не должно быть города. Лавки продают разлитый дождь, наперсточные луны и имена, вшитые в ленты. Мастер масок машет тебе подойти ближе, предлагая лицо, сплетенное из терна и яркой нити.',
         choices: {
-          'story-8273910265-c15': {
-            text: 'Проверить отпечатки по базе данных',
-            description: 'Информация — это сила.',
+          'story-8743921042-c11': {
+            text: 'Купи терновую маску за каплю крови',
+            description: 'Маски обманывают, но защищают.',
           },
-          'story-8273910265-c16': {
-            text: 'Отправиться на доки, чтобы выследить их',
-            description: 'Противостоять подозреваемому лично.',
+          'story-8743921042-c12': {
+            text: 'Обменяй осколок на проводника',
+            description: 'Информация важнее артефактов.',
           },
         },
       },
-      'story-8273910265-9': {
-        title: 'Разведка склада',
-        narration: 'Ваши усилия окупаются: прошептанное признание или взломанное сообщение раскрывает встречу на заброшенном складе, помеченном граффити. Здание возвышается как тёмный монумент на фоне горизонта. Вы можете ворваться и рискнуть всем или потратить время на планирование.',
+      'story-8743921042-7': {
+        title: 'Духовные Фонари',
+        narration: 'Светящиеся бусины поднимаются из ручья и кружатся вокруг тебя, любопытные, как лисята. Они толкаются в твою грудь, руки, осколок. Когда один проходит сквозь твою ладонь, твоя кожа поет тонкой серебряной болью—роща судит тебя и находит неоплаченный долг.',
         choices: {
-          'story-8273910265-c17': {
-            text: 'Проникнуть на склад сейчас',
-            description: 'Время решает всё.',
+          'story-8743921042-c13': {
+            text: 'Попроси духов поделиться тем, что они знают',
+            description: 'Скромные вопросы заслуживают ответов.',
           },
-          'story-8273910265-c18': {
-            text: 'Сначала собрать больше разведданных',
-            description: 'Осторожный подход может окупиться.',
+          'story-8743921042-c14': {
+            text: 'Прикажи духам памятью тиса',
+            description: 'Власть может ранить.',
           },
         },
       },
-      'story-8273910265-10': {
-        title: 'Последний поезд',
-        narration: 'Подозреваемый проскальзывает в полуночный поезд, и вы спешите на станцию, пар шипит из спящих локомотивов. Тьма окутывает пути, пока последний вызов эхом отдаётся из динамиков. Вы можете сесть в поезд сейчас или попытаться перехитрить их на следующей остановке.',
+      'story-8743921042-9': {
+        title: 'Врата Склепа',
+        narration: 'Вырезанные ступени спускаются в красный камень, где холодный воздух льется, как вода. Внизу зияет дверь из ребристой скалы и лунных металлических заклепок. Осколок в твоем кармане дрожит, жаждая стать целым.',
         choices: {
-          'story-8273910265-c19': {
-            text: 'Запрыгнуть в поезд',
-            description: 'Оставаться рядом с целью.',
+          'story-8743921042-c17': {
+            text: 'Вставь осколок в лунный металлический шов',
+            description: 'Завершить разбитое.',
           },
-          'story-8273910265-c20': {
-            text: 'Перехватить на следующей станции',
-            description: 'Спланировать засаду заранее.',
+          'story-8743921042-c18': {
+            text: 'Откажись от притяжения и выбери верхнюю лестницу',
+            description: 'Ищи другой путь наверх.',
           },
         },
       },
-      'story-8273910265-11': {
-        title: 'Стопки секретов',
-        narration: 'Пылинки танцуют в лучах света, пока вы блуждаете по бесконечным стопкам книг. Запах старой бумаги окружает вас. Вы отслеживаете неясные каталожные номера, пока ваши пальцы не останавливаются на томе, описывающем звёздный орнамент, который открывает секреты в банковских хранилищах. Проверить ключ или копнуть глубже в архивах?',
+      'story-8743921042-10': {
+        title: 'Писец Отголосков',
+        narration: 'Твой проводник ведет тебя на каменную террасу, где ветер пишет на сланце. Писец—это женщина в капюшоне, чьи волосы движутся, как чернила в воде. Она слушает твой осколок, затем рисует три печати, пахнущие дождем и железом.',
         choices: {
-          'story-8273910265-c21': {
-            text: 'Пойти в банк с орнаментом',
-            description: 'Хранилище может содержать истину.',
+          'story-8743921042-c19': {
+            text: 'Спроси о пути к короне',
+            description: 'Прямота опасна.',
           },
-          'story-8273910265-c22': {
-            text: 'Искать дальше в архивах',
-            description: 'Может быть ещё что-то обнаружить.',
+          'story-8743921042-c20': {
+            text: 'Спроси, как сломать притязания рощи',
+            description: 'Разрушь договор.',
           },
         },
       },
-      'story-8273910265-13': {
-        title: 'Тени на доках',
-        narration: 'Запах соли и дизеля висит тяжело, пока вы крадётесь между ящиками на доках. Одинокая лодка мягко покачивается у изношенных свай, голоса бормочут над плеском волн. Остаться скрытым, чтобы собрать улики, или выйти на свет, чтобы противостоять главарю банды?',
+      'story-8743921042-11': {
+        title: 'Стеклянная Река',
+        narration: 'Река кажется неподвижной, но ее поверхность—это кожа из ножей, отражающих вторую луну. Паром без паромщика ждет, привязанный веревкой из сплетенных волос. Ты можешь переправиться доверием—или испытать лезвие и кровью заплатить дань.',
         choices: {
-          'story-8273910265-c25': {
-            text: 'Тихо собирать улики',
-            description: 'Терпение может принести доказательства.',
+          'story-8743921042-c21': {
+            text: 'Взойди на ожидающий паром',
+            description: 'Доверься ритуалу рощи.',
           },
-          'story-8273910265-c26': {
-            text: 'Противостоять главарю банды',
-            description: 'Форсировать ситуацию сейчас.',
+          'story-8743921042-c22': {
+            text: 'Порежь ладонь и раскрась осколок',
+            description: 'Купи безопасный проход.',
           },
         },
       },
-      'story-8273910265-14': {
-        title: 'Схватка на крыше',
-        narration: 'Ветер хлещет по крыше, пока вы загоняете подозреваемого в угол на фоне возвышающихся небоскрёбов, окна которых мерцают, как звёзды. Пот выступает под воротником, несмотря на холод. Некуда бежать, ваша добыча смотрит на промежуток между зданиями. Ваш следующий шаг решит обе судьбы.',
+      'story-8743921042-12': {
+        title: 'Терновый Договор',
+        narration: 'Полое дерево открывается, как часовня, свечи мерцают в нишах, освещенных соком. Прошептанные имена плывут—род, долги, клятвы. Осколок греется до боли, и ты понимаешь: взять корону означает носить голод рощи.',
         choices: {
-          'story-8273910265-c27': {
-            text: 'Уговорить и договориться',
-            description: 'Слова могут быть оружием.',
+          'story-8743921042-c23': {
+            text: 'Прими договор открыто',
+            description: 'Власть с ценой, заплаченной при свете дня.',
           },
-          'story-8273910265-c28': {
-            text: 'Повалить на землю',
-            description: 'Использовать силу, чтобы закончить погоню.',
+          'story-8743921042-c24': {
+            text: 'Откажись и ищи лазейку',
+            description: 'Всегда есть формулировка.',
           },
         },
       },
-      'story-8273910265-15': {
-        title: 'Засада на станции',
-        narration: 'Поезд уезжает, и вы оказываетесь в безлюдном коридоре станции, флуоресцентные лампы мерцают наверху. Шаги эхом отдаются вдали, затем исчезают. Ваша цель ускользнула в темноту. Подождать, пока они вернутся, или позвонить контакту, который вам должен?',
+      'story-8743921042-13': {
+        title: 'Король Без Короны',
+        narration: 'Фигура из корней и ветра сидит на каменном кресле, его лоб изранен там, где когда-то покоился венец. Когда он поворачивается, ты видишь свои скулы, глаза своей семьи—твой род когда-то держал корону. Роща гудит, ожидая увидеть, что ты сделаешь с правдой.',
         choices: {
-          'story-8273910265-c29': {
-            text: 'Ждать в тени',
-            description: 'Терпение может их поймать.',
+          'story-8743921042-c25': {
+            text: 'Преклони колено и поклянись исправить то, что сломал твой род',
+            description: 'Искупление связывает крепко.',
           },
-          'story-8273910265-c30': {
-            text: 'Попросить об одолжении',
-            description: 'Задействовать свою сеть.',
+          'story-8743921042-c26': {
+            text: 'Брось вызов Королю передать бремя',
+            description: 'Выиграй свободу или худшую тяжесть.',
           },
         },
       },
-      'story-8273910265-17': {
-        title: 'Полуночный причал',
-        narration: 'Лунный свет окрашивает причал в серебро, пока волны облизывают его изношенные доски. Одинокая фигура ждёт под фонарём, лицо скрыто под капюшоном. Они предлагают вам выбор — присоединиться к ним и разделить прибыль от заговора или отказаться и разоблачить всю операцию. Доверие и предательство висят в солёном воздухе.',
+      'story-8743921042-14': {
+        title: 'Лунные Шпилевые Ступени',
+        narration: 'Ступени, высеченные из костяно-белого камня, зигзагом уходят в туман. Каждый поворот показывает луну больше, пока она не заполнит небо холодным ликом. Твое дыхание оперяется; твоя решимость твердеет, чтобы соответствовать подъему.',
         choices: {
-          'story-8273910265-c33': {
-            text: 'Принять их сделку',
-            description: 'Присоединиться к теневой сети.',
+          'story-8743921042-c27': {
+            text: 'Взбирайся быстрее, чтобы первым достичь шпиля',
+            description: 'Захвати инициативу.',
           },
-          'story-8273910265-c34': {
-            text: 'Отказаться и разоблачить всё',
-            description: 'Поднять тревогу.',
-          },
-        },
-      },
-      'story-8273910265-18': {
-        title: 'Взлом',
-        narration: 'С союзниками рядом вы открываете дверь в длинный тёмный коридор. Шаги эхом отдаются, пока вы приближаетесь к продолжающейся встрече, голоса низкие и заговорщические. Ворваться и арестовать или остаться, чтобы записать разговор для всего мира?',
-        choices: {
-          'story-8273910265-c35': {
-            text: 'Вмешаться и арестовать их',
-            description: 'Привести их к правосудию.',
-          },
-          'story-8273910265-c36': {
-            text: 'Записать всё для утечки',
-            description: 'Публично разоблачить заговор.',
+          'story-8743921042-c28': {
+            text: 'Останови и вырежи защиту на ступени',
+            description: 'Защита важнее спешки.',
           },
         },
       },
-      'story-8273910265-19': {
-        title: 'Дело ускользает',
-        narration: 'Вы бросаетесь в схватку, и банда рассеивается, как тени под дождём. Раздаётся выстрел, двигатель лодки ревёт, и заговорщик исчезает в ночи. Недели спустя вы смотрите на свою пробковую доску, нити пряжи соединяют фотографии, которые никуда не ведут. Дело остывает, и город забывает, но вы не можете.',
+      'story-8743921042-15': {
+        title: 'Зал Семян',
+        narration: 'Пещера открывается под расписным небом, где тысячи семян висят в паутинном шелке. Каждое семя бьется, как крошечное сердце, каждое—будущий лес, ждущий обещания. Корона покоится на пьедестале из сплетенных корней, пульсируя в такт твоему собственному пульсу.',
+        choices: {
+          'story-8743921042-c29': {
+            text: 'Помести осколок в корону',
+            description: 'Завершить инструмент власти.',
+          },
+          'story-8743921042-c30': {
+            text: 'Рассыпь семена и задуши корону',
+            description: 'Сломай цикл навсегда.',
+          },
+        },
+      },
+      'story-8743921042-16': {
+        title: 'Зеркальная Дуэль',
+        narration: 'На замерзшем хребте ветер затвердевает в форму, которая отражает тебя удар за ударом. Каждый удар звенит, стряхивая снег с черных сосен. Роща наблюдает затаив дыхание, судя, какое я лучше послужит ей.',
+        choices: {
+          'story-8743921042-c31': {
+            text: 'Уступи и прими корону своего отражения',
+            description: 'Пусть другое ты правит.',
+          },
+          'story-8743921042-c32': {
+            text: 'Разбей зеркало осколком',
+            description: 'Сломай испытание, чтобы установить свои условия.',
+          },
+        },
+      },
+      'story-8743921042-17': {
+        title: 'Цена Магии',
+        narration: 'Туман складывается в круг стоячих камней, каждая поверхность вырезана с жертвоприношениями—волосы, зубы, кольца, колыбельные, написанные пеплом. Роща не торгуется без монеты. Ты можешь купить путь, но должен назвать свою потерю.',
+        choices: {
+          'story-8743921042-c33': {
+            text: 'Предложи свой голос на сезон',
+            description: 'Тишина покупает руководство.',
+          },
+          'story-8743921042-c34': {
+            text: 'Предложи год из своей тени',
+            description: 'Ты будешь ходить тоньше.',
+          },
+        },
+      },
+      'story-8743921042-18': {
+        title: 'Восстановленная Заря',
+        narration: 'Корона принимает осколок, и роща выдыхает весенне-пахнущее дыхание. Птицы просыпаются, когда первое золото струится сквозь деревья. Ты выходишь, не нося металла, только гирлянду свежих побегов—хранитель, не властитель. Лес гудит тихое да.',
         choices: {
         },
       },
-      'story-8273910265-21': {
-        title: 'Сделка с дьяволом',
-        narration: 'Искушение побеждает. Вы кладёте файлы в карман и входите во внутренний круг. Лестница, по которой вы взбираетесь, может быть позолоченной, но каждая ступень скользкая от вины. Богатство и связи текут к вам, но в тихие моменты вы задаётесь вопросом, что стало с молодой женщиной, чей орнамент открыл ваше состояние.',
+      'story-8743921042-19': {
+        title: 'Лес Пожирает',
+        narration: 'Семена взрываются в буйстве корней, которые раскалывают камень и поглощают залы. Корона задыхается под зеленой волной, которой нет дела до королей. Годы спустя путешественники шепчут о новом лесе, который растет слишком быстро, голодный, как буря. Твое имя потеряно под листьями.',
         choices: {
         },
       },
-      'story-8273910265-22': {
-        title: 'Информатор',
-        narration: 'Вы выбираете разоблачение вместо безопасности. Спрятавшись за светящимися мониторами, вы собираете записи и документы и сливаете их прессе. Заголовки взрываются, влиятельные фигуры падают, и город содрогается. Вы становитесь одновременно героем и мишенью, исчезая в цифровых тенях, зная, что поступили правильно.',
+      'story-8743921042-20': {
+        title: 'Королева Шипов',
+        narration: 'Ты кланяешься своему отражению, и оно выступает вперед, нося твое лицо и корону из живой лозы. Аврора колышется в рогах наблюдающего оленя, пока корни поднимаются, чтобы сформировать трон. Ты будешь править, слушая, лезвие не нужно—но корона пьет немного от твоего сна каждую ночь.',
+        choices: {
+        },
+      },
+      'story-8743921042-21': {
+        title: 'Потерянный Между Мирами',
+        narration: 'Зеркало разбивается, но и путь домой тоже. Ты изучаешь боковые тропы рощи, направляя странников к безопасным полянам с фонарем собственного изготовления. Некоторыми ночами ты почти вспоминаешь другое имя. Луна—твои единственные часы.',
+        choices: {
+        },
+      },
+      'story-8743921042-22': {
+        title: 'Серебряная Клятва',
+        narration: 'На берегу, где корни пьют прилив, ты клянешься нести закон рощи за пределы ее деревьев. Корона растворяется в свет, пронизывающий твои вены, холодный и чистый. Ты оставляешь следы, за которыми прорастает трава, клятва, идущая на двух ногах. Долг становится сдержанным обещанием.',
         choices: {
         },
       },
@@ -1033,221 +1073,261 @@ export const story_8743921042StoryTranslations: Record<Language, StoryTranslatio
 
   // Français
   fr: {
-    title: 'Ombres de l\'Étoile Disparue',
-    description: 'Quand une héritière de la tech disparaît et qu\'il ne reste qu\'un ornement cryptique, le détective privé Sam Mercer est entraîné dans un labyrinthe de ruelles détrempées, de bibliothèques secrètes et de quais ombragés. Chaque indice soulève de nouvelles questions et chaque décision l\'enfonce plus profondément dans un complot qui atteint les sommets de la ville.',
-    author: 'Daphne Sawyer',
+    title: 'Échos du Bosquet Lunaire',
+    description: 'Quand la pleine lune se lève sur la Forêt de Roncenoire, un ancien pacte s\'éveille. Tu portes un éclat d\'un sceau brisé qui vibre près des arbres, t\'appelant vers une couronne oubliée et une dette que le bosquet entend percevoir. Choisis des alliés, l\'honneur ou le pouvoir—mais le bosquet prend toujours son dû.',
+    author: 'Daria Voronova',
     nodes: {
-      'story-8273910265-1': {
-        title: 'Cliente de Minuit',
-        narration: 'La pluie bat contre la fenêtre de votre bureau tandis que vous fixez le néon clignotant dehors. Une ombre franchit le seuil et une femme en imperméable trempé entre, ses yeux implorants alors qu\'elle sort un ornement en forme d\'étoile et murmure au sujet d\'une héritière disparue. L\'odeur de l\'asphalte humide et du vieux papier emplit la pièce pendant que vous pesez le danger dans ses mots. La ville bourdonne de secrets et vous sentez que ce n\'est que le début.',
+      'story-8743921042-1': {
+        title: 'Présage Lunaire',
+        narration: 'Une lune bleu-blanc grimpe au-dessus des cimes enchevêtrées de Roncenoire, et l\'éclat dans ta poche se réchauffe comme s\'il se souvenait d\'une promesse. Les hiboux se taisent. Entre les pins, un sentier étroit brille comme de l\'encre mouillée, tirant sur tes bottes. L\'éclat vibre à nouveau, répondant à quelque chose d\'ancien qui s\'agite dans les racines.',
         choices: {
-          'story-8273910265-c1': {
-            text: 'Accepter l\'affaire et se rendre sur la scène de crime',
-            description: 'Le devoir appelle, même sous la pluie.',
+          'story-8743921042-c1': {
+            text: 'Suis le sentier éclairé par la lune dans le bosquet',
+            description: 'L\'éclat te veut plus profond.',
           },
-          'story-8273910265-c2': {
-            text: 'Refuser et observer depuis votre fenêtre',
-            description: 'Rester détaché, observer ce qui se déroule.',
+          'story-8743921042-c2': {
+            text: 'Étudie l\'éclat du sceau et cherche des marques à proximité',
+            description: 'La connaissance avant le risque.',
           },
         },
       },
-      'story-8273910265-3': {
-        title: 'Surveillance Réticente',
-        narration: 'Vous renvoyez la femme mais la curiosité vous ronge. À travers la vitre striée de pluie, vous repérez une silhouette qui rôde de l\'autre côté de la rue, appareil photo en main, prenant des clichés de votre bureau. La ruelle scintille sous les lampadaires, la ville respire comme une bête. Vous pouvez soit plonger dans la pluie à sa poursuite, soit garder vos distances.',
+      'story-8743921042-2': {
+        title: 'Sentier Murmurant',
+        narration: 'La brume s\'enroule à hauteur de genoux, murmurant ton nom avec des voix que tu reconnais presque. Des phalènes pâles dérivent en avant, formant des flèches qui pointent plus profond. Une odeur de fer mouillé chevauche l\'air. Quelque part au loin, une cloche sonne une fois.',
         choices: {
-          'story-8273910265-c5': {
-            text: 'Suivre l\'ombre dans la rue',
-            description: 'Se rapprocher, risquer l\'exposition.',
+          'story-8743921042-c3': {
+            text: 'Réponds aux murmures',
+            description: 'Risque de les laisser entrer.',
           },
-          'story-8273910265-c6': {
-            text: 'Rester dans l\'ombre et observer',
-            description: 'La patience pourrait payer.',
+          'story-8743921042-c4': {
+            text: 'Ignore-les et pousse vers le son de la cloche',
+            description: 'Fais confiance à tes pieds, pas à tes oreilles.',
           },
         },
       },
-      'story-8273910265-5': {
-        title: 'Témoin Nerveux',
-        narration: 'Un passant nerveux s\'appuie contre une fenêtre tachetée de pluie, téléphone collé à l\'oreille. Les yeux fuyants, ils serrent leur manteau plus fort alors que vous approchez. Le bourdonnement de la ville semble s\'estomper pendant que vous décidez si vous devez obtenir la vérité en douceur ou graisser les rouages avec de l\'argent.',
+      'story-8743921042-3': {
+        title: 'Sceau Brisé',
+        narration: 'L\'éclat est un croissant de verre sombre gravé de runes épineuses. Quand tu souffles dessus, le givre auréole les marques et un second motif s\'épanouit—une couronne sans porteur. Le bois répond par un grondement grave, comme s\'il se retournait dans son sommeil.',
         choices: {
-          'story-8273910265-c9': {
-            text: 'Demander calmement ce qu\'ils ont vu',
-            description: 'Gagner la confiance par l\'empathie.',
+          'story-8743921042-c5': {
+            text: 'Presse l\'éclat contre la terre et écoute',
+            description: 'Parle à l\'ancienne manière.',
           },
-          'story-8273910265-c10': {
-            text: 'Leur glisser de l\'argent pour des réponses',
-            description: 'L\'argent parle quand la peur fait taire.',
+          'story-8743921042-c6': {
+            text: 'Brise un éclat pour tracer des runes de sang',
+            description: 'Le pouvoir courtise un prix.',
           },
         },
       },
-      'story-8273910265-6': {
-        title: 'Surveillance Sous la Pluie',
-        narration: 'Vous vous fondez dans l\'averse, laissant le suspect vous guider à travers des ruelles baignées de néon. Chaque flaque reflète un monde fracturé. Sous votre manteau, vous sentez le poids de votre propre technologie ; un ordinateur portable bourdonne faiblement, suppliant de percer des messages cryptés. Piratez-vous leur flux de communication ou continuez-vous à les suivre en personne ?',
+      'story-8743921042-4': {
+        title: 'If Ancien',
+        narration: 'Un if plus vieux que tout temple s\'arque au-dessus d\'un ruisseau lent et clair. Des baies rouges luisent comme des gouttes d\'avertissement. Quand tu touches l\'écorce, l\'arbre se souvient de toi—la voix de ta grand-mère, une berceuse sur une dette envers le bosquet. L\'eau s\'éclaircit, montrant ton visage couronné d\'épines.',
         choices: {
-          'story-8273910265-c11': {
-            text: 'Pirater leur flux de communications',
-            description: 'Les secrets numériques sont souvent les plus juteux.',
+          'story-8743921042-c7': {
+            text: 'Bois du ruisseau',
+            description: 'Accepte un souvenir qui n\'est pas le tien.',
           },
-          'story-8273910265-c12': {
-            text: 'Continuer à filer depuis l\'ombre',
-            description: 'Rester sur le terrain.',
+          'story-8743921042-c8': {
+            text: 'Prends de l\'écorce d\'if pour un charme protecteur',
+            description: 'Protection d\'abord, puis marche.',
           },
         },
       },
-      'story-8273910265-7': {
-        title: 'Message en Rouge',
-        narration: 'Dans l\'enveloppe, vous trouvez une photographie d\'un pendentif en forme d\'étoile et un message codé écrit à l\'encre rouge. Le papier est glissant sous vos doigts mouillés. Les symboles évoquent des catalogues de bibliothèque et de vieux secrets. Vous devez décider où le déchiffrer.',
+      'story-8743921042-5': {
+        title: 'Pont Enveloppé de Brume',
+        narration: 'Un pont de corde et de planches s\'affaisse au-dessus d\'une gorge que tu ne peux voir. En bas, quelque chose respire comme des vagues contre l\'os. Une cloche pend au premier poteau, enveloppée de soie d\'araignée, comme si la forêt elle-même l\'avait bâillonnée.',
         choices: {
-          'story-8273910265-c13': {
-            text: 'Se rendre à la bibliothèque municipale',
-            description: 'Recherche dans les rayons poussiéreux.',
+          'story-8743921042-c9': {
+            text: 'Sonne la cloche',
+            description: 'Réveille ce qui dort pour parlementer.',
           },
-          'story-8273910265-c14': {
-            text: 'Appeler votre ami hacker',
-            description: 'Décoder avec l\'aide numérique.',
+          'story-8743921042-c10': {
+            text: 'Traverse en silence',
+            description: 'Fais confiance à ton équilibre.',
           },
         },
       },
-      'story-8273910265-8': {
-        title: 'Rapport Médico-légal',
-        narration: 'De retour dans votre propre laboratoire, des moniteurs vacillants illuminent votre visage. Vous scannez l\'enveloppe pour les empreintes et analysez l\'encre sous une lumière éblouissante. Une empreinte correspond à un intermédiaire du milieu, et une balise GPS pointe vers les quais. Vous pouvez suivre la piste numérique ou agir sur les renseignements.',
+      'story-8743921042-6': {
+        title: 'Marché des Ombres',
+        narration: 'Des lanternes fleurissent le long d\'une ruelle tordue où aucune ville ne devrait être. Les étals vendent de la pluie en bouteille, des lunes à dé et des noms cousus dans du ruban. Un fabricant de masques te fait signe de t\'approcher, offrant un visage tissé de ronces et de fil brillant.',
         choices: {
-          'story-8273910265-c15': {
-            text: 'Vérifier les empreintes dans la base de données',
-            description: 'L\'information, c\'est le pouvoir.',
+          'story-8743921042-c11': {
+            text: 'Achète le masque de ronces avec une goutte de sang',
+            description: 'Les masques trompent, mais protègent.',
           },
-          'story-8273910265-c16': {
-            text: 'Se rendre aux quais pour les traquer',
-            description: 'Confronter le suspect en personne.',
+          'story-8743921042-c12': {
+            text: 'Échange l\'éclat contre un guide',
+            description: 'L\'information plutôt que les artefacts.',
           },
         },
       },
-      'story-8273910265-9': {
-        title: 'Renseignements sur l\'Entrepôt',
-        narration: 'Vos efforts portent leurs fruits : un aveu murmuré ou un message piraté révèle un rendez-vous dans un entrepôt abandonné tagué de graffitis. Le bâtiment se dresse comme un monument sombre contre l\'horizon. Vous pouvez faire irruption et tout risquer ou prendre le temps de planifier.',
+      'story-8743921042-7': {
+        title: 'Lanternes Spirituelles',
+        narration: 'Des perles de lumière s\'élèvent du ruisseau et spiralent autour de toi, curieuses comme des renardeaux. Elles poussent ta poitrine, tes mains, l\'éclat. Quand l\'une traverse ta paume, ta peau chante avec une douleur fine et argentée—le bosquet te juge et trouve une dette impayée.',
         choices: {
-          'story-8273910265-c17': {
-            text: 'Infiltrer l\'entrepôt maintenant',
-            description: 'Le temps est essentiel.',
+          'story-8743921042-c13': {
+            text: 'Demande aux esprits de partager ce qu\'ils savent',
+            description: 'Les questions humbles méritent des réponses.',
           },
-          'story-8273910265-c18': {
-            text: 'Rassembler plus de renseignements d\'abord',
-            description: 'Une approche prudente pourrait payer.',
+          'story-8743921042-c14': {
+            text: 'Commande les esprits avec la mémoire de l\'if',
+            description: 'L\'autorité peut blesser.',
           },
         },
       },
-      'story-8273910265-10': {
-        title: 'Dernier Train',
-        narration: 'Le suspect se glisse dans un train de minuit et vous vous précipitez vers la gare, la vapeur sifflant des locomotives endormies. L\'obscurité enveloppe les voies alors que le dernier appel résonne dans les haut-parleurs. Vous pouvez monter dans le train maintenant ou essayer de les déjouer au prochain arrêt.',
+      'story-8743921042-9': {
+        title: 'Porte de la Crypte',
+        narration: 'Des marches sculptées descendent dans la pierre rouge où l\'air froid se déverse comme de l\'eau. Au fond bâille une porte de roche nervurée et de clous de métal lunaire. L\'éclat dans ta poche tremble, impatient d\'être entier.',
         choices: {
-          'story-8273910265-c19': {
-            text: 'Sauter à bord du train',
-            description: 'Rester proche de votre cible.',
+          'story-8743921042-c17': {
+            text: 'Ajuste l\'éclat à la couture de métal lunaire',
+            description: 'Complète ce qui fut brisé.',
           },
-          'story-8273910265-c20': {
-            text: 'Intercepter à la prochaine gare',
-            description: 'Planifier une embuscade à l\'avance.',
+          'story-8743921042-c18': {
+            text: 'Refuse l\'attraction et prends l\'escalier supérieur',
+            description: 'Cherche un autre chemin vers le haut.',
           },
         },
       },
-      'story-8273910265-11': {
-        title: 'Piles de Secrets',
-        narration: 'Des particules de poussière dansent dans les rayons de lumière pendant que vous errez dans des piles infinies de livres. L\'odeur du vieux papier vous entoure. Vous tracez des numéros de catalogue obscurs jusqu\'à ce que vos doigts se posent sur un tome décrivant un ornement en forme d\'étoile qui déverrouille des secrets dans les coffres bancaires. Testez-vous la clé ou creusez-vous plus profondément dans les archives ?',
+      'story-8743921042-10': {
+        title: 'Scribe des Échos',
+        narration: 'Ton guide te mène à une terrasse de pierre où le vent écrit sur l\'ardoise. La Scribe est une femme encapuchonnée dont les cheveux bougent comme de l\'encre dans l\'eau. Elle écoute ton éclat, puis trace trois sceaux qui sentent la pluie et le fer.',
         choices: {
-          'story-8273910265-c21': {
-            text: 'Aller à la banque avec l\'ornement',
-            description: 'Le coffre pourrait contenir la vérité.',
+          'story-8743921042-c19': {
+            text: 'Demande un chemin vers la couronne',
+            description: 'Direct est dangereux.',
           },
-          'story-8273910265-c22': {
-            text: 'Chercher plus loin dans les archives',
-            description: 'Il pourrait y avoir plus à découvrir.',
+          'story-8743921042-c20': {
+            text: 'Demande comment briser la revendication du bosquet',
+            description: 'Défais le pacte.',
           },
         },
       },
-      'story-8273910265-13': {
-        title: 'Ombres sur les Quais',
-        narration: 'L\'odeur de sel et de diesel est lourde pendant que vous vous faufilez entre les caisses sur les quais. Un bateau solitaire se balance doucement contre des piliers usés, des voix murmurent au-dessus du clapotis des vagues. Restez-vous caché pour recueillir des preuves ou sortez-vous dans la lumière pour affronter le chef de gang ?',
+      'story-8743921042-11': {
+        title: 'Rivière de Verre',
+        narration: 'La rivière semble immobile, mais sa surface est une peau de couteaux reflétant une seconde lune. Un bac sans passeur attend, attaché par une corde de cheveux tressés. Tu peux traverser par confiance—ou tester le fil et saigner un tribut.',
         choices: {
-          'story-8273910265-c25': {
-            text: 'Recueillir des preuves discrètement',
-            description: 'La patience pourrait apporter des preuves.',
+          'story-8743921042-c21': {
+            text: 'Monte sur le bac en attente',
+            description: 'Fais confiance au rituel du bosquet.',
           },
-          'story-8273910265-c26': {
-            text: 'Affronter le chef de gang',
-            description: 'Forcer la situation maintenant.',
+          'story-8743921042-c22': {
+            text: 'Coupe ta paume et peins l\'éclat',
+            description: 'Achète un passage sûr.',
           },
         },
       },
-      'story-8273910265-14': {
-        title: 'Confrontation sur le Toit',
-        narration: 'Le vent fouette le toit pendant que vous acculez le suspect sur fond de gratte-ciels imposants, leurs fenêtres scintillant comme des étoiles. La sueur perle sous votre col malgré le froid. Sans nulle part où fuir, votre proie regarde l\'écart entre les bâtiments. Votre prochain mouvement décidera de vos deux destins.',
+      'story-8743921042-12': {
+        title: 'Pacte d\'Épines',
+        narration: 'Un arbre creux s\'ouvre comme une chapelle, des bougies vacillant dans des niches éclairées de sève. Des noms chuchotés dérivent—lignée, dettes, vœux. L\'éclat se réchauffe jusqu\'à faire mal, et tu comprends : prendre la couronne signifie porter la faim du bosquet.',
         choices: {
-          'story-8273910265-c27': {
-            text: 'Les raisonner et négocier',
-            description: 'Les mots peuvent être des armes.',
+          'story-8743921042-c23': {
+            text: 'Accepte le pacte ouvertement',
+            description: 'Pouvoir avec un prix, payé en plein jour.',
           },
-          'story-8273910265-c28': {
-            text: 'Les plaquer au sol',
-            description: 'Utiliser la force pour finir la poursuite.',
+          'story-8743921042-c24': {
+            text: 'Refuse et cherche une échappatoire',
+            description: 'Il y a toujours une formulation.',
           },
         },
       },
-      'story-8273910265-15': {
-        title: 'Embuscade à la Gare',
-        narration: 'Le train s\'éloigne et vous vous retrouvez dans un couloir de gare désert, les lumières fluorescentes vacillant au-dessus. Des pas résonnent au loin, puis disparaissent. Votre cible s\'est glissée dans l\'obscurité. Attendez-vous qu\'ils reviennent sur leurs pas ou appelez-vous un contact qui vous doit une faveur ?',
+      'story-8743921042-13': {
+        title: 'Roi sans Couronne',
+        narration: 'Une silhouette de racines et de vent est assise sur une chaise de pierre, son front à vif où un diadème reposait autrefois. Quand il se tourne, tu vois tes propres pommettes, les yeux de ta famille—ta lignée tenait autrefois la couronne. Le bosquet bourdonne, attendant de voir ce que tu feras de la vérité.',
         choices: {
-          'story-8273910265-c29': {
-            text: 'Attendre dans l\'ombre',
-            description: 'La patience pourrait les attraper.',
+          'story-8743921042-c25': {
+            text: 'Agenouille-toi et jure de réparer ce que ta lignée a brisé',
+            description: 'L\'expiation lie fortement.',
           },
-          'story-8273910265-c30': {
-            text: 'Appeler pour une faveur',
-            description: 'Utiliser votre réseau.',
+          'story-8743921042-c26': {
+            text: 'Défie le Roi pour transmettre le fardeau',
+            description: 'Gagne la liberté ou un poids pire.',
           },
         },
       },
-      'story-8273910265-17': {
-        title: 'Jetée de Minuit',
-        narration: 'Le clair de lune peint la jetée en argent tandis que les vagues lèchent ses planches usées. Une silhouette solitaire attend sous une lampe, le visage caché sous une capuche. Ils vous offrent un choix – les rejoindre et partager les profits du complot, ou refuser et exposer toute l\'opération. La confiance et la trahison flottent dans l\'air salé.',
+      'story-8743921042-14': {
+        title: 'Escaliers de la Flèche Lunaire',
+        narration: 'Des escaliers taillés dans la pierre blanche comme l\'os zigzaguent dans le brouillard. Chaque tournant montre la lune plus grande jusqu\'à ce qu\'elle remplisse le ciel d\'un visage froid. Ton souffle s\'emplume ; ta résolution se durcit pour égaler la montée.',
         choices: {
-          'story-8273910265-c33': {
-            text: 'Accepter leur accord',
-            description: 'Rejoindre le réseau de l\'ombre.',
+          'story-8743921042-c27': {
+            text: 'Grimpe plus vite pour atteindre la flèche en premier',
+            description: 'Saisis l\'initiative.',
           },
-          'story-8273910265-c34': {
-            text: 'Refuser et tout exposer',
-            description: 'Sonner l\'alarme.',
-          },
-        },
-      },
-      'story-8273910265-18': {
-        title: 'Effraction',
-        narration: 'Avec des alliés à vos côtés, vous poussez une porte vers un long couloir sombre. Les pas résonnent pendant que vous approchez d\'une réunion en cours, les voix basses et conspiratoires. Faites-vous irruption et procédez aux arrestations ou restez-vous en retrait pour enregistrer l\'échange pour que le monde le voie ?',
-        choices: {
-          'story-8273910265-c35': {
-            text: 'Intervenir et les arrêter',
-            description: 'Les traduire en justice.',
-          },
-          'story-8273910265-c36': {
-            text: 'Tout enregistrer pour une fuite',
-            description: 'Exposer le complot publiquement.',
+          'story-8743921042-c28': {
+            text: 'Fais une pause pour graver une protection dans la marche',
+            description: 'Protection plutôt que hâte.',
           },
         },
       },
-      'story-8273910265-19': {
-        title: 'L\'Affaire Échappe',
-        narration: 'Vous vous précipitez dans la mêlée et le gang se disperse comme des ombres dans la pluie. Un coup de feu retentit, un moteur de bateau rugit, et le cerveau disparaît dans la nuit. Des semaines plus tard, vous fixez votre tableau de liège, des fils de laine reliant des photos qui ne mènent nulle part. L\'affaire refroidit et la ville oublie, mais vous ne le pouvez pas.',
+      'story-8743921042-15': {
+        title: 'Salle des Graines',
+        narration: 'Une caverne s\'ouvre sous un ciel peint où des milliers de graines pendent dans de la soie d\'araignée. Chaque graine bat comme un petit cœur, chacune une forêt future attendant une promesse. La couronne repose sur un piédestal de racines tressées, pulsant au rythme de ton propre pouls.',
+        choices: {
+          'story-8743921042-c29': {
+            text: 'Place l\'éclat dans la couronne',
+            description: 'Complète l\'instrument de règne.',
+          },
+          'story-8743921042-c30': {
+            text: 'Disperse les graines et étouffe la couronne',
+            description: 'Brise le cycle pour toujours.',
+          },
+        },
+      },
+      'story-8743921042-16': {
+        title: 'Duel du Miroir',
+        narration: 'Sur une crête gelée, le vent se durcit en une forme qui te reflète coup pour coup. Chaque frappe résonne, secouant la neige des pins noirs. Le bosquet observe sans respirer, jugeant quel soi le servira le mieux.',
+        choices: {
+          'story-8743921042-c31': {
+            text: 'Cède et accepte la couronne de ton reflet',
+            description: 'Laisse l\'autre toi régner.',
+          },
+          'story-8743921042-c32': {
+            text: 'Brise le miroir avec l\'éclat',
+            description: 'Brise le test pour fixer tes conditions.',
+          },
+        },
+      },
+      'story-8743921042-17': {
+        title: 'Prix de la Magie',
+        narration: 'Le brouillard se plie en un cercle de pierres levées, chaque surface sculptée d\'offrandes—cheveux, dents, anneaux, berceuses écrites en cendres. Le bosquet ne négocie pas sans monnaie. Tu peux acheter un chemin, mais tu dois nommer ta perte.',
+        choices: {
+          'story-8743921042-c33': {
+            text: 'Offre ta voix pour une saison',
+            description: 'Le silence achète la guidance.',
+          },
+          'story-8743921042-c34': {
+            text: 'Offre une année de ton ombre',
+            description: 'Tu marcheras plus mince.',
+          },
+        },
+      },
+      'story-8743921042-18': {
+        title: 'Aube Restaurée',
+        narration: 'La couronne accepte l\'éclat, et le bosquet exhale un souffle parfumé de printemps. Les oiseaux s\'éveillent alors que le premier or se déverse à travers les arbres. Tu sors sans porter de métal, seulement une guirlande de pousses fraîches—intendant, pas souverain. La forêt bourdonne un oui tranquille.',
         choices: {
         },
       },
-      'story-8273910265-21': {
-        title: 'Pacte avec le Diable',
-        narration: 'La tentation l\'emporte. Vous empoche les dossiers et entrez dans le cercle intérieur. L\'échelle que vous grimpez peut être dorée, mais chaque barreau est glissant de culpabilité. La richesse et les connexions affluent vers vous, mais dans les moments tranquilles, vous vous demandez ce qu\'est devenue la jeune femme dont l\'ornement a déverrouillé votre fortune.',
+      'story-8743921042-19': {
+        title: 'La Forêt Dévore',
+        narration: 'Les graines éclatent dans une ruée de racines qui brisent la pierre et avalent les halls. La couronne étouffe sous une marée verte qui ne se soucie pas des rois. Des années plus tard, les voyageurs murmurent d\'un nouveau bois qui grandit trop vite, affamé comme une tempête. Ton nom est perdu sous les feuilles.',
         choices: {
         },
       },
-      'story-8273910265-22': {
-        title: 'Lanceur d\'Alerte',
-        narration: 'Vous choisissez l\'exposition plutôt que la sécurité. Caché derrière des moniteurs lumineux, vous compilez enregistrements et documents et les divulguez à la presse. Les gros titres explosent, les personnalités puissantes tombent, et la ville convulse. Vous devenez à la fois héros et cible, disparaissant dans les ombres numériques tout en sachant que vous avez fait ce qu\'il fallait.',
+      'story-8743921042-20': {
+        title: 'Reine des Épines',
+        narration: 'Tu te prosternes devant ton reflet, et il s\'avance, portant ton visage et une couronne de vigne vivante. L\'aurore ondule dans les bois du cerf observateur tandis que les racines s\'élèvent pour former un trône. Tu régneras en écoutant, pas besoin de lame—pourtant la couronne boit un peu de ton sommeil chaque nuit.',
+        choices: {
+        },
+      },
+      'story-8743921042-21': {
+        title: 'Perdu Entre les Mondes',
+        narration: 'Le miroir se brise, mais aussi le chemin du retour. Tu apprends les sentiers latéraux du bosquet, guidant les vagabonds vers des clairières sûres avec une lanterne de ta propre fabrication. Certaines nuits, tu te souviens presque d\'un nom différent. La lune est ta seule horloge.',
+        choices: {
+        },
+      },
+      'story-8743921042-22': {
+        title: 'Le Serment d\'Argent',
+        narration: 'Sur un rivage où les racines boivent la marée, tu jures de porter la loi du bosquet au-delà de ses arbres. La couronne se dissout en lumière qui enfle tes veines, froide et pure. Tu laisses des empreintes qui font pousser de l\'herbe derrière toi, un serment marchant sur deux jambes. La dette devient une promesse tenue.',
         choices: {
         },
       },
@@ -1256,221 +1336,261 @@ export const story_8743921042StoryTranslations: Record<Language, StoryTranslatio
 
   // Português
   pt: {
-    title: 'Sombras da Estrela Desaparecida',
-    description: 'Quando uma herdeira da tecnologia desaparece e apenas um ornamento críptico permanece, o detetive particular Sam Mercer é arrastado para um labirinto de becos encharcados de chuva, bibliotecas secretas e docas sombrias. Cada pista levanta novas questões e cada decisão o puxa mais profundamente para uma conspiração que alcança o topo da cidade.',
-    author: 'Daphne Sawyer',
+    title: 'Ecos do Bosque Lunar',
+    description: 'Quando a lua cheia se ergue sobre a Floresta de Espinegro, um pacto antigo desperta. Você carrega um fragmento de um selo quebrado que vibra perto das árvores, chamando-o em direção a uma coroa esquecida e uma dívida que o bosque pretende cobrar. Escolha aliados, honra ou poder—mas o bosque sempre cobra seu tributo.',
+    author: 'Daria Voronova',
     nodes: {
-      'story-8273910265-1': {
-        title: 'Cliente da Meia-Noite',
-        narration: 'A chuva bate contra a janela do seu escritório enquanto você olha fixamente para o néon piscando lá fora. Uma sombra cruza o limiar e uma mulher com sobretudo encharcado entra, seus olhos suplicantes enquanto ela produz um ornamento em forma de estrela e sussurra sobre uma herdeira desaparecida. O cheiro de pavimento úmido e papel velho enche a sala enquanto você pondera o perigo em suas palavras. A cidade zumbe com segredos e você sente que isso é apenas o começo.',
+      'story-8743921042-1': {
+        title: 'Presságio Lunar',
+        narration: 'Uma lua azul-branca sobe acima das copas emaranhadas de Espinegro, e o fragmento em seu bolso aquece como se lembrasse de uma promessa. As corujas silenciam. Entre os pinheiros, um caminho estreito brilha como tinta molhada, puxando suas botas. O fragmento vibra novamente, respondendo a algo antigo que se agita nas raízes.',
         choices: {
-          'story-8273910265-c1': {
-            text: 'Aceitar o caso e ir para a cena do crime',
-            description: 'O dever chama, mesmo na chuva.',
+          'story-8743921042-c1': {
+            text: 'Siga o caminho iluminado pela lua para o bosque',
+            description: 'O fragmento quer você mais fundo.',
           },
-          'story-8273910265-c2': {
-            text: 'Recusar e observar da sua janela',
-            description: 'Manter-se distante, observar o que se desenrola.',
+          'story-8743921042-c2': {
+            text: 'Estude o fragmento do selo e procure marcas próximas',
+            description: 'Conhecimento antes do risco.',
           },
         },
       },
-      'story-8273910265-3': {
-        title: 'Vigilância Relutante',
-        narration: 'Você manda a mulher embora, mas a curiosidade o corrói. Através do vidro riscado pela chuva, você avista uma figura espreitando do outro lado da rua, câmera na mão, tirando fotos do seu escritório. O beco brilha sob os postes de luz, a cidade respirando como uma besta. Você pode mergulhar na chuva atrás dele ou manter sua distância.',
+      'story-8743921042-2': {
+        title: 'Caminho Sussurrante',
+        narration: 'A névoa enrola-se na altura dos joelhos, sussurrando seu nome com vozes que você quase reconhece. Mariposas pálidas flutuam à frente, formando flechas que apontam mais fundo. Um cheiro de ferro molhado cavalga o ar. Em algum lugar distante, um sino toca uma vez.',
         choices: {
-          'story-8273910265-c5': {
-            text: 'Seguir a sombra pela rua abaixo',
-            description: 'Aproximar-se, arriscar exposição.',
+          'story-8743921042-c3': {
+            text: 'Responda aos sussurros',
+            description: 'Arrisque deixá-los entrar.',
           },
-          'story-8273910265-c6': {
-            text: 'Ficar nas sombras e observar',
-            description: 'A paciência pode compensar.',
+          'story-8743921042-c4': {
+            text: 'Ignore-os e avance em direção ao som do sino',
+            description: 'Confie em seus pés, não em seus ouvidos.',
           },
         },
       },
-      'story-8273910265-5': {
-        title: 'Testemunha Nervosa',
-        narration: 'Um transeunte nervoso se apoia contra uma janela salpicada de chuva, telefone pressionado contra o ouvido. Olhos inquietos, eles apertam o casaco mais forte enquanto você se aproxima. O zumbido da cidade parece desaparecer enquanto você decide se deve arrancar a verdade gentilmente ou lubrificar as engrenagens com dinheiro.',
+      'story-8743921042-3': {
+        title: 'Selo Estilhaçado',
+        narration: 'O fragmento é um crescente de vidro escuro gravado com runas espinhosas. Quando você sopra sobre ele, a geada auréola as marcas e um segundo padrão floresce—uma coroa sem portador. A floresta responde com um gemido grave, como se virasse no sono.',
         choices: {
-          'story-8273910265-c9': {
-            text: 'Perguntar calmamente o que eles viram',
-            description: 'Ganhar confiança através da empatia.',
+          'story-8743921042-c5': {
+            text: 'Pressione o fragmento contra a terra e escute',
+            description: 'Fale à maneira antiga.',
           },
-          'story-8273910265-c10': {
-            text: 'Dar-lhes algum dinheiro por respostas',
-            description: 'O dinheiro fala quando o medo cala.',
+          'story-8743921042-c6': {
+            text: 'Quebre uma lasca do fragmento para desenhar runas de sangue',
+            description: 'O poder corteja um preço.',
           },
         },
       },
-      'story-8273910265-6': {
-        title: 'Observando na Chuva',
-        narration: 'Você se funde com o aguaceiro, deixando o suspeito guiá-lo por becos banhados em néon. Cada poça reflete um mundo fraturado. Sob seu casaco, você sente o peso de sua própria tecnologia; um laptop zumbe fracamente, implorando para decifrar mensagens criptografadas. Você hackeia o fluxo de comunicações deles ou continua seguindo-os pessoalmente?',
+      'story-8743921042-4': {
+        title: 'Teixo Ancião',
+        narration: 'Um teixo mais velho que qualquer templo arqueia-se sobre um riacho lento e claro. Bagas vermelhas brilham como gotas de advertência. Quando você toca a casca, a árvore se lembra de você—a voz de sua avó, uma canção de ninar sobre uma dívida ao bosque. A água clareia, mostrando seu rosto coroado com espinhos.',
         choices: {
-          'story-8273910265-c11': {
-            text: 'Hackear o fluxo de comunicações deles',
-            description: 'Segredos digitais são geralmente os mais suculentos.',
+          'story-8743921042-c7': {
+            text: 'Beba do riacho',
+            description: 'Aceite uma memória que não é sua.',
           },
-          'story-8273910265-c12': {
-            text: 'Continuar seguindo das sombras',
-            description: 'Permanecer no terreno.',
+          'story-8743921042-c8': {
+            text: 'Pegue casca de teixo para um amuleto protetor',
+            description: 'Proteção primeiro, depois caminhe.',
           },
         },
       },
-      'story-8273910265-7': {
-        title: 'Mensagem em Vermelho',
-        narration: 'Dentro do envelope você encontra uma fotografia de um pingente em forma de estrela e uma mensagem codificada escrita em tinta vermelha. O papel parece escorregadio sob seus dedos molhados. Os símbolos sugerem catálogos de bibliotecas e segredos antigos. Você deve decidir onde decifrá-lo.',
+      'story-8743921042-5': {
+        title: 'Ponte Envolta em Névoa',
+        narration: 'Uma ponte de corda e tábuas pende sobre um desfiladeiro que você não consegue ver. Lá embaixo, algo respira como ondas contra osso. Um sino pende do primeiro poste, envolto em seda de aranha, como se a floresta mesma o tivesse amordaçado.',
         choices: {
-          'story-8273910265-c13': {
-            text: 'Ir para a biblioteca municipal',
-            description: 'Pesquisa em prateleiras empoeiradas.',
+          'story-8743921042-c9': {
+            text: 'Toque o sino',
+            description: 'Acorde o que dorme para parlamentar.',
           },
-          'story-8273910265-c14': {
-            text: 'Ligar para seu amigo hacker',
-            description: 'Decodificar com ajuda digital.',
+          'story-8743921042-c10': {
+            text: 'Atravesse em silêncio',
+            description: 'Confie em seu equilíbrio.',
           },
         },
       },
-      'story-8273910265-8': {
-        title: 'Relatório Forense',
-        narration: 'De volta ao seu próprio laboratório, monitores piscando iluminam seu rosto. Você escaneia o envelope em busca de impressões digitais e analisa a tinta sob luz ofuscante. Uma impressão digital corresponde a um intermediário do submundo, e uma etiqueta GPS aponta para as docas. Você pode seguir o rastro de dados ou agir com base na informação.',
+      'story-8743921042-6': {
+        title: 'Mercado das Sombras',
+        narration: 'Lanternas florescem ao longo de uma viela tortuosa onde nenhuma cidade deveria estar. Barracas vendem chuva engarrafada, luas de dedal e nomes costurados em fitas. Um fabricante de máscaras acena para você se aproximar, oferecendo um rosto tecido de sarças e fio brilhante.',
         choices: {
-          'story-8273910265-c15': {
-            text: 'Verificar impressões digitais no banco de dados',
-            description: 'Informação é poder.',
+          'story-8743921042-c11': {
+            text: 'Compre a máscara de sarças com uma gota de sangue',
+            description: 'Máscaras enganam, mas protegem.',
           },
-          'story-8273910265-c16': {
-            text: 'Ir para as docas para rastreá-los',
-            description: 'Confrontar o suspeito pessoalmente.',
+          'story-8743921042-c12': {
+            text: 'Troque o fragmento por um guia',
+            description: 'Informação sobre artefatos.',
           },
         },
       },
-      'story-8273910265-9': {
-        title: 'Inteligência do Armazém',
-        narration: 'Seus esforços compensam: uma confissão sussurrada ou mensagem hackeada revela um encontro em um armazém abandonado marcado com grafite. O edifício se ergue como um monumento escuro contra o horizonte. Você pode invadir e arriscar tudo ou levar tempo para planejar.',
+      'story-8743921042-7': {
+        title: 'Lanternas Espirituais',
+        narration: 'Contas de luz sobem do riacho e espiralam ao seu redor, curiosas como filhotes de raposa. Elas empurram seu peito, suas mãos, o fragmento. Quando uma passa através de sua palma, sua pele canta com uma dor fina e prateada—o bosque julga você e encontra uma dívida não paga.',
         choices: {
-          'story-8273910265-c17': {
-            text: 'Infiltrar o armazém agora',
-            description: 'O tempo é essencial.',
+          'story-8743921042-c13': {
+            text: 'Peça aos espíritos para compartilhar o que sabem',
+            description: 'Perguntas humildes merecem respostas.',
           },
-          'story-8273910265-c18': {
-            text: 'Reunir mais inteligência primeiro',
-            description: 'Uma abordagem cautelosa pode compensar.',
+          'story-8743921042-c14': {
+            text: 'Comande os espíritos com a memória do teixo',
+            description: 'Autoridade pode machucar.',
           },
         },
       },
-      'story-8273910265-10': {
-        title: 'Último Trem',
-        narration: 'O suspeito escorrega para um trem da meia-noite e você se apressa para o pátio, vapor sibilando de locomotivas adormecidas. A escuridão envolve os trilhos enquanto a última chamada ecoa pelos alto-falantes. Você pode embarcar no trem agora ou tentar enganá-los na próxima parada.',
+      'story-8743921042-9': {
+        title: 'Portão da Cripta',
+        narration: 'Degraus esculpidos descem em pedra vermelha onde ar frio derrama como água. No fundo boceja uma porta de rocha nervurada e pregos de metal lunar. O fragmento em seu bolso treme, ansioso para estar inteiro.',
         choices: {
-          'story-8273910265-c19': {
-            text: 'Pular a bordo do trem',
-            description: 'Ficar perto do seu alvo.',
+          'story-8743921042-c17': {
+            text: 'Encaixe o fragmento na costura de metal lunar',
+            description: 'Complete o que foi quebrado.',
           },
-          'story-8273910265-c20': {
-            text: 'Interceptar na próxima estação',
-            description: 'Planejar uma emboscada com antecedência.',
+          'story-8743921042-c18': {
+            text: 'Recuse o chamado e pegue a escada superior',
+            description: 'Procure outro caminho para cima.',
           },
         },
       },
-      'story-8273910265-11': {
-        title: 'Pilhas de Segredos',
-        narration: 'Partículas de poeira dançam em feixes de luz enquanto você vaga por pilhas infinitas de livros. O cheiro de papel velho o cerca. Você rastreia números de catálogo obscuros até que seus dedos pousam em um tomo descrevendo um ornamento em forma de estrela que desbloqueia segredos em cofres bancários. Você testa a chave ou cava mais fundo nos arquivos?',
+      'story-8743921042-10': {
+        title: 'Escriba dos Ecos',
+        narration: 'Seu guia leva você a um terraço de pedra onde o vento escreve na ardósia. A Escriba é uma mulher encapuzada cujo cabelo se move como tinta na água. Ela ouve seu fragmento, então desenha três selos que cheiram a chuva e ferro.',
         choices: {
-          'story-8273910265-c21': {
-            text: 'Ir ao banco com o ornamento',
-            description: 'O cofre pode conter a verdade.',
+          'story-8743921042-c19': {
+            text: 'Pergunte sobre um caminho para a coroa',
+            description: 'Direto é perigoso.',
           },
-          'story-8273910265-c22': {
-            text: 'Pesquisar mais nos arquivos',
-            description: 'Pode haver mais para descobrir.',
+          'story-8743921042-c20': {
+            text: 'Pergunte como quebrar a reivindicação do bosque',
+            description: 'Desfaça o pacto.',
           },
         },
       },
-      'story-8273910265-13': {
-        title: 'Sombras nas Docas',
-        narration: 'O cheiro de sal e diesel paira pesado enquanto você se arrasta entre caixotes nas docas. Um barco solitário balança suavemente contra estacas desgastadas, vozes murmurando acima do respingo de ondas. Você permanece escondido para reunir evidências ou sai para a luz para confrontar o líder da gangue?',
+      'story-8743921042-11': {
+        title: 'Rio de Vidro',
+        narration: 'O rio parece imóvel, mas sua superfície é uma pele de facas refletindo uma segunda lua. Uma balsa sem balseiro espera, amarrada por uma corda de cabelos trançados. Você pode atravessar por confiança—ou testar o fio e sangrar um tributo.',
         choices: {
-          'story-8273910265-c25': {
-            text: 'Reunir evidências silenciosamente',
-            description: 'A paciência pode trazer prova.',
+          'story-8743921042-c21': {
+            text: 'Embarque na balsa em espera',
+            description: 'Confie no ritual do bosque.',
           },
-          'story-8273910265-c26': {
-            text: 'Confrontar o líder da gangue',
-            description: 'Forçar a questão agora.',
+          'story-8743921042-c22': {
+            text: 'Corte sua palma e pinte o fragmento',
+            description: 'Compre passagem segura.',
           },
         },
       },
-      'story-8273910265-14': {
-        title: 'Confronto no Telhado',
-        narration: 'O vento açoita o telhado enquanto você encurrala o suspeito contra um pano de fundo de arranha-céus imponentes, suas janelas cintilando como estrelas. O suor se acumula sob seu colarinho apesar do frio. Sem lugar para fugir, sua presa olha para o vão entre os edifícios. Seu próximo movimento decidirá o destino de ambos.',
+      'story-8743921042-12': {
+        title: 'Pacto de Espinhos',
+        narration: 'Uma árvore oca abre-se como uma capela, velas tremulando em nichos iluminados por seiva. Nomes sussurrados flutuam—linhagem, dívidas, votos. O fragmento aquece até doer, e você compreende: tomar a coroa significa vestir a fome do bosque.',
         choices: {
-          'story-8273910265-c27': {
-            text: 'Convencê-los e negociar',
-            description: 'Palavras podem ser armas.',
+          'story-8743921042-c23': {
+            text: 'Aceite o pacto abertamente',
+            description: 'Poder com um preço, pago à luz do dia.',
           },
-          'story-8273910265-c28': {
-            text: 'Derrubá-los ao chão',
-            description: 'Usar força para terminar a perseguição.',
+          'story-8743921042-c24': {
+            text: 'Recuse e procure uma brecha',
+            description: 'Sempre há uma formulação.',
           },
         },
       },
-      'story-8273910265-15': {
-        title: 'Emboscada na Estação',
-        narration: 'O trem se afasta e você se encontra em um corredor de estação deserto, luzes fluorescentes piscando acima. Passos ecoam à distância, depois desaparecem. Seu alvo escorregou para a escuridão. Você espera que eles voltem ou liga para um contato que lhe deve um favor?',
+      'story-8743921042-13': {
+        title: 'Rei sem Coroa',
+        narration: 'Uma figura de raízes e vento senta-se sobre uma cadeira de pedra, sua testa em carne viva onde um diadema outrora repousou. Quando ele se vira, você vê suas próprias maçãs do rosto, os olhos de sua família—sua linhagem uma vez deteve a coroa. O bosque zumbe, esperando ver o que você fará da verdade.',
         choices: {
-          'story-8273910265-c29': {
-            text: 'Esperar nas sombras',
-            description: 'A paciência pode pegá-los.',
+          'story-8743921042-c25': {
+            text: 'Ajoelhe e jure consertar o que sua linhagem quebrou',
+            description: 'Expiação liga fortemente.',
           },
-          'story-8273910265-c30': {
-            text: 'Cobrar um favor',
-            description: 'Alavancar sua rede.',
+          'story-8743921042-c26': {
+            text: 'Desafie o Rei a passar o fardo',
+            description: 'Ganhe liberdade ou peso pior.',
           },
         },
       },
-      'story-8273910265-17': {
-        title: 'Píer da Meia-Noite',
-        narration: 'O luar pinta o píer de prata enquanto as ondas lambem suas tábuas desgastadas. Uma figura solitária espera sob uma lâmpada, rosto escondido sob um capuz. Eles lhe oferecem uma escolha – junte-se a eles e compartilhe os lucros da conspiração, ou recuse e exponha toda a operação. Confiança e traição pairam no ar salgado.',
+      'story-8743921042-14': {
+        title: 'Escadas da Agulha Lunar',
+        narration: 'Escadas esculpidas em pedra branca como osso ziguezagueiam na névoa. Cada curva mostra a lua maior até que ela preencha o céu com um rosto frio. Sua respiração empluma; sua resolução endurece para igualar a subida.',
         choices: {
-          'story-8273910265-c33': {
-            text: 'Aceitar o acordo deles',
-            description: 'Juntar-se à rede de sombras.',
+          'story-8743921042-c27': {
+            text: 'Suba mais rápido para alcançar a agulha primeiro',
+            description: 'Tome a iniciativa.',
           },
-          'story-8273910265-c34': {
-            text: 'Recusar e expor tudo',
-            description: 'Soprar o apito.',
-          },
-        },
-      },
-      'story-8273910265-18': {
-        title: 'Invasão',
-        narration: 'Com aliados ao seu lado, você empurra uma porta para um longo corredor escuro. Passos ecoam enquanto você se aproxima de uma reunião em andamento, vozes baixas e conspiratórias. Você invade e faz prisões ou fica para trás para gravar a troca para o mundo ver?',
-        choices: {
-          'story-8273910265-c35': {
-            text: 'Intervir e prendê-los',
-            description: 'Levá-los à justiça.',
-          },
-          'story-8273910265-c36': {
-            text: 'Gravar tudo para um vazamento',
-            description: 'Expor a conspiração publicamente.',
+          'story-8743921042-c28': {
+            text: 'Pause para gravar uma proteção no degrau',
+            description: 'Proteção sobre pressa.',
           },
         },
       },
-      'story-8273910265-19': {
-        title: 'O Caso Escapa',
-        narration: 'Você se lança na refrega e a gangue se dispersa como sombras na chuva. Um tiro ressoa, um motor de barco ruge, e o mentor desaparece na noite. Semanas depois você olha fixamente para seu quadro de cortiça, fios de lã conectando fotos que não levam a lugar nenhum. O caso esfria e a cidade esquece, mas você não consegue.',
+      'story-8743921042-15': {
+        title: 'Salão das Sementes',
+        narration: 'Uma caverna abre-se sob um céu pintado onde milhares de sementes pendem em seda de teia de aranha. Cada semente bate como um pequeno coração, cada uma uma floresta futura esperando por uma promessa. A coroa repousa sobre um pedestal de raízes entrelaçadas, pulsando em sincronia com seu próprio pulso.',
+        choices: {
+          'story-8743921042-c29': {
+            text: 'Coloque o fragmento na coroa',
+            description: 'Complete o instrumento de governo.',
+          },
+          'story-8743921042-c30': {
+            text: 'Espalhe as sementes e sufoque a coroa',
+            description: 'Quebre o ciclo para sempre.',
+          },
+        },
+      },
+      'story-8743921042-16': {
+        title: 'Duelo do Espelho',
+        narration: 'Em um cume congelado, o vento endurece em uma forma que o espelha golpe por golpe. Cada golpe ressoa, sacudindo neve de pinheiros negros. O bosque observa sem respirar, julgando qual eu o servirá melhor.',
+        choices: {
+          'story-8743921042-c31': {
+            text: 'Ceda e aceite a coroa de seu reflexo',
+            description: 'Deixe o outro você governar.',
+          },
+          'story-8743921042-c32': {
+            text: 'Despedace o espelho com o fragmento',
+            description: 'Quebre o teste para definir seus termos.',
+          },
+        },
+      },
+      'story-8743921042-17': {
+        title: 'Preço da Magia',
+        narration: 'A névoa dobra-se em um círculo de pedras erguidas, cada superfície esculpida com oferendas—cabelos, dentes, anéis, canções de ninar escritas em cinzas. O bosque não negocia sem moeda. Você pode comprar um caminho, mas deve nomear sua perda.',
+        choices: {
+          'story-8743921042-c33': {
+            text: 'Ofereça sua voz por uma estação',
+            description: 'Silêncio compra orientação.',
+          },
+          'story-8743921042-c34': {
+            text: 'Ofereça um ano de sua sombra',
+            description: 'Você caminhará mais fino.',
+          },
+        },
+      },
+      'story-8743921042-18': {
+        title: 'Amanhecer Restaurado',
+        narration: 'A coroa aceita o fragmento, e o bosque exala uma respiração perfumada de primavera. Pássaros despertam quando o primeiro ouro derrama através das árvores. Você sai sem vestir metal, apenas uma guirlanda de brotos frescos—administrador, não soberano. A floresta murmura um sim tranquilo.',
         choices: {
         },
       },
-      'story-8273910265-21': {
-        title: 'Acordo com o Diabo',
-        narration: 'A tentação vence. Você embolsa os arquivos e entra no círculo interno. A escada que você sobe pode ser dourada, mas cada degrau está escorregadio de culpa. Riqueza e conexões fluem para você, mas em momentos tranquilos você se pergunta o que aconteceu com a jovem mulher cujo ornamento desbloqueou sua fortuna.',
+      'story-8743921042-19': {
+        title: 'Floresta Devora',
+        narration: 'Sementes estouram em uma enxurrada de raízes que racham pedra e engolem salões. A coroa sufoca sob uma maré verde que não se importa com reis. Anos depois, viajantes sussurram de uma nova floresta que cresce rápido demais, faminta como uma tempestade. Seu nome está perdido sob as folhas.',
         choices: {
         },
       },
-      'story-8273910265-22': {
-        title: 'Denunciante',
-        narration: 'Você escolhe exposição em vez de segurança. Escondido atrás de monitores brilhantes, você compila gravações e documentos e os vaza para a imprensa. Manchetes explodem, figuras poderosas caem, e a cidade convulsiona. Você se torna tanto herói quanto alvo, desaparecendo em sombras digitais sabendo que fez a coisa certa.',
+      'story-8743921042-20': {
+        title: 'Rainha dos Espinhos',
+        narration: 'Você se curva ao seu reflexo, e ele avança, vestindo seu rosto e uma coroa de videira viva. A aurora ondula nos chifres do veado observador enquanto raízes sobem para formar um trono. Você governará ouvindo, nenhuma lâmina necessária—mas a coroa bebe um pouco de seu sono a cada noite.',
+        choices: {
+        },
+      },
+      'story-8743921042-21': {
+        title: 'Perdido Entre Mundos',
+        narration: 'O espelho se despedaça, mas também o caminho de casa. Você aprende as trilhas laterais do bosque, guiando errantes para clareiras seguras com uma lanterna de sua própria criação. Algumas noites você quase se lembra de um nome diferente. A lua é seu único relógio.',
+        choices: {
+        },
+      },
+      'story-8743921042-22': {
+        title: 'O Juramento de Prata',
+        narration: 'Em uma praia onde raízes bebem a maré, você jura carregar a lei do bosque além de suas árvores. A coroa dissolve-se em luz que permeia suas veias, fria e limpa. Você deixa pegadas que brotam grama atrás de você, um juramento caminhando sobre duas pernas. A dívida torna-se uma promessa cumprida.',
         choices: {
         },
       },
@@ -1479,221 +1599,261 @@ export const story_8743921042StoryTranslations: Record<Language, StoryTranslatio
 
   // 日本語
   ja: {
-    title: '消えた星の影',
-    description: 'テック企業の相続人が姿を消し、謎めいた装飾品だけが残されたとき、私立探偵サム・マーサーは雨に濡れた路地、秘密の図書館、そして影の落ちる埠頭の迷宮へと引き込まれる。すべての手がかりは新たな疑問を生み、すべての決断が彼を街の頂点にまで達する陰謀の奥深くへと引きずり込んでいく。',
-    author: 'ダフネ・ソーヤー',
+    title: '月光の森の残響',
+    description: '満月がブラックブライアの森に昇る時、古い契約が目覚める。あなたは壊れた印章の欠片を持っており、それは木々の近くで振動し、忘れられた王冠と森が回収しようとする負債へとあなたを呼んでいる。同盟者、名誉、または力を選べ――だが森は常にその報いを取る。',
+    author: 'ダリア・ヴォロノワ',
     nodes: {
-      'story-8273910265-1': {
-        title: '真夜中の依頼人',
-        narration: '雨があなたの事務所の窓を叩く中、外で点滅するネオンを見つめている。影が敷居を横切り、ずぶ濡れのトレンチコートを着た女性が入ってくる。彼女は懇願するような目で星型の装飾品を取り出し、行方不明の相続人について囁く。湿ったアスファルトと古い紙の匂いが部屋を満たし、あなたは彼女の言葉に潜む危険を考える。街は秘密で満ちており、これは始まりに過ぎないと感じる。',
+      'story-8743921042-1': {
+        title: '月光の前兆',
+        narration: '青白い月がブラックブライアの絡み合った梢の上に昇り、ポケットの中の欠片が約束を思い出すかのように温まる。フクロウたちは沈黙する。松の木の間に、濡れたインクのように光る細い道が現れ、あなたのブーツを引っ張る。欠片が再び震え、根に眠る古いものに応答する。',
         choices: {
-          'story-8273910265-c1': {
-            text: '事件を引き受けて現場に向かう',
-            description: '雨の中でも、義務が呼んでいる。',
+          'story-8743921042-c1': {
+            text: '月明かりに照らされた道を森へ進む',
+            description: '欠片はあなたをより深くへ望んでいる。',
           },
-          'story-8273910265-c2': {
-            text: '断って窓から様子を見る',
-            description: '距離を保ち、展開を観察する。',
+          'story-8743921042-c2': {
+            text: '印章の欠片を調べ、近くの印を探す',
+            description: 'リスクの前に知識を。',
           },
         },
       },
-      'story-8273910265-3': {
-        title: '気の進まない監視',
-        narration: '女性を追い返したが、好奇心があなたを蝕む。雨の筋が走るガラス越しに、通りの向こう側で潜んでいる人影を見つける。カメラを手に、あなたの事務所の写真を撮っている。路地は街灯の下で輝き、街は獣のように呼吸している。雨の中を彼の後を追うか、距離を保つか、どちらかだ。',
+      'story-8743921042-2': {
+        title: '囁く道',
+        narration: '霧が膝の高さで渦を巻き、ほとんど知っているような声であなたの名前を囁く。淡い蛾が前方に漂い、より深くを指す矢を形成する。湿った鉄の匂いが空気に乗る。遠くのどこかで、鐘が一度鳴る。',
         choices: {
-          'story-8273910265-c5': {
-            text: '影を追って通りを下る',
-            description: '近づき、暴露のリスクを冒す。',
+          'story-8743921042-c3': {
+            text: '囁きに答える',
+            description: 'それらを中に入れるリスクを冒す。',
           },
-          'story-8273910265-c6': {
-            text: '影に留まり観察する',
-            description: '忍耐が報われるかもしれない。',
+          'story-8743921042-c4': {
+            text: '無視して鐘の音へ向かう',
+            description: '耳ではなく足を信じる。',
           },
         },
       },
-      'story-8273910265-5': {
-        title: '神経質な目撃者',
-        narration: '神経質な通行人が雨の斑点のある窓にもたれかかり、電話を耳に押し当てている。目を逸らしながら、あなたが近づくとコートをきつく引き寄せる。あなたが優しく真実を引き出すか、現金で車輪に油を差すかを決めると、街の喧騒が消えていくようだ。',
+      'story-8743921042-3': {
+        title: '砕けた印章',
+        narration: '欠片は棘のあるルーン文字が刻まれた暗いガラスの三日月である。息を吹きかけると、霜が印を縁取り、第二の模様が花開く――持ち主のいない王冠。森が低いうめき声で応答し、眠りの中で寝返りを打つかのよう。',
         choices: {
-          'story-8273910265-c9': {
-            text: '冷静に何を見たか尋ねる',
-            description: '共感を通じて信頼を得る。',
+          'story-8743921042-c5': {
+            text: '欠片を大地に押し付けて聞く',
+            description: '古い方法で語りかける。',
           },
-          'story-8273910265-c10': {
-            text: '答えのために金を渡す',
-            description: '恐怖が黙るとき、金が語る。',
+          'story-8743921042-c6': {
+            text: '欠片から破片を割って血のルーン文字を描く',
+            description: '力は代償を求める。',
           },
         },
       },
-      'story-8273910265-6': {
-        title: '雨の中の監視',
-        narration: '土砂降りに溶け込み、容疑者がネオンに浸された路地を通ってあなたを導くのを許す。すべての水たまりが砕けた世界を映し出す。コートの下で、自分の技術の重さを感じる。ラップトップがかすかに鳴り、暗号化されたメッセージを破るよう懇願している。彼らの通信をハッキングするか、それとも直接追跡を続けるか？',
+      'story-8743921042-4': {
+        title: '古いイチイの木',
+        narration: 'どの寺院よりも古いイチイの木が、ゆっくりと澄んだ小川の上にアーチを描く。赤い実が警告の滴のように輝く。樹皮に触れると、木があなたを思い出す――祖母の声、森への負債についての子守唄。水が明るくなり、棘で冠されたあなたの顔を映す。',
         choices: {
-          'story-8273910265-c11': {
-            text: '通信フィードをハッキングする',
-            description: 'デジタルの秘密は最もジューシーなことが多い。',
+          'story-8743921042-c7': {
+            text: '小川から水を飲む',
+            description: '自分のものではない記憶を受け入れる。',
           },
-          'story-8273910265-c12': {
-            text: '影から追跡を続ける',
-            description: '現場に留まる。',
+          'story-8743921042-c8': {
+            text: 'イチイの樹皮を取って守りの護符にする',
+            description: 'まず守り、それから歩く。',
           },
         },
       },
-      'story-8273910265-7': {
-        title: '赤いメッセージ',
-        narration: '封筒の中に、星型のペンダントの写真と赤いインクで書かれた暗号化されたメッセージを見つける。濡れた指の下で紙が滑りやすく感じる。記号は図書館のカタログと古い秘密を示唆している。どこで解読するか決めなければならない。',
+      'story-8743921042-5': {
+        title: '霧に包まれた橋',
+        narration: 'ロープと板の橋が、見えない峡谷の上にたるんでいる。下では、何かが骨に打ち寄せる波のように呼吸している。最初の柱に鐘がかかり、クモの糸に包まれている。まるで森自体がそれを縛り上げたかのよう。',
         choices: {
-          'story-8273910265-c13': {
-            text: '市立図書館に向かう',
-            description: '埃っぽい書架での研究。',
+          'story-8743921042-c9': {
+            text: '鐘を鳴らす',
+            description: '眠るものを起こして交渉する。',
           },
-          'story-8273910265-c14': {
-            text: 'ハッカーの友人に電話する',
-            description: 'デジタルの助けで解読する。',
+          'story-8743921042-c10': {
+            text: '沈黙のまま渡る',
+            description: 'バランス感覚を信じる。',
           },
         },
       },
-      'story-8273910265-8': {
-        title: '法医学報告書',
-        narration: '自分のラボに戻ると、点滅するモニターがあなたの顔を照らす。封筒を指紋のためにスキャンし、眩しい光の下でインクを分析する。指紋は裏社会の仲介者と一致し、GPSタグは埠頭を指している。データの痕跡を追うか、情報に基づいて行動するか、どちらかだ。',
+      'story-8743921042-6': {
+        title: '影の市場',
+        narration: '都市があるはずのない曲がった小道に沿って提灯が花開く。露店は瓶詰めの雨、指ぬきほどの月、リボンに縫い付けられた名前を売っている。仮面職人がより近くへと手招きし、茨と輝く糸で織られた顔を提供する。',
         choices: {
-          'story-8273910265-c15': {
-            text: 'データベースで指紋を照合する',
-            description: '情報は力だ。',
+          'story-8743921042-c11': {
+            text: '血の一滴で茨の仮面を買う',
+            description: '仮面は欺くが、守る。',
           },
-          'story-8273910265-c16': {
-            text: '埠頭に向かって追跡する',
-            description: '容疑者と直接対決する。',
+          'story-8743921042-c12': {
+            text: '欠片を案内人と交換する',
+            description: '遺物より情報を。',
           },
         },
       },
-      'story-8273910265-9': {
-        title: '倉庫の情報',
-        narration: 'あなたの努力が実を結ぶ。囁かれた告白またはハッキングされたメッセージが、落書きでタグ付けされた廃倉庫でのランデブーを明らかにする。建物はスカイラインに対して暗い記念碑のようにそびえ立っている。突入してすべてを賭けるか、計画を立てる時間を取るか、どちらかだ。',
+      'story-8743921042-7': {
+        title: '霊の提灯',
+        narration: '光の玉が小川から立ち上り、子狐のように好奇心旺盛にあなたの周りを渦巻く。それらはあなたの胸、手、欠片を突く。一つがあなたの手のひらを通過すると、あなたの肌は細く銀色の痛みで歌う――森があなたを裁き、未払いの負債を見つける。',
         choices: {
-          'story-8273910265-c17': {
-            text: '今すぐ倉庫に潜入する',
-            description: '時間が決定的だ。',
+          'story-8743921042-c13': {
+            text: '霊たちに知っていることを共有するよう頼む',
+            description: '謙虚な質問は答えを得る。',
           },
-          'story-8273910265-c18': {
-            text: 'まずもっと情報を集める',
-            description: '慎重なアプローチが報われるかもしれない。',
+          'story-8743921042-c14': {
+            text: 'イチイの記憶で霊たちに命令する',
+            description: '権威は傷つけることがある。',
           },
         },
       },
-      'story-8273910265-10': {
-        title: '最終列車',
-        narration: '容疑者が真夜中の列車に滑り込み、あなたは操車場に急ぐ。眠っている機関車から蒸気がシューシュー音を立てる。最終呼び出しがスピーカーを通して響く中、闇が線路を包む。今列車に乗るか、次の停車駅で出し抜くか、どちらかだ。',
+      'story-8743921042-9': {
+        title: '地下墓地の門',
+        narration: '彫られた階段が赤い石へと下り、冷たい空気が水のように流れ出る。底には肋骨状の岩と月の金属の鋲がある扉が口を開けている。ポケットの欠片が震え、完全になることを切望している。',
         choices: {
-          'story-8273910265-c19': {
-            text: '列車に飛び乗る',
-            description: 'ターゲットの近くに留まる。',
+          'story-8743921042-c17': {
+            text: '欠片を月の金属の継ぎ目に合わせる',
+            description: '壊れたものを完成させる。',
           },
-          'story-8273910265-c20': {
-            text: '次の駅で迎撃する',
-            description: '事前に待ち伏せを計画する。',
+          'story-8743921042-c18': {
+            text: '引力を拒み、上の階段を取る',
+            description: '上への別の道を探す。',
           },
         },
       },
-      'story-8273910265-11': {
-        title: '秘密の山',
-        narration: '光の筋の中で埃の粒子が踊る中、あなたは無限の本の山をさまよう。古い紙の匂いがあなたを包む。不明瞭なカタログ番号を辿り、銀行の金庫の秘密を解き明かす星型の装飾品を説明する本に指が止まる。鍵を試すか、アーカイブをもっと深く掘るか？',
+      'story-8743921042-10': {
+        title: '反響の書記',
+        narration: '案内人があなたを石のテラスへ連れて行き、そこでは風がスレートに文字を書く。書記はフードをかぶった女性で、その髪は水中のインクのように動く。彼女はあなたの欠片に耳を傾け、雨と鉄の香りがする三つの印章を描く。',
         choices: {
-          'story-8273910265-c21': {
-            text: '装飾品を持って銀行に行く',
-            description: '金庫が真実を持っているかもしれない。',
+          'story-8743921042-c19': {
+            text: '王冠への道を尋ねる',
+            description: '直接的なのは危険。',
           },
-          'story-8273910265-c22': {
-            text: 'アーカイブをさらに探す',
-            description: 'もっと発見すべきことがあるかもしれない。',
+          'story-8743921042-c20': {
+            text: '森の要求を破る方法を尋ねる',
+            description: '契約を解く。',
           },
         },
       },
-      'story-8273910265-13': {
-        title: '埠頭の影',
-        narration: '埠頭の箱の間を忍び寄る間、塩とディーゼルの匂いが重くのしかかる。風化した杭に対して孤独なボートが静かに揺れ、波のしぶきの上で声がささやいている。証拠を集めるために隠れたままでいるか、ギャングのリーダーと対決するために光の中に出るか？',
+      'story-8743921042-11': {
+        title: 'ガラスの川',
+        narration: '川は静かに見えるが、その表面は第二の月を映すナイフの皮膚である。船頭のいない渡し船が待っており、編まれた髪のロープで縛られている。信頼して渡るか――それとも刃を試して貢物を流血するか。',
         choices: {
-          'story-8273910265-c25': {
-            text: '静かに証拠を集める',
-            description: '忍耐が証拠をもたらすかもしれない。',
+          'story-8743921042-c21': {
+            text: '待っている渡し船に乗る',
+            description: '森の儀式を信じる。',
           },
-          'story-8273910265-c26': {
-            text: 'ギャングのリーダーと対決する',
-            description: '今すぐ問題を強制する。',
+          'story-8743921042-c22': {
+            text: '手のひらを切って欠片を塗る',
+            description: '安全な通行を購入する。',
           },
         },
       },
-      'story-8273910265-14': {
-        title: '屋上での対決',
-        narration: '風が屋上を吹き抜ける中、そびえ立つ超高層ビルを背景に容疑者を追い詰める。その窓は星のように輝いている。寒さにもかかわらず、襟の下に汗が玉を作る。逃げ場がなく、獲物は建物の間のギャップを見つめる。あなたの次の動きが両者の運命を決める。',
+      'story-8743921042-12': {
+        title: '棘の契約',
+        narration: '空洞の木が礼拝堂のように開き、樹液で照らされた壁龕でろうそくが揺れる。囁かれた名前が漂う――血統、負債、誓い。欠片が痛むほど温まり、あなたは理解する。王冠を取ることは森の飢えを身に着けることを意味する。',
         choices: {
-          'story-8273910265-c27': {
-            text: '説得して交渉する',
-            description: '言葉は武器になり得る。',
+          'story-8743921042-c23': {
+            text: '契約を公然と受け入れる',
+            description: '代償を伴う力、日の光の下で支払われる。',
           },
-          'story-8273910265-c28': {
-            text: '地面にタックルする',
-            description: '力を使って追跡を終わらせる。',
+          'story-8743921042-c24': {
+            text: '拒否して抜け穴を探す',
+            description: '常に言葉遣いがある。',
           },
         },
       },
-      'story-8273910265-15': {
-        title: '駅での待ち伏せ',
-        narration: '列車が去り、あなたは蛍光灯が頭上でちらつく人けのない駅の廊下にいる。足音が遠くで響き、そして消える。ターゲットは闇に滑り込んだ。彼らが引き返すのを待つか、恩のある連絡先に電話するか？',
+      'story-8743921042-13': {
+        title: '冠なき王',
+        narration: '根と風の姿が石の椅子に座っており、かつて王冠があった額は生々しい。彼が振り向くと、あなた自身の頬骨、家族の目が見える――あなたの血統はかつて王冠を持っていた。森が唸り、あなたが真実で何をするかを待っている。',
         choices: {
-          'story-8273910265-c29': {
-            text: '影の中で待つ',
-            description: '忍耐が彼らを捕まえるかもしれない。',
+          'story-8743921042-c25': {
+            text: '跪いて血統が壊したものを修復すると誓う',
+            description: '贖罪は強く結びつく。',
           },
-          'story-8273910265-c30': {
-            text: '恩を呼び出す',
-            description: 'ネットワークを活用する。',
+          'story-8743921042-c26': {
+            text: '王に挑戦して負担を渡す',
+            description: '自由またはより重い重荷を勝ち取る。',
           },
         },
       },
-      'story-8273910265-17': {
-        title: '真夜中の桟橋',
-        narration: '月光が桟橋を銀色に染める中、波がその風化した板を舐める。ランプの下で孤独な人影が待っている。フードの下に顔が隠されている。彼らはあなたに選択を提供する。彼らと一緒に陰謀の利益を共有するか、拒否してすべての作戦を暴露するか。塩辛い空気の中に信頼と裏切りが漂う。',
+      'story-8743921042-14': {
+        title: '月の尖塔の階段',
+        narration: '骨のように白い石から削り出された階段が霧の中をジグザグに進む。曲がるたびに月が大きくなり、冷たい顔で空を満たすまで。あなたの息は羽毛のよう。決意は登りに合わせて硬くなる。',
         choices: {
-          'story-8273910265-c33': {
-            text: '彼らの取引を受け入れる',
-            description: '影のネットワークに参加する。',
+          'story-8743921042-c27': {
+            text: 'より速く登って尖塔に最初に到達する',
+            description: '主導権を握る。',
           },
-          'story-8273910265-c34': {
-            text: '拒否してすべてを暴露する',
-            description: '警笛を鳴らす。',
-          },
-        },
-      },
-      'story-8273910265-18': {
-        title: '侵入',
-        narration: '味方を味方に、長く暗い廊下へのドアを押し開ける。進行中の会議に近づくにつれて足音が響く。声は低く陰謀めいている。突入して逮捕するか、世界が見るために交換を記録するために待機するか？',
-        choices: {
-          'story-8273910265-c35': {
-            text: '介入して逮捕する',
-            description: '正義の前に連れて行く。',
-          },
-          'story-8273910265-c36': {
-            text: 'リークのためにすべてを記録する',
-            description: '陰謀を公に暴露する。',
+          'story-8743921042-c28': {
+            text: '一時停止して段に護りを刻む',
+            description: '急ぐより保護を。',
           },
         },
       },
-      'story-8273910265-19': {
-        title: '事件は逃げる',
-        narration: '戦闘に突入すると、ギャングは雨の中の影のように散らばる。銃声が鳴り響き、ボートのエンジンが轟き、首謀者は夜に消える。数週間後、あなたはコルクボードを見つめる。毛糸の糸がどこにも通じない写真をつないでいる。事件は冷え込み、街は忘れるが、あなたにはできない。',
+      'story-8743921042-15': {
+        title: '種子の間',
+        narration: '描かれた空の下に洞窟が開き、何千もの種子がクモの糸に吊るされている。それぞれの種子は小さな心臓のように鼓動し、それぞれが約束を待つ未来の森。王冠は編まれた根の台座の上にあり、あなた自身の脈拍と同じリズムで脈打つ。',
+        choices: {
+          'story-8743921042-c29': {
+            text: '欠片を王冠に入れる',
+            description: '統治の道具を完成させる。',
+          },
+          'story-8743921042-c30': {
+            text: '種子を散らして王冠を窒息させる',
+            description: '永遠にサイクルを破る。',
+          },
+        },
+      },
+      'story-8743921042-16': {
+        title: '鏡の決闘',
+        narration: '凍った尾根で、風があなたを一撃一撃鏡のように映す形に硬化する。一撃ごとに響き、黒い松から雪を振り落とす。森は息をせずに見守り、どちらの自己が最もよく仕えるかを判断する。',
+        choices: {
+          'story-8743921042-c31': {
+            text: '屈して映像の王冠を受け入れる',
+            description: 'もう一人の自分に統治させる。',
+          },
+          'story-8743921042-c32': {
+            text: '欠片で鏡を砕く',
+            description: '試練を破って自分の条件を設定する。',
+          },
+        },
+      },
+      'story-8743921042-17': {
+        title: '魔法の代償',
+        narration: '霧が立石の円に折り畳まれ、すべての表面に供物が彫られている――髪、歯、指輪、灰で書かれた子守唄。森は硬貨なしで交渉しない。道を買うことはできるが、あなたの損失を名付けなければならない。',
+        choices: {
+          'story-8743921042-c33': {
+            text: '一季節の間、声を差し出す',
+            description: '沈黙が導きを買う。',
+          },
+          'story-8743921042-c34': {
+            text: '影から一年を差し出す',
+            description: 'あなたはより薄く歩くだろう。',
+          },
+        },
+      },
+      'story-8743921042-18': {
+        title: '夜明けの回復',
+        narration: '王冠が欠片を受け入れ、森が春の香りの息を吐く。最初の金色が木々を通って流れ出ると、鳥たちが目覚める。あなたは金属を身に着けず、新鮮な芽の花輪だけを付けて外に出る――統治者ではなく管理者。森は静かなイエスを唸る。',
         choices: {
         },
       },
-      'story-8273910265-21': {
-        title: '悪魔との契約',
-        narration: '誘惑が勝つ。ファイルをポケットに入れ、内部サークルに足を踏み入れる。登る梯子は金メッキかもしれないが、すべての段が罪悪感で滑りやすい。富とつながりがあなたに流れ込むが、静かな瞬間に、装飾品があなたの財産を解き明かした若い女性はどうなったのかと思う。',
+      'story-8743921042-19': {
+        title: '森は飲み込む',
+        narration: '種子が石を砕き広間を飲み込む根の突進の中で破裂する。王冠は王を気にしない緑の波の下で窒息する。数年後、旅人たちは嵐のように飢えた、速すぎる成長の新しい森について囁く。あなたの名前は葉の下に失われた。',
         choices: {
         },
       },
-      'story-8273910265-22': {
-        title: '内部告発者',
-        narration: '安全よりも暴露を選ぶ。輝くモニターの後ろに隠れて、録音と文書をまとめ、報道機関にリークする。見出しが爆発し、強力な人物が倒れ、街が痙攣する。あなたは英雄でもあり標的でもあり、正しいことをしたと知りながらデジタルの影に消える。',
+      'story-8743921042-20': {
+        title: '棘の女王',
+        narration: 'あなたは映像に頭を下げ、それが前進し、あなたの顔と生きた蔓の王冠を身に着ける。見守る鹿の角にオーロラが波打ち、根が上昇して玉座を形成する。あなたは聞くことで統治する、刃は不要――しかし王冠は毎晩あなたの眠りから少しずつ飲む。',
+        choices: {
+        },
+      },
+      'story-8743921042-21': {
+        title: '世界の間に迷う',
+        narration: '鏡が砕けるが、家への道も砕ける。あなたは森の脇道を学び、自作の提灯で放浪者を安全な空き地へ導く。いくつかの夜、あなたはほとんど別の名前を思い出す。月があなたの唯一の時計。',
+        choices: {
+        },
+      },
+      'story-8743921042-22': {
+        title: '銀の誓い',
+        narration: '根が潮を飲む岸辺で、あなたは森の法を木々を越えて運ぶと誓う。王冠が冷たく純粋な光に溶けてあなたの静脈を通る。あなたはあなたの後ろに草が芽生える足跡を残す、二本の足で歩く誓い。負債は守られた約束となる。',
         choices: {
         },
       },
@@ -1702,221 +1862,261 @@ export const story_8743921042StoryTranslations: Record<Language, StoryTranslatio
 
   // 中文
   zh: {
-    title: '消失之星的阴影',
-    description: '当一位科技女继承人消失，只留下一个神秘的装饰品时，私家侦探萨姆·默瑟被卷入了一个由雨水浸透的小巷、秘密图书馆和阴暗码头组成的迷宫。每一条线索都会引发新的问题，每一个决定都将他更深地拉进一个延伸到城市顶端的阴谋之中。',
-    author: '达芙妮·索耶',
+    title: '月光林地的回响',
+    description: '当满月升起在黑荆森林之上时，一个古老的契约苏醒了。你携带着一块破碎印章的碎片，它在树木附近嗡鸣，呼唤你走向一顶被遗忘的王冠和一笔林地打算收取的债务。选择盟友、荣誉或权力——但林地总会索取它的代价。',
+    author: '达里亚·沃罗诺娃',
     nodes: {
-      'story-8273910265-1': {
-        title: '午夜委托人',
-        narration: '雨水敲打着你办公室的窗户，你凝视着外面闪烁的霓虹灯。一个影子跨过门槛，一个穿着湿透风衣的女人走了进来，她眼神恳求地拿出一个星形装饰品，低声诉说着一位失踪的女继承人。潮湿的路面和旧纸的气味充满了房间，你权衡着她话语中的危险。这座城市充满了秘密的嗡嗡声，你感觉这只是开始。',
+      'story-8743921042-1': {
+        title: '月光预兆',
+        narration: '蓝白色的月亮升起在黑荆交织的树冠之上，你口袋里的碎片变暖，仿佛记起了一个承诺。猫头鹰们沉默了。松树之间，一条狭窄的小径像湿墨水一样闪闪发光，拉扯着你的靴子。碎片再次震动，回应着在根部搅动的古老事物。',
         choices: {
-          'story-8273910265-c1': {
-            text: '接受案件并前往犯罪现场',
-            description: '即使在雨中，职责也在召唤。',
+          'story-8743921042-c1': {
+            text: '沿着月光照耀的小径进入林地',
+            description: '碎片想让你走得更深。',
           },
-          'story-8273910265-c2': {
-            text: '拒绝并从窗口观察',
-            description: '保持距离，观察事态发展。',
+          'story-8743921042-c2': {
+            text: '研究印章碎片并寻找附近的标记',
+            description: '风险之前先获取知识。',
           },
         },
       },
-      'story-8273910265-3': {
-        title: '不情愿的监视',
-        narration: '你打发女人离开，但好奇心啃噬着你。透过被雨水划过的玻璃，你看到一个人影潜伏在街对面，手里拿着相机，正在拍摄你的办公室。小巷在街灯下闪闪发光，城市像野兽一样呼吸。你可以冲进雨中追赶他，也可以保持距离。',
+      'story-8743921042-2': {
+        title: '低语之路',
+        narration: '雾气在膝盖高度盘旋，用你几乎认识的声音低语着你的名字。苍白的飞蛾在前方飘浮，形成指向更深处的箭头。潮湿铁的气味飘荡在空气中。在遥远的某处，钟声响了一次。',
         choices: {
-          'story-8273910265-c5': {
-            text: '沿着街道追踪那个影子',
-            description: '靠近，冒着暴露的风险。',
+          'story-8743921042-c3': {
+            text: '回应低语',
+            description: '冒险让它们进入。',
           },
-          'story-8273910265-c6': {
-            text: '留在阴影中观察',
-            description: '耐心可能会有回报。',
+          'story-8743921042-c4': {
+            text: '忽视它们，向钟声前进',
+            description: '相信你的脚，而不是你的耳朵。',
           },
         },
       },
-      'story-8273910265-5': {
-        title: '紧张的证人',
-        narration: '一个紧张的路人靠在雨点斑驳的窗户上，电话贴在耳边。眼神闪躲，当你靠近时，他们把外套裹得更紧。城市的嗡嗡声似乎消退了，你在决定是温和地引出真相还是用现金润滑车轮。',
+      'story-8743921042-3': {
+        title: '破碎的印章',
+        narration: '碎片是一块刻有荆棘符文的深色玻璃新月。当你对它呼气时，霜冻环绕着标记，第二个图案绽放——一顶无人佩戴的王冠。树林以低沉的呻吟回应，仿佛在睡梦中翻身。',
         choices: {
-          'story-8273910265-c9': {
-            text: '平静地询问他们看到了什么',
-            description: '通过同理心赢得信任。',
+          'story-8743921042-c5': {
+            text: '将碎片压在地上并倾听',
+            description: '用古老的方式说话。',
           },
-          'story-8273910265-c10': {
-            text: '给他们一些钱换取答案',
-            description: '当恐惧沉默时，金钱会说话。',
+          'story-8743921042-c6': {
+            text: '从碎片上折断一片碎屑来绘制血符文',
+            description: '力量需要代价。',
           },
         },
       },
-      'story-8273910265-6': {
-        title: '雨中监视',
-        narration: '你融入倾盆大雨，让嫌疑人带领你穿过霓虹浸染的小巷。每个水坑都映出一个破碎的世界。在外套下，你感受到自己技术装备的重量；一台笔记本电脑轻声嗡嗡作响，恳求破解加密消息。你是黑进他们的通信系统还是继续亲自跟踪？',
+      'story-8743921042-4': {
+        title: '古老的紫杉',
+        narration: '一棵比任何寺庙都古老的紫杉树拱形地横跨一条缓慢清澈的小溪。红色的浆果像警告的水滴一样闪闪发光。当你触摸树皮时，树记起了你——你祖母的声音，一首关于对林地欠债的摇篮曲。水变得明亮，显示出你戴着荆棘王冠的脸。',
         choices: {
-          'story-8273910265-c11': {
-            text: '黑进他们的通信系统',
-            description: '数字秘密往往最丰富多汁。',
+          'story-8743921042-c7': {
+            text: '从小溪中饮水',
+            description: '接受不属于你的记忆。',
           },
-          'story-8273910265-c12': {
-            text: '继续从阴影中跟踪',
-            description: '保持在现场。',
+          'story-8743921042-c8': {
+            text: '取紫杉树皮做护身符',
+            description: '先防护，然后行走。',
           },
         },
       },
-      'story-8273910265-7': {
-        title: '红色信息',
-        narration: '在信封里，你发现了一张星形吊坠的照片和一条用红墨水写的加密信息。纸张在你湿润的手指下感觉很滑。这些符号暗示着图书馆目录和古老的秘密。你必须决定在哪里解密它。',
+      'story-8743921042-5': {
+        title: '雾锁之桥',
+        narration: '一座绳索和木板桥悬挂在你看不见的峡谷上方。下面，有什么东西像海浪拍打骨头一样呼吸。一个钟挂在第一根柱子上，用蜘蛛丝包裹着，仿佛森林本身堵住了它的嘴。',
         choices: {
-          'story-8273910265-c13': {
-            text: '前往市立图书馆',
-            description: '在尘封的书架中研究。',
+          'story-8743921042-c9': {
+            text: '敲响钟声',
+            description: '唤醒沉睡者以谈判。',
           },
-          'story-8273910265-c14': {
-            text: '打电话给你的黑客朋友',
-            description: '用数字帮助解码。',
+          'story-8743921042-c10': {
+            text: '静默地穿越',
+            description: '相信你的平衡感。',
           },
         },
       },
-      'story-8273910265-8': {
-        title: '法医报告',
-        narration: '回到自己的实验室，闪烁的显示器照亮了你的脸。你扫描信封寻找指纹，在刺眼的光线下分析墨水。一个指纹与地下世界的中间人匹配，GPS标签指向码头。你可以追踪数据线索或根据情报行动。',
+      'story-8743921042-6': {
+        title: '影子市场',
+        narration: '灯笼沿着不应该有城市的弯曲小巷绽放。摊位出售瓶装雨水、顶针般的月亮和缝在丝带上的名字。一位面具制作者向你招手靠近，提供用荆棘和明亮丝线编织的面孔。',
         choices: {
-          'story-8273910265-c15': {
-            text: '在数据库中比对指纹',
-            description: '信息就是力量。',
+          'story-8743921042-c11': {
+            text: '用一滴血购买荆棘面具',
+            description: '面具欺骗，但保护。',
           },
-          'story-8273910265-c16': {
-            text: '前往码头追踪他们',
-            description: '亲自对质嫌疑人。',
+          'story-8743921042-c12': {
+            text: '用碎片交换向导',
+            description: '信息胜过文物。',
           },
         },
       },
-      'story-8273910265-9': {
-        title: '仓库情报',
-        narration: '你的努力得到了回报：一个低声的坦白或被黑的消息透露了在一个标有涂鸦的废弃仓库的会面。建筑物像一座黑暗的纪念碑矗立在天际线上。你可以冲进去冒一切风险，或者花时间计划。',
+      'story-8743921042-7': {
+        title: '灵魂灯笼',
+        narration: '光珠从溪流中升起，像小狐狸一样好奇地在你周围盘旋。它们推着你的胸膛、你的手、碎片。当一个穿过你的手掌时，你的皮肤用细薄的银色疼痛歌唱——林地审判你并发现了未偿还的债务。',
         choices: {
-          'story-8273910265-c17': {
-            text: '现在渗透仓库',
-            description: '时间至关重要。',
+          'story-8743921042-c13': {
+            text: '请求灵魂分享它们所知道的',
+            description: '谦卑的问题值得回答。',
           },
-          'story-8273910265-c18': {
-            text: '先收集更多情报',
-            description: '谨慎的方法可能会有回报。',
+          'story-8743921042-c14': {
+            text: '用紫杉的记忆命令灵魂',
+            description: '权威可能会伤害。',
           },
         },
       },
-      'story-8273910265-10': {
-        title: '最后一班火车',
-        narration: '嫌疑人溜进午夜火车，你急忙赶往车场，蒸汽从沉睡的机车中嘶嘶作响。最后的呼叫声在扬声器中回荡时，黑暗笼罩着轨道。你可以现在登上火车，或者试图在下一站智胜他们。',
+      'story-8743921042-9': {
+        title: '地下室之门',
+        narration: '雕刻的台阶下降到红色石头中，冷空气像水一样倾泻而出。底部张开一扇肋状岩石和月金属铆钉的门。你口袋里的碎片颤抖着，渴望变得完整。',
         choices: {
-          'story-8273910265-c19': {
-            text: '跳上火车',
-            description: '靠近你的目标。',
+          'story-8743921042-c17': {
+            text: '将碎片嵌入月金属接缝',
+            description: '完成破碎之物。',
           },
-          'story-8273910265-c20': {
-            text: '在下一站拦截',
-            description: '提前计划伏击。',
+          'story-8743921042-c18': {
+            text: '拒绝拉力并走上层楼梯',
+            description: '寻找另一条向上的路。',
           },
         },
       },
-      'story-8273910265-11': {
-        title: '秘密堆积',
-        narration: '灰尘颗粒在光束中跳舞，你游荡在无尽的书堆中。旧纸的气味环绕着你。你追踪模糊的目录号码，直到你的手指落在一本描述星形装饰品的书上，它可以解锁银行保险库中的秘密。你是测试钥匙还是在档案中挖得更深？',
+      'story-8743921042-10': {
+        title: '回响书记员',
+        narration: '你的向导带你到一个石制露台，风在石板上书写。书记员是一位戴头巾的女人，她的头发像水中的墨水一样移动。她倾听你的碎片，然后画出三个闻起来像雨和铁的印章。',
         choices: {
-          'story-8273910265-c21': {
-            text: '带着装饰品去银行',
-            description: '保险库可能藏有真相。',
+          'story-8743921042-c19': {
+            text: '询问通往王冠的路径',
+            description: '直接是危险的。',
           },
-          'story-8273910265-c22': {
-            text: '在档案中进一步搜索',
-            description: '可能有更多可发现的东西。',
+          'story-8743921042-c20': {
+            text: '询问如何打破林地的索求',
+            description: '撤销契约。',
           },
         },
       },
-      'story-8273910265-13': {
-        title: '码头的阴影',
-        narration: '当你在码头的箱子之间爬行时，盐和柴油的气味沉重地悬挂着。一艘孤独的船在风化的桩柱旁轻轻摇晃，声音在波浪的拍打声上低语。你是隐藏起来收集证据，还是走进光明对抗帮派头目？',
+      'story-8743921042-11': {
+        title: '玻璃之河',
+        narration: '河流看起来静止不动，但它的表面是反射第二个月亮的刀刃之皮。一艘无船夫的渡船在等待，用编织的头发绳索绑着。你可以通过信任过河——或者测试刀刃并流血作为贡品。',
         choices: {
-          'story-8273910265-c25': {
-            text: '悄悄收集证据',
-            description: '耐心可能会带来证据。',
+          'story-8743921042-c21': {
+            text: '登上等待的渡船',
+            description: '相信林地的仪式。',
           },
-          'story-8273910265-c26': {
-            text: '对抗帮派头目',
-            description: '现在强制解决问题。',
+          'story-8743921042-c22': {
+            text: '割开手掌并涂抹碎片',
+            description: '购买安全通行。',
           },
         },
       },
-      'story-8273910265-14': {
-        title: '屋顶对决',
-        narration: '风吹过屋顶，你在高耸的摩天大楼背景下将嫌疑人逼入困境，窗户像星星一样闪烁。尽管天气寒冷，汗水在你的衣领下聚集。无处可逃，你的猎物盯着建筑物之间的间隙。你的下一步将决定你们俩的命运。',
+      'story-8743921042-12': {
+        title: '荆棘契约',
+        narration: '一棵空心树像教堂一样打开，蜡烛在树汁照明的壁龛中摇曳。低语的名字飘过——血统、债务、誓言。碎片变热到疼痛，你明白了：拿走王冠意味着穿上林地的饥饿。',
         choices: {
-          'story-8273910265-c27': {
-            text: '说服他们并谈判',
-            description: '话语可以成为武器。',
+          'story-8743921042-c23': {
+            text: '公开接受契约',
+            description: '付出代价的权力，在光天化日下支付。',
           },
-          'story-8273910265-c28': {
-            text: '将他们摔倒在地',
-            description: '使用武力结束追逐。',
+          'story-8743921042-c24': {
+            text: '拒绝并寻找漏洞',
+            description: '总有措辞。',
           },
         },
       },
-      'story-8273910265-15': {
-        title: '车站伏击',
-        narration: '火车驶离，你发现自己在一个荒凉的车站走廊里，头顶的荧光灯闪烁着。脚步声在远处回荡，然后消失。你的目标已经滑入黑暗。你是等待他们折返，还是打电话给欠你人情的联系人？',
+      'story-8743921042-13': {
+        title: '无冠之王',
+        narration: '一个由根和风组成的身影坐在石椅上，他的额头在曾经戴着王冠的地方鲜血淋漓。当他转身时，你看到了自己的颧骨，家族的眼睛——你的血统曾经持有王冠。林地嗡嗡作响，等待看你如何对待真相。',
         choices: {
-          'story-8273910265-c29': {
-            text: '在阴影中等待',
-            description: '耐心可能会抓住他们。',
+          'story-8743921042-c25': {
+            text: '跪下并发誓修复你血统打破的东西',
+            description: '赎罪紧紧束缚。',
           },
-          'story-8273910265-c30': {
-            text: '请求帮忙',
-            description: '利用你的网络。',
+          'story-8743921042-c26': {
+            text: '挑战国王传递负担',
+            description: '赢得自由或更重的负担。',
           },
         },
       },
-      'story-8273910265-17': {
-        title: '午夜码头',
-        narration: '月光将码头涂成银色，波浪舔着它风化的木板。一个孤独的身影在灯下等待，脸藏在兜帽下。他们给你一个选择——加入他们并分享阴谋的利润，或拒绝并揭露整个行动。信任和背叛悬浮在咸咸的空气中。',
+      'story-8743921042-14': {
+        title: '月尖塔阶梯',
+        narration: '从骨白石头凿出的阶梯在雾中曲折而上。每一个转弯都显示月亮更大，直到它用冷面孔填满天空。你的呼吸羽化；你的决心变硬以匹配攀登。',
         choices: {
-          'story-8273910265-c33': {
-            text: '接受他们的交易',
-            description: '加入影子网络。',
+          'story-8743921042-c27': {
+            text: '爬得更快以首先到达尖塔',
+            description: '抓住主动权。',
           },
-          'story-8273910265-c34': {
-            text: '拒绝并揭露一切',
-            description: '吹哨。',
-          },
-        },
-      },
-      'story-8273910265-18': {
-        title: '闯入',
-        narration: '盟友在你身边，你推开一扇通往长长黑暗走廊的门。当你接近正在进行的会议时，脚步声回荡，声音低沉而阴谋。你是冲进去逮捕他们，还是留下来记录交流让世界看到？',
-        choices: {
-          'story-8273910265-c35': {
-            text: '介入并逮捕他们',
-            description: '将他们绳之以法。',
-          },
-          'story-8273910265-c36': {
-            text: '记录一切以便泄露',
-            description: '公开揭露阴谋。',
+          'story-8743921042-c28': {
+            text: '暂停在台阶上刻护身符',
+            description: '保护胜过匆忙。',
           },
         },
       },
-      'story-8273910265-19': {
-        title: '案件溜走',
-        narration: '你冲进混战，帮派像雨中的影子一样四散。一声枪响，船引擎怒吼，主谋消失在夜色中。几周后，你盯着软木板，毛线线连接着不通向任何地方的照片。案件冷却，城市遗忘，但你不能。',
+      'story-8743921042-15': {
+        title: '种子大厅',
+        narration: '一个洞穴在彩绘的天空下打开，数千颗种子悬挂在蜘蛛丝中。每颗种子都像一颗小心脏一样跳动，每一颗都是等待承诺的未来森林。王冠放在编织根的基座上，与你自己的脉搏同步跳动。',
+        choices: {
+          'story-8743921042-c29': {
+            text: '将碎片放入王冠',
+            description: '完成统治的工具。',
+          },
+          'story-8743921042-c30': {
+            text: '撒播种子并窒息王冠',
+            description: '永远打破循环。',
+          },
+        },
+      },
+      'story-8743921042-16': {
+        title: '镜中决斗',
+        narration: '在冰冻的山脊上，风硬化成一个一击接一击地映照你的形状。每一击都响起，震落黑松的雪。林地屏住呼吸观看，判断哪个自我最能为它服务。',
+        choices: {
+          'story-8743921042-c31': {
+            text: '屈服并接受你倒影的王冠',
+            description: '让另一个你统治。',
+          },
+          'story-8743921042-c32': {
+            text: '用碎片打碎镜子',
+            description: '打破测试以设定你的条件。',
+          },
+        },
+      },
+      'story-8743921042-17': {
+        title: '魔法的代价',
+        narration: '雾折叠成一圈立石，每个表面都刻有祭品——头发、牙齿、戒指、用灰烬写的摇篮曲。林地不会在没有硬币的情况下交易。你可以购买一条路，但你必须说出你的损失。',
+        choices: {
+          'story-8743921042-c33': {
+            text: '提供你一个季节的声音',
+            description: '沉默购买指引。',
+          },
+          'story-8743921042-c34': {
+            text: '从你的影子中提供一年',
+            description: '你会走得更瘦。',
+          },
+        },
+      },
+      'story-8743921042-18': {
+        title: '黎明重现',
+        narration: '王冠接受了碎片，林地呼出带有春天香气的呼吸。当第一缕金光穿过树木时，鸟儿醒来。你走出去时没有戴金属，只有新鲜嫩芽的花环——管家，而非君主。森林低声说着平静的是。',
         choices: {
         },
       },
-      'story-8273910265-21': {
-        title: '与魔鬼交易',
-        narration: '诱惑获胜。你把文件装进口袋，进入内圈。你攀登的梯子可能是镀金的，但每一级都因内疚而滑腻。财富和关系流向你，但在安静的时刻，你想知道那个装饰品解锁了你财富的年轻女人怎么样了。',
+      'story-8743921042-19': {
+        title: '森林吞噬',
+        narration: '种子在根的冲击中爆裂，它们破碎石头并吞没大厅。王冠在不在乎国王的绿色潮水下窒息。多年后，旅行者低语着一个生长得太快的新森林，像风暴一样饥饿。你的名字在树叶下丢失了。',
         choices: {
         },
       },
-      'story-8273910265-22': {
-        title: '告密者',
-        narration: '你选择曝光而不是安全。隐藏在发光的显示器后面，你汇编录音和文件并泄露给媒体。头条新闻爆炸，权势人物倒下，城市抽搐。你既是英雄又是目标，消失在数字阴影中，知道你做了正确的事。',
+      'story-8743921042-20': {
+        title: '荆棘女王',
+        narration: '你向你的倒影鞠躬，它走上前来，戴着你的脸和活藤蔓的王冠。极光在守望鹿的鹿角中波动，而根升起形成王座。你将通过倾听来统治，不需要刀刃——但王冠每晚都会从你的睡眠中喝一点。',
+        choices: {
+        },
+      },
+      'story-8743921042-21': {
+        title: '迷失于世界之间',
+        narration: '镜子破碎了，但回家的路也破碎了。你学习林地的小径，用自己制作的灯笼引导流浪者到安全的空地。有些夜晚你几乎记起一个不同的名字。月亮是你唯一的时钟。',
+        choices: {
+        },
+      },
+      'story-8743921042-22': {
+        title: '银色誓言',
+        narration: '在根喝潮水的岸边，你发誓要将林地的法则带到树木之外。王冠溶解成贯穿你血管的光，寒冷而纯净。你留下脚印，身后长出草，一个用两条腿行走的誓言。债务变成了守信的承诺。',
         choices: {
         },
       },
@@ -1925,221 +2125,261 @@ export const story_8743921042StoryTranslations: Record<Language, StoryTranslatio
 
   // 한국어
   ko: {
-    title: '사라진 별의 그림자',
-    description: '기술 재벌 상속녀가 사라지고 수수께끼의 장식품만 남았을 때, 사립탐정 샘 머서는 비에 젖은 골목길, 비밀 도서관, 그리고 그림자진 부두의 미로 속으로 끌려들어간다. 모든 단서는 새로운 질문을 낳고, 모든 결정은 그를 도시의 정점까지 닿는 음모의 깊은 곳으로 끌어당긴다.',
-    author: '대프니 소여',
+    title: '달빛 숲의 메아리',
+    description: '블랙브라이어 숲 위로 보름달이 떠오를 때, 오래된 계약이 깨어난다. 당신은 나무 근처에서 울리는 부서진 인장의 조각을 지니고 있으며, 그것은 잊혀진 왕관과 숲이 거두려는 빚을 향해 당신을 부른다. 동맹, 명예 또는 힘을 선택하라—하지만 숲은 항상 그 대가를 받아간다.',
+    author: '다리아 보로노바',
     nodes: {
-      'story-8273910265-1': {
-        title: '한밤의 의뢰인',
-        narration: '빗방울이 사무실 창문을 두드리는 동안 당신은 밖의 깜빡이는 네온사인을 응시한다. 그림자가 문턱을 넘고 흠뻑 젖은 트렌치코트를 입은 여자가 들어온다. 그녀는 간청하는 눈으로 별 모양의 장식품을 꺼내며 실종된 상속녀에 대해 속삭인다. 젖은 아스팔트와 오래된 종이 냄새가 방을 채우고, 당신은 그녀의 말 속에 담긴 위험을 가늠한다. 도시는 비밀로 가득 차 윙윙거리고, 당신은 이것이 시작에 불과하다는 것을 느낀다.',
+      'story-8743921042-1': {
+        title: '달빛의 전조',
+        narration: '푸른빛 흰 달이 블랙브라이어의 얽힌 나무 꼭대기 위로 오르고, 주머니 속 조각이 약속을 기억하듯 따뜻해진다. 부엉이들이 침묵한다. 소나무 사이로 젖은 잉크처럼 빛나는 좁은 길이 나타나 당신의 부츠를 끌어당긴다. 조각이 다시 떨리며 뿌리 속에서 꿈틀거리는 오래된 무언가에 응답한다.',
         choices: {
-          'story-8273910265-c1': {
-            text: '사건을 맡고 범죄 현장으로 가다',
-            description: '비 속에서도 의무가 부른다.',
+          'story-8743921042-c1': {
+            text: '달빛에 비친 길을 따라 숲으로 들어간다',
+            description: '조각이 당신을 더 깊이 원한다.',
           },
-          'story-8273910265-c2': {
-            text: '거절하고 창문에서 지켜보다',
-            description: '거리를 유지하고 전개되는 것을 관찰한다.',
+          'story-8743921042-c2': {
+            text: '인장 조각을 조사하고 근처의 표시를 찾는다',
+            description: '위험보다 지식을 먼저.',
           },
         },
       },
-      'story-8273910265-3': {
-        title: '마지못한 감시',
-        narration: '여자를 돌려보냈지만 호기심이 당신을 갉아먹는다. 빗줄기가 그어진 유리창 너머로 길 건너편에서 숨어있는 인물을 발견한다. 카메라를 손에 들고 당신의 사무실 사진을 찍고 있다. 골목은 가로등 아래에서 반짝이고, 도시는 짐승처럼 숨을 쉰다. 빗속으로 뛰어들어 그를 쫓을 수도 있고 거리를 유지할 수도 있다.',
+      'story-8743921042-2': {
+        title: '속삭이는 길',
+        narration: '안개가 무릎 높이로 소용돌이치며 거의 알 것 같은 목소리로 당신의 이름을 속삭인다. 창백한 나방들이 앞으로 떠다니며 더 깊은 곳을 가리키는 화살을 형성한다. 젖은 철의 냄새가 공기를 타고 온다. 저 멀리 어딘가에서 종이 한 번 울린다.',
         choices: {
-          'story-8273910265-c5': {
-            text: '그림자를 따라 거리를 내려가다',
-            description: '가까이 다가가고, 노출의 위험을 감수한다.',
+          'story-8743921042-c3': {
+            text: '속삭임에 대답한다',
+            description: '그것들을 들여보내는 위험을 감수한다.',
           },
-          'story-8273910265-c6': {
-            text: '그림자 속에 머물며 관찰하다',
-            description: '인내심이 보상을 받을 수도 있다.',
+          'story-8743921042-c4': {
+            text: '무시하고 종소리를 향해 나아간다',
+            description: '귀가 아닌 발을 믿는다.',
           },
         },
       },
-      'story-8273910265-5': {
-        title: '긴장한 목격자',
-        narration: '신경질적인 행인이 빗방울이 튄 창문에 기대어 전화기를 귀에 대고 있다. 눈을 피하며, 당신이 다가가자 코트를 더 꽉 당긴다. 진실을 부드럽게 끌어낼지 아니면 현금으로 바퀴에 기름을 칠지 결정하는 동안 도시의 소음이 사라지는 것 같다.',
+      'story-8743921042-3': {
+        title: '부서진 인장',
+        narration: '조각은 가시 같은 룬 문자가 새겨진 어두운 유리의 초승달이다. 그 위로 숨을 불면 서리가 표시를 테두리 짓고 두 번째 패턴이 피어난다—주인 없는 왕관. 숲이 낮은 신음 소리로 응답하며, 마치 잠 속에서 몸을 뒤척이는 것 같다.',
         choices: {
-          'story-8273910265-c9': {
-            text: '차분하게 무엇을 봤는지 묻다',
-            description: '공감을 통해 신뢰를 얻는다.',
+          'story-8743921042-c5': {
+            text: '조각을 땅에 누르고 듣는다',
+            description: '옛 방식으로 말한다.',
           },
-          'story-8273910265-c10': {
-            text: '대답을 위해 돈을 건네다',
-            description: '두려움이 침묵할 때, 돈이 말한다.',
+          'story-8743921042-c6': {
+            text: '조각에서 파편을 떼어 피의 룬 문자를 그린다',
+            description: '힘은 대가를 요구한다.',
           },
         },
       },
-      'story-8273910265-6': {
-        title: '빗속의 감시',
-        narration: '폭우 속으로 녹아들며, 용의자가 네온에 물든 골목을 통해 당신을 이끌도록 놔둔다. 모든 웅덩이가 부서진 세계를 반사한다. 코트 아래에서 자신의 기술의 무게를 느낀다. 노트북이 희미하게 윙윙거리며 암호화된 메시지를 뚫어달라고 애원한다. 그들의 통신을 해킹할 것인가, 아니면 계속 직접 미행할 것인가?',
+      'story-8743921042-4': {
+        title: '고대의 주목나무',
+        narration: '어떤 사원보다 오래된 주목나무가 느리고 맑은 시냇물 위로 아치를 그린다. 붉은 열매들이 경고의 물방울처럼 빛난다. 나무껍질을 만지자 나무가 당신을 기억한다—할머니의 목소리, 숲에 대한 빚에 관한 자장가. 물이 밝아지며 가시로 왕관을 쓴 당신의 얼굴을 보여준다.',
         choices: {
-          'story-8273910265-c11': {
-            text: '그들의 통신 피드를 해킹하다',
-            description: '디지털 비밀이 가장 흥미진진한 경우가 많다.',
+          'story-8743921042-c7': {
+            text: '시냇물에서 물을 마신다',
+            description: '자신의 것이 아닌 기억을 받아들인다.',
           },
-          'story-8273910265-c12': {
-            text: '그림자에서 계속 미행하다',
-            description: '현장에 머문다.',
+          'story-8743921042-c8': {
+            text: '주목나무 껍질을 가져다 보호 부적을 만든다',
+            description: '먼저 방어하고, 그 다음 걷는다.',
           },
         },
       },
-      'story-8273910265-7': {
-        title: '붉은 메시지',
-        narration: '봉투 안에서 별 모양의 펜던트 사진과 빨간 잉크로 쓰인 암호화된 메시지를 발견한다. 젖은 손가락 아래에서 종이가 미끄럽게 느껴진다. 기호들은 도서관 목록과 오래된 비밀을 암시한다. 어디서 해독할지 결정해야 한다.',
+      'story-8743921042-5': {
+        title: '안개에 싸인 다리',
+        narration: '밧줄과 판자로 된 다리가 볼 수 없는 협곡 위로 처진다. 아래에서 무언가가 뼈에 부딪히는 파도처럼 숨을 쉰다. 첫 번째 기둥에 거미줄에 감싼 종이 매달려 있다. 마치 숲 자체가 그것을 재갈 물린 것처럼.',
         choices: {
-          'story-8273910265-c13': {
-            text: '시립 도서관으로 가다',
-            description: '먼지 쌓인 서가에서 연구한다.',
+          'story-8743921042-c9': {
+            text: '종을 울린다',
+            description: '잠든 것을 깨워 협상한다.',
           },
-          'story-8273910265-c14': {
-            text: '해커 친구에게 전화하다',
-            description: '디지털 도움으로 해독한다.',
+          'story-8743921042-c10': {
+            text: '침묵 속에 건넌다',
+            description: '균형 감각을 믿는다.',
           },
         },
       },
-      'story-8273910265-8': {
-        title: '법의학 보고서',
-        narration: '자신의 실험실로 돌아와 깜빡이는 모니터가 당신의 얼굴을 비춘다. 지문을 찾기 위해 봉투를 스캔하고 눈부신 빛 아래에서 잉크를 분석한다. 지문은 암흑가 중개인과 일치하고, GPS 태그는 부두를 가리킨다. 데이터 흔적을 따르거나 정보에 따라 행동할 수 있다.',
+      'story-8743921042-6': {
+        title: '그림자의 시장',
+        narration: '도시가 있어서는 안 될 구불구불한 골목을 따라 등불이 피어난다. 가판대들은 병에 담긴 비, 골무만 한 달, 리본에 꿰맨 이름을 판다. 가면 제작자가 당신에게 더 가까이 오라고 손짓하며 가시와 빛나는 실로 짠 얼굴을 제공한다.',
         choices: {
-          'story-8273910265-c15': {
-            text: '데이터베이스에서 지문을 대조하다',
-            description: '정보는 힘이다.',
+          'story-8743921042-c11': {
+            text: '피 한 방울로 가시 가면을 산다',
+            description: '가면은 속이지만 보호한다.',
           },
-          'story-8273910265-c16': {
-            text: '부두로 가서 추적하다',
-            description: '용의자와 직접 대면한다.',
+          'story-8743921042-c12': {
+            text: '조각을 안내인과 교환한다',
+            description: '유물보다 정보를.',
           },
         },
       },
-      'story-8273910265-9': {
-        title: '창고 정보',
-        narration: '당신의 노력이 결실을 맺는다. 속삭인 자백이나 해킹한 메시지가 낙서로 표시된 버려진 창고에서의 만남을 드러낸다. 건물은 스카이라인을 배경으로 어두운 기념비처럼 우뚝 솟아있다. 돌진해서 모든 것을 걸거나 계획을 세울 시간을 가질 수 있다.',
+      'story-8743921042-7': {
+        title: '영혼의 등불',
+        narration: '빛의 구슬들이 시냇물에서 올라와 여우 새끼처럼 호기심 어린 채 당신 주위를 소용돌이친다. 그들은 당신의 가슴, 손, 조각을 밀친다. 하나가 손바닥을 통과할 때 당신의 피부가 가늘고 은빛 통증으로 노래한다—숲이 당신을 심판하고 갚지 않은 빚을 발견한다.',
         choices: {
-          'story-8273910265-c17': {
-            text: '지금 창고에 침투하다',
-            description: '시간이 핵심이다.',
+          'story-8743921042-c13': {
+            text: '영혼들에게 그들이 아는 것을 나누도록 부탁한다',
+            description: '겸손한 질문이 답을 얻는다.',
           },
-          'story-8273910265-c18': {
-            text: '먼저 더 많은 정보를 수집하다',
-            description: '신중한 접근이 보상받을 수 있다.',
+          'story-8743921042-c14': {
+            text: '주목나무의 기억으로 영혼들에게 명령한다',
+            description: '권위는 상처를 줄 수 있다.',
           },
         },
       },
-      'story-8273910265-10': {
-        title: '마지막 열차',
-        narration: '용의자가 자정 열차에 몰래 타고, 당신은 조차장으로 서두른다. 잠든 기관차에서 증기가 쉿쉿 소리를 낸다. 최종 호출이 스피커를 통해 울려퍼지는 동안 어둠이 선로를 감싼다. 지금 열차에 탈 수도 있고 다음 정거장에서 그들을 속일 수도 있다.',
+      'story-8743921042-9': {
+        title: '지하묘지의 문',
+        narration: '조각된 계단이 붉은 돌 속으로 내려가고 차가운 공기가 물처럼 쏟아진다. 바닥에는 갈비뼈 모양의 바위와 달 금속 못이 박힌 문이 벌어져 있다. 주머니 속 조각이 떨리며 완전해지기를 열망한다.',
         choices: {
-          'story-8273910265-c19': {
-            text: '열차에 뛰어오르다',
-            description: '목표물에 가까이 머문다.',
+          'story-8743921042-c17': {
+            text: '조각을 달 금속 이음새에 맞춘다',
+            description: '부서진 것을 완성한다.',
           },
-          'story-8273910265-c20': {
-            text: '다음 역에서 가로막다',
-            description: '미리 매복을 계획한다.',
+          'story-8743921042-c18': {
+            text: '끌림을 거부하고 위쪽 계단을 택한다',
+            description: '위로 가는 다른 길을 찾는다.',
           },
         },
       },
-      'story-8273910265-11': {
-        title: '비밀의 더미',
-        narration: '빛줄기 속에서 먼지 입자들이 춤추는 동안 당신은 끝없는 책더미를 헤매고 다닌다. 오래된 종이 냄새가 당신을 둘러싼다. 모호한 목록 번호를 추적하다가 은행 금고의 비밀을 여는 별 모양 장식품을 설명하는 책에 손가락이 닿는다. 열쇠를 시험할 것인가, 아니면 기록 보관소를 더 깊이 파헤칠 것인가?',
+      'story-8743921042-10': {
+        title: '메아리의 서기관',
+        narration: '안내인이 당신을 바람이 석판에 글을 쓰는 돌 테라스로 데려간다. 서기관은 머리카락이 물속의 잉크처럼 움직이는 두건을 쓴 여자다. 그녀는 당신의 조각을 듣고, 비와 철 냄새가 나는 세 개의 인장을 그린다.',
         choices: {
-          'story-8273910265-c21': {
-            text: '장식품을 가지고 은행으로 가다',
-            description: '금고가 진실을 담고 있을 수 있다.',
+          'story-8743921042-c19': {
+            text: '왕관으로 가는 길을 묻는다',
+            description: '직접적인 것은 위험하다.',
           },
-          'story-8273910265-c22': {
-            text: '기록 보관소를 더 찾다',
-            description: '발견할 것이 더 있을 수 있다.',
+          'story-8743921042-c20': {
+            text: '숲의 요구를 깨는 방법을 묻는다',
+            description: '계약을 취소한다.',
           },
         },
       },
-      'story-8273910265-13': {
-        title: '부두의 그림자',
-        narration: '부두의 상자들 사이를 기어가는 동안 소금과 디젤 냄새가 무겁게 드리운다. 외로운 보트가 낡은 말뚝에 부드럽게 흔들리고, 파도 소리 위로 목소리가 속삭인다. 증거를 수집하기 위해 숨어있을 것인가, 아니면 갱단 두목과 대면하기 위해 빛 속으로 나올 것인가?',
+      'story-8743921042-11': {
+        title: '유리의 강',
+        narration: '강은 고요해 보이지만 그 표면은 두 번째 달을 비추는 칼날의 껍질이다. 뱃사공 없는 나룻배가 기다리고 있으며, 땋은 머리카락 밧줄로 묶여 있다. 신뢰로 건널 수 있다—아니면 날을 시험하고 공물을 피로 흘릴 수 있다.',
         choices: {
-          'story-8273910265-c25': {
-            text: '조용히 증거를 수집하다',
-            description: '인내심이 증거를 가져올 수 있다.',
+          'story-8743921042-c21': {
+            text: '기다리는 나룻배에 탄다',
+            description: '숲의 의식을 믿는다.',
           },
-          'story-8273910265-c26': {
-            text: '갱단 두목과 대면하다',
-            description: '지금 문제를 강제한다.',
+          'story-8743921042-c22': {
+            text: '손바닥을 베고 조각을 칠한다',
+            description: '안전한 통행을 구매한다.',
           },
         },
       },
-      'story-8273910265-14': {
-        title: '옥상 대결',
-        narration: '바람이 옥상을 휘몰아치는 동안 당신은 우뚝 솟은 고층 빌딩을 배경으로 용의자를 궁지에 몬다. 창문들이 별처럼 반짝인다. 추위에도 불구하고 칼라 아래에서 땀이 맺힌다. 도망갈 곳이 없어진 먹잇감은 건물 사이의 틈을 바라본다. 당신의 다음 행동이 두 사람 모두의 운명을 결정할 것이다.',
+      'story-8743921042-12': {
+        title: '가시의 계약',
+        narration: '속이 빈 나무가 예배당처럼 열리고 수액으로 빛나는 틈새에서 촛불이 흔들린다. 속삭이는 이름들이 떠다닌다—혈통, 빚, 서약. 조각이 아플 정도로 뜨거워지고 당신은 이해한다. 왕관을 취하는 것은 숲의 굶주림을 입는 것을 의미한다.',
         choices: {
-          'story-8273910265-c27': {
-            text: '설득하고 협상하다',
-            description: '말이 무기가 될 수 있다.',
+          'story-8743921042-c23': {
+            text: '계약을 공개적으로 받아들인다',
+            description: '대가가 따르는 힘, 대낮에 지불된다.',
           },
-          'story-8273910265-c28': {
-            text: '땅으로 태클하다',
-            description: '힘을 사용해 추적을 끝낸다.',
+          'story-8743921042-c24': {
+            text: '거절하고 허점을 찾는다',
+            description: '항상 문구가 있다.',
           },
         },
       },
-      'story-8273910265-15': {
-        title: '역에서의 매복',
-        narration: '열차가 떠나고 당신은 형광등이 머리 위에서 깜빡이는 황량한 역 복도에 있다. 발소리가 멀리서 울리다가 사라진다. 목표물은 어둠 속으로 미끄러졌다. 그들이 되돌아오기를 기다릴 것인가, 아니면 빚진 연락처에게 전화할 것인가?',
+      'story-8743921042-13': {
+        title: '왕관 없는 왕',
+        narration: '뿌리와 바람의 형상이 돌 의자에 앉아 있고, 한때 왕관이 있던 그의 이마는 생살이 드러나 있다. 그가 돌아설 때 당신 자신의 광대뼈, 가족의 눈이 보인다—당신의 혈통이 한때 왕관을 소유했다. 숲이 윙윙거리며 당신이 진실로 무엇을 할지 기다린다.',
         choices: {
-          'story-8273910265-c29': {
-            text: '그림자 속에서 기다리다',
-            description: '인내심이 그들을 잡을 수 있다.',
+          'story-8743921042-c25': {
+            text: '무릎을 꿇고 혈통이 깨뜨린 것을 고치겠다고 맹세한다',
+            description: '속죄는 강하게 묶는다.',
           },
-          'story-8273910265-c30': {
-            text: '호의를 요청하다',
-            description: '네트워크를 활용한다.',
+          'story-8743921042-c26': {
+            text: '왕에게 도전하여 짐을 넘긴다',
+            description: '자유 또는 더 무거운 무게를 얻는다.',
           },
         },
       },
-      'story-8273910265-17': {
-        title: '한밤의 부두',
-        narration: '달빛이 부두를 은빛으로 칠하는 동안 파도가 낡은 판자를 핥는다. 외로운 인물이 램프 아래에서 기다리고, 후드 아래에 얼굴을 숨기고 있다. 그들은 당신에게 선택을 제안한다. 그들과 합류하여 음모의 이익을 공유하거나, 거절하고 모든 작전을 폭로하거나. 신뢰와 배신이 짠 공기에 떠 있다.',
+      'story-8743921042-14': {
+        title: '달 첨탑의 계단',
+        narration: '뼛속처럼 하얀 돌에서 깎아낸 계단이 안개 속을 지그재그로 오른다. 매 굽이마다 달이 더 커 보이며 차가운 얼굴로 하늘을 채울 때까지. 당신의 숨결이 깃털처럼 흩어진다. 결의가 등반에 맞춰 단단해진다.',
         choices: {
-          'story-8273910265-c33': {
-            text: '그들의 거래를 수락하다',
-            description: '그림자 네트워크에 합류한다.',
+          'story-8743921042-c27': {
+            text: '더 빨리 올라 첨탑에 먼저 도착한다',
+            description: '주도권을 잡는다.',
           },
-          'story-8273910265-c34': {
-            text: '거절하고 모든 것을 폭로하다',
-            description: '휘슬을 불다.',
-          },
-        },
-      },
-      'story-8273910265-18': {
-        title: '침입',
-        narration: '동료들과 함께 길고 어두운 복도로 향하는 문을 민다. 진행 중인 회의에 접근하면서 발소리가 울려 퍼진다. 목소리는 낮고 음모적이다. 돌진해서 체포할 것인가, 아니면 세상이 보도록 교환을 녹화하기 위해 뒤에 머물 것인가?',
-        choices: {
-          'story-8273910265-c35': {
-            text: '개입하여 체포하다',
-            description: '정의 앞에 데려온다.',
-          },
-          'story-8273910265-c36': {
-            text: '유출을 위해 모든 것을 녹화하다',
-            description: '음모를 공개적으로 폭로한다.',
+          'story-8743921042-c28': {
+            text: '멈춰서 계단에 보호 부적을 새긴다',
+            description: '서두름보다 보호를.',
           },
         },
       },
-      'story-8273910265-19': {
-        title: '사건은 빠져나가다',
-        narration: '전투에 돌진하자 갱단은 빗속의 그림자처럼 흩어진다. 총소리가 울리고, 보트 엔진이 포효하고, 주모자는 밤 속으로 사라진다. 몇 주 후 당신은 코르크 보드를 응시한다. 털실 가닥이 아무 데도 이어지지 않는 사진들을 연결한다. 사건은 냉각되고 도시는 잊지만, 당신은 잊을 수 없다.',
+      'story-8743921042-15': {
+        title: '씨앗의 방',
+        narration: '그려진 하늘 아래 동굴이 열리고 수천 개의 씨앗이 거미줄 실크에 매달려 있다. 각 씨앗은 작은 심장처럼 뛰고, 각각은 약속을 기다리는 미래의 숲이다. 왕관이 짜인 뿌리의 받침대 위에 놓여 있으며 당신 자신의 맥박과 같은 리듬으로 고동친다.',
+        choices: {
+          'story-8743921042-c29': {
+            text: '조각을 왕관에 넣는다',
+            description: '통치의 도구를 완성한다.',
+          },
+          'story-8743921042-c30': {
+            text: '씨앗을 흩뿌리고 왕관을 질식시킨다',
+            description: '영원히 순환을 깨뜨린다.',
+          },
+        },
+      },
+      'story-8743921042-16': {
+        title: '거울 결투',
+        narration: '얼어붙은 능선에서 바람이 당신을 일격일격 비추는 형상으로 굳어진다. 각 타격이 울리며 검은 소나무에서 눈을 떨어뜨린다. 숲이 숨도 쉬지 않고 지켜보며 어느 자아가 가장 잘 섬길지 판단한다.',
+        choices: {
+          'story-8743921042-c31': {
+            text: '굴복하고 거울상의 왕관을 받아들인다',
+            description: '다른 당신이 통치하게 한다.',
+          },
+          'story-8743921042-c32': {
+            text: '조각으로 거울을 산산조각 낸다',
+            description: '시험을 깨고 조건을 설정한다.',
+          },
+        },
+      },
+      'story-8743921042-17': {
+        title: '마법의 대가',
+        narration: '안개가 선돌의 원으로 접히고 모든 표면에 제물이 새겨져 있다—머리카락, 이빨, 반지, 재로 쓴 자장가. 숲은 화폐 없이는 거래하지 않는다. 당신은 길을 살 수 있지만 당신의 상실을 명명해야 한다.',
+        choices: {
+          'story-8743921042-c33': {
+            text: '한 계절 동안 목소리를 바친다',
+            description: '침묵이 인도를 산다.',
+          },
+          'story-8743921042-c34': {
+            text: '그림자에서 1년을 바친다',
+            description: '당신은 더 얇게 걸을 것이다.',
+          },
+        },
+      },
+      'story-8743921042-18': {
+        title: '회복된 새벽',
+        narration: '왕관이 조각을 받아들이고 숲이 봄 향기의 숨을 내쉰다. 첫 금빛이 나무 사이로 쏟아지자 새들이 깨어난다. 당신은 금속을 두르지 않고 신선한 새싹의 화환만 두르고 나간다—통치자가 아닌 관리자. 숲이 조용한 예라고 윙윙거린다.',
         choices: {
         },
       },
-      'story-8273910265-21': {
-        title: '악마와의 거래',
-        narration: '유혹이 승리한다. 파일을 주머니에 넣고 내부 서클로 들어간다. 오르는 사다리는 도금되어 있을지 모르지만, 모든 발판은 죄책감으로 미끄럽다. 부와 인맥이 당신에게 흘러들지만, 조용한 순간에 당신은 장식품이 당신의 재산을 풀어준 젊은 여성이 어떻게 되었는지 궁금해한다.',
+      'story-8743921042-19': {
+        title: '숲이 집어삼키다',
+        narration: '씨앗들이 돌을 부수고 홀을 삼키는 뿌리의 쇄도 속에서 터진다. 왕관이 왕들을 신경 쓰지 않는 녹색 물결 아래 질식한다. 몇 년 후 여행자들은 폭풍처럼 굶주려 너무 빨리 자라는 새로운 숲에 대해 속삭인다. 당신의 이름은 나뭇잎 아래 사라졌다.',
         choices: {
         },
       },
-      'story-8273910265-22': {
-        title: '내부 고발자',
-        narration: '안전보다 폭로를 선택한다. 빛나는 모니터 뒤에 숨어 녹음과 문서를 편집하여 언론에 유출한다. 헤드라인이 폭발하고, 권력자들이 쓰러지고, 도시가 경련한다. 당신은 영웅이자 표적이 되어, 옳은 일을 했다는 것을 알면서 디지털 그림자 속으로 사라진다.',
+      'story-8743921042-20': {
+        title: '가시의 여왕',
+        narration: '당신은 거울상에게 절하고, 그것이 앞으로 나서며 당신의 얼굴과 살아있는 덩굴의 왕관을 쓴다. 오로라가 지켜보는 사슴의 뿔에서 물결치고 뿌리가 올라와 왕좌를 만든다. 당신은 듣는 것으로 통치할 것이다. 칼은 필요 없다—하지만 왕관은 매일 밤 당신의 잠에서 조금씩 마신다.',
+        choices: {
+        },
+      },
+      'story-8743921042-21': {
+        title: '세계 사이에서 길을 잃다',
+        narration: '거울이 부서지지만 집으로 가는 길도 부서진다. 당신은 숲의 옆길을 배우고 자신이 만든 등불로 방랑자들을 안전한 빈터로 안내한다. 어떤 밤에는 다른 이름을 거의 기억한다. 달이 당신의 유일한 시계다.',
+        choices: {
+        },
+      },
+      'story-8743921042-22': {
+        title: '은빛 맹세',
+        narration: '뿌리가 조수를 마시는 해안에서 당신은 숲의 법을 나무 너머로 전하겠다고 맹세한다. 왕관이 차갑고 순수한 빛으로 녹아 당신의 정맥을 통한다. 당신은 뒤에 풀이 돋아나는 발자국을 남기며, 두 다리로 걷는 맹세. 빚은 지켜진 약속이 된다.',
         choices: {
         },
       },

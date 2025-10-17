@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "storyId": "story-8923745610923",
+    "language": "pt",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.393Z"
+  },
+  "story": {
+    "title": "Paleta Paradoxal",
+    "author": "ChronoCanvas Studio",
+    "description": "À meia-noite, uma restauradora de museu descobre um caderno de esboços que pode repintar o tempo. Cada linha desenhada conserta uma fratura e divide outra, enquanto um curador enlutado tenta apagar uma hora trágica para sempre. Você consegue compor uma linha temporal que se sustente--antes que a tela se rasgue?",
+    "genre": [
+      "scifi",
+      "mystery"
+    ],
+    "difficulty": "medium",
+    "estimatedDuration": 35
+  },
+  "nodes": [
+    {
+      "id": "story-8923745610923-3",
+      "type": "decision",
+      "title": "Experimento no Beco",
+      "narration": "A chuva agulha o pavimento brilhante de néon atrás do museu. Nova esboça um arco fino; a poça ondula para trás, gotas de chuva saltando para cima como vidro rebobinando. Uma costura esverdeada abre-se acima da sarjeta por um batimento cardíaco--uma fenda que cheira a ozônio e papel velho.",
+      "choices": [
+        {
+          "id": "story-8923745610923-c5",
+          "text": "Retorne para dentro, ao salão dos relógios.",
+          "description": "Teste o efeito perto de uma cadência estável."
+        },
+        {
+          "id": "story-8923745610923-c6",
+          "text": "Atraia a fenda para mais largo com um traço mais ousado.",
+          "description": "Alto risco, alta percepção."
+        }
+      ]
+    },
+    {
+      "id": "story-8923745610923-9",
+      "type": "decision",
+      "title": "Coração de Relógio",
+      "narration": "O mecanismo central abre-se como uma caixa torácica, engrenagens reluzindo com óleo e memória. Com um traço cuidadoso, Nova conecta um dente faltante; o ponteiro dos segundos exala em movimento suave. Nessa calma, um compartimento oculto clica--um convite.",
+      "choices": [
+        {
+          "id": "story-8923745610923-c18",
+          "text": "Abra o compartimento revelado.",
+          "description": "Segredos se escondem onde a cadência se mantém."
+        },
+        {
+          "id": "story-8923745610923-c19",
+          "text": "Feche e recue para evitar armadilhas.",
+          "description": "A cautela preserva opções."
+        }
+      ]
+    },
+    {
+      "id": "story-8923745610923-10",
+      "type": "decision",
+      "title": "Entrada Desenhada",
+      "narration": "O mostrador do relógio aceita uma porta como tinta aceitando primer. Ar frio derrama-se através, temperado com poeira e um aroma como sol sobre pedra antiga. Além, areia canta suavemente em uma câmara que não deveria estar.",
+      "choices": [
+        {
+          "id": "story-8923745610923-c20",
+          "text": "Procure primeiro o fragmento perdido.",
+          "description": "Mapas importam."
+        },
+        {
+          "id": "story-8923745610923-c21",
+          "text": "Atravesse para a câmara desértica.",
+          "description": "Tome a iniciativa."
+        }
+      ]
+    },
+    {
+      "id": "story-8923745610923-12",
+      "type": "decision",
+      "title": "Fragmento Perdido",
+      "narration": "Em uma sala dos fundos cheirando a fichários e cedro, um fragmento de velino rasgado esconde-se dentro de um arquivo antigo de conservação. A peça mostra um glifo que parece uma pincelada moldada em um nove deitado de lado. Quando segurado contra a luz, a marca assemelha-se a um olho--e um laço.",
+      "choices": [
+        {
+          "id": "story-8923745610923-c24",
+          "text": "Esboce um glifo substituto para testar o circuito.",
+          "description": "Improvise a chave perdida."
+        },
+        {
+          "id": "story-8923745610923-c25",
+          "text": "Use o fragmento para abrir o cofre oculto.",
+          "description": "Original supera imitação."
+        }
+      ]
+    },
+    {
+      "id": "story-8923745610923-13",
+      "type": "decision",
+      "title": "Interrogatório Silencioso",
+      "narration": "Você encurrala o curador em uma galeria de relógios antigos; o tempo ao seu redor silencia em respeito. Seus olhos estão salgados de dor, voz quebradiça enquanto admitem o plano: cortar a hora da perda e recusar seu eco. O projeto treme como algo vivo.",
+      "choices": [
+        {
+          "id": "story-8923745610923-c26",
+          "text": "Acalme-os--ofereça ajudar com segurança.",
+          "description": "Transforme um adversário em aliado."
+        },
+        {
+          "id": "story-8923745610923-c27",
+          "text": "Pegue o projeto e corra para o cofre.",
+          "description": "Ação sobre argumento."
+        }
+      ]
+    },
+    {
+      "id": "story-8923745610923-14",
+      "type": "decision",
+      "title": "Cofre Oculto",
+      "narration": "Uma corrente perfumada de areia sussurra de uma costura blindada atrás de caixas empilhadas. O fragmento encaixa-se como um dente faltante em uma fechadura circular, e a parede desdobra-se em uma escada espiral. Algo antigo e matemático espera embaixo.",
+      "choices": [
+        {
+          "id": "story-8923745610923-c28",
+          "text": "Sele o circuito paradoxal com traços cuidadosos.",
+          "description": "Estabilidade primeiro."
+        },
+        {
+          "id": "story-8923745610923-c29",
+          "text": "Atravesse para a câmara além.",
+          "description": "Enfrente a causa raiz."
+        },
+        {
+          "id": "story-8923745610923-c30",
+          "text": "Chame o curador para se juntar a você.",
+          "description": "Arrisque confiança."
+        }
+      ]
+    },
+    {
+      "id": "story-8923745610923-15",
+      "type": "decision",
+      "title": "Varredura de Segurança",
+      "narration": "Rádios crepitam--guardas viram sua rota em direção ao salão dos relógios. Nova esboça um desvio, linhas deslizando uma porta um metro para a esquerda, o suficiente para escapar. O prédio suspira, irritado mas complacente.",
+      "choices": [
+        {
+          "id": "story-8923745610923-c31",
+          "text": "Dê a volta por trás e retome a perseguição ao curador.",
+          "description": "Fique com a variável humana."
+        },
+        {
+          "id": "story-8923745610923-c32",
+          "text": "Retorne à entrada desenhada.",
+          "description": "A câmara desértica chama."
+        }
+      ]
+    },
+    {
+      "id": "story-8923745610923-16",
+      "type": "decision",
+      "title": "Cidade Antiga",
+      "narration": "Luz lunar acumula-se em uma câmara sem teto onde areia flutua como neve. Relevos mostram artistas pintando com caudas de cometas, seus murais laçando dias em novas formas. Pegadas--frescas--circulam um estrado esculpido em um nove-virado-olho.",
+      "choices": [
+        {
+          "id": "story-8923745610923-c33",
+          "text": "Estude o templo",
+          "description": null
+        },
+        {
+          "id": "story-8923745610923-c34",
+          "text": "Comece a selar o paradoxo daqui.",
+          "description": "Feche o laço na sua fonte."
+        }
+      ]
+    },
+    {
+      "id": "story-8923745610923-18",
+      "type": "decision",
+      "title": "Equação Paradoxal",
+      "narration": "Estrelas piscam como nós em uma rede, linhas de potencial conectando passado ao agora. O projeto sobrepõe-se à realidade, mostrando a hora cortada como uma ferida brilhante. O ChronoCanvas pulsa, exigindo uma escolha: curar por rendição, ou curar por custo.",
+      "choices": [
+        {
+          "id": "story-8923745610923-c37",
+          "text": "Restaure a hora e absorva o contragolpe você mesmo.",
+          "description": "Você mantém a tela--mas ela mantém você."
+        },
+        {
+          "id": "story-8923745610923-c38",
+          "text": "Deixe a tela consumir a si mesma para fechar a ferida.",
+          "description": "Perca a ferramenta, salve o mundo."
+        }
+      ]
+    },
+    {
+      "id": "story-8923745610923-19",
+      "type": "decision",
+      "title": "Curador Aliado",
+      "narration": "O curador chega, olhos úmidos mas firmes pelo seu convite. Juntos vocês colocam o fragmento sobre o estrado; suas mãos tremem em espelho. Neste quadro compartilhado, a dor poderia tornar-se um pincel em vez de uma lâmina.",
+      "choices": [
+        {
+          "id": "story-8923745610923-c39",
+          "text": "Selem o paradoxo juntos.",
+          "description": "Duas mãos, uma intenção."
+        },
+        {
+          "id": "story-8923745610923-c40",
+          "text": "Confie-lhes a tela por um traço.",
+          "description": "Ofereça agência--arrisque traição."
+        }
+      ]
+    },
+    {
+      "id": "story-8923745610923-20",
+      "type": "decision",
+      "title": "Provação do Templo",
+      "narration": "O vento penteia a areia em espirais pacientes. Os murais sussurram uma resposta: para consertar uma ferida, pinte sobre si mesmo onde a ferida estaria. O estrado vibra, contando regressivamente em uma linguagem de poeira e batimento cardíaco.",
+      "choices": [
+        {
+          "id": "story-8923745610923-c41",
+          "text": "Sacrifique a tela para selar a brecha.",
+          "description": "Um pincel que se pinta para longe."
+        },
+        {
+          "id": "story-8923745610923-c42",
+          "text": "Reescreva seu próprio fio para carregar a cicatriz.",
+          "description": "Torne-se o remendo."
+        }
+      ]
+    },
+    {
+      "id": "story-8923745610923-21",
+      "type": "ending",
+      "title": "Linha Temporal Curada",
+      "narration": "Você restaura a hora, aceitando o contragolpe como uma ressaca pessoal. Dias depois, você acorda com um novo tremor, um tique fantasma em seu pulso que sincroniza com tempestades distantes. O mundo continua--inteiro--enquanto você aprende a segurar seu clima sozinho.",
+      "choices": []
+    },
+    {
+      "id": "story-8923745610923-22",
+      "type": "ending",
+      "title": "Tela Consumida",
+      "narration": "O ChronoCanvas bebe sua própria tinta, página por página, até que apenas um cheiro de chuva permaneça. A ferida fecha-se sem costura, a história suavizando-se como tinta molhada secando. Você nunca mais esboçará o tempo, mas relógios em toda parte respiram mais facilmente.",
+      "choices": []
+    },
+    {
+      "id": "story-8923745610923-23",
+      "type": "ending",
+      "title": "Desdobramento da Traição",
+      "narration": "Dado a tela, o curador redesenha a hora inteiramente--perfeita, indolor, impossível. A linha temporal recusa a mentira, rasgando-se em fios brilhantes que cantam como arame. Você passa o resto de seus dias coletando os filamentos zumbintes, um tecelão de fraturas.",
+      "choices": []
+    },
+    {
+      "id": "story-8923745610923-24",
+      "type": "ending",
+      "title": "Auto-Reescrita",
+      "narration": "Você pinta uma cicatriz cuidadosa em seus próprios dias, um nove-e-olho enlaçado embutido em sua memória. O paradoxo engole a ferida e deixa você diferente--um pouco fora de fase, brilhante nas bordas. Às vezes você se pega no meio do traço, já terminando uma linha que ainda não começou.",
+      "choices": []
+    }
+  ]
+}

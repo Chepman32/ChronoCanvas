@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "storyId": "story-9123457712345",
+    "language": "pt",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.396Z"
+  },
+  "story": {
+    "title": "Rebobinagem da Linha do Coração",
+    "author": "ChronoCanvas Studio",
+    "description": "Uma cidade está presa em um loop de 59 minutos, e seus esboços podem emendar as horas de volta. Mas cada reparo ondula o passado--especialmente a noite em que você perdeu Maya. Você vai restaurar a linha temporal ou redesenhar seu destino?",
+    "genre": [
+      "romance",
+      "scifi"
+    ],
+    "difficulty": "medium",
+    "estimatedDuration": 32
+  },
+  "nodes": [
+    {
+      "id": "story-9123457712345-1",
+      "type": "start",
+      "title": "Meia-Noite em Loop",
+      "narration": "A chuva costura traços prateados pela rua enquanto uma torre de relógio gagueja: 11:01--de novo. Seu ChronoCanvas zumbe em sua palma como um metrônomo enjaulado, a linha que você desenha ecoando através de poças e letreiros de néon. Em algum lugar próximo, Maya espera no observatório, sem saber que esta hora já aconteceu uma dúzia de vezes.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c1",
+          "text": "Apresse-se para o salão de relógios do museu.",
+          "description": "Estabilize a cidade."
+        },
+        {
+          "id": "story-9123457712345-c2",
+          "text": "Vá direto para o observatório do telhado.",
+          "description": "Encontre Maya antes que o loop reinicie."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-2",
+      "type": "decision",
+      "title": "Sinal no Telhado",
+      "narration": "O vento soa os cabos ao redor da cúpula do telescópio. Maya está sob um céu fendido por nuvens, estudando uma fraca anomalia como uma impressão digital nas estrelas. Ela olha para a escada como se esperasse alguém--então seu telefone vibra com um aviso: integridade do loop falhando.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c3",
+          "text": "Conte a Maya a verdade sobre o loop.",
+          "description": "A honestidade pode amarrá-lo a esta linha temporal."
+        },
+        {
+          "id": "story-9123457712345-c4",
+          "text": "Mantenha leve; convide-a para um café.",
+          "description": "Ancore a normalidade; ganhe tempo."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-3",
+      "type": "decision",
+      "title": "Café da Chuva",
+      "narration": "Vapor embaça as janelas do café enquanto gotas de chuva marcham de trás para frente no vidro--o tempo enrosca, depois retoma. Maya ri de uma memória que você ainda não deveria conhecer, e o riso afina quando as luzes piscam duas vezes. O ChronoCanvas aquece, impaciente.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c5",
+          "text": "Confesse o loop agora.",
+          "description": "Arrisque descrença para construir confiança."
+        },
+        {
+          "id": "story-9123457712345-c6",
+          "text": "Desculpe-se e corra para o salão de relógios.",
+          "description": "Conserte o tempo, depois retorne."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-5",
+      "type": "decision",
+      "title": "Salão dos Relógios",
+      "narration": "Uma catedral de pêndulos debate o presente em tique-taques sobrepostos. Um regulador massivo argumenta alto--seu ponteiro de segundos dá passos duplos, depois faz bico. Você pode sentir o loop prender em seus dentes.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c9",
+          "text": "Repare o regulador com um traço fino.",
+          "description": "Precisão primeiro."
+        },
+        {
+          "id": "story-9123457712345-c10",
+          "text": "Desenhe uma porta no mostrador do relógio.",
+          "description": "Atalho para a fonte."
+        },
+        {
+          "id": "story-9123457712345-c11",
+          "text": "Siga o curador suspeito.",
+          "description": "Alguém também está se intrometendo."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-6",
+      "type": "decision",
+      "title": "Beco da Fenda",
+      "narration": "Uma costura na chuva pende como um corte em filme; além dele, estrelas brilham como parafusos. O ar tem gosto de estática e pedra molhada, puxando suas mangas tanto para frente quanto para trás. Uma linha ousada poderia ancorar o rasgo--ou alargá-lo.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c12",
+          "text": "Estabilize com uma treliça de linhas.",
+          "description": "Engenharia da brecha."
+        },
+        {
+          "id": "story-9123457712345-c13",
+          "text": "Afaste-se e reagrupe-se no salão.",
+          "description": "Não tente o colapso."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-9",
+      "type": "decision",
+      "title": "Calma Mecânica",
+      "narration": "Seu traço faz a ponte de um dente faltante, e o ponteiro de segundos exala para o ritmo verdadeiro. Um painel oculto desbloqueia com um clique educado. Dentro: o fragmento de velino rasgado e uma chave em forma de ponto de interrogação.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c18",
+          "text": "Leve o fragmento para o cofre.",
+          "description": "Original supera imitação."
+        },
+        {
+          "id": "story-9123457712345-c19",
+          "text": "Use o truque da porta para o templo.",
+          "description": "Pule as escadas."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-10",
+      "type": "decision",
+      "title": "Limiar Esboçado",
+      "narration": "Tinta adere ao latão como orvalho à aurora. O mostrador do relógio amolece, aceitando uma porta desenhada que se abre para areia seca e cantante. Ar frio com aroma de sol em pedra roça suas bochechas.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c20",
+          "text": "Atravesse para a câmara do templo.",
+          "description": "Encontre a fonte."
+        },
+        {
+          "id": "story-9123457712345-c21",
+          "text": "Retorne para buscar o fragmento perdido.",
+          "description": "Não arrisque um palpite."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-12",
+      "type": "decision",
+      "title": "Sala de Arquivo",
+      "narration": "Partículas de poeira flutuam como segundos perdidos na luz do lampião. Em uma pasta de conservação, o fragmento de velino rasgado espera com um nove enlaçado em tinta--um olho e uma espiral em um. Ele aquece o ar quando seus dedos o roçam.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c24",
+          "text": "Encaixe o fragmento na fechadura do cofre.",
+          "description": "Complete o circuito."
+        },
+        {
+          "id": "story-9123457712345-c25",
+          "text": "Esboce um substituto de reserva por precaução.",
+          "description": "Cinto e suspensórios."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-14",
+      "type": "decision",
+      "title": "Cofre Oculto",
+      "narration": "Atrás de caixas empilhadas, uma costura circular exala uma corrente desértica. O fragmento de velino assenta em uma fechadura que se desenrola como uma espiral florescente. Escadas afundam em direção a uma câmara onde areia espera como uma página paciente.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c28",
+          "text": "Sele a equação paradoxal aqui.",
+          "description": "Estabilidade sobre desejo."
+        },
+        {
+          "id": "story-9123457712345-c29",
+          "text": "Atravesse para o templo.",
+          "description": "Enfrente a raiz."
+        },
+        {
+          "id": "story-9123457712345-c30",
+          "text": "Chame Maya para se juntar a você.",
+          "description": "Escolham juntos."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-16",
+      "type": "decision",
+      "title": "Estrado do Templo",
+      "narration": "Luz lunar reúne-se em uma câmara sem teto; areia sussurra em pequenas avalanches. Murais mostram artistas pintando com caudas de cometas, laçando dias em formas mais suaves. Dois conjuntos de pegadas circundam o estrado--as suas, e a versão de você que continua tentando.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c33",
+          "text": "Estude os murais para instrução.",
+          "description": "Aprenda o custo antes de pagar."
+        },
+        {
+          "id": "story-9123457712345-c34",
+          "text": "Comece o traço de selagem.",
+          "description": "Feche o loop agora."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-20",
+      "type": "ending",
+      "title": "Sacrifício de Papel",
+      "narration": "O Canvas bebe sua própria tinta até que apenas o cheiro de chuva permaneça. O tempo suaviza como tinta fresca secando, e relógios por toda a cidade respiram mais facilmente. Você e Maya saem sob um clima honesto, de mãos vazias e livres.",
+      "choices": []
+    },
+    {
+      "id": "story-9123457712345-21",
+      "type": "ending",
+      "title": "Edição Sem Fé",
+      "narration": "Uma reescrita perfeita apaga a dor--e a verdade que a moldou. A linha temporal recusa a mentira e se desfaz em fios brilhantes que cantam como arame. Você passa longas noites retrançando possibilidades, e às vezes, em uma nova aurora, Maya encontra você.",
+      "choices": []
+    },
+    {
+      "id": "story-9123457712345-22",
+      "type": "ending",
+      "title": "Cicatriz Juntos",
+      "narration": "Você pinta uma cicatriz cuidadosa através de seus dias, um nove enlaçado descansando sob a pele da memória. A cidade segue em frente, sem loop; você e Maya aprendem o ritmo do tempo imperfeito. Algumas manhãs você acorda já terminando uma risada que ainda não começou.",
+      "choices": []
+    }
+  ]
+}

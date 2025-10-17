@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "storyId": "story-9123457712345",
+    "language": "fr",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.396Z"
+  },
+  "story": {
+    "title": "Rembobinage de la Ligne de Cœur",
+    "author": "ChronoCanvas Studio",
+    "description": "Une ville est piégée dans une boucle de 59 minutes, et vos esquisses peuvent recoller les heures ensemble. Mais chaque réparation fait onduler le passé--surtout la nuit où vous avez perdu Maya. Allez-vous restaurer la chronologie ou redessiner votre destin?",
+    "genre": [
+      "romance",
+      "scifi"
+    ],
+    "difficulty": "medium",
+    "estimatedDuration": 32
+  },
+  "nodes": [
+    {
+      "id": "story-9123457712345-1",
+      "type": "start",
+      "title": "Minuit en Boucle",
+      "narration": "La pluie coud des tirets argentés à travers la rue tandis qu'une tour d'horloge bégaie: 11:01--encore. Votre ChronoCanvas bourdonne dans votre paume comme un métronome en cage, la ligne que vous tracez résonnant à travers les flaques et les enseignes au néon. Quelque part à proximité, Maya attend à l'observatoire, ignorant que cette heure s'est déjà produite une douzaine de fois.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c1",
+          "text": "Hâtez-vous vers la salle des horloges du musée.",
+          "description": "Stabilisez la ville."
+        },
+        {
+          "id": "story-9123457712345-c2",
+          "text": "Allez directement à l'observatoire sur le toit.",
+          "description": "Trouvez Maya avant que la boucle ne se réinitialise."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-2",
+      "type": "decision",
+      "title": "Signal sur le Toit",
+      "narration": "Le vent fait tinter les câbles autour du dôme du télescope. Maya se tient sous un ciel fendu par les nuages, étudiant une faible anomalie comme une empreinte digitale dans les étoiles. Elle jette un coup d'œil vers la cage d'escalier comme si elle attendait quelqu'un--puis votre téléphone vibre avec un avertissement: l'intégrité de la boucle échoue.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c3",
+          "text": "Dites à Maya la vérité sur la boucle.",
+          "description": "L'honnêteté peut vous lier à cette chronologie."
+        },
+        {
+          "id": "story-9123457712345-c4",
+          "text": "Restez léger; invitez-la à prendre un café.",
+          "description": "Ancrez la normalité; gagnez du temps."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-3",
+      "type": "decision",
+      "title": "Café Pluvieux",
+      "narration": "La vapeur embrume les fenêtres du café tandis que des gouttes de pluie marchent à reculons le long du verre--le temps accroche, puis reprend. Maya rit d'un souvenir que vous ne devriez pas encore connaître, et le rire s'amincit quand les lumières vacillent deux fois. Le ChronoCanvas se réchauffe, impatient.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c5",
+          "text": "Avouez la boucle maintenant.",
+          "description": "Risquez l'incrédulité pour construire la confiance."
+        },
+        {
+          "id": "story-9123457712345-c6",
+          "text": "Excusez-vous et courez vers la salle des horloges.",
+          "description": "Réparez le temps, puis revenez."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-5",
+      "type": "decision",
+      "title": "Salle des Horloges",
+      "narration": "Une cathédrale de pendules débat du présent en tic-tac superposés. Un régulateur massif argumente bruyamment--son aiguille des secondes fait des doubles pas, puis boude. Vous pouvez sentir la boucle s'accrocher à ses dents.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c9",
+          "text": "Réparez le régulateur avec un trait fin.",
+          "description": "Précision d'abord."
+        },
+        {
+          "id": "story-9123457712345-c10",
+          "text": "Dessinez une porte sur le cadran de l'horloge.",
+          "description": "Raccourci vers la source."
+        },
+        {
+          "id": "story-9123457712345-c11",
+          "text": "Suivez le conservateur suspect.",
+          "description": "Quelqu'un se mêle aussi."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-6",
+      "type": "decision",
+      "title": "Allée de la Faille",
+      "narration": "Une couture dans la pluie pend comme une coupure dans un film; au-delà, les étoiles scintillent comme des vis. L'air a un goût de statique et de pierre mouillée, tirant sur vos manches à la fois en avant et en arrière. Une ligne audacieuse pourrait ancrer la déchirure--ou l'élargir.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c12",
+          "text": "Stabilisez avec un treillis de lignes.",
+          "description": "Concevez la brèche."
+        },
+        {
+          "id": "story-9123457712345-c13",
+          "text": "Éloignez-vous et regroupez-vous dans la salle.",
+          "description": "Ne tentez pas l'effondrement."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-9",
+      "type": "decision",
+      "title": "Calme Mécanique",
+      "narration": "Votre trait comble une dent manquante, et l'aiguille des secondes exhale vers le rythme véritable. Un panneau caché se déverrouille avec un clic poli. À l'intérieur: le fragment de vélin déchiré et une clé en forme de point d'interrogation.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c18",
+          "text": "Apportez le fragment à la chambre forte.",
+          "description": "L'original bat l'imitation."
+        },
+        {
+          "id": "story-9123457712345-c19",
+          "text": "Utilisez l'astuce de la porte vers le temple.",
+          "description": "Sautez les escaliers."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-10",
+      "type": "decision",
+      "title": "Seuil Esquissé",
+      "narration": "L'encre adhère au laiton comme la rosée à l'aube. Le cadran de l'horloge s'adoucit, acceptant une porte dessinée qui s'ouvre sur du sable sec et chantant. L'air froid avec un parfum de soleil sur la pierre effleure vos joues.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c20",
+          "text": "Franchissez le seuil vers la chambre du temple.",
+          "description": "Rencontrez la source."
+        },
+        {
+          "id": "story-9123457712345-c21",
+          "text": "Revenez chercher le fragment manquant.",
+          "description": "Ne risquez pas une supposition."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-12",
+      "type": "decision",
+      "title": "Salle d'Archives",
+      "narration": "Des grains de poussière dérivent comme des secondes perdues dans la lumière de la lampe. Dans un dossier de conservation, le fragment de vélin déchiré attend avec un neuf bouclé à l'encre--un œil et une spirale en un. Il réchauffe l'air quand vos doigts le frôlent.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c24",
+          "text": "Insérez le fragment dans la serrure de la chambre forte.",
+          "description": "Complétez le circuit."
+        },
+        {
+          "id": "story-9123457712345-c25",
+          "text": "Esquissez un substitut de secours au cas où.",
+          "description": "Ceinture et bretelles."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-14",
+      "type": "decision",
+      "title": "Chambre Forte Cachée",
+      "narration": "Derrière des caisses empilées, une couture circulaire exhale un courant d'air désertique. Le fragment de vélin s'insère dans une serrure qui se déploie comme une spirale en fleur. Des escaliers descendent vers une chambre où le sable attend comme une page patiente.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c28",
+          "text": "Scellez l'équation paradoxale ici.",
+          "description": "Stabilité plutôt que désir."
+        },
+        {
+          "id": "story-9123457712345-c29",
+          "text": "Franchissez le seuil vers le temple.",
+          "description": "Rencontrez la racine."
+        },
+        {
+          "id": "story-9123457712345-c30",
+          "text": "Appelez Maya à vous rejoindre.",
+          "description": "Choisissez ensemble."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-16",
+      "type": "decision",
+      "title": "Dais du Temple",
+      "narration": "Le clair de lune se rassemble dans une chambre sans toit; le sable murmure en petites avalanches. Des fresques montrent des artistes peignant avec des queues de comètes, bouclant les jours en formes plus douces. Deux ensembles d'empreintes entourent le dais--les vôtres, et la version de vous qui continue d'essayer.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c33",
+          "text": "Étudiez les fresques pour instruction.",
+          "description": "Apprenez le coût avant de payer."
+        },
+        {
+          "id": "story-9123457712345-c34",
+          "text": "Commencez le trait de scellement.",
+          "description": "Fermez la boucle maintenant."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-20",
+      "type": "ending",
+      "title": "Sacrifice de Papier",
+      "narration": "Le Canvas boit sa propre encre jusqu'à ce qu'il ne reste que le parfum de la pluie. Le temps se lisse comme de la peinture fraîche qui sèche, et les horloges à travers la ville respirent plus facilement. Vous et Maya sortez sous un temps honnête, les mains vides et libres.",
+      "choices": []
+    },
+    {
+      "id": "story-9123457712345-21",
+      "type": "ending",
+      "title": "Édition Sans Foi",
+      "narration": "Une réécriture parfaite efface la douleur--et la vérité qui l'a façonnée. La chronologie refuse le mensonge et s'effiloche en fils lumineux qui chantent comme du fil de fer. Vous passez de longues nuits à retresser les possibilités, et parfois, dans une nouvelle aube, Maya vous trouve.",
+      "choices": []
+    },
+    {
+      "id": "story-9123457712345-22",
+      "type": "ending",
+      "title": "Cicatrice Ensemble",
+      "narration": "Vous peignez une cicatrice soigneuse à travers vos jours, un neuf bouclé reposant sous la peau du souvenir. La ville avance, sans boucle; vous et Maya apprenez le rythme du temps imparfait. Certains matins, vous vous réveillez en finissant déjà un rire que vous n'avez pas commencé.",
+      "choices": []
+    }
+  ]
+}

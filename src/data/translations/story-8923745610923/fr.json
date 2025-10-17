@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "storyId": "story-8923745610923",
+    "language": "fr",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.393Z"
+  },
+  "story": {
+    "title": "Palette Paradoxale",
+    "author": "ChronoCanvas Studio",
+    "description": "À minuit, une restauratrice de musée découvre un carnet de croquis qui peut repeindre le temps. Chaque ligne tracée répare une fracture et en divise une autre, tandis qu'un conservateur endeuillé s'efforce d'effacer à jamais une heure tragique. Pouvez-vous composer une chronologie qui tienne--avant que la toile ne se déchire?",
+    "genre": [
+      "scifi",
+      "mystery"
+    ],
+    "difficulty": "medium",
+    "estimatedDuration": 35
+  },
+  "nodes": [
+    {
+      "id": "story-8923745610923-3",
+      "type": "decision",
+      "title": "Expérience dans l'Allée",
+      "narration": "La pluie aiguillonne le pavé luisant de néon derrière le musée. Nova esquisse un arc mince; la flaque ondule à rebours, les gouttes de pluie bondissant vers le haut comme du verre en rembobinage. Une couture verdâtre s'ouvre au-dessus du caniveau pendant un battement de cœur--une fissure qui sent l'ozone et le vieux papier.",
+      "choices": [
+        {
+          "id": "story-8923745610923-c5",
+          "text": "Retourne à l'intérieur vers la salle des horloges.",
+          "description": "Teste l'effet près d'une cadence stable."
+        },
+        {
+          "id": "story-8923745610923-c6",
+          "text": "Élargis la fissure avec un trait plus audacieux.",
+          "description": "Risque élevé, perspicacité élevée."
+        }
+      ]
+    },
+    {
+      "id": "story-8923745610923-9",
+      "type": "decision",
+      "title": "Cœur d'Horlogerie",
+      "narration": "Le mécanisme central s'ouvre comme une cage thoracique, les engrenages luisant d'huile et de mémoire. D'un trait prudent, Nova comble une dent manquante; la trotteuse exhale en un mouvement fluide. Dans ce calme, un compartiment caché s'ouvre--une invitation.",
+      "choices": [
+        {
+          "id": "story-8923745610923-c18",
+          "text": "Ouvre le compartiment révélé.",
+          "description": "Les secrets se cachent où la cadence tient."
+        },
+        {
+          "id": "story-8923745610923-c19",
+          "text": "Referme et recule pour éviter les pièges.",
+          "description": "La prudence préserve les options."
+        }
+      ]
+    },
+    {
+      "id": "story-8923745610923-10",
+      "type": "decision",
+      "title": "Passage Dessiné",
+      "narration": "Le cadran de l'horloge accepte une porte comme la peinture accepte l'apprêt. L'air froid se déverse, parfumé de poussière et d'un parfum comme le soleil sur la vieille pierre. Au-delà, le sable chante doucement dans une chambre qui ne devrait pas être.",
+      "choices": [
+        {
+          "id": "story-8923745610923-c20",
+          "text": "Cherche d'abord le fragment manquant.",
+          "description": "Les cartes comptent."
+        },
+        {
+          "id": "story-8923745610923-c21",
+          "text": "Franchis le seuil vers la chambre désertique.",
+          "description": "Saisis l'initiative."
+        }
+      ]
+    },
+    {
+      "id": "story-8923745610923-12",
+      "type": "decision",
+      "title": "Fragment Perdu",
+      "narration": "Dans une arrière-salle sentant les classeurs et le cèdre, un éclat de vélin déchiré se cache dans un vieux dossier de conservation. La pièce montre un glyphe qui ressemble à un coup de pinceau façonné en un neuf couché sur le côté. À contre-jour, la marque ressemble à un œil--et à une boucle.",
+      "choices": [
+        {
+          "id": "story-8923745610923-c24",
+          "text": "Esquisse un glyphe de remplacement pour tester le circuit.",
+          "description": "Improvise la clé manquante."
+        },
+        {
+          "id": "story-8923745610923-c25",
+          "text": "Utilise le fragment pour ouvrir la chambre forte cachée.",
+          "description": "L'original bat l'imitation."
+        }
+      ]
+    },
+    {
+      "id": "story-8923745610923-13",
+      "type": "decision",
+      "title": "Interrogatoire Silencieux",
+      "narration": "Tu accules le conservateur dans une galerie d'horloges antiques; le temps autour de toi se tait respectueusement. Ses yeux sont salés de chagrin, la voix cassante alors qu'il admet le plan: couper l'heure de la perte et refuser son écho. Le plan tremble comme une chose vivante.",
+      "choices": [
+        {
+          "id": "story-8923745610923-c26",
+          "text": "Apaise-le--offre d'aider en toute sécurité.",
+          "description": "Transforme un adversaire en allié."
+        },
+        {
+          "id": "story-8923745610923-c27",
+          "text": "Prends le plan et cours vers la chambre forte.",
+          "description": "L'action plutôt que l'argument."
+        }
+      ]
+    },
+    {
+      "id": "story-8923745610923-14",
+      "type": "decision",
+      "title": "Chambre Forte Cachée",
+      "narration": "Un courant d'air parfumé de sable murmure depuis une couture blindée derrière des caisses empilées. Le fragment s'insère comme une dent manquante dans une serrure circulaire, et le mur se découd en un escalier en spirale. Quelque chose d'ancien et de mathématique attend en bas.",
+      "choices": [
+        {
+          "id": "story-8923745610923-c28",
+          "text": "Scelle le circuit paradoxal avec des traits prudents.",
+          "description": "La stabilité d'abord."
+        },
+        {
+          "id": "story-8923745610923-c29",
+          "text": "Franchis le seuil vers la chambre au-delà.",
+          "description": "Affronte la cause profonde."
+        },
+        {
+          "id": "story-8923745610923-c30",
+          "text": "Appelle le conservateur à te rejoindre.",
+          "description": "Risque la confiance."
+        }
+      ]
+    },
+    {
+      "id": "story-8923745610923-15",
+      "type": "decision",
+      "title": "Ronde de Sécurité",
+      "narration": "Les radios grésillent--les gardes tournent leur ronde vers la salle des horloges. Nova esquisse un détour, des lignes glissant une porte d'un mètre sur la gauche, juste assez pour se faufiler. Le bâtiment soupire, agacé mais docile.",
+      "choices": [
+        {
+          "id": "story-8923745610923-c31",
+          "text": "Contourne et reprends la filature du conservateur.",
+          "description": "Reste avec la variable humaine."
+        },
+        {
+          "id": "story-8923745610923-c32",
+          "text": "Retourne au passage dessiné.",
+          "description": "La chambre désertique appelle."
+        }
+      ]
+    },
+    {
+      "id": "story-8923745610923-16",
+      "type": "decision",
+      "title": "Cité Antique",
+      "narration": "Le clair de lune s'accumule dans une chambre sans toit où le sable dérive comme de la neige. Les reliefs montrent des artistes peignant avec des queues de comètes, leurs fresques bouclant les jours en nouvelles formes. Des empreintes--fraîches--entourent un dais sculpté en un neuf-tourné-œil.",
+      "choices": [
+        {
+          "id": "story-8923745610923-c33",
+          "text": "Étudie le temple",
+          "description": null
+        },
+        {
+          "id": "story-8923745610923-c34",
+          "text": "Commence à sceller le paradoxe depuis ici.",
+          "description": "Ferme la boucle à sa source."
+        }
+      ]
+    },
+    {
+      "id": "story-8923745610923-18",
+      "type": "decision",
+      "title": "Équation Paradoxale",
+      "narration": "Les étoiles clignotent comme des nœuds dans un réseau, des lignes de potentiel reliant le passé au présent. Le plan se superpose à la réalité, montrant l'heure coupée comme une blessure lumineuse. Le ChronoCanvas pulse, exigeant un choix: guérir par l'abandon, ou guérir par le coût.",
+      "choices": [
+        {
+          "id": "story-8923745610923-c37",
+          "text": "Restaure l'heure et absorbe toi-même le contrecoup.",
+          "description": "Tu gardes la toile--mais elle te garde."
+        },
+        {
+          "id": "story-8923745610923-c38",
+          "text": "Laisse la toile se consumer pour fermer la blessure.",
+          "description": "Perds l'outil, sauve le monde."
+        }
+      ]
+    },
+    {
+      "id": "story-8923745610923-19",
+      "type": "decision",
+      "title": "Conservateur Allié",
+      "narration": "Le conservateur arrive, les yeux humides mais raffermis par ton invitation. Ensemble, vous placez le fragment sur le dais; vos mains tremblent en miroir. Dans ce cadre partagé, le chagrin pourrait devenir un pinceau plutôt qu'une lame.",
+      "choices": [
+        {
+          "id": "story-8923745610923-c39",
+          "text": "Scellez le paradoxe ensemble.",
+          "description": "Deux mains, une intention."
+        },
+        {
+          "id": "story-8923745610923-c40",
+          "text": "Confie-lui la toile pour un trait.",
+          "description": "Offre l'agence--risque la trahison."
+        }
+      ]
+    },
+    {
+      "id": "story-8923745610923-20",
+      "type": "decision",
+      "title": "Épreuve du Temple",
+      "narration": "Le vent peigne le sable en spirales patientes. Les fresques murmurent une réponse: pour réparer une blessure, peins sur toi-même là où serait la blessure. Le dais vibre, comptant à rebours dans un langage de poussière et de battement de cœur.",
+      "choices": [
+        {
+          "id": "story-8923745610923-c41",
+          "text": "Sacrifie la toile pour sceller la brèche.",
+          "description": "Un pinceau qui se peint lui-même."
+        },
+        {
+          "id": "story-8923745610923-c42",
+          "text": "Réécris ton propre fil pour porter la cicatrice.",
+          "description": "Deviens le correctif."
+        }
+      ]
+    },
+    {
+      "id": "story-8923745610923-21",
+      "type": "ending",
+      "title": "Chronologie Guérie",
+      "narration": "Tu restaures l'heure, acceptant le contrecoup comme un courant personnel. Des jours plus tard, tu te réveilles avec un nouveau tremblement, un tic fantôme dans ton poignet qui se synchronise avec les tempêtes lointaines. Le monde continue--entier--tandis que tu apprends à tenir seul sa météo.",
+      "choices": []
+    },
+    {
+      "id": "story-8923745610923-22",
+      "type": "ending",
+      "title": "Toile Consumée",
+      "narration": "Le ChronoCanvas boit sa propre encre, page après page, jusqu'à ce qu'il ne reste qu'une odeur de pluie. La blessure se ferme sans couture, l'histoire se lissant comme de la peinture humide qui sèche. Tu ne dessineras plus jamais le temps, mais les horloges partout respirent plus facilement.",
+      "choices": []
+    },
+    {
+      "id": "story-8923745610923-23",
+      "type": "ending",
+      "title": "Trahison Défaite",
+      "narration": "Ayant reçu la toile, le conservateur redessine entièrement l'heure--parfaite, indolore, impossible. La chronologie refuse le mensonge, se déchirant en fils lumineux qui chantent comme du fil de fer. Tu passes le reste de tes jours à collecter les filaments bourdonnants, un tisseur de fractures.",
+      "choices": []
+    },
+    {
+      "id": "story-8923745610923-24",
+      "type": "ending",
+      "title": "Réécriture de Soi",
+      "narration": "Tu peins une cicatrice soigneuse dans tes propres jours, un neuf-et-œil bouclé ancré dans ta mémoire. Le paradoxe engloutit la blessure et te laisse différent--un peu déphasé, lumineux sur les bords. Parfois tu te surprends à mi-trait, finissant déjà une ligne que tu n'as pas encore commencée.",
+      "choices": []
+    }
+  ]
+}

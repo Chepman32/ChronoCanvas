@@ -20,7 +20,6 @@ import { story_8743921042StoryTranslations } from './story-8743921042_i18n';
 import { story_8923745610923StoryTranslations } from './story-8923745610923_i18n';
 import { story_892746531StoryTranslations } from './story-892746531_i18n';
 import { story_9123457712345StoryTranslations } from './story-9123457712345_i18n';
-import { story_9328745634021StoryTranslations } from './story-9328745634021_i18n';
 import { story_9845237719284StoryTranslations } from './story-9845237719284_i18n';
 import { story_9932045517721StoryTranslations } from './story-9932045517721_i18n';
 
@@ -70,7 +69,6 @@ export const storyTranslationsRegistry: Record<
   'story-8923745610923': story_8923745610923StoryTranslations,
   'story-892746531': story_892746531StoryTranslations,
   'story-9123457712345': story_9123457712345StoryTranslations,
-  'story-9328745634021': story_9328745634021StoryTranslations,
   'story-9845237719284': story_9845237719284StoryTranslations,
   'story-9932045517721': story_9932045517721StoryTranslations,
 };

@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "storyId": "story-9123457712345",
+    "language": "de",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.396Z"
+  },
+  "story": {
+    "title": "Herzlinie Zurückspulen",
+    "author": "ChronoCanvas Studio",
+    "description": "Eine Stadt ist in einer 59-Minuten-Schleife gefangen, und deine Skizzen können die Stunden wieder zusammenfügen. Aber jede Reparatur bringt die Vergangenheit ins Wanken--besonders die Nacht, in der du Maya verloren hast. Wirst du die Zeitlinie wiederherstellen oder dein Schicksal neu zeichnen?",
+    "genre": [
+      "romance",
+      "scifi"
+    ],
+    "difficulty": "medium",
+    "estimatedDuration": 32
+  },
+  "nodes": [
+    {
+      "id": "story-9123457712345-1",
+      "type": "start",
+      "title": "Geschleifte Mitternacht",
+      "narration": "Regen näht silberne Striche über die Straße, während ein Glockenturm stottert: 11:01--wieder. Dein ChronoCanvas summt in deiner Handfläche wie ein eingesperrtes Metronom, die Linie, die du zeichnest, hallt durch Pfützen und Neonschilder. Irgendwo in der Nähe wartet Maya am Observatorium, ohne zu wissen, dass diese Stunde bereits ein Dutzend Mal geschehen ist.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c1",
+          "text": "Eile zur Museums-Uhrhalle.",
+          "description": "Stabilisiere die Stadt."
+        },
+        {
+          "id": "story-9123457712345-c2",
+          "text": "Geh direkt zum Dach-Observatorium.",
+          "description": "Finde Maya, bevor die Schleife sich zurücksetzt."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-2",
+      "type": "decision",
+      "title": "Dachsignal",
+      "narration": "Wind lässt die Spanndrähte um die Teleskopkuppel klingen. Maya steht unter einem von Wolken gespaltenen Himmel und studiert eine schwache Anomalie wie einen Fingerabdruck in den Sternen. Sie blickt zum Treppenhaus, als erwarte sie jemanden--dann summt dein Telefon mit einer Warnung: Schleifenintegrität versagt.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c3",
+          "text": "Sage Maya die Wahrheit über die Schleife.",
+          "description": "Ehrlichkeit könnte dich an diese Zeitlinie binden."
+        },
+        {
+          "id": "story-9123457712345-c4",
+          "text": "Halte es leicht; lade sie zum Kaffee ein.",
+          "description": "Verankere Normalität; gewinne Zeit."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-3",
+      "type": "decision",
+      "title": "Regen-Café",
+      "narration": "Dampf vernebelt die Café-Fenster, während Regentropfen rückwärts am Glas entlangmarschieren--die Zeit hängt, dann läuft sie weiter. Maya lacht über eine Erinnerung, die du noch nicht kennen solltest, und das Lachen wird dünner, als die Lichter zweimal flackern. Das ChronoCanvas erwärmt sich, ungeduldig.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c5",
+          "text": "Gestehe die Schleife jetzt.",
+          "description": "Riskiere Unglauben, um Vertrauen aufzubauen."
+        },
+        {
+          "id": "story-9123457712345-c6",
+          "text": "Entschuldige dich und sprinte zur Uhrhalle.",
+          "description": "Flicke die Zeit, dann kehre zurück."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-5",
+      "type": "decision",
+      "title": "Halle der Uhren",
+      "narration": "Eine Kathedrale aus Pendeln debattiert die Gegenwart in überlappenden Ticks. Ein massiver Regulator argumentiert laut--sein Sekundenzeiger macht Doppelschritte, dann schmollt er. Du kannst spüren, wie die Schleife an seinen Zähnen hängen bleibt.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c9",
+          "text": "Repariere den Regulator mit einem feinen Strich.",
+          "description": "Präzision zuerst."
+        },
+        {
+          "id": "story-9123457712345-c10",
+          "text": "Zeichne einen Durchgang auf das Zifferblatt.",
+          "description": "Abkürzung zur Quelle."
+        },
+        {
+          "id": "story-9123457712345-c11",
+          "text": "Verfolge den verdächtigen Kurator.",
+          "description": "Jemand mischt sich auch ein."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-6",
+      "type": "decision",
+      "title": "Riss-Gasse",
+      "narration": "Eine Naht im Regen hängt wie ein Schnitt im Film; dahinter glitzern Sterne wie Schrauben. Die Luft schmeckt nach Statik und nassem Stein, zieht an deinen Ärmeln sowohl vorwärts als auch zurück. Eine kühne Linie könnte den Riss verankern--oder ihn erweitern.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c12",
+          "text": "Stabilisiere mit einem Gitter aus Linien.",
+          "description": "Konstruiere den Bruch."
+        },
+        {
+          "id": "story-9123457712345-c13",
+          "text": "Trete zurück und gruppiere dich in der Halle neu.",
+          "description": "Fordere den Zusammenbruch nicht heraus."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-9",
+      "type": "decision",
+      "title": "Uhrwerk-Ruhe",
+      "narration": "Dein Strich überbrückt einen fehlenden Zahn, und der Sekundenzeiger atmet zum wahren Tempo aus. Ein verstecktes Panel entriegelt sich mit einem höflichen Klick. Drinnen: das zerrissene Pergamentfragment und ein Schlüssel in Form eines Fragezeichens.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c18",
+          "text": "Bringe das Fragment zum Gewölbe.",
+          "description": "Original schlägt Imitation."
+        },
+        {
+          "id": "story-9123457712345-c19",
+          "text": "Nutze den Türtrick zum Tempel.",
+          "description": "Überspringe die Treppe."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-10",
+      "type": "decision",
+      "title": "Skizzierte Schwelle",
+      "narration": "Tinte haftet an Messing wie Tau an der Morgendämmerung. Das Zifferblatt erweicht und akzeptiert eine gezeichnete Tür, die sich zu trockenem, singendem Sand öffnet. Kalte Luft mit einem Duft von Sonne auf Stein streicht deine Wangen.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c20",
+          "text": "Tritt durch zur Tempelkammer.",
+          "description": "Triff die Quelle."
+        },
+        {
+          "id": "story-9123457712345-c21",
+          "text": "Kehre zurück, um das fehlende Fragment zu holen.",
+          "description": "Riskiere keine Vermutung."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-12",
+      "type": "decision",
+      "title": "Archivraum",
+      "narration": "Staubmoten treiben wie verlorene Sekunden im Lampenlicht. In einer Konservierungsmappe wartet das zerrissene Pergamentfragment mit einer getinteten geschlungenen Neun--ein Auge und eine Spirale in einem. Es erwärmt die Luft, wenn deine Finger es streifen.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c24",
+          "text": "Stecke das Fragment in das Gewölbeschloss.",
+          "description": "Vervollständige den Kreislauf."
+        },
+        {
+          "id": "story-9123457712345-c25",
+          "text": "Skizziere einen Ersatz-Surrogate für alle Fälle.",
+          "description": "Doppelt hält besser."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-14",
+      "type": "decision",
+      "title": "Verstecktes Gewölbe",
+      "narration": "Hinter gestapelten Kisten atmet eine kreisförmige Naht einen Wüstenzug aus. Das Pergamentfragment setzt sich in ein Schloss, das sich wie eine blühende Spirale entfaltet. Stufen sinken zu einer Kammer, wo Sand wie eine geduldige Seite wartet.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c28",
+          "text": "Versiegle die Paradoxon-Gleichung hier.",
+          "description": "Stabilität über Begehren."
+        },
+        {
+          "id": "story-9123457712345-c29",
+          "text": "Tritt durch zum Tempel.",
+          "description": "Begegne der Wurzel."
+        },
+        {
+          "id": "story-9123457712345-c30",
+          "text": "Rufe Maya, sich dir anzuschließen.",
+          "description": "Wählt zusammen."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-16",
+      "type": "decision",
+      "title": "Tempel-Podest",
+      "narration": "Mondlicht sammelt sich in einer dachlosen Kammer; Sand flüstert in kleinen Lawinen. Wandmalereien zeigen Künstler, die mit Kometenschweifen malen und Tage in sanftere Formen schleifen. Zwei Fußspuren umkreisen das Podest--deine und die Version von dir, die es weiter versucht.",
+      "choices": [
+        {
+          "id": "story-9123457712345-c33",
+          "text": "Studiere die Wandmalereien für Anweisungen.",
+          "description": "Lerne die Kosten, bevor du zahlst."
+        },
+        {
+          "id": "story-9123457712345-c34",
+          "text": "Beginne den Versiegelungsstrich.",
+          "description": "Schließe die Schleife jetzt."
+        }
+      ]
+    },
+    {
+      "id": "story-9123457712345-20",
+      "type": "ending",
+      "title": "Papier-Opfer",
+      "narration": "Das Canvas trinkt seine eigene Tinte, bis nur der Duft von Regen bleibt. Zeit glättet sich wie frische trocknende Farbe, und Uhren in der ganzen Stadt atmen leichter. Du und Maya geht unter ehrlichem Wetter hinaus, mit leeren Händen und frei.",
+      "choices": []
+    },
+    {
+      "id": "story-9123457712345-21",
+      "type": "ending",
+      "title": "Treulose Bearbeitung",
+      "narration": "Eine perfekte Neuschreibung löscht den Schmerz--und die Wahrheit, die ihn formte. Die Zeitlinie lehnt die Lüge ab und franst sich in helle Fäden auf, die wie Draht singen. Du verbringst lange Nächte damit, Möglichkeiten neu zu flechten, und manchmal, in einer neuen Morgendämmerung, findet Maya dich.",
+      "choices": []
+    },
+    {
+      "id": "story-9123457712345-22",
+      "type": "ending",
+      "title": "Narbe Zusammen",
+      "narration": "Du malst eine sorgfältige Narbe über deine Tage, eine geschlungene Neun, die unter der Haut der Erinnerung ruht. Die Stadt bewegt sich weiter, schleifenfrei; du und Maya lernt den Rhythmus der unvollkommenen Zeit. Manche Morgen wachst du auf und beendest bereits ein Lachen, das du noch nicht begonnen hast.",
+      "choices": []
+    }
+  ]
+}
