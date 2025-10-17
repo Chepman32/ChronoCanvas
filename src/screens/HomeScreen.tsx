@@ -84,7 +84,10 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
       onPress={() => onStoryPress(story.id)}
       activeOpacity={0.8}
     >
-      <Image source={{ uri: story.thumbnailUrl }} style={styles.cardImage} />
+      <Image
+        source={typeof story.thumbnailUrl === 'string' ? { uri: story.thumbnailUrl } : story.thumbnailUrl}
+        style={styles.cardImage}
+      />
       {story.isPremium && (
         <View style={styles.premiumBadge}>
           <Text style={styles.premiumText}>{t.premium}</Text>
@@ -115,7 +118,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
       activeOpacity={0.8}
     >
       <Image
-        source={{ uri: story.coverImageUrl }}
+        source={typeof story.coverImageUrl === 'string' ? { uri: story.coverImageUrl } : story.coverImageUrl}
         style={styles.featuredCardImage}
       />
       {story.isPremium && (

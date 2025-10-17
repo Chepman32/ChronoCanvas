@@ -5,10 +5,8 @@ export const midnightMissingStory: Story = {
   title: 'Midnight Missing',
   description:
     'When a young woman vanishes without a trace, a determined detective must navigate city shadows and unravel a web of clues before time runs out. Every decision could mean a life saved or a trail gone cold.',
-  coverImageUrl:
-    'https://images.unsplash.com/photo-1653942794731-03de74506a5b?w=800',
-  thumbnailUrl:
-    'https://images.unsplash.com/photo-1653942794731-03de74506a5b?w=400',
+  coverImageUrl: require('../assets/images/covers/cover-story-7481296.jpg'),
+  thumbnailUrl: require('../assets/images/covers/cover-story-7481296.jpg'),
   author: 'Morgan Steele',
   genre: ['detective', 'mystery'],
   difficulty: 'medium',

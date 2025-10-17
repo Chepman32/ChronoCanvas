@@ -95,7 +95,7 @@ export const StoryPlayScreen: React.FC<StoryPlayScreenProps> = ({
     <View style={styles.container}>
       <Animated.View style={[styles.content, { opacity: fadeAnim }]}>
         <Image
-          source={{ uri: imageError ? FALLBACK_IMAGE : currentNode.imageUrl }}
+          source={imageError ? { uri: FALLBACK_IMAGE } : (typeof currentNode.imageUrl === 'string' ? { uri: currentNode.imageUrl } : currentNode.imageUrl)}
           style={styles.backgroundImage}
           resizeMode="cover"
           onError={() => {

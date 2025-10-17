@@ -53,7 +53,10 @@ export const StoryDetailScreen: React.FC<StoryDetailScreenProps> = ({
   return (
     <View style={[styles.container, { backgroundColor: theme.background }]}>
       <ScrollView showsVerticalScrollIndicator={false}>
-        <Image source={{ uri: story.coverImageUrl }} style={styles.heroImage} />
+        <Image
+          source={typeof story.coverImageUrl === 'string' ? { uri: story.coverImageUrl } : story.coverImageUrl}
+          style={styles.heroImage}
+        />
         <TouchableOpacity style={styles.backButton} onPress={onBack}>
           <Text style={styles.backButtonText}>← {t.back}</Text>
         </TouchableOpacity>
