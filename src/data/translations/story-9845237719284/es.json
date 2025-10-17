@@ -1,0 +1,419 @@
+{
+  "meta": {
+    "storyId": "story-9845237719284",
+    "language": "es",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.398Z"
+  },
+  "story": {
+    "title": "El Juramento de la Corona de Brasas",
+    "author": "Estudio ChronoCanvas",
+    "description": "Cuando el boceto de un cartógrafo se calienta hasta convertirse en brasa viviente, líneas olvidadas arden a lo largo de la costa. Un señor de la guerra marcha para reavivar la montaña y apoderarse de la Corona que ahora responde a tu mano. ¿Compartirás su fuego, la romperás o la llevarás?",
+    "genre": [
+      "fantasía",
+      "aventura"
+    ],
+    "difficulty": "media",
+    "estimatedDuration": 38
+  },
+  "nodes": [
+    {
+      "id": "story-9845237719284-1",
+      "type": "start",
+      "title": "Presagio de Ceniza",
+      "narration": "El alba exhala niebla entre los pinos mientras tu mapa de carbón brilla desde dentro, sus líneas palpitan como brasas dormidas. Un aro de oro ennegrecido, cálido al tacto, yace donde ninguna corona debería estar—dentro de tu zurrón, entre hojas prensadas. Rumores susurrados hablan de un Señor de la Guerra de las Cenizas que marcha tierra adentro, reuniendo combustible y miedo. El calor de la corona aumenta, instando un camino antes de que despierte la primera aldea.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c1",
+          "text": "Dirigirse al mercado de reliquias.",
+          "description": "Buscar conocimiento y aliados."
+        },
+        {
+          "id": "story-9845237719284-c2",
+          "text": "Explorar el mirador de la cresta.",
+          "description": "Leer la intención de la tierra."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-2",
+      "type": "decision",
+      "title": "Mercado de Reliquias",
+      "narration": "Las tiendas ondean como escamas; amuletos tintinean en cuerdas contra la brisa marina. Una tratante sin dientes observa el resplandor de la corona de brasas que sangra a través de tu zurrón y te hace un gesto para que te acerques. \"Los mapas arden más verdaderos cerca del cruce del río\", dice ronca, \"pero los exploradores de la Marca de Fuego lo vigilan ahora\".",
+      "choices": [
+        {
+          "id": "story-9845237719284-c3",
+          "text": "Comprar una superposición de mapa arcano.",
+          "description": "Dejar que las líneas revelen líneas."
+        },
+        {
+          "id": "story-9845237719284-c4",
+          "text": "Seguir a un explorador de la Marca de Fuego.",
+          "description": "Información a un costo."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-3",
+      "type": "decision",
+      "title": "Mirador de la Cresta",
+      "narration": "Arena negra serpentea por la costa; dedos de humo se alzan desde una caldera distante. En el viento: tambores marchando y el olor a hierro y sal de hojas templadas. Un destello se mueve abajo—exploradores de la Marca de Fuego bordeando el camino hacia el río.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c5",
+          "text": "Seguir a los exploradores sin ser visto.",
+          "description": "Usar altura y silencio."
+        },
+        {
+          "id": "story-9845237719284-c6",
+          "text": "Descender por la boca de la caverna como atajo.",
+          "description": "Los mapas antiguos muestran un hueco bajo la cresta."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-4",
+      "type": "decision",
+      "title": "Superposición Arcana",
+      "narration": "La vitela transparente bebe una gota del calor de la corona y florece con senderos ocultos. Un sello tenue señala no solo al río, sino a un \"pasaje secreto\" grabado bajo los acantilados. La tratante sonríe, encías brillantes: \"Cada atajo es una especie de promesa\".",
+      "choices": [
+        {
+          "id": "story-9845237719284-c7",
+          "text": "Tomar el cruce del río.",
+          "description": "Abierto, vigilado, pero rápido."
+        },
+        {
+          "id": "story-9845237719284-c8",
+          "text": "Buscar el pasaje secreto.",
+          "description": "Riesgo por sigilo."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-5",
+      "type": "decision",
+      "title": "Explorador de la Marca de Fuego",
+      "narration": "Un explorador solitario se detiene bajo un pino doblado por el viento, revisando un horario de carbón. Marcas de ceniza recorren su mandíbula—líneas de lealtad al Señor de la Guerra. Cuando la corona se calienta, los ojos del explorador se alzan, sintiendo una presencia señorial donde no hay nadie.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c9",
+          "text": "Emboscar y interrogar.",
+          "description": "Rápido, silencioso, decisivo."
+        },
+        {
+          "id": "story-9845237719284-c10",
+          "text": "Escabullirse hacia el río.",
+          "description": "Intercambiar respuestas por tiempo."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-6",
+      "type": "decision",
+      "title": "Boca de la Caverna",
+      "narration": "Arcos de basalto beben las olas en tragos huecos; líquenes brillan como pequeñas constelaciones. Cinceles viejos yacen oxidándose cerca de una escalera estrecha que baja en espiral. La corona zumba en el umbral, medio advertencia, medio bienvenida.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c11",
+          "text": "Tomar el pasaje secreto.",
+          "description": "Confiar en el corte antiguo."
+        },
+        {
+          "id": "story-9845237719284-c12",
+          "text": "Cruzar el puente de eco dentro.",
+          "description": "Velocidad sobre sigilo."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-7",
+      "type": "decision",
+      "title": "Cruce del Río",
+      "narration": "Los botes se mecen contra cuerdas alquitranadas; los barqueros murmuran sobre \"fuego de juramento\" y \"santuarios del cielo\". Una pizarra con tiza lista tarifas de diezmo del intendente del Señor de la Guerra. Los aldeanos te observan como se observa al clima que se aproxima.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c13",
+          "text": "Parlamentar con el jefe de la aldea.",
+          "description": "Ganar confianza, ganar tiempo."
+        },
+        {
+          "id": "story-9845237719284-c14",
+          "text": "Probar la corona en el vado.",
+          "description": "El poder invita al riesgo."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-8",
+      "type": "decision",
+      "title": "Pasaje Secreto",
+      "narration": "Trazas un sello en la piedra; la costura te acepta con un suspiro. Velas que nadie encendió cobran vida, revelando marcas de tiza—muchos pasos, pocos retornos. El corredor se inclina hacia un zumbido cristalino.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c15",
+          "text": "Dirigirse a la cámara de prueba de brasas.",
+          "description": "Probar valía, o pagar."
+        },
+        {
+          "id": "story-9845237719284-c16",
+          "text": "Cruzar el puente de eco.",
+          "description": "Acortar el camino."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-9",
+      "type": "decision",
+      "title": "Confesión del Explorador",
+      "narration": "Inmovilizado contra el basalto, el explorador cede rápidamente cuando el calor de la corona pincha el aire. \"El Señor de la Guerra alimenta un horno bajo la montaña\", susurran, ojos húmedos de humo. \"Cuando ruja, vuestras aldeas se arrodillarán\".",
+      "choices": [
+        {
+          "id": "story-9845237719284-c17",
+          "text": "Perdonar y buscar aliados en la aldea.",
+          "description": "La misericordia compra mensajeros."
+        },
+        {
+          "id": "story-9845237719284-c18",
+          "text": "Apresurarse a estudiar el plan del Señor de la Guerra.",
+          "description": "El conocimiento es influencia."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-10",
+      "type": "decision",
+      "title": "Puente de Eco",
+      "narration": "Un tramo estrecho canta con cada paso; tu aliento regresa a ti en otras voces. En la caída debajo, los cristales repican como lluvia sobre vidrio. El resplandor de la corona teje senderos delgados sobre el vacío, como si ofreciera apoyos que solo tú puedes ver.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c19",
+          "text": "Seguir el sendero de cristal hacia el tramo.",
+          "description": "Hacia el santuario del cielo."
+        },
+        {
+          "id": "story-9845237719284-c20",
+          "text": "Desviarse a la prueba de brasas.",
+          "description": "Probar tu derecho primero."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-11",
+      "type": "decision",
+      "title": "Parlamento de la Aldea",
+      "narration": "Los ancianos se sientan con manos como madera flotante y ojos como pozas de marea. Hablan de fuego de juramento—llama que ata sin quemar—y un santuario que elige portadores por aliento, no por nacimiento. Los niños circulan a distancia, retándose mutuamente a susurrar \"reina\".",
+      "choices": [
+        {
+          "id": "story-9845237719284-c21",
+          "text": "Jurar el fuego de juramento públicamente.",
+          "description": "Ganar corazones, ganar peso."
+        },
+        {
+          "id": "story-9845237719284-c22",
+          "text": "Escabullirse por el sendero de contrabandistas.",
+          "description": "Aliados después; tiempo ahora."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-12",
+      "type": "decision",
+      "title": "Prueba de Brasas",
+      "narration": "Un brasero duerme, bordeado de sellos de ceniza. Cuando bajas la corona, el brasero arde con llamas blanco-doradas sin consumir. Cada latido escribe una línea de luz en el aire, un registro de intenciones que no puede mentir.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c23",
+          "text": "Vincularse a proteger las aldeas.",
+          "description": "Deber sobre poder."
+        },
+        {
+          "id": "story-9845237719284-c24",
+          "text": "Reclamar el derecho a enfrentar el santuario del cielo.",
+          "description": "Autoridad antes de acción."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-13",
+      "type": "decision",
+      "title": "Plan del Señor de la Guerra",
+      "narration": "Mapas clavados a un registro robado muestran depósitos de combustible alimentando un horno subterráneo. Una fecha marcada amenaza: \"Ignición\". Una nota con diferente caligrafía dice: \"La Corona se inclina ante el aliento—roba la voz del portador\".",
+      "choices": [
+        {
+          "id": "story-9845237719284-c25",
+          "text": "Sabotear los túneles del horno.",
+          "description": "Cortar la garganta del plan."
+        },
+        {
+          "id": "story-9845237719284-c26",
+          "text": "Escabullirse al sendero de contrabandistas.",
+          "description": "Flanquear y advertir al santuario."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-14",
+      "type": "decision",
+      "title": "Tramo de Cristal",
+      "narration": "Las estrellas peinan el cielo; el tramo zumba una escala que sientes en tus dientes. El viento enhebra la corona con dedos delgados y fríos, haciendo preguntas sin lenguaje. Huellas conducen hacia arriba—otros vinieron, o vendrán.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c27",
+          "text": "Escalar al santuario del cielo.",
+          "description": "Buscar sanción."
+        },
+        {
+          "id": "story-9845237719284-c28",
+          "text": "Desviarse a la ruta del horno.",
+          "description": "Detener la ignición primero."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-15",
+      "type": "decision",
+      "title": "Fuego de Juramento",
+      "narration": "La llama trepa por tu muñeca como una enredadera domesticada y deja un brazalete cálido de luz. Los aldeanos exhalan—un sonido como el oleaje aliviándose contra la orilla. La corona se suaviza, menos pesada, como si estuviera complacida por el peso compartido.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c29",
+          "text": "Solicitar al santuario del cielo.",
+          "description": "Llevar aliento comunal hacia arriba."
+        },
+        {
+          "id": "story-9845237719284-c30",
+          "text": "Buscar consejo sobre los susurros de la corona.",
+          "description": "Comprender antes de actuar."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-16",
+      "type": "decision",
+      "title": "Sendero de Contrabandistas",
+      "narration": "Una puerta aparece donde no debería haber una y se abre hacia la oscuridad viciada de sal. Cajas susurran de desafío silencioso: cuerda, aceite, mapas viejos con correcciones honestas. Pisadas hacen eco—amigos o enemigos aprendiendo a ser ambos.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c31",
+          "text": "Desde aquí, atacar el horno.",
+          "description": "Directo a la garganta."
+        },
+        {
+          "id": "story-9845237719284-c32",
+          "text": "Escuchar el consejo de la corona.",
+          "description": "Arriesgar el susurro."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-17",
+      "type": "decision",
+      "title": "Horno Volcánico",
+      "narration": "Pulmones de piedra jadean calor; cadenas repiquetean como huesos de invierno. Los trabajadores alimentan madera y miedo en una garganta de rojo. Una sola válvula gime—un giro del grito o del silencio.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c33",
+          "text": "Atascar la válvula y huir.",
+          "description": "El sabotaje supera los discursos."
+        },
+        {
+          "id": "story-9845237719284-c34",
+          "text": "Desviar la presión hacia los respiraderos del cielo.",
+          "description": "Comprar tiempo para el santuario."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-18",
+      "type": "decision",
+      "title": "Santuario del Cielo",
+      "narration": "Alto sobre bancos de tormenta, campanas hechas de vidrio nublado repican sin manos. Una voz como el clima no pregunta nada y lo sabe todo. La corona se enfría como si estuviera en presencia de un padre, esperando ver en qué te has convertido.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c35",
+          "text": "Pedir compartir el fuego de la corona.",
+          "description": "Muchas manos, carga más ligera."
+        },
+        {
+          "id": "story-9845237719284-c36",
+          "text": "Pedir fuerza para romperla.",
+          "description": "Ni tirano, ni herramienta."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-19",
+      "type": "decision",
+      "title": "Susurros de la Corona",
+      "narration": "Cuando escuchas, un coro responde—portadores pasados cantando a través de diente y lengua. Advierten de un camino más simple: llevar la corona profundamente, dejar que otros orbiten tu certeza. La calidez sabe a miel; el regusto a ceniza.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c37",
+          "text": "Rechazar el señuelo; buscar el santuario.",
+          "description": "No eres un horno."
+        },
+        {
+          "id": "story-9845237719284-c38",
+          "text": "Inclinarse hacia la soberanía.",
+          "description": "Gobernar termina los argumentos."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-20",
+      "type": "decision",
+      "title": "Aproximación Final",
+      "narration": "La montaña contiene su aliento; las aldeas contienen el suyo con ella. Tu próximo movimiento decidirá la forma del calor de mañana. En tu palma, la corona pesa como promesa y advertencia.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c39",
+          "text": "Reclamar la corona como soberano.",
+          "description": "Doblar el fuego a tu voluntad."
+        },
+        {
+          "id": "story-9845237719284-c40",
+          "text": "Compartir la llama con las aldeas.",
+          "description": "Muchos portadores, ningún tirano."
+        },
+        {
+          "id": "story-9845237719284-c41",
+          "text": "Marcharse hacia un exilio silencioso.",
+          "description": "Rechazar tanto el trono como la guerra."
+        },
+        {
+          "id": "story-9845237719284-c42",
+          "text": "Romper la corona a la palabra del santuario.",
+          "description": "Terminar la pregunta para siempre."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-21",
+      "type": "ending",
+      "title": "Soberano de Cenizas",
+      "narration": "La corona arraiga a través de tu voz y la montaña se arrodilla. Las aldeas se inclinan—y se estremecen. La paz llega rápidamente, como el ojo de una tormenta: calma y vigilada. Tus mapas quedan obsoletos; tu nombre no.",
+      "choices": []
+    },
+    {
+      "id": "story-9845237719284-22",
+      "type": "ending",
+      "title": "Llama Compartida",
+      "narration": "Levantas la corona y se divide como pan, las brasas echan raíces en muchas manos. El horno se enfría; los planes del Señor de la Guerra mueren ahogados por la comunidad. Los festivales florecen donde habrían estado las guarniciones, y los mapas se dibujan en coro.",
+      "choices": []
+    },
+    {
+      "id": "story-9845237719284-23",
+      "type": "ending",
+      "title": "Exilio Silencioso",
+      "narration": "Dejas la corona donde las campanas te recuerdan con cariño. La montaña dormita inquieta, pero nunca despierta enfadada. Años después, los niños siguen a un cartógrafo viajero que dibuja caminos seguros a través de campos de ceniza escuchando al viento.",
+      "choices": []
+    },
+    {
+      "id": "story-9845237719284-24",
+      "type": "ending",
+      "title": "Corona Rota",
+      "narration": "El oro grita como vidrio cuando lo golpeas contra la piedra; las brasas saltan, luego se asientan como calidez suave y ordinaria. El santuario suspira con alivio, y la historia pierde un tirano que podría haber conocido. Tus manos mantienen un brillo tenue en noches de invierno—suficiente para hervir té.",
+      "choices": []
+    }
+  ]
+}

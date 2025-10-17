@@ -1,0 +1,419 @@
+{
+  "meta": {
+    "storyId": "story-9845237719284",
+    "language": "fr",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.398Z"
+  },
+  "story": {
+    "title": "Le Serment de la Couronne de Braises",
+    "author": "Studio ChronoCanvas",
+    "description": "Quand l'esquisse d'un cartographe se réchauffe en braise vivante, des lignes oubliées s'enflamment le long de la côte. Un seigneur de guerre marche pour raviver la montagne et s'emparer de la Couronne qui répond maintenant à votre main. Partagerez-vous son feu, la briserez-vous ou la porterez-vous?",
+    "genre": [
+      "fantastique",
+      "aventure"
+    ],
+    "difficulty": "moyen",
+    "estimatedDuration": 38
+  },
+  "nodes": [
+    {
+      "id": "story-9845237719284-1",
+      "type": "start",
+      "title": "Présage de Cendre",
+      "narration": "L'aube exhale la brume à travers les pins tandis que votre carte au fusain brille de l'intérieur, ses lignes pulsant comme des braises endormies. Un cercle d'or noirci, chaud au toucher, repose là où aucune couronne ne devrait être—dans votre sacoche, entre des feuilles pressées. Des rumeurs murmurent d'un Seigneur de Guerre des Cendres marchant vers l'intérieur, rassemblant combustible et peur. La chaleur de la couronne monte, pressant un chemin avant que le premier village ne s'éveille.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c1",
+          "text": "Se diriger vers le marché aux reliques.",
+          "description": "Chercher savoir et alliés."
+        },
+        {
+          "id": "story-9845237719284-c2",
+          "text": "Explorer le point de vue de la crête.",
+          "description": "Lire l'intention de la terre."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-2",
+      "type": "decision",
+      "title": "Marché aux Reliques",
+      "narration": "Les tentes ondulent comme des écailles; des charmes tintent sur des ficelles contre la brise marine. Une marchande édentée observe la lueur de la couronne de braises saignant à travers votre sacoche et vous fait signe de vous approcher. «Les cartes brûlent plus véritablement près du gué», râpe-t-elle, «mais les éclaireurs de la Marque de Feu le surveillent maintenant.»",
+      "choices": [
+        {
+          "id": "story-9845237719284-c3",
+          "text": "Acheter une superposition de carte arcanique.",
+          "description": "Laisser les lignes révéler les lignes."
+        },
+        {
+          "id": "story-9845237719284-c4",
+          "text": "Suivre un éclaireur de la Marque de Feu.",
+          "description": "L'information a un prix."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-3",
+      "type": "decision",
+      "title": "Point de Vue de la Crête",
+      "narration": "Le sable noir serpente sur la côte; des doigts de fumée s'élèvent d'une caldeira lointaine. Dans le vent: des tambours marchant et l'odeur de fer et de sel de lames trempées. Un éclat bouge en bas—des éclaireurs de la Marque de Feu contournant la route vers la rivière.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c5",
+          "text": "Pister les éclaireurs sans être vu.",
+          "description": "Utiliser hauteur et silence."
+        },
+        {
+          "id": "story-9845237719284-c6",
+          "text": "Descendre par la bouche de la caverne en raccourci.",
+          "description": "Les vieilles cartes montrent un creux sous la crête."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-4",
+      "type": "decision",
+      "title": "Superposition Arcanique",
+      "narration": "Le vélin transparent boit une goutte de chaleur de la couronne et s'épanouit avec des chemins cachés. Un signe faible pointe non seulement vers la rivière, mais vers un «passage secret» gravé sous les falaises. La marchande sourit, gencives luisant: «Chaque raccourci est une sorte de promesse.»",
+      "choices": [
+        {
+          "id": "story-9845237719284-c7",
+          "text": "Prendre la traversée de la rivière.",
+          "description": "Ouvert, surveillé, mais rapide."
+        },
+        {
+          "id": "story-9845237719284-c8",
+          "text": "Chercher le passage secret.",
+          "description": "Risque pour la furtivité."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-5",
+      "type": "decision",
+      "title": "Éclaireur de la Marque de Feu",
+      "narration": "Un éclaireur solitaire s'arrête sous un pin courbé par le vent, vérifiant un horaire au fusain. Des marques de cendre strient leur mâchoire—lignes de loyauté au Seigneur de Guerre. Quand la couronne se réchauffe, les yeux de l'éclaireur se lèvent, sentant une présence seigneuriale là où personne ne se tient.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c9",
+          "text": "Tendre une embuscade et interroger.",
+          "description": "Rapide, silencieux, décisif."
+        },
+        {
+          "id": "story-9845237719284-c10",
+          "text": "Se faufiler vers la rivière.",
+          "description": "Échanger réponses contre temps."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-6",
+      "type": "decision",
+      "title": "Bouche de la Caverne",
+      "narration": "Des arches de basalte boivent le ressac en gorgées creuses; des lichens scintillent comme de petites constellations. De vieux burins gisent en train de rouiller près d'un escalier étroit descendant en spirale. La couronne bourdonne au seuil, mi-avertissement, mi-bienvenue.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c11",
+          "text": "Prendre le passage secret.",
+          "description": "Faire confiance à l'ancienne coupe."
+        },
+        {
+          "id": "story-9845237719284-c12",
+          "text": "Traverser le pont d'écho à l'intérieur.",
+          "description": "Vitesse plutôt que furtivité."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-7",
+      "type": "decision",
+      "title": "Traversée de la Rivière",
+      "narration": "Les bateaux se balancent contre des cordes goudronnées; les passeurs murmurent à propos du «feu de serment» et des «sanctuaires du ciel». Un panneau à la craie liste les taux de dîme de l'intendant du Seigneur de Guerre. Les villageois vous observent comme on observe le temps qui approche.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c13",
+          "text": "Parlementer avec le chef du village.",
+          "description": "Gagner confiance, gagner temps."
+        },
+        {
+          "id": "story-9845237719284-c14",
+          "text": "Tester la couronne au gué.",
+          "description": "Le pouvoir invite le risque."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-8",
+      "type": "decision",
+      "title": "Passage Secret",
+      "narration": "Vous tracez un sceau sur la pierre; la couture vous accepte avec un soupir. Des bougies que personne n'a allumées s'animent, révélant des comptes à la craie—nombreux passages, peu de retours. Le couloir s'incline vers un bourdonnement cristallin.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c15",
+          "text": "Se diriger vers la chambre d'épreuve des braises.",
+          "description": "Prouver sa valeur, ou payer."
+        },
+        {
+          "id": "story-9845237719284-c16",
+          "text": "Traverser le pont d'écho.",
+          "description": "Raccourcir le chemin."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-9",
+      "type": "decision",
+      "title": "Confession de l'Éclaireur",
+      "narration": "Plaqué contre le basalte, l'éclaireur cède rapidement quand la chaleur de la couronne pique l'air. «Le Seigneur de Guerre alimente un four sous la montagne», murmurent-ils, yeux humides de fumée. «Quand il rugira, vos villages s'agenouilleront.»",
+      "choices": [
+        {
+          "id": "story-9845237719284-c17",
+          "text": "L'épargner et chercher des alliés au village.",
+          "description": "La miséricorde achète des messagers."
+        },
+        {
+          "id": "story-9845237719284-c18",
+          "text": "Se presser d'étudier le plan du Seigneur de Guerre.",
+          "description": "Le savoir est un levier."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-10",
+      "type": "decision",
+      "title": "Pont d'Écho",
+      "narration": "Une portée étroite chante à chaque pas; votre souffle vous revient en d'autres voix. Dans la chute en dessous, les cristaux tintent comme la pluie sur le verre. La lueur de la couronne tisse des chemins minces sur le vide, comme si elle offrait des prises que vous seul pouvez voir.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c19",
+          "text": "Suivre le chemin de cristal vers la portée.",
+          "description": "Vers le sanctuaire du ciel."
+        },
+        {
+          "id": "story-9845237719284-c20",
+          "text": "Faire un détour vers l'épreuve des braises.",
+          "description": "Prouver votre droit d'abord."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-11",
+      "type": "decision",
+      "title": "Pourparlers du Village",
+      "narration": "Les anciens siègent avec des mains comme du bois flotté et des yeux comme des mares de marée. Ils parlent du feu de serment—flamme qui lie sans brûler—et d'un sanctuaire qui choisit les porteurs par le souffle, non par la naissance. Les enfants tournent à distance, s'osant mutuellement à chuchoter «reine».",
+      "choices": [
+        {
+          "id": "story-9845237719284-c21",
+          "text": "Prêter le serment du feu publiquement.",
+          "description": "Gagner les cœurs, gagner du poids."
+        },
+        {
+          "id": "story-9845237719284-c22",
+          "text": "Se faufiler par le chemin des contrebandiers.",
+          "description": "Alliés plus tard; temps maintenant."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-12",
+      "type": "decision",
+      "title": "Épreuve des Braises",
+      "narration": "Un brasier dort, bordé de sceaux de cendre. Quand vous abaissez la couronne, le brasier flamboie blanc-doré sans consumer. Chaque battement de cœur écrit une ligne de lumière dans l'air, un registre d'intention qui ne peut mentir.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c23",
+          "text": "Se lier à protéger les villages.",
+          "description": "Devoir avant pouvoir."
+        },
+        {
+          "id": "story-9845237719284-c24",
+          "text": "Revendiquer le droit d'affronter le sanctuaire du ciel.",
+          "description": "Autorité avant action."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-13",
+      "type": "decision",
+      "title": "Plan du Seigneur de Guerre",
+      "narration": "Des cartes épinglées à un registre volé montrent des dépôts de combustible alimentant un four souterrain. Une date marquée menace: «Ignition». Une note d'une main différente dit: «La Couronne s'incline devant le souffle—volez la voix du porteur.»",
+      "choices": [
+        {
+          "id": "story-9845237719284-c25",
+          "text": "Saboter les tunnels du four.",
+          "description": "Trancher la gorge du plan."
+        },
+        {
+          "id": "story-9845237719284-c26",
+          "text": "Se glisser vers le chemin des contrebandiers.",
+          "description": "Flanquer et avertir le sanctuaire."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-14",
+      "type": "decision",
+      "title": "Portée de Cristal",
+      "narration": "Les étoiles peignent le ciel; la portée bourdonne une gamme que vous sentez dans vos dents. Le vent enfile la couronne de doigts minces et froids, posant des questions sans langage. Des empreintes mènent vers le haut—d'autres sont venus, ou viendront.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c27",
+          "text": "Grimper au sanctuaire du ciel.",
+          "description": "Chercher la sanction."
+        },
+        {
+          "id": "story-9845237719284-c28",
+          "text": "Bifurquer vers la route du four.",
+          "description": "Arrêter l'ignition d'abord."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-15",
+      "type": "decision",
+      "title": "Feu de Serment",
+      "narration": "La flamme grimpe votre poignet comme une vigne apprivoisée et laisse un bracelet chaud de lumière. Les villageois exhalent—un son comme le ressac se soulageant contre le rivage. La couronne s'adoucit, moins lourde, comme si elle était satisfaite du poids partagé.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c29",
+          "text": "Solliciter le sanctuaire du ciel.",
+          "description": "Porter le souffle communal vers le haut."
+        },
+        {
+          "id": "story-9845237719284-c30",
+          "text": "Chercher conseil sur les murmures de la couronne.",
+          "description": "Comprendre avant d'agir."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-16",
+      "type": "decision",
+      "title": "Chemin des Contrebandiers",
+      "narration": "Une porte apparaît là où il ne devrait pas y en avoir et s'ouvre sur l'obscurité rance de sel. Des caisses murmurent de défiance tranquille: corde, huile, vieilles cartes avec des corrections honnêtes. Des pas résonnent—amis ou ennemis apprenant à être les deux.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c31",
+          "text": "D'ici, frapper le four.",
+          "description": "Droit à la gorge."
+        },
+        {
+          "id": "story-9845237719284-c32",
+          "text": "Écouter le conseil de la couronne.",
+          "description": "Risquer le murmure."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-17",
+      "type": "decision",
+      "title": "Four Volcanique",
+      "narration": "Des poumons de pierre halètent la chaleur; des chaînes cliquètent comme des os d'hiver. Les ouvriers nourrissent bois et peur dans une gorge de rouge. Une seule valve gémit—un tour du cri ou du silence.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c33",
+          "text": "Coincer la valve et fuir.",
+          "description": "Le sabotage bat les discours."
+        },
+        {
+          "id": "story-9845237719284-c34",
+          "text": "Dévier la pression vers les évents du ciel.",
+          "description": "Gagner du temps pour le sanctuaire."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-18",
+      "type": "decision",
+      "title": "Sanctuaire du Ciel",
+      "narration": "Haut au-dessus des bancs de tempête, des cloches faites de verre trouble sonnent sans mains. Une voix comme le temps ne demande rien et sait tout. La couronne se refroidit comme si elle était en présence d'un parent, attendant de voir ce que vous êtes devenu.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c35",
+          "text": "Demander à partager le feu de la couronne.",
+          "description": "Plusieurs mains, charge plus légère."
+        },
+        {
+          "id": "story-9845237719284-c36",
+          "text": "Demander la force de la briser.",
+          "description": "Ni tyran, ni outil."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-19",
+      "type": "decision",
+      "title": "Murmures de la Couronne",
+      "narration": "Quand vous écoutez, un chœur répond—les porteurs passés chantant à travers dent et langue. Ils avertissent d'un chemin plus simple: porter la couronne profondément, laisser les autres orbiter autour de votre certitude. La chaleur goûte comme le miel; l'arrière-goût comme la cendre.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c37",
+          "text": "Rejeter l'appât; chercher le sanctuaire.",
+          "description": "Vous n'êtes pas une fournaise."
+        },
+        {
+          "id": "story-9845237719284-c38",
+          "text": "S'incliner vers la souveraineté.",
+          "description": "Régner termine les arguments."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-20",
+      "type": "decision",
+      "title": "Approche Finale",
+      "narration": "La montagne retient son souffle; les villages retiennent le leur avec elle. Votre prochain coup décidera de la forme de la chaleur de demain. Dans votre paume, la couronne pèse comme promesse et avertissement.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c39",
+          "text": "Revendiquer la couronne en tant que souverain.",
+          "description": "Plier le feu à votre volonté."
+        },
+        {
+          "id": "story-9845237719284-c40",
+          "text": "Partager la flamme avec les villages.",
+          "description": "Plusieurs porteurs, aucun tyran."
+        },
+        {
+          "id": "story-9845237719284-c41",
+          "text": "Partir vers un exil silencieux.",
+          "description": "Refuser à la fois trône et guerre."
+        },
+        {
+          "id": "story-9845237719284-c42",
+          "text": "Briser la couronne sur la parole du sanctuaire.",
+          "description": "Terminer la question pour toujours."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-21",
+      "type": "ending",
+      "title": "Souverain de Cendres",
+      "narration": "La couronne s'enracine à travers votre voix et la montagne s'agenouille. Les villages s'inclinent—et tressaillent. La paix arrive rapidement, comme l'œil d'une tempête: calme et surveillée. Vos cartes deviennent obsolètes; votre nom ne l'est pas.",
+      "choices": []
+    },
+    {
+      "id": "story-9845237719284-22",
+      "type": "ending",
+      "title": "Flamme Partagée",
+      "narration": "Vous levez la couronne et elle se divise comme du pain, les braises prenant racine dans de nombreuses mains. Le four se refroidit; les plans du Seigneur de Guerre meurent étouffés par la communauté. Les festivals fleurissent là où des garnisons auraient été, et les cartes sont dessinées en chœur.",
+      "choices": []
+    },
+    {
+      "id": "story-9845237719284-23",
+      "type": "ending",
+      "title": "Exil Silencieux",
+      "narration": "Vous laissez la couronne là où les cloches se souviennent de vous avec tendresse. La montagne somnole avec inquiétude, mais ne se réveille jamais en colère. Des années plus tard, des enfants suivent un cartographe itinérant qui trace des chemins sûrs à travers les champs de cendres en écoutant le vent.",
+      "choices": []
+    },
+    {
+      "id": "story-9845237719284-24",
+      "type": "ending",
+      "title": "Couronne Brisée",
+      "narration": "L'or crie comme du verre quand vous le frappez sur la pierre; les braises bondissent, puis se déposent en chaleur douce et ordinaire. Le sanctuaire soupire de soulagement, et l'histoire perd un tyran qu'elle aurait pu rencontrer. Vos mains gardent une lueur faible les nuits d'hiver—assez pour faire bouillir du thé.",
+      "choices": []
+    }
+  ]
+}

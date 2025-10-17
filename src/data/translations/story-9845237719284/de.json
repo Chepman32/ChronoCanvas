@@ -1,0 +1,419 @@
+{
+  "meta": {
+    "storyId": "story-9845237719284",
+    "language": "de",
+    "version": "1.0",
+    "lastUpdated": "2025-10-15T16:37:54.398Z"
+  },
+  "story": {
+    "title": "Der Glutkronen-Eid",
+    "author": "ChronoCanvas Atelier",
+    "description": "Als die Skizze eines Kartographen zu lebendiger Glut erwärmt, flammen vergessene Weglinien entlang der Küste auf. Ein Kriegsherr zieht los, um den Berg neu zu entfachen und die Krone zu ergreifen, die nun deiner Hand antwortet. Wirst du ihr Feuer teilen, sie zerbrechen oder sie tragen?",
+    "genre": [
+      "Fantasy",
+      "Abenteuer"
+    ],
+    "difficulty": "mittel",
+    "estimatedDuration": 38
+  },
+  "nodes": [
+    {
+      "id": "story-9845237719284-1",
+      "type": "start",
+      "title": "Aschenomen",
+      "narration": "Die Morgendämmerung haucht Nebel durch Kiefern, als deine Kohlekarte von innen zu glühen beginnt, ihre Linien pulsieren wie schlafende Glut. Ein Reif aus geschwärztem Gold, warm bei Berührung, liegt dort, wo keine Krone sein sollte – in deiner Tasche, zwischen gepressten Blättern. Geflüsterte Gerüchte sprechen von einem Aschenkriegsherrn, der ins Landesinnere marschiert und Brennstoff und Furcht sammelt. Die Hitze der Krone steigt, drängt auf einen Pfad, bevor das erste Dorf erwacht.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c1",
+          "text": "Zum Reliktmarkt gehen.",
+          "description": "Wissen und Verbündete suchen."
+        },
+        {
+          "id": "story-9845237719284-c2",
+          "text": "Den Kamm-Aussichtspunkt erkunden.",
+          "description": "Die Absicht des Landes lesen."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-2",
+      "type": "decision",
+      "title": "Reliktmarkt",
+      "narration": "Zelte wogen wie Schuppen; Amulette klimpern an Schnüren gegen die Meeresbrise. Eine zahnlose Händlerin beäugt das Glühen der Glutkrone, das durch deine Tasche blutet, und winkt dich näher. \"Karten brennen wahrer nahe der Flussüberquerung\", krächzt sie, \"aber die Feuerbrand-Kundschafter bewachen sie jetzt.\"",
+      "choices": [
+        {
+          "id": "story-9845237719284-c3",
+          "text": "Eine arkane Kartenüberlagerung kaufen.",
+          "description": "Linien offenbaren Linien."
+        },
+        {
+          "id": "story-9845237719284-c4",
+          "text": "Einem Feuerbrand-Kundschafter folgen.",
+          "description": "Information um einen Preis."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-3",
+      "type": "decision",
+      "title": "Kamm-Aussichtspunkt",
+      "narration": "Schwarzer Sand durchzieht die Küste; Rauchfinger steigen von einer fernen Caldera auf. Im Wind: marschierende Trommeln und der Eisen-Salz-Geruch gelöschter Klingen. Ein Glitzern bewegt sich unten – Feuerbrand-Kundschafter umgehen die Straße zum Fluss hin.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c5",
+          "text": "Den Kundschaftern ungesehen folgen.",
+          "description": "Höhe und Stille nutzen."
+        },
+        {
+          "id": "story-9845237719284-c6",
+          "text": "In die Höhlenmündung als Abkürzung absteigen.",
+          "description": "Alte Karten zeigen eine Höhlung unter dem Kamm."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-4",
+      "type": "decision",
+      "title": "Arkane Überlagerung",
+      "narration": "Transparentes Pergament trinkt einen Tropfen Kronenhitze und erblüht mit verborgenen Pfaden. Ein schwaches Siegel weist nicht nur zum Fluss, sondern zu einer \"geheimen Passage\", die unter die Klippen gemeißelt ist. Die Händlerin lächelt, Zahnfleisch glänzend: \"Jede Abkürzung ist eine Art Versprechen.\"",
+      "choices": [
+        {
+          "id": "story-9845237719284-c7",
+          "text": "Die Flussüberquerung nehmen.",
+          "description": "Offen, bewacht, aber schnell."
+        },
+        {
+          "id": "story-9845237719284-c8",
+          "text": "Die geheime Passage suchen.",
+          "description": "Risiko für Heimlichkeit."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-5",
+      "type": "decision",
+      "title": "Feuerbrand-Kundschafter",
+      "narration": "Ein einzelner Kundschafter hält unter einer windgebogenen Kiefer inne und prüft einen Kohlezeitplan. Aschenmarkierungen streifen ihren Kiefer – Loyalitätslinien zum Kriegsherrn. Als die Krone sich erwärmt, heben sich die Augen des Kundschafters und spüren eine Herrscherpräsenz, wo keine steht.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c9",
+          "text": "Überfallen und verhören.",
+          "description": "Schnell, leise, entschieden."
+        },
+        {
+          "id": "story-9845237719284-c10",
+          "text": "Vorbeischleichen zum Fluss.",
+          "description": "Antworten gegen Zeit tauschen."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-6",
+      "type": "decision",
+      "title": "Höhlenmündung",
+      "narration": "Basaltbögen trinken die Brandung in hohlen Schlucken; Flechten glitzern wie kleine Sternbilder. Alte Meißel liegen rostend nahe einer schmalen Treppe, die nach unten spiralt. Die Krone summt an der Schwelle, halb Warnung, halb Willkommen.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c11",
+          "text": "Die geheime Passage nehmen.",
+          "description": "Dem alten Schnitt vertrauen."
+        },
+        {
+          "id": "story-9845237719284-c12",
+          "text": "Die Echobrücke im Inneren überqueren.",
+          "description": "Geschwindigkeit über Heimlichkeit."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-7",
+      "type": "decision",
+      "title": "Flussüberquerung",
+      "narration": "Boote schaukeln an geteerten Seilen; Fährleute murmeln über \"Eidfeuer\" und \"Himmelsschreine\". Eine Kreidetafel listet Zehnsätze vom Quartiermeister des Kriegsherrn auf. Dorfbewohner beobachten dich, wie man herannahendes Wetter beobachtet.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c13",
+          "text": "Mit dem Dorfoberhaupt verhandeln.",
+          "description": "Vertrauen gewinnen, Zeit gewinnen."
+        },
+        {
+          "id": "story-9845237719284-c14",
+          "text": "Die Krone an der Furt testen.",
+          "description": "Macht lädt Risiko ein."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-8",
+      "type": "decision",
+      "title": "Geheime Passage",
+      "narration": "Du zeichnest ein Siegel auf Stein; die Naht nimmt dich mit einem Seufzen auf. Kerzen, die niemand entzündete, flackern zum Leben und enthüllen Kreidestrichlisten – viele Durchgänge, wenige Rückkehren. Der Korridor neigt sich zu einem kristallinen Summen hin.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c15",
+          "text": "Zur Glutprüfungskammer gehen.",
+          "description": "Wert beweisen oder zahlen."
+        },
+        {
+          "id": "story-9845237719284-c16",
+          "text": "Die Echobrücke überqueren.",
+          "description": "Den Pfad verkürzen."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-9",
+      "type": "decision",
+      "title": "Geständnis des Kundschafters",
+      "narration": "Gegen Basalt gepresst, gibt der Kundschafter schnell nach, als die Hitze der Krone die Luft prickelt. \"Der Kriegsherr speist einen Ofen unter dem Berg\", flüstern sie, Augen feucht vor Rauch. \"Wenn er brüllt, werden eure Dörfer knien.\"",
+      "choices": [
+        {
+          "id": "story-9845237719284-c17",
+          "text": "Verschonen und Dorfverbündete suchen.",
+          "description": "Gnade kauft Boten."
+        },
+        {
+          "id": "story-9845237719284-c18",
+          "text": "Eilen, um den Plan des Kriegsherrn zu studieren.",
+          "description": "Wissen ist Druckmittel."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-10",
+      "type": "decision",
+      "title": "Echobrücke",
+      "narration": "Eine schmale Spanne singt mit jedem Schritt; dein Atem kehrt zu dir in anderen Stimmen zurück. Im Abgrund darunter läuten Kristalle wie Regen auf Glas. Das Glühen der Krone fädelt dünne Pfade über die Leere, als würde sie Tritte anbieten, die nur du sehen kannst.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c19",
+          "text": "Dem Kristallpfad zur Spanne folgen.",
+          "description": "Zum Himmelsschrein."
+        },
+        {
+          "id": "story-9845237719284-c20",
+          "text": "Zur Glutprüfung umleiten.",
+          "description": "Zuerst deinen Anspruch beweisen."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-11",
+      "type": "decision",
+      "title": "Dorfverhandlung",
+      "narration": "Älteste sitzen mit Händen wie Treibholz und Augen wie Gezeitentümpel. Sie sprechen von Eidfeuer – Flamme, die bindet, ohne zu brennen – und einem Schrein, der Träger nach Atem wählt, nicht nach Geburt. Kinder kreisen in Distanz, wagen es, einander \"Königin\" zuzuflüstern.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c21",
+          "text": "Das Eidfeuer öffentlich schwören.",
+          "description": "Herzen gewinnen, Gewicht gewinnen."
+        },
+        {
+          "id": "story-9845237719284-c22",
+          "text": "Über den Schmugglerpfad hinausschleichen.",
+          "description": "Verbündete später; Zeit jetzt."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-12",
+      "type": "decision",
+      "title": "Glutprüfung",
+      "narration": "Ein Kohlenbecken schläft, gesäumt von Aschensiegeln. Als du die Krone senkst, flammt das Becken weißgold auf, ohne zu verzehren. Jeder Herzschlag schreibt eine Lichtlinie in die Luft, ein Buch der Absicht, das nicht lügen kann.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c23",
+          "text": "Dich verpflichten, die Dörfer zu schützen.",
+          "description": "Pflicht über Macht."
+        },
+        {
+          "id": "story-9845237719284-c24",
+          "text": "Das Recht beanspruchen, dem Himmelsschrein zu begegnen.",
+          "description": "Autorität vor Handlung."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-13",
+      "type": "decision",
+      "title": "Plan des Kriegsherrn",
+      "narration": "Karten an ein gestohlenes Register geheftet zeigen Brennstoffdepots, die einen unterirdischen Ofen speisen. Ein markiertes Datum droht: \"Zündung.\" Eine Notiz in anderer Handschrift liest: \"Die Krone beugt sich dem Atem – stiehl die Stimme des Trägers.\"",
+      "choices": [
+        {
+          "id": "story-9845237719284-c25",
+          "text": "Die Ofentunnel sabotieren.",
+          "description": "Die Kehle des Plans durchschneiden."
+        },
+        {
+          "id": "story-9845237719284-c26",
+          "text": "Zum Schmugglerpfad schleichen.",
+          "description": "Flanke und warne den Schrein."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-14",
+      "type": "decision",
+      "title": "Kristallspanne",
+      "narration": "Sterne kämmen den Himmel; die Spanne summt eine Tonleiter, die du in deinen Zähnen fühlst. Wind fädelt die Krone mit dünnen, kalten Fingern und stellt Fragen ohne Sprache. Fußabdrücke führen aufwärts – andere kamen, oder werden kommen.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c27",
+          "text": "Zum Himmelsschrein aufsteigen.",
+          "description": "Sanktion suchen."
+        },
+        {
+          "id": "story-9845237719284-c28",
+          "text": "Zur Ofenroute abzweigen.",
+          "description": "Zuerst Zündung stoppen."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-15",
+      "type": "decision",
+      "title": "Eidfeuer",
+      "narration": "Flamme klettert dein Handgelenk hinauf wie eine zahme Rebe und hinterlässt eine warme Lichtmanschette. Dorfbewohner atmen aus – ein Klang wie Brandung, die sich gegen das Ufer entlastet. Die Krone wird weicher, weniger schwer, als ob erfreut über geteiltes Gewicht.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c29",
+          "text": "Den Himmelsschrein ersuchen.",
+          "description": "Gemeinschaftlichen Atem aufwärts tragen."
+        },
+        {
+          "id": "story-9845237719284-c30",
+          "text": "Rat über die Flüstern der Krone suchen.",
+          "description": "Verstehen vor Handeln."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-16",
+      "type": "decision",
+      "title": "Schmugglerpfad",
+      "narration": "Eine Tür erscheint, wo keine sein sollte, und öffnet sich in salzabgestandene Dunkelheit. Kisten flüstern von stiller Trotzigkeit: Seil, Öl, alte Karten mit ehrlichen Korrekturen. Schritte hallen wider – Freunde oder Feinde lernen, beides zu sein.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c31",
+          "text": "Von hier aus den Ofen angreifen.",
+          "description": "Direkt zur Kehle."
+        },
+        {
+          "id": "story-9845237719284-c32",
+          "text": "Auf den Rat der Krone hören.",
+          "description": "Das Flüstern riskieren."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-17",
+      "type": "decision",
+      "title": "Vulkanischer Ofen",
+      "narration": "Steinerne Lungen heben Hitze; Ketten rasseln wie Winterknochen. Arbeiter füttern Holz und Furcht in einen Schlund aus Rot. Ein einzelnes Ventil ächzt – eine Drehung vom Schrei oder Schweigen entfernt.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c33",
+          "text": "Das Ventil blockieren und fliehen.",
+          "description": "Sabotage schlägt Reden."
+        },
+        {
+          "id": "story-9845237719284-c34",
+          "text": "Den Druck zu den Himmelsöffnungen umleiten.",
+          "description": "Zeit für den Schrein kaufen."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-18",
+      "type": "decision",
+      "title": "Himmelsschrein",
+      "narration": "Hoch über Sturmbänken läuten Glocken aus getrübtem Glas ohne Hände. Eine Stimme wie Wetter fragt nichts und weiß alles. Die Krone kühlt ab, als ob in Anwesenheit eines Elternteils, wartend zu sehen, was du geworden bist.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c35",
+          "text": "Bitten, das Feuer der Krone zu teilen.",
+          "description": "Viele Hände, leichtere Last."
+        },
+        {
+          "id": "story-9845237719284-c36",
+          "text": "Um Kraft bitten, sie zu zerbrechen.",
+          "description": "Kein Tyrann, kein Werkzeug."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-19",
+      "type": "decision",
+      "title": "Kronenflüstern",
+      "narration": "Wenn du lauschst, antwortet ein Chor – vergangene Träger singen durch Zahn und Zunge. Sie warnen vor einem einfacheren Pfad: trage die Krone tief, lass andere um deine Gewissheit kreisen. Die Wärme schmeckt wie Honig; der Nachgeschmack wie Asche.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c37",
+          "text": "Die Verlockung ablehnen; den Schrein suchen.",
+          "description": "Du bist kein Hochofen."
+        },
+        {
+          "id": "story-9845237719284-c38",
+          "text": "Sich zur Souveränität neigen.",
+          "description": "Herrschaft beendet Argumente."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-20",
+      "type": "decision",
+      "title": "Letzte Annäherung",
+      "narration": "Der Berg hält seinen Atem an; die Dörfer halten ihren mit ihm. Dein nächster Streich wird die Form der Hitze von morgen entscheiden. In deiner Handfläche wiegt die Krone wie Versprechen und Warnung.",
+      "choices": [
+        {
+          "id": "story-9845237719284-c39",
+          "text": "Die Krone als Souverän beanspruchen.",
+          "description": "Das Feuer deinem Willen beugen."
+        },
+        {
+          "id": "story-9845237719284-c40",
+          "text": "Die Flamme mit den Dörfern teilen.",
+          "description": "Viele Träger, kein Tyrann."
+        },
+        {
+          "id": "story-9845237719284-c41",
+          "text": "In stilles Exil fortgehen.",
+          "description": "Sowohl Thron als auch Krieg ablehnen."
+        },
+        {
+          "id": "story-9845237719284-c42",
+          "text": "Die Krone auf das Wort des Schreins zerbrechen.",
+          "description": "Die Frage für immer beenden."
+        }
+      ]
+    },
+    {
+      "id": "story-9845237719284-21",
+      "type": "ending",
+      "title": "Aschensouverän",
+      "narration": "Die Krone wurzelt durch deine Stimme und der Berg kniet. Dörfer verneigen sich – und zucken zusammen. Frieden kommt schnell, wie das Auge eines Sturms: ruhig und beobachtet. Deine Karten veralten; dein Name nicht.",
+      "choices": []
+    },
+    {
+      "id": "story-9845237719284-22",
+      "type": "ending",
+      "title": "Geteilte Flamme",
+      "narration": "Du hebst die Krone und sie teilt sich wie Brot, Glut nimmt Wurzel in vielen Händen. Der Ofen kühlt ab; die Pläne des Kriegsherrn sterben erstickt an Gemeinschaft. Feste blühen, wo Garnisonen gestanden hätten, und Karten werden im Chor gezeichnet.",
+      "choices": []
+    },
+    {
+      "id": "story-9845237719284-23",
+      "type": "ending",
+      "title": "Stilles Exil",
+      "narration": "Du lässt die Krone dort, wo Glocken sich liebevoll an dich erinnern. Der Berg döst unruhig, aber erwacht nie zornig. Jahre später folgen Kinder einem reisenden Kartographen, der sichere Pfade durch Aschenfelder zeichnet, indem er dem Wind lauscht.",
+      "choices": []
+    },
+    {
+      "id": "story-9845237719284-24",
+      "type": "ending",
+      "title": "Zerbrochene Krone",
+      "narration": "Gold schreit wie Glas, wenn du es auf Stein schlägst; Glut springt, dann setzt sich als weiche, gewöhnliche Wärme. Der Schrein seufzt vor Erleichterung, und die Geschichte verliert einen Tyrannen, dem sie hätte begegnen können. Deine Hände behalten ein schwaches Glühen in Winternächten – genug, um Tee zu kochen.",
+      "choices": []
+    }
+  ]
+}
