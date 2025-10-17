@@ -3,7 +3,7 @@
     "version": "2.0",
     "structure": "folder-per-story",
     "generatedAt": "2025-01-21T00:00:00.000Z",
-    "totalStories": 25,
+    "totalStories": 24,
     "description": "Index of all story translations - each story has its own folder"
   },
   "structure": {
@@ -250,16 +250,6 @@
       "difficulty": "easy",
       "nodes": 7,
       "folder": "story-10012007",
-      "availableLanguages": ["en"]
-    },
-    {
-      "id": "story-10012008",
-      "title": "Frozen Pass",
-      "author": "Everett Cole",
-      "genre": ["adventure"],
-      "difficulty": "hard",
-      "nodes": 7,
-      "folder": "story-10012008",
       "availableLanguages": ["en"]
     }
   ],

@@ -21,7 +21,6 @@ import { heartsDividedStory } from './story10012004_heartsDivided';
 import { murderMansionStory } from './story10012005_murderMansion';
 import { templeOfSecretsStory } from './story10012006_templeOfSecrets';
 import { sandsOfFateStory } from './story10012007_sandsOfFate';
-import { frozenPassStory } from './story10012008_frozenPass';
 
 const originalStories: Story[] = [
   {
@@ -239,5 +238,4 @@ export const sampleStories: Story[] = [
   murderMansionStory,
   templeOfSecretsStory,
   sandsOfFateStory,
-  frozenPassStory,
 ];

@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "storyId": "story-583921467",
+    "language": "de",
+    "version": "1.0",
+    "lastUpdated": "2025-01-05T00:00:00.000Z"
+  },
+  "story": {
+    "title": "Das Herz des Zeitwächters",
+    "author": "Nova Strickland",
+    "description": "Als eine Zeitingenieurin und ihr Partner den Uhrwerkkern entdecken, der ihre Zukunft miteinander verbindet, riskiert jede Entscheidung, ihre Liebe über Jahrhunderte hinweg neu zu schreiben.",
+    "genre": [
+      "Romantik",
+      "Science-Fiction"
+    ],
+    "difficulty": "mittel",
+    "estimatedDuration": 22
+  },
+  "nodes": [
+    {
+      "id": "story-583921467-1",
+      "type": "start",
+      "title": "Zeitlicher Heiratsantrag",
+      "narration": "Die Stadt tickt im Einklang mit der Chronosphäre unter ihr. Du und dein Partner Elias stehen vor der Herzmaschine – einem glitzernden Mechanismus, der Zukünfte weben kann. Heute Abend wolltest du einen Heiratsantrag machen, doch die Maschine pulsiert unregelmäßig und projiziert gebrochene Visionen von euch beiden, getrennt. Stellst du dich der Anomalie direkt oder erforschst du die im Herzen kodierte Prophezeiung?",
+      "choices": [
+        {
+          "id": "story-583921467-c1",
+          "text": "Tauche in die Datenarchive ein, um die Warnung zu entschlüsseln",
+          "description": null
+        },
+        {
+          "id": "story-583921467-c2",
+          "text": "Gehe zum Observatorium und verfolge den zeitlichen Bruch",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-583921467-2",
+      "type": "decision",
+      "title": "Chronoverriegelte Bibliothek",
+      "narration": "Regale mit schimmernden Glyphenstapeln rotieren um dich herum. Ein Puls der Herzmaschine brennt durch den Katalog und hebt eine kodierte Erklärung von euren zukünftigen Ichs hervor. Sie spricht von einer Entscheidung, die die Liebe bewahrt, aber die Zeit zerbricht. Du kannst versuchen, die verlorene Zeile der Erklärung zu rekonstruieren oder die Signalwellenform der Maschine zu analysieren.",
+      "choices": [
+        {
+          "id": "story-583921467-c3",
+          "text": "Rekonstruiere die fehlende Zeile der Erklärung",
+          "description": null
+        },
+        {
+          "id": "story-583921467-c4",
+          "text": "Modelliere die Wellenform, um den Paradoxon-Höhepunkt vorherzusagen",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-583921467-3",
+      "type": "decision",
+      "title": "Uhrwerk-Observatorium",
+      "narration": "Die Observatoriumskuppel summt, während Sternenlicht durch Chrono-Linsen bricht. Du richtest das Signal der Herzmaschine an schimmernden Sternbildern aus und enthüllst eine Zeitlinie, in der Elias verschwindet. Der einzige Anker ist ein zeitliches Band, das an deinen Puls gebunden ist. Folgst du dem Ruf dieses Bandes oder konstruierst du das Gerät um, damit die Last geteilt wird?",
+      "choices": [
+        {
+          "id": "story-583921467-c5",
+          "text": "Folge dem Band, um die zukünftige Version deiner selbst zu treffen",
+          "description": null
+        },
+        {
+          "id": "story-583921467-c6",
+          "text": "Modifiziere das Gerät, damit Elias die zeitliche Last teilt",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-583921467-4",
+      "type": "decision",
+      "title": "Herz der Maschine",
+      "narration": "Deine Rekonstruktion stabilisiert die Herzmaschine kurzzeitig. Eine Projektion von dir und Elias, die über Jahrhunderte hinweg Gelübde austauschen, flackert in die Luft. Die Maschine bietet eine Wahl: Synchronisiere eure Herzschläge, um Zeitlinien dauerhaft zu verbinden, oder leite die überschüssige Energie in ein Backup-Gitter um.",
+      "choices": [
+        {
+          "id": "story-583921467-c7",
+          "text": "Synchronisiere die Herzschläge und harmonisiere den Kern",
+          "description": null
+        },
+        {
+          "id": "story-583921467-c8",
+          "text": "Leite die Energie in ein Ausfallsicherheitsgitter",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-583921467-5",
+      "type": "decision",
+      "title": "Zukünftige Echos",
+      "narration": "Das Band zieht dich in einen leuchtenden Korridor überlappender Momente. Eine zukünftige Version von Elias erscheint und hält den vollendeten Kern der Herzmaschine. Er warnt, dass eure Liebe nur dann fortbesteht, wenn ihr ein gemeinsames Schicksal akzeptiert – eines, in dem ihr beide bestimmte Freiheiten aufgebt. Nimmst du dieses gemeinsame Schicksal an oder brichst du das Band, um einen anderen Weg zu finden?",
+      "choices": [
+        {
+          "id": "story-583921467-c9",
+          "text": "Nimm das gemeinsame Schicksal an und verschmelze die Zeitlinien",
+          "description": null
+        },
+        {
+          "id": "story-583921467-c10",
+          "text": "Zerbrich das Band und suche nach einem alternativen Weg",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-583921467-6",
+      "type": "decision",
+      "title": "Riskantes Experiment",
+      "narration": "Du und Elias verbindet Chronocast-Armbänder und teilt die Energiewelle. Die Herzmaschine stabilisiert sich, aber ein Timer erscheint – fünf Minuten bis zu einem Paradoxon-Kollaps. Eine Option ist, sofort in die harmonisierte Zeitlinie zu starten; die andere ist abzubrechen und zu akzeptieren, dass die Maschine dauerhaft versagen könnte.",
+      "choices": [
+        {
+          "id": "story-583921467-c11",
+          "text": "Initiiere den harmonisierten Start gemeinsam",
+          "description": null
+        },
+        {
+          "id": "story-583921467-c12",
+          "text": "Brich ab und fahre die Herzmaschine herunter",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-583921467-7",
+      "type": "ending",
+      "title": "Unendliche Gelübde",
+      "narration": "Mit synchronisierten Herzschlägen phasiert ihr, du und Elias, in ein gemeinsames Kontinuum. Du beobachtest, wie eure Hochzeit sich unter einem Himmel atemberaubender Polarlichter entfaltet, jeder Moment über Zeitlinien hinweg widergespiegelt. Die Herzmaschine schnurrt stetig; die Zukunft gehört euch, um sie gemeinsam zu schreiben. Das Herz des Zeitwächters schlägt weiter, mit eurem eigenen verwoben.",
+      "choices": []
+    },
+    {
+      "id": "story-583921467-8",
+      "type": "decision",
+      "title": "Paradoxon-Verhandlung",
+      "narration": "Das Ausfallsicherheitsgitter erblüht zu einer schimmernden Brücke. Drei zukünftige Versionen von dir und Elias greifen darüber hinweg, jede repräsentiert ein anderes Leben, das ihr teilen könntet. Eine drängt auf Vertrauen, eine andere besteht auf Unabhängigkeit, und die letzte bietet einen Kompromiss mit Schutzmaßnahmen. Welchen Pfad wirst du in die Herzmaschine einschließen?",
+      "choices": [
+        {
+          "id": "story-583921467-c13",
+          "text": "Vertraue der Zukunft vollständig und schreitet gemeinsam hindurch",
+          "description": null
+        },
+        {
+          "id": "story-583921467-c14",
+          "text": "Behalte eine Absicherung und unterteile die Maschine vorsichtshalber",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-583921467-9",
+      "type": "ending",
+      "title": "Einsame Zeitlinie",
+      "narration": "Du durchtrennst das Band und die Herzmaschine beruhigt sich in Stille. Die Stadt läuft weiter, unwissend über das, was fast verloren ging. Jahre später erhaschst du flüchtige Blicke auf ein Leben, in dem du und Elias zusammenstanden. Das Wissen um das, was hätte sein können, verweilt wie ein Phantom-Herzschlag.",
+      "choices": []
+    },
+    {
+      "id": "story-583921467-10",
+      "type": "ending",
+      "title": "Zersplitterte Zeitlinie",
+      "narration": "Du schaltest die Herzmaschine aus. Die Paradoxon-Blase kollabiert ungleichmäßig und zersplittert Fragmente eurer gemeinsamen Erinnerungen. Du und Elias bleibt zusammen, aber fühlt die Distanz vergessener Dinge – Insider-Witze, nächtliche Ambitionen, ein Antrag, der nie gemacht wurde. Die Liebe überlebt, aber das Versprechen der Maschine von unendlicher Verbindung ist fort.",
+      "choices": []
+    },
+    {
+      "id": "story-583921467-11",
+      "type": "ending",
+      "title": "Verschmolzener Horizont",
+      "narration": "Du ergreifst Elias' Hand und schreitest durch den leuchtenden Bogen. Mehrere Zukünfte verschmelzen zu einem Wandteppich gemeinsamer Meilensteine – wissenschaftliche Durchbrüche, stille Jahrestage und lang erwartete Gelübde. Du fühlst, wie jede Version eurer Liebe zusammenfließt, verankert durch Vertrauen.",
+      "choices": []
+    },
+    {
+      "id": "story-583921467-12",
+      "type": "ending",
+      "title": "Alleiniger Neustart",
+      "narration": "Du unterteilst die Herzmaschine und programmierst eine Absicherung, die jede Zukunft auf Distanz hält. Das Paradoxon kollabiert sicher, aber in jeder resultierenden Zeitlinie wählt ihr, du und Elias, Pflicht über Hingabe. Die Stadt ist gerettet, doch ihr geht getrennte Wege, wissend, dass Sicherheit auf Kosten des gemeinsamen Schicksals kam.",
+      "choices": []
+    }
+  ]
+}

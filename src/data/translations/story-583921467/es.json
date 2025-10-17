@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "storyId": "story-583921467",
+    "language": "es",
+    "version": "1.0",
+    "lastUpdated": "2025-01-05T00:00:00.000Z"
+  },
+  "story": {
+    "title": "El Corazón del Guardián del Tiempo",
+    "author": "Nova Strickland",
+    "description": "Cuando una ingeniera temporal y su pareja descubren el núcleo de relojería que une sus futuros, cada elección arriesga reescribir su amor a través de los siglos.",
+    "genre": [
+      "romance",
+      "ciencia ficción"
+    ],
+    "difficulty": "medio",
+    "estimatedDuration": 22
+  },
+  "nodes": [
+    {
+      "id": "story-583921467-1",
+      "type": "start",
+      "title": "Propuesta Temporal",
+      "narration": "La ciudad late en armonía con la Cronosfera bajo ella. Tú y tu pareja, Elías, están frente al Motor del Corazón, un mecanismo resplandeciente capaz de tejer futuros. Esta noche querías proponer matrimonio, pero el motor pulsa erráticamente, proyectando visiones fragmentadas de ustedes dos separados. ¿Enfrentas la anomalía directamente o investigas la profecía codificada en el corazón?",
+      "choices": [
+        {
+          "id": "story-583921467-c1",
+          "text": "Sumérgete en los archivos de datos para descifrar la advertencia",
+          "description": null
+        },
+        {
+          "id": "story-583921467-c2",
+          "text": "Ve al observatorio y rastrea la falla temporal",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-583921467-2",
+      "type": "decision",
+      "title": "Biblioteca Cronobloqueada",
+      "narration": "Estantes de pilas de glifos brillantes rotan a tu alrededor. Un pulso del Motor del Corazón atraviesa el catálogo, resaltando una declaración codificada de tus yoes futuros. Habla de una elección que preserva el amor pero fractura el tiempo. Puedes intentar reconstruir la línea perdida de la declaración o analizar la forma de onda de la señal del motor.",
+      "choices": [
+        {
+          "id": "story-583921467-c3",
+          "text": "Recrea la línea faltante de la declaración",
+          "description": null
+        },
+        {
+          "id": "story-583921467-c4",
+          "text": "Modela la forma de onda para predecir el pico de la paradoja",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-583921467-3",
+      "type": "decision",
+      "title": "Observatorio de Relojería",
+      "narration": "La cúpula del observatorio zumba mientras la luz estelar se refracta a través de lentes crono. Alineas la señal del Motor del Corazón con constelaciones relucientes, revelando una línea temporal donde Elías desaparece. El único ancla es una cuerda temporal atada a tu pulso. ¿Respondes al llamado de esa cuerda o rediseñas el dispositivo para compartir la carga?",
+      "choices": [
+        {
+          "id": "story-583921467-c5",
+          "text": "Sigue la cuerda para encontrar la versión futura de ti mismo",
+          "description": null
+        },
+        {
+          "id": "story-583921467-c6",
+          "text": "Modifica el dispositivo para que Elías comparta la carga temporal",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-583921467-4",
+      "type": "decision",
+      "title": "Corazón del Motor",
+      "narration": "Tu reconstrucción estabiliza brevemente el Motor del Corazón. Una proyección de ti y Elías intercambiando votos a través de los siglos parpadea en el aire. El motor ofrece una elección: sincronizar sus latidos para vincular permanentemente las líneas temporales, o redirigir la energía excedente a una red de respaldo.",
+      "choices": [
+        {
+          "id": "story-583921467-c7",
+          "text": "Sincroniza los latidos y armoniza el núcleo",
+          "description": null
+        },
+        {
+          "id": "story-583921467-c8",
+          "text": "Canaliza la energía hacia una red de seguridad",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-583921467-5",
+      "type": "decision",
+      "title": "Ecos del Futuro",
+      "narration": "La cuerda te atrae hacia un corredor luminoso de momentos superpuestos. Aparece una versión futura de Elías, sosteniendo el núcleo completo del Motor del Corazón. Advierte que tu amor perdura solo si aceptas un destino compartido, uno donde ambos renuncian a ciertas libertades. ¿Abrazas ese destino compartido o rompes la cuerda para forjar un camino diferente?",
+      "choices": [
+        {
+          "id": "story-583921467-c9",
+          "text": "Abraza el destino compartido y fusiona las líneas temporales",
+          "description": null
+        },
+        {
+          "id": "story-583921467-c10",
+          "text": "Rompe la cuerda y busca una ruta alternativa",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-583921467-6",
+      "type": "decision",
+      "title": "Experimento Arriesgado",
+      "narration": "Tú y Elías conectan cronocasters montados en la muñeca, compartiendo la oleada. El Motor del Corazón se estabiliza, pero aparece un temporizador: cinco minutos antes del colapso de la paradoja. Una opción es lanzarse inmediatamente a la línea temporal armonizada; la otra es abortar, aceptando que el motor puede fallar permanentemente.",
+      "choices": [
+        {
+          "id": "story-583921467-c11",
+          "text": "Inicia el lanzamiento armonizado juntos",
+          "description": null
+        },
+        {
+          "id": "story-583921467-c12",
+          "text": "Aborta y apaga el Motor del Corazón",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-583921467-7",
+      "type": "ending",
+      "title": "Votos Infinitos",
+      "narration": "Con los latidos sincronizados, tú y Elías se desvanecen en un continuo compartido. Observas cómo tu boda se despliega bajo un cielo de auroras cautivadoras, cada momento reflejado a través de las líneas temporales. El Motor del Corazón ronronea constantemente; el futuro es tuyo para escribirlo juntos. El Corazón del Guardián del Tiempo late, entrelazado con el tuyo propio.",
+      "choices": []
+    },
+    {
+      "id": "story-583921467-8",
+      "type": "decision",
+      "title": "Negociación de Paradoja",
+      "narration": "La red de seguridad florece en un puente reluciente. Tres versiones futuras de ti y Elías se extienden a través de él, cada una representa una vida diferente que podrían compartir. Una insta a la confianza, otra insiste en la independencia, y la última ofrece un compromiso con salvaguardas. ¿Qué camino fijarás en el Motor del Corazón?",
+      "choices": [
+        {
+          "id": "story-583921467-c13",
+          "text": "Confía completamente en el futuro y atraviesen juntos",
+          "description": null
+        },
+        {
+          "id": "story-583921467-c14",
+          "text": "Mantén una red de seguridad y particiona el motor por si acaso",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-583921467-9",
+      "type": "ending",
+      "title": "Línea Temporal Solitaria",
+      "narration": "Cortas la cuerda y el Motor del Corazón se estabiliza en silencio. La ciudad continúa, ajena a lo que casi se perdió. Años después, captas destellos fugaces de una vida donde tú y Elías estuvieron juntos. El conocimiento de lo que pudo haber sido persiste como un latido fantasma.",
+      "choices": []
+    },
+    {
+      "id": "story-583921467-10",
+      "type": "ending",
+      "title": "Línea Temporal Fragmentada",
+      "narration": "Apagas el Motor del Corazón. La burbuja de paradoja colapsa irregularmente, astillando fragmentos de sus recuerdos compartidos. Tú y Elías permanecen juntos pero sienten la distancia de cosas olvidadas: bromas privadas, ambiciones nocturnas, una propuesta que nunca se hizo. El amor sobrevive, pero la promesa del motor de conexión eterna se ha ido.",
+      "choices": []
+    },
+    {
+      "id": "story-583921467-11",
+      "type": "ending",
+      "title": "Horizonte Fusionado",
+      "narration": "Tomas la mano de Elías y atraviesas el arco luminoso. Múltiples futuros se fusionan en un tapiz de hitos compartidos: descubrimientos científicos, aniversarios tranquilos y votos largamente esperados. Sientes cómo cada versión de tu amor se une, anclada por la confianza.",
+      "choices": []
+    },
+    {
+      "id": "story-583921467-12",
+      "type": "ending",
+      "title": "Reinicio Solitario",
+      "narration": "Particionas el Motor del Corazón, programando una red de seguridad que mantiene cada futuro a distancia. La paradoja colapsa de forma segura, pero en cada línea temporal resultante tú y Elías eligen el deber sobre la devoción. La ciudad está salvada, pero caminan por caminos separados, sabiendo que la seguridad llegó a costa del destino compartido.",
+      "choices": []
+    }
+  ]
+}

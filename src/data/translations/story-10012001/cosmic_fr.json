@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "storyId": "story-10012001",
+    "language": "fr",
+    "version": "1.0",
+    "lastUpdated": "2025-01-21T00:00:00.000Z"
+  },
+  "story": {
+    "title": "Le Naufragé Cosmique",
+    "author": "Commandant Lyra Hayes",
+    "description": "Réveillé dans un vaisseau spatial agonisant, tu dois décider de parier sur des réparations d'urgence ou de risquer une planète inexplorée en dessous. Chaque choix t'entraîne plus profondément dans un combat pour la survie loin de chez toi.",
+    "genre": [
+      "science-fiction",
+      "aventure"
+    ],
+    "difficulty": "moyen",
+    "estimatedDuration": 20
+  },
+  "nodes": [
+    {
+      "id": "story-10012001-1",
+      "type": "start",
+      "title": "Réveil Catastrophique",
+      "narration": "Tu te réveilles en sursaut avec des alarmes hurlantes et des lumières clignotantes. Ton vaisseau spatial a été frappé par des débris, te laissant à la dérive dans le vide. La coque est percée et l'oxygène est faible. À travers la fenêtre du cockpit, tu vois une planète désolée en dessous et l'étendue infinie des étoiles. Avec les communications coupées et les systèmes défaillants, tu dois agir rapidement si tu espères survivre.",
+      "choices": [
+        {
+          "id": "story-10012001-c1",
+          "text": "Essaie de réparer les systèmes du vaisseau et signaler pour de l'aide",
+          "description": null
+        },
+        {
+          "id": "story-10012001-c2",
+          "text": "Abandonne le vaisseau dans une capsule de sauvetage vers la planète",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-10012001-2",
+      "type": "decision",
+      "title": "Réparations Critiques",
+      "narration": "Tu restes à bord, le cœur battant alors que tu flottes dans la cabine paralysée. Le compteur d'oxygène baisse. Des étincelles jaillissent d'une console endommagée. Tu as un temps et des outils limités. Tu stabilises ta respiration et considères tes options. Le réseau de communication est hors ligne et le système de support de vie défaille. Si tu peux en réparer un, cela pourrait faire la différence entre la vie et la mort.",
+      "choices": [
+        {
+          "id": "story-10012001-c3",
+          "text": "Répare le réseau de communications pour appeler les secours",
+          "description": null
+        },
+        {
+          "id": "story-10012001-c4",
+          "text": "Concentre-toi sur le système de support de vie pour gagner plus de temps",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-10012001-3",
+      "type": "decision",
+      "title": "Descente de la Capsule de Sauvetage",
+      "narration": "Décidant que le vaisseau est au-delà du sauvetage, tu scelles ton casque et grimpes dans la capsule de sauvetage individuelle. Avec un sifflement, elle est éjectée. À travers un petit hublot, tu regardes ton vaisseau en ruine s'éloigner. La capsule fonce vers la surface de la planète, tremblant violemment. Tu te prépares et quelques instants plus tard, tu t'écrases sur une plaine rocailleuse et aride sous un ciel alien. Chancelant en sortant, tu contemples des déserts rouges sans fin et des montagnes déchiquetées. Les systèmes de la capsule sont intacts mais les ressources sont rares. Alors que la nuit approche rapidement, tu dois déterminer ton prochain mouvement sur ce monde hostile.",
+      "choices": [
+        {
+          "id": "story-10012001-c5",
+          "text": "Grimpe une crête et active la balise de la capsule, espérant que quelqu'un l'entende",
+          "description": null
+        },
+        {
+          "id": "story-10012001-c6",
+          "text": "Rassemble des provisions et cherche de l'eau et un abri dans la vallée",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-10012001-4",
+      "type": "ending",
+      "title": "Signal Reçu",
+      "narration": "Ignorant l'air qui s'amenuise, tu rediriges l'énergie vers le réseau de communications et envoies un mayday. Pendant des minutes angoissantes, il n'y a pas de réponse. Juste alors que l'obscurité envahit ta vision, une voix crépitante répond : un vaisseau de patrouille a capté ton signal de détresse ! Tu t'effondres de soulagement alors qu'ils se dirigent vers ta balise. Quelque temps plus tard, tu ouvres les yeux à bord d'un vaisseau de secours, un masque à oxygène sur ton visage. À travers la fenêtre, tu vois ton vaisseau fracassé être laissé derrière. Tu es en sécurité, sauvé par le signal que tu as réussi à envoyer à temps.",
+      "choices": []
+    },
+    {
+      "id": "story-10012001-5",
+      "type": "ending",
+      "title": "Dérive Silencieuse",
+      "narration": "Tu consacres une énergie précieuse à réparer le support de vie : colmatant les fuites et échangeant des bonbonnes d'oxygène d'urgence. L'air se stabilise, te donnant des heures... mais sans communication, personne ne sait que tu es échoué. Tu dérives seul dans l'obscurité silencieuse de l'espace alors que le temps s'étire. Finalement, l'oxygène s'épuise et le froid s'installe. Contemplant des étoiles lointaines, tu fais la paix avec ton destin. Ton vaisseau devient ta tombe, orbitant sans fin : un voyageur solitaire devenu silencieux dans le vide.",
+      "choices": []
+    },
+    {
+      "id": "story-10012001-6",
+      "type": "ending",
+      "title": "Tragédie de la Balise",
+      "narration": "Déterminé à appeler à l'aide, tu escalades l'élévation la plus proche et actives la balise de détresse de la capsule de sauvetage. Un signal faible clignote vers l'extérieur. Les heures passent sans réponse. Alors que tu descends, le sol rocheux cède : tu glisses et dégringoles dans un ravin, te blessant gravement. La nuit tombe, et avec elle, un froid glacial. À la lumière du matin, la balise clignote toujours fidèlement à tes côtés, mais tu ne bouges plus jamais. Ton dernier pari se termine en tragédie, ton histoire perdue sur un monde solitaire.",
+      "choices": []
+    },
+    {
+      "id": "story-10012001-7",
+      "type": "ending",
+      "title": "Survivant du Monde Rouge",
+      "narration": "Acceptant que le sauvetage ne vienne peut-être jamais, tu récupères ce que tu peux de la capsule : un filtre à eau, un couteau, une couverture thermique, et tu pars vers l'inconnu. Après des jours d'épreuves, tu découvres un canyon abrité avec un filet d'eau fraîche et des champignons comestibles. Ce n'est pas le paradis, mais c'est la vie. Au fil des mois, tu apprends à chasser les petites créatures de roche et à endurer les conditions brutales de la planète cramoisie. Chaque nuit, tu fixes les étoiles, te demandant si quelqu'un là-haut se demande ce qu'il est advenu de toi : le naufragé cosmique qui appelle maintenant ce monde alien son foyer.",
+      "choices": []
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "storyId": "story-10012001",
+    "language": "pt",
+    "version": "1.0",
+    "lastUpdated": "2025-01-21T00:00:00.000Z"
+  },
+  "story": {
+    "title": "Náufrago Cósmico",
+    "author": "Comandante Lyra Hayes",
+    "description": "Acordado em uma espaçonave moribunda, você deve decidir se arrisca em reparos de emergência ou arrisca um planeta desconhecido abaixo. Cada escolha te puxa mais fundo em uma luta pela sobrevivência longe de casa.",
+    "genre": [
+      "ficção científica",
+      "aventura"
+    ],
+    "difficulty": "médio",
+    "estimatedDuration": 20
+  },
+  "nodes": [
+    {
+      "id": "story-10012001-1",
+      "type": "start",
+      "title": "Despertar Catastrófico",
+      "narration": "Você acorda sobressaltado com alarmes estridentes e luzes piscando. Sua espaçonave foi atingida por destroços, deixando você à deriva no vazio. O casco está violado e o oxigênio está baixo. Através da janela da cabine, você vê um planeta desolado abaixo e a extensão infinita de estrelas. Com as comunicações desligadas e os sistemas falhando, você deve agir rapidamente se espera sobreviver.",
+      "choices": [
+        {
+          "id": "story-10012001-c1",
+          "text": "Tente reparar os sistemas da nave e sinalizar por ajuda",
+          "description": null
+        },
+        {
+          "id": "story-10012001-c2",
+          "text": "Abandone a nave em uma cápsula de escape em direção ao planeta",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-10012001-2",
+      "type": "decision",
+      "title": "Reparos Críticos",
+      "narration": "Você permanece a bordo, o coração acelerado enquanto flutua pela cabine danificada. O medidor de oxigênio está caindo. Faíscas voam de um console danificado. Você tem tempo e ferramentas limitados. Você estabiliza sua respiração e considera suas opções. A matriz de comunicações está offline e o suporte de vida está falindo. Se você conseguir consertar um, pode fazer a diferença entre vida e morte.",
+      "choices": [
+        {
+          "id": "story-10012001-c3",
+          "text": "Repare a matriz de comunicações para pedir resgate",
+          "description": null
+        },
+        {
+          "id": "story-10012001-c4",
+          "text": "Concentre-se no sistema de suporte de vida para ganhar mais tempo",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-10012001-3",
+      "type": "decision",
+      "title": "Descida da Cápsula de Escape",
+      "narration": "Decidindo que a nave está além de ser salva, você sela seu capacete e sobe na cápsula de escape individual. Com um silvo, ela é ejetada. Através de uma pequena vigia, você observa sua nave arruinada recuar. A cápsula despenca em direção à superfície do planeta, chacoalhando violentamente. Você se prepara e momentos depois, cai em uma planície rochosa e árida sob um céu alienígena. Cambaleando para fora, você contempla desertos vermelhos infinitos e montanhas irregulares. Os sistemas da cápsula estão intactos, mas os recursos são escassos. Enquanto a noite se aproxima rapidamente, você deve determinar seu próximo movimento neste mundo hostil.",
+      "choices": [
+        {
+          "id": "story-10012001-c5",
+          "text": "Suba uma crista e ative o sinalizador da cápsula, esperando que alguém o ouça",
+          "description": null
+        },
+        {
+          "id": "story-10012001-c6",
+          "text": "Reúna suprimentos e procure água e abrigo no vale",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-10012001-4",
+      "type": "ending",
+      "title": "Sinal Recebido",
+      "narration": "Ignorando o ar que se esvai, você redireciona energia para a matriz de comunicações e envia um mayday. Por minutos agonizantes, não há resposta. Justo quando a escuridão invade sua visão, uma voz crepitante responde - uma nave de patrulha captou seu sinal de socorro! Você desaba com alívio enquanto eles localizam seu sinalizador. Algum tempo depois, você abre os olhos a bordo de uma nave de resgate, com uma máscara de oxigênio no rosto. Através da janela, você vê sua nave despedaçada sendo deixada para trás. Você está salvo, resgatado pelo sinal que conseguiu enviar a tempo.",
+      "choices": []
+    },
+    {
+      "id": "story-10012001-5",
+      "type": "ending",
+      "title": "Deriva Silenciosa",
+      "narration": "Você dedica energia preciosa para reparar o suporte de vida - remendando vazamentos e trocando cilindros de oxigênio de emergência. O ar se estabiliza, comprando horas... mas sem comunicação, ninguém sabe que você está perdido. Você deriva sozinho na escuridão silenciosa do espaço enquanto o tempo se arrasta. Eventualmente, o oxigênio acaba e o frio se infiltra. Contemplando estrelas distantes, você faz as pazes com seu destino. Sua nave se torna seu túmulo, orbitando infinitamente - um viajante solitário que silenciou no vazio.",
+      "choices": []
+    },
+    {
+      "id": "story-10012001-6",
+      "type": "ending",
+      "title": "Tragédia do Sinalizador",
+      "narration": "Determinado a pedir ajuda, você escala a elevação mais alta próxima e ativa o sinalizador de socorro da cápsula de escape. Um sinal fraco pisca. Horas passam sem resposta. Ao descer, o chão rochoso cede - você escorrega e cai por um desfiladeiro, ferindo-se gravemente. A noite cai, e com ela, um frio abaixo de zero. À luz da manhã, o sinalizador ainda pisca diligentemente ao seu lado, mas você nunca mais se move. Sua última aposta termina em tragédia, sua história perdida em um mundo solitário.",
+      "choices": []
+    },
+    {
+      "id": "story-10012001-7",
+      "type": "ending",
+      "title": "Sobrevivente do Mundo Vermelho",
+      "narration": "Aceitando que o resgate talvez nunca venha, você recupera o que pode da cápsula - um filtro de água, uma faca, uma manta térmica - e parte para o desconhecido. Após dias de adversidade, você descobre um canyon protegido com um fio de água fresca e fungos comestíveis. Não é o paraíso, mas é vida. Conforme os meses passam, você aprende a caçar as pequenas criaturas rochosas e suportar as condições brutais do planeta carmesim. Toda noite, você olha para as estrelas, perguntando-se se alguém lá fora se pergunta o que aconteceu com você - o náufrago cósmico que agora chama este mundo alienígena de lar.",
+      "choices": []
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "storyId": "story-583921467",
+    "language": "fr",
+    "version": "1.0",
+    "lastUpdated": "2025-01-05T00:00:00.000Z"
+  },
+  "story": {
+    "title": "Le Cœur du Gardien du Temps",
+    "author": "Nova Strickland",
+    "description": "Quand une ingénieure temporelle et son partenaire découvrent le noyau d'horlogerie qui lie leurs avenirs ensemble, chaque choix risque de réécrire leur amour à travers les siècles.",
+    "genre": [
+      "romance",
+      "science-fiction"
+    ],
+    "difficulty": "moyen",
+    "estimatedDuration": 22
+  },
+  "nodes": [
+    {
+      "id": "story-583921467-1",
+      "type": "start",
+      "title": "Proposition Temporelle",
+      "narration": "La ville bat en harmonie avec la Chronosphère sous elle. Toi et ton partenaire, Élias, vous tenez devant le Moteur du Cœur, un mécanisme scintillant capable de tisser des avenirs. Ce soir, tu avais l'intention de faire ta demande, mais le moteur pulse de façon erratique, projetant des visions fracturées de vous deux séparés. Affrontes-tu l'anomalie de front ou recherches-tu la prophétie encodée dans le cœur ?",
+      "choices": [
+        {
+          "id": "story-583921467-c1",
+          "text": "Plonge dans les archives de données pour déchiffrer l'avertissement",
+          "description": null
+        },
+        {
+          "id": "story-583921467-c2",
+          "text": "Va à l'observatoire et trace la faille temporelle",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-583921467-2",
+      "type": "decision",
+      "title": "Bibliothèque Chronoverrouillée",
+      "narration": "Des étagères de piles de glyphes chatoyants tournent autour de toi. Une impulsion du Moteur du Cœur brûle à travers le catalogue, mettant en évidence une déclaration codée de vos futurs vous-mêmes. Elle parle d'un choix qui préserve l'amour mais fracture le temps. Tu peux tenter de reconstruire la ligne perdue de la déclaration ou analyser la forme d'onde du signal du moteur.",
+      "choices": [
+        {
+          "id": "story-583921467-c3",
+          "text": "Recrée la ligne manquante de la déclaration",
+          "description": null
+        },
+        {
+          "id": "story-583921467-c4",
+          "text": "Modélise la forme d'onde pour prédire le pic du paradoxe",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-583921467-3",
+      "type": "decision",
+      "title": "Observatoire d'Horlogerie",
+      "narration": "Le dôme de l'observatoire bourdonne tandis que la lumière des étoiles se réfracte à travers les lentilles chrono. Tu alignes le signal du Moteur du Cœur avec des constellations scintillantes, révélant une ligne temporelle où Élias disparaît. Le seul ancrage est un lien temporel attaché à ton pouls. Réponds-tu à l'appel de ce lien ou reconçois-tu l'appareil pour partager le fardeau ?",
+      "choices": [
+        {
+          "id": "story-583921467-c5",
+          "text": "Suis le lien pour rencontrer la version future de toi-même",
+          "description": null
+        },
+        {
+          "id": "story-583921467-c6",
+          "text": "Modifie l'appareil pour qu'Élias partage la charge temporelle",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-583921467-4",
+      "type": "decision",
+      "title": "Cœur du Moteur",
+      "narration": "Ta reconstruction stabilise brièvement le Moteur du Cœur. Une projection de toi et d'Élias échangeant des vœux à travers les siècles vacille dans l'air. Le moteur offre un choix : synchroniser vos battements de cœur pour lier définitivement les lignes temporelles, ou réacheminer l'énergie excédentaire vers un réseau de secours.",
+      "choices": [
+        {
+          "id": "story-583921467-c7",
+          "text": "Synchronise les battements de cœur et harmonise le noyau",
+          "description": null
+        },
+        {
+          "id": "story-583921467-c8",
+          "text": "Canalise l'énergie vers un réseau de sécurité",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-583921467-5",
+      "type": "decision",
+      "title": "Échos du Futur",
+      "narration": "Le lien t'attire dans un corridor lumineux de moments qui se chevauchent. Une version future d'Élias apparaît, tenant le noyau complet du Moteur du Cœur. Il avertit que votre amour ne perdure que si vous acceptez un destin partagé, un où vous renoncez tous deux à certaines libertés. Embrasses-tu ce destin partagé ou brises-tu le lien pour forger un chemin différent ?",
+      "choices": [
+        {
+          "id": "story-583921467-c9",
+          "text": "Embrasse le destin partagé et fusionne les lignes temporelles",
+          "description": null
+        },
+        {
+          "id": "story-583921467-c10",
+          "text": "Brise le lien et cherche une route alternative",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-583921467-6",
+      "type": "decision",
+      "title": "Expérience Risquée",
+      "narration": "Toi et Élias connectez des chronodiffuseurs montés au poignet, partageant la déferlante. Le Moteur du Cœur se stabilise, mais un minuteur apparaît : cinq minutes avant l'effondrement du paradoxe. Une option est de lancer immédiatement dans la ligne temporelle harmonisée ; l'autre est d'abandonner, acceptant que le moteur puisse échouer définitivement.",
+      "choices": [
+        {
+          "id": "story-583921467-c11",
+          "text": "Lance le départ harmonisé ensemble",
+          "description": null
+        },
+        {
+          "id": "story-583921467-c12",
+          "text": "Abandonne et éteins le Moteur du Cœur",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-583921467-7",
+      "type": "ending",
+      "title": "Vœux Infinis",
+      "narration": "Avec les battements de cœur synchronisés, toi et Élias vous déphasez dans un continuum partagé. Tu regardes votre mariage se dérouler sous un ciel d'aurores saisissantes, chaque moment répercuté à travers les lignes temporelles. Le Moteur du Cœur ronronne régulièrement ; l'avenir est le vôtre pour l'écrire ensemble. Le Cœur du Gardien du Temps bat, entrelacé avec le vôtre.",
+      "choices": []
+    },
+    {
+      "id": "story-583921467-8",
+      "type": "decision",
+      "title": "Négociation de Paradoxe",
+      "narration": "Le réseau de sécurité s'épanouit en un pont scintillant. Trois versions futures de toi et d'Élias s'y tendent, chacune représentant une vie différente que vous pourriez partager. L'une exhorte à la confiance, une autre insiste sur l'indépendance, et la dernière offre un compromis avec des garanties. Quel chemin vas-tu verrouiller dans le Moteur du Cœur ?",
+      "choices": [
+        {
+          "id": "story-583921467-c13",
+          "text": "Fais entièrement confiance à l'avenir et traversez ensemble",
+          "description": null
+        },
+        {
+          "id": "story-583921467-c14",
+          "text": "Garde une sécurité et partitionne le moteur au cas où",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": "story-583921467-9",
+      "type": "ending",
+      "title": "Ligne Temporelle Solitaire",
+      "narration": "Tu coupes le lien et le Moteur du Cœur se stabilise dans le silence. La ville continue, inconsciente de ce qui a failli être perdu. Des années plus tard, tu aperçois des visions fugaces d'une vie où toi et Élias étiez ensemble. La connaissance de ce qui aurait pu être persiste comme un battement de cœur fantôme.",
+      "choices": []
+    },
+    {
+      "id": "story-583921467-10",
+      "type": "ending",
+      "title": "Ligne Temporelle Brisée",
+      "narration": "Tu éteins le Moteur du Cœur. La bulle de paradoxe s'effondre de manière inégale, fracassant des fragments de vos souvenirs partagés. Toi et Élias restez ensemble mais ressentez la distance des choses oubliées : blagues intimes, ambitions nocturnes, une demande jamais faite. L'amour survit, mais la promesse du moteur d'une connexion éternelle est partie.",
+      "choices": []
+    },
+    {
+      "id": "story-583921467-11",
+      "type": "ending",
+      "title": "Horizon Fusionné",
+      "narration": "Tu prends la main d'Élias et traverses l'arche lumineuse. De multiples avenirs fusionnent en une tapisserie de jalons partagés : percées scientifiques, anniversaires tranquilles et vœux longtemps attendus. Tu ressens chaque version de votre amour se fondre, ancrée par la confiance.",
+      "choices": []
+    },
+    {
+      "id": "story-583921467-12",
+      "type": "ending",
+      "title": "Réinitialisation Solitaire",
+      "narration": "Tu partitionnes le Moteur du Cœur, programmant une sécurité qui garde chaque avenir à distance. Le paradoxe s'effondre en toute sécurité, mais dans chaque ligne temporelle résultante, toi et Élias choisissez le devoir plutôt que la dévotion. La ville est sauvée, mais vous marchez sur des chemins séparés, sachant que la sécurité est venue au prix du destin partagé.",
+      "choices": []
+    }
+  ]
+}
