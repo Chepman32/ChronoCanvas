@@ -213,3 +213,6 @@ Built following the comprehensive Software Design Document for a production-read
 **Last Updated**: October 2025
 
 Made with ❤️ for storytellers everywhere
+
+TODO: add local cover images (from "FableFlow cover" chat)
+TODO: replace the story's title white background (in Homescreen) to semitransparent dark background
