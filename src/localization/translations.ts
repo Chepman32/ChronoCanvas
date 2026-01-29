@@ -98,7 +98,7 @@ export const translations: Record<Language, Translations> = {
 
     chooseYourAdventure: 'Choose Your Adventure',
     featuredStories: 'Featured Stories',
-    premium: 'Premium',
+    premium: 'Popular',
     minutes: 'minutes',
     involvement: 'Involvement',
 
@@ -160,7 +160,7 @@ export const translations: Record<Language, Translations> = {
 
     chooseYourAdventure: 'Выберите своё приключение',
     featuredStories: 'Избранные истории',
-    premium: 'Премиум',
+    premium: 'Популярное',
     minutes: 'минут',
     involvement: 'Вовлеченность',
 
@@ -222,7 +222,7 @@ export const translations: Record<Language, Translations> = {
 
     chooseYourAdventure: 'Elige tu aventura',
     featuredStories: 'Historias destacadas',
-    premium: 'Premium',
+    premium: 'Popular',
     minutes: 'minutos',
     involvement: 'Participación',
 
@@ -284,7 +284,7 @@ export const translations: Record<Language, Translations> = {
 
     chooseYourAdventure: 'Wähle dein Abenteuer',
     featuredStories: 'Empfohlene Geschichten',
-    premium: 'Premium',
+    premium: 'Beliebt',
     minutes: 'Minuten',
     involvement: 'Beteiligung',
 
@@ -347,7 +347,7 @@ export const translations: Record<Language, Translations> = {
 
     chooseYourAdventure: 'Choisissez votre aventure',
     featuredStories: 'Histoires en vedette',
-    premium: 'Premium',
+    premium: 'Populaire',
     minutes: 'minutes',
     involvement: 'Implication',
 
@@ -410,7 +410,7 @@ export const translations: Record<Language, Translations> = {
 
     chooseYourAdventure: 'Escolha sua aventura',
     featuredStories: 'Histórias em destaque',
-    premium: 'Premium',
+    premium: 'Popular',
     minutes: 'minutos',
     involvement: 'Envolvimento',
 
@@ -472,7 +472,7 @@ export const translations: Record<Language, Translations> = {
 
     chooseYourAdventure: '冒険を選ぼう',
     featuredStories: '注目のストーリー',
-    premium: 'プレミアム',
+    premium: '人気',
     minutes: '分',
     involvement: '関与',
 
@@ -535,7 +535,7 @@ export const translations: Record<Language, Translations> = {
 
     chooseYourAdventure: '选择你的冒险',
     featuredStories: '精选故事',
-    premium: '高级',
+    premium: '热门',
     minutes: '分钟',
     involvement: '参与度',
 
@@ -597,7 +597,7 @@ export const translations: Record<Language, Translations> = {
 
     chooseYourAdventure: '모험을 선택하세요',
     featuredStories: '추천 스토리',
-    premium: '프리미엄',
+    premium: '인기',
     minutes: '분',
     involvement: '참여도',
 
@@ -659,7 +659,7 @@ export const translations: Record<Language, Translations> = {
 
     chooseYourAdventure: 'Обери свою пригоду',
     featuredStories: 'Обрані історії',
-    premium: 'Преміум',
+    premium: 'Популярне',
     minutes: 'хвилин',
     involvement: 'Залученість',
 

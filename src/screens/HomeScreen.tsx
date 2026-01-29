@@ -77,7 +77,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
     return genreMap;
   }, [stories, featuredStories]);
 
-  const renderStoryCard = (story: Story) => (
+  const renderStoryCard = (story: Story, index: number) => (
     <TouchableOpacity
       style={styles.card}
       onPress={() => onStoryPress(story.id)}
@@ -87,7 +87,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
         source={typeof story.thumbnailUrl === 'string' ? { uri: story.thumbnailUrl } : story.thumbnailUrl}
         style={styles.cardImage}
       />
-      {story.isPremium && (
+      {(index + 1) % 4 === 0 && (
         <View style={styles.premiumBadge}>
           <Text style={styles.premiumText}>{t.premium}</Text>
         </View>
@@ -110,7 +110,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
     </TouchableOpacity>
   );
 
-  const renderFeaturedCard = (story: Story) => (
+  const renderFeaturedCard = (story: Story, index: number) => (
     <TouchableOpacity
       style={styles.featuredCard}
       onPress={() => onStoryPress(story.id)}
@@ -120,7 +120,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
         source={typeof story.coverImageUrl === 'string' ? { uri: story.coverImageUrl } : story.coverImageUrl}
         style={styles.featuredCardImage}
       />
-      {story.isPremium && (
+      {(index + 1) % 4 === 0 && (
         <View style={styles.featuredPremiumBadge}>
           <Text style={styles.premiumText}>{t.premium}</Text>
         </View>
@@ -150,7 +150,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
       </Text>
       <FlatList
         data={stories}
-        renderItem={({ item }) => renderStoryCard(item)}
+        renderItem={({ item, index }) => renderStoryCard(item, index)}
         keyExtractor={item => `${genre}-${item.id}`}
         horizontal
         showsHorizontalScrollIndicator={false}
@@ -192,7 +192,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           </Text>
           <FlatList
             data={featuredStories}
-            renderItem={({ item }) => renderFeaturedCard(item)}
+            renderItem={({ item, index }) => renderFeaturedCard(item, index)}
             keyExtractor={item => `featured-${item.id}`}
             horizontal
             showsHorizontalScrollIndicator={false}
