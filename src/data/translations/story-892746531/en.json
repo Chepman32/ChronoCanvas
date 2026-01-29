@@ -9,12 +9,9 @@
     "title": "The Last Letter",
     "author": "Elena Rousseau",
     "description": "When you discover a mysterious love letter in your late grandmother",
-    "genre": [
-      "romance",
-      "mystery"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 35
+    "genre": "romance",
+    "estimatedDuration": 35,
+    "involvement": "medium"
   },
   "nodes": [
     {

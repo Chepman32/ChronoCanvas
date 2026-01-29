@@ -9,12 +9,9 @@
     "title": "悖论调色板",
     "author": "时间画布工作室",
     "description": "午夜时分，一位博物馆修复师发现了一本可以重绘时间的速写本。每画一条线就能修复一个裂缝，同时撕裂另一个，而一位悲伤的馆长试图永远抹去一个悲剧性的时刻。你能在画布自我撕裂之前创作出一条稳固的时间线吗？",
-    "genre": [
-      "scifi",
-      "mystery"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 35
+    "genre": "scifi",
+    "estimatedDuration": 35,
+    "involvement": "medium"
   },
   "nodes": [
     {

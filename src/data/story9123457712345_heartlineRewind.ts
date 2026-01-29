@@ -10,8 +10,8 @@ export const heartlineRewindStory: Story = {
   thumbnailUrl:
     'https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=400',
   author: 'ChronoCanvas Studio',
-  genre: ['romance', 'scifi'],
-  difficulty: 'medium',
+  genre: 'romance',
+  involvement: 'medium',
   estimatedDuration: 32,
   isPremium: true,
   productId: 'com.app.story.heartline-rewind',

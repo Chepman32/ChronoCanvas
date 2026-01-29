@@ -9,12 +9,9 @@
     "title": "Paleta Paradoxal",
     "author": "ChronoCanvas Studio",
     "description": "À meia-noite, uma restauradora de museu descobre um caderno de esboços que pode repintar o tempo. Cada linha desenhada conserta uma fratura e divide outra, enquanto um curador enlutado tenta apagar uma hora trágica para sempre. Você consegue compor uma linha temporal que se sustente--antes que a tela se rasgue?",
-    "genre": [
-      "scifi",
-      "mystery"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 35
+    "genre": "scifi",
+    "estimatedDuration": 35,
+    "involvement": "medium"
   },
   "nodes": [
     {

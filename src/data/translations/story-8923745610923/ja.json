@@ -9,12 +9,9 @@
     "title": "逆説のパレット",
     "author": "クロノキャンバス・スタジオ",
     "description": "真夜中、博物館の修復家が時間を塗り直すことができるスケッチブックを発見する。描かれた線は一つの亀裂を修復し、別の亀裂を作り出す。悲しみに暮れる学芸員は悲劇的な一時間を永遠に消し去ろうとする。キャンバスが自らを引き裂く前に、維持できるタイムラインを作れるだろうか？",
-    "genre": [
-      "scifi",
-      "mystery"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 35
+    "genre": "scifi",
+    "estimatedDuration": 35,
+    "involvement": "medium"
   },
   "nodes": [
     {

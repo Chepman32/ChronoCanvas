@@ -9,12 +9,9 @@
     "title": "Rebobinagem da Linha do Coração",
     "author": "ChronoCanvas Studio",
     "description": "Uma cidade está presa em um loop de 59 minutos, e seus esboços podem emendar as horas de volta. Mas cada reparo ondula o passado--especialmente a noite em que você perdeu Maya. Você vai restaurar a linha temporal ou redesenhar seu destino?",
-    "genre": [
-      "romance",
-      "scifi"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 32
+    "genre": "romance",
+    "estimatedDuration": 32,
+    "involvement": "medium"
   },
   "nodes": [
     {

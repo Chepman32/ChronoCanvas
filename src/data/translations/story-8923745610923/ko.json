@@ -9,12 +9,9 @@
     "title": "역설의 팔레트",
     "author": "크로노캔버스 스튜디오",
     "description": "자정에 박물관 복원가가 시간을 다시 칠할 수 있는 스케치북을 발견한다. 그려진 각 선은 하나의 균열을 수리하고 다른 하나를 분할하며, 슬픔에 잠긴 큐레이터는 비극적인 한 시간을 영원히 지우려 한다. 캔버스가 스스로 찢어지기 전에 유지되는 타임라인을 만들 수 있을까?",
-    "genre": [
-      "scifi",
-      "mystery"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 35
+    "genre": "scifi",
+    "estimatedDuration": 35,
+    "involvement": "medium"
   },
   "nodes": [
     {

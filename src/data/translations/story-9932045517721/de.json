@@ -9,12 +9,9 @@
     "title": "Der Pakt des Wurzelwebers",
     "author": "ChronoCanvas Studio",
     "description": "In Saft geschnitzte Buchstaben bluten durch die Rinde: Der Weltenbaum ist krank. Du kannst seinen Puls hören, wenn du dein Ohr an die Maserung drückst – und wenn du es wagst, kannst du antworten. Wirst du mit Erinnerung heilen, mit Feen verhandeln oder schneiden, was geschnitten werden muss?",
-    "genre": [
-      "Fantasy",
-      "Mystery"
-    ],
-    "difficulty": "einfach",
-    "estimatedDuration": 27
+    "genre": "Fantasy",
+    "estimatedDuration": 27,
+    "involvement": "einfach"
   },
   "nodes": [
     {

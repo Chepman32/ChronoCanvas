@@ -9,12 +9,9 @@
     "title": "时间守护者之心",
     "author": "诺娃·斯特里克兰",
     "description": "当一位时间工程师和她的伴侣发现连接他们未来的钟表核心时，每一个选择都可能改写他们跨越世纪的爱情。",
-    "genre": [
-      "浪漫",
-      "科幻"
-    ],
-    "difficulty": "中等",
-    "estimatedDuration": 22
+    "genre": "浪漫",
+    "estimatedDuration": 22,
+    "involvement": "中等"
   },
   "nodes": [
     {

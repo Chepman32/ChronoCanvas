@@ -9,12 +9,9 @@
     "title": "Kosmischer Schiffbrüchiger",
     "author": "Kommandantin Lyra Hayes",
     "description": "In einem sterbenden Raumschiff erwacht, musst du entscheiden, ob du auf Notreparaturen setzt oder einen unerforschten Planeten unter dir riskierst. Jede Entscheidung zieht dich tiefer in einen Kampf ums Überleben, weit weg von zu Hause.",
-    "genre": [
-      "Science-Fiction",
-      "Abenteuer"
-    ],
-    "difficulty": "mittel",
-    "estimatedDuration": 20
+    "genre": "Science-Fiction",
+    "estimatedDuration": 20,
+    "involvement": "mittel"
   },
   "nodes": [
     {

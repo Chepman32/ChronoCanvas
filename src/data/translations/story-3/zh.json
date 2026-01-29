@@ -9,9 +9,9 @@
     "title": "时间循环悖论",
     "author": "陈莎拉博士",
     "description": "困在重复的一天中,你必须揭开谜团并从时间牢笼中逃脱。",
-    "genre": ["科幻", "悬疑"],
-    "difficulty": "困难",
-    "estimatedDuration": 35
+    "genre": "科幻",
+    "estimatedDuration": 35,
+    "involvement": "困难"
   },
   "nodes": [
     {

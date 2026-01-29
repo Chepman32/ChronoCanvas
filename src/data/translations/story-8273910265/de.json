@@ -9,12 +9,9 @@
     "title": "Schatten des verschwundenen Sterns",
     "author": "Daphne Sawyer",
     "description": "Als eine Tech-Erbin verschwindet und nur ein rätselhaftes Ornament zurückbleibt, wird Privatdetektiv Sam Mercer in ein Labyrinth aus regennassen Gassen, geheimen Bibliotheken und schattigen Docks hineingezogen. Jeder Hinweis wirft neue Fragen auf und jede Entscheidung zieht ihn tiefer in eine Verschwörung, die bis in die Stadtspitze reicht.",
-    "genre": [
-      "Detektiv",
-      "Krimi"
-    ],
-    "difficulty": "schwer",
-    "estimatedDuration": 30
+    "genre": "Detektiv",
+    "estimatedDuration": 30,
+    "involvement": "schwer"
   },
   "nodes": [
     {

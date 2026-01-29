@@ -9,12 +9,9 @@
     "title": "Abyssal Secrets",
     "author": "Captain Marina Torres",
     "description": "Dive into the deepest ocean trench where an ancient civilization awaits discovery.",
-    "genre": [
-      "mystery",
-      "adventure"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 30
+    "genre": "mystery",
+    "estimatedDuration": 30,
+    "involvement": "medium"
   },
   "nodes": [
     {

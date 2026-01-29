@@ -9,12 +9,9 @@
     "title": "Mitternachts-Vermisst",
     "author": "Morgan Steele",
     "description": "Als eine junge Frau spurlos verschwindet, muss ein entschlossener Detektiv sich durch die Schatten der Stadt navigieren und ein Netz aus Hinweisen entwirren, bevor die Zeit abläuft. Jede Entscheidung könnte ein gerettetes Leben oder eine verlorene Spur bedeuten.",
-    "genre": [
-      "Detektiv",
-      "Mystery"
-    ],
-    "difficulty": "mittel",
-    "estimatedDuration": 20
+    "genre": "Detektiv",
+    "estimatedDuration": 20,
+    "involvement": "mittel"
   },
   "nodes": [
     {

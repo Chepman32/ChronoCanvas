@@ -9,12 +9,9 @@
     "title": "The Midnight Caller",
     "author": "Elena Blackwood",
     "description": "Someone knows what you did last summer. The phone rings at 3 AM with a voice from your past, and now you have 48 hours to find them before they find you. Every choice could be your last.",
-    "genre": [
-      "detective",
-      "mystery"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 18
+    "genre": "detective",
+    "estimatedDuration": 18,
+    "involvement": "medium"
   },
   "nodes": [
     {

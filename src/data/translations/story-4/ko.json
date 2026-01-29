@@ -9,12 +9,9 @@
     "title": "심연의 비밀",
     "author": "마리나 토레스 선장",
     "description": "고대 문명이 발견을 기다리는 가장 깊은 해구로 잠수하세요.",
-    "genre": [
-      "미스터리",
-      "모험"
-    ],
-    "difficulty": "보통",
-    "estimatedDuration": 30
+    "genre": "미스터리",
+    "estimatedDuration": 30,
+    "involvement": "보통"
   },
   "nodes": [
     {

@@ -9,12 +9,9 @@
     "title": "Перемотка Линии Сердца",
     "author": "ChronoCanvas Studio",
     "description": "Город в ловушке 59-минутной петли, и твои наброски могут сшить часы обратно. Но каждый ремонт создаёт рябь в прошлом--особенно в ту ночь, когда ты потерял Майю. Восстановишь ли ты временную линию или перерисуешь свою судьбу?",
-    "genre": [
-      "romance",
-      "scifi"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 32
+    "genre": "romance",
+    "estimatedDuration": 32,
+    "involvement": "medium"
   },
   "nodes": [
     {

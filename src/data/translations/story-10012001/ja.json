@@ -9,12 +9,9 @@
     "title": "宇宙の漂流者",
     "author": "ライラ・ヘイズ司令官",
     "description": "死にゆく宇宙船で目覚めたあなたは、緊急修理に賭けるか、下方の未知の惑星に危険を冒すかを決断しなければならない。すべての選択が、故郷から遠く離れた生存への戦いへとあなたを深く引き込む。",
-    "genre": [
-      "SF",
-      "冒険"
-    ],
-    "difficulty": "中級",
-    "estimatedDuration": 20
+    "genre": "SF",
+    "estimatedDuration": 20,
+    "involvement": "中級"
   },
   "nodes": [
     {

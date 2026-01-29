@@ -9,12 +9,9 @@
     "title": "Das Herz des Zeitwächters",
     "author": "Nova Strickland",
     "description": "Als eine Zeitingenieurin und ihr Partner den Uhrwerkkern entdecken, der ihre Zukunft miteinander verbindet, riskiert jede Entscheidung, ihre Liebe über Jahrhunderte hinweg neu zu schreiben.",
-    "genre": [
-      "Romantik",
-      "Science-Fiction"
-    ],
-    "difficulty": "mittel",
-    "estimatedDuration": 22
+    "genre": "Romantik",
+    "estimatedDuration": 22,
+    "involvement": "mittel"
   },
   "nodes": [
     {

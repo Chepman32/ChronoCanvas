@@ -9,12 +9,9 @@
     "title": "Der Glutkronen-Eid",
     "author": "ChronoCanvas Atelier",
     "description": "Als die Skizze eines Kartographen zu lebendiger Glut erwärmt, flammen vergessene Weglinien entlang der Küste auf. Ein Kriegsherr zieht los, um den Berg neu zu entfachen und die Krone zu ergreifen, die nun deiner Hand antwortet. Wirst du ihr Feuer teilen, sie zerbrechen oder sie tragen?",
-    "genre": [
-      "Fantasy",
-      "Abenteuer"
-    ],
-    "difficulty": "mittel",
-    "estimatedDuration": 38
+    "genre": "Fantasy",
+    "estimatedDuration": 38,
+    "involvement": "mittel"
   },
   "nodes": [
     {

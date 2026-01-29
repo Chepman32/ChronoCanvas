@@ -9,9 +9,9 @@
     "title": "타임 루프 패러독스",
     "author": "사라 첸 박사",
     "description": "반복되는 하루에 갇힌 당신은 미스터리를 풀고 시간의 감옥에서 탈출해야 합니다.",
-    "genre": ["SF", "미스터리"],
-    "difficulty": "어려움",
-    "estimatedDuration": 35
+    "genre": "SF",
+    "estimatedDuration": 35,
+    "involvement": "어려움"
   },
   "nodes": [
     {

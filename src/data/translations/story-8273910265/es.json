@@ -9,12 +9,9 @@
     "title": "Sombras de la Estrella Desaparecida",
     "author": "Daphne Sawyer",
     "description": "Cuando una heredera tecnológica desaparece y solo queda un ornamento críptico, el detective privado Sam Mercer se ve arrastrado a un laberinto de callejones empapados de lluvia, bibliotecas secretas y muelles sombríos. Cada pista plantea nuevas preguntas y cada decisión lo arrastra más profundamente hacia una conspiración que alcanza la cúpula de la ciudad.",
-    "genre": [
-      "detective",
-      "misterio"
-    ],
-    "difficulty": "difícil",
-    "estimatedDuration": 30
+    "genre": "detective",
+    "estimatedDuration": 30,
+    "involvement": "difícil"
   },
   "nodes": [
     {

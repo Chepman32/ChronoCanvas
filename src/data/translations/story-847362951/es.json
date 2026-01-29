@@ -9,12 +9,9 @@
     "title": "La Curadora de Medianoche",
     "author": "Detective Marcus Reed",
     "description": "Una renombrada curadora de arte es encontrada muerta en una galería cerrada en la víspera de la mayor exposición de su carrera. Como detective principal, tienes hasta el amanecer para resolver el asesinato antes de que la prensa llegue y el asesino desaparezca para siempre.",
-    "genre": [
-      "detective",
-      "misterio"
-    ],
-    "difficulty": "medio",
-    "estimatedDuration": 18
+    "genre": "detective",
+    "estimatedDuration": 18,
+    "involvement": "medio"
   },
   "nodes": [
     {

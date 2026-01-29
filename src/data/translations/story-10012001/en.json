@@ -9,12 +9,9 @@
     "title": "Cosmic Castaway",
     "author": "Commander Lyra Hayes",
     "description": "Awakened in a dying spacecraft, you must decide whether to gamble on emergency repairs or risk an uncharted planet below. Every choice pulls you deeper into a fight for survival far from home.",
-    "genre": [
-      "scifi",
-      "adventure"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 20
+    "genre": "scifi",
+    "estimatedDuration": 20,
+    "involvement": "medium"
   },
   "nodes": [
     {

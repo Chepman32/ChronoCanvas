@@ -9,9 +9,9 @@
     "title": "The Time Loop Paradox",
     "author": "Dr. Sarah Chen",
     "description": "Trapped in a repeating day, you must uncover the mystery and break free from the temporal prison.",
-    "genre": ["scifi", "mystery"],
-    "difficulty": "hard",
-    "estimatedDuration": 35
+    "genre": "scifi",
+    "estimatedDuration": 35,
+    "involvement": "high"
   },
   "nodes": [
     {

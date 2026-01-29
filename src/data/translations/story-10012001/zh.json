@@ -9,12 +9,9 @@
     "title": "宇宙漂流者",
     "author": "莱拉·海耶斯指挥官",
     "description": "在一艘濒临死亡的飞船中醒来，你必须决定是赌一把进行紧急修理，还是冒险前往下方未知的星球。每一个选择都将你更深地拖入远离家园的生存战斗。",
-    "genre": [
-      "科幻",
-      "冒险"
-    ],
-    "difficulty": "中等",
-    "estimatedDuration": 20
+    "genre": "科幻",
+    "estimatedDuration": 20,
+    "involvement": "中等"
   },
   "nodes": [
     {

@@ -9,9 +9,9 @@
     "title": "Le Paradoxe de la boucle temporelle",
     "author": "Dr. Sarah Chen",
     "description": "Piégé dans une journée qui se répète, vous devez découvrir le mystère et vous libérer de cette prison temporelle.",
-    "genre": ["science-fiction", "mystère"],
-    "difficulty": "difficile",
-    "estimatedDuration": 35
+    "genre": "science-fiction",
+    "estimatedDuration": 35,
+    "involvement": "difficile"
   },
   "nodes": [
     {

@@ -9,12 +9,9 @@
     "title": "Paleta Paradójica",
     "author": "ChronoCanvas Studio",
     "description": "A medianoche, una restauradora de museo descubre un cuaderno de bocetos que puede repintar el tiempo. Cada línea dibujada repara una fractura y divide otra, mientras un curador en duelo intenta borrar una hora trágica para siempre. ¿Puedes componer una línea temporal que se sostenga--antes de que el lienzo se desgarre?",
-    "genre": [
-      "scifi",
-      "mystery"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 35
+    "genre": "scifi",
+    "estimatedDuration": 35,
+    "involvement": "medium"
   },
   "nodes": [
     {

@@ -9,12 +9,9 @@
     "title": "A Curadora da Meia-Noite",
     "author": "Detetive Marcus Reed",
     "description": "Uma renomada curadora de arte é encontrada morta em uma galeria trancada na véspera da maior exposição de sua carreira. Como detetive principal, você tem até o amanhecer para resolver o assassinato antes que a imprensa chegue e o assassino desapareça para sempre.",
-    "genre": [
-      "detetive",
-      "mistério"
-    ],
-    "difficulty": "médio",
-    "estimatedDuration": 18
+    "genre": "detetive",
+    "estimatedDuration": 18,
+    "involvement": "médio"
   },
   "nodes": [
     {

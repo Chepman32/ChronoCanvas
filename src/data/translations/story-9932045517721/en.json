@@ -9,12 +9,9 @@
     "title": "Rootweaver’s Pact",
     "author": "ChronoCanvas Studio",
     "description": "Letters carved by sap bleed through bark: the world-tree is unwell. You can hear its pulse if you press your ear to the grain—and if you dare, you can answer. Will you heal with memory, bargain with fae, or cut what must be cut?",
-    "genre": [
-      "fantasy",
-      "mystery"
-    ],
-    "difficulty": "easy",
-    "estimatedDuration": 27
+    "genre": "fantasy",
+    "estimatedDuration": 27,
+    "involvement": "low"
   },
   "nodes": [
     {

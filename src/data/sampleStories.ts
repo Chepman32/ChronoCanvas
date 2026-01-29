@@ -27,8 +27,8 @@ const originalStories: Story[] = [
     thumbnailUrl:
       'https://images.unsplash.com/photo-1511497584788-876760111969?w=400',
     author: 'Elena Rivers',
-    genre: ['fantasy', 'adventure'],
-    difficulty: 'easy',
+    genre: 'fantasy',
+    involvement: 'low',
     estimatedDuration: 15,
     isPremium: false,
     version: '1.0',
@@ -146,8 +146,8 @@ const originalStories: Story[] = [
     thumbnailUrl:
       'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400',
     author: 'Marcus Chen',
-    genre: ['scifi', 'mystery'],
-    difficulty: 'medium',
+    genre: 'scifi',
+    involvement: 'medium',
     estimatedDuration: 20,
     isPremium: true,
     productId: 'com.app.story.neon-nights',

@@ -9,12 +9,9 @@
     "title": "Shadows of the Vanished Star",
     "author": "Daphne Sawyer",
     "description": "When a tech heiress vanishes and only a cryptic ornament remains, private detective Sam Mercer is drawn into a labyrinth of rain-soaked alleys, secret libraries and shadowed docks. Every clue raises new questions and every decision pulls him deeper into a conspiracy that reaches the city\\",
-    "genre": [
-      "detective",
-      "mystery"
-    ],
-    "difficulty": "hard",
-    "estimatedDuration": 30
+    "genre": "detective",
+    "estimatedDuration": 30,
+    "involvement": "high"
   },
   "nodes": [
     {

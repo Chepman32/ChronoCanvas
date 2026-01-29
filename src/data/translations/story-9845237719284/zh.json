@@ -9,12 +9,9 @@
     "title": "余烬王冠的誓言",
     "author": "时光画布工作室",
     "description": "当制图师的草图温热成活生生的余烬,被遗忘的路径沿着海岸燃烧起来。一位战争领主进军重新点燃山峰,并夺取现在回应你之手的王冠。你会分享它的火焰,打碎它,还是戴上它?",
-    "genre": [
-      "奇幻",
-      "冒险"
-    ],
-    "difficulty": "中等",
-    "estimatedDuration": 38
+    "genre": "奇幻",
+    "estimatedDuration": 38,
+    "involvement": "中等"
   },
   "nodes": [
     {

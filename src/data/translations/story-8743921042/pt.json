@@ -9,12 +9,9 @@
     "title": "Ecos do Bosque Lunar",
     "author": "Daria Voronova",
     "description": "Quando a lua cheia se ergue sobre a Floresta de Espinegro, um pacto antigo desperta. Você carrega um fragmento de um selo quebrado que vibra perto das árvores, chamando-o em direção a uma coroa esquecida e uma dívida que o bosque pretende cobrar. Escolha aliados, honra ou poder—mas o bosque sempre cobra seu tributo.",
-    "genre": [
-      "fantasy",
-      "adventure"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 35
+    "genre": "fantasy",
+    "estimatedDuration": 35,
+    "involvement": "medium"
   },
   "nodes": [
     {

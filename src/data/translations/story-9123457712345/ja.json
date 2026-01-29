@@ -9,12 +9,9 @@
     "title": "心臓線の巻き戻し",
     "author": "クロノキャンバス・スタジオ",
     "description": "都市が59分のループに閉じ込められ、あなたのスケッチが時間をつなぎ直すことができる。しかし、すべての修復は過去に波紋を起こす--特にマヤを失った夜。タイムラインを復元するか、運命を描き直すか？",
-    "genre": [
-      "romance",
-      "scifi"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 32
+    "genre": "romance",
+    "estimatedDuration": 32,
+    "involvement": "medium"
   },
   "nodes": [
     {

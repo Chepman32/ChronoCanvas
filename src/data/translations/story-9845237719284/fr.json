@@ -9,12 +9,9 @@
     "title": "Le Serment de la Couronne de Braises",
     "author": "Studio ChronoCanvas",
     "description": "Quand l'esquisse d'un cartographe se réchauffe en braise vivante, des lignes oubliées s'enflamment le long de la côte. Un seigneur de guerre marche pour raviver la montagne et s'emparer de la Couronne qui répond maintenant à votre main. Partagerez-vous son feu, la briserez-vous ou la porterez-vous?",
-    "genre": [
-      "fantastique",
-      "aventure"
-    ],
-    "difficulty": "moyen",
-    "estimatedDuration": 38
+    "genre": "fantastique",
+    "estimatedDuration": 38,
+    "involvement": "moyen"
   },
   "nodes": [
     {

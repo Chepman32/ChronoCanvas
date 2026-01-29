@@ -9,12 +9,9 @@
     "title": "한밤중의 큐레이터",
     "author": "형사 마커스 리드",
     "description": "저명한 미술관 큐레이터가 그녀의 경력 최대 전시회 전날 밤 잠긴 갤러리에서 죽은 채 발견된다. 주임 형사로서, 언론이 몰려들고 살인범이 영원히 사라지기 전에 새벽까지 살인 사건을 해결해야 한다.",
-    "genre": [
-      "탐정",
-      "미스터리"
-    ],
-    "difficulty": "중급",
-    "estimatedDuration": 18
+    "genre": "탐정",
+    "estimatedDuration": 18,
+    "involvement": "중급"
   },
   "nodes": [
     {

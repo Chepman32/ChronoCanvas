@@ -9,12 +9,9 @@
     "title": "한밤의 실종",
     "author": "모건 스틸",
     "description": "젊은 여성이 흔적도 없이 사라지자, 단호한 형사는 시간이 다 가기 전에 도시의 그림자를 헤쳐 나가며 단서의 그물을 풀어야 합니다. 모든 결정이 구원받은 생명이나 차가워진 흔적을 의미할 수 있습니다.",
-    "genre": [
-      "형사",
-      "미스터리"
-    ],
-    "difficulty": "보통",
-    "estimatedDuration": 20
+    "genre": "형사",
+    "estimatedDuration": 20,
+    "involvement": "보통"
   },
   "nodes": [
     {

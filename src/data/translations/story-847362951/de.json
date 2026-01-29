@@ -9,12 +9,9 @@
     "title": "Der Mitternachtskurator",
     "author": "Detective Marcus Reed",
     "description": "Eine renommierte Kunstkuratorin wird am Vorabend der größten Ausstellung ihrer Karriere tot in einer verschlossenen Galerie aufgefunden. Als leitender Ermittler haben Sie bis zum Morgengrauen Zeit, den Mord aufzuklären, bevor die Presse eintrifft und der Mörder für immer verschwindet.",
-    "genre": [
-      "Detektiv",
-      "Krimi"
-    ],
-    "difficulty": "mittel",
-    "estimatedDuration": 18
+    "genre": "Detektiv",
+    "estimatedDuration": 18,
+    "involvement": "mittel"
   },
   "nodes": [
     {

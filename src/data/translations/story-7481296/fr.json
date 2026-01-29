@@ -9,12 +9,9 @@
     "title": "Disparition à minuit",
     "author": "Morgan Steele",
     "description": "Lorsqu'une jeune femme disparaît sans laisser de trace, un détective déterminé doit naviguer dans les ombres de la ville et démêler un réseau d'indices avant qu'il ne soit trop tard. Chaque décision pourrait signifier une vie sauvée ou une piste perdue.",
-    "genre": [
-      "détective",
-      "mystère"
-    ],
-    "difficulty": "moyen",
-    "estimatedDuration": 20
+    "genre": "détective",
+    "estimatedDuration": 20,
+    "involvement": "moyen"
   },
   "nodes": [
     {

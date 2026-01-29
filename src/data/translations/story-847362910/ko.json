@@ -9,12 +9,9 @@
     "title": "한밤중의 전화",
     "author": "엘레나 블랙우드",
     "description": "누군가가 당신이 지난 여름에 한 일을 알고 있습니다. 새벽 3시에 과거로부터의 목소리와 함께 전화가 울립니다. 이제 그들이 당신을 찾기 전에 48시간 안에 그들을 찾아야 합니다. 모든 선택이 마지막이 될 수 있습니다.",
-    "genre": [
-      "탐정",
-      "미스터리"
-    ],
-    "difficulty": "중급",
-    "estimatedDuration": 18
+    "genre": "탐정",
+    "estimatedDuration": 18,
+    "involvement": "중급"
   },
   "nodes": [
     {

@@ -9,12 +9,9 @@
     "title": "Le Naufragé Cosmique",
     "author": "Commandant Lyra Hayes",
     "description": "Réveillé dans un vaisseau spatial agonisant, tu dois décider de parier sur des réparations d'urgence ou de risquer une planète inexplorée en dessous. Chaque choix t'entraîne plus profondément dans un combat pour la survie loin de chez toi.",
-    "genre": [
-      "science-fiction",
-      "aventure"
-    ],
-    "difficulty": "moyen",
-    "estimatedDuration": 20
+    "genre": "science-fiction",
+    "estimatedDuration": 20,
+    "involvement": "moyen"
   },
   "nodes": [
     {

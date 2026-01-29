@@ -9,12 +9,9 @@
     "title": "Secrets abyssaux",
     "author": "Capitaine Marina Torres",
     "description": "Plongez dans la fosse océanique la plus profonde où une civilisation ancienne attend d'être découverte.",
-    "genre": [
-      "mystère",
-      "aventure"
-    ],
-    "difficulty": "moyen",
-    "estimatedDuration": 30
+    "genre": "mystère",
+    "estimatedDuration": 30,
+    "involvement": "moyen"
   },
   "nodes": [
     {

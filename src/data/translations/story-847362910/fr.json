@@ -9,12 +9,9 @@
     "title": "L'Appel de Minuit",
     "author": "Elena Blackwood",
     "description": "Quelqu'un sait ce que tu as fait l'été dernier. Le téléphone sonne à 3 heures du matin avec une voix de ton passé, et maintenant tu as 48 heures pour les trouver avant qu'ils ne te trouvent. Chaque choix pourrait être le dernier.",
-    "genre": [
-      "détective",
-      "mystère"
-    ],
-    "difficulty": "moyen",
-    "estimatedDuration": 18
+    "genre": "détective",
+    "estimatedDuration": 18,
+    "involvement": "moyen"
   },
   "nodes": [
     {

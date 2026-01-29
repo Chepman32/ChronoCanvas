@@ -9,12 +9,9 @@
     "title": "Ombres de l'Étoile Disparue",
     "author": "Daphne Sawyer",
     "description": "Quand une héritière de la tech disparaît et qu'il ne reste qu'un ornement cryptique, le détective privé Sam Mercer est entraîné dans un labyrinthe de ruelles détrempées, de bibliothèques secrètes et de quais ombragés. Chaque indice soulève de nouvelles questions et chaque décision l'enfonce plus profondément dans un complot qui atteint les sommets de la ville.",
-    "genre": [
-      "détective",
-      "mystère"
-    ],
-    "difficulty": "difficile",
-    "estimatedDuration": 30
+    "genre": "détective",
+    "estimatedDuration": 30,
+    "involvement": "difficile"
   },
   "nodes": [
     {

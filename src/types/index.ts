@@ -15,8 +15,8 @@ export interface Story {
   coverImageUrl: string | number; // string for URLs, number for require()
   thumbnailUrl: string | number; // string for URLs, number for require()
   author: string;
-  genre: StoryGenre[];
-  difficulty: 'easy' | 'medium' | 'hard';
+  genre: StoryGenre;
+  involvement: 'low' | 'medium' | 'high';
   estimatedDuration: number;
   isPremium: boolean;
   productId?: string;

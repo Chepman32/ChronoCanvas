@@ -9,12 +9,9 @@
     "title": "Herzlinie Zurückspulen",
     "author": "ChronoCanvas Studio",
     "description": "Eine Stadt ist in einer 59-Minuten-Schleife gefangen, und deine Skizzen können die Stunden wieder zusammenfügen. Aber jede Reparatur bringt die Vergangenheit ins Wanken--besonders die Nacht, in der du Maya verloren hast. Wirst du die Zeitlinie wiederherstellen oder dein Schicksal neu zeichnen?",
-    "genre": [
-      "romance",
-      "scifi"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 32
+    "genre": "romance",
+    "estimatedDuration": 32,
+    "involvement": "medium"
   },
   "nodes": [
     {

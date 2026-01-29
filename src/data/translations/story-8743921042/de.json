@@ -9,12 +9,9 @@
     "title": "Echos des Mondhains",
     "author": "Daria Voronova",
     "description": "Wenn der Vollmond über dem Schwarzdornwald aufgeht, erwacht ein alter Pakt. Du trägst ein Bruchstück eines zerbrochenen Siegels, das in der Nähe der Bäume summt und dich zu einer vergessenen Krone und einer Schuld ruft, die der Hain einzufordern gedenkt. Wähle Verbündete, Ehre oder Macht – aber der Hain fordert immer seinen Tribut.",
-    "genre": [
-      "fantasy",
-      "adventure"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 35
+    "genre": "fantasy",
+    "estimatedDuration": 35,
+    "involvement": "medium"
   },
   "nodes": [
     {

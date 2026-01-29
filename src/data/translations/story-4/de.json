@@ -9,12 +9,9 @@
     "title": "Geheimnisse der Tiefe",
     "author": "Kapitän Marina Torres",
     "description": "Tauchen Sie in den tiefsten Ozeangraben, wo eine alte Zivilisation auf ihre Entdeckung wartet.",
-    "genre": [
-      "Mystery",
-      "Abenteuer"
-    ],
-    "difficulty": "mittel",
-    "estimatedDuration": 30
+    "genre": "Mystery",
+    "estimatedDuration": 30,
+    "involvement": "mittel"
   },
   "nodes": [
     {

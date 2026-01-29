@@ -9,12 +9,9 @@
     "title": "月光の森の残響",
     "author": "ダリア・ヴォロノワ",
     "description": "満月がブラックブライアの森に昇る時、古い契約が目覚める。あなたは壊れた印章の欠片を持っており、それは木々の近くで振動し、忘れられた王冠と森が回収しようとする負債へとあなたを呼んでいる。同盟者、名誉、または力を選べ――だが森は常にその報いを取る。",
-    "genre": [
-      "fantasy",
-      "adventure"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 35
+    "genre": "fantasy",
+    "estimatedDuration": 35,
+    "involvement": "medium"
   },
   "nodes": [
     {

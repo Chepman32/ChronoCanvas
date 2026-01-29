@@ -9,12 +9,9 @@
     "title": "한밤의 정원",
     "author": "이사벨라 크레인",
     "description": "자정에만 꽃이 피는 정원이 있는 빅토리아 시대 저택을 상속받게 됩니다. 정원을 돌보는 수수께끼의 정원사를 만났을 때, 당신은 그가",
-    "genre": [
-      "로맨스",
-      "판타지"
-    ],
-    "difficulty": "중급",
-    "estimatedDuration": 38
+    "genre": "로맨스",
+    "estimatedDuration": 38,
+    "involvement": "중급"
   },
   "nodes": [
     {

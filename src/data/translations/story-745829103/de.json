@@ -9,12 +9,9 @@
     "title": "Der Mitternachtsgarten",
     "author": "Isabella Crane",
     "description": "Du erbst ein viktorianisches Herrenhaus mit einem Garten, der nur um Mitternacht blüht. Als du den rätselhaften Gärtner triffst, der ihn pflegt, entdeckst du, dass er",
-    "genre": [
-      "Romantik",
-      "Fantasy"
-    ],
-    "difficulty": "mittel",
-    "estimatedDuration": 38
+    "genre": "Romantik",
+    "estimatedDuration": 38,
+    "involvement": "mittel"
   },
   "nodes": [
     {

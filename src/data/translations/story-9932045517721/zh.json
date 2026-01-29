@@ -9,12 +9,9 @@
     "title": "织根者之约",
     "author": "时光画布工作室",
     "description": "树液刻成的字母渗透树皮:世界树病了。如果你把耳朵贴在木纹上,就能听到它的脉搏——如果你敢,就能回应。你会用记忆治愈,与仙灵交易,还是切除必须切除之物?",
-    "genre": [
-      "奇幻",
-      "悬疑"
-    ],
-    "difficulty": "简单",
-    "estimatedDuration": 27
+    "genre": "奇幻",
+    "estimatedDuration": 27,
+    "involvement": "简单"
   },
   "nodes": [
     {

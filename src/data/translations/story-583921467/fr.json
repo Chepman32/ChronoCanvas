@@ -9,12 +9,9 @@
     "title": "Le Cœur du Gardien du Temps",
     "author": "Nova Strickland",
     "description": "Quand une ingénieure temporelle et son partenaire découvrent le noyau d'horlogerie qui lie leurs avenirs ensemble, chaque choix risque de réécrire leur amour à travers les siècles.",
-    "genre": [
-      "romance",
-      "science-fiction"
-    ],
-    "difficulty": "moyen",
-    "estimatedDuration": 22
+    "genre": "romance",
+    "estimatedDuration": 22,
+    "involvement": "moyen"
   },
   "nodes": [
     {

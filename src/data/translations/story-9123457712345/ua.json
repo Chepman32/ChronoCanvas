@@ -9,12 +9,9 @@
     "title": "Перемотка Лінії Серця",
     "author": "ChronoCanvas Studio",
     "description": "Місто в пастці 59-хвилинної петлі, і твої ескізи можуть зшити години назад. Але кожен ремонт створює брижі в минулому--особливо тієї ночі, коли ти втратив Майю. Відновиш ти часову лінію чи перемалюєш свою долю?",
-    "genre": [
-      "romance",
-      "scifi"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 32
+    "genre": "romance",
+    "estimatedDuration": 32,
+    "involvement": "medium"
   },
   "nodes": [
     {

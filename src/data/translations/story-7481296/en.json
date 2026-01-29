@@ -9,12 +9,9 @@
     "title": "Midnight Missing",
     "author": "Morgan Steele",
     "description": "When a young woman vanishes without a trace, a determined detective must navigate city shadows and unravel a web of clues before time runs out. Every decision could mean a life saved or a trail gone cold.",
-    "genre": [
-      "detective",
-      "mystery"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 20
+    "genre": "detective",
+    "estimatedDuration": 20,
+    "involvement": "medium"
   },
   "nodes": [
     {

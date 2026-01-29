@@ -22,7 +22,7 @@ interface TranslationJSON {
     author: string;
     description: string;
     genre: string[];
-    difficulty: string;
+    involvement: string;
     estimatedDuration: number;
   };
   nodes: Array<{

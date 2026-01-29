@@ -9,12 +9,9 @@
     "title": "Rembobinage de la Ligne de Cœur",
     "author": "ChronoCanvas Studio",
     "description": "Une ville est piégée dans une boucle de 59 minutes, et vos esquisses peuvent recoller les heures ensemble. Mais chaque réparation fait onduler le passé--surtout la nuit où vous avez perdu Maya. Allez-vous restaurer la chronologie ou redessiner votre destin?",
-    "genre": [
-      "romance",
-      "scifi"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 32
+    "genre": "romance",
+    "estimatedDuration": 32,
+    "involvement": "medium"
   },
   "nodes": [
     {

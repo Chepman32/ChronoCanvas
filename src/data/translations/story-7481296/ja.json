@@ -9,12 +9,9 @@
     "title": "真夜中の失踪",
     "author": "モーガン・スティール",
     "description": "若い女性が痕跡もなく姿を消したとき、決意した刑事は街の影を進み、時間切れになる前に手がかりの網を解き明かさなければならない。すべての決断が救われる命か、失われた手がかりを意味する可能性がある。",
-    "genre": [
-      "探偵",
-      "ミステリー"
-    ],
-    "difficulty": "中程度",
-    "estimatedDuration": 20
+    "genre": "探偵",
+    "estimatedDuration": 20,
+    "involvement": "中程度"
   },
   "nodes": [
     {

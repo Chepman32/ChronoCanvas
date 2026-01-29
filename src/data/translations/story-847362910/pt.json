@@ -9,12 +9,9 @@
     "title": "A Chamada da Meia-Noite",
     "author": "Elena Blackwood",
     "description": "Alguém sabe o que você fez no verão passado. O telefone toca às 3 da manhã com uma voz do seu passado, e agora você tem 48 horas para encontrá-los antes que eles encontrem você. Cada escolha pode ser a última.",
-    "genre": [
-      "detetive",
-      "mistério"
-    ],
-    "difficulty": "médio",
-    "estimatedDuration": 18
+    "genre": "detetive",
+    "estimatedDuration": 18,
+    "involvement": "médio"
   },
   "nodes": [
     {

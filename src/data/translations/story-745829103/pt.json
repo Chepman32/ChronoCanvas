@@ -9,12 +9,9 @@
     "title": "O Jardim da Meia-Noite",
     "author": "Isabella Crane",
     "description": "Você herda uma mansão vitoriana com um jardim que só floresce à meia-noite. Quando você conhece o enigmático jardineiro que cuida dele, você descobre que ele",
-    "genre": [
-      "romance",
-      "fantasia"
-    ],
-    "difficulty": "médio",
-    "estimatedDuration": 38
+    "genre": "romance",
+    "estimatedDuration": 38,
+    "involvement": "médio"
   },
   "nodes": [
     {

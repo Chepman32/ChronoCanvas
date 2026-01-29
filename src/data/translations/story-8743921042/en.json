@@ -9,12 +9,9 @@
     "title": "Echoes of the Moonlit Grove",
     "author": "Daria Voronova",
     "description": "When the moon rises full over Blackbriar Forest, an old bargain wakes. You carry a shard of a broken sigil that hums near the trees, calling you toward a forgotten crown and a debt the grove intends to collect. Choose allies, honor, or power—but the grove always takes its due.",
-    "genre": [
-      "fantasy",
-      "adventure"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 35
+    "genre": "fantasy",
+    "estimatedDuration": 35,
+    "involvement": "medium"
   },
   "nodes": [
     {

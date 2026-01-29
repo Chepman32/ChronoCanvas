@@ -9,12 +9,9 @@
     "title": "Desaparecimento à Meia-Noite",
     "author": "Morgan Steele",
     "description": "Quando uma jovem mulher desaparece sem deixar rastros, um detetive determinado deve navegar pelas sombras da cidade e desvendar uma teia de pistas antes que o tempo acabe. Cada decisão pode significar uma vida salva ou um rastro perdido.",
-    "genre": [
-      "detetive",
-      "mistério"
-    ],
-    "difficulty": "médio",
-    "estimatedDuration": 20
+    "genre": "detetive",
+    "estimatedDuration": 20,
+    "involvement": "médio"
   },
   "nodes": [
     {

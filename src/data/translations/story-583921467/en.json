@@ -9,12 +9,9 @@
     "title": "The Timekeeper's Heart",
     "author": "Nova Strickland",
     "description": "When a temporal engineer and her partner discover the clockwork core that binds their futures together, every choice risks rewriting their love across centuries.",
-    "genre": [
-      "romance",
-      "scifi"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 22
+    "genre": "romance",
+    "estimatedDuration": 22,
+    "involvement": "medium"
   },
   "nodes": [
     {

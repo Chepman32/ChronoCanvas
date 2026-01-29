@@ -43,16 +43,16 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
     detective: t.genreDetective,
   };
 
-  const getDifficultyLabel = (difficulty: string) => {
-    switch (difficulty) {
-      case 'easy':
-        return t.difficultyEasy;
+  const getInvolvementLabel = (involvement: string) => {
+    switch (involvement) {
+      case 'low':
+        return t.involvementLow;
       case 'medium':
-        return t.difficultyMedium;
-      case 'hard':
-        return t.difficultyHard;
+        return t.involvementMedium;
+      case 'high':
+        return t.involvementHigh;
       default:
-        return difficulty;
+        return involvement;
     }
   };
 
@@ -65,14 +65,13 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
     stories.forEach(story => {
       if (featuredIds.has(story.id)) return;
 
-      story.genre.forEach(genre => {
-        if (!genreMap[genre]) {
-          genreMap[genre] = [];
-        }
-        if (!genreMap[genre]!.some(s => s.id === story.id)) {
-          genreMap[genre]!.unshift(story);
-        }
-      });
+      const genre = story.genre;
+      if (!genreMap[genre]) {
+        genreMap[genre] = [];
+      }
+      if (!genreMap[genre]!.some(s => s.id === story.id)) {
+        genreMap[genre]!.unshift(story);
+      }
     });
 
     return genreMap;
@@ -104,7 +103,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           </Text>
           <Text style={styles.metaText}>•</Text>
           <Text style={styles.metaText}>
-            {getDifficultyLabel(story.difficulty)}
+            {getInvolvementLabel(story.involvement)}
           </Text>
         </View>
       </View>
@@ -137,7 +136,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           </Text>
           <Text style={styles.metaText}>•</Text>
           <Text style={styles.metaText}>
-            {getDifficultyLabel(story.difficulty)}
+            {getInvolvementLabel(story.involvement)}
           </Text>
         </View>
       </View>

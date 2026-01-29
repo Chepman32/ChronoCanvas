@@ -9,9 +9,9 @@
     "title": "Das Zeitschleifen-Paradoxon",
     "author": "Dr. Sarah Chen",
     "description": "Gefangen in einem sich wiederholenden Tag müssen Sie das Geheimnis aufdecken und sich aus dem temporalen Gefängnis befreien.",
-    "genre": ["Science-Fiction", "Mystery"],
-    "difficulty": "schwer",
-    "estimatedDuration": 35
+    "genre": "Science-Fiction",
+    "estimatedDuration": 35,
+    "involvement": "schwer"
   },
   "nodes": [
     {

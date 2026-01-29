@@ -9,12 +9,9 @@
     "title": "Náufrago Cósmico",
     "author": "Comandante Lyra Hayes",
     "description": "Acordado em uma espaçonave moribunda, você deve decidir se arrisca em reparos de emergência ou arrisca um planeta desconhecido abaixo. Cada escolha te puxa mais fundo em uma luta pela sobrevivência longe de casa.",
-    "genre": [
-      "ficção científica",
-      "aventura"
-    ],
-    "difficulty": "médio",
-    "estimatedDuration": 20
+    "genre": "ficção científica",
+    "estimatedDuration": 20,
+    "involvement": "médio"
   },
   "nodes": [
     {

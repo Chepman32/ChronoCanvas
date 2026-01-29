@@ -9,12 +9,9 @@
     "title": "午夜馆长",
     "author": "侦探马库斯·里德",
     "description": "一位著名的艺术策展人在她职业生涯最大展览的前夜，在一个上锁的画廊中被发现死亡。作为首席侦探，你必须在黎明前破案，否则媒体将蜂拥而至，凶手将永远消失。",
-    "genre": [
-      "侦探",
-      "悬疑"
-    ],
-    "difficulty": "中等",
-    "estimatedDuration": 18
+    "genre": "侦探",
+    "estimatedDuration": 18,
+    "involvement": "中等"
   },
   "nodes": [
     {

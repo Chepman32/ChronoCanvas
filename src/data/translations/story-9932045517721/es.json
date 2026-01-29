@@ -9,12 +9,9 @@
     "title": "El Pacto del Tejedor de Raíces",
     "author": "Estudio ChronoCanvas",
     "description": "Letras talladas por savia sangran a través de la corteza: el árbol del mundo está enfermo. Puedes escuchar su pulso si presionas tu oído contra la veta, y si te atreves, puedes responder. ¿Sanarás con memoria, negociarás con hadas, o cortarás lo que debe ser cortado?",
-    "genre": [
-      "fantasía",
-      "misterio"
-    ],
-    "difficulty": "fácil",
-    "estimatedDuration": 27
+    "genre": "fantasía",
+    "estimatedDuration": 27,
+    "involvement": "fácil"
   },
   "nodes": [
     {

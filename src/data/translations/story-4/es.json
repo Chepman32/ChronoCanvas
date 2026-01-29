@@ -10,9 +10,9 @@
     "title": "La Paradoja del Bucle Temporal",
     "author": "Dr. Sarah Chen",
     "description": "Atrapado en un día que se repite, debes descubrir el misterio y liberarte de la prisión temporal.",
-    "genre": ["scifi", "mystery"],
-    "difficulty": "hard",
-    "estimatedDuration": 35
+    "genre": "scifi",
+    "estimatedDuration": 35,
+    "involvement": "high"
   },
   "nodes": [
     {

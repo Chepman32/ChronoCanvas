@@ -9,12 +9,9 @@
     "title": "Der Mitternachtsanrufer",
     "author": "Elena Blackwood",
     "description": "Jemand weiß, was du letzten Sommer getan hast. Das Telefon klingelt um 3 Uhr morgens mit einer Stimme aus deiner Vergangenheit, und jetzt hast du 48 Stunden Zeit, sie zu finden, bevor sie dich finden. Jede Entscheidung könnte deine letzte sein.",
-    "genre": [
-      "Detektiv",
-      "Krimi"
-    ],
-    "difficulty": "mittel",
-    "estimatedDuration": 18
+    "genre": "Detektiv",
+    "estimatedDuration": 18,
+    "involvement": "mittel"
   },
   "nodes": [
     {

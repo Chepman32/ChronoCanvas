@@ -17,8 +17,8 @@ export const paradoxPaletteStory: Story = {
   thumbnailUrl:
     'https://images.unsplash.com/photo-1495567720989-cebdbdd97913?w=400',
   author: 'ChronoCanvas Studio',
-  genre: ['scifi', 'mystery'],
-  difficulty: 'medium',
+  genre: 'scifi',
+  involvement: 'medium',
   estimatedDuration: 35,
   isPremium: true,
   productId: 'com.app.story.paradox-palette',

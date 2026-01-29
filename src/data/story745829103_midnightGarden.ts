@@ -10,8 +10,8 @@ export const midnightGardenStory: Story = {
   thumbnailUrl:
     'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=400',
   author: 'Isabella Crane',
-  genre: ['romance', 'fantasy'],
-  difficulty: 'medium',
+  genre: 'romance',
+  involvement: 'medium',
   estimatedDuration: 38,
   isPremium: true,
   productId: 'com.app.story.midnight-garden',

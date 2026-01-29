@@ -9,12 +9,9 @@
     "title": "O Juramento da Coroa de Brasas",
     "author": "Estúdio ChronoCanvas",
     "description": "Quando o esboço de um cartógrafo aquece até se tornar brasa viva, linhas esquecidas flamejam ao longo da costa. Um senhor da guerra marcha para reacender a montanha e tomar a Coroa que agora responde à sua mão. Você compartilhará seu fogo, a quebrará ou a usará?",
-    "genre": [
-      "fantasia",
-      "aventura"
-    ],
-    "difficulty": "médio",
-    "estimatedDuration": 38
+    "genre": "fantasia",
+    "estimatedDuration": 38,
+    "involvement": "médio"
   },
   "nodes": [
     {

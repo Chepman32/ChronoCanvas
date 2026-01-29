@@ -10,8 +10,8 @@ export const rootweaversPactStory: Story = {
   thumbnailUrl:
     'https://images.unsplash.com/photo-1501466044931-62695aada8e9?w=400',
   author: 'ChronoCanvas Studio',
-  genre: ['fantasy', 'mystery'],
-  difficulty: 'easy',
+  genre: 'fantasy',
+  involvement: 'low',
   estimatedDuration: 27,
   isPremium: false,
   productId: undefined,

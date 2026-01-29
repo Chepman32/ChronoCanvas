@@ -9,12 +9,9 @@
     "title": "달빛 숲의 메아리",
     "author": "다리아 보로노바",
     "description": "블랙브라이어 숲 위로 보름달이 떠오를 때, 오래된 계약이 깨어난다. 당신은 나무 근처에서 울리는 부서진 인장의 조각을 지니고 있으며, 그것은 잊혀진 왕관과 숲이 거두려는 빚을 향해 당신을 부른다. 동맹, 명예 또는 힘을 선택하라—하지만 숲은 항상 그 대가를 받아간다.",
-    "genre": [
-      "fantasy",
-      "adventure"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 35
+    "genre": "fantasy",
+    "estimatedDuration": 35,
+    "involvement": "medium"
   },
   "nodes": [
     {

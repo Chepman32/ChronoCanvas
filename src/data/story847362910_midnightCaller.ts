@@ -10,8 +10,8 @@ export const midnightCallerStory: Story = {
   thumbnailUrl:
     'https://images.unsplash.com/photo-1551269901-5c5e14c25df7?w=400',
   author: 'Elena Blackwood',
-  genre: ['detective', 'mystery'],
-  difficulty: 'medium',
+  genre: 'detective',
+  involvement: 'medium',
   estimatedDuration: 18,
   isPremium: false,
   version: '1.0',

@@ -9,9 +9,9 @@
     "title": "O Paradoxo do Loop Temporal",
     "author": "Dra. Sarah Chen",
     "description": "Preso em um dia que se repete, você deve descobrir o mistério e se libertar da prisão temporal.",
-    "genre": ["ficção científica", "mistério"],
-    "difficulty": "difícil",
-    "estimatedDuration": 35
+    "genre": "ficção científica",
+    "estimatedDuration": 35,
+    "involvement": "difícil"
   },
   "nodes": [
     {

@@ -9,12 +9,9 @@
     "title": "Palette Paradoxale",
     "author": "ChronoCanvas Studio",
     "description": "À minuit, une restauratrice de musée découvre un carnet de croquis qui peut repeindre le temps. Chaque ligne tracée répare une fracture et en divise une autre, tandis qu'un conservateur endeuillé s'efforce d'effacer à jamais une heure tragique. Pouvez-vous composer une chronologie qui tienne--avant que la toile ne se déchire?",
-    "genre": [
-      "scifi",
-      "mystery"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 35
+    "genre": "scifi",
+    "estimatedDuration": 35,
+    "involvement": "medium"
   },
   "nodes": [
     {

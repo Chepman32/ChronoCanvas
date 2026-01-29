@@ -9,12 +9,9 @@
     "title": "深淵の秘密",
     "author": "マリナ・トーレス船長",
     "description": "古代文明の発見を待つ、最深の海溝に潜りましょう。",
-    "genre": [
-      "ミステリー",
-      "アドベンチャー"
-    ],
-    "difficulty": "中程度",
-    "estimatedDuration": 30
+    "genre": "ミステリー",
+    "estimatedDuration": 30,
+    "involvement": "中程度"
   },
   "nodes": [
     {

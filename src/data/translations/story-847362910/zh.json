@@ -9,12 +9,9 @@
     "title": "午夜来电",
     "author": "埃琳娜·布莱克伍德",
     "description": "有人知道你去年夏天做了什么。凌晨3点，电话响起，传来你过去的声音，现在你有48小时的时间在他们找到你之前找到他们。每一个选择都可能是最后一个。",
-    "genre": [
-      "侦探",
-      "悬疑"
-    ],
-    "difficulty": "中等",
-    "estimatedDuration": 18
+    "genre": "侦探",
+    "estimatedDuration": 18,
+    "involvement": "中等"
   },
   "nodes": [
     {

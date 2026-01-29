@@ -9,9 +9,9 @@
     "title": "タイムループパラドックス",
     "author": "サラ・チェン博士",
     "description": "繰り返す一日に閉じ込められたあなたは、謎を解き明かし、時間の牢獄から脱出しなければならない。",
-    "genre": ["SF", "ミステリー"],
-    "difficulty": "難しい",
-    "estimatedDuration": 35
+    "genre": "SF",
+    "estimatedDuration": 35,
+    "involvement": "難しい"
   },
   "nodes": [
     {

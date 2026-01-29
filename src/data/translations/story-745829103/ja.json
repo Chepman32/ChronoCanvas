@@ -9,12 +9,9 @@
     "title": "真夜中の庭園",
     "author": "イザベラ・クレイン",
     "description": "真夜中にしか花が咲かない庭園を持つヴィクトリア朝の邸宅を相続したあなた。庭園の世話をする謎めいた庭師に出会ったとき、彼が",
-    "genre": [
-      "ロマンス",
-      "ファンタジー"
-    ],
-    "difficulty": "中級",
-    "estimatedDuration": 38
+    "genre": "ロマンス",
+    "estimatedDuration": 38,
+    "involvement": "中級"
   },
   "nodes": [
     {

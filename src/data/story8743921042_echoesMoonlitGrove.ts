@@ -10,8 +10,8 @@ export const echoesMoonlitGroveStory: Story = {
   thumbnailUrl:
     'https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?w=400',
   author: 'Daria Voronova',
-  genre: ['fantasy', 'adventure'],
-  difficulty: 'medium',
+  genre: 'fantasy',
+  involvement: 'medium',
   estimatedDuration: 35,
   isPremium: true,
   productId: 'com.app.story.echoes-of-the-moonlit-grove',

@@ -9,12 +9,9 @@
     "title": "Ecos de la Arboleda Lunar",
     "author": "Daria Voronova",
     "description": "Cuando la luna llena se alza sobre el Bosque Espinegro, un viejo pacto despierta. Llevas un fragmento de un sello roto que vibra cerca de los árboles, llamándote hacia una corona olvidada y una deuda que la arboleda pretende cobrar. Elige aliados, honor o poder, pero la arboleda siempre cobra su tributo.",
-    "genre": [
-      "fantasy",
-      "adventure"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 35
+    "genre": "fantasy",
+    "estimatedDuration": 35,
+    "involvement": "medium"
   },
   "nodes": [
     {

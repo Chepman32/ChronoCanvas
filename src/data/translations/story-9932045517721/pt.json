@@ -9,12 +9,9 @@
     "title": "O Pacto do Tecelão de Raízes",
     "author": "Estúdio ChronoCanvas",
     "description": "Letras esculpidas pela seiva sangram através da casca: a árvore-mundo está doente. Podes ouvir o seu pulso se encostares o ouvido ao grão, e se ousares, podes responder. Irás curar com memória, negociar com fadas, ou cortar o que deve ser cortado?",
-    "genre": [
-      "fantasia",
-      "mistério"
-    ],
-    "difficulty": "fácil",
-    "estimatedDuration": 27
+    "genre": "fantasia",
+    "estimatedDuration": 27,
+    "involvement": "fácil"
   },
   "nodes": [
     {

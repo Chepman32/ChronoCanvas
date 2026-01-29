@@ -10,8 +10,8 @@ export const shadowsVanishedStarStory: Story = {
   thumbnailUrl:
     'https://images.unsplash.com/photo-1632958978877-69406b688b11?w=400',
   author: 'Daphne Sawyer',
-  genre: ['detective', 'mystery'],
-  difficulty: 'hard',
+  genre: 'detective',
+  involvement: 'high',
   estimatedDuration: 30,
   isPremium: false,
   version: '1.0',

@@ -9,12 +9,9 @@
     "title": "The Midnight Garden",
     "author": "Isabella Crane",
     "description": "You inherit a Victorian mansion with a garden that only blooms at midnight. When you meet the enigmatic gardener who tends it, you discover he",
-    "genre": [
-      "romance",
-      "fantasy"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 38
+    "genre": "romance",
+    "estimatedDuration": 38,
+    "involvement": "medium"
   },
   "nodes": [
     {

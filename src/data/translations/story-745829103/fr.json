@@ -9,12 +9,9 @@
     "title": "Le Jardin de Minuit",
     "author": "Isabella Crane",
     "description": "Vous héritez d'un manoir victorien avec un jardin qui ne fleurit qu'à minuit. Lorsque vous rencontrez l'énigmatique jardinier qui en prend soin, vous découvrez qu'il",
-    "genre": [
-      "romance",
-      "fantaisie"
-    ],
-    "difficulty": "moyen",
-    "estimatedDuration": 38
+    "genre": "romance",
+    "estimatedDuration": 38,
+    "involvement": "moyen"
   },
   "nodes": [
     {

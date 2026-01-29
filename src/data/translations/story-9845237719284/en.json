@@ -9,12 +9,9 @@
     "title": "Ember Crown Oath",
     "author": "ChronoCanvas Studio",
     "description": "When a mapmaker’s sketch warms to living ember, forgotten waylines flare across the coast. A warlord moves to rekindle the mountain and seize the Crown that now answers your hand. Will you share its fire, break it, or wear it?",
-    "genre": [
-      "fantasy",
-      "adventure"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 38
+    "genre": "fantasy",
+    "estimatedDuration": 38,
+    "involvement": "medium"
   },
   "nodes": [
     {

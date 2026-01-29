@@ -19,8 +19,8 @@ export const exampleStory: Story = {
   thumbnailUrl: require('../assets/images/thumbnails/thumb-story-example.jpg'),
 
   author: 'Example Author',
-  genre: ['adventure'],
-  difficulty: 'easy',
+  genre: 'adventure',
+  involvement: 'low',
   estimatedDuration: 15,
   isPremium: false,
   version: '1.0',

@@ -10,8 +10,8 @@ export const cosmicCastawayStory: Story = {
   thumbnailUrl:
     'https://images.unsplash.com/photo-1541873676-a18131494184?auto=format&fit=crop&w=400&q=80',
   author: 'Commander Lyra Hayes',
-  genre: ['scifi', 'adventure'],
-  difficulty: 'medium',
+  genre: 'scifi',
+  involvement: 'medium',
   estimatedDuration: 20,
   isPremium: false,
   version: '1.0',

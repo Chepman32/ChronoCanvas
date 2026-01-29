@@ -10,8 +10,8 @@ export const timekeepersHeartStory: Story = {
   thumbnailUrl:
     'https://images.unsplash.com/photo-1496304840334-955f7ef350f9?auto=format&fit=crop&w=400&q=80',
   author: 'Nova Strickland',
-  genre: ['romance', 'scifi'],
-  difficulty: 'medium',
+  genre: 'romance',
+  involvement: 'medium',
   estimatedDuration: 22,
   isPremium: false,
   version: '1.0',

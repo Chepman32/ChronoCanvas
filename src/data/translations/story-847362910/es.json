@@ -9,12 +9,9 @@
     "title": "La Llamada de Medianoche",
     "author": "Elena Blackwood",
     "description": "Alguien sabe lo que hiciste el verano pasado. El teléfono suena a las 3 AM con una voz de tu pasado, y ahora tienes 48 horas para encontrarlos antes de que ellos te encuentren a ti. Cada decisión podría ser la última.",
-    "genre": [
-      "detective",
-      "misterio"
-    ],
-    "difficulty": "medio",
-    "estimatedDuration": 18
+    "genre": "detective",
+    "estimatedDuration": 18,
+    "involvement": "medio"
   },
   "nodes": [
     {

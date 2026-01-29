@@ -9,12 +9,9 @@
     "title": "La Conservatrice de Minuit",
     "author": "Détective Marcus Reed",
     "description": "Une conservatrice d'art renommée est retrouvée morte dans une galerie verrouillée à la veille de la plus grande exposition de sa carrière. En tant que détective principal, vous avez jusqu'à l'aube pour résoudre le meurtre avant que la presse ne débarque et que le tueur ne disparaisse à jamais.",
-    "genre": [
-      "détective",
-      "mystère"
-    ],
-    "difficulty": "moyen",
-    "estimatedDuration": 18
+    "genre": "détective",
+    "estimatedDuration": 18,
+    "involvement": "moyen"
   },
   "nodes": [
     {

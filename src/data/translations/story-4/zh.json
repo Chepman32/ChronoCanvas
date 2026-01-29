@@ -9,12 +9,9 @@
     "title": "深渊秘密",
     "author": "玛丽娜·托雷斯船长",
     "description": "潜入最深的海沟,那里有一个古老文明等待被发现。",
-    "genre": [
-      "悬疑",
-      "冒险"
-    ],
-    "difficulty": "中等",
-    "estimatedDuration": 30
+    "genre": "悬疑",
+    "estimatedDuration": 30,
+    "involvement": "中等"
   },
   "nodes": [
     {

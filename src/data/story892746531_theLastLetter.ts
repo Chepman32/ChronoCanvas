@@ -10,8 +10,8 @@ export const theLastLetterStory: Story = {
   thumbnailUrl:
     'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=400',
   author: 'Elena Rousseau',
-  genre: ['romance', 'mystery'],
-  difficulty: 'medium',
+  genre: 'romance',
+  involvement: 'medium',
   estimatedDuration: 35,
   isPremium: false,
   version: '1.0',

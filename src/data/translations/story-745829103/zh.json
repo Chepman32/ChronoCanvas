@@ -9,12 +9,9 @@
     "title": "午夜花园",
     "author": "伊莎贝拉·克莱恩",
     "description": "你继承了一座维多利亚时代的庄园，园中有一座只在午夜时分盛开的花园。当你遇见照料花园的神秘园丁时，你发现他",
-    "genre": [
-      "浪漫",
-      "奇幻"
-    ],
-    "difficulty": "中等",
-    "estimatedDuration": 38
+    "genre": "浪漫",
+    "estimatedDuration": 38,
+    "involvement": "中等"
   },
   "nodes": [
     {

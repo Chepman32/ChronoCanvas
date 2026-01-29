@@ -9,12 +9,9 @@
     "title": "時守の心臓",
     "author": "ノヴァ・ストリックランド",
     "description": "時間工学者と彼女のパートナーが二人の未来を繋ぐ時計仕掛けの核を発見したとき、全ての選択が何世紀にもわたる愛を書き換える危険を伴う。",
-    "genre": [
-      "ロマンス",
-      "SF"
-    ],
-    "difficulty": "中級",
-    "estimatedDuration": 22
+    "genre": "ロマンス",
+    "estimatedDuration": 22,
+    "involvement": "中級"
   },
   "nodes": [
     {

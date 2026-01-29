@@ -9,12 +9,9 @@
     "title": "月光林地的回响",
     "author": "达里亚·沃罗诺娃",
     "description": "当满月升起在黑荆森林之上时，一个古老的契约苏醒了。你携带着一块破碎印章的碎片，它在树木附近嗡鸣，呼唤你走向一顶被遗忘的王冠和一笔林地打算收取的债务。选择盟友、荣誉或权力——但林地总会索取它的代价。",
-    "genre": [
-      "fantasy",
-      "adventure"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 35
+    "genre": "fantasy",
+    "estimatedDuration": 35,
+    "involvement": "medium"
   },
   "nodes": [
     {

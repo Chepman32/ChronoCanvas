@@ -9,12 +9,9 @@
     "title": "심장선 되감기",
     "author": "크로노캔버스 스튜디오",
     "description": "도시가 59분 루프에 갇혔고, 당신의 스케치가 시간을 다시 이어붙일 수 있다. 하지만 모든 수리는 과거에 파문을 일으킨다--특히 당신이 마야를 잃은 그날 밤. 타임라인을 복원할 것인가, 아니면 운명을 다시 그릴 것인가?",
-    "genre": [
-      "romance",
-      "scifi"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 32
+    "genre": "romance",
+    "estimatedDuration": 32,
+    "involvement": "medium"
   },
   "nodes": [
     {

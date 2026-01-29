@@ -9,12 +9,9 @@
     "title": "Segredos Abissais",
     "author": "Capitã Marina Torres",
     "description": "Mergulhe na fossa oceânica mais profunda onde uma civilização antiga aguarda descoberta.",
-    "genre": [
-      "mistério",
-      "aventura"
-    ],
-    "difficulty": "médio",
-    "estimatedDuration": 30
+    "genre": "mistério",
+    "estimatedDuration": 30,
+    "involvement": "médio"
   },
   "nodes": [
     {

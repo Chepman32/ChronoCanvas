@@ -27,7 +27,7 @@ export interface LocalizedStory {
   coverImageUrl: string;
   thumbnailUrl: string;
   genre: Story['genre'];
-  difficulty: Story['difficulty'];
+  involvement: Story['involvement'];
   estimatedDuration: number;
   isPremium: boolean;
   productId?: string;

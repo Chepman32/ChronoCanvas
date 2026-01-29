@@ -9,12 +9,9 @@
     "title": "Échos du Bosquet Lunaire",
     "author": "Daria Voronova",
     "description": "Quand la pleine lune se lève sur la Forêt de Roncenoire, un ancien pacte s'éveille. Tu portes un éclat d'un sceau brisé qui vibre près des arbres, t'appelant vers une couronne oubliée et une dette que le bosquet entend percevoir. Choisis des alliés, l'honneur ou le pouvoir—mais le bosquet prend toujours son dû.",
-    "genre": [
-      "fantasy",
-      "adventure"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 35
+    "genre": "fantasy",
+    "estimatedDuration": 35,
+    "involvement": "medium"
   },
   "nodes": [
     {

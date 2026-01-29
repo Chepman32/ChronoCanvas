@@ -10,8 +10,8 @@ export const emberCrownOathStory: Story = {
   thumbnailUrl:
     'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400',
   author: 'ChronoCanvas Studio',
-  genre: ['fantasy', 'adventure'],
-  difficulty: 'medium',
+  genre: 'fantasy',
+  involvement: 'medium',
   estimatedDuration: 38,
   isPremium: true,
   productId: 'com.app.story.ember-crown-oath',

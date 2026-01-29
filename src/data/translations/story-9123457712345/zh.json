@@ -9,12 +9,9 @@
     "title": "心线倒带",
     "author": "时间画布工作室",
     "description": "一座城市困在59分钟的循环中，你的素描可以将时光重新拼接。但每次修复都会在过去激起涟漪——尤其是你失去玛雅的那个晚上。你会恢复时间线还是重绘命运？",
-    "genre": [
-      "romance",
-      "scifi"
-    ],
-    "difficulty": "medium",
-    "estimatedDuration": 32
+    "genre": "romance",
+    "estimatedDuration": 32,
+    "involvement": "medium"
   },
   "nodes": [
     {

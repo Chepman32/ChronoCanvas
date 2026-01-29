@@ -31,7 +31,7 @@ export interface Translations {
   featuredStories: string;
   premium: string;
   minutes: string;
-  difficulty: string;
+  involvement: string;
 
   // Story Detail
   by: string;
@@ -74,10 +74,10 @@ export interface Translations {
   genreAdventure: string;
   genreDetective: string;
 
-  // Difficulty Levels
-  difficultyEasy: string;
-  difficultyMedium: string;
-  difficultyHard: string;
+  // Involvement Levels
+  involvementLow: string;
+  involvementMedium: string;
+  involvementHigh: string;
 }
 
 export const translations: Record<Language, Translations> = {
@@ -100,7 +100,7 @@ export const translations: Record<Language, Translations> = {
     featuredStories: 'Featured Stories',
     premium: 'Premium',
     minutes: 'minutes',
-    difficulty: 'difficulty',
+    involvement: 'Involvement',
 
     by: 'by',
     endings: 'endings',
@@ -138,9 +138,9 @@ export const translations: Record<Language, Translations> = {
     genreAdventure: 'Adventure',
     genreDetective: 'Detective',
 
-    difficultyEasy: 'Easy',
-    difficultyMedium: 'Medium',
-    difficultyHard: 'Hard',
+    involvementLow: 'Low',
+    involvementMedium: 'Medium',
+    involvementHigh: 'High',
   },
 
   // Russian (Русский)
@@ -162,7 +162,7 @@ export const translations: Record<Language, Translations> = {
     featuredStories: 'Избранные истории',
     premium: 'Премиум',
     minutes: 'минут',
-    difficulty: 'сложность',
+    involvement: 'Вовлеченность',
 
     by: 'автор',
     endings: 'концовок',
@@ -200,9 +200,9 @@ export const translations: Record<Language, Translations> = {
     genreAdventure: 'Приключения',
     genreDetective: 'Детектив',
 
-    difficultyEasy: 'Лёгкая',
-    difficultyMedium: 'Средняя',
-    difficultyHard: 'Сложная',
+    involvementLow: 'Низкая',
+    involvementMedium: 'Средняя',
+    involvementHigh: 'Высокая',
   },
 
   // Spanish (Español)
@@ -224,7 +224,7 @@ export const translations: Record<Language, Translations> = {
     featuredStories: 'Historias destacadas',
     premium: 'Premium',
     minutes: 'minutos',
-    difficulty: 'dificultad',
+    involvement: 'Participación',
 
     by: 'por',
     endings: 'finales',
@@ -262,9 +262,9 @@ export const translations: Record<Language, Translations> = {
     genreAdventure: 'Aventura',
     genreDetective: 'Detective',
 
-    difficultyEasy: 'Fácil',
-    difficultyMedium: 'Medio',
-    difficultyHard: 'Difícil',
+    involvementLow: 'Baja',
+    involvementMedium: 'Media',
+    involvementHigh: 'Alta',
   },
 
   // German (Deutsch)
@@ -286,7 +286,7 @@ export const translations: Record<Language, Translations> = {
     featuredStories: 'Empfohlene Geschichten',
     premium: 'Premium',
     minutes: 'Minuten',
-    difficulty: 'Schwierigkeit',
+    involvement: 'Beteiligung',
 
     by: 'von',
     endings: 'Enden',
@@ -325,9 +325,9 @@ export const translations: Record<Language, Translations> = {
     genreAdventure: 'Abenteuer',
     genreDetective: 'Detektiv',
 
-    difficultyEasy: 'Einfach',
-    difficultyMedium: 'Mittel',
-    difficultyHard: 'Schwer',
+    involvementLow: 'Niedrig',
+    involvementMedium: 'Mittel',
+    involvementHigh: 'Hoch',
   },
 
   // French (Français)
@@ -349,7 +349,7 @@ export const translations: Record<Language, Translations> = {
     featuredStories: 'Histoires en vedette',
     premium: 'Premium',
     minutes: 'minutes',
-    difficulty: 'difficulté',
+    involvement: 'Implication',
 
     by: 'par',
     endings: 'fins',
@@ -388,9 +388,9 @@ export const translations: Record<Language, Translations> = {
     genreAdventure: 'Aventure',
     genreDetective: 'Détective',
 
-    difficultyEasy: 'Facile',
-    difficultyMedium: 'Moyen',
-    difficultyHard: 'Difficile',
+    involvementLow: 'Faible',
+    involvementMedium: 'Moyenne',
+    involvementHigh: 'Élevée',
   },
 
   // Portuguese (Português)
@@ -412,7 +412,7 @@ export const translations: Record<Language, Translations> = {
     featuredStories: 'Histórias em destaque',
     premium: 'Premium',
     minutes: 'minutos',
-    difficulty: 'dificuldade',
+    involvement: 'Envolvimento',
 
     by: 'por',
     endings: 'finais',
@@ -450,9 +450,9 @@ export const translations: Record<Language, Translations> = {
     genreAdventure: 'Aventura',
     genreDetective: 'Detetive',
 
-    difficultyEasy: 'Fácil',
-    difficultyMedium: 'Médio',
-    difficultyHard: 'Difícil',
+    involvementLow: 'Baixo',
+    involvementMedium: 'Médio',
+    involvementHigh: 'Alto',
   },
 
   // Japanese (日本語)
@@ -474,7 +474,7 @@ export const translations: Record<Language, Translations> = {
     featuredStories: '注目のストーリー',
     premium: 'プレミアム',
     minutes: '分',
-    difficulty: '難易度',
+    involvement: '関与',
 
     by: '著者',
     endings: 'エンディング',
@@ -513,9 +513,9 @@ export const translations: Record<Language, Translations> = {
     genreAdventure: 'アドベンチャー',
     genreDetective: '探偵',
 
-    difficultyEasy: '簡単',
-    difficultyMedium: '普通',
-    difficultyHard: '難しい',
+    involvementLow: '低',
+    involvementMedium: '中',
+    involvementHigh: '高',
   },
 
   // Chinese (中文)
@@ -537,7 +537,7 @@ export const translations: Record<Language, Translations> = {
     featuredStories: '精选故事',
     premium: '高级',
     minutes: '分钟',
-    difficulty: '难度',
+    involvement: '参与度',
 
     by: '作者',
     endings: '结局',
@@ -575,9 +575,9 @@ export const translations: Record<Language, Translations> = {
     genreAdventure: '冒险',
     genreDetective: '侦探',
 
-    difficultyEasy: '简单',
-    difficultyMedium: '中等',
-    difficultyHard: '困难',
+    involvementLow: '低',
+    involvementMedium: '中',
+    involvementHigh: '高',
   },
 
   // Korean (한국어)
@@ -599,7 +599,7 @@ export const translations: Record<Language, Translations> = {
     featuredStories: '추천 스토리',
     premium: '프리미엄',
     minutes: '분',
-    difficulty: '난이도',
+    involvement: '참여도',
 
     by: '작가',
     endings: '엔딩',
@@ -637,9 +637,9 @@ export const translations: Record<Language, Translations> = {
     genreAdventure: '어드벤처',
     genreDetective: '탐정',
 
-    difficultyEasy: '쉬움',
-    difficultyMedium: '보통',
-    difficultyHard: '어려움',
+    involvementLow: '낮음',
+    involvementMedium: '중간',
+    involvementHigh: '높음',
   },
 
   // Ukrainian (Українська)
@@ -661,7 +661,7 @@ export const translations: Record<Language, Translations> = {
     featuredStories: 'Обрані історії',
     premium: 'Преміум',
     minutes: 'хвилин',
-    difficulty: 'складність',
+    involvement: 'Залученість',
 
     by: 'автор',
     endings: 'кінцівок',
@@ -699,9 +699,9 @@ export const translations: Record<Language, Translations> = {
     genreAdventure: 'Пригоди',
     genreDetective: 'Детектив',
 
-    difficultyEasy: 'Легка',
-    difficultyMedium: 'Середня',
-    difficultyHard: 'Складна',
+    involvementLow: 'Низька',
+    involvementMedium: 'Середня',
+    involvementHigh: 'Висока',
   },
 };
 

@@ -9,12 +9,9 @@
     "title": "午夜失踪",
     "author": "摩根·斯蒂尔",
     "description": "当一名年轻女子消失得无影无踪时,一位坚定的侦探必须穿过城市的阴影,在时间耗尽之前解开线索之网。每个决定都可能意味着拯救生命或失去线索。",
-    "genre": [
-      "侦探",
-      "悬疑"
-    ],
-    "difficulty": "中等",
-    "estimatedDuration": 20
+    "genre": "侦探",
+    "estimatedDuration": 20,
+    "involvement": "中等"
   },
   "nodes": [
     {

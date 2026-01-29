@@ -37,16 +37,16 @@ export const StoryDetailScreen: React.FC<StoryDetailScreenProps> = ({
 
   const buttonText = progress ? t.continueStory : t.startAdventure;
 
-  const getDifficultyLabel = (difficulty: string) => {
-    switch (difficulty) {
-      case 'easy':
-        return t.difficultyEasy;
+  const getInvolvementLabel = (involvement: string) => {
+    switch (involvement) {
+      case 'low':
+        return t.involvementLow;
       case 'medium':
-        return t.difficultyMedium;
-      case 'hard':
-        return t.difficultyHard;
+        return t.involvementMedium;
+      case 'high':
+        return t.involvementHigh;
       default:
-        return difficulty;
+        return involvement;
     }
   };
 
@@ -90,10 +90,10 @@ export const StoryDetailScreen: React.FC<StoryDetailScreenProps> = ({
             </View>
             <View style={styles.stat}>
               <Text style={[styles.statValue, { color: theme.primary }]}>
-                {getDifficultyLabel(story.difficulty)}
+                {getInvolvementLabel(story.involvement)}
               </Text>
               <Text style={[styles.statLabel, { color: theme.textSecondary }]}>
-                {t.difficulty}
+                {t.involvement}
               </Text>
             </View>
           </View>
@@ -139,17 +139,14 @@ export const StoryDetailScreen: React.FC<StoryDetailScreenProps> = ({
           </View>
 
           <View style={styles.genreSection}>
-            {story.genre.map(genre => (
-              <View
-                key={genre}
-                style={[
-                  styles.genreTag,
-                  { backgroundColor: theme.primaryLight },
-                ]}
-              >
-                <Text style={styles.genreText}>{genre}</Text>
-              </View>
-            ))}
+            <View
+              style={[
+                styles.genreTag,
+                { backgroundColor: theme.primaryLight },
+              ]}
+            >
+              <Text style={styles.genreText}>{story.genre}</Text>
+            </View>
           </View>
         </View>
       </ScrollView>

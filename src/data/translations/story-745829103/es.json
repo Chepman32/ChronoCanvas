@@ -9,12 +9,9 @@
     "title": "El Jardín de Medianoche",
     "author": "Isabella Crane",
     "description": "Heredas una mansión victoriana con un jardín que solo florece a medianoche. Cuando conoces al enigmático jardinero que lo cuida, descubres que él",
-    "genre": [
-      "romance",
-      "fantasía"
-    ],
-    "difficulty": "medio",
-    "estimatedDuration": 38
+    "genre": "romance",
+    "estimatedDuration": 38,
+    "involvement": "medio"
   },
   "nodes": [
     {

@@ -10,8 +10,8 @@ export const timeLoopStory: Story = {
   thumbnailUrl:
     'https://images.unsplash.com/photo-1501139083538-0139583c060f?w=400',
   author: 'Dr. Sarah Chen',
-  genre: ['scifi', 'mystery'],
-  difficulty: 'hard',
+  genre: 'scifi',
+  involvement: 'high',
   estimatedDuration: 35,
   isPremium: false,
   version: '1.0',
