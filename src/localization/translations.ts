@@ -8,7 +8,13 @@ export type Language =
   | 'ja'
   | 'zh'
   | 'ko'
-  | 'uk';
+  | 'uk'
+  | 'it'
+  | 'ar'
+  | 'hi'
+  | 'nl'
+  | 'pl'
+  | 'tr';
 
 export interface Translations {
   // App Name
@@ -703,6 +709,378 @@ export const translations: Record<Language, Translations> = {
     involvementMedium: 'Середня',
     involvementHigh: 'Висока',
   },
+
+  // Italian (Italiano)
+  it: {
+    appName: 'FableFlow',
+    appTagline: 'Scegli la tua avventura',
+    appVersion: 'FableFlow v1.0',
+    appDescription: 'Esperienza di storia interattiva',
+
+    back: 'Indietro',
+    close: 'Chiudi',
+    exit: 'Esci',
+    continue: 'Continua',
+    start: 'Inizia',
+    finish: 'Fine',
+    loading: 'Caricamento',
+
+    chooseYourAdventure: 'Scegli la tua avventura',
+    featuredStories: 'Storie in evidenza',
+    premium: 'Popolare',
+    minutes: 'minuti',
+    involvement: 'Coinvolgimento',
+
+    by: 'di',
+    endings: 'finali',
+    yourProgress: 'Il tuo progresso',
+    scenesVisited: 'scene visitate',
+    of: 'di',
+    story: 'Storia',
+    startAdventure: 'Inizia avventura',
+    continueStory: 'Continua storia',
+
+    loadingStory: 'Caricamento storia...',
+    theEnd: 'FINE',
+    finishStory: 'Fine storia',
+
+    settings: 'Impostazioni',
+    theme: 'Tema',
+    language: 'Lingua',
+    audio: 'Audio',
+    soundEffects: 'Effetti sonori',
+    soundEffectsDescription: 'Abilita effetti sonori durante il gioco',
+    feedback: 'Feedback',
+    hapticFeedback: 'Feedback aptico',
+    hapticFeedbackDescription: 'Abilita feedback vibrazione per interazioni',
+
+    themeLight: 'Chiaro',
+    themeDark: 'Scuro',
+    themeSolar: 'Solare',
+    themeMono: 'Mono',
+
+    genreFantasy: 'Fantasy',
+    genreSciFi: 'Fantascienza',
+    genreMystery: 'Mistero',
+    genreRomance: 'Romantico',
+    genreHorror: 'Horror',
+    genreAdventure: 'Avventura',
+    genreDetective: 'Detective',
+
+    involvementLow: 'Basso',
+    involvementMedium: 'Medio',
+    involvementHigh: 'Alto',
+  },
+
+  // Arabic (العربية)
+  ar: {
+    appName: 'FableFlow',
+    appTagline: 'اختر مغامرتك',
+    appVersion: 'FableFlow v1.0',
+    appDescription: 'تجربة القصة التفاعلية',
+
+    back: 'رجوع',
+    close: 'إغلاق',
+    exit: 'خروج',
+    continue: 'متابعة',
+    start: 'بدء',
+    finish: 'إنهاء',
+    loading: 'تحميل',
+
+    chooseYourAdventure: 'اختر مغامرتك',
+    featuredStories: 'قصص مميزة',
+    premium: 'شائع',
+    minutes: 'دقائق',
+    involvement: 'المشاركة',
+
+    by: 'بواسطة',
+    endings: 'نهايات',
+    yourProgress: 'تقدمك',
+    scenesVisited: 'مشاهد تمت زيارتها',
+    of: 'من',
+    story: 'قصة',
+    startAdventure: 'بدء المغامرة',
+    continueStory: 'متابعة القصة',
+
+    loadingStory: 'تحميل القصة...',
+    theEnd: 'النهاية',
+    finishStory: 'إنهاء القصة',
+
+    settings: 'الإعدادات',
+    theme: 'المظهر',
+    language: 'اللغة',
+    audio: 'الصوت',
+    soundEffects: 'المؤثرات الصوتية',
+    soundEffectsDescription: 'تمكين المؤثرات الصوتية أثناء اللعب',
+    feedback: 'الردود',
+    hapticFeedback: 'الردود اللمسية',
+    hapticFeedbackDescription: 'تمكين ردود الاهتزاز للتفاعلات',
+
+    themeLight: 'فاتح',
+    themeDark: 'داكن',
+    themeSolar: 'شمسي',
+    themeMono: 'أحادي',
+
+    genreFantasy: 'خيال',
+    genreSciFi: 'خيال علمي',
+    genreMystery: 'غموض',
+    genreRomance: 'رومانسي',
+    genreHorror: 'رعب',
+    genreAdventure: 'مغامرة',
+    genreDetective: 'تحقيق',
+
+    involvementLow: 'منخفض',
+    involvementMedium: 'متوسط',
+    involvementHigh: 'مرتفع',
+  },
+
+  // Hindi (हिंदी)
+  hi: {
+    appName: 'FableFlow',
+    appTagline: 'अपना रोमांच चुनें',
+    appVersion: 'FableFlow v1.0',
+    appDescription: 'इंटरैक्टिव कहानी अनुभव',
+
+    back: 'पीछे',
+    close: 'बंद करें',
+    exit: 'बाहर निकलें',
+    continue: 'जारी रखें',
+    start: 'शुरू करें',
+    finish: 'समाप्त',
+    loading: 'लोड हो रहा है',
+
+    chooseYourAdventure: 'अपना रोमांच चुनें',
+    featuredStories: 'विशेष कहानियां',
+    premium: 'लोकप्रिय',
+    minutes: 'मिनट',
+    involvement: 'भागीदारी',
+
+    by: 'द्वारा',
+    endings: 'अंत',
+    yourProgress: 'आपकी प्रगति',
+    scenesVisited: 'दृश्य देखे गए',
+    of: 'का',
+    story: 'कहानी',
+    startAdventure: 'रोमांच शुरू करें',
+    continueStory: 'कहानी जारी रखें',
+
+    loadingStory: 'कहानी लोड हो रही है...',
+    theEnd: 'अंत',
+    finishStory: 'कहानी समाप्त करें',
+
+    settings: 'सेटिंग्स',
+    theme: 'थीम',
+    language: 'भाषा',
+    audio: 'ऑडियो',
+    soundEffects: 'ध्वनि प्रभाव',
+    soundEffectsDescription: 'गेमप्ले के दौरान ध्वनि प्रभाव सक्षम करें',
+    feedback: 'प्रतिक्रिया',
+    hapticFeedback: 'हैप्टिक प्रतिक्रिया',
+    hapticFeedbackDescription: 'इंटरैक्शन के लिए कंपन प्रतिक्रिया सक्षम करें',
+
+    themeLight: 'लाइट',
+    themeDark: 'डार्क',
+    themeSolar: 'सोलर',
+    themeMono: 'मोनो',
+
+    genreFantasy: 'फंतासी',
+    genreSciFi: 'विज्ञान कथा',
+    genreMystery: 'रहस्य',
+    genreRomance: 'रोमांस',
+    genreHorror: 'हॉरर',
+    genreAdventure: 'रोमांच',
+    genreDetective: 'जासूसी',
+
+    involvementLow: 'कम',
+    involvementMedium: 'मध्यम',
+    involvementHigh: 'उच्च',
+  },
+
+  // Dutch (Nederlands)
+  nl: {
+    appName: 'FableFlow',
+    appTagline: 'Kies je avontuur',
+    appVersion: 'FableFlow v1.0',
+    appDescription: 'Interactief verhaalervaring',
+
+    back: 'Terug',
+    close: 'Sluiten',
+    exit: 'Afsluiten',
+    continue: 'Doorgaan',
+    start: 'Start',
+    finish: 'Voltooien',
+    loading: 'Laden',
+
+    chooseYourAdventure: 'Kies je avontuur',
+    featuredStories: 'Uitgelichte verhalen',
+    premium: 'Populair',
+    minutes: 'minuten',
+    involvement: 'Betrokkenheid',
+
+    by: 'door',
+    endings: 'eindes',
+    yourProgress: 'Je voortgang',
+    scenesVisited: 'scènes bezocht',
+    of: 'van',
+    story: 'Verhaal',
+    startAdventure: 'Avontuur starten',
+    continueStory: 'Verhaal vervolgen',
+
+    loadingStory: 'Verhaal laden...',
+    theEnd: 'EINDE',
+    finishStory: 'Verhaal voltooien',
+
+    settings: 'Instellingen',
+    theme: 'Thema',
+    language: 'Taal',
+    audio: 'Audio',
+    soundEffects: 'Geluidseffecten',
+    soundEffectsDescription: 'Geluidseffecten inschakelen tijdens gameplay',
+    feedback: 'Feedback',
+    hapticFeedback: 'Haptische feedback',
+    hapticFeedbackDescription: 'Trilfeedback inschakelen voor interacties',
+
+    themeLight: 'Licht',
+    themeDark: 'Donker',
+    themeSolar: 'Zon',
+    themeMono: 'Mono',
+
+    genreFantasy: 'Fantasy',
+    genreSciFi: 'Sciencefiction',
+    genreMystery: 'Mysterie',
+    genreRomance: 'Romantiek',
+    genreHorror: 'Horror',
+    genreAdventure: 'Avontuur',
+    genreDetective: 'Detective',
+
+    involvementLow: 'Laag',
+    involvementMedium: 'Gemiddeld',
+    involvementHigh: 'Hoog',
+  },
+
+  // Polish (Polski)
+  pl: {
+    appName: 'FableFlow',
+    appTagline: 'Wybierz swoją przygodę',
+    appVersion: 'FableFlow v1.0',
+    appDescription: 'Interaktywne doświadczenie opowieści',
+
+    back: 'Wstecz',
+    close: 'Zamknij',
+    exit: 'Wyjdź',
+    continue: 'Kontynuuj',
+    start: 'Rozpocznij',
+    finish: 'Zakończ',
+    loading: 'Ładowanie',
+
+    chooseYourAdventure: 'Wybierz swoją przygodę',
+    featuredStories: 'Wyróżnione opowieści',
+    premium: 'Popularne',
+    minutes: 'minut',
+    involvement: 'Zaangażowanie',
+
+    by: 'autor',
+    endings: 'zakończeń',
+    yourProgress: 'Twój postęp',
+    scenesVisited: 'odwiedzonych scen',
+    of: 'z',
+    story: 'Opowieść',
+    startAdventure: 'Rozpocznij przygodę',
+    continueStory: 'Kontynuuj opowieść',
+
+    loadingStory: 'Ładowanie opowieści...',
+    theEnd: 'KONIEC',
+    finishStory: 'Zakończ opowieść',
+
+    settings: 'Ustawienia',
+    theme: 'Motyw',
+    language: 'Język',
+    audio: 'Audio',
+    soundEffects: 'Efekty dźwiękowe',
+    soundEffectsDescription: 'Włącz efekty dźwiękowe podczas gry',
+    feedback: 'Opinie',
+    hapticFeedback: 'Sprzężenie zwrotne haptyczne',
+    hapticFeedbackDescription: 'Włącz sprzężenie zwrotne wibracji dla interakcji',
+
+    themeLight: 'Jasny',
+    themeDark: 'Ciemny',
+    themeSolar: 'Słoneczny',
+    themeMono: 'Mono',
+
+    genreFantasy: 'Fantasy',
+    genreSciFi: 'Science fiction',
+    genreMystery: 'Tajemnica',
+    genreRomance: 'Romans',
+    genreHorror: 'Horror',
+    genreAdventure: 'Przygoda',
+    genreDetective: 'Detektywistyczny',
+
+    involvementLow: 'Niskie',
+    involvementMedium: 'Średnie',
+    involvementHigh: 'Wysokie',
+  },
+
+  // Turkish (Türkçe)
+  tr: {
+    appName: 'FableFlow',
+    appTagline: 'Maceranı seç',
+    appVersion: 'FableFlow v1.0',
+    appDescription: 'Etkileşimli hikaye deneyimi',
+
+    back: 'Geri',
+    close: 'Kapat',
+    exit: 'Çık',
+    continue: 'Devam',
+    start: 'Başla',
+    finish: 'Bitir',
+    loading: 'Yükleniyor',
+
+    chooseYourAdventure: 'Maceranı seç',
+    featuredStories: 'Öne çıkan hikayeler',
+    premium: 'Popüler',
+    minutes: 'dakika',
+    involvement: 'Katılım',
+
+    by: 'tarafından',
+    endings: 'sonlar',
+    yourProgress: 'İlerlemen',
+    scenesVisited: 'ziyaret edilen sahneler',
+    of: '/',
+    story: 'Hikaye',
+    startAdventure: 'Macera başlat',
+    continueStory: 'Hikayeyi devam ettir',
+
+    loadingStory: 'Hikaye yükleniyor...',
+    theEnd: 'SON',
+    finishStory: 'Hikayeyi bitir',
+
+    settings: 'Ayarlar',
+    theme: 'Tema',
+    language: 'Dil',
+    audio: 'Ses',
+    soundEffects: 'Ses efektleri',
+    soundEffectsDescription: 'Oyun sırasında ses efektlerini etkinleştir',
+    feedback: 'Geri bildirim',
+    hapticFeedback: 'Haptik geri bildirim',
+    hapticFeedbackDescription: 'Etkileşimler için titreşim geri bildirimini etkinleştir',
+
+    themeLight: 'Açık',
+    themeDark: 'Koyu',
+    themeSolar: 'Güneş',
+    themeMono: 'Mono',
+
+    genreFantasy: 'Fantastik',
+    genreSciFi: 'Bilim kurgu',
+    genreMystery: 'Gizem',
+    genreRomance: 'Romantik',
+    genreHorror: 'Korku',
+    genreAdventure: 'Macera',
+    genreDetective: 'Dedektif',
+
+    involvementLow: 'Düşük',
+    involvementMedium: 'Orta',
+    involvementHigh: 'Yüksek',
+  },
 };
 
 export const languageNames: Record<Language, string> = {
@@ -716,4 +1094,10 @@ export const languageNames: Record<Language, string> = {
   zh: '中文',
   ko: '한국어',
   uk: 'Українська',
+  it: 'Italiano',
+  ar: 'العربية',
+  hi: 'हिंदी',
+  nl: 'Nederlands',
+  pl: 'Polski',
+  tr: 'Türkçe',
 };

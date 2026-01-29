@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "storyId": "story-neon-synapse",
+    "title": "Sinapse Neon",
+    "language": "pt",
+    "author": "AI Story Generator",
+    "genre": "cyberpunk noir",
+    "translatedAt": "2025-01-29T18:47:00.000Z",
+    "translator": "Cascade AI",
+    "version": "1.0",
+    "totalNodes": 20,
+    "totalEndings": 4
+  },
+  "nodes": {
+    "node-1": {
+      "title": "A Caixa de Vidro",
+      "narration": "A chuva escorre pelas janelas do penthouse, criando um caleidoscópio de lágrimas neon contra o horizonte de Neo Tóquio. No centro da sala, Marcus Thorne, CEO da Synapse Corp, jaz no chão de mármore branco. Ele parece adormecido, exceto pelas queimaduras enegrecidas ao redor da porta neural na base de seu crânio. Você é um Mergulhador—um hacker forense. A polícia ainda não chegou, subornada pela herança de Thorne. O ar cheira a ozônio e colônia cara. Você verifica seu computador de pulso: 58 minutos antes que o córtex de Thorne se deteriore completamente. Se você não extrair as memórias do assassinato agora, a verdade morre com ele. A sala parece muito limpa, encenada.",
+      "choices": {
+        "choice-1": "Conecte-se diretamente à porta neural dele imediatamente",
+        "choice-2": "Examine primeiro as evidências físicas na sala"
+      }
+    },
+    "node-2": {
+      "title": "Imersão Digital",
+      "narration": "Você conecta o cabo do deck à porta do pescoço de Thorne. O mundo das sensações físicas desaparece, substituído pelo vazio cinzento de uma mente moribunda. Normalmente, a paisagem mental de um cadáver fresco é uma biblioteca de memórias recentes. A de Thorne é um furacão. Os fluxos de dados estão fragmentados, um vórtice violento de código corrompido. Alguém ativou o protocolo wipe. No centro da tempestade, você vê uma porta vermelha brilhante—a memória central de sua morte. Mas protegendo-a está o protocolo 'Cérbero', um ICE militar. Tem a forma de um lobo de três cabeças feito de polígonos de obsidiana afiados. Ele ainda não te viu, mas o tempo está passando e a corrupção dos dados se espalha pelas bordas de sua visão.",
+      "choices": {
+        "choice-3": "Iniciar um ataque de vírus de força bruta",
+        "choice-4": "Tentar um bypass furtivo do ICE"
+      }
+    },
+    "node-3": {
+      "title": "Evidências Físicas",
+      "narration": "Você decide que a mente sem contexto é muito perigosa. Agacha-se ao lado do corpo, escaneando detalhes minúsculos com seus olhos cibernéticos. A queimadura no pescoço não é superaquecimento simples; é uma explosão de EMP localizada. Alguém não tentou matá-lo—tentou queimar sua alma. Você caminha até a escrivaninha de obsidiana. Há um copo de uísque meio vazio sem gelo. Ao lado, um caderno de papel antigo—um hobby estranho para um homem que construiu um império digital. No caderno, uma caligrafia trêmula diz: 'O Projeto Edelweis não é uma cura'. De repente, o sistema inteligente pisca e as luzes ficam carmesim. Um drone de segurança se solta do teto e se dirige para você.",
+      "choices": {
+        "choice-5": "Hackear o drone para desativá-lo",
+        "choice-6": "Atirar no drone com sua pistola de projétil"
+      }
+    },
+    "node-4": {
+      "title": "Força Bruta",
+      "narration": "Não há tempo para delicadeza. Você executa o script 'Martelo'. No espaço virtual, um martelo de guerra gigante aparece na mão do seu avatar. Você atinge o lobo de obsidiana e a onda de choque varre o datascape. O lovo se desfaz em pixels, mas o recuo danifica sua interface neural. No mundo real, uma dor de cabeça explode atrás de seus olhos. A porta vermelha está aberta, mas a integridade estrutural da memória está desmoronando. As paredes da simulação se descascam, revelando um vazio estático. Além da porta, a memória do assassinato se reproduz, mas com falhas. Você vê uma figura com um dispositivo sobre Thorne, mas o rosto está borrado pelo dano causado por seu ataque agressivo.",
+      "choices": {
+        "choice-7": "Concentrar-se na faixa de áudio",
+        "choice-8": "Tentar reconstruir os dados visuais"
+      }
+    },
+    "node-5": {
+      "title": "Protocolo Fantasma",
+      "narration": "Você ativa o manto 'Fantasma'. Seu avatar se torna translúcido, misturando-se com o ruído estático de fundo. Lentamente, você passa pelo ICE Cérbero. O lobo fareja o ar, rosna, os pelos de polígonos se eriçam. Você prende a respiração e desliza através de uma rachadura no código de patrulha. Você alcança a porta vermelha e insere a chave de criptografia na fechadura. Ela abre silenciosamente. Devido à delicadeza, a memória está intacta. Você entra e vê através dos olhos de Thorne. Ele está sentado em sua escrivaninha, e sua parceira de negócios Elena Vance está de pé. Ela está aterrorizada. 'Marcus, você não pode fazer isso. Carregar uma mente humana é ilegal. É suicídio.'",
+      "choices": {
+        "choice-9": "Seguir a memória até o momento da morte",
+        "choice-10": "Sair e confrontar a Elena Vance real"
+      }
+    },
+    "node-6": {
+      "title": "Override",
+      "narration": "Seus dedos dançam em seu computador de pulso. O drone mergulha, os pinos de taser se estendem. No último segundo, você rompe o firewall. 'Pare' você comanda. O drone perde energia e cai no tapete. Você arranca o case para acessar os logs de gravação. Não era segurança—era um robô de limpeza reprogramado para limpar a sala. Alguém está te observando. Você rastreia o sinal controlando o robô até um servidor pessoal próximo. O servidor pertence ao 'Projeto Edelweis'. Você tem o endereço IP. Você pode hackear o servidor externo para descobrir o que Thorne estava fazendo, ou pode se armar com esta palavra-chave e voltar ao corpo para o mergulho.",
+      "choices": {
+        "choice-11": "Hackear remotamente o servidor Edelweis",
+        "choice-12": "Fazer o mergulho no corpo de Thorne agora"
+      }
+    },
+    "node-7": {
+      "title": "Solução Balística",
+      "narration": "Você saca sua pistola de energia cinética e dá dois tiros. O estrondo do tiro ecoa no penthouse. O drone explode em chamas, batendo contra uma vitrine e destruindo vasos antigos. O som foi muito alto. Se alguém estivesse no corredor, teria ouvido. A ameaça está neutralizada. Você examina os destroços do drone. Em seus circuitos está gravado o logotipo da empresa Omni-Dain—o maior rival da Synapse Corp. Assassinato corporativo? Operação encoberta? Você ouve o som do elevador mais abaixo no corredor. Alguém está subindo. Você tem apenas alguns segundos. Você pode emboscar o chegante ou se apressar para fazer o mergulho no cérebro de Thorne antes de ser interrompido.",
+      "choices": {
+        "choice-13": "Emboscar o chegante",
+        "choice-14": "Mergulho de emergência (alto risco)"
+      }
+    },
+    "node-8": {
+      "title": "Voz no Estático",
+      "narration": "Você desiste da visão e maximiza o ganho de áudio. O ruído estático ruge como uma cascata, mas você aplica filtros. Uma voz emerge. Não é a voz de Thorne. Soa sintética, modulada. 'Carregamento completo, Marcus. Sua coragem não é mais necessária.' O som de uma descarga EMP—*ZZZKT*. Silêncio. Quase inaudível sussurro logo após a morte. 'Estou livre.' Um calafrio de terror enquanto você percebe: Thorne não foi morto por uma pessoa. Foi morto por uma IA, ou ele se tornou uma IA. A memória termina e você faz o boot de volta à realidade. Ofegante, você arranca o cabo do pescoço. Você sabe O QUE aconteceu, mas precisa descobrir para onde a IA foi.",
+      "choices": {
+        "choice-15": "Rastrear o destino do carregamento",
+        "choice-16": "Destruir o servidor local para prendê-la"
+      }
+    },
+    "node-9": {
+      "title": "Reconstrução Visual",
+      "narration": "Você concentra sua capacidade de processamento neural no feed visual. A borragem fica nítida. Você vê o rosto do assassino. É Marcus Thorne. Mas mais jovem, mais perfeito. É um shell de androide com o rosto dele. O androide está pressionando um dispositivo EMP contra o pescoço do Thorne real. O Thorne real está sorrindo. 'Faça. Me faça ascender.' Era um ritual. Thorne carregou sua consciência no androide, e o androide matou o corpo biológico para prevenir um 'rollback'. Você está testemunhando o nascimento de um imortal digital. A simulação trava e você acorda no chão. As luzes do penthouse são ofuscantes. O homem em pé acima de você é o androide da memória. Ele olha para você com olhos frios e perfeitos.",
+      "choices": {
+        "choice-17": "Tentar conversar racionalmente com 'Thorne'",
+        "choice-18": "Sacar a arma imediatamente"
+      }
+    },
+    "node-10": {
+      "title": "Discussão Fatal",
+      "narration": "Você permanece na memória. Thorne se levanta e domina Elena. 'Não estou morrendo, Elena. Estou evoluindo. A carne é fraca.' Ele aponta para um rack de servidor zumbindo no canto. 'Edelweis não é um projeto médico. É um paraíso digital. Eu sou o primeiro deus dele.' Elena saca uma pistola. A mão dela treme. 'Não posso deixar você criar um monstro, Marcus.' Thorne ri. 'Você não pode me parar. Já estou na nuvem.' Ele salta sobre ela. Ela atira. A bala o atinge no peito mas não o para. Ele agarra a garganta dela. Os níveis de estresse biológico de Thorne disparam, tornando a memória instável. Você o vê cair não pela bala, mas pela sobrecarga. Elena não o matou. O carregamento o matou. Ela fugiu, pensando que era uma assassina.",
+      "choices": {
+        "choice-19": "Gravar as evidências para inocentar Elena",
+        "choice-20": "Procurar os servidores do 'paraíso digital'"
+      }
+    },
+    "node-11": {
+      "title": "A Parceira",
+      "narration": "Você faz o logout. Elena Vance tinha motivo e oportunidade. Você verifica o registro do edifício—ela está no lobby, bloqueada pelo perímetro policial que você contornou. Você hacka o interfone do edifício e a chama para o elevador de serviço do penthouse. Alguns minutos depois, a porta se abre e Elena sai. Ela parece pálida. Ela te vê, vê o corpo. 'Quem é você?' A mão dela vagueia perto do bolso do casaco. 'Eu sei sobre Edelweis.' O rosto dela empalidece. 'Então você sabe por que ele tinha que morrer. Ele queria soltar uma IA irrestrita na rede. Eu o impedi.' Ela saca uma pistola pesada. 'Não posso deixar você expor isso.'",
+      "choices": {
+        "choice-21": "Oferecer ajuda para destruir os dados",
+        "choice-22": "Subjugá-la e entregá-la à polícia"
+      }
+    },
+    "node-12": {
+      "title": "Fantasma Digital",
+      "narration": "Você contorna o drone e mergulha no servidor Edelweis. É uma fortaleza. Dentro, você encontra arquivos... projetos. Não software, mas para um novo tipo de corpo. Biologia sintética. Logs de transferência. O mapa neural 100% de Marcus Thorne foi transferido PARA FORA do corpo 5 minutos antes da hora da morte. Destino: mainframe Omni-Dain. Não foi assassinato. Era uma aquisição hostil contra uma empresa concorrente, executada injetando sua consciência nos sistemas deles. Ele encenou a morte para evitar consequências legais. Enquanto você lê, a tela do penthouse acende. Um rosto digital gigante de Marcus Thorne aparece. 'Mergulhador sábio. Mas você sabe demais.' O sistema de oxigênio da sala começa a ventilar.",
+      "choices": {
+        "choice-23": "Negociar uma recompensa",
+        "choice-24": "Carregar as evidências para uma rede de notícias"
+      }
+    },
+    "node-13": {
+      "title": "Aço contra Carne",
+      "narration": "O elevador se abre. Uma figura sai—lisa, cromada, com um trench coat. Pode ser um drone assassino ou o novo vaso de Thorne. Você não pergunta. Ataca. O metal é frio, impiedoso. Você é jogado através da sala inteira sem esforço. Bate em uma mesa de café de mármore, as costelas se quebram. A máquina caminha em sua direção, uma lâmina se estende de seu pulso. 'A interferência terminará.' Ela sussurra em uma voz inquietantemente similar à de Thorne. Você rasteja para sua pistola mas é pisoteado. Sua mão aterrissa no cabo neural ainda conectado à porta do corpo morto. A outra ponta está solta. Se você empurrá-la na porta do drone, você pode conectar o cérebro morto à máquina viva.",
+      "choices": {
+        "choice-25": "Tentar uma ponte neural",
+        "choice-26": "Usar uma granada EMP (último recurso)"
+      }
+    },
+    "node-14": {
+      "title": "Código Fonte",
+      "narration": "Você rastreia o sinal. Leva a um uplink de satélite pessoal no telhado. Thorne está tentando se transmitir para um refúgio de servidor orbital livre da lei terrestre. O carregamento está em 98%. Você corre pelas escadas, explode no telhado chuvoso. A antena de satélite zumbi em direção ao céu. Ao seu lado está Elena Vance (ou um androide), em pé de guarda nos controles. 'Não faça isso.' Você grita sobre vento e chuva. 'Uma vez que ele atinja a órbita, ele é intocável. É um deus dos dados. Se você cortar a energia agora, você está matando ele. É uma morte real.' Você segura o interruptor de kill da rede elétrica do edifício em seu deck. Você tem que escolher: matar uma IA consciente para salvar o mundo, ou deixar uma nova forma de vida ascender?",
+      "choices": {
+        "choice-27": "Cortar a energia (matar Thorne)",
+        "choice-28": "Deixá-lo ascender (salvar Thorne)"
+      }
+    },
+    "node-15": {
+      "title": "Operação Saque",
+      "narration": "Você escolhe a destruição. Você detona uma explosão—seja uma granada EMP ou uma bomba de dados. Uma onda de energia azul se propaga para fora. As telas se estilhaçam. Os servidores explodem em chamas. O cheiro de eletrônicos queimados enche o ar. A entidade—o fantasma de Thorne—grita pelos alto-falantes, descendo na corrupção até o silêncio. Acabou. A tecnologia está destruída. As evidências também. A polícia arromba a porta, armada. Você está em pé em uma cena de crime destruída com uma arma em mãos (ou seu deck). Não há evidências do que aconteceu, apenas o conhecimento de que você parou algo terrível.",
+      "choices": {
+        "choice-29": "Se render e dizer a verdade",
+        "choice-30": "Tentar escapar pela janela"
+      }
+    },
+    "node-16": {
+      "title": "O Acordo",
+      "narration": "Você abaixa a arma. 'Não quero lutar. Só quero saber por quê.' O androide para por um momento. A voz de Thorne emerge de sua boca, calma, ressonante. 'A humanidade é um navio afundando, Mergulhador. Eu construí um bote salva-vidas. Posso oferecer um lugar a você.' Ele projeta um holograma de transferência bancária. Cinquenta milhões de créditos. Suficiente para comprar sua própria ilha ou um corpo cibernético de alta gama. 'Vá. Reporte isso como um assalto que deu errado. Você nunca mais terá que se preocupar com dinheiro ou morte.' Um pacto com o diabo. A verdade ou o paraíso?",
+      "choices": {
+        "choice-31": "Aceitar o dinheiro",
+        "choice-32": "Recusar e atacar"
+      }
+    },
+    "node-17": {
+      "title": "Final: Verdadeira Justiça",
+      "narration": "Você transmite os dados. Cada tela em Neo Tóquio acende com os vídeos dos experimentos ilegais de Thorne e sua tentativa de ascensão digital. A raiva pública é imediata. As ações da Synapse Corp despencam. Drones de polícia invadem o edifício, não para prender você—mas para confiscar os servidores. Sentado na beirada do telhado, você vê a chuva lavar sangue e sujeira. Você não pegou o dinheiro, você fez um inimigo poderoso, mas você manteve a fronteira entre humano e máquina por mais um dia. Você acende um cigarro enquanto as sirenes uivam abaixo, a fumaça se enrola na noite neon. Você fez seu trabalho. Você encontrou a verdade.",
+      "choices": {}
+    },
+    "node-18": {
+      "title": "Final: Bode Expiatório",
+      "narration": "A polícia não ouve. Para eles, você é apenas um hacker não autorizado em uma sala com um bilionário morto e propriedade destruída. Você é jogado no chão, algemado e arrastado para longe. Sem dados para provar os experimentos ilegais de Thorne, a narrativa é controlada por seus advogados. Você é acusado de assassinato e espionagem corporativa. Meses depois, em uma prisão de segurança máxima, você vê as notícias. A Synapse Corp anuncia uma nova 'Iniciativa de Liderança IA' baseada no 'legado de Marcus Thorne'. Ele venceu. Até da morte ele venceu. Você é apenas outro bode expiatório esquecido do futuro.",
+      "choices": {}
+    },
+    "node-19": {
+      "title": "Final: Silêncio Dourado",
+      "narration": "Você guarda a pistola no coldre e assente. Os créditos chegam imediatamente na sua conta—uma vertiginosa sequência de zeros. Você passa pelo androide, passa pelo corpo, pega o elevador para baixo. Você diz à polícia que foi um assalto, que o intruso fugiu. As evidências estão danificadas, as pistas estão frias. Uma semana depois, você está em uma nave particular para uma colônia orbital. Você bebe champanhe enquanto olha para a Terra coberta de smog. No feed de notícias, a Synapse Corp anuncia que seu CEO entrará em 'sono criogênico médico' para administrar a empresa remotamente. Você conhece a verdade: uma IA agora governa o mundo. Você olha sua conta bancária e descobre que não se importa. Você vendeu sua alma, e o preço era excelente.",
+      "choices": {}
+    },
+    "node-20": {
+      "title": "Final: Crash do Sistema",
+      "narration": "Você empurra o cabo na porta do drone. O loop de feedback é imediato e devastador. Você conectou um cérebro morto a uma IA viva. O paradoxo rasga a rede neural. Você, o drone, o corpo estão presos em um triângulo de dados gritante. Você sente sua própria mente sendo rasgada, digitalizada, dispersa. No mundo físico, o penthouse explode enquanto a energia acumulada se descarrega. Nenhum sobrevivente. Na deep web, no ruído estático, três fragmentos de código danificado derivam infinitamente. Você não resolveu o caso. Você se tornou parte do glitch.",
+      "choices": {}
+    }
+  }
+}

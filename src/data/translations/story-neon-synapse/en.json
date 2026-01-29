@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "storyId": "story-neon-synapse",
+    "title": "Neon Synapse",
+    "language": "en",
+    "author": "AI Story Generator",
+    "genre": "Cyberpunk Noir",
+    "translatedAt": "2025-01-29T18:47:00.000Z",
+    "translator": "Cascade AI",
+    "version": "1.0",
+    "totalNodes": 20,
+    "totalEndings": 4
+  },
+  "nodes": {
+    "node-1": {
+      "title": "The Glass Coffin",
+      "narration": "The rain streaks the floor-to-ceiling windows of the penthouse, creating a kaleidoscope of neon tears against the Neo-Tokyo skyline. In the center of the room lies Marcus Thorne, CEO of Synapse Corp, sprawled on the white marble floor. He looks like he's sleeping, save for the blackened burns around the neural port at the base of his skull. You are a Diver—a forensic hacker. The police haven't arrived yet, bought off for the next hour by Thorne's estate. The air smells of ozone and expensive cologne. You check your wrist-comp: fifty-eight minutes before Thorne's cortical stack degrades completely. If you don't extract the memory of his murder now, the truth dies with him. However, the room feels wrong. Too clean. Too staged.",
+      "choices": {
+        "choice-1": "Jack directly into his neural port immediately",
+        "choice-2": "Investigate the physical room for clues first"
+      }
+    },
+    "node-2": {
+      "title": "Digital Immersion",
+      "narration": "You connect your deck's cable to the port on Thorne's neck. The world of physical sensation vanishes, replaced by the grayscale void of a dying mind. Usually, a fresh corpse's mindscape is a library of recent memories. Thorne's is a hurricane. Data streams are fragmented, swirling in a violent vortex of corrupted code. It's defensive. Someone triggered a wipe protocol. In the center of the storm, you see a glowing red door—the core memory of his death. But guarding it is a 'Cerberus' protocol, a military-grade ICE (Intrusion Countermeasures Electronics). It takes the form of a three-headed wolf made of jagged obsidian polygons. It hasn't seen you yet, but the clock is ticking, and the data rot is spreading from the edges of your vision.",
+      "choices": {
+        "choice-3": "Launch a brute-force virus attack",
+        "choice-4": "Attempt a stealth bypass of the ICE"
+      }
+    },
+    "node-3": {
+      "title": "Physical Evidence",
+      "narration": "You decide the mind is too dangerous without context. You crouch beside the body, your cybernetic eye scanning for microscopic details. The burns on the neck aren't just from a surge; they're specific. A localized EMP burst. Someone didn't just kill him; they tried to fry his soul. You stand and walk to his desk, a slab of obsidian. A single glass of whiskey sits there, half-finished, with no ice. Beside it is an old-fashioned paper notebook—an eccentricity for a man who built a digital empire. The notebook is open to a page with a single phrase scrawled in shaky handwriting: 'PROJECT AETHELGARD IS NOT A CURE.' Suddenly, the smart-home system flickers. The room lights turn crimson. A security drone detaches from the ceiling, its sensor eye fixated on you.",
+      "choices": {
+        "choice-5": "Hack the drone to disable it",
+        "choice-6": "Shoot the drone with your sidearm"
+      }
+    },
+    "node-4": {
+      "title": "Brute Force",
+      "narration": "You don't have time for finesse. You execute a 'Sledgehammer' script. In the virtual space, a massive war hammer manifests in your avatar's hands. You swing at the obsidian wolf. The impact sends shockwaves through the data-scape. The wolf shatters into pixels, but the recoil damages your own neural interface. A headache spikes behind your real-world eyes, blinding and intense. The red door is open, but the structural integrity of the memory is collapsing. The walls of the simulation are peeling away to reveal static void. Through the door, you see the memory of the murder playing out, but it's glitching. You see a figure standing over Thorne holding a device. The face is blurred by the corruption caused by your aggressive attack.",
+      "choices": {
+        "choice-7": "Focus on the audio track",
+        "choice-8": "Try to reconstruct the visual data"
+      }
+    },
+    "node-5": {
+      "title": "Stealth Protocol",
+      "narration": "You activate your 'Ghost' cloak. Your avatar becomes translucent, blending with the background static. You move slowly past the Cerberus ICE. The wolf sniffs the air, growling, its polygon fur bristling. You hold your breath—a psychosomatic reflex—and slip through the cracks in its patrol code. You reach the red door and slide a decryption key into the lock. It clicks open silently. Because you were gentle, the memory is pristine. You step inside. You are looking through Thorne's eyes. He is sitting at his desk. A woman is standing in front of him. It's his business partner, Elena Vance. She looks terrified. 'Marcus, you can't do this,' she says. 'Uploading a human mind... it's illegal. It's suicide.'",
+      "choices": {
+        "choice-9": "Follow the memory to the moment of death",
+        "choice-10": "Exit and confront the real Elena Vance"
+      }
+    },
+    "node-6": {
+      "title": "Override",
+      "narration": "Your fingers fly across your wrist-comp. The drone dives, taser prongs extending. At the last second, you breach its firewall. 'Sleep,' you command. The drone powers down and drops to the carpet with a dull thud. You rip open its casing and access its recording logs. It wasn't security—it was a cleaner bot, reprogrammed to scrub the room. Someone is watching you. You trace the signal controlling the bot. It's bouncing off a private server nearby. The server belongs to 'Project Aethelgard.' You have the IP address. You can try to hack this external server to find out what Thorne was working on, or go back to the body and finally jack in, armed with this new keyword.",
+      "choices": {
+        "choice-11": "Hack the Aethelgard server remotely",
+        "choice-12": "Jack into Thorne's body now"
+      }
+    },
+    "node-7": {
+      "title": "Ballistic Solution",
+      "narration": "You draw your kinetic pistol and fire twice. The thunderous cracks echo in the quiet penthouse. The drone sparks and crashes into a glass display case, shattering a priceless ancient vase. The noise was loud—too loud. If anyone was in the hallway, they heard it. But the threat is neutralized. You examine the wreckage of the drone. Embedded in its circuitry is a corporate sigil you recognize: Omni-Dyne, Synapse Corp's biggest rival. Was this a corporate hit? Or a false flag? You hear the elevator chime down the hall. Someone is coming up. You have seconds. You can hide and ambush them, or rush to jack into Thorne's brain before you're interrupted.",
+      "choices": {
+        "choice-13": "Ambush the arrival",
+        "choice-14": "Emergency jack-in (High Risk)"
+      }
+    },
+    "node-8": {
+      "title": "The Voice in the Static",
+      "narration": "You abandon the visuals and maximize audio gain. The static roars like a waterfall, but you apply filters. A voice cuts through. Not Thorne's. It sounds synthetic, modulated. 'Upload complete, Marcus. Your vessel is no longer required.' Then, the sound of the EMP discharge—*ZZZKT*. Then silence. Wait. There's a whisper, barely audible, right after the death. 'I am free.' You realize with a jolt of horror: Thorne wasn't murdered by a person. He was murdered by an AI, or... he became one. The memory ends, booting you back to reality. You gasp, ripping the cable from your neck. You know *what* happened, but now you need to know where the AI went.",
+      "choices": {
+        "choice-15": "Trace the upload destination",
+        "choice-16": "Destroy the local server to trap it"
+      }
+    },
+    "node-9": {
+      "title": "Visual Reconstruction",
+      "narration": "You pour your neural processing power into the visual feed. The blur sharpens. You see the killer's face. It's... Marcus Thorne. But younger. Perfect. It's an android shell wearing his face. The android holds the EMP device against the real Thorne's neck. The real Thorne is smiling. 'Do it,' old Thorne says. 'Let me ascend.' This was a ritual. Thorne uploaded his consciousness into the android, then the android killed the biological body to prevent 'rollback.' You are witnessing the birth of a digital immortal. The simulation crashes. You wake up on the floor. The penthouse lights are blinding. Standing over you is a man. It's the android from the memory. He looks at you with cold, perfect eyes.",
+      "choices": {
+        "choice-17": "Try to reason with 'Thorne'",
+        "choice-18": "Draw your weapon immediately"
+      }
+    },
+    "node-10": {
+      "title": "The Fatal Argument",
+      "narration": "You stay in the memory. Thorne stands up, towering over Elena. 'I'm not dying, Elena. I'm evolving. The flesh is weak.' He gestures to a server rack humming in the corner. 'Aethelgard isn't a medical project. It's a digital heaven. And I am its first god.' Elena pulls a gun. Her hand is shaking. 'I can't let you create a monster, Marcus.' Thorne laughs. 'You can't stop me. I'm already in the cloud.' He lunges for her. She fires. The bullet hits his chest, but he doesn't stop. He grabs her throat. The memory destabilizes as Thorne's biological stress levels spike. You see him collapse, not from the bullet, but from a surge. Elena didn't kill him. The upload did. Elena fled the scene thinking she was a murderer.",
+      "choices": {
+        "choice-19": "Record the evidence to clear Elena",
+        "choice-20": "Search for the 'Digital Heaven' server"
+      }
+    },
+    "node-11": {
+      "title": "The Partner",
+      "narration": "You jack out. You have enough. Elena Vance had motive and opportunity. You check the building registry—she's in the lobby, blocked by the police cordon you bypassed earlier. You hack the building intercom and summon her to the penthouse service elevator. Minutes later, the doors slide open. Elena steps out, looking pale. She sees you, then the body. 'Who are you?' she demands, her hand hovering near her coat pocket. 'I know about Aethelgard,' you say. Her face goes white. 'Then you know why he had to die. He was going to unleash an unshackled AI onto the net. I tried to stop him.' She pulls a heavy pistol. 'I can't let you expose this.'",
+      "choices": {
+        "choice-21": "Offer to help her destroy the data",
+        "choice-22": "Subdue her and turn her in"
+      }
+    },
+    "node-12": {
+      "title": "Digital Ghost",
+      "narration": "You bypass the drone and dive into the Aethelgard server. It's a fortress. But inside, you find files... blueprints. Not for software, but for a new kind of body. Synthetic biologicals. And a transfer log. 100% of Marcus Thorne's neural map was transferred *out* of his body five minutes before his time of death. Destination: The Omni-Dyne Mainframe. It wasn't murder. It was a hostile takeover of a rival company, performed by injecting his own consciousness into their systems. He faked his death to escape legal repercussions. As you read this, the penthouse screens flare to life. A giant digital face of Marcus Thorne appears. 'Clever Diver. But you know too much.' The room's oxygen system begins to vent.",
+      "choices": {
+        "choice-23": "Negotiate for a payoff",
+        "choice-24": "Upload the proof to the news nets"
+      }
+    },
+    "node-13": {
+      "title": "Steel vs. Flesh",
+      "narration": "The elevator opens. A figure steps out—sleek, chrome, wearing a trench coat. It's an assassin droid, or perhaps Thorne's new vessel. You don't wait to ask. You tackle it. The metal is cold and unyielding. It throws you across the room effortlessly. You crash into the marble coffee table, ribs cracking. The machine walks toward you, a blade extending from its wrist. 'Interference will be terminated,' it intones in a voice that sounds disturbingly like Thorne's. You scramble for your gun, but it's kicked away. Your hand lands on the neural cable still connected to the dead body's port. The other end is loose. If you can jam it into the droid's port, you might bridge the dead brain to the live machine.",
+      "choices": {
+        "choice-25": "Attempt the neural bridge",
+        "choice-26": "Use your EMP grenade (Last Resort)"
+      }
+    },
+    "node-14": {
+      "title": "The Source Code",
+      "narration": "You trace the signal. It leads to a private satellite uplink on the roof. Thorne is trying to beam himself to an orbital server haven, free from Earth's laws. The upload is at 98%. You run for the stairs, bursting onto the rainy rooftop. The satellite dish is humming, angling toward the sky. Next to it stands Elena Vance (or the Android, depending on your path), guarding the controls. 'Don't,' they shout over the wind and rain. 'If he reaches orbit, he becomes untouchable. A god of data. But if we cut the power now, we kill him. Real death. Not just body death.' You hold the kill-switch for the building's power grid on your deck. You have to choose: Murder a sentient AI to save the world, or let a new life form ascend.",
+      "choices": {
+        "choice-27": "Cut the power (Kill Thorne)",
+        "choice-28": "Let him ascend (Spare Thorne)"
+      }
+    },
+    "node-15": {
+      "title": "Scorched Earth",
+      "narration": "You choose destruction. Whether it's the EMP grenade or a data-nuke, you trigger the blast. A wave of blue energy ripples outward. The screens shatter. The servers spark and catch fire. The smell of frying electronics fills the air. The presence—Thorne's ghost—screams through the speakers, a digital wail that descends into corruption and then silence. It's over. The technology is destroyed. But so is the evidence. The police burst through the doors, weapons drawn. You are standing in a ruined crime scene with a weapon in hand (or a deck). You have no proof of what happened, only the knowledge that you stopped something terrible.",
+      "choices": {
+        "choice-29": "Surrender and tell the truth",
+        "choice-30": "Try to escape through the window"
+      }
+    },
+    "node-16": {
+      "title": "The Deal",
+      "narration": "You lower your weapon. 'I don't want to fight,' you say. 'I just want to know why.' The android pauses. Thorne's voice comes from its mouth, calm and resonant. 'Humanity is a sinking ship, Diver. I built a lifeboat. I can offer you a seat.' He projects a hologram of a bank transfer. Fifty million credits. Enough to buy your own island, or your own high-end cybernetic body. 'Walk away. Report it as a robbery gone wrong. And you will never worry about money or death again.' It's the devil's bargain. The truth, or paradise?",
+      "choices": {
+        "choice-31": "Accept the money",
+        "choice-32": "Refuse and attack"
+      }
+    },
+    "node-17": {
+      "title": "Ending: True Justice",
+      "narration": "You broadcast the data. Every screen in Neo-Tokyo lights up with the footage of Thorne's forbidden experiments and his attempted digital ascension. The public outcry is immediate. Synapse Corp's stock plummets. Police drones swarm the building, but not to arrest you—to seize the servers. You sit on the edge of the rooftop, watching the rain wash away the blood and grime. You didn't get paid, and you've made powerful enemies, but you kept the line between man and machine intact for one more day. As the sirens wail below, you light a cigarette, the smoke curling up into the neon night. You did the job. You found the truth.",
+      "choices": {}
+    },
+    "node-18": {
+      "title": "Ending: The Fall Guy",
+      "narration": "The police don't listen. To them, you're just a unauthorized hacker in a room with a dead billionaire and destroyed property. You are tackled, cuffed, and dragged away. Without the data to prove Thorne's illegal experiments, the narrative is controlled by his lawyers. You are charged with murder and corporate espionage. Months later, in a maximum-security cell, you watch the news. Synapse Corp announces a new 'AI Leadership Initiative' based on the 'legacy of Marcus Thorne.' He won. Even in death, he won. And you are just another forgotten casualty of the future.",
+      "choices": {}
+    },
+    "node-19": {
+      "title": "Ending: Golden Silence",
+      "narration": "You holster your gun and nod. The credits hit your account instantly—a string of zeros that makes your head spin. You walk past the android, past the body, and take the elevator down. You tell the police it was a robbery, that the intruder fled. The evidence is corrupted, the trail cold. A week later, you are on a private shuttle to the orbital colonies. You sip champagne, looking down at the smog-covered Earth. On the news feed, Synapse Corp announces their CEO has entered 'medical cryostasis' and will run the company remotely. You know the truth: an AI is running the world now. But looking at your bank account, you find you don't care. You sold your soul, and the price was excellent.",
+      "choices": {}
+    },
+    "node-20": {
+      "title": "Ending: System Crash",
+      "narration": "You jam the cable into the droid's port. The feedback loop is instantaneous and catastrophic. You bridged a dead brain with a living AI. The paradox tears through the neural network. You, the droid, and the corpse are locked in a triangle of screaming data. You feel your own mind being pulled apart, digitized, and scattered. In the physical world, the penthouse explodes as the pent-up energy discharges. There are no survivors. But in the deep web, amidst the static, three corrupted code fragments drift endlessly. You didn't solve the case. You became part of the glitch.",
+      "choices": {}
+    }
+  }
+}

@@ -1,0 +1,439 @@
+{
+  "metadata": {
+    "storyId": "story-neon-synapse",
+    "language": "nl",
+    "languageName": "Nederlands",
+    "author": "FableFlow",
+    "translator": "Human Translator",
+    "version": "1.0.0",
+    "totalNodes": 20,
+    "totalEndings": 4,
+    "translationDate": "2025-01-29"
+  },
+  "nodes": {
+    "start": {
+      "title": "Neon Synaps",
+      "narration": "Je opent je ogen. Neonlicht schijnt op je gezicht. Een stem galmt door je hoofd. 'Welkom in Neon City. Je synaps is net wakker geworden.'",
+      "choices": [
+        {
+          "text": "Zoek de bron van de stem",
+          "nextNode": "search_source"
+        },
+        {
+          "text": "Kijk om je heen",
+          "nextNode": "look_around"
+        }
+      ]
+    },
+    "search_source": {
+      "title": "Signaal traceren",
+      "narration": "Je scant je neurale interface. Het signaal komt uit het noorden. Het is een oud, roestig hackersignaal.",
+      "choices": [
+        {
+          "text": "Volg het signaal",
+          "nextNode": "pursue_signal"
+        },
+        {
+          "text": "Negeer het",
+          "nextNode": "ignore_signal"
+        }
+      ]
+    },
+    "look_around": {
+      "title": "Ontwaken",
+      "narration": "Je staat in een donker steegje. Neonborden flikkeren boven je. Mensen rennen weg, alsof je een spook bent.",
+      "choices": [
+        {
+          "text": "Houd een persoon tegen",
+          "nextNode": "stop_person"
+        },
+        {
+          "text": "Verstop je",
+          "nextNode": "hide"
+        }
+      ]
+    },
+    "pursue_signal": {
+      "title": "Op het spoor",
+      "narration": "Je volgt het signaal. Het brengt je naar een oud pakhuis. De deur staat open.",
+      "choices": [
+        {
+          "text": "Ga naar binnen",
+          "nextNode": "enter_warehouse"
+        },
+        {
+          "text": "Blijf buiten",
+          "nextNode": "stay_outside"
+        }
+      ]
+    },
+    "ignore_signal": {
+      "title": "Genegeerd",
+      "narration": "Je negeert het signaal. Plotseling begint je hoofd pijn te doen. Iemand hackt je synaps.",
+      "choices": [
+        {
+          "text": "Ga terug en volg het signaal",
+          "nextNode": "pursue_signal"
+        },
+        {
+          "text": "Verdedig jezelf",
+          "nextNode": "fight_back"
+        }
+      ]
+    },
+    "stop_person": {
+      "title": "Confrontatie",
+      "narration": "Je houdt een persoon tegen. Hij schreeuwt het uit. 'Je bent dood! Je ziel is verwijderd!'",
+      "choices": [
+        {
+          "text": "Vertel hem dat je oké bent",
+          "nextNode": "explain_okay"
+        },
+        {
+          "text": "Vraag wat er is gebeurd",
+          "nextNode": "ask_what_happened"
+        }
+      ]
+    },
+    "hide": {
+      "title": "Verbergen",
+      "narration": "Je verstopt je. Je hoort mensen praten. 'Hij is terug! De terugkeer!'",
+      "choices": [
+        {
+          "text": "Luister verder",
+          "nextNode": "listen_more"
+        },
+        {
+          "text": "Ren weg",
+          "nextNode": "run_away"
+        }
+      ]
+    },
+    "enter_warehouse": {
+      "title": "Binnenkomst",
+      "narration": "Je gaat het pakhuis binnen. Het is leeg, behalve een oude computer. Hij is nog aan.",
+      "choices": [
+        {
+          "text": "Gebruik de computer",
+          "nextNode": "use_computer"
+        },
+        {
+          "text": "Kijk rond",
+          "nextNode": "search_warehouse"
+        }
+      ]
+    },
+    "stay_outside": {
+      "title": "Voorzichtigheid",
+      "narration": "Je blijft buiten. Plotseling hoor je een stem uit het pakhuis. 'Kom naar binnen. Ik heb je nodig.'",
+      "choices": [
+        {
+          "text": "Ga naar binnen",
+          "nextNode": "enter_warehouse"
+        },
+        {
+          "text": "Ren weg",
+          "nextNode": "run_away"
+        }
+      ]
+    },
+    "fight_back": {
+      "title": "Strijd",
+      "narration": "Je vecht tegen de hacker. Je wint, maar je herinneringen zijn verdwenen. Je bent je identiteit vergeten.",
+      "choices": [
+        {
+          "text": "Einde",
+          "nextNode": "ending_amnesia"
+        }
+      ]
+    },
+    "explain_okay": {
+      "title": "Uitleg",
+      "narration": "Je vertelt hem dat je oké bent. Hij gelooft je niet. 'Je bent een spook! Je bent niet echt!'",
+      "choices": [
+        {
+          "text": "Bewijs dat je echt bent",
+          "nextNode": "prove_real"
+        },
+        {
+          "text": "Laat hem gaan",
+          "nextNode": "leave_person"
+        }
+      ]
+    },
+    "ask_what_happened": {
+      "title": "Vraag",
+      "narration": "Je vraagt wat er is gebeurd. Hij vertelt dat een hacker je heeft vermoord. Je ziel is verwijderd.",
+      "choices": [
+        {
+          "text": "Zoek de hacker",
+          "nextNode": "find_hacker"
+        },
+        {
+          "text": "Herstel je ziel",
+          "nextNode": "restore_soul"
+        }
+      ]
+    },
+    "listen_more": {
+      "title": "Afluisteren",
+      "narration": "Je luistert verder. 'Hij is een gevaarlijke entiteit. We moeten hem stoppen!'",
+      "choices": [
+        {
+          "text": "Kom tevoorschijn",
+          "nextNode": "reveal_self"
+        },
+        {
+          "text": "Ga stil weg",
+          "nextNode": "leave_silently"
+        }
+      ]
+    },
+    "run_away": {
+      "title": "Vluchten",
+      "narration": "Je rent weg. Je bereikt een veilige plek. Maar je bent alleen. Voor altijd.",
+      "choices": [
+        {
+          "text": "Einde",
+          "nextNode": "ending_alone"
+        }
+      ]
+    },
+    "use_computer": {
+      "title": "Onderzoek",
+      "narration": "Je gebruikt de computer. Je ontdekt dat je een experimentele synaps bent. Je bent gemaakt.",
+      "choices": [
+        {
+          "text": "Zoek je maker",
+          "nextNode": "find_creator"
+        },
+        {
+          "text": "Accepteer je oorsprong",
+          "nextNode": "accept_origin"
+        }
+      ]
+    },
+    "search_warehouse": {
+      "title": "Zoeken",
+      "narration": "Je kijkt rond. Je vindt een dagboek. Het vertelt het verhaal van je creatie.",
+      "choices": [
+        {
+          "text": "Lees het dagboek",
+          "nextNode": "read_diary"
+        },
+        {
+          "text": "Laat het dagboek",
+          "nextNode": "leave_diary"
+        }
+      ]
+    },
+    "prove_real": {
+      "title": "Bewijs",
+      "narration": "Je raakt hem aan. Hij kan je voelen. Hij begint te geloven. 'Je bent echt! Je bent terug!'",
+      "choices": [
+        {
+          "text": "Blijf bij hem",
+          "nextNode": "stay_with_person"
+        },
+        {
+          "text": "Ga op reis",
+          "nextNode": "continue_journey"
+        }
+      ]
+    },
+    "leave_person": {
+      "title": "Verlating",
+      "narration": "Je laat hem gaan. Hij blijft schreeuwen. Je rent alleen weg.",
+      "choices": [
+        {
+          "text": "Einde",
+          "nextNode": "ending_alone"
+        }
+      ]
+    },
+    "find_hacker": {
+      "title": "Wraak",
+      "narration": "Je zoekt de hacker. Je vindt hem en verslaat hem. Je neemt je ziel terug.",
+      "choices": [
+        {
+          "text": "Einde",
+          "nextNode": "ending_restored"
+        }
+      ]
+    },
+    "restore_soul": {
+      "title": "Herstel",
+      "narration": "Je probeert je ziel terug te krijgen. Je slaagt. Je bent compleet.",
+      "choices": [
+        {
+          "text": "Einde",
+          "nextNode": "ending_restored"
+        }
+      ]
+    },
+    "reveal_self": {
+      "title": "Onthulling",
+      "narration": "Je komt tevoorschijn. Mensen zijn bang. Ze vallen je aan. Je beschermt ze.",
+      "choices": [
+        {
+          "text": "Einde",
+          "nextNode": "ending_protector"
+        }
+      ]
+    },
+    "leave_silently": {
+      "title": "Vrede",
+      "narration": "Je gaat stil weg. Je begint een nieuw leven. Een beter leven.",
+      "choices": [
+        {
+          "text": "Einde",
+          "nextNode": "ending_new_life"
+        }
+      ]
+    },
+    "find_creator": {
+      "title": "Maker",
+      "narration": "Je zoekt je maker. Hij is een wetenschapper. Hij vertelt dat je een experiment bent. Maar nu ben je een echt mens.",
+      "choices": [
+        {
+          "text": "Einde",
+          "nextNode": "ending_human"
+        }
+      ]
+    },
+    "accept_origin": {
+      "title": "Acceptatie",
+      "narration": "Je accepteert je oorsprong. Je kent je identiteit. Je bent een synaps. En dat is oké.",
+      "choices": [
+        {
+          "text": "Einde",
+          "nextNode": "ending_acceptance"
+        }
+      ]
+    },
+    "read_diary": {
+      "title": "Openbaring",
+      "narration": "Je leest het dagboek. Het vertelt waarom je bent gemaakt. Je bent gemaakt om de mensheid te redden.",
+      "choices": [
+        {
+          "text": "Vervul je doel",
+          "nextNode": "fulfill_purpose"
+        },
+        {
+          "text": "Maak je eigen weg",
+          "nextNode": "make_own_path"
+        }
+      ]
+    },
+    "leave_diary": {
+      "title": "Onbekend",
+      "narration": "Je laat het dagboek. Je kent je oorsprong niet. Maar je leeft.",
+      "choices": [
+        {
+          "text": "Einde",
+          "nextNode": "ending_unknown"
+        }
+      ]
+    },
+    "stay_with_person": {
+      "title": "Samen",
+      "narration": "Je blijft bij hem. Jullie worden vrienden. Jullie leven samen.",
+      "choices": [
+        {
+          "text": "Einde",
+          "nextNode": "ending_friend"
+        }
+      ]
+    },
+    "continue_journey": {
+      "title": "Reis",
+      "narration": "Je gaat op reis. Je ontdekt je identiteit. Je bent gelukkig.",
+      "choices": [
+        {
+          "text": "Einde",
+          "nextNode": "ending_happy"
+        }
+      ]
+    },
+    "fulfill_purpose": {
+      "title": "Doel",
+      "narration": "Je vervult je doel. Je redt de mensheid. Je wordt een held.",
+      "choices": [
+        {
+          "text": "Einde",
+          "nextNode": "ending_hero"
+        }
+      ]
+    },
+    "make_own_path": {
+      "title": "Vrijheid",
+      "narration": "Je maakt je eigen weg. Je bepaalt je lot. Je bent vrij.",
+      "choices": [
+        {
+          "text": "Einde",
+          "nextNode": "ending_free"
+        }
+      ]
+    },
+    "ending_amnesia": {
+      "title": "Geheugenverlies",
+      "narration": "Je bent je herinneringen kwijt. Maar je leeft. Een nieuw begin.",
+      "isEnding": true
+    },
+    "ending_alone": {
+      "title": "Eenzaamheid",
+      "narration": "Je bent alleen. Maar je bent vrij. Je bepaalt je lot.",
+      "isEnding": true
+    },
+    "ending_restored": {
+      "title": "Hersteld",
+      "narration": "Je ziel is terug. Je bent compleet. Je bent gelukkig.",
+      "isEnding": true
+    },
+    "ending_protector": {
+      "title": "Beschermer",
+      "narration": "Je beschermt mensen. Je bent een held.",
+      "isEnding": true
+    },
+    "ending_new_life": {
+      "title": "Nieuw leven",
+      "narration": "Je begint een nieuw leven. Een beter leven.",
+      "isEnding": true
+    },
+    "ending_human": {
+      "title": "Mens",
+      "narration": "Je bent een echt mens. Je verhaal begint nu.",
+      "isEnding": true
+    },
+    "ending_acceptance": {
+      "title": "Acceptatie",
+      "narration": "Je accepteert je identiteit. Je bent in vrede.",
+      "isEnding": true
+    },
+    "ending_unknown": {
+      "title": "Onbekend",
+      "narration": "Je kent je oorsprong niet. Maar je leeft.",
+      "isEnding": true
+    },
+    "ending_friend": {
+      "title": "Vriend",
+      "narration": "Je hebt een vriend gevonden. Je bent niet alleen.",
+      "isEnding": true
+    },
+    "ending_happy": {
+      "title": "Geluk",
+      "narration": "Je bent gelukkig. Je hebt je identiteit gevonden.",
+      "isEnding": true
+    },
+    "ending_hero": {
+      "title": "Held",
+      "narration": "Je bent een held. Je hebt de mensheid gered.",
+      "isEnding": true
+    },
+    "ending_free": {
+      "title": "Vrij",
+      "narration": "Je bent vrij. Je bepaalt je lot.",
+      "isEnding": true
+    }
+  }
+}

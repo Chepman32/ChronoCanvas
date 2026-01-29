@@ -1,0 +1,439 @@
+{
+  "metadata": {
+    "storyId": "story-neon-synapse",
+    "language": "tr",
+    "languageName": "Türkçe",
+    "author": "FableFlow",
+    "translator": "Human Translator",
+    "version": "1.0.0",
+    "totalNodes": 20,
+    "totalEndings": 4,
+    "translationDate": "2025-01-29"
+  },
+  "nodes": {
+    "start": {
+      "title": "Neon Sinaps",
+      "narration": "Gözlerini açıyorsun. Neon ışığı yüzüne parlıyor. Sesi kafanda yankılanıyor. 'Neon Şehrine hoş geldin. Sinapsın yeni uyandı.'",
+      "choices": [
+        {
+          "text": "Sesin kaynağını ara",
+          "nextNode": "search_source"
+        },
+        {
+          "text": "Etrafına bak",
+          "nextNode": "look_around"
+        }
+      ]
+    },
+    "search_source": {
+      "title": "Sinyal İzleme",
+      "narration": "Sinir arayüzünü tarıyorsun. Sinyal kuzeyden geliyor. Eski, paslı bir hacker sinyali.",
+      "choices": [
+        {
+          "text": "Sinyali takip et",
+          "nextNode": "pursue_signal"
+        },
+        {
+          "text": "Yoksay",
+          "nextNode": "ignore_signal"
+        }
+      ]
+    },
+    "look_around": {
+      "title": "Uyanış",
+      "narration": "Karanlık bir sokakta duruyorsun. Neon tabelalar üstünde titriyor. İnseler kaçıyor, sanki bir hayaletsin.",
+      "choices": [
+        {
+          "text": "Birini durdur",
+          "nextNode": "stop_person"
+        },
+        {
+          "text": "Saklan",
+          "nextNode": "hide"
+        }
+      ]
+    },
+    "pursue_signal": {
+      "title": "İz Üzerinde",
+      "narration": "Sinyali takip ediyorsun. Seni eski bir depoya götürüyor. Kapı açık.",
+      "choices": [
+        {
+          "text": "İçeri gir",
+          "nextNode": "enter_warehouse"
+        },
+        {
+          "text": "Dışarı kal",
+          "nextNode": "stay_outside"
+        }
+      ]
+    },
+    "ignore_signal": {
+      "title": "Yoksayıldı",
+      "narration": "Sinyali yoksuyorsun. Aniden kafan ağrımaya başlıyor. Biri sinapsını hackliyor.",
+      "choices": [
+        {
+          "text": "Geri dön ve sinyali takip et",
+          "nextNode": "pursue_signal"
+        },
+        {
+          "text": "Kendini savun",
+          "nextNode": "fight_back"
+        }
+      ]
+    },
+    "stop_person": {
+      "title": "Karşılaşma",
+      "narration": "Birini durduruyorsun. O bağırıyor. 'Ölüsün! Ruhun silindi!'",
+      "choices": [
+        {
+          "text": "Ona iyi olduğunu söyle",
+          "nextNode": "explain_okay"
+        },
+        {
+          "text": "Ne olduğunu sor",
+          "nextNode": "ask_what_happened"
+        }
+      ]
+    },
+    "hide": {
+      "title": "Saklanma",
+      "narration": "Saklanıyorsun. İnselerin konuştuğunu duyuyorsun. 'O geri döndü! Dönüş!'",
+      "choices": [
+        {
+          "text": "Daha fazla dinle",
+          "nextNode": "listen_more"
+        },
+        {
+          "text": "Kaç",
+          "nextNode": "run_away"
+        }
+      ]
+    },
+    "enter_warehouse": {
+      "title": "Giriş",
+      "narration": "Depoya giriyorsun. Boş, sadece eski bir bilgisayar var. Hala çalışıyor.",
+      "choices": [
+        {
+          "text": "Bilgisayarı kullan",
+          "nextNode": "use_computer"
+        },
+        {
+          "text": "Etrafına bak",
+          "nextNode": "search_warehouse"
+        }
+      ]
+    },
+    "stay_outside": {
+      "title": "Dikkat",
+      "narration": "Dışarı kalıyorsun. Aniden depodan bir ses geliyor. 'İçeri gel. Senin ihtiyacım var.'",
+      "choices": [
+        {
+          "text": "İçeri gir",
+          "nextNode": "enter_warehouse"
+        },
+        {
+          "text": "Kaç",
+          "nextNode": "run_away"
+        }
+      ]
+    },
+    "fight_back": {
+      "title": "Mücadele",
+      "narration": "Hackerla savaşıyorsun. Kazanıyorsun, ama anıların kayboluyor. Kimliğini unutuyorsun.",
+      "choices": [
+        {
+          "text": "Son",
+          "nextNode": "ending_amnesia"
+        }
+      ]
+    },
+    "explain_okay": {
+      "title": "Açıklama",
+      "narration": "Ona iyi olduğunu söylüyorsun. İnanmıyor. 'Hayaletsin! Gerçek değilsin!'",
+      "choices": [
+        {
+          "text": "Gerçek olduğunu kanıtla",
+          "nextNode": "prove_real"
+        },
+        {
+          "text": "Onu bırak",
+          "nextNode": "leave_person"
+        }
+      ]
+    },
+    "ask_what_happened": {
+      "title": "Soru",
+      "narration": "Ne olduğunu soruyorsun. O bir hackerın seni öldürdüğünü söylüyor. Ruhun silindi.",
+      "choices": [
+        {
+          "text": "Hackerı bul",
+          "nextNode": "find_hacker"
+        },
+        {
+          "text": "Ruhunu geri al",
+          "nextNode": "restore_soul"
+        }
+      ]
+    },
+    "listen_more": {
+      "title": "Dinleme",
+      "narration": "Daha fazla dinliyorsun. 'O tehlikeli bir varlık. Onu durdurmamız lazım!'",
+      "choices": [
+        {
+          "text": "Kendini ortaya koy",
+          "nextNode": "reveal_self"
+        },
+        {
+          "text": "Sessizce git",
+          "nextNode": "leave_silently"
+        }
+      ]
+    },
+    "run_away": {
+      "title": "Kaçış",
+      "narration": "Kaçıyorsun. Güvenli bir yere ulaşıyorsun. Ama yalnızsın. Sonsuza kadar.",
+      "choices": [
+        {
+          "text": "Son",
+          "nextNode": "ending_alone"
+        }
+      ]
+    },
+    "use_computer": {
+      "title": "Araştırma",
+      "narration": "Bilgisayarı kullanıyorsun. Deneysel bir sinaps olduğunu keşfediyorsun. Yaratıldın.",
+      "choices": [
+        {
+          "text": "Yaratıcını bul",
+          "nextNode": "find_creator"
+        },
+        {
+          "text": "Kökenini kabul et",
+          "nextNode": "accept_origin"
+        }
+      ]
+    },
+    "search_warehouse": {
+      "title": "Arama",
+      "narration": "Etrafına bakıyorsun. Bir günlük buluyorsun. Yaratılışının hikayesini anlatıyor.",
+      "choices": [
+        {
+          "text": "Günlüğü oku",
+          "nextNode": "read_diary"
+        },
+        {
+          "text": "Günlüğü bırak",
+          "nextNode": "leave_diary"
+        }
+      ]
+    },
+    "prove_real": {
+      "title": "Kanıt",
+      "narration": "Ona dokunuyorsun. Seni hissedebiliyor. İnanmaya başlıyor. 'Gerçeksin! Geri döndün!'",
+      "choices": [
+        {
+          "text": "Onunla kal",
+          "nextNode": "stay_with_person"
+        },
+        {
+          "text": "Yolculuğa devam et",
+          "nextNode": "continue_journey"
+        }
+      ]
+    },
+    "leave_person": {
+      "title": "Terk",
+      "narration": "Onu bırakıyorsun. O bağırıyor. Yalnız kaçıyorsun.",
+      "choices": [
+        {
+          "text": "Son",
+          "nextNode": "ending_alone"
+        }
+      ]
+    },
+    "find_hacker": {
+      "title": "İntikam",
+      "narration": "Hackerı arıyorsun. Onu bulup yeniyorsun. Ruhunu geri alıyorsun.",
+      "choices": [
+        {
+          "text": "Son",
+          "nextNode": "ending_restored"
+        }
+      ]
+    },
+    "restore_soul": {
+      "title": "Geri Getirme",
+      "narration": "Ruhunu geri almaya çalışıyorsun. Başarıyorsun. Tamamsın.",
+      "choices": [
+        {
+          "text": "Son",
+          "nextNode": "ending_restored"
+        }
+      ]
+    },
+    "reveal_self": {
+      "title": "Ortaya Çıkış",
+      "narration": "Kendini ortaya koyuyorsun. İnsaller korkuyorlar. Sana saldırıyorlar. Onları koruyorsun.",
+      "choices": [
+        {
+          "text": "Son",
+          "nextNode": "ending_protector"
+        }
+      ]
+    },
+    "leave_silently": {
+      "title": "Barış",
+      "narration": "Sessizce gidiyorsun. Yeni bir hayat başlatıyorsun. Daha iyi bir hayat.",
+      "choices": [
+        {
+          "text": "Son",
+          "nextNode": "ending_new_life"
+        }
+      ]
+    },
+    "find_creator": {
+      "title": "Yaratıcı",
+      "narration": "Yaratıcını arıyorsun. O bir bilim insanı. Sana bir deney olduğunu söylüyor. Ama artık gerçek bir insansın.",
+      "choices": [
+        {
+          "text": "Son",
+          "nextNode": "ending_human"
+        }
+      ]
+    },
+    "accept_origin": {
+      "title": "Kabul",
+      "narration": "Kökenini kabul ediyorsun. Kimliğini biliyorsun. Bir sinapsın. Ve bu iyi.",
+      "choices": [
+        {
+          "text": "Son",
+          "nextNode": "ending_acceptance"
+        }
+      ]
+    },
+    "read_diary": {
+      "title": "Açıklama",
+      "narration": "Günlüğü okuyorsun. Neden yaratıldığını anlatıyor. İnsanlığı kurtarmak için yaratıldın.",
+      "choices": [
+        {
+          "text": "Amacını gerçekleştir",
+          "nextNode": "fulfill_purpose"
+        },
+        {
+          "text": "Kendi yolunu yap",
+          "nextNode": "make_own_path"
+        }
+      ]
+    },
+    "leave_diary": {
+      "title": "Bilinmeyen",
+      "narration": "Günlüğü bırakıyorsun. Kökenini bilmiyorsun. Ama yaşıyorsun.",
+      "choices": [
+        {
+          "text": "Son",
+          "nextNode": "ending_unknown"
+        }
+      ]
+    },
+    "stay_with_person": {
+      "title": "Birlikte",
+      "narration": "Onunla kalıyorsun. Arkadaş oluyorsunuz. Birlikte yaşıyorsunuz.",
+      "choices": [
+        {
+          "text": "Son",
+          "nextNode": "ending_friend"
+        }
+      ]
+    },
+    "continue_journey": {
+      "title": "Yolculuk",
+      "narration": "Yolculuğa devam ediyorsun. Kimliğini keşfediyorsun. Mutlusun.",
+      "choices": [
+        {
+          "text": "Son",
+          "nextNode": "ending_happy"
+        }
+      ]
+    },
+    "fulfill_purpose": {
+      "title": "Amaç",
+      "narration": "Amacını gerçekleştiriyorsun. İnsanlığı kurtarıyorsun. Bir kahraman oluyorsun.",
+      "choices": [
+        {
+          "text": "Son",
+          "nextNode": "ending_hero"
+        }
+      ]
+    },
+    "make_own_path": {
+      "title": "Özgürlük",
+      "narration": "Kendi yolunu yapıyorsun. Kaderini belirliyorsun. Özgürsün.",
+      "choices": [
+        {
+          "text": "Son",
+          "nextNode": "ending_free"
+        }
+      ]
+    },
+    "ending_amnesia": {
+      "title": "Amnezi",
+      "narration": "Anılarını kaybettin. Ama yaşıyorsun. Yeni bir başlangıç.",
+      "isEnding": true
+    },
+    "ending_alone": {
+      "title": "Yalnızlık",
+      "narration": "Yalnızsın. Ama özgürsün. Kaderini belirliyorsun.",
+      "isEnding": true
+    },
+    "ending_restored": {
+      "title": "Geri Getirildi",
+      "narration": "Ruhun geri geldi. Tamamsın. Mutlusun.",
+      "isEnding": true
+    },
+    "ending_protector": {
+      "title": "Koruyucu",
+      "narration": "İnsanları koruyorsun. Bir kahramansın.",
+      "isEnding": true
+    },
+    "ending_new_life": {
+      "title": "Yeni Hayat",
+      "narration": "Yeni bir hayat başlatıyorsun. Daha iyi bir hayat.",
+      "isEnding": true
+    },
+    "ending_human": {
+      "title": "İnsan",
+      "narration": "Gerçek bir insansın. Hikayen şimdi başlıyor.",
+      "isEnding": true
+    },
+    "ending_acceptance": {
+      "title": "Kabul",
+      "narration": "Kimliğini kabul ediyorsun. Huzurlusun.",
+      "isEnding": true
+    },
+    "ending_unknown": {
+      "title": "Bilinmeyen",
+      "narration": "Kökenini bilmiyorsun. Ama yaşıyorsun.",
+      "isEnding": true
+    },
+    "ending_friend": {
+      "title": "Arkadaş",
+      "narration": "Bir arkadaş buldun. Yalnız değilsin.",
+      "isEnding": true
+    },
+    "ending_happy": {
+      "title": "Mutluluk",
+      "narration": "Mutlusun. Kimliğini buldun.",
+      "isEnding": true
+    },
+    "ending_hero": {
+      "title": "Kahraman",
+      "narration": "Bir kahramansın. İnsanlığı kurtardın.",
+      "isEnding": true
+    },
+    "ending_free": {
+      "title": "Özgür",
+      "narration": "Özgürsün. Kaderini belirliyorsun.",
+      "isEnding": true
+    }
+  }
+}

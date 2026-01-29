@@ -1,0 +1,439 @@
+{
+  "metadata": {
+    "storyId": "story-neon-synapse",
+    "language": "hi",
+    "languageName": "हिंदी",
+    "author": "FableFlow",
+    "translator": "Human Translator",
+    "version": "1.0.0",
+    "totalNodes": 20,
+    "totalEndings": 4,
+    "translationDate": "2025-01-29"
+  },
+  "nodes": {
+    "start": {
+      "title": "नीयन सिनैप्स",
+      "narration": "आप अपनी आँखें खोलते हैं। नीयन रोशनी आपके चेहरे पर चमकती है। आपके दिमाग में एक आवाज गूंजती है। 'वेलकम टू नीयन सिटी। आपका सिनैप्स अभी-अभी जागा है।'",
+      "choices": [
+        {
+          "text": "आवाज के स्रोत की तलाश करें",
+          "nextNode": "search_source"
+        },
+        {
+          "text": "आसपास देखें",
+          "nextNode": "look_around"
+        }
+      ]
+    },
+    "search_source": {
+      "title": "सिग्नल का पता लगाना",
+      "narration": "आप अपने न्यूरल इंटरफेस को स्कैन करते हैं। सिग्नल उत्तर दिशा से आ रहा है। यह एक पुराना, रस्टेड हैकर सिग्नल है।",
+      "choices": [
+        {
+          "text": "सिग्नल का पीछा करें",
+          "nextNode": "pursue_signal"
+        },
+        {
+          "text": "इसे अनदेखा करें",
+          "nextNode": "ignore_signal"
+        }
+      ]
+    },
+    "look_around": {
+      "title": "जागरण",
+      "narration": "आप एक डार्क एली में खड़े हैं। नीयन साइन्स ऊपर टिमटिमा रहे हैं। लोग आपके चारों ओर भाग रहे हैं, जैसे कि आप एक भूत हों।",
+      "choices": [
+        {
+          "text": "एक व्यक्ति को रोकें",
+          "nextNode": "stop_person"
+        },
+        {
+          "text": "छिप जाएं",
+          "nextNode": "hide"
+        }
+      ]
+    },
+    "pursue_signal": {
+      "title": "ट्रैक पर",
+      "narration": "आप सिग्नल का पीछा करते हैं। यह आपको एक पुराने वेयरहाउस की ओर ले जाता है। दरवाजा खुला है।",
+      "choices": [
+        {
+          "text": "अंदर जाएं",
+          "nextNode": "enter_warehouse"
+        },
+        {
+          "text": "बाहर रहें",
+          "nextNode": "stay_outside"
+        }
+      ]
+    },
+    "ignore_signal": {
+      "title": "अनदेखा",
+      "narration": "आप सिग्नल को अनदेखा करते हैं। अचानक, आपका दिमाग दर्द करने लगता है। कुछ आपके सिनैप्स को हैक कर रहा है।",
+      "choices": [
+        {
+          "text": "वापस जाएं और सिग्नल का पीछा करें",
+          "nextNode": "pursue_signal"
+        },
+        {
+          "text": "अपनी सुरक्षा के लिए लड़ें",
+          "nextNode": "fight_back"
+        }
+      ]
+    },
+    "stop_person": {
+      "title": "सामना",
+      "narration": "आप एक व्यक्ति को रोकते हैं। वह आपको देखकर चीखता है। 'तुम तो मर चुके हो! तुम्हारी आत्मा को डिलीट कर दिया गया था!'",
+      "choices": [
+        {
+          "text": "उसे बताएं कि आप ठीक हैं",
+          "nextNode": "explain_okay"
+        },
+        {
+          "text": "उससे पूछें कि क्या हुआ",
+          "nextNode": "ask_what_happened"
+        }
+      ]
+    },
+    "hide": {
+      "title": "छिपना",
+      "narration": "आप छिप जाते हैं। आप सुनते हैं कि लोग बात कर रहे हैं। 'वह वापस आ गया है! द रिटर्न!'",
+      "choices": [
+        {
+          "text": "और सुनें",
+          "nextNode": "listen_more"
+        },
+        {
+          "text": "भागें",
+          "nextNode": "run_away"
+        }
+      ]
+    },
+    "enter_warehouse": {
+      "title": "प्रवेश",
+      "narration": "आप वेयरहाउस में प्रवेश करते हैं। यह खाली है, सिवाय एक पुराने कंप्यूटर के। यह अभी भी चालू है।",
+      "choices": [
+        {
+          "text": "कंप्यूटर का उपयोग करें",
+          "nextNode": "use_computer"
+        },
+        {
+          "text": "आसपास देखें",
+          "nextNode": "search_warehouse"
+        }
+      ]
+    },
+    "stay_outside": {
+      "title": "सावधानी",
+      "narration": "आप बाहर रहते हैं। अचानक, वेयरहाउस के अंदर से एक आवाज आती है। 'आओ अंदर। मुझे तुम्हारी जरूरत है।'",
+      "choices": [
+        {
+          "text": "अंदर जाएं",
+          "nextNode": "enter_warehouse"
+        },
+        {
+          "text": "भागें",
+          "nextNode": "run_away"
+        }
+      ]
+    },
+    "fight_back": {
+      "title": "संघर्ष",
+      "narration": "आप हैकर के खिलाफ लड़ते हैं। आप जीतते हैं, लेकिन आपकी यादें गायब हो जाती हैं। आप अपनी पहचान भूल जाते हैं।",
+      "choices": [
+        {
+          "text": "खत्म",
+          "nextNode": "ending_amnesia"
+        }
+      ]
+    },
+    "explain_okay": {
+      "title": "स्पष्टीकरण",
+      "narration": "आप उसे बताते हैं कि आप ठीक हैं। वह आपको विश्वास नहीं करता। 'तुम एक घोस्ट हो! तुम असली नहीं हो!'",
+      "choices": [
+        {
+          "text": "साबित करें कि आप असली हैं",
+          "nextNode": "prove_real"
+        },
+        {
+          "text": "उसे छोड़ दें",
+          "nextNode": "leave_person"
+        }
+      ]
+    },
+    "ask_what_happened": {
+      "title": "सवाल",
+      "narration": "आप पूछते हैं कि क्या हुआ। वह बताता है कि आपको एक हैकर ने मार दिया था। आपकी आत्मा को डिलीट कर दिया गया था।",
+      "choices": [
+        {
+          "text": "हैकर को खोजें",
+          "nextNode": "find_hacker"
+        },
+        {
+          "text": "अपनी आत्मा को वापस लाएं",
+          "nextNode": "restore_soul"
+        }
+      ]
+    },
+    "listen_more": {
+      "title": "जासूसी",
+      "narration": "आप और सुनते हैं। 'वह एक डेंजरस एंटिटी है। हमें उसे रोकना होगा!'",
+      "choices": [
+        {
+          "text": "खुद को उजागर करें",
+          "nextNode": "reveal_self"
+        },
+        {
+          "text": "चुपचाप छोड़ दें",
+          "nextNode": "leave_silently"
+        }
+      ]
+    },
+    "run_away": {
+      "title": "भागना",
+      "narration": "आप भागते हैं। आप एक सुरक्षित जगह पर पहुँचते हैं। लेकिन आप अकेले हैं। हमेशा के लिए।",
+      "choices": [
+        {
+          "text": "खत्म",
+          "nextNode": "ending_alone"
+        }
+      ]
+    },
+    "use_computer": {
+      "title": "खोज",
+      "narration": "आप कंप्यूटर का उपयोग करते हैं। आप पाते हैं कि आप एक एक्सपेरिमेंटल सिनैप्स हैं। आपको बनाया गया था।",
+      "choices": [
+        {
+          "text": "अपने निर्माता को खोजें",
+          "nextNode": "find_creator"
+        },
+        {
+          "text": "अपनी उत्पत्ति को स्वीकार करें",
+          "nextNode": "accept_origin"
+        }
+      ]
+    },
+    "search_warehouse": {
+      "title": "खोज",
+      "narration": "आप आसपास देखते हैं। आपको एक डायरी मिलती है। यह आपकी बनावट की कहानी बताती है।",
+      "choices": [
+        {
+          "text": "डायरी पढ़ें",
+          "nextNode": "read_diary"
+        },
+        {
+          "text": "डायरी छोड़ दें",
+          "nextNode": "leave_diary"
+        }
+      ]
+    },
+    "prove_real": {
+      "title": "सबूत",
+      "narration": "आप उसे छूते हैं। वह आपको महसूस कर सकता है। वह विश्वास करने लगता है। 'तुम असली हो! तुम वापस आ गए हो!'",
+      "choices": [
+        {
+          "text": "उसके साथ रहें",
+          "nextNode": "stay_with_person"
+        },
+        {
+          "text": "अपनी यात्रा जारी रखें",
+          "nextNode": "continue_journey"
+        }
+      ]
+    },
+    "leave_person": {
+      "title": "त्याग",
+      "narration": "आप उसे छोड़ देते हैं। वह चीखता रहता है। आप अकेले भागते हैं।",
+      "choices": [
+        {
+          "text": "खत्म",
+          "nextNode": "ending_alone"
+        }
+      ]
+    },
+    "find_hacker": {
+      "title": "बदला",
+      "narration": "आप हैकर को खोजते हैं। आप उसे ढूंढते हैं और उसे हराते हैं। आप अपनी आत्मा को वापस लेते हैं।",
+      "choices": [
+        {
+          "text": "खत्म",
+          "nextNode": "ending_restored"
+        }
+      ]
+    },
+    "restore_soul": {
+      "title": "पुनर्स्थापन",
+      "narration": "आप अपनी आत्मा को वापस लाने की कोशिश करते हैं। आप सफल होते हैं। आप पूर्ण होते हैं।",
+      "choices": [
+        {
+          "text": "खत्म",
+          "nextNode": "ending_restored"
+        }
+      ]
+    },
+    "reveal_self": {
+      "title": "उद्घाटन",
+      "narration": "आप खुद को उजागर करते हैं। लोग डरते हैं। वे आप पर हमला करते हैं। आप उन्हें बचाते हैं।",
+      "choices": [
+        {
+          "text": "खत्म",
+          "nextNode": "ending_protector"
+        }
+      ]
+    },
+    "leave_silently": {
+      "title": "शांति",
+      "narration": "आप चुपचाप छोड़ देते हैं। आप एक नई जिंदगी शुरू करते हैं। एक बेहतर जिंदगी।",
+      "choices": [
+        {
+          "text": "खत्म",
+          "nextNode": "ending_new_life"
+        }
+      ]
+    },
+    "find_creator": {
+      "title": "निर्माता",
+      "narration": "आप अपने निर्माता को खोजते हैं। वह एक वैज्ञानिक है। वह आपको बताता है कि आप एक एक्सपेरिमेंट हैं। लेकिन आप अब एक असली इंसान हैं।",
+      "choices": [
+        {
+          "text": "खत्म",
+          "nextNode": "ending_human"
+        }
+      ]
+    },
+    "accept_origin": {
+      "title": "स्वीकार",
+      "narration": "आप अपनी उत्पत्ति को स्वीकार करते हैं। आप अपनी पहचान जानते हैं। आप एक सिनैप्स हैं। और वह ठीक है।",
+      "choices": [
+        {
+          "text": "खत्म",
+          "nextNode": "ending_acceptance"
+        }
+      ]
+    },
+    "read_diary": {
+      "title": "खुलासा",
+      "narration": "आप डायरी पढ़ते हैं। यह बताती है कि आपको बनाया क्यों गया था। आपको मानवता को बचाने के लिए बनाया गया था।",
+      "choices": [
+        {
+          "text": "अपना उद्देश्य पूरा करें",
+          "nextNode": "fulfill_purpose"
+        },
+        {
+          "text": "अपना रास्ता बनाएं",
+          "nextNode": "make_own_path"
+        }
+      ]
+    },
+    "leave_diary": {
+      "title": "अज्ञात",
+      "narration": "आप डायरी छोड़ देते हैं। आप अपनी उत्पत्ति को नहीं जानते। लेकिन आप जीते हैं।",
+      "choices": [
+        {
+          "text": "खत्म",
+          "nextNode": "ending_unknown"
+        }
+      ]
+    },
+    "stay_with_person": {
+      "title": "साथ",
+      "narration": "आप उसके साथ रहते हैं। आप दोस्त बनते हैं। आप एक साथ जीते हैं।",
+      "choices": [
+        {
+          "text": "खत्म",
+          "nextNode": "ending_friend"
+        }
+      ]
+    },
+    "continue_journey": {
+      "title": "यात्रा",
+      "narration": "आप अपनी यात्रा जारी रखते हैं। आप अपनी पहचान खोजते हैं। आप खुश हैं।",
+      "choices": [
+        {
+          "text": "खत्म",
+          "nextNode": "ending_happy"
+        }
+      ]
+    },
+    "fulfill_purpose": {
+      "title": "उद्देश्य",
+      "narration": "आप अपना उद्देश्य पूरा करते हैं। आप मानवता को बचाते हैं। आप एक हीरो बनते हैं।",
+      "choices": [
+        {
+          "text": "खत्म",
+          "nextNode": "ending_hero"
+        }
+      ]
+    },
+    "make_own_path": {
+      "title": "स्वतंत्रता",
+      "narration": "आप अपना रास्ता बनाते हैं। आप अपना भाग्य तय करते हैं। आप स्वतंत्र हैं।",
+      "choices": [
+        {
+          "text": "खत्म",
+          "nextNode": "ending_free"
+        }
+      ]
+    },
+    "ending_amnesia": {
+      "title": "अम्नीशिया",
+      "narration": "आप अपनी यादें खो चुके हैं। लेकिन आप जीते हैं। एक नई शुरुआत।",
+      "isEnding": true
+    },
+    "ending_alone": {
+      "title": "अकेलापन",
+      "narration": "आप अकेले हैं। लेकिन आप स्वतंत्र हैं। आप अपना भाग्य तय करते हैं।",
+      "isEnding": true
+    },
+    "ending_restored": {
+      "title": "पुनर्स्थापित",
+      "narration": "आपकी आत्मा वापस आ गई है। आप पूर्ण हैं। आप खुश हैं।",
+      "isEnding": true
+    },
+    "ending_protector": {
+      "title": "रक्षक",
+      "narration": "आप लोगों की रक्षा करते हैं। आप एक हीरो हैं।",
+      "isEnding": true
+    },
+    "ending_new_life": {
+      "title": "नई जिंदगी",
+      "narration": "आप एक नई जिंदगी शुरू करते हैं। एक बेहतर जिंदगी।",
+      "isEnding": true
+    },
+    "ending_human": {
+      "title": "इंसान",
+      "narration": "आप एक असली इंसान हैं। आपकी कहानी अभी शुरू हुई है।",
+      "isEnding": true
+    },
+    "ending_acceptance": {
+      "title": "स्वीकार",
+      "narration": "आप अपनी पहचान स्वीकार करते हैं। आप शांत हैं।",
+      "isEnding": true
+    },
+    "ending_unknown": {
+      "title": "अज्ञात",
+      "narration": "आप अपनी उत्पत्ति नहीं जानते। लेकिन आप जीते हैं।",
+      "isEnding": true
+    },
+    "ending_friend": {
+      "title": "दोस्त",
+      "narration": "आपको एक दोस्त मिला। आप अकेले नहीं हैं।",
+      "isEnding": true
+    },
+    "ending_happy": {
+      "title": "खुशी",
+      "narration": "आप खुश हैं। आप अपनी पहचान खोज चुके हैं।",
+      "isEnding": true
+    },
+    "ending_hero": {
+      "title": "हीरो",
+      "narration": "आप एक हीरो हैं। आपने मानवता को बचाया।",
+      "isEnding": true
+    },
+    "ending_free": {
+      "title": "स्वतंत्र",
+      "narration": "आप स्वतंत्र हैं। आप अपना भाग्य तय करते हैं।",
+      "isEnding": true
+    }
+  }
+}

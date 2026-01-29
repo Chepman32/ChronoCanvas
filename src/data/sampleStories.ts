@@ -15,6 +15,7 @@ import { midnightMissingStory } from './story7481296_midnightMissing';
 import { shadowsVanishedStarStory } from './story8273910265_shadowsVanishedStar';
 import { midnightCallerStory } from './story847362910_midnightCaller';
 import { cosmicCastawayStory } from './story10012001_cosmicCastaway';
+import { neonSynapseStory } from './story_neon_synapse';
 
 const originalStories: Story[] = [
   {
@@ -226,4 +227,5 @@ export const sampleStories: Story[] = [
   shadowsVanishedStarStory,
   midnightCallerStory,
   cosmicCastawayStory,
+  neonSynapseStory,
 ];

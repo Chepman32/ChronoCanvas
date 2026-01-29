@@ -1,0 +1,439 @@
+{
+  "metadata": {
+    "storyId": "story-neon-synapse",
+    "language": "pl",
+    "languageName": "Polski",
+    "author": "FableFlow",
+    "translator": "Human Translator",
+    "version": "1.0.0",
+    "totalNodes": 20,
+    "totalEndings": 4,
+    "translationDate": "2025-01-29"
+  },
+  "nodes": {
+    "start": {
+      "title": "Neonowa Synapsa",
+      "narration": "Otwierasz oczy. Neonowe światło pada na Twoją twarz. Głos rozbrzmiewa w Twojej głowie. 'Witaj w Neonowym Mieście. Twoja synapsa właśnie się obudziła.'",
+      "choices": [
+        {
+          "text": "Szukaj źródła głosu",
+          "nextNode": "search_source"
+        },
+        {
+          "text": "Rozglądnij się",
+          "nextNode": "look_around"
+        }
+      ]
+    },
+    "search_source": {
+      "title": "Śledzenie sygnału",
+      "narration": "Skanujesz swój interfejs neuronalny. Sygnał nadchodzi z północy. To stary, zardzewiały sygnał hakera.",
+      "choices": [
+        {
+          "text": "Śledź sygnał",
+          "nextNode": "pursue_signal"
+        },
+        {
+          "text": "Ignoruj go",
+          "nextNode": "ignore_signal"
+        }
+      ]
+    },
+    "look_around": {
+      "title": "Obudzenie",
+      "narration": "Stoisz w ciemnej uliczce. Neonowe znaki migają nad Tobą. Ludzie uciekają, jakbyś był duchem.",
+      "choices": [
+        {
+          "text": "Zatrzymaj osobę",
+          "nextNode": "stop_person"
+        },
+        {
+          "text": "Ukryj się",
+          "nextNode": "hide"
+        }
+      ]
+    },
+    "pursue_signal": {
+      "title": "Na tropie",
+      "narration": "Śledzisz sygnał. Prowadzi Cię do starego magazynu. Drzwi są otwarte.",
+      "choices": [
+        {
+          "text": "Wejdź do środka",
+          "nextNode": "enter_warehouse"
+        },
+        {
+          "text": "Zostań na zewnątrz",
+          "nextNode": "stay_outside"
+        }
+      ]
+    },
+    "ignore_signal": {
+      "title": "Zignorowany",
+      "narration": "Ignorujesz sygnał. Nagle zaczyna boleć Cię głowa. Ktoś hakuje Twoją synapsę.",
+      "choices": [
+        {
+          "text": "Wróć i śledź sygnał",
+          "nextNode": "pursue_signal"
+        },
+        {
+          "text": "Walcz o siebie",
+          "nextNode": "fight_back"
+        }
+      ]
+    },
+    "stop_person": {
+      "title": "Konfrontacja",
+      "narration": "Zatrzymujesz osobę. On krzyczy. 'Jesteś martwy! Twoja dusza została usunięta!'",
+      "choices": [
+        {
+          "text": "Powiedz mu, że jesteś w porządku",
+          "nextNode": "explain_okay"
+        },
+        {
+          "text": "Zapytaj, co się stało",
+          "nextNode": "ask_what_happened"
+        }
+      ]
+    },
+    "hide": {
+      "title": "Ukrywanie",
+      "narration": "Ukrywasz się. Słyszysz, jak ludzie rozmawiają. 'On wrócił! Powrót!'",
+      "choices": [
+        {
+          "text": "Słuchaj dalej",
+          "nextNode": "listen_more"
+        },
+        {
+          "text": "Uciekaj",
+          "nextNode": "run_away"
+        }
+      ]
+    },
+    "enter_warehouse": {
+      "title": "Wejście",
+      "narration": "Wchodzisz do magazynu. Jest pusty, oprócz starego komputera. Nadal działa.",
+      "choices": [
+        {
+          "text": "Użyj komputera",
+          "nextNode": "use_computer"
+        },
+        {
+          "text": "Rozglądnij się",
+          "nextNode": "search_warehouse"
+        }
+      ]
+    },
+    "stay_outside": {
+      "title": "Ostrożność",
+      "narration": "Zostajesz na zewnątrz. Nagle słyszysz głos z magazynu. 'Wejdź do środka. Potrzebuję Cię.'",
+      "choices": [
+        {
+          "text": "Wejdź do środka",
+          "nextNode": "enter_warehouse"
+        },
+        {
+          "text": "Uciekaj",
+          "nextNode": "run_away"
+        }
+      ]
+    },
+    "fight_back": {
+      "title": "Walka",
+      "narration": "Walczysz z hakerem. Wygrywasz, ale Twoje wspomnienia znikają. Zapominasz swoją tożsamość.",
+      "choices": [
+        {
+          "text": "Koniec",
+          "nextNode": "ending_amnesia"
+        }
+      ]
+    },
+    "explain_okay": {
+      "title": "Wyjaśnienie",
+      "narration": "Mówisz mu, że jesteś w porządku. On Ci nie wierzy. 'Jesteś duchem! Nie jesteś prawdziwy!'",
+      "choices": [
+        {
+          "text": "Udowodnij, że jesteś prawdziwy",
+          "nextNode": "prove_real"
+        },
+        {
+          "text": "Zostaw go",
+          "nextNode": "leave_person"
+        }
+      ]
+    },
+    "ask_what_happened": {
+      "title": "Pytanie",
+      "narration": "Pytasz, co się stało. On mówi, że haker Cię zabił. Twoja dusza została usunięta.",
+      "choices": [
+        {
+          "text": "Znajdź hakera",
+          "nextNode": "find_hacker"
+        },
+        {
+          "text": "Przywróć duszę",
+          "nextNode": "restore_soul"
+        }
+      ]
+    },
+    "listen_more": {
+      "title": "Podsłuchiwanie",
+      "narration": "Słuchasz dalej. 'On jest niebezpieczną istotą. Musimy go zatrzymać!'",
+      "choices": [
+        {
+          "text": "Ujawnij się",
+          "nextNode": "reveal_self"
+        },
+        {
+          "text": "Odejdź cicho",
+          "nextNode": "leave_silently"
+        }
+      ]
+    },
+    "run_away": {
+      "title": "Ucieczka",
+      "narration": "Uciekasz. Docierasz do bezpiecznego miejsca. Ale jesteś sam. Na zawsze.",
+      "choices": [
+        {
+          "text": "Koniec",
+          "nextNode": "ending_alone"
+        }
+      ]
+    },
+    "use_computer": {
+      "title": "Badanie",
+      "narration": "Używasz komputera. Odkrywasz, że jesteś eksperymentalną synapsą. Zostałeś stworzony.",
+      "choices": [
+        {
+          "text": "Znajdź swojego twórcę",
+          "nextNode": "find_creator"
+        },
+        {
+          "text": "Zaakceptuj swoje pochodzenie",
+          "nextNode": "accept_origin"
+        }
+      ]
+    },
+    "search_warehouse": {
+      "title": "Przeszukiwanie",
+      "narration": "Rozglądasz się. Znajdujesz dziennik. Opowiada historię Twojego stworzenia.",
+      "choices": [
+        {
+          "text": "Przeczytaj dziennik",
+          "nextNode": "read_diary"
+        },
+        {
+          "text": "Zostaw dziennik",
+          "nextNode": "leave_diary"
+        }
+      ]
+    },
+    "prove_real": {
+      "title": "Dowód",
+      "narration": "Dotykasz go. Może Cię poczuć. Zaczyna wierzyć. 'Jesteś prawdziwy! Wróciłeś!'",
+      "choices": [
+        {
+          "text": "Zostań z nim",
+          "nextNode": "stay_with_person"
+        },
+        {
+          "text": "Kontynuuj podróż",
+          "nextNode": "continue_journey"
+        }
+      ]
+    },
+    "leave_person": {
+      "title": "Porzucenie",
+      "narration": "Zostawiasz go. On nadal krzyczy. Uciekasz sam.",
+      "choices": [
+        {
+          "text": "Koniec",
+          "nextNode": "ending_alone"
+        }
+      ]
+    },
+    "find_hacker": {
+      "title": "Zemsta",
+      "narration": "Szukasz hakera. Znajdujesz go i pokonujesz. Odzyskujesz duszę.",
+      "choices": [
+        {
+          "text": "Koniec",
+          "nextNode": "ending_restored"
+        }
+      ]
+    },
+    "restore_soul": {
+      "title": "Przywracanie",
+      "narration": "Próbujesz odzyskać duszę. Udaje Ci się. Jesteś kompletny.",
+      "choices": [
+        {
+          "text": "Koniec",
+          "nextNode": "ending_restored"
+        }
+      ]
+    },
+    "reveal_self": {
+      "title": "Ujawnienie",
+      "narration": "Ujawniasz się. Ludzie się boją. Atakują Cię. Bronisz ich.",
+      "choices": [
+        {
+          "text": "Koniec",
+          "nextNode": "ending_protector"
+        }
+      ]
+    },
+    "leave_silently": {
+      "title": "Pokój",
+      "narration": "Odejdziesz cicho. Zaczynasz nowe życie. Lepsze życie.",
+      "choices": [
+        {
+          "text": "Koniec",
+          "nextNode": "ending_new_life"
+        }
+      ]
+    },
+    "find_creator": {
+      "title": "Twórca",
+      "narration": "Szukasz swojego twórcy. On jest naukowcem. Mówi, że jesteś eksperymentem. Ale teraz jesteś prawdziwym człowiekiem.",
+      "choices": [
+        {
+          "text": "Koniec",
+          "nextNode": "ending_human"
+        }
+      ]
+    },
+    "accept_origin": {
+      "title": "Akceptacja",
+      "narration": "Akceptujesz swoje pochodzenie. Znasz swoją tożsamość. Jesteś synapsą. I to jest w porządku.",
+      "choices": [
+        {
+          "text": "Koniec",
+          "nextNode": "ending_acceptance"
+        }
+      ]
+    },
+    "read_diary": {
+      "title": "Objawienie",
+      "narration": "Czytasz dziennik. Mówi, dlaczego zostałeś stworzony. Zostałeś stworzony, aby uratować ludzkość.",
+      "choices": [
+        {
+          "text": "Wypełnij swoje przeznaczenie",
+          "nextNode": "fulfill_purpose"
+        },
+        {
+          "text": "Stwórz własną drogę",
+          "nextNode": "make_own_path"
+        }
+      ]
+    },
+    "leave_diary": {
+      "title": "Nieznane",
+      "narration": "Zostawiasz dziennik. Nie znasz swojego pochodzenia. Ale żyjesz.",
+      "choices": [
+        {
+          "text": "Koniec",
+          "nextNode": "ending_unknown"
+        }
+      ]
+    },
+    "stay_with_person": {
+      "title": "Razem",
+      "narration": "Zostajesz z nim. Stajecie się przyjaciółmi. Życie razem.",
+      "choices": [
+        {
+          "text": "Koniec",
+          "nextNode": "ending_friend"
+        }
+      ]
+    },
+    "continue_journey": {
+      "title": "Podróż",
+      "narration": "Kontynuujesz podróż. Odkrywasz swoją tożsamość. Jesteś szczęśliwy.",
+      "choices": [
+        {
+          "text": "Koniec",
+          "nextNode": "ending_happy"
+        }
+      ]
+    },
+    "fulfill_purpose": {
+      "title": "Przeznaczenie",
+      "narration": "Wypełniasz swoje przeznaczenie. Ratujesz ludzkość. Stajesz się bohaterem.",
+      "choices": [
+        {
+          "text": "Koniec",
+          "nextNode": "ending_hero"
+        }
+      ]
+    },
+    "make_own_path": {
+      "title": "Wolność",
+      "narration": "Tworzysz własną drogę. Decydujesz o swoim losie. Jesteś wolny.",
+      "choices": [
+        {
+          "text": "Koniec",
+          "nextNode": "ending_free"
+        }
+      ]
+    },
+    "ending_amnesia": {
+      "title": "Amnezja",
+      "narration": "Straciłeś wspomnienia. Ale żyjesz. Nowy początek.",
+      "isEnding": true
+    },
+    "ending_alone": {
+      "title": "Samotność",
+      "narration": "Jesteś sam. Ale jesteś wolny. Decydujesz o swoim losie.",
+      "isEnding": true
+    },
+    "ending_restored": {
+      "title": "Przywrócony",
+      "narration": "Twoja dusza wróciła. Jesteś kompletny. Jesteś szczęśliwy.",
+      "isEnding": true
+    },
+    "ending_protector": {
+      "title": "Obrońca",
+      "narration": "Bronisz ludzi. Jesteś bohaterem.",
+      "isEnding": true
+    },
+    "ending_new_life": {
+      "title": "Nowe życie",
+      "narration": "Zaczynasz nowe życie. Lepsze życie.",
+      "isEnding": true
+    },
+    "ending_human": {
+      "title": "Człowiek",
+      "narration": "Jesteś prawdziwym człowiekiem. Twoja historia dopiero się zaczyna.",
+      "isEnding": true
+    },
+    "ending_acceptance": {
+      "title": "Akceptacja",
+      "narration": "Akceptujesz swoją tożsamość. Jesteś w pokoju.",
+      "isEnding": true
+    },
+    "ending_unknown": {
+      "title": "Nieznane",
+      "narration": "Nie znasz swojego pochodzenia. Ale żyjesz.",
+      "isEnding": true
+    },
+    "ending_friend": {
+      "title": "Przyjaciel",
+      "narration": "Znalazłeś przyjaciela. Nie jesteś sam.",
+      "isEnding": true
+    },
+    "ending_happy": {
+      "title": "Szczęście",
+      "narration": "Jesteś szczęśliwy. Odkryłeś swoją tożsamość.",
+      "isEnding": true
+    },
+    "ending_hero": {
+      "title": "Bohater",
+      "narration": "Jesteś bohaterem. Uratowałeś ludzkość.",
+      "isEnding": true
+    },
+    "ending_free": {
+      "title": "Wolny",
+      "narration": "Jesteś wolny. Decydujesz o swoim losie.",
+      "isEnding": true
+    }
+  }
+}

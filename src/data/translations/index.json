@@ -2,8 +2,8 @@
   "meta": {
     "version": "2.0",
     "structure": "folder-per-story",
-    "generatedAt": "2025-01-21T00:00:00.000Z",
-    "totalStories": 18,
+    "generatedAt": "2025-01-29T00:00:00.000Z",
+    "totalStories": 19,
     "description": "Index of all story translations - each story has its own folder"
   },
   "structure": {
@@ -191,6 +191,16 @@
       "nodes": 7,
       "folder": "story-10012001",
       "availableLanguages": ["en"]
+    },
+    {
+      "id": "story-neon-synapse",
+      "title": "Neon Synapse",
+      "author": "FableFlow",
+      "genre": ["scifi", "adventure"],
+      "difficulty": "medium",
+      "nodes": 20,
+      "folder": "story-neon-synapse",
+      "availableLanguages": ["en", "es", "fr", "de", "ru", "ja", "ko", "it", "pt", "zh", "ar", "hi", "nl", "pl", "tr"]
     }
   ],
   "languageCodes": {
