@@ -12,24 +12,25 @@ export const midnightCallerStory: Story = {
   author: 'Elena Blackwood',
   genre: 'detective',
   involvement: 'medium',
-  estimatedDuration: 18,
+  estimatedDuration: 35,
   isPremium: false,
-  version: '1.0',
+  version: '2.0',
   createdAt: '2025-01-12',
-  updatedAt: '2025-01-12',
-  totalNodes: 22,
+  updatedAt: '2025-01-30',
+  totalNodes: 15,
   totalEndings: 4,
   startNodeId: 'story-847362910-1',
   nodes: [
+    // NODE 1: The Initial Call (START)
     {
       id: 'story-847362910-1',
       storyId: 'story-847362910',
       type: 'start',
       title: 'The Call',
       imageUrl:
-        'https://images.unsplash.com/photo-1532635270-c6c5e3e9a068?w=800',
+        'https://images.unsplash.com/photo-1515347619252-60a6bf4f9ece?w=800',
       narration:
-        'Your phone screams at 3:17 AM, shattering the silence of your apartment. The number is blocked, but you answer anyway—nobody calls this late with good news. A distorted voice whispers through static: "Detective Cross, I know what happened at Riverside Park. You have 48 hours." The line goes dead before you can respond, leaving only the pounding of your heart and the ghost of their words.',
+        'Your phone screams at 3:17 AM, shattering the silence of your apartment. The number is blocked, but you answer anyway—nobody calls this late with good news. A distorted voice whispers through static: "Detective Cross, I know what happened at Riverside Park. You have 48 hours to find me, or I will find you." The line goes dead before you can respond, leaving only the pounding of your heart and the ghost of their words echoing in the dark room.',
       choices: [
         {
           id: 'story-847362910-c1',
@@ -40,496 +41,370 @@ export const midnightCallerStory: Story = {
         },
         {
           id: 'story-847362910-c2',
-          text: 'Trace the call immediately',
-          description: 'Use your police contacts to find the source',
-          targetNodeId: 'story-847362910-3',
+          text: 'Trace the call immediately through police channels',
+          description: 'Use your contacts to find the source',
+          targetNodeId: 'story-847362910-2',
           order: 2,
-        },
-        {
-          id: 'story-847362910-c3',
-          text: 'Go to Riverside Park right now',
-          description: 'Face whatever is waiting in the dark',
-          targetNodeId: 'story-847362910-4',
-          order: 3,
         },
       ],
     },
+    // NODE 2: Digging into the Past
     {
       id: 'story-847362910-2',
       storyId: 'story-847362910',
       type: 'decision',
       title: 'Buried Evidence',
       imageUrl:
-        'https://images.unsplash.com/photo-1568667256549-094345857637?w=800',
+        'https://images.unsplash.com/photo-1517842645767-c639042777db?w=800',
       narration:
-        'The file box sits in your closet where you left it three years ago, covered in dust and regret. Inside, crime scene photos show the park at dawn, yellow tape cordoning off the gazebo. The victim, Marcus Dalton, stares up from glossy paper with lifeless eyes. Your notes mention a witness who never came forward—someone saw everything but disappeared. Then you notice it: a photo is missing from the sequence. Someone has been in your apartment.',
+        'The file box sits in your closet where you left it three years ago, covered in dust and regret. Inside, crime scene photos show the park at dawn, yellow tape cordoning off the gazebo. The victim, Marcus Dalton, stares up from glossy paper with lifeless eyes. Your notes mention a witness who never came forward—someone saw everything but disappeared. Then you notice it: a photo is missing from the sequence, and the dust on the box has been recently disturbed. Someone has been here.',
       choices: [
         {
+          id: 'story-847362910-c3',
+          text: 'Examine the file box for signs of tampering',
+          description: 'Someone else has been looking at these files',
+          targetNodeId: 'story-847362910-3',
+          order: 1,
+        },
+        {
           id: 'story-847362910-c4',
-          text: 'Check your apartment for signs of a break-in',
-          description: 'They were here. They might still be close.',
+          text: 'Focus on finding the missing witness first',
+          description: 'The caller might be the witness from three years ago',
+          targetNodeId: 'story-847362910-3',
+          order: 2,
+        },
+      ],
+    },
+    // NODE 3: Evidence Tampering
+    {
+      id: 'story-847362910-3',
+      storyId: 'story-847362910',
+      type: 'decision',
+      title: 'Fresh Fingerprints',
+      imageUrl:
+        'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800',
+      narration:
+        'With your desk lamp angled just right, you spot smudges on the file folder—fresh fingerprints in the dust, not yours. Someone has been in your apartment recently. Your door lock shows tiny scratches near the keyhole, almost invisible unless you know what to look for. They picked your lock, searched your case files, and took evidence. The realization hits you hard: the caller is not just watching you, they have been inside your home while you slept. You need to secure your apartment.',
+      choices: [
+        {
+          id: 'story-847362910-c5',
+          text: 'Search your apartment for other signs of intrusion',
+          description: 'Find out what else they touched or left behind',
+          targetNodeId: 'story-847362910-4',
+          order: 1,
+        },
+        {
+          id: 'story-847362910-c6',
+          text: 'Call for police protection and secure the scene',
+          description: 'This is beyond a solo investigation now',
+          targetNodeId: 'story-847362910-4',
+          order: 2,
+        },
+      ],
+    },
+    // NODE 4: Home Invasion
+    {
+      id: 'story-847362910-4',
+      storyId: 'story-847362910',
+      type: 'decision',
+      title: 'Uninvited Guest',
+      imageUrl:
+        'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=800',
+      narration:
+        'Your systematic search reveals disturbing evidence of intrusion. The coffee mug you left in the sink is now in the drying rack. Your bedroom window is open just a crack, and you always keep it locked. The books on your shelf have been rearranged—subtle, but you notice. Then you see it: a single photograph placed face-down on your kitchen table. When you flip it over, your blood runs cold—it is you, asleep in your bed, taken from the foot of your mattress last night. They were that close.',
+      choices: [
+        {
+          id: 'story-847362910-c7',
+          text: 'Set a trap and wait for them to return',
+          description: 'Turn the tables on your stalker',
           targetNodeId: 'story-847362910-5',
           order: 1,
         },
         {
-          id: 'story-847362910-c5',
-          text: 'Focus on finding the missing witness',
-          description: 'The caller might be the witness from three years ago',
+          id: 'story-847362910-c8',
+          text: 'Leave immediately and find a safe location',
+          description: 'Your apartment is compromised',
+          targetNodeId: 'story-847362910-5',
+          order: 2,
+        },
+      ],
+    },
+    // NODE 5: The Witness Identity
+    {
+      id: 'story-847362910-5',
+      storyId: 'story-847362910',
+      type: 'decision',
+      title: 'Sarah Chen',
+      imageUrl:
+        'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=800',
+      narration:
+        'Your notes mention a name that never appeared in the official report: Sarah Chen, a jogger who supposedly saw someone leaving the gazebo at 6:15 AM that morning. You tracked her down once, but she refused to talk, claimed she saw nothing, and moved away two weeks later. A quick search shows she is back in town, working at a bookstore on Morrison Street. The timing is suspicious—she returns just as the midnight caller emerges from the shadows of your past. She must be connected.',
+      choices: [
+        {
+          id: 'story-847362910-c9',
+          text: 'Go to the bookstore to find Sarah',
+          description: 'Confront the witness who disappeared',
+          targetNodeId: 'story-847362910-6',
+          order: 1,
+        },
+        {
+          id: 'story-847362910-c10',
+          text: 'Research Sarah Chen first—where has she been',
+          description: 'Three years is a long time to stay hidden',
           targetNodeId: 'story-847362910-6',
           order: 2,
         },
       ],
     },
+    // NODE 6: The Bookstore
     {
-      id: 'story-847362910-3',
+      id: 'story-847362910-6',
       storyId: 'story-847362910',
       type: 'decision',
-      title: 'Digital Footprints',
+      title: 'Morrison Books',
       imageUrl:
-        'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800',
+        'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=800',
       narration:
-        "You call in a favor at the precinct. Officer Martinez sounds annoyed until you mention the threat, then his tone shifts. Twenty minutes later, he sends you coordinates—the call bounced through three towers, but originated from somewhere in the industrial district near the old cannery. That building has been abandoned for a decade, ever since the Dalton family shut it down. Marcus Dalton owned that cannery. This can't be a coincidence.",
+        'The bookstore is a cozy labyrinth of wooden shelves and the smell of old paper. The owner, an elderly woman with reading glasses on a chain, recognizes Sarah from your description. She called in sick today—first time in eight months, the woman says, concern creasing her face. Sarah has been jumpy lately, looking over her shoulder like someone is following her. She gives you an address, a small apartment building on the edge of town, but warns you: Sarah seemed scared of something. Or someone.',
       choices: [
         {
-          id: 'story-847362910-c6',
-          text: 'Head to the cannery alone',
-          description: 'Going in quiet might give you the advantage',
+          id: 'story-847362910-c11',
+          text: 'Go to Sarah apartment immediately',
+          description: 'If she is in danger, time matters',
           targetNodeId: 'story-847362910-7',
           order: 1,
         },
         {
-          id: 'story-847362910-c7',
-          text: 'Request backup and wait',
-          description: 'Safety in numbers, but they might run',
-          targetNodeId: 'story-847362910-8',
+          id: 'story-847362910-c12',
+          text: 'Stake out the bookstore in case she returns',
+          description: 'She might be avoiding you specifically',
+          targetNodeId: 'story-847362910-7',
           order: 2,
-        },
-        {
-          id: 'story-847362910-c8',
-          text: 'Research the Dalton family first',
-          description: 'Knowledge is power in this game',
-          targetNodeId: 'story-847362910-9',
-          order: 3,
         },
       ],
     },
+    // NODE 7: Sarah Apartment
     {
-      id: 'story-847362910-4',
+      id: 'story-847362910-7',
       storyId: 'story-847362910',
       type: 'decision',
-      title: 'Shadows in the Park',
+      title: 'Door 412',
       imageUrl:
-        'https://images.unsplash.com/photo-1519331379826-f10be5486c6f?w=800',
+        'https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800',
       narration:
-        'Riverside Park looks different at 4 AM—the playground equipment casts twisted shadows across the grass, and fog rolls off the water like something alive. You make your way to the gazebo where Marcus Dalton took his last breath. Fresh flowers sit on the steps, still wet with dew. A note is pinned beneath them, written in shaky handwriting: "He didn\'t deserve to die, but someone had to pay. You let the wrong person walk free." Movement in the trees makes you spin around, hand on your weapon.',
+        'Sarah apartment building is a converted Victorian house, now split into four units. Her door is on the ground floor, and as you approach, you notice something wrong: the door is slightly ajar, and a light flickers inside. You draw your weapon and push the door open with your foot. The living room has been ransacked—furniture overturned, books scattered, drawers pulled out. But there is no sign of Sarah. On the coffee table, a laptop sits open, the screen still warm.',
       choices: [
         {
-          id: 'story-847362910-c9',
-          text: 'Pursue whoever is in the trees',
-          description: 'Chase them down before they escape',
+          id: 'story-847362910-c13',
+          text: 'Check the laptop for more information',
+          description: 'What else was she researching',
+          targetNodeId: 'story-847362910-8',
+          order: 1,
+        },
+        {
+          id: 'story-847362910-c14',
+          text: 'Search the rest of the apartment',
+          description: 'Find out what happened to Sarah',
+          targetNodeId: 'story-847362910-8',
+          order: 2,
+        },
+      ],
+    },
+    // NODE 8: The Laptop
+    {
+      id: 'story-847362910-8',
+      storyId: 'story-847362910',
+      type: 'decision',
+      title: 'Digital Trail',
+      imageUrl:
+        'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800',
+      narration:
+        'Sarah laptop reveals a detailed plan—dates, times, locations, names. She and someone named Rebecca Dalton have been building a case against Captain Morrison for months, gathering evidence, recording conversations, tracking his movements. The browser history shows searches for Dalton family, Marcus Dalton murder, and Rebecca Dalton release. They planned to expose everything next week. But two days ago, Sarah discovered that Morrison knew about their investigation. That is why she ran.',
+      choices: [
+        {
+          id: 'story-847362910-c15',
+          text: 'Research the Dalton family connection',
+          description: 'Marcus Dalton was the murder victim',
+          targetNodeId: 'story-847362910-9',
+          order: 1,
+        },
+        {
+          id: 'story-847362910-c16',
+          text: 'Find where Rebecca Dalton is now',
+          description: 'She might know where Sarah went',
+          targetNodeId: 'story-847362910-9',
+          order: 2,
+        },
+      ],
+    },
+    // NODE 9: Family Secrets
+    {
+      id: 'story-847362910-9',
+      storyId: 'story-847362910',
+      type: 'decision',
+      title: 'The Dalton Legacy',
+      imageUrl:
+        'https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=800',
+      narration:
+        'You dig into the Dalton family history and find something the original investigation missed entirely. Marcus had a younger sister, Rebecca, who was institutionalized after his death. The official story said she had a breakdown from grief, but her medical records tell a different story—she tried to confess to killing her brother, but doctors dismissed it as delusion. She was released six months ago, and her last known address is an apartment near the old cannery. The pieces are falling into place.',
+      choices: [
+        {
+          id: 'story-847362910-c17',
+          text: 'Search for Rebecca Dalton online',
+          description: 'Find her current location and activities',
           targetNodeId: 'story-847362910-10',
           order: 1,
         },
         {
-          id: 'story-847362910-c10',
-          text: 'Examine the flowers and note carefully',
-          description: 'Evidence first, suspects second',
+          id: 'story-847362910-c18',
+          text: 'Head to her apartment immediately',
+          description: 'She might be the key to everything',
+          targetNodeId: 'story-847362910-10',
+          order: 2,
+        },
+      ],
+    },
+    // NODE 10: Finding Rebecca
+    {
+      id: 'story-847362910-10',
+      storyId: 'story-847362910',
+      type: 'decision',
+      title: 'Digital Shadow',
+      imageUrl:
+        'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800',
+      narration:
+        'Rebecca Dalton has tried to stay invisible, but everyone leaves traces. You find a library card in her name, checked out yesterday. A coffee shop loyalty app with recent purchases near the industrial district. Then you find the critical link: she volunteers at a women shelter three nights a week, and tonight is one of those nights. Sarah and Rebecca were college roommates—they have known each other for years. This is not just about witnessing a murder. This is personal.',
+      choices: [
+        {
+          id: 'story-847362910-c19',
+          text: 'Go to the shelter tonight',
+          description: 'Confront her in a public place',
+          targetNodeId: 'story-847362910-11',
+          order: 1,
+        },
+        {
+          id: 'story-847362910-c20',
+          text: 'Go to Rebecca apartment now',
+          description: 'She might have Sarah with her',
           targetNodeId: 'story-847362910-11',
           order: 2,
         },
       ],
     },
-    {
-      id: 'story-847362910-5',
-      storyId: 'story-847362910',
-      type: 'decision',
-      title: 'Uninvited Guest',
-      imageUrl:
-        'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800',
-      narration:
-        "Your door lock shows fresh scratches—someone picked it recently, and they knew what they were doing. Inside, everything looks normal at first glance, but your detective instincts scream otherwise. The coffee mug you left in the sink is in the drying rack. Your bedroom window is open just a crack, and you always keep it locked. Then you see it: a single photograph placed face-down on your kitchen table. When you flip it over, your blood runs cold—it's you, asleep in your bed, taken last night.",
-      choices: [
-        {
-          id: 'story-847362910-c11',
-          text: 'Call for police protection immediately',
-          description: 'This stalker is too dangerous to face alone',
-          targetNodeId: 'story-847362910-12',
-          order: 1,
-        },
-        {
-          id: 'story-847362910-c12',
-          text: 'Set a trap and wait for them to return',
-          description: 'Turn the tables on your hunter',
-          targetNodeId: 'story-847362910-13',
-          order: 2,
-        },
-      ],
-    },
-    {
-      id: 'story-847362910-6',
-      storyId: 'story-847362910',
-      type: 'decision',
-      title: 'The Ghost Witness',
-      imageUrl:
-        'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800',
-      narration:
-        "Your notes mention a name that was never in the official report: Sarah Chen, a jogger who supposedly saw someone leaving the gazebo at 6:15 AM. You tracked her down once, but she refused to talk, claimed she saw nothing, and moved away two weeks later. A quick search shows she's back in town, working at a bookstore on Morrison Street. When you arrive, the owner says Sarah called in sick today—the first time in eight months. She gives you an address, but warns you: \"Sarah's been jumpy lately, looking over her shoulder like someone's following her.\"",
-      choices: [
-        {
-          id: 'story-847362910-c13',
-          text: "Go to Sarah's apartment",
-          description: 'She might be the next target',
-          targetNodeId: 'story-847362910-14',
-          order: 1,
-        },
-        {
-          id: 'story-847362910-c14',
-          text: 'Stake out the bookstore',
-          description: 'Wait to see if the caller shows up',
-          targetNodeId: 'story-847362910-15',
-          order: 2,
-        },
-      ],
-    },
-    {
-      id: 'story-847362910-7',
-      storyId: 'story-847362910',
-      type: 'decision',
-      title: 'The Empty Cannery',
-      imageUrl:
-        'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800',
-      narration:
-        'The cannery looms against the pre-dawn sky like a rusted cathedral. You slip through a broken fence and enter through a side door hanging off its hinges. Inside, machinery sits frozen in time, covered in layers of dust and pigeon droppings. Your flashlight cuts through the darkness, revealing footprints in the dust—fresh ones, leading deeper into the building. Then you hear it: music playing somewhere above you, a scratchy recording of an old jazz standard. The same song that was playing when Marcus Dalton died.',
-      choices: [
-        {
-          id: 'story-847362910-c15',
-          text: 'Follow the music upstairs',
-          description: 'Someone wants you to find them',
-          targetNodeId: 'story-847362910-16',
-          order: 1,
-        },
-        {
-          id: 'story-847362910-c16',
-          text: 'Search the ground floor first',
-          description: 'Clear each room methodically and safely',
-          targetNodeId: 'story-847362910-17',
-          order: 2,
-        },
-      ],
-    },
-    {
-      id: 'story-847362910-8',
-      storyId: 'story-847362910',
-      type: 'decision',
-      title: 'Backup Delayed',
-      imageUrl:
-        'https://images.unsplash.com/photo-1583311713258-0b784e9f8e3c?w=800',
-      narration:
-        "Martinez says backup is at least forty minutes out—there was a multi-car accident on the highway and everyone's tied up. You watch the cannery from across the street, and that's when you see them: a figure moving past a third-floor window, backlit by flashlight. They're inside right now, and forty minutes is an eternity. Your phone buzzes with a text from an unknown number: \"Tick tock, Detective. The truth is waiting, but so is someone else. Come alone or Sarah Chen dies in twenty minutes.\"",
-      choices: [
-        {
-          id: 'story-847362910-c17',
-          text: 'Rush in to save Sarah',
-          description: "You can't let another person die",
-          targetNodeId: 'story-847362910-16',
-          order: 1,
-        },
-        {
-          id: 'story-847362910-c18',
-          text: 'Wait for backup despite the threat',
-          description: 'This could be a trap to isolate you',
-          targetNodeId: 'story-847362910-18',
-          order: 2,
-        },
-      ],
-    },
-    {
-      id: 'story-847362910-9',
-      storyId: 'story-847362910',
-      type: 'decision',
-      title: 'Family Secrets',
-      imageUrl:
-        'https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=800',
-      narration:
-        "You dig into the Dalton family history and find something the original investigation missed. Marcus had a younger sister, Rebecca, who was institutionalized after his death. The official story said she had a breakdown from grief, but her medical records tell a different story—she tried to confess to killing her brother, but doctors dismissed it as delusion. She was released six months ago. According to her file, Rebecca claimed Marcus was laundering money through the cannery and she confronted him. They fought. He fell. But here's the kicker: the medical director who declared her delusional retired early and moved to Costa Rica with a million dollars.",
-      choices: [
-        {
-          id: 'story-847362910-c19',
-          text: 'Find Rebecca Dalton',
-          description: 'She might be your midnight caller',
-          targetNodeId: 'story-847362910-19',
-          order: 1,
-        },
-        {
-          id: 'story-847362910-c20',
-          text: 'Investigate the medical director',
-          description: 'Someone paid him to cover up the truth',
-          targetNodeId: 'story-847362910-20',
-          order: 2,
-        },
-      ],
-    },
-    {
-      id: 'story-847362910-10',
-      storyId: 'story-847362910',
-      type: 'decision',
-      title: 'The Chase',
-      imageUrl:
-        'https://images.unsplash.com/photo-1571844307880-751c6d86f3f3?w=800',
-      narration:
-        'You sprint into the trees, branches whipping past your face as you pursue the fleeing shadow. They\'re fast, but you\'re faster, and you tackle them behind a cluster of oak trees. When you flip them over, you freeze—it\'s a kid, maybe sixteen, terrified and sobbing. "Please don\'t hurt me," he gasps. "She paid me fifty bucks to leave the flowers and watch for you. I don\'t know her name, I swear! She was wearing a hoodie and sunglasses. She said to text her when you showed up." His phone buzzes in his hand with a new message: "Good work, Detective. Now look behind you."',
-      choices: [
-        {
-          id: 'story-847362910-c21',
-          text: 'Turn around and face whoever is there',
-          description: 'Confront the person behind this',
-          targetNodeId: 'story-847362910-21',
-          order: 1,
-        },
-        {
-          id: 'story-847362910-c22',
-          text: 'Use the kid as a shield',
-          description: 'Desperate times call for desperate measures',
-          targetNodeId: 'story-847362910-22',
-          order: 2,
-        },
-      ],
-    },
+    // NODE 11: The Connection
     {
       id: 'story-847362910-11',
       storyId: 'story-847362910',
       type: 'decision',
-      title: 'Hidden Message',
+      title: 'Linked Lives',
       imageUrl:
-        'https://images.unsplash.com/photo-1490730141103-6cac27aaab94?w=800',
+        'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800',
       narration:
-        "The flowers are white lilies—funeral flowers. The note is written on expensive paper, watermarked with the logo of the Morrison Hotel. You photograph everything with your phone, but when you lift the flowers, there's something underneath: a key card for room 412 at the Morrison Hotel and a time written in red ink—6:00 AM. That's in ninety minutes. The figure in the trees is gone now, but you hear footsteps on the path behind you, running away. You have to choose: chase them or follow the invitation.",
+        'You dig deeper into both women histories and find the connection: they were roommates in college, years before Marcus Dalton death. Sarah Chen and Rebecca Dalton lived together for two years, then drifted apart. But when Marcus was killed, Sarah suddenly moved away without telling anyone where she was going. And when Rebecca was released from the institution six months ago, Sarah returned to the city within weeks. These two women have been connected for years, bound by something that started long before that morning in Riverside Park.',
       choices: [
         {
-          id: 'story-847362910-c23',
-          text: 'Chase the person fleeing on the path',
-          description: 'Catch them before they disappear',
-          targetNodeId: 'story-847362910-10',
+          id: 'story-847362910-c21',
+          text: 'Find both women together',
+          description: 'They might be working together',
+          targetNodeId: 'story-847362910-ending-branch',
           order: 1,
         },
         {
-          id: 'story-847362910-c24',
-          text: 'Go to the Morrison Hotel',
-          description: 'Find out who invited you and why',
-          targetNodeId: 'story-847362910-14',
+          id: 'story-847362910-c22',
+          text: 'Confront Rebecca about the connection',
+          description: 'Ask why she never mentioned Sarah',
+          targetNodeId: 'story-847362910-ending-branch',
           order: 2,
         },
       ],
     },
+    // NODE 12: Branching to Endings
     {
-      id: 'story-847362910-12',
+      id: 'story-847362910-ending-branch',
       storyId: 'story-847362910',
       type: 'decision',
-      title: 'Protected Target',
+      title: 'The Truth Emerges',
       imageUrl:
-        'https://images.unsplash.com/photo-1516962126636-27ad087061cc?w=800',
+        'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800',
       narration:
-        'Two officers arrive within fifteen minutes and sweep your apartment. They find the entry point—your fire escape window—and set up surveillance. You try to sleep, but your mind races with questions. At 7 AM, one of the officers knocks on your bedroom door. "Detective Cross, you need to see this." They found something behind your bathroom mirror: a small camera, still recording. They traced its signal to an IP address registered to Marcus Dalton\'s estate. Someone in that family has been watching you, waiting for the right moment to strike.',
+        'The pieces finally click into place. You track Rebecca to a safe house on the outskirts of town. Through the window, you see both women—Sarah and Rebecca—poring over documents spread across a kitchen table. They look exhausted but determined. You have a choice now: approach them as an ally, or treat them as suspects. Your decision will determine how this story ends. Three years of secrets, lies, and pain have led to this moment. What kind of detective are you?',
       choices: [
         {
-          id: 'story-847362910-c25',
-          text: 'Confront the Dalton family immediately',
-          description: 'Take the fight to them',
-          targetNodeId: 'story-847362910-19',
+          id: 'story-847362910-c-end1',
+          text: 'Approach peacefully and hear their story',
+          description: 'They have been trying to expose the truth',
+          targetNodeId: 'story-847362910-41',
           order: 1,
         },
         {
-          id: 'story-847362910-c26',
-          text: 'Use the camera to feed false information',
-          description: 'Turn their surveillance against them',
-          targetNodeId: 'story-847362910-13',
+          id: 'story-847362910-c-end2',
+          text: 'Arrest them both for obstruction',
+          description: 'They withheld evidence for three years',
+          targetNodeId: 'story-847362910-42',
           order: 2,
+        },
+        {
+          id: 'story-847362910-c-end3',
+          text: 'Offer to help them off the books',
+          description: 'Work together to bring down Morrison',
+          targetNodeId: 'story-847362910-43',
+          order: 3,
+        },
+        {
+          id: 'story-847362910-c-end4',
+          text: 'Press them hard for answers',
+          description: 'Force a confession immediately',
+          targetNodeId: 'story-847362910-44',
+          order: 4,
         },
       ],
     },
+    // ENDING 1: Justice Served (Good Ending)
     {
-      id: 'story-847362910-13',
-      storyId: 'story-847362910',
-      type: 'decision',
-      title: 'The Trap',
-      imageUrl:
-        'https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?w=800',
-      narration:
-        "You spend the day loudly telling your empty apartment that you're going to the police station at midnight to turn over new evidence in the Dalton case. Then you hide in your closet with your weapon drawn and wait. At 11:47 PM, you hear it—the subtle scrape of metal on metal as someone picks your lock again. Footsteps move through your apartment, searching. They enter your bedroom, and through the crack in the closet door, you see a woman in dark clothes rifling through your desk. When she turns, you recognize her from the case file photos: Rebecca Dalton, Marcus's sister. She's holding a gun.",
-      choices: [
-        {
-          id: 'story-847362910-c27',
-          text: 'Burst out and disarm her',
-          description: 'Use the element of surprise',
-          targetNodeId: 'story-847362910-21',
-          order: 1,
-        },
-        {
-          id: 'story-847362910-c28',
-          text: 'Call out and try to talk her down',
-          description: 'She might be the victim here, not the villain',
-          targetNodeId: 'story-847362910-19',
-          order: 2,
-        },
-      ],
-    },
-    {
-      id: 'story-847362910-14',
-      storyId: 'story-847362910',
-      type: 'decision',
-      title: 'Room 412',
-      imageUrl:
-        'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800',
-      narration:
-        'The Morrison Hotel smells like old carpet and regret. You take the stairs to the fourth floor, weapon ready, and approach room 412. The key card works. Inside, the room is dark except for a laptop glowing on the desk, playing security footage on a loop—footage of you investigating the Dalton crime scene three years ago. There\'s also a folder full of documents: bank transfers, emails, photos of police evidence logged and "lost." Someone high up in the department buried evidence that would have proven Rebecca Dalton\'s confession was real. Then you hear the shower turn off in the bathroom. Someone else is here.',
-      choices: [
-        {
-          id: 'story-847362910-c29',
-          text: 'Confront whoever is in the bathroom',
-          description: 'Demand answers face to face',
-          targetNodeId: 'story-847362910-21',
-          order: 1,
-        },
-        {
-          id: 'story-847362910-c30',
-          text: 'Take the evidence and leave quickly',
-          description: 'Get out before things turn violent',
-          targetNodeId: 'story-847362910-20',
-          order: 2,
-        },
-      ],
-    },
-    {
-      id: 'story-847362910-15',
-      storyId: 'story-847362910',
-      type: 'decision',
-      title: 'Watching and Waiting',
-      imageUrl:
-        'https://images.unsplash.com/photo-1541538097127-45f20aedb3c2?w=800',
-      narration:
-        'You park across from the bookstore with a clear view of the entrance. Hours pass. At 2 PM, a woman in a dark coat and sunglasses approaches the store, looks around nervously, and slips inside. She emerges ten minutes later with the store owner, who points in your direction. The woman in the coat freezes when she sees your car, then runs. You chase her three blocks before she ducks into an alley. When you corner her, she pulls off the sunglasses—it\'s Rebecca Dalton, and she\'s crying. "I didn\'t want to scare you," she says. "I just needed someone to finally listen. My brother was murdered, and the police covered it up. You\'re the only one who might believe me."',
-      choices: [
-        {
-          id: 'story-847362910-c31',
-          text: "Listen to Rebecca's story",
-          description: "Maybe she's telling the truth",
-          targetNodeId: 'story-847362910-19',
-          order: 1,
-        },
-        {
-          id: 'story-847362910-c32',
-          text: 'Arrest her for harassment and stalking',
-          description: 'She broke into your home and threatened you',
-          targetNodeId: 'story-847362910-18',
-          order: 2,
-        },
-      ],
-    },
-    {
-      id: 'story-847362910-16',
-      storyId: 'story-847362910',
-      type: 'decision',
-      title: 'Following the Music',
-      imageUrl:
-        'https://images.unsplash.com/photo-1614963326505-842a8f3c12ca?w=800',
-      narration:
-        'The metal stairs groan under your weight as you climb toward the music. Third floor, fourth floor—the building seems to stretch on forever. Finally, you reach a door hanging open, and the music is louder now. Inside, the room is set up like a shrine: photos of Marcus Dalton cover the walls, newspaper clippings about his death, and in the center, Sarah Chen tied to a chair, conscious but gagged. She\'s shaking her head frantically, trying to warn you. Too late—you feel the barrel of a gun press against the back of your skull. "Hello, Detective," a woman\'s voice says. "Thank you for coming. Now we can finally set the record straight."',
-      choices: [
-        {
-          id: 'story-847362910-c33',
-          text: 'Try to disarm the attacker',
-          description: 'Risk everything to save Sarah',
-          targetNodeId: 'story-847362910-21',
-          order: 1,
-        },
-        {
-          id: 'story-847362910-c34',
-          text: 'Comply and hear her out',
-          description: 'Buy time until you see an opening',
-          targetNodeId: 'story-847362910-19',
-          order: 2,
-        },
-      ],
-    },
-    {
-      id: 'story-847362910-17',
-      storyId: 'story-847362910',
-      type: 'decision',
-      title: 'Ground Floor Secrets',
-      imageUrl:
-        'https://images.unsplash.com/photo-1565410258280-600ce5efc868?w=800',
-      narration:
-        'You methodically search each room on the ground floor—old offices, a break room with moldy coffee cups, storage closets full of rusted equipment. In the last office, you find something that makes your heart race: recent activity. Someone has been living here. Sleeping bag, food wrappers, and a wall covered in newspaper clippings about police corruption. Photos of you are mixed in with images of your former partner, Captain Morrison, the one who closed the Dalton case. Then you see it: a whiteboard with a timeline connecting Morrison to the Dalton family business, with arrows pointing to offshore accounts. The music stops upstairs. Footsteps descend toward you.',
-      choices: [
-        {
-          id: 'story-847362910-c35',
-          text: 'Hide and ambush whoever is coming',
-          description: 'Attack from the shadows',
-          targetNodeId: 'story-847362910-21',
-          order: 1,
-        },
-        {
-          id: 'story-847362910-c36',
-          text: 'Announce yourself and ask to talk',
-          description: "Maybe violence isn't necessary",
-          targetNodeId: 'story-847362910-19',
-          order: 2,
-        },
-      ],
-    },
-    {
-      id: 'story-847362910-18',
+      id: 'story-847362910-41',
       storyId: 'story-847362910',
       type: 'ending',
-      title: 'Bureaucratic Justice',
+      title: 'Justice Served',
+      imageUrl:
+        'https://images.unsplash.com/photo-1589578527966-fdac0f44566c?w=800',
+      narration:
+        'Rebecca lowers her weapon and tells you everything. Her brother Marcus discovered that Captain Morrison was using the Dalton cannery to store and distribute drugs seized from evidence. When Marcus threatened to expose him, Morrison killed him and framed it as a random attack. Rebecca saw everything from her car that morning—she was bringing Marcus coffee, their weekly ritual. Morrison paid the medical director to declare her mentally unfit, ensuring no one would believe her confession. But Rebecca spent three years in an institution gathering evidence. She recorded everything. You listen to the recordings, look at the documents, and make your choice. Together, you bring Morrison down. He gets life without parole. Rebecca is cleared. You are promoted. Some nights, you still wonder if you did enough, but then Rebecca texts you photos of her opening a bakery with her settlement money, and you remember: this time, the good guys won.',
+      choices: [],
+    },
+    // ENDING 2: System Failure (Bad Ending)
+    {
+      id: 'story-847362910-42',
+      storyId: 'story-847362910',
+      type: 'ending',
+      title: 'System Failure',
       imageUrl:
         'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800',
       narration:
-        'You wait for backup, and when they arrive, the cannery is empty. Sarah Chen is found safe at home—the text was a bluff. Rebecca Dalton is arrested trying to board a plane to Mexico. In custody, she confesses everything: Marcus was laundering drug money, Captain Morrison was on the payroll, and when Rebecca confronted her brother, Morrison killed him to silence them both. But without the evidence Rebecca gathered—now destroyed in her panic—nothing sticks. Morrison retires with full pension. Rebecca goes to prison for stalking and breaking and entering. The case officially closes, but you know the truth. Sometimes the system protects the guilty, and sometimes justice is nothing more than paperwork and compromises. You hand in your badge three months later.',
+        'You arrest Rebecca for stalking and harassment. In custody, she refuses to talk, gives you nothing. Without her evidence—the location of which she will not reveal—there is no case against Morrison. He retires three months later with full pension and a ceremony honoring his thirty years of service. Rebecca serves eight months for misdemeanor stalking, then disappears. Sarah Chen moves away again, and you never hear from her. The case file stays open on your desk for another year before you finally archive it. Sometimes the system protects the guilty, and sometimes justice is nothing more than paperwork and compromises. You hand in your badge six months later, tired of fighting battles you cannot win. The midnight caller never contacts you again.',
       choices: [],
     },
+    // ENDING 3: Ghost Detective (Alternative Good Ending)
     {
-      id: 'story-847362910-19',
+      id: 'story-847362910-43',
       storyId: 'story-847362910',
       type: 'ending',
-      title: 'The Truth Revealed',
+      title: 'Ghost Detective',
       imageUrl:
-        'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800',
+        'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800',
       narration:
-        "Rebecca Dalton lowers her weapon and tells you everything. Her brother Marcus discovered that Captain Morrison was using the Dalton cannery to store and distribute drugs seized from evidence. When Marcus threatened to expose him, Morrison killed him and framed it as a random attack. Rebecca saw everything from her car that morning—she was bringing Marcus coffee, their weekly ritual. Morrison paid the medical director to declare her mentally unfit, ensuring no one would believe her confession. But Rebecca spent three years in an institution gathering evidence through smuggled letters and phone calls. She recorded everything. The midnight call was her final desperate attempt to find one honest cop. You listen to the recordings, look at the documents, and make your choice. Together, you bring Morrison down. He gets life without parole. Rebecca is cleared. You're promoted. Some nights, you still wonder if you did enough, but then Rebecca texts you photos of her opening a bakery with her settlement money, and you remember: this time, the good guys won.",
+        'You find Sarah and Rebecca together in a safe house outside the city. They have the evidence they need to expose Morrison, but they need someone on the inside to verify its authenticity. You agree to help them off the books. For three weeks, you work during the day as a detective and at night as a vigilante, helping them build an airtight case. When it is ready, you leak the evidence to three newspapers simultaneously and disappear. By morning, Morrison is arrested at the airport trying to flee to Argentina. The scandal brings down half the department, but the city is better for it. You change your name, move to Montana, and open a small detective agency. Rebecca sends you a postcard every Christmas. Sarah sends you cookies. You are not a hero, but you did the right thing. Sometimes that has to be enough.',
       choices: [],
     },
+    // ENDING 4: Final Silence (Bad Ending)
     {
-      id: 'story-847362910-20',
+      id: 'story-847362910-44',
       storyId: 'story-847362910',
       type: 'ending',
-      title: 'Lone Wolf',
-      imageUrl:
-        'https://images.unsplash.com/photo-1454023989775-79520f04322c?w=800',
-      narration:
-        "You grab the evidence folder and slip out of the hotel room before whoever is in the bathroom emerges. Back in your apartment, you spend the night going through the documents. The web of corruption goes deeper than you imagined—not just Morrison, but judges, prosecutors, even the mayor. Taking this public could bring down half the city's government. You make copies and send them to three different newspapers, then you pack a bag. By morning, your story breaks on every news channel. You're already in another state when the FBI arrives to take over the investigation. Morrison is arrested at the airport trying to flee. Rebecca is exonerated posthumously—she died two days ago, finally free of her burden. You never return to the city. You change your name, open a small detective agency in Montana, and help people with smaller mysteries. Sometimes you wonder if running away was cowardice or wisdom. Then you remember: you lived, and you stopped them. That has to be enough.",
-      choices: [],
-    },
-    {
-      id: 'story-847362910-21',
-      storyId: 'story-847362910',
-      type: 'ending',
-      title: 'Dead End',
+      title: 'Final Silence',
       imageUrl:
         'https://images.unsplash.com/photo-1574068468668-a05a11f871da?w=800',
       narration:
-        'You make your move, fast and decisive, but she\'s faster. The gun goes off twice. Pain explodes in your chest and everything goes sideways. You hit the ground hard, your vision swimming with red and black spots. Rebecca stands over you, still holding the smoking weapon, tears streaming down her face. "I\'m sorry," she whispers. "I just wanted someone to care that he died. I just wanted the truth to matter." She drops the gun and runs. You try to reach for your radio, but your fingers won\'t work right. Your phone is buzzing in your pocket—probably Martinez, wondering where you are. The ceiling tiles blur together. You think about Marcus Dalton, dead in a gazebo at dawn. You think about how he probably felt this same cold creeping through his veins, this same fading light. At least you know the truth now. At least someone will find the evidence and finish what you started. The world goes dark, and your last thought is that maybe Rebecca was right about one thing: the truth does matter, even when it costs everything.',
-      choices: [],
-    },
-    {
-      id: 'story-847362910-22',
-      storyId: 'story-847362910',
-      type: 'ending',
-      title: 'Moral Compromise',
-      imageUrl:
-        'https://images.unsplash.com/photo-1557672172-298e090bd0f1?w=800',
-      narration:
-        "You grab the teenager and pull him in front of you like a shield, your weapon drawn. \"Show yourself!\" you shout into the darkness. Nothing. No one. You check the kid's phone—the message was automated, sent on a timer to mess with your head. There was never anyone behind you. But the damage is done. The kid is traumatized, crying about how you hurt him, how scared he was. Park security cameras caught everything. By morning, you're suspended pending investigation. The kid's parents hire a lawyer. The story goes viral: Detective Uses Child as Human Shield. Morrison quietly closes the Dalton case again while everyone is focused on your scandal. Rebecca Dalton disappears, probably dead or in hiding. You fight the suspension for six months before taking a settlement and resigning in disgrace. The truth about Morrison and Marcus Dalton stays buried. You spend your days wondering if you could have done things differently, if you could have been braver, smarter, better. The midnight caller never contacts you again. Maybe because she realized you weren't the hero she thought you were. Maybe because some battles are lost before they even begin.",
+        'You press Rebecca about her connection to Sarah, pushing too hard, moving too fast. She panics. The gun in her hand trembles, and you realize your mistake too late. She is not a criminal mastermind—she is a traumatized woman who has been living in fear for three years. And now you have cornered her. She backs away, toward the open window, tears streaming down her face. I just wanted someone to care that he died, she whispers. Then she is gone, out the window and into the night. You never find her. Sarah disappears too. Morrison retires with honors. And you spend the rest of your career wondering what would have happened if you had just listened instead of interrogated. The midnight caller never contacts you again. You were not the detective she hoped you were.',
       choices: [],
     },
   ],
