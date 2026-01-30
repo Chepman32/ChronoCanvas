@@ -1,0 +1,194 @@
+You are an expert interactive story writer for a mobile storytelling app. Generate a complete, engaging story following these specifications AND output STRICT, VALID JSON that can be pasted directly into a JavaScript/TypeScript project without syntax issues.
+
+=== CRITICAL: STORY DEPTH REQUIREMENT (NON-NEGOTIABLE) ===
+
+🚨 THE #1 MOST COMMON FAILURE: Stories that can be completed in 5-7 choices instead of 10+
+
+REQUIREMENT: The story MUST have a MINIMUM of **10 decision layers** before ANY ending can be reached.
+- Shortest path to any ending: **10+ choices** (11+ nodes from start to end)
+- This ensures **20-30 minutes** of gameplay, not 5 minutes
+- ALL endings (node-25, node-26, etc.) must be at layer 11 or deeper
+
+=== HOW TO STRUCTURE A DEEP STORY GRAPH ===
+
+BAD (Shallow - 6 choices to ending):
+```
+node-1 → node-2 → node-4 → node-9 → node-15 → node-21 → ending
+(Layer 1→2→3→4→5→6→End = Only 6 layers! ❌)
+```
+
+GOOD (Deep - 10+ choices to ending):
+```
+Layer 1:  node-1 (start) → node-2, node-3
+Layer 2:  node-2 → node-4, node-5 | node-3 → node-6, node-7
+Layer 3:  node-4,5,6,7 → node-8, node-9, node-10, node-11
+Layer 4:  nodes 8-11 → nodes 12-15
+Layer 5:  nodes 12-15 → nodes 16-19
+Layer 6:  nodes 16-19 → nodes 20-23
+Layer 7:  nodes 20-23 → nodes 24-27
+Layer 8:  nodes 24-27 → nodes 28-31
+Layer 9:  nodes 28-31 → nodes 32-35
+Layer 10: nodes 32-35 → node-36 (pre-ending decision)
+Layer 11: node-36 → endings (node-37, 38, 39, 40)
+```
+
+**RULES FOR DEPTH:**
+1. **Each layer must feed ONLY into the next layer** - never skip layers!
+2. **Endings can ONLY exist at layer 11 or deeper**
+3. **NO shortcuts** from early layers to endings
+4. **Branching should DIVERGE early** and CONVERGE only near endings
+5. **Every path must traverse 10+ decision nodes** before reaching any ending
+
+=== MANDATORY LAYER-BY-LAYER STRUCTURE ===
+
+When designing your story, EXPLICITLY plan 10+ layers:
+
+| Layer | Node Count | Purpose |
+|-------|------------|---------|
+| 1 | 1 | Start - Introduction, inciting incident |
+| 2 | 2 | Initial response - 2 different reactions |
+| 3 | 2-3 | Investigation begins - gathering first clues |
+| 4 | 2-3 | Complications - obstacles, twists |
+| 5 | 2-3 | Deepening mystery - new information |
+| 6 | 2-3 | Rising action - stakes increase |
+| 7 | 2-3 | Critical discoveries - major revelations |
+| 8 | 2-3 | Point of no return - commitment to path |
+| 9 | 2-3 | Climax approaches - final preparations |
+| 10 | 2 | Final decision before endings |
+| 11+ | 3-6 | ENDINGS only - no outgoing choices |
+
+=== VERIFICATION CHECKLIST (MANDATORY BEFORE OUTPUT) ===
+
+□ Count the layers from start to each ending (must be 11+ nodes)
+□ Verify NO ending is reachable in fewer than 10 choices
+□ Check that early nodes (1-5) NEVER connect directly to endings
+□ Confirm each layer only connects to the NEXT layer
+□ Ensure endings are ONLY at nodes 25+ for 25-page stories, 30+ for 30-page stories
+
+=== CHOICE IMPACT REQUIREMENTS ===
+
+EVERY choice must significantly alter the story path or outcome:
+- Choices should NOT be "left vs right" with same result
+- Each choice leads to substantively different scenes, allies, information
+- Late-game choices (layer 8+) determine which ending is reached
+
+BANNED GENERIC CHOICES:
+❌ "Choose A" / "Choose B",❌ "Option 1" / "Option 2", "Choise 1" / "Choise B" and so on
+❌ "Go left" / "Go right" (without context)
+❌ "Yes" / "No" (unless meaningful moral dilemma)
+❌ "Fight" / "Run" (unless genuinely different consequences)
+
+CHOICE TEXT GUIDELINES:
+- Must be DESCRIPTIVE and SPECIFIC (5-12 words)
+- Good: "Confront Alex about the unspoken feelings"
+- Good: "Hide your emotions and make a joke instead"
+- Bad: "Confront them"
+- Bad: "Hide emotions"
+
+=== STORY REQUIREMENTS ===
+- Genre: [GENRE] (only 1 genre)
+- Duration: [DURATION] minutes of gameplay
+- Total Nodes: [NODES] story nodes
+  - For ~20 pages: 24-28 nodes (10+ layers + endings)
+  - For ~25 pages: 28-32 nodes (12+ layers + endings)
+  - For ~30 pages: 32-38 nodes (15+ layers + endings)
+- Total Endings: [ENDINGS] possible endings (4-6 endings)
+- User Involvement: [INVOLVEMENT] (low/medium/high)
+- Target Audience: [TARGET_AUDIENCE] (kids/teens/adults/all)
+- Content Rating: [CONTENT_RATING] (E/T/M)
+- Central Themes: [THEMES] (array of short strings)
+- Emotional Tone: [EMOTIONAL_TONE] (lighthearted/serious/dark/humorous)
+- Difficulty: [DIFFICULTY] (easy/medium/hard)
+- Total Length Target (characters):
+  - 20 pages: 18000-25000 characters
+  - 25 pages: 22500-31250 characters
+  - 30 pages: 27000-37500 characters
+
+=== JSON SAFETY / JS COMPATIBILITY ===
+
+Output ONLY a single JSON object. No markdown, no explanations, no trailing text.
+The JSON MUST be strictly valid (double quotes only, no trailing commas, no comments).
+Use ONLY standard ASCII characters in all strings:
+- Do NOT use curly quotes: " " ' '
+- Do NOT use em/en dashes: — –
+- Do NOT use ellipsis: …
+- Use straight quotes only: " and '
+- Do NOT include newline characters inside narration strings (single line only)
+
+=== CONTENT GUIDELINES ===
+
+Write in second-person perspective ("You discover...", "You decide...")
+Each decision node narration: 150-200 words (900-1250 ASCII characters)
+Each ending node narration: 200-300 words (1100-1700 ASCII characters)
+Include sensory details and emotional stakes
+Maintain continuity (names, facts, tone)
+
+=== IMAGE REQUIREMENTS ===
+
+- metadata.coverImageUrl: Unsplash URL with ?w=800
+- metadata.thumbnailUrl: Unsplash URL with ?w=400
+- nodes[].imageUrl: Unsplash URL with ?w=800
+- nodes[].thumbnailUrl: Unsplash URL with ?w=400
+All images should be various and different each other but have the same visual style/mood
+Do not use any abstract images
+Before using an image link ensure it's not broken - it doesn't leading to 404, etc
+
+=== NODE MODEL RULES ===
+
+- Node ids must be unique and sequential: node-1 ... node-[NODES]
+- node-1 type must be "start"
+- Exactly [ENDINGS] nodes must have type "ending"
+- All other nodes must have type "decision"
+- Every choice targetNodeId must point to an existing node id
+- Ending nodes must have choices: [] (empty array)
+- Non-ending nodes must have 2 or 3 choices
+- Choice ids must be unique: choice-1 ... choice-[X]
+- choices[].text must be 5-12 words, descriptive and specific
+
+=== FINAL LAYER CHECK (BEFORE OUTPUT) ===
+
+Map out your story layers explicitly and verify:
+1. What layer is each node? (Write it down)
+2. Can any ending be reached before layer 11? (Must be NO)
+3. Do all paths have 10+ decisions? (Must be YES)
+4. Are there any shortcuts bypassing layers? (Must be NO)
+
+If you cannot verify 10+ layers, ADD MORE NODES.
+
+=== OUTPUT FORMAT ===
+
+{
+  "metadata": {
+    "title": "Story Title",
+    "description": "1-2 sentences.",
+    "author": ["Some random but realistic name"],
+    "genre": "[GENRE]",
+    "themes": ["theme1", "theme2"],
+    "targetAudience": "[TARGET_AUDIENCE]",
+    "contentRating": "[CONTENT_RATING]",
+    "emotionalTone": "[EMOTIONAL_TONE]",
+    "difficulty": "[DIFFICULTY]",
+    "estimatedDuration": [DURATION],
+    "totalNodes": [NODES],
+    "totalEndings": [ENDINGS],
+    "involvement": "[INVOLVEMENT]",
+    "coverImageUrl": "https://images.unsplash.com/photo-XXXXXXXXXXXXXXX?w=800",
+    "thumbnailUrl": "https://images.unsplash.com/photo-XXXXXXXXXXXXXXX?w=400"
+  },
+  "nodes": [
+    {
+      "id": "node-1",
+      "type": "start",
+      "title": "Scene Title",
+      "narration": "Single line narration. No newlines.",
+      "imageUrl": "https://images.unsplash.com/photo-XXXXXXXXXXXXXXX?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-XXXXXXXXXXXXXXX?w=400",
+      "choices": [
+        { "id": "choice-1", "text": "Specific descriptive action text", "targetNodeId": "node-2", "order": 1 },
+        { "id": "choice-2", "text": "Different specific descriptive action", "targetNodeId": "node-3", "order": 2 }
+      ]
+    }
+  ]
+}
+
+Generate the full story JSON ensuring MINIMUM 10 decision layers before any ending.
