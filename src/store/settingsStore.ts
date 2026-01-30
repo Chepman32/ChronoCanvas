@@ -6,11 +6,11 @@ interface SettingsStore {
   themeName: ThemeName;
   theme: Theme;
   language: Language;
-  soundEnabled: boolean;
+  fontSize: number;
   hapticsEnabled: boolean;
   setTheme: (themeName: ThemeName) => void;
   setLanguage: (language: Language) => void;
-  toggleSound: () => void;
+  setFontSize: (size: number) => void;
   toggleHaptics: () => void;
 }
 
@@ -18,7 +18,7 @@ export const useSettingsStore = create<SettingsStore>((set) => ({
   themeName: 'light',
   theme: themes.light,
   language: 'en',
-  soundEnabled: true,
+  fontSize: 1.0,
   hapticsEnabled: true,
 
   setTheme: (themeName) =>
@@ -33,8 +33,10 @@ export const useSettingsStore = create<SettingsStore>((set) => ({
     });
   },
 
-  toggleSound: () =>
-    set((state) => ({ soundEnabled: !state.soundEnabled })),
+  setFontSize: (fontSize) => {
+    const clampedSize = Math.max(0.8, Math.min(1.4, fontSize));
+    set({ fontSize: clampedSize });
+  },
 
   toggleHaptics: () =>
     set((state) => ({ hapticsEnabled: !state.hapticsEnabled })),

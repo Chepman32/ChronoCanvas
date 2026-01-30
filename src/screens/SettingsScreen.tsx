@@ -35,11 +35,11 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({ onBack }) => {
     themeName,
     theme,
     language,
-    soundEnabled,
+    fontSize,
     hapticsEnabled,
     setTheme,
     setLanguage,
-    toggleSound,
+    setFontSize,
     toggleHaptics,
   } = useSettingsStore();
 
@@ -161,39 +161,6 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({ onBack }) => {
           </View>
         </View>
 
-        {/* Sound Section */}
-        <View style={styles.section}>
-          <Text style={[styles.sectionTitle, { color: theme.textPrimary }]}>
-            {t.audio}
-          </Text>
-          <View
-            style={[
-              styles.settingRow,
-              { backgroundColor: theme.surface, borderColor: theme.border },
-            ]}
-          >
-            <View>
-              <Text style={[styles.settingLabel, { color: theme.textPrimary }]}>
-                {t.soundEffects}
-              </Text>
-              <Text
-                style={[
-                  styles.settingDescription,
-                  { color: theme.textSecondary },
-                ]}
-              >
-                {t.soundEffectsDescription}
-              </Text>
-            </View>
-            <Switch
-              value={soundEnabled}
-              onValueChange={toggleSound}
-              trackColor={{ false: theme.border, true: theme.primaryLight }}
-              thumbColor={soundEnabled ? theme.primary : theme.surface}
-            />
-          </View>
-        </View>
-
         {/* Haptics Section */}
         <View style={styles.section}>
           <Text style={[styles.sectionTitle, { color: theme.textPrimary }]}>
@@ -224,6 +191,84 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({ onBack }) => {
               trackColor={{ false: theme.border, true: theme.primaryLight }}
               thumbColor={hapticsEnabled ? theme.primary : theme.surface}
             />
+          </View>
+        </View>
+
+        {/* Font Size Section */}
+        <View style={styles.section}>
+          <Text style={[styles.sectionTitle, { color: theme.textPrimary }]}>
+            {t.textSize}
+          </Text>
+
+          {/* Preview Text */}
+          <View
+            style={[
+              styles.settingRow,
+              { backgroundColor: theme.surface, borderColor: theme.border },
+            ]}
+          >
+            <View style={{ flex: 1 }}>
+              <Text style={[styles.settingLabel, { color: theme.textPrimary }]}>
+                {t.textSizeDescription}
+              </Text>
+              <Text
+                style={[
+                  styles.textSizePreview,
+                  {
+                    color: theme.textSecondary,
+                    fontSize: 14 * fontSize,
+                    lineHeight: 20 * fontSize,
+                  },
+                ]}
+              >
+                {t.textSizePreview}
+              </Text>
+            </View>
+          </View>
+
+          {/* Controls */}
+          <View style={styles.fontSizeControls}>
+            <TouchableOpacity
+              style={[
+                styles.fontSizeButton,
+                {
+                  backgroundColor: theme.surface,
+                  borderColor: theme.border,
+                  opacity: fontSize <= 0.8 ? 0.5 : 1,
+                },
+              ]}
+              onPress={() => setFontSize(fontSize - 0.1)}
+              disabled={fontSize <= 0.8}
+              activeOpacity={0.7}
+            >
+              <Text style={[styles.fontSizeButtonText, { color: theme.textPrimary }]}>
+                {t.textSizeSmaller}
+              </Text>
+            </TouchableOpacity>
+
+            <View style={styles.fontSizeIndicator}>
+              <Text style={[styles.fontSizeValue, { color: theme.textPrimary }]}>
+                {Math.round(fontSize * 100)}%
+              </Text>
+            </View>
+
+            <TouchableOpacity
+              style={[
+                styles.fontSizeButton,
+                {
+                  backgroundColor: theme.surface,
+                  borderColor: theme.border,
+                  opacity: fontSize >= 1.4 ? 0.5 : 1,
+                },
+              ]}
+              onPress={() => setFontSize(fontSize + 0.1)}
+              disabled={fontSize >= 1.4}
+              activeOpacity={0.7}
+            >
+              <Text style={[styles.fontSizeButtonText, { color: theme.textPrimary }]}>
+                {t.textSizeLarger}
+              </Text>
+            </TouchableOpacity>
           </View>
         </View>
 
@@ -333,5 +378,36 @@ const styles = StyleSheet.create({
   infoText: {
     fontSize: 12,
     marginBottom: 4,
+  },
+  textSizePreview: {
+    fontSize: 14,
+    marginTop: spacing.sm,
+    lineHeight: 20,
+  },
+  fontSizeControls: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginTop: spacing.md,
+    gap: spacing.sm,
+  },
+  fontSizeButton: {
+    flex: 1,
+    paddingVertical: spacing.md,
+    borderRadius: borderRadius.medium,
+    borderWidth: 1,
+    alignItems: 'center',
+  },
+  fontSizeButtonText: {
+    fontSize: 14,
+    fontWeight: '600',
+  },
+  fontSizeIndicator: {
+    paddingHorizontal: spacing.lg,
+    alignItems: 'center',
+  },
+  fontSizeValue: {
+    fontSize: 20,
+    fontWeight: 'bold',
   },
 });

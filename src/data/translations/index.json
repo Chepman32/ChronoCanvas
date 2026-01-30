@@ -16,191 +16,228 @@
       "id": "story-1",
       "title": "The Enchanted Forest",
       "author": "Elena Rivers",
-      "genre": ["fantasy", "adventure"],
+      "genre": [
+        "fantasy",
+        "adventure"
+      ],
       "difficulty": "easy",
       "nodes": 5,
-      "folder": "story-1",
-      "availableLanguages": ["en"]
+      "folder": "story-1"
     },
     {
       "id": "story-2",
       "title": "Neon Nights",
       "author": "Marcus Chen",
-      "genre": ["scifi", "mystery"],
+      "genre": [
+        "scifi",
+        "mystery"
+      ],
       "difficulty": "medium",
       "nodes": 3,
-      "folder": "story-2",
-      "availableLanguages": ["en"]
+      "folder": "story-2"
     },
     {
       "id": "story-3",
       "title": "The Time Loop Paradox",
       "author": "Dr. Sarah Chen",
-      "genre": ["scifi", "mystery"],
+      "genre": [
+        "scifi",
+        "mystery"
+      ],
       "difficulty": "hard",
       "nodes": 42,
-      "folder": "story-3",
-      "availableLanguages": ["en", "es"]
+      "folder": "story-3"
     },
     {
       "id": "story-4",
       "title": "Abyssal Secrets",
       "author": "Captain Marina Torres",
-      "genre": ["mystery", "adventure"],
+      "genre": [
+        "mystery",
+        "adventure"
+      ],
       "difficulty": "medium",
       "nodes": 20,
-      "folder": "story-4",
-      "availableLanguages": ["en"]
+      "folder": "story-4"
     },
     {
       "id": "story-847362951",
       "title": "The Midnight Curator",
       "author": "Detective Marcus Reed",
-      "genre": ["detective", "mystery"],
+      "genre": [
+        "detective",
+        "mystery"
+      ],
       "difficulty": "medium",
       "nodes": 22,
-      "folder": "story-847362951",
-      "availableLanguages": ["en"]
+      "folder": "story-847362951"
     },
     {
       "id": "story-7481296",
       "title": "Midnight Missing",
       "author": "Morgan Steele",
-      "genre": ["detective", "mystery"],
+      "genre": [
+        "detective",
+        "mystery"
+      ],
       "difficulty": "medium",
       "nodes": 21,
-      "folder": "story-7481296",
-      "availableLanguages": ["en"]
+      "folder": "story-7481296"
     },
     {
       "id": "story-8273910265",
       "title": "Shadows of the Vanished Star",
       "author": "Daphne Sawyer",
-      "genre": ["detective", "mystery"],
+      "genre": [
+        "detective",
+        "mystery"
+      ],
       "difficulty": "hard",
       "nodes": 22,
-      "folder": "story-8273910265",
-      "availableLanguages": ["en"]
+      "folder": "story-8273910265"
     },
     {
       "id": "story-847362910",
       "title": "The Midnight Caller",
       "author": "Elena Blackwood",
-      "genre": ["detective", "mystery"],
+      "genre": [
+        "detective",
+        "mystery"
+      ],
       "difficulty": "medium",
       "nodes": 22,
-      "folder": "story-847362910",
-      "availableLanguages": ["en"]
+      "folder": "story-847362910"
     },
     {
       "id": "story-583921467",
       "title": "The Timekeeper's Heart",
       "author": "Nova Strickland",
-      "genre": ["romance", "scifi"],
+      "genre": [
+        "romance",
+        "scifi"
+      ],
       "difficulty": "medium",
       "nodes": 12,
-      "folder": "story-583921467",
-      "availableLanguages": ["en"]
+      "folder": "story-583921467"
     },
     {
       "id": "story-745829103",
       "title": "The Midnight Garden",
       "author": "Isabella Crane",
-      "genre": ["romance", "fantasy"],
+      "genre": [
+        "romance",
+        "fantasy"
+      ],
       "difficulty": "medium",
       "nodes": 23,
-      "folder": "story-745829103",
-      "availableLanguages": ["en"]
+      "folder": "story-745829103"
     },
     {
       "id": "story-892746531",
       "title": "The Last Letter",
       "author": "Elena Rousseau",
-      "genre": ["romance", "mystery"],
+      "genre": [
+        "romance",
+        "mystery"
+      ],
       "difficulty": "medium",
       "nodes": 24,
-      "folder": "story-892746531",
-      "availableLanguages": ["en"]
+      "folder": "story-892746531"
     },
     {
       "id": "story-9123457712345",
       "title": "Heartline Rewind",
       "author": "ChronoCanvas Studio",
-      "genre": ["romance", "scifi"],
+      "genre": [
+        "romance",
+        "scifi"
+      ],
       "difficulty": "medium",
       "nodes": 22,
-      "folder": "story-9123457712345",
-      "availableLanguages": ["en"]
+      "folder": "story-9123457712345"
     },
     {
       "id": "story-8742190384",
       "title": "City of Second Chances",
       "author": "A. Marin",
-      "genre": ["romance"],
+      "genre": [
+        "romance"
+      ],
       "difficulty": "medium",
       "nodes": 22,
-      "folder": "story-8742190384",
-      "availableLanguages": ["en"]
+      "folder": "story-8742190384"
     },
     {
       "id": "story-8743921042",
       "title": "Echoes of the Moonlit Grove",
       "author": "Daria Voronova",
-      "genre": ["fantasy", "adventure"],
+      "genre": [
+        "fantasy",
+        "adventure"
+      ],
       "difficulty": "medium",
       "nodes": 22,
-      "folder": "story-8743921042",
-      "availableLanguages": ["en"]
+      "folder": "story-8743921042"
     },
     {
       "id": "story-8923745610923",
       "title": "Paradox Palette",
       "author": "ChronoCanvas Studio",
-      "genre": ["scifi", "mystery"],
+      "genre": [
+        "scifi",
+        "mystery"
+      ],
       "difficulty": "medium",
       "nodes": 24,
-      "folder": "story-8923745610923",
-      "availableLanguages": ["en"]
+      "folder": "story-8923745610923"
     },
     {
       "id": "story-9845237719284",
       "title": "Ember Crown Oath",
       "author": "ChronoCanvas Studio",
-      "genre": ["fantasy", "adventure"],
+      "genre": [
+        "fantasy",
+        "adventure"
+      ],
       "difficulty": "medium",
       "nodes": 24,
-      "folder": "story-9845237719284",
-      "availableLanguages": ["en"]
+      "folder": "story-9845237719284"
     },
     {
       "id": "story-9932045517721",
       "title": "Rootweaver's Pact",
       "author": "ChronoCanvas Studio",
-      "genre": ["fantasy", "mystery"],
+      "genre": [
+        "fantasy",
+        "mystery"
+      ],
       "difficulty": "easy",
       "nodes": 22,
-      "folder": "story-9932045517721",
-      "availableLanguages": ["en"]
+      "folder": "story-9932045517721"
     },
     {
       "id": "story-10012001",
       "title": "Cosmic Castaway",
       "author": "Commander Lyra Hayes",
-      "genre": ["scifi", "adventure"],
+      "genre": [
+        "scifi",
+        "adventure"
+      ],
       "difficulty": "medium",
       "nodes": 7,
-      "folder": "story-10012001",
-      "availableLanguages": ["en"]
+      "folder": "story-10012001"
     },
     {
       "id": "story-neon-synapse",
       "title": "Neon Synapse",
       "author": "FableFlow",
-      "genre": ["scifi", "adventure"],
+      "genre": [
+        "scifi",
+        "adventure"
+      ],
       "difficulty": "medium",
       "nodes": 20,
-      "folder": "story-neon-synapse",
-      "availableLanguages": ["en", "es", "fr", "de", "ru", "ja", "ko", "it", "pt", "zh", "ar", "hi", "nl", "pl", "tr"]
+      "folder": "story-neon-synapse"
     }
   ],
   "languageCodes": {

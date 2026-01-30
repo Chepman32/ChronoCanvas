@@ -34,6 +34,7 @@ export const StoryPlayScreen: React.FC<StoryPlayScreenProps> = ({
     useStoryStore();
   const { trackProgress, getStoryProgress, clearStoryProgress } = useUserStore();
   const theme = useSettingsStore(state => state.theme);
+  const fontSize = useSettingsStore(state => state.fontSize);
   const t = useTranslation();
   const [fadeAnim] = useState(new Animated.Value(0));
   const [imageError, setImageError] = useState(false);
@@ -116,10 +117,13 @@ export const StoryPlayScreen: React.FC<StoryPlayScreenProps> = ({
             style={styles.narrationScroll}
             contentContainerStyle={styles.narrationContent}
           >
-            <Text style={styles.nodeTitle}>
+            <Text style={[styles.nodeTitle, { fontSize: 24 * fontSize }]}>
               {currentNode.title}
             </Text>
-            <Text style={styles.narrationText}>
+            <Text style={[
+              styles.narrationText,
+              { fontSize: 16 * fontSize, lineHeight: 24 * fontSize }
+            ]}>
               {currentNode.narration}
             </Text>
 
@@ -144,9 +148,9 @@ export const StoryPlayScreen: React.FC<StoryPlayScreenProps> = ({
                   onPress={() => handleChoice(choice)}
                   activeOpacity={0.8}
                 >
-                  <Text style={styles.choiceText}>{choice.text}</Text>
+                  <Text style={[styles.choiceText, { fontSize: 16 * fontSize }]}>{choice.text}</Text>
                   {choice.description && (
-                    <Text style={styles.choiceDescription}>
+                    <Text style={[styles.choiceDescription, { fontSize: 13 * fontSize }]}>
                       {choice.description}
                     </Text>
                   )}
@@ -160,7 +164,7 @@ export const StoryPlayScreen: React.FC<StoryPlayScreenProps> = ({
               style={[styles.finishButton, { backgroundColor: theme.primary }]}
               onPress={handleExit}
             >
-              <Text style={styles.finishButtonText}>{t.finishStory}</Text>
+              <Text style={[styles.finishButtonText, { fontSize: 18 * fontSize }]}>{t.finishStory}</Text>
             </TouchableOpacity>
           )}
         </View>

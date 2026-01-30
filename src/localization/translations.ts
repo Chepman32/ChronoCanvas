@@ -64,6 +64,11 @@ export interface Translations {
   feedback: string;
   hapticFeedback: string;
   hapticFeedbackDescription: string;
+  textSize: string;
+  textSizeDescription: string;
+  textSizeSmaller: string;
+  textSizeLarger: string;
+  textSizePreview: string;
 
   // Themes
   themeLight: string;
@@ -130,6 +135,11 @@ export const translations: Record<Language, Translations> = {
     feedback: 'Feedback',
     hapticFeedback: 'Haptic Feedback',
     hapticFeedbackDescription: 'Enable vibration feedback for interactions',
+    textSize: 'Text Size',
+    textSizeDescription: 'Adjust reading text size',
+    textSizeSmaller: 'Smaller',
+    textSizeLarger: 'Larger',
+    textSizePreview: 'The quick brown fox jumps over the lazy dog',
 
     themeLight: 'Light',
     themeDark: 'Dark',
@@ -192,6 +202,11 @@ export const translations: Record<Language, Translations> = {
     feedback: 'Обратная связь',
     hapticFeedback: 'Тактильная отдача',
     hapticFeedbackDescription: 'Включить вибрацию при взаимодействии',
+    textSize: 'Размер текста',
+    textSizeDescription: 'Настройка размера текста для чтения',
+    textSizeSmaller: 'Меньше',
+    textSizeLarger: 'Больше',
+    textSizePreview: 'Съешь ещё этих мягких французских булок',
 
     themeLight: 'Светлая',
     themeDark: 'Тёмная',
@@ -254,6 +269,11 @@ export const translations: Record<Language, Translations> = {
     feedback: 'Retroalimentación',
     hapticFeedback: 'Retroalimentación háptica',
     hapticFeedbackDescription: 'Activar vibración para interacciones',
+    textSize: 'Tamaño de texto',
+    textSizeDescription: 'Ajustar el tamaño del texto de lectura',
+    textSizeSmaller: 'Más pequeño',
+    textSizeLarger: 'Más grande',
+    textSizePreview: 'El veloz murciélago hindú comía feliz cardillo',
 
     themeLight: 'Claro',
     themeDark: 'Oscuro',
@@ -317,6 +337,11 @@ export const translations: Record<Language, Translations> = {
     hapticFeedback: 'Haptisches Feedback',
     hapticFeedbackDescription:
       'Vibrationsfeedback für Interaktionen aktivieren',
+    textSize: 'Textgröße',
+    textSizeDescription: 'Leseschriftgröße anpassen',
+    textSizeSmaller: 'Kleiner',
+    textSizeLarger: 'Größer',
+    textSizePreview: 'Franz jagt im komplett verwahrlosten Taxi quer',
 
     themeLight: 'Hell',
     themeDark: 'Dunkel',
@@ -380,6 +405,11 @@ export const translations: Record<Language, Translations> = {
     hapticFeedback: 'Retour haptique',
     hapticFeedbackDescription:
       'Activer le retour vibratoire pour les interactions',
+    textSize: 'Taille du texte',
+    textSizeDescription: 'Ajuster la taille du texte de lecture',
+    textSizeSmaller: 'Plus petit',
+    textSizeLarger: 'Plus grand',
+    textSizePreview: 'Portez ce vieux whisky au juge blond qui fume',
 
     themeLight: 'Clair',
     themeDark: 'Sombre',
@@ -442,6 +472,11 @@ export const translations: Record<Language, Translations> = {
     feedback: 'Feedback',
     hapticFeedback: 'Feedback tátil',
     hapticFeedbackDescription: 'Ativar feedback de vibração para interações',
+    textSize: 'Tamanho do texto',
+    textSizeDescription: 'Ajustar o tamanho do texto de leitura',
+    textSizeSmaller: 'Menor',
+    textSizeLarger: 'Maior',
+    textSizePreview: 'Gazeta publica hoje no jornal as fúnicas questões',
 
     themeLight: 'Claro',
     themeDark: 'Escuro',
@@ -505,6 +540,11 @@ export const translations: Record<Language, Translations> = {
     hapticFeedback: '触覚フィードバック',
     hapticFeedbackDescription:
       'インタラクションの振動フィードバックを有効にする',
+    textSize: 'テキストサイズ',
+    textSizeDescription: '読書用テキストサイズの調整',
+    textSizeSmaller: '小さく',
+    textSizeLarger: '大きく',
+    textSizePreview: 'いろはにほへと ちりぬるを わかよたれそ',
 
     themeLight: 'ライト',
     themeDark: 'ダーク',
@@ -567,6 +607,11 @@ export const translations: Record<Language, Translations> = {
     feedback: '反馈',
     hapticFeedback: '触觉反馈',
     hapticFeedbackDescription: '为交互启用振动反馈',
+    textSize: '文字大小',
+    textSizeDescription: '调整阅读文字大小',
+    textSizeSmaller: '缩小',
+    textSizeLarger: '放大',
+    textSizePreview: '千里之行，始于足下',
 
     themeLight: '浅色',
     themeDark: '深色',
@@ -629,6 +674,11 @@ export const translations: Record<Language, Translations> = {
     feedback: '피드백',
     hapticFeedback: '햅틱 피드백',
     hapticFeedbackDescription: '상호작용을 위한 진동 피드백 활성화',
+    textSize: '텍스트 크기',
+    textSizeDescription: '읽기 텍스트 크기 조정',
+    textSizeSmaller: '작게',
+    textSizeLarger: '크게',
+    textSizePreview: '다람쥐 헌 쳇바퀴에 타고파',
 
     themeLight: '라이트',
     themeDark: '다크',
@@ -691,6 +741,11 @@ export const translations: Record<Language, Translations> = {
     feedback: "Зворотний зв'язок",
     hapticFeedback: 'Тактильний відгук',
     hapticFeedbackDescription: 'Увімкнути вібрацію при взаємодії',
+    textSize: 'Розмір тексту',
+    textSizeDescription: 'Налаштування розміру тексту для читання',
+    textSizeSmaller: 'Менше',
+    textSizeLarger: 'Більше',
+    textSizePreview: 'Чуєш їх, доцю, га? Кумедна ж ти, прощайся без ґольфів!',
 
     themeLight: 'Світла',
     themeDark: 'Темна',
@@ -753,6 +808,11 @@ export const translations: Record<Language, Translations> = {
     feedback: 'Feedback',
     hapticFeedback: 'Feedback aptico',
     hapticFeedbackDescription: 'Abilita feedback vibrazione per interazioni',
+    textSize: 'Dimensione testo',
+    textSizeDescription: 'Regola la dimensione del testo di lettura',
+    textSizeSmaller: 'Più piccolo',
+    textSizeLarger: 'Più grande',
+    textSizePreview: 'Quel fez sghembo copre davanti',
 
     themeLight: 'Chiaro',
     themeDark: 'Scuro',
@@ -815,6 +875,11 @@ export const translations: Record<Language, Translations> = {
     feedback: 'الردود',
     hapticFeedback: 'الردود اللمسية',
     hapticFeedbackDescription: 'تمكين ردود الاهتزاز للتفاعلات',
+    textSize: 'حجم النص',
+    textSizeDescription: 'ضبط حجم نص القراءة',
+    textSizeSmaller: 'أصغر',
+    textSizeLarger: 'أكبر',
+    textSizePreview: 'صِف خَلقَ خَودِ كَمِثلِ الشَمسِ إِذ بَزَغَت',
 
     themeLight: 'فاتح',
     themeDark: 'داكن',
@@ -877,6 +942,11 @@ export const translations: Record<Language, Translations> = {
     feedback: 'प्रतिक्रिया',
     hapticFeedback: 'हैप्टिक प्रतिक्रिया',
     hapticFeedbackDescription: 'इंटरैक्शन के लिए कंपन प्रतिक्रिया सक्षम करें',
+    textSize: 'पाठ का आकार',
+    textSizeDescription: 'पढ़ने के पाठ का आकार समायोजित करें',
+    textSizeSmaller: 'छोटा',
+    textSizeLarger: 'बड़ा',
+    textSizePreview: 'एक छोटा सा परिवार खुशी से रहता है',
 
     themeLight: 'लाइट',
     themeDark: 'डार्क',
@@ -939,6 +1009,11 @@ export const translations: Record<Language, Translations> = {
     feedback: 'Feedback',
     hapticFeedback: 'Haptische feedback',
     hapticFeedbackDescription: 'Trilfeedback inschakelen voor interacties',
+    textSize: 'Tekstgrootte',
+    textSizeDescription: 'Lees tekstgrootte aanpassen',
+    textSizeSmaller: 'Kleiner',
+    textSizeLarger: 'Groter',
+    textSizePreview: 'Sexy qua lijf, doch bang voor het zwempak',
 
     themeLight: 'Licht',
     themeDark: 'Donker',
@@ -1001,6 +1076,11 @@ export const translations: Record<Language, Translations> = {
     feedback: 'Opinie',
     hapticFeedback: 'Sprzężenie zwrotne haptyczne',
     hapticFeedbackDescription: 'Włącz sprzężenie zwrotne wibracji dla interakcji',
+    textSize: 'Rozmiar tekstu',
+    textSizeDescription: 'Dostosuj rozmiar tekstu do czytania',
+    textSizeSmaller: 'Mniejszy',
+    textSizeLarger: 'Większy',
+    textSizePreview: 'Pchnąć w tę łódź jeża lub ośm skrzyń fig',
 
     themeLight: 'Jasny',
     themeDark: 'Ciemny',
@@ -1063,6 +1143,11 @@ export const translations: Record<Language, Translations> = {
     feedback: 'Geri bildirim',
     hapticFeedback: 'Haptik geri bildirim',
     hapticFeedbackDescription: 'Etkileşimler için titreşim geri bildirimini etkinleştir',
+    textSize: 'Metin boyutu',
+    textSizeDescription: 'Okuma metin boyutunu ayarla',
+    textSizeSmaller: 'Daha küçük',
+    textSizeLarger: 'Daha büyük',
+    textSizePreview: 'Pijamalı hasta yağız şoföre çabucak güvendi',
 
     themeLight: 'Açık',
     themeDark: 'Koyu',
