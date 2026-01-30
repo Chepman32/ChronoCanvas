@@ -7,6 +7,7 @@ import {
   TouchableOpacity,
   Switch,
 } from 'react-native';
+import Slider from '@react-native-community/slider';
 import { useSettingsStore } from '../store/settingsStore';
 import { ThemeName } from '../theme/colors';
 import { spacing, borderRadius } from '../theme/colors';
@@ -226,49 +227,33 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({ onBack }) => {
             </View>
           </View>
 
-          {/* Controls */}
-          <View style={styles.fontSizeControls}>
-            <TouchableOpacity
-              style={[
-                styles.fontSizeButton,
-                {
-                  backgroundColor: theme.surface,
-                  borderColor: theme.border,
-                  opacity: fontSize <= 0.8 ? 0.5 : 1,
-                },
-              ]}
-              onPress={() => setFontSize(fontSize - 0.1)}
-              disabled={fontSize <= 0.8}
-              activeOpacity={0.7}
-            >
-              <Text style={[styles.fontSizeButtonText, { color: theme.textPrimary }]}>
-                {t.textSizeSmaller}
-              </Text>
-            </TouchableOpacity>
-
+          {/* Slider Controls */}
+          <View style={styles.fontSizeSliderContainer}>
             <View style={styles.fontSizeIndicator}>
               <Text style={[styles.fontSizeValue, { color: theme.textPrimary }]}>
                 {Math.round(fontSize * 100)}%
               </Text>
             </View>
 
-            <TouchableOpacity
-              style={[
-                styles.fontSizeButton,
-                {
-                  backgroundColor: theme.surface,
-                  borderColor: theme.border,
-                  opacity: fontSize >= 1.4 ? 0.5 : 1,
-                },
-              ]}
-              onPress={() => setFontSize(fontSize + 0.1)}
-              disabled={fontSize >= 1.4}
-              activeOpacity={0.7}
-            >
-              <Text style={[styles.fontSizeButtonText, { color: theme.textPrimary }]}>
+            <View style={styles.sliderWrapper}>
+              <Text style={[styles.sliderLabel, { color: theme.textSecondary }]}>
+                {t.textSizeSmaller}
+              </Text>
+              <Slider
+                style={styles.slider}
+                minimumValue={0.8}
+                maximumValue={2.0}
+                step={0.1}
+                value={fontSize}
+                onValueChange={setFontSize}
+                minimumTrackTintColor={theme.primary}
+                maximumTrackTintColor={theme.border}
+                thumbTintColor={theme.primary}
+              />
+              <Text style={[styles.sliderLabel, { color: theme.textSecondary }]}>
                 {t.textSizeLarger}
               </Text>
-            </TouchableOpacity>
+            </View>
           </View>
         </View>
 
@@ -385,30 +370,30 @@ const styles = StyleSheet.create({
     lineHeight: 20,
     minHeight: 84,
   },
-  fontSizeControls: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
+  fontSizeSliderContainer: {
     marginTop: spacing.md,
-    gap: spacing.sm,
-  },
-  fontSizeButton: {
-    flex: 1,
-    paddingVertical: spacing.md,
-    borderRadius: borderRadius.medium,
-    borderWidth: 1,
-    alignItems: 'center',
-  },
-  fontSizeButtonText: {
-    fontSize: 14,
-    fontWeight: '600',
   },
   fontSizeIndicator: {
-    paddingHorizontal: spacing.lg,
     alignItems: 'center',
+    marginBottom: spacing.sm,
   },
   fontSizeValue: {
-    fontSize: 20,
+    fontSize: 24,
     fontWeight: 'bold',
+  },
+  sliderWrapper: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
+  },
+  sliderLabel: {
+    fontSize: 12,
+    fontWeight: '600',
+    minWidth: 45,
+    textAlign: 'center',
+  },
+  slider: {
+    flex: 1,
+    height: 40,
   },
 });

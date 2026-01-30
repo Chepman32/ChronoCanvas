@@ -2131,6 +2131,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-native-community/slider@npm:^5.1.2":
+  version: 5.1.2
+  resolution: "@react-native-community/slider@npm:5.1.2"
+  checksum: 10c0/e48f0ad72292ca30d63b84a6c0137bb3531516c22a8a3bd1981132f25e3195c19757da271d5b8b1d66d73882ccef02a0cf21c3a99f23144623345c4eaa67823c
+  languageName: node
+  linkType: hard
+
 "@react-native/assets-registry@npm:0.82.0":
   version: 0.82.0
   resolution: "@react-native/assets-registry@npm:0.82.0"
@@ -2825,6 +2832,7 @@ __metadata:
     "@react-native-community/cli": "npm:20.0.0"
     "@react-native-community/cli-platform-android": "npm:20.0.0"
     "@react-native-community/cli-platform-ios": "npm:20.0.0"
+    "@react-native-community/slider": "npm:^5.1.2"
     "@react-native/babel-preset": "npm:0.82.0"
     "@react-native/eslint-config": "npm:0.82.0"
     "@react-native/metro-config": "npm:0.82.0"

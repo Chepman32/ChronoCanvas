@@ -34,7 +34,7 @@ export const useSettingsStore = create<SettingsStore>((set) => ({
   },
 
   setFontSize: (fontSize) => {
-    const clampedSize = Math.max(0.8, Math.min(1.4, fontSize));
+    const clampedSize = Math.max(0.8, Math.min(2.0, fontSize));
     set({ fontSize: clampedSize });
   },
 
