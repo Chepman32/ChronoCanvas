@@ -383,6 +383,7 @@ const styles = StyleSheet.create({
     fontSize: 14,
     marginTop: spacing.sm,
     lineHeight: 20,
+    minHeight: 84,
   },
   fontSizeControls: {
     flexDirection: 'row',
