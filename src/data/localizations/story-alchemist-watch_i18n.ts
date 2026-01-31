@@ -282,4 +282,268 @@ export const alchemistWatchTranslations: Partial<Record<Language, StoryTranslati
       },
     },
   },
+
+  // Korean (한국어)
+  ko: {
+    title: '연금술사의 시계',
+    description: '증기 도시를 배경으로 한 고위험 누와르 미스터리. 불로부를 발명했다고 주장한 남의 살인사를 해결하며 깊은 반란의 망을 허물어나가야 합니다.',
+    author: 'AI 스토리 생성기',
+    nodes: {
+      'node-1': {
+        title: '조용한 실험실',
+        narration: '비가 아리스 토윈 박사의 실험실 천장을 두드리며 눈 뒤에 용동갈이치는 두통과 시나를 맞추어 간다. 토윈은 죽었다. 도시의 가장 물의를 발생시킨 연금술사가 마호갠 책상에 엎서있고, 목에는 노동 주사기가 박혀 있다. 방에는 오존과 쌍두의 향기가 난다. 그레이브스 검색이 발길에서 언론을 지켜낼 때 나에겐 딱 십분이 주어졌다. 실험실은 어지럽다. 왼쪽에는 끓어오르는 탱크가 있고, 오른쪽에는 칠판에 쓰인 미친 분필 공식으로 가득한 벽이 있다. 살인범이 아직 건축물 안에 있을 수 있다.',
+        choices: {
+          'choice-1': { text: '분필 공식을 조사하여 숨겨진 메시지를 찾는다' },
+          'choice-2': { text: '시신과 이상한 주사기를 자세히 조사한다' },
+        },
+      },
+      'node-2': {
+        title: '벽의 글씨',
+        narration: '칠판에 가까워진다. 훈련되지 않은 눈에는 무의미해 보인다 — 화학 화합물과 점성 기호가 섞여 있다. 하지만 지워진 자국을 발견한다. 누군가 오른쪽 아래를 지우려 했다. UV램프로 살펴 보니 희미한 자국이 보인다: 독 지구의 창고 42의 좌표, 그리고 이름: "프로젝트 아이온". 그 순간 환기구에서 낡은 소리가 들린다. 누군가 당신을 지켜보고 있다.',
+        choices: {
+          'choice-3': { text: '환기구에 경고 사격을 한다' },
+          'choice-4': { text: '조용히 좌표를 베끼고 뒷문으로 빠져나간다' },
+        },
+      },
+      'node-3': {
+        title: '시신의 증거',
+        narration: '토윈의 시신에 가까이 다가간다. 주사기에는 뱀이 자신의 꼬리를 물고 있는 조각이 새겨져 있다. 이상하다 — 피가 없다. 상처 주변의 피부가 금으로 변했다. 이것은 살인이 아니라 변환이다. 포켓을 뒤져 무거운 쇠 열쇠와 한 시간 후에 출발하는 "미드나잇 익스프레스"의 승차권이 나온다. 갑자기 시신이 경련한다.',
+        choices: {
+          'choice-5': { text: '열쇠를 집어 데리고 비상계단으로 도망친다' },
+          'choice-6': { text: '옷장에 숨어 검사의 이야기를 엿듣는다' },
+        },
+      },
+    },
+  },
+
+  // Ukrainian (Українська)
+  uk: {
+    title: 'Годинник Алхіміка',
+    description: 'Загадковий нуар у місті, що працює на парі. Розплутайте глибоку мережу змов, розслідуючи вбивство чоловіка, який стверджував, що вигадав безсмертя.',
+    author: 'AI Генератор Історій',
+    nodes: {
+      'node-1': {
+        title: 'Тиха Лабораторія',
+        narration: 'Дощ б\'є про скляне дах лабораторії доктора Аріса Торна, відстукує в такт головного болю за очима. Торн мертвий. Найскандальніший алхімік міста лежить на червоному дерев\'яному столі, латунний шприц торчить з шиї. Кімната пахне озоном і гірким мигдалем. Інспектор Грейвс стримує журналістів, даючи вам рівно десять хвилин. Лабораторія завалена: зліва бурлять чани, справа — стіна в крейдових формулах. Вбивця може бути ще в будівлі.',
+        choices: {
+          'choice-1': { text: 'Вивчити крейдові рівняння на приховане повідомлення' },
+          'choice-2': { text: 'Оглянути тіло і дивний шприц' },
+        },
+      },
+      'node-2': {
+        title: 'Напис на Стіні',
+        narration: 'Ви підходите до дошки. Для неспеціаліста це дурниця — хімічні сполуки змішані з астрологічними символами. Але ви помічаєте слід стирання. Хтось намагався стерти розділ у правому низу. UV-лампа виявляє легкий слід: координати району доків, склад 42, і ім\'я: «Проєкт Айон». У цей момент ви чуєте скрип у вентиляційній шахті. За вами спостерігають.',
+        choices: {
+          'choice-3': { text: 'Зробити попереджувальний постріл у вентиляцію' },
+          'choice-4': { text: 'Тихо списати координати і вийти через тил' },
+        },
+      },
+      'node-3': {
+        title: 'Докази на Тілі',
+        narration: 'Ви наближаєтесь до трупа Торна. Шприц різьблений — змій, що доїдає власний хвіст. Дивно — крові немає. Шкіра навколо рани перетворилася на золото. Це не вбивство, це трансмутація. У кишені ви знаходите важкий залізний ключ і квиток на «Північний експрес», що відправляється за годину. Раптом тіло здригається.',
+        choices: {
+          'choice-5': { text: 'Схопити ключ і втекти через пожежну драбину' },
+          'choice-6': { text: 'Сховатися в шафі, щоб підслухати Інспектора' },
+        },
+      },
+    },
+  },
+
+  // Italian (Italiano)
+  it: {
+    title: 'L\'Orologio dell\'Alchimista',
+    description: 'Un noir mystery ad alto rischio in una città a vapore. Devi attraversare una fitta rete di cospirazioni per risolvere l\'omicidio di un uomo che sosteneva di aver inventato l\'immortalità.',
+    author: 'Generatore di Storie AI',
+    nodes: {
+      'node-1': {
+        title: 'Il Laboratorio Silenzioso',
+        narration: 'La pioggia batte sul lucernario del laboratorio del Dottor Aris Thorne, scandendo il tempo al ritmo del mal di testa che pulsa dietro i tuoi occhi. Thorne è morto. L\'alchimista più controverso della città giace sulla scrivania di mogano, una siringa d\'ottone conficcata nel collo. La stanza odora di ozono e mandorle amare. L\'Ispettore Graves trattiene la stampa fuori, dandoti esattamente dieci minuti. Il laboratorio è ingombro: vasche gorgoglianti a sinistra, equazioni gesso sulla parete di destra. L\'assassino potrebbe essere ancora nell\'edificio.',
+        choices: {
+          'choice-1': { text: 'Esaminare le equazioni per un messaggio nascosto' },
+          'choice-2': { text: 'Ispezionare il corpo e la strana siringa più da vicino' },
+        },
+      },
+      'node-2': {
+        title: 'La Scrittura sul Muro',
+        narration: 'Ti avvicini alla lavagna. Agli occhi inesperti sembra un nonsenso: composti chimici mescolati a simboli astrologici. Ma noti un pattern di sbavature. Qualcuno ha cercato di cancellare una sezione in basso a destra. Con la lampada UV riveli un residuo debole: coordinate al Distretto dei Moli, Magazzino 42, e un nome: «Progetto Aion». Proprio allora senti uno scricchiolio dalla condotta d\'aria. Qualcuno ti sta osservando.',
+        choices: {
+          'choice-3': { text: 'Sparare un colpo di avvertimento nella condotta' },
+          'choice-4': { text: 'Copiare silenziosamente le coordinate e uscire dal retro' },
+        },
+      },
+      'node-3': {
+        title: 'Le Prove sul Corpo',
+        narration: 'Ti avvicini al cadavere di Thorne. La siringa è incisa con un serpente che si morde la coda. Strano: non c\'è sangue. La pelle attorno alla ferita si è trasformata in oro. Non è omicidio, è trasmutazione. Nelle tasche trovi una pesante chiave di ferro e un biglietto per l\'«Espresso di Mezzanotte» che parte tra un\'ora. Improvvisamente il corpo sussulta.',
+        choices: {
+          'choice-5': { text: 'Afferrare la chiave e fuggire dalla scala antincendio' },
+          'choice-6': { text: 'Nascondersi nell\'armadio per origliare l\'Ispettore' },
+        },
+      },
+    },
+  },
+
+  // Arabic (العربية)
+  ar: {
+    title: 'ساعة الكيميائي',
+    description: 'غموض أسود عالي الخطورة في مدينة تعمل بالبخار. يجب أن تخترق شبكة مؤامرات عميقة لحل جريمة قتل رجل ادعى أنه اخترع الخلود.',
+    author: 'مولد القصص الذكاء الاصطناعي',
+    nodes: {
+      'node-1': {
+        title: 'المعمل الصامت',
+        narration: 'المطر يقصف زجاج سقف معمل الدكتور أريس ثورن، مواكباً نبض الصداع خلف عينيك. ثورن ميت. الخيميائي الأكثر إثارة للجدل في المدينة منهك على مكتبه المحني، ومحاصر برنين نحاسي في رقبته. الغرفة تنبعث منها رائحة الأوزون واللوز المر. المفتش غريفز في الخارج يكبح الصحافة، مما يمنحك عشر دقائق بالضبط. المعمل مزدحم: أحواض فقاعية على اليسار، جدار مغطى بمعادلات الطباشير المجنونة على اليمين. القاتل قد يكون في المبنى.',
+        choices: {
+          'choice-1': { text: 'فحص معادلات الطباشير بحثاً عن رسالة خفية' },
+          'choice-2': { text: 'فحص الجثة والإبرة الغريبة بعناية أكبر' },
+        },
+      },
+      'node-2': {
+        title: 'الكتابة على الجدار',
+        narration: 'تقترب من اللوح. يبدو هراءً للعين غير المتدربة — مركبات كيميائية مختلطة برموز فلكية. لكنك تلاحظ نمط التلطيخ. حاول شخص ما مسح قسم محدد في الأسفل الأيمن. باستخدام مصباحك فوق البنفسجي، تكشف عن بقايا خافتة: إحداثيات تشير إلى منطقة الأرصفة، المستودع 42، واسم: «مشروع أيون». في هذه اللحظة، تسمع صريراً من قناة التهوية أعلاك. هناك من يراقبك.',
+        choices: {
+          'choice-3': { text: 'إطلاق النار التحذيري في قناة التهوية' },
+          'choice-4': { text: 'نسخ الإحداثيات بهدوء والخروج من الباب الخلفي' },
+        },
+      },
+      'node-3': {
+        title: 'الأدلة على الجثة',
+        narration: 'تقترب من جثة ثورن. الإبرة محفورة بأفعى تأكل ذيلها. غريب — لا يوجد دم. تحول الجلد حول الجرح إلى ذهب. إنه ليس قتل، بل تحول. تتفحص جيوبه وتجد مفتاحاً حديدياً ثقيلاً وقسيمة لـ «القطار الليلي» المغادر خلال ساعة. فجأة، تتشنج الجثة.',
+        choices: {
+          'choice-5': { text: 'الامساك بالمفتاح والهروب عبر سلم الإنذار' },
+          'choice-6': { text: 'الاختباء في الخزانة لتجسس على المفتش' },
+        },
+      },
+    },
+  },
+
+  // Hindi (हिन्दी)
+  hi: {
+    title: 'रसायनशास्त्री की घड़ी',
+    description: 'भाप शक्ति से चलने वाले शहर में एक उच्च-जोखिम न्वार रहस्य। एक आदमी की हत्या का रहस्य सुलझाएं जिसने दावा किया था कि उसने अमरत्व का आविष्कार किया है, और गहरे षड्यंत्र के जाल से गुजरें।',
+    author: 'AI कहानी जनरेटर',
+    nodes: {
+      'node-1': {
+        title: 'शांत प्रयोगशाला',
+        narration: 'डॉक्टर एरिस थॉर्न की प्रयोगशाला के स्काइलाइट पर बारिश गिर रही है, आपकी आंखों के पीछे की धड़कन के साथ समय को चिह्नित करते हुए। थॉर्न मर चुका है। शहर का सबसे विवादास्पद रसायनज्ञ अपनी महोगनी डेस्क पर पड़ा है, उसकी गर्दन में एक पीतल की सुई धंसी हुई है। कमरे में ओजोन और कड़वे बादाम की गंध है। इंस्पेक्टर ग्रेव्स बाहर प्रेस को रोक रहा है, आपको ठीक दस मिनट दे रहा है। प्रयोगशाला भरी हुई है: बाईं ओर बुलबुले उठाते बड़े बर्तन, दाईं ओर पागल चॉक समीकरणों से ढकी दीवार। हत्यारा अभी भी इमारत में हो सकता है।',
+        choices: {
+          'choice-1': { text: 'छिपे संदेश के लिए चॉक समीकरणों की जाँच करें' },
+          'choice-2': { text: 'शव और अजीब सुई की बारीकी से जांच करें' },
+        },
+      },
+      'node-2': {
+        title: 'दीवार पर लिखावट',
+        narration: 'आप ब्लैकबोर्ड के करीब जाते हैं। अनप्रशिक्षित आंखों के लिए यह बकवास लगती है — ज्योतिषीय प्रतीकों के साथ मिश्रित रसायन यौगिक। लेकिन आप एक मिटाने का पैटर्न देखते हैं। किसी ने नीचे दाईं ओर एक विशिष्ट अनुभाग को मिटाने की कोशिश की थी। अपनी यूवी लैंप का उपयोग करके, आप एक हल्का अवशेष प्रकट करते हैं: डॉक जिले के गोदाम 42 के निर्देशांक, और एक नाम: «प्रोजेक्ट ऐन»। तभी, आप अपने ऊपर वेंटिलेशन शाफ्ट से एक चरमराहट सुनते हैं। कोई आपको देख रहा है।',
+        choices: {
+          'choice-3': { text: 'वेंटिलेशन शाफ्ट में चेतावनी गोली चलाएं' },
+          'choice-4': { text: 'चुपचाप निर्देशांक लिखें और पीछे से निकल जाएं' },
+        },
+      },
+      'node-3': {
+        title: 'शव पर सबूत',
+        narration: 'आप थॉर्न के शव के करीब जाते हैं। सुई पर एक नक्काशी है — एक सांप जो अपनी पूंछ खा रहा है। अजीब — कोई खून नहीं है। घाव के आसपास की त्वचा सोने में बदल गई है। यह हत्या नहीं है, यह रूपांतरण है। आप उसकी जेबें टटोलते हैं और एक भारी लोहे की चाबी और «मिडनाइट एक्सप्रेस» की टिकट निकलती है, जो एक घंटे में रवाना हो रही है। अचानक, शव में झटका लगता है।',
+        choices: {
+          'choice-5': { text: 'चाबी पकड़ो और आग बुझाने की सीढ़ी से भागो' },
+          'choice-6': { text: 'इंस्पेक्टर की बातचीत सुनने के लिए अलमारी में छिपो' },
+        },
+      },
+    },
+  },
+
+  // Dutch (Nederlands)
+  nl: {
+    title: 'Het Horloge van de Alchemist',
+    description: 'Een noir mystery met hoge inzet in een stoomaangedreven stad. Je moet een diep web van samenzweringen doorkruisen om de moord op een man op te lossen die beweerde onsterfelijkheid te hebben uitgevonden.',
+    author: 'AI Verhalengenerator',
+    nodes: {
+      'node-1': {
+        title: 'Het Stille Laboratorium',
+        narration: 'De regen slaat tegen het dakraam van het laboratorium van dokter Aris Thorne, in de maat van de hoofdpijn die achter je ogen pulseert. Thorne is dood. De meest omstreden alchemist van de stad ligt over zijn mahonie bureau, een messing spuit in zijn nek. De kamer ruikt naar ozon en bittere amandelen. Inspecteur Graves houdt buiten de pers tegen en geeft je precies tien minuten. Het lab is overvol: borrelende vaten links, een muur vol kalkformules rechts. De moordenaar is misschien nog in het gebouw.',
+        choices: {
+          'choice-1': { text: 'Onderzoek de kalkformules op een verborgen boodschap' },
+          'choice-2': { text: 'Inspecteer het lichaam en de vreemde spuit naderbij' },
+        },
+      },
+      'node-2': {
+        title: 'De Schrift op de Muur',
+        narration: 'Je loopt naar het bord toe. Het lijkt onzin voor het ongetrainde oog: chemische verbindingen gemengd met astrologische symbolen. Maar je ziet een veegpatroon. Iemand probeerde een gedeelte rechtsonder te wissen. Met je UV-lamp onthul je een zwak residu: coördinaten naar het Dokken District, Magazijn 42, en een naam: «Project Aion». Dan hoor je een piep uit het ventilatiekanaal boven je. Iemand houdt je in de gaten.',
+        choices: {
+          'choice-3': { text: 'Vuur een waarschuwingsschot in het ventilatiekanaal' },
+          'choice-4': { text: 'Kopieer stilletjes de coördinaten en glijp weg via de achterdeur' },
+        },
+      },
+      'node-3': {
+        title: 'Het Bewijs op het Lichaam',
+        narration: 'Je nadert Thorns lijk. De spuit is bewerkt met een slang die in zijn eigen staart bijt. Vreemd: er is geen bloed. De huid rond de wond is veranderd in goud. Het is geen moord, het is transmutatie. Je checkt zijn zakken en vindt een zware ijzeren sleutel met een kaartje voor de «Midnight Express» die over een uur vertrekt. Opeens trapt het lichaam.',
+        choices: {
+          'choice-5': { text: 'Grijp de sleutel en vlucht via de brandtrap' },
+          'choice-6': { text: 'Verstop je in de kast om de Inspecteur af te luisteren' },
+        },
+      },
+    },
+  },
+
+  // Polish (Polski)
+  pl: {
+    title: 'Zegar Alchemika',
+    description: 'Mroczna zagadka noir o wysokiej stawce w mieście napędzanym parą. Musisz przebyć głęboką sieć spisków, rozwiązując zabójstwo człowieka, który twierdził, że wynalazł nieśmiertelność.',
+    author: 'Generator Historii AI',
+    nodes: {
+      'node-1': {
+        title: 'Cicha Pracownia',
+        narration: 'Deszcz uderza w świetlik laboratorium doktora Arisa Thornea, w rytmie bólu głowy pulsującego za twoimi oczami. Thorne nie żyje. Najbardziej kontrowersyjny alchemik miasta leży na swoim mahoniowym biurku, z mosiężną strzykawką wbitą w szyję. W pomieszczeniu unosi się zapach ozonu i gorzkich migdałów. Inspektor Graves na zewnątrz powstrzymuje prasę, dając ci dokładnie dziesięć minut. Laboratorium jest zagracone: bulgoczące kadzie po lewej, ściana w kredowych wzorach po prawej. Zabójca może wciąż być w budynku.',
+        choices: {
+          'choice-1': { text: 'Zbadaj kredowe wzory w poszukiwaniu ukrytej wiadomości' },
+          'choice-2': { text: 'Zbliż się, by obejrzeć ciało i dziwną strzykawkę' },
+        },
+      },
+      'node-2': {
+        title: 'Pismo na Ścianie',
+        narration: 'Podchodzisz bliżej tablicy. Dla niewprawnego oka to nonsens: związki chemiczne zmieszane z symbolami astrologicznymi. Ale dostrzegasz ślady smug. Ktoś próbował zetrzeć fragment na dole po prawej. UV lampą odsłaniasz słaby ślad: współrzędne do Dzielnicy Doków, Magazyn 42, i nazwa: «Projekt Aion». Wtedy słyszysz skrzypnięcie z kanału wentylacyjnego nad sobą. Ktoś cię obserwuje.',
+        choices: {
+          'choice-3': { text: 'Wystrzel ostrzegawczo w kanał wentylacyjny' },
+          'choice-4': { text: 'Cicho spisz współrzędne i wyślizgnij się tylnym wyjściem' },
+        },
+      },
+      'node-3': {
+        title: 'Dowody na Ciele',
+        narration: 'Podchodzisz do zwłok Thornea. Strzykawka zdobiona jest wizerunkiem węża pośladającego własny ogon. Dziwne: nie ma krwi. Skóra wokół rany zmieniła się w złoto. To nie morderstwo, to transmutacja. Sprawdzasz kieszenie i znajdujesz ciężki żelazny klucz oraz bilet na «Północny Ekspres», który odjeżdża za godzinę. Nagle ciało drga.',
+        choices: {
+          'choice-5': { text: 'Chwyć klucz i uciekaj przez straż pożarową' },
+          'choice-6': { text: 'Schowaj się w szafie, by podsłuchać Inspektora' },
+        },
+      },
+    },
+  },
+
+  // Turkish (Türkçe)
+  tr: {
+    title: 'Simyacının Saati',
+    description: 'Buharla çalışan bir şehirde yüksek bahisli bir noir gizem. Ölümsüzlüğü icat ettiğini iddia eden bir adamın cinayetini çözerek derin bir komplo ağından geçmelisin.',
+    author: 'AI Hikaye Oluşturucu',
+    nodes: {
+      'node-1': {
+        title: 'Sessiz Laboratuvar',
+        narration: 'Yağmur, Doktor Aris Thorne\'un laboratuvarının gök penceresine vuruyor, gözlerinin arkalarında atan baş ağrısının ritmiyle zamanı tutuyor. Thorne ölü. Şehrin en tartışmalı simyacısı, maun masasının üzerine yığılmış, boynuna pirinç bir şiringe saplanmış durumda. Oda ozon ve acı badem kokuyor. Müfettiş Graves dışarıda basını geri tutuyor, sana tam olarak on dakika veriyor. Laboratuvar dağınık: solda kazanlar küpürüyor, sağda tebeşir denklemleriyle kaplı bir duvar. Katil hala binada olabilir.',
+        choices: {
+          'choice-1': { text: 'Gizli mesaj için tebeşir denklemlerini incele' },
+          'choice-2': { text: 'Cesedi ve garip şiringeyi yakından incele' },
+        },
+      },
+      'node-2': {
+        title: 'Duvar Yazısı',
+        narration: 'Tahtaya yaklaşıyorsun. Eğitimsiz göze saçmalık gibi görünüyor: astrolojik sembollerle karışmış kimyasal bileşikler. Ama bir silme deseni fark ediyorsun. Biri sağ alttaki bölümü silmeye çalışmış. UV lambanla soluk bir kalıntı ortaya çıkarıyorsun: Rıhtım Bölgesi\'ne, özellikle 42. Depo\'ya koordinatlar, ve bir isim: «Aion Projesi». Tam o sırada, üstteki havalandırma kanalından bir gıcırtı duyuyorsun. Biri seni izliyor.',
+        choices: {
+          'choice-3': { text: 'Havalandırma kanalına uyarı ateşi aç' },
+          'choice-4': { text: 'Sessizce koordinatları kopyala ve arka taraftan sız' },
+        },
+      },
+      'node-3': {
+        title: 'Cesetteki Kanıt',
+        narration: 'Thorne\'un cesedine yaklaşıyorsun. Şiringe, kendi kuyruğunu yiyen bir yılanla işlenmiş. Garip: kan yok. Yarın etrafındaki deri altına dönüşmüş. Bu cinayet değil, transmutasyon. Cebini kontrol ediyorsun ve bir saat içinde kalkacak «Geceyarı Ekspresi»nin ağır bir demir anahtarı ve bileti buluyorsun. Aniden, ceset seziriyor.',
+        choices: {
+          'choice-5': { text: 'Anahtarı kap ve yangın merdiveninden kaç' },
+          'choice-6': { text: 'Müfettişi dinlemek için dolaba saklan' },
+        },
+      },
+    },
+  },
 };
