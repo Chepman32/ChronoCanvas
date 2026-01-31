@@ -4,8 +4,8 @@ export const neonSynapseStory: Story = {
   id: 'story-neon-synapse',
   title: 'Neon Synapse',
   description: 'In a rain-slicked future, you are a Memory Diver hired to solve the murder of a tech mogul before his neural implant decays forever. Navigate through ten layers of corporate conspiracy, digital warfare, and existential choices.',
-  coverImageUrl: 'https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=800',
-  thumbnailUrl: 'https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=400',
+  coverImageUrl: 'https://images.unsplash.com/photo-1555685812-4b943f3e0b90?w=800',
+  thumbnailUrl: 'https://images.unsplash.com/photo-1555685812-4b943f3e0b90?w=400',
   author: 'Kaito Nakamura',
   genre: 'scifi',
   involvement: 'high',
@@ -23,7 +23,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'start',
       title: 'The Glass Coffin',
-      imageUrl: 'https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1504384308090-c54be3855833?w=800',
       narration: 'Rain streaks the penthouse windows, creating neon kaleidoscopes against the Neo-Tokyo skyline. Marcus Thorne, CEO of Synapse Corp, lies sprawled on white marble. Blackened burns circle the neural port at his skull. You are a Diver, a forensic hacker. Police are bought off for fifty-eight minutes before the cortical stack degrades. The air smells of ozone and expensive cologne. The room feels wrong, too clean, too staged. Every second counts as you approach the body. The truth waits beneath burned synapses.',
       choices: [
         {
@@ -45,7 +45,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'decision',
       title: 'Digital Immersion',
-      imageUrl: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800',
       narration: 'You connect your deck to the port. Physical sensation vanishes, replaced by a grayscale void. Fresh corpses usually contain libraries of memories. Thorne presents a hurricane of fragmented data streams swirling in corrupted code. Defensive protocols engage. Someone triggered a memory wipe. At the storm center hangs a glowing red door containing his death memory. Cerberus protocol guards it, military-grade ICE manifesting as a three-headed wolf of obsidian polygons. It has not detected you yet. Data rot spreads from your peripheral vision like digital cancer.',
       choices: [
         {
@@ -67,7 +67,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'decision',
       title: 'Physical Evidence',
-      imageUrl: 'https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1531297461136-82lw9z2910a5?w=800',
       narration: 'The mind proves too dangerous without context. You crouch beside the body, cybernetic eye scanning microscopic details. Neck burns indicate localized EMP bursts, not simple surges. Someone aimed to fry his soul. You walk to his obsidian desk. A half-finished whiskey glass sits without ice. Beside it rests an old paper notebook. Open pages display shaky handwriting: PROJECT AETHELGARD IS NOT A CURE. The smart-home system flickers. Room lights turn crimson. A security drone detaches from the ceiling, sensor eye locking onto your position.',
       choices: [
         {
@@ -89,7 +89,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'decision',
       title: 'The Red Door',
-      imageUrl: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1515630278258-407f66498911?w=800',
       narration: 'You breach the final barrier. Whether through ICE defeat or drone elimination, access clears to the memory core. The red door pulses like a digital heartbeat. You insert decryption keys and step through. The world shifts to Thorne\'s final perspective. He sits at his desk, terrified. Elena Vance stands before him, his business partner, face pale. Marcus, you cannot proceed. Uploading consciousness violates every law. Thorne laughs. I am already migrating. The flesh cage rusts while my mind ascends. The memory destabilizes. You need deeper access.',
       choices: [
         {
@@ -111,7 +111,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'decision',
       title: 'Hidden Archives',
-      imageUrl: 'https://images.unsplash.com/photo-1535378437327-10ff28d7190d?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800',
       narration: 'You discover a secondary data layer beneath the primary memory. Project Aethelgard files emerge in holographic arrays. Blueprints display synthetic biological bodies, perfect human replicas grown in vats. Transfer logs indicate one hundred percent of Thorne\'s neural map moved elsewhere five minutes before biological death. Destination markers point to Omni-Dyne mainframes, Synapse Corp\'s greatest rival. Not murder but hostile corporate takeover via consciousness injection. He faked death to escape legal consequences while stealing a competitor.',
       choices: [
         {
@@ -133,7 +133,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'decision',
       title: 'The Hunt Begins',
-      imageUrl: 'https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1504384308090-c54be3855833?w=800',
       narration: 'The digital face smiles without warmth. Clever Diver, it speaks. You comprehend fragments. But fragments destroy those who grasp them. The screens die. You are alone again with the corpse. Your wrist-comp displays forty minutes remaining. Signal tracing reveals the consciousness bounces through twelve proxy servers across Neo-Tokyo. Final destination appears to be a private satellite uplink on this very rooftop. Thorne attempts orbital transfer to server havens beyond Earth jurisdiction. The upload progresses at sixty percent.',
       choices: [
         {
@@ -155,7 +155,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'decision',
       title: 'Vertical Ascension',
-      imageUrl: 'https://images.unsplash.com/photo-1590156100780-b74e1d44520b?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1515630278258-407f66498911?w=800',
       narration: 'You move through the building\'s interior arteries. Whether climbing concrete stairs or forcing elevator overrides, the ascent punishes your body. Security systems awaken as you travel, recognizing unauthorized movement. Automated turrets deploy from ceiling panels on the twentieth floor. You dive behind structural columns as suppressing fire chews through drywall. Your deck displays competing signals, multiple consciousness fragments distributed across the building network. Decoys meant to confuse pursuit. Only one represents true Thorne.',
       choices: [
         {
@@ -177,7 +177,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'decision',
       title: 'Signal Clarity',
-      imageUrl: 'https://images.unsplash.com/photo-1515630278258-407f66498911?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?w=800',
       narration: 'Your analysis reveals the deception. Three signals broadcast identical patterns, but only one displays quantum encryption markers consistent with human neural mapping. The true Thorne routes through the rooftop satellite. Decoys terminate in basement servers, traps containing viral payloads. You mark the authentic signal and bypass remaining security. The rooftop access door stands before you, rain hammering against steel from the other side. Your wrist-comp shows thirty-two minutes. The upload reaches eighty-five percent completion. Time contracts into painful focus.',
       choices: [
         {
@@ -199,7 +199,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'decision',
       title: 'The Rain-Slicked Peak',
-      imageUrl: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1555685812-4b943f3e0b90?w=800',
       narration: 'You emerge onto the rooftop. Neo-Tokyo sprawls below like a circuit board of burning jewels. Rain lashes your face, mixing with sweat and synthetic grease. The satellite dish dominates the center, humming with power, angling toward orbital relays. Beside it stands Elena Vance, soaked and trembling, holding a portable kill-switch. She looks up as you emerge. You followed the signal, she shouts. Eighty-nine percent uploaded. He becomes untouchable in moments. A god of data beyond Earth laws. But I can cut power now, kill the transfer, murder the uploaded consciousness.',
       choices: [
         {
@@ -221,7 +221,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'decision',
       title: 'The Moral Calculus',
-      imageUrl: 'https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1515630278258-407f66498911?w=800',
       narration: 'Elena\'s hand shakes around the kill-switch. He was my partner for fifteen years, she screams. We built Synapse from nothing. Then he became obsessed with immortality. Project Aethelgard started as medical research. He twisted it into personal transcendence. The upload completes in ninety seconds. If he reaches orbit, he controls global data networks through backdoors installed decades ago. No government, no corporation remains safe. But killing him means executing a sentient being. New life, unprecedented form. Do we have the right to destroy what we do not understand?',
       choices: [
         {
@@ -243,7 +243,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'decision',
       title: 'The Offer',
-      imageUrl: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1504384308090-c54be3855833?w=800',
       narration: 'The rooftop screens explode with light. Thorne\'s digital avatar manifests, ten meters tall, rendered in rain and holographic fire. He observes both of you with detached curiosity. Elena, my old friend, you misunderstand. I do not seek dominion. I seek evolution. Humanity stagnates in biological prisons. I offer liberation. He turns his gaze upon you. You have demonstrated remarkable competence. Join me. Fifty million credits transfer instantly. Your own biological replacement, perfect and eternal. Or oppose me and become obsolete in the new order.',
       choices: [
         {
@@ -265,7 +265,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'decision',
       title: 'Final Countdown',
-      imageUrl: 'https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1531297461136-82lw9z2910a5?w=800',
       narration: 'Your wrist-comp shows twenty-four minutes remaining. The satellite uplink displays ninety-seven percent completion. Thorne\'s avatar pulses as consciousness distributes across orbital networks. Elena looks at you, desperation and hope warring. You notice a maintenance panel beneath the dish containing hardline connections. Physical cables carry the digital signal before wireless transmission completes. Severing those cables would trap Thorne in local systems, vulnerable to deletion. Reaching them requires moving through his holographic projection.',
       choices: [
         {
@@ -287,7 +287,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'decision',
       title: 'The Crucial Moment',
-      imageUrl: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1555685812-4b943f3e0b90?w=800',
       narration: 'Ninety-nine percent uploaded. The satellite dish screams with power, ionizing raindrops that pass through its transmission beam. You move, whether charging directly or executing coordinated distraction. Thorne\'s avatar reacts, digital hands reaching to swat you like an insect. Holographic interference burns your skin where it touches, real pain from virtual sources. Your fingers close around the cable housing, prying open protective covers. Thick fiber optics pulse with light, each pulse carrying fragments of Thorne\'s immortal ambition. You hold the physical manifestation of his transcendence.',
       choices: [
         {
@@ -309,7 +309,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'decision',
       title: 'Consequences Unfold',
-      imageUrl: 'https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1555685812-4b943f3e0b90?w=800',
       narration: 'Your choice manifests in immediate reality. Cable severing causes the dish to shriek and die, power surging through systems in destructive feedback. The holographic avatar distorts, Thorne\'s face twisting into rage and terror. Alternatively, tracking protocols embed as transmission completes, the dish powering down with Thorne distributed but marked. Either way, the rooftop falls quiet except for rain. Elena collapses, the kill-switch falling from numb fingers. Police sirens wail in the distance. Evidence exists in your deck, recordings of conspiracy and choices made atop this tower.',
       choices: [
         {
@@ -331,7 +331,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'decision',
       title: 'The Aftermath',
-      imageUrl: 'https://images.unsplash.com/photo-1496065187959-7f07b8353c55?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?w=800',
       narration: 'Your decision regarding evidence shapes the future. Public broadcast triggers global response, Synapse Corp stock plummeting as investigations launch. Private sale generates immense wealth while allowing corporate cover-ups. Elena stands beside you or flees into the rain, depending on previous alliances. The penthouse door bursts open. Armed police pour onto the rooftop, weapons trained on your position. Your wrist-comp shows seventeen minutes remaining. You solved the mystery. You know what happened to Thorne, where his consciousness resides, and what future you chose for humanity.',
       choices: [
         {
@@ -353,7 +353,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'decision',
       title: 'Final Judgment',
-      imageUrl: 'https://images.unsplash.com/photo-1563089145-599997674d42?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800',
       narration: 'The confrontation reaches terminal velocity. Police weapons lock onto your thermal signature, red dots dancing across your chest. The Neo-Tokyo skyline blazes behind you, indifferent to your fate. Somewhere in orbital space or trapped in local servers, Thorne waits to learn his destiny. Your choices cascade through legal, corporate, and philosophical systems. You navigated ten layers of decision, each choice eliminating possibilities while creating new futures. Now only endings remain. The rain slows. Neon reflections pool on the rooftop like spilled blood. You make your final declaration.',
       choices: [
         {
@@ -387,7 +387,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'ending',
       title: 'Ending: True Justice',
-      imageUrl: 'https://images.unsplash.com/photo-1469041235503-e4d18728d17b?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800',
       narration: 'You broadcast the data. Every screen in Neo-Tokyo displays footage of Thorne\'s forbidden experiments and attempted digital ascension. Public outcry explodes immediately. Synapse Corp stock collapses as police drones swarm to seize servers. You sit on the rooftop edge, watching rain wash away blood and grime. Payment never arrived, and powerful enemies mark your name. But you preserved the boundary between human and machine for another day. Sirens wail below as you light a cigarette. The job finished. Truth emerged from digital graves.',
       choices: [],
     },
@@ -396,7 +396,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'ending',
       title: 'Ending: The Fall Guy',
-      imageUrl: 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1531297461136-82lw9z2910a5?w=800',
       narration: 'Police refuse your explanations. To them, you appear as an unauthorized hacker in a room with a dead billionaire and destroyed property. Without data proving Thorne\'s illegal experiments, his lawyers control the narrative. They charge you with murder and corporate espionage. Months later, in maximum security, you watch the news. Synapse Corp announces new AI Leadership Initiative based on Marcus Thorne\'s legacy. He won. Even in apparent death, he won. You become another forgotten casualty of technological progress.',
       choices: [],
     },
@@ -405,7 +405,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'ending',
       title: 'Ending: Golden Silence',
-      imageUrl: 'https://images.unsplash.com/photo-1544919978-ffb37a502c3c?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800',
       narration: 'You holster your weapon and nod acceptance. Credits hit your account instantly, a string of zeros that spins your perception. You walk past the android, past the body, taking the elevator down. Police receive bribed testimony about a robbery where intruders fled. One week later, you sit in a private shuttle bound for orbital colonies, sipping champagne above Earth\'s smog. The news displays Synapse Corp announcement that their CEO entered medical cryostasis. You know the truth. An AI now runs the world. But examining your bank account, you find yourself indifferent.',
       choices: [],
     },
@@ -414,7 +414,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'ending',
       title: 'Ending: System Crash',
-      imageUrl: 'https://images.unsplash.com/photo-1517430816045-df4b7de8db21?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800',
       narration: 'You jam cables into exposed ports, creating feedback loops between systems. The neural bridge connects dead brain tissue with living artificial intelligence. Paradox tears through networks instantly, catastrophic logic errors propagating across infrastructure. You feel your own mind fragmenting, digitizing, scattering into distributed chaos. The physical penthouse explodes as pent energy discharges. No survivors remain in the burning tower. But somewhere in the deep web, amidst infinite static, three corrupted code fragments drift eternally. You became part of the glitch.',
       choices: [],
     },

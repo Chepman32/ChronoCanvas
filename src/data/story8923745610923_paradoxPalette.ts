@@ -14,9 +14,9 @@ export const paradoxPaletteStory: Story = {
   description:
     'At midnight, a museum restorer discovers a sketchbook that can repaint time. Each line drawn mends one fracture and splits another, as a grieving curator moves to excise a tragic hour forever. Can you compose a timeline that holds--before the canvas tears itself apart?',
   coverImageUrl:
-    'https://images.unsplash.com/photo-1465101162946-4377e57745c3?w=800',
+    'https://images.unsplash.com/photo-1555685812-4b943f3e0b90?w=800',
   thumbnailUrl:
-    'https://images.unsplash.com/photo-1495567720989-cebdbdd97913?w=400',
+    'https://images.unsplash.com/photo-1504384308090-c54be3855833?w=400',
   author: 'ChronoCanvas Studio',
   genre: 'scifi',
   involvement: 'medium',
@@ -37,7 +37,7 @@ export const paradoxPaletteStory: Story = {
       type: 'start',
       title: 'Ink of Time',
       imageUrl:
-        'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800',
+        'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800',
       narration:
         'On a workbench beneath a single lamp, gears glint like stars embedded in brass. Nova flips open a jet-black sketchbook--the ChronoCanvas--and a faint hum prickles the air. A line drawn across the page ripples the room, nudging a pendulum\'s swing into a different beat. Beyond the locked restoration lab, the museum groans at midnight, as if remembering something it had tried to forget. The canvas feels warm, alive, hungry for purpose.',
       choices: [
@@ -64,7 +64,7 @@ export const paradoxPaletteStory: Story = {
       type: 'decision',
       title: 'Midnight Threshold',
       imageUrl:
-        'https://images.unsplash.com/photo-1520975916090-3105956dac38?w=800',
+        'https://images.unsplash.com/photo-1531297461136-82lw9z2910a5?w=800',
       narration:
         'Marble floors mirror lanky shadows of sculptures frozen mid-gesture. Security lights pulse in a heartbeat rhythm, syncing to some deeper metronome Nova can feel in her teeth. The ChronoCanvas vibrates against her hip, resonating with something vast and buried deep beneath the foundations. A curator\'s silhouette crosses a distant doorway, carrying rolled blueprints that crackle with static time.',
       choices: [
@@ -91,7 +91,7 @@ export const paradoxPaletteStory: Story = {
       type: 'decision',
       title: 'Echoing Corridors',
       imageUrl:
-        'https://images.unsplash.com/photo-1500534310683-0a8d07abb6aa?w=800',
+        'https://images.unsplash.com/photo-1515630278258-407f66498911?w=800',
       narration:
         'Footsteps echo between staff doors, the rhythm irregular--as if walking through pockets of thicker time. Nova\'s shadow overlays another on the wall, two silhouettes braided by emergency lights. A pressure builds at her temples; time itself objects to her presence here. The ChronoCanvas grows warm, offering comfort and warning in equal measure.',
       choices: [
@@ -118,7 +118,7 @@ export const paradoxPaletteStory: Story = {
       type: 'decision',
       title: 'Whispering Curator',
       imageUrl:
-        'https://images.unsplash.com/photo-1517816743773-6e0fd518b4a6?w=800',
+        'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800',
       narration:
         'The curator pauses beneath vaulted ceilings, murmuring to the blueprint as if it might answer. The paper glows faintly where ink maps a spiral of hours cut from a single day. A name--"The Hour We Refuse"--is circled in red. Their shoulders tremble with grief held too long, too tight. Nova recognizes that posture; she has worn it herself in darker moments.',
       choices: [
@@ -145,7 +145,7 @@ export const paradoxPaletteStory: Story = {
       type: 'decision',
       title: 'Ciphered Blueprint',
       imageUrl:
-        'https://images.unsplash.com/photo-1500048993953-d23a436266cf?w=800',
+        'https://images.unsplash.com/photo-1504384308090-c54be3855833?w=800',
       narration:
         'The captured image reveals coordinates folded into ornamental filigree--a cartographer\'s joke. Overlaid, the lines translate to a map of the museum basement and something older beneath it. A missing fragment, torn from the page, is the key to the sequence. Without it, the plan remains incomplete, a dangerous puzzle with a gaping hole at its center.',
       choices: [
@@ -172,7 +172,7 @@ export const paradoxPaletteStory: Story = {
       type: 'decision',
       title: 'Hall of Clocks',
       imageUrl:
-        'https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?w=800',
+        'https://images.unsplash.com/photo-1515630278258-407f66498911?w=800',
       narration:
         'An orchestra of ticking surrounds a cathedral of glass domes and pendulums. One central clock stutters, then double-ticks, as if arguing with itself about the present. The ChronoCanvas warms in Nova\'s hand, hungry for a stabilizing line. The air tastes of copper and possibility; here, time is malleable, waiting for an artist\'s touch to reshape its flow.',
       choices: [
@@ -199,7 +199,7 @@ export const paradoxPaletteStory: Story = {
       type: 'decision',
       title: 'Security Sweep',
       imageUrl:
-        'https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?w=800',
+        'https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?w=800',
       narration:
         'Radios crackle--guards turn their route toward the clock hall. Nova sketches a detour, lines sliding a doorway three feet to the left, just enough to slip through. The building sighs, aggravated but compliant. In the brief respite, she spots something glinting beneath a display case--an object that should not be there, humming with familiar resonance.',
       choices: [
@@ -226,7 +226,7 @@ export const paradoxPaletteStory: Story = {
       type: 'decision',
       title: 'Clockwork Heart',
       imageUrl:
-        'https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=800',
+        'https://images.unsplash.com/photo-1555685812-4b943f3e0b90?w=800',
       narration:
         'The central mechanism opens like a ribcage, gears glistening with oil and memory. With a careful stroke, Nova bridges a missing tooth; the second hand exhales into smooth motion. In that calm, a hidden compartment clicks--an invitation. Within lies a fragment of vellum, ancient and smelling of cedar, bearing a glyph that seems to move when unobserved, watching back.',
       choices: [
@@ -253,7 +253,7 @@ export const paradoxPaletteStory: Story = {
       type: 'decision',
       title: 'Lost Fragment',
       imageUrl:
-        'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        'https://images.unsplash.com/photo-1504384308090-c54be3855833?w=800',
       narration:
         'The torn vellum shows a glyph shaped like a brushstroke formed into a number nine lying on its side. When held to light, the mark resembles an eye--and a loop. It matches the gap in the blueprint perfectly, completing a circuit of understanding. Nova\'s hands tremble; she holds the missing piece of a plan to unmake an hour of history, and the weight of that knowledge tastes like copper.',
       choices: [
@@ -280,7 +280,7 @@ export const paradoxPaletteStory: Story = {
       type: 'decision',
       title: 'Hidden Vault',
       imageUrl:
-        'https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=800',
+        'https://images.unsplash.com/photo-1515630278258-407f66498911?w=800',
       narration:
         'A sand-scented draft whispers from an armored seam behind stacked crates. The fragment fits like a missing tooth into a circular lock, and the wall unstitches into a spiral stair descending into darkness. Something ancient and mathematical waits below, humming with the resonance of forgotten hours and painted possibilities, singing a song older than the museum above.',
       choices: [
@@ -307,7 +307,7 @@ export const paradoxPaletteStory: Story = {
       type: 'decision',
       title: 'Descending Passage',
       imageUrl:
-        'https://images.unsplash.com/photo-1518156677180-95a2893f3e9f?w=800',
+        'https://images.unsplash.com/photo-1555685812-4b943f3e0b90?w=800',
       narration:
         'The spiral stair descends into depths that feel impossible beneath a city museum. Stone walls give way to crystalline formations that pulse with soft blue light, each crystal containing what looks like a frozen moment--a raindrop suspended, a bird mid-wingbeat, a tear on a cheek. The air grows thick with temporal potential.',
       choices: [
@@ -334,7 +334,7 @@ export const paradoxPaletteStory: Story = {
       type: 'decision',
       title: 'Crystalline Memory',
       imageUrl:
-        'https://images.unsplash.com/photo-1516546453174-5e1098a4b4af?w=800',
+        'https://images.unsplash.com/photo-1531297461136-82lw9z2910a5?w=800',
       narration:
         'Touching the crystal floods Nova with visions--not her own memories, but echoes of those who wielded the ChronoCanvas before. Each keeper faced the same choice she now confronts: to preserve, destroy, or transform. Their wisdom and their failures intermingle, offering guidance and warning in equal measure. The canvas hums, recognizing its lineage.',
       choices: [
@@ -361,7 +361,7 @@ export const paradoxPaletteStory: Story = {
       type: 'decision',
       title: 'Ancient City',
       imageUrl:
-        'https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=800',
+        'https://images.unsplash.com/photo-1504384308090-c54be3855833?w=800',
       narration:
         'Moonlight pools in a roofless chamber where sand drifts like snow. Reliefs show artists painting with comet tails, their murals looping days into new shapes. Footprints--fresh--circle a dais carved into a nine-turned-eye. The air shimmers with potential, every grain of sand a moment waiting to be arranged by willing hands.',
       choices: [
@@ -388,7 +388,7 @@ export const paradoxPaletteStory: Story = {
       type: 'decision',
       title: 'Drawn Doorway',
       imageUrl:
-        'https://images.unsplash.com/photo-1499346030926-9a72daac6c63?w=800',
+        'https://images.unsplash.com/photo-1555685812-4b943f3e0b90?w=800',
       narration:
         'At the chamber\'s end, cold air spills through a sketch Nova does not remember making, flavored with dust and a scent like sun on old stone. Beyond, sand sings softly in a space that should not exist beneath a city museum. The ChronoCanvas grows heavy, recognizing its counterpart--a place where time was first painted into being by hands that understood sacrifice.',
       choices: [
@@ -415,7 +415,7 @@ export const paradoxPaletteStory: Story = {
       type: 'decision',
       title: 'Temple Trial',
       imageUrl:
-        'https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800',
+        'https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?w=800',
       narration:
         'Wind combs the sand into patient spirals. The murals whisper an answer: to fix a wound, paint over oneself where the wound would be. The dais thrums, counting down in a language of dust and heartbeat. Nova understands now--the curator sought to erase pain, but time demands a different kind of healing, one that acknowledges rather than denies.',
       choices: [
@@ -442,7 +442,7 @@ export const paradoxPaletteStory: Story = {
       type: 'decision',
       title: 'Paradox Equation',
       imageUrl:
-        'https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?w=800',
+        'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800',
       narration:
         'Stars blink like nodes in a network, lines of potential connecting past to now. The blueprint overlays reality, showing the cut hour as a bright wound. The ChronoCanvas pulses, demanding a choice: heal by surrender, or heal by cost. Either way, Nova will not emerge unchanged. The timeline holds its breath, waiting for her brush to fall.',
       choices: [
@@ -483,7 +483,7 @@ export const paradoxPaletteStory: Story = {
       type: 'ending',
       title: 'Timeline Healed',
       imageUrl:
-        'https://images.unsplash.com/photo-1504198453319-5ce911bafcde?w=800',
+        'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800',
       narration:
         'You restore the hour, accepting the backlash as a personal undertow. Days later, you wake with a new tremor, a ghost-tick in your wrist that syncs with distant storms. The world continues--whole--while you learn to hold its weather alone. The ChronoCanvas remains, but you are bound to it now, a living anchor for the timeline you saved.',
       choices: [],
@@ -494,7 +494,7 @@ export const paradoxPaletteStory: Story = {
       type: 'ending',
       title: 'Canvas Consumed',
       imageUrl:
-        'https://images.unsplash.com/photo-1510936111840-65e151ad71bb?w=800',
+        'https://images.unsplash.com/photo-1531297461136-82lw9z2910a5?w=800',
       narration:
         'The ChronoCanvas drinks its own ink, page by page, until only a smell of rain remains. The wound closes without a seam, history smoothing over like wet paint drying. You will never sketch time again, but clocks everywhere breathe easier. In the silence, you find a different kind of peace--the ordinary rhythm of seconds passing unaltered.',
       choices: [],
@@ -505,7 +505,7 @@ export const paradoxPaletteStory: Story = {
       type: 'ending',
       title: 'Paradox Merged',
       imageUrl:
-        'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800',
+        'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800',
       narration:
         'You step into the paradox itself, becoming a living bridge between what was and what could be. Your form flickers at the edges, neither fully present nor absent. The curator\'s grief finds voice through you, transformed into art that heals rather than destroys. You are no longer merely Nova; you are the palette upon which time repaints itself.',
       choices: [],
@@ -516,7 +516,7 @@ export const paradoxPaletteStory: Story = {
       type: 'ending',
       title: 'Shared Canvas',
       imageUrl:
-        'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800',
+        'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800',
       narration:
         'You paint a door that opens for all who bear loss, inviting them to add their strokes to the healing. The curator joins first, then others, each contributing a line to the greater composition. No single hand holds the burden; the timeline mends through collective care. The ChronoCanvas becomes a shared legacy, passed from artist to artist across generations.',
       choices: [],

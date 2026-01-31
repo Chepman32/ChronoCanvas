@@ -6,9 +6,9 @@ export const alchemistWatchStory: Story = {
   description:
     "A high-stakes noir mystery in a steam-powered city. You must traverse a deep web of conspiracy, solving the murder of a man who claimed to have invented immortality.",
   coverImageUrl:
-    'https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?w=800',
+    'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=800',
   thumbnailUrl:
-    'https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?w=400',
+    'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=400',
   author: 'Elena Vance',
   genre: 'mystery',
   involvement: 'high',
@@ -26,7 +26,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'start',
       title: 'The Silent Laboratory',
-      imageUrl: 'https://images.unsplash.com/photo-1518932945647-7a1c969f8be2?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1505664194779-8ab2f700bfe0?w=800',
       narration:
         "The rain batters the skylight of Doctor Aris Thorne's laboratory, keeping time with the headache pulsing behind your eyes. Thorne is dead. The city's most controversial alchemist lies slumped over his mahogany desk, a brass syringe embedded in his neck. The room smells of ozone and bitter almonds. Inspector Graves is outside holding back the press, giving you exactly ten minutes to find something the police won't understand. The lab is cluttered: bubbling vats to your left, and a wall covered in frantic chalk equations to your right. You must choose your starting point carefully; the killer might still be in the building, or worse, they might have left a trap.",
       choices: [
@@ -49,7 +49,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'decision',
       title: 'The Writing on the Wall',
-      imageUrl: 'https://images.unsplash.com/photo-1535535112387-56ffe8db21ff?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1485550409059-9afb054cada4?w=800',
       narration:
         "You step closer to the chalkboard. It looks like nonsense to the untrained eye—chemical compounds mixed with astrological symbols. But you notice a smudge pattern. Someone tried to erase a specific section near the bottom right. Using your UV lamp, you reveal a faint residue: a map coordinate pointing to the Docks District, specifically Warehouse 42, and a name: 'Project Aion'. Just then, you hear a creak from the ventilation shaft above you. Someone is watching. You can try to flush out the spy immediately, potentially catching a witness, or pocket the coordinates and sneak out the back to follow the lead before the police confiscate the board.",
       choices: [
@@ -72,7 +72,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'decision',
       title: 'The Body Evidence',
-      imageUrl: 'https://images.unsplash.com/photo-1513297887119-d46091b24bfa?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1550895030-823330dfb759?w=800',
       narration:
         "You approach Thorne's corpse. The syringe is intricate, etched with a serpent eating its own tail. Strange—there's no blood. The skin around the wound is turned to gold. It's not murder; it's transmutation. You check his pockets and find a heavy iron key with a ticket stub for the 'Midnight Express' train leaving in one hour. Suddenly, the body twitches. It's a galvanic reflex, or perhaps something worse. You hear heavy boots approaching the lab door—the Inspector is coming in early. You can take the key and jump out the window to the fire escape, or hide in the closet to overhear what the Inspector says when he thinks he's alone.",
       choices: [
@@ -95,7 +95,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'decision',
       title: 'The Aggressive Approach',
-      imageUrl: 'https://images.unsplash.com/photo-1470167290877-7d5d3446de4c?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1453873531674-2151bcd01707?w=800',
       narration:
         "Your aggressive tactic yields results. Whether you shot at the vent or eavesdropped on the corrupt Inspector, you've learned that a mercenary group called 'The Gearheads' is involved. They are waiting at the train station. You rush to the station. The rain is torrential now. You spot a group of men in leather trench coats loading a heavy crate onto the cargo car. This must be the 'Project Aion' prototype. You are outnumbered. You can try to cause a distraction by sabotaging the steam engine's pressure valve to clear the platform, or you can disguise yourself as a porter to get close to the crate unnoticed.",
       choices: [
@@ -118,7 +118,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'decision',
       title: 'The Stealth Approach',
-      imageUrl: 'https://images.unsplash.com/photo-1515705576963-95cad62945b6?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1515549832467-8783363e19b6?w=800',
       narration:
         "You escape into the alleyways, clutching your clue—either the coordinates or the key. They both lead you to the industrial district. You arrive at the location: an abandoned clock factory. The door is locked, but the iron key fits, or the coordinates point to a cellar entrance. Inside, it's a maze of ticking automatons standing dormant in rows. In the center of the room is a safe. You hear the distinct click of a revolver hammer behind you. It's a woman, Thorne's estranged daughter, Elara. She demands to know why you are here. You can show her the evidence you found to gain her trust, or disarm her before she shoots.",
       choices: [
@@ -141,7 +141,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'decision',
       title: 'The Chase',
-      imageUrl: 'https://images.unsplash.com/photo-1516961642265-531546e84af2?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
       narration:
         "Chaos erupts. Whether from the steam explosion or the fight with Elara, you are now on the run. You've grabbed a document from the scene—a ledger proving that the City Mayor is funding Thorne's unethical experiments. You are being pursued by a mechanical hound, a terrifying blend of brass and wolf. It's gaining on you in the sewers. You reach a junction. To the left, a maintenance ladder leading up to the busy market district. To the right, a deeper tunnel leading toward the Mayor's mansion. The market offers a crowd to blend into, but the mansion puts you on the offensive.",
       choices: [
@@ -164,7 +164,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'decision',
       title: 'The Alliance',
-      imageUrl: 'https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1485627658391-1365e4e0dbfe?w=800',
       narration:
         "You managed to secure an ally (or at least a truce) with Elara, or you successfully infiltrated the cargo car. You now have time to examine the 'Project Aion' device. It's a pocket watch, but the face has 13 hours. Elara explains it doesn't tell time; it steals it. Thorne was harvesting lifespan from the poor to sell to the rich. You need to decode the encryption on the watch to find the buyer list. You can take it to an underground hacker named 'Sparky' in the slums, or try to decode it yourself using the reference books in the City Library, risking exposure.",
       choices: [
@@ -187,7 +187,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'decision',
       title: 'The Ambush',
-      imageUrl: 'https://images.unsplash.com/photo-1513001900722-370f803f498d?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=800',
       narration:
         "You arrive at your destination—the bustling market or the slum workshop. You think you're safe, but a sniper shot shatters the glass next to your head. The Mayor's elite guard has found you. You dive behind cover. You are pinned down. You spot a steam pipe running along the wall near the sniper's perch, and a crate of fireworks (it is a festival week) nearby. You need to create a path to escape. Shooting the steam pipe might scald the sniper but is a hard shot. Lighting the fireworks will create smoke and chaos but might injure civilians.",
       choices: [
@@ -210,7 +210,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'decision',
       title: 'The Dark Secret',
-      imageUrl: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=800',
       narration:
         "In the quiet of the library or the deep tunnels, you uncover the final piece of the puzzle. The buyer isn't just the Mayor; it's a secret society called 'The Golden Ouroboros.' And the next shipment of 'stolen time' is happening tonight at the Grand Gala. You also find a schematic for the device. It has a fatal flaw: if exposed to a specific resonant frequency, it shatters. You can spend the next hour building a sonic resonator weapon, or you can rush to the Gala immediately to gather physical evidence of the transaction before they close the deal.",
       choices: [
@@ -233,7 +233,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'decision',
       title: 'Infiltration Prep',
-      imageUrl: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1453873531674-2151bcd01707?w=800',
       narration:
         "You have your weapon (the resonator or your trusty revolver) and you've escaped the ambush. You stand outside the Opera House where the Gala is being held. Security is tight. Metal detectors and guards everywhere. You see a delivery truck unloading catering supplies at the side entrance. Alternatively, you notice the sewer grate you traversed earlier connects to the orchestra pit. The catering truck requires a disguise and charisma. The sewer route is filthy but bypasses all electronic security. Your choice determines your entry point.",
       choices: [
@@ -256,7 +256,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'decision',
       title: 'The Social Engineer',
-      imageUrl: 'https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1453873531674-2151bcd01707?w=800',
       narration:
         "You decide to enter the Gala as a guest. You mug a wealthy patron in an alley (or perhaps you had a spare tuxedo). You walk through the front door. The opulence is sickening; golden chandeliers hang above people drinking champagne paid for by the lives of the poor. You spot the Mayor talking to a masked figure—the head of the Ouroboros. You need to get close enough to hear them or plant a bug. A waiter is passing with a tray of drinks. You can cause a scene by colliding with the waiter to create a distraction, or try to blend in and dance your way closer to their circle.",
       choices: [
@@ -279,7 +279,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'decision',
       title: 'The Inner Sanctum',
-      imageUrl: 'https://images.unsplash.com/photo-1526243741027-444d633d7365?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1560263816-d704d83cce0f?w=800',
       narration:
         "You are inside the private VIP lounge. The distraction worked or the disguise held. You see the device on the table. It's glowing with a sickly green light. The Mayor is laughing. But wait—Doctor Thorne walks in. He isn't dead! The body in the lab was a clone, a flesh-puppet. Thorne faked his death to move the merchandise without police scrutiny. He spots you. 'Ah, the detective,' he sneers. He signals his two bodyguards—massive steam-powered cyborgs. You are in a confined space. You can flip the heavy oak table for cover and shoot, or throw your flash-bang grenade (if you have one) / improvised explosive to stun them.",
       choices: [
@@ -302,7 +302,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'decision',
       title: 'The Rooftop Chase',
-      imageUrl: 'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
       narration:
         "Your stealth failed, or you chose to strike early. Thorne (who is alive!) grabs the device and runs toward the roof, where an airship is docking. You pursue him up the spiral stairs. The wind is howling. The airship 'The Icarus' drops a rope ladder. Thorne begins to climb. You are on the parapet. You can aim for Thorne himself, risking hitting the device and releasing the raw time energy which could age you 50 years in a second, or aim for the rope ladder to sever his escape route, forcing a confrontation on the roof.",
       choices: [
@@ -348,7 +348,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'decision',
       title: "The Machine's Core",
-      imageUrl: 'https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1515549832467-8783363e19b6?w=800',
       narration:
         "Thorne drops the device during the struggle. It slides across the wet rooftop/floor and activates. A bubble of distorted time expands. Within the bubble, rain stops in mid-air. Thorne dives for it. You dive too. You are both inside the time field now. Movements are sluggish. You see Thorne reaching for a hidden knife. You are reaching for the device. If you grab the device, you can control the field. If you tackle Thorne, you can knock him out of the field, where time will catch up to him violently. The choice must be made in a split second of frozen time.",
       choices: [
@@ -371,7 +371,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'decision',
       title: 'The Temptation',
-      imageUrl: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1485550409059-9afb054cada4?w=800',
       narration:
         "Thorne is defeated—either dead or incapacitated. You hold the device. It pulses with a warm, golden light. You feel your aches and pains fading. It works. It really works. You could live forever. You could go back and save your partner who died on that case five years ago. You could fix everything. The police are breaking down the doors downstairs. You have a moment of absolute power. Do you smash the device to end the curse, or do you slip it into your pocket and tell the police it was lost in the fight?",
       choices: [
@@ -394,7 +394,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'decision',
       title: 'The Crash',
-      imageUrl: 'https://images.unsplash.com/photo-1494587351196-bbf5f29cff42?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1550895030-823330dfb759?w=800',
       narration:
         "The struggle causes the airship above to clip the building. Debris rains down. The device is damaged and leaking energy. It's going to explode. Thorne is laughing maniacally, broken and bleeding. 'If I can't have it, no one can!' he yells. You need to contain the blast. There is a lead-lined safe nearby (from the catering money transport) or you can throw it off the roof into the bay. The safe might contain the blast but you have to drag it there. The bay is safer for you, but the chemicals might poison the water supply for years.",
       choices: [
@@ -417,7 +417,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'decision',
       title: 'The Aftermath',
-      imageUrl: 'https://images.unsplash.com/photo-1513467535987-fd81bc7d62f8?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=800',
       narration:
         "The immediate danger is over. The device is destroyed or gone. But the conspiracy remains. The Mayor is still in the ballroom, unaware that you've taken down his supplier. You have the ledger/evidence. You walk back into the Gala, bruised and bloody. The music stops. All eyes are on you. You can walk straight up to the Mayor and arrest him in front of the city's elite, or you can slip away and give the evidence to the press anonymously, fearing that the corrupt judges would just acquit him.",
       choices: [
@@ -440,7 +440,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'decision',
       title: 'The Dark path',
-      imageUrl: 'https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=800',
       narration:
         "You have the device. You feel its hum against your ribs. You leave the scene before the police secure the roof. You are now a fugitive, but an immortal one. However, the device requires fuel. It feeds on life. You realize the hunger of the machine is now connected to your own heartbeat. You meet Elara in the alleyway. She looks at you with suspicion. 'Where is it?' she asks. 'Did you destroy it?' You can kill her to keep your secret and feed the machine its first meal, or you can confess your weakness and ask for her help to destroy it before it corrupts you completely.",
       choices: [
@@ -463,7 +463,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'decision',
       title: 'The Sacrifice',
-      imageUrl: 'https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1560263816-d704d83cce0f?w=800',
       narration:
         "You put the device in the safe, but the door won't latch. The locking mechanism is broken. The energy is building up. Someone has to hold the door shut manually while the explosion happens inside. The lead will protect the city, but the radiation will flood the person holding the handle. You look at Inspector Graves, who has just arrived. He is corrupt, but he has a family. You are the hero. You can order Graves to hold it at gunpoint, redeeming him through death, or you can hold it yourself, making the ultimate sacrifice for a city that barely knows your name.",
       choices: [
@@ -486,7 +486,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'ending',
       title: 'Ending: The Just City',
-      imageUrl: 'https://images.unsplash.com/photo-1515542706656-8e6ef17a1521?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
       narration:
         "The headlines the next day scream of the Mayor's arrest. 'Detective Exposes Time Theft Ring!' You sit in your office, nursing a cheap whiskey. The device is gone, destroyed by your hand (or Elara's). The city is still dirty, still rainy, but the gears grind a little fairer today. You didn't get rich, and you didn't live forever. But when you look in the mirror, you don't see a monster. You see a human being. And in this city of machines, that is the rarest thing of all. Case closed.",
       choices: [],
@@ -496,7 +496,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'ending',
       title: 'Ending: The Shadow Walker',
-      imageUrl: 'https://images.unsplash.com/photo-1495121553079-4c61bcce1894?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1560263816-d704d83cce0f?w=800',
       narration:
         "You vanish into the fog. The evidence was mailed to every paper in the country. The government collapsed within a week. You watch from the shadows as the city burns and rebuilds itself. You are a legend now, a ghost story that criminals tell each other. You survived, but you are alone. You realized that the law couldn't handle the truth, so you became something outside the law. You tip your hat to the new dawn and walk away. There will always be another mystery.",
       choices: [],
@@ -506,7 +506,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'ending',
       title: 'Ending: The Martyr',
-      imageUrl: 'https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1505664194779-8ab2f700bfe0?w=800',
       narration:
         "The explosion was contained. The city was saved. They found your body slumped against the safe, glowing with a faint, fading light. They built a statue of you in the central plaza. It's made of bronze, and it stands tall against the rain. You gave everything so that time would flow naturally for everyone else. People leave flowers at your feet. You are gone, but in the memory of the city, you are immortal in a way Thorne never could have achieved.",
       choices: [],
@@ -516,7 +516,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'ending',
       title: 'Ending: The Time Lord',
-      imageUrl: 'https://images.unsplash.com/photo-1541963463532-d2984bad6ae5?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1505664194779-8ab2f700bfe0?w=800',
       narration:
         "You step over Elara's body. The device is yours. You turn the dial back. You watch the rain rise from the puddles to the sky. You watch the bullet fly back into the gun. You are the master of this city now. You can rewrite every mistake, win every bet, silence every critic. You live for a hundred years, then a thousand. But slowly, you forget why you wanted it. You forget your name. You become the clockwork god, perfect and cold, sitting on a throne of stolen seconds, ruling a kingdom of dust.",
       choices: [],

@@ -4,8 +4,8 @@ export const timeLoopStory: Story = {
   id: 'story-3',
   title: 'The Time Loop Paradox',
   description: 'Trapped in a repeating day, you must uncover the mystery and break free.',
-  coverImageUrl: 'https://images.unsplash.com/photo-1501139083538-0139583c060f?w=800',
-  thumbnailUrl: 'https://images.unsplash.com/photo-1501139083538-0139583c060f?w=400',
+  coverImageUrl: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
+  thumbnailUrl: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=400',
   author: 'Dr. Sarah Chen',
   genre: 'scifi',
   involvement: 'high',
@@ -23,7 +23,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'start',
       title: 'Morning Again',
-      imageUrl: 'https://images.unsplash.com/photo-1495364141860-b0d03eccd065?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=800',
       narration: 'Your alarm rings at 7:00 AM. Again. This is the 47th time you have woken up to this exact moment.',
       choices: [
         { id: 'tl-c1', text: 'Check your journal for clues', targetNodeId: 'tl-2', order: 1 },
@@ -35,7 +35,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'The Journal',
-      imageUrl: 'https://images.unsplash.com/photo-1517842645767-c639042777db?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800',
       narration: 'Your journal contains 46 days of observations. Each entry reveals patterns.',
       choices: [
         { id: 'tl-c3', text: 'Analyze the security code pattern', targetNodeId: 'tl-3', order: 1 },
@@ -47,7 +47,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'Empty Laboratory',
-      imageUrl: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1506744038136-d7ce7daaed5b?w=800',
       narration: 'The quantum physics lab is deserted at this hour, filled only with the ominous hum.',
       choices: [
         { id: 'tl-c5', text: 'Examine the accelerator readings', targetNodeId: 'tl-3b', order: 1 },
@@ -59,7 +59,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'Fibonacci Pattern',
-      imageUrl: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800',
       narration: 'The security codes follow the Fibonacci sequence perfectly.',
       choices: [
         { id: 'tl-c7', text: 'Decode the hidden message', targetNodeId: 'tl-4', order: 1 },
@@ -71,7 +71,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'Hiding Evidence',
-      imageUrl: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=800',
       narration: 'You hide the journal inside the ventilation shaft above your desk.',
       choices: [
         { id: 'tl-c9', text: 'Confront whoever is coming', targetNodeId: 'tl-4b', order: 1 },
@@ -83,7 +83,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'Anomalous Readings',
-      imageUrl: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800',
       narration: 'The accelerator displays unauthorized modifications in its core programming.',
       choices: [
         { id: 'tl-c11', text: 'Document the modifications', targetNodeId: 'tl-4d', order: 1 },
@@ -95,7 +95,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'Security Footage',
-      imageUrl: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=800',
       narration: 'The security logs reveal an impossible truth.',
       choices: [
         { id: 'tl-c13', text: 'Search for more footage', targetNodeId: 'tl-4f', order: 1 },
@@ -107,7 +107,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'Hidden Message',
-      imageUrl: 'https://images.unsplash.com/photo-1456324504439-367cee3b3c32?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=800',
       narration: 'Decoding reveals coordinates to a basement storage room.',
       choices: [
         { id: 'tl-c15', text: 'Go to basement coordinates', targetNodeId: 'tl-5', order: 1 },
@@ -119,7 +119,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'Restricted Sector',
-      imageUrl: 'https://images.unsplash.com/photo-1614935151651-0bea6508db6b?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1501854140801-8ab4360f7e85?w=800',
       narration: 'The restricted sector contains a prototype temporal stabilizer.',
       choices: [
         { id: 'tl-c17', text: 'Study the specifications', targetNodeId: 'tl-5a', order: 1 },
@@ -131,7 +131,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'Unexpected Visitor',
-      imageUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800',
       narration: 'Dr. Martinez stands in the hallway.',
       choices: [
         { id: 'tl-c19', text: 'Follow her immediately', targetNodeId: 'tl-5b', order: 1 },
@@ -143,7 +143,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'Hidden Observer',
-      imageUrl: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=800',
       narration: 'You see a figure in maintenance uniform enter your office.',
       choices: [
         { id: 'tl-c21', text: 'Confront them', targetNodeId: 'tl-5c', order: 1 },
@@ -155,7 +155,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'Evidence Collection',
-      imageUrl: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800',
       narration: 'You photograph every modification with your phone.',
       choices: [
         { id: 'tl-c23', text: 'Confront Director Chen', targetNodeId: 'tl-5d', order: 1 },
@@ -167,7 +167,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'Control Panel',
-      imageUrl: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800',
       narration: 'In your first loop, you tried this and created the paradox.',
       choices: [
         { id: 'tl-c25', text: 'Stop yourself', targetNodeId: 'tl-5e', order: 1 },
@@ -179,7 +179,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'Additional Footage',
-      imageUrl: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=800',
       narration: 'The footage of you entering exists in every single loop.',
       choices: [
         { id: 'tl-c27', text: 'Prevent yourself from entering', targetNodeId: 'tl-5f', order: 1 },
@@ -191,7 +191,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'Accepting Responsibility',
-      imageUrl: 'https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1506905925346-21b6c50f1e71?w=800',
       narration: 'You accept that you created this temporal prison deliberately.',
       choices: [
         { id: 'tl-c29', text: 'Search hidden notes', targetNodeId: 'tl-5g', order: 1 },
@@ -203,7 +203,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'Basement Room',
-      imageUrl: 'https://images.unsplash.com/photo-1614935151651-0bea6508db6b?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1501854140801-8ab4360f7e85?w=800',
       narration: 'The coordinates led to a phrase: The loop is a vaccine, not a disease.',
       choices: [
         { id: 'tl-c31', text: 'Proceed with investigation', targetNodeId: 'tl-6', order: 1 },
@@ -215,7 +215,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'Technical Specs',
-      imageUrl: 'https://images.unsplash.com/photo-1456324504439-367cee3b3c32?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=800',
       narration: 'The specs reveal a flaw. The accelerator was scheduled to explode.',
       choices: [
         { id: 'tl-c33', text: 'Proceed with investigation', targetNodeId: 'tl-6', order: 1 },
@@ -227,7 +227,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'Secret Meeting',
-      imageUrl: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=800',
       narration: 'Martinez leads you to a hidden base. Maps cover the walls.',
       choices: [
         { id: 'tl-c35', text: 'Proceed with investigation', targetNodeId: 'tl-6', order: 1 },
@@ -239,7 +239,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'The Intruder',
-      imageUrl: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1514539079130-25950c84af65?w=800',
       narration: 'You confront the intruder. I am from the future, they whisper.',
       choices: [
         { id: 'tl-c37', text: 'Proceed with investigation', targetNodeId: 'tl-6', order: 1 },
@@ -251,7 +251,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'Director Chen',
-      imageUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=800',
       narration: 'Chen sits calmly. I have experienced 200 loops myself.',
       choices: [
         { id: 'tl-c39', text: 'Proceed with investigation', targetNodeId: 'tl-6', order: 1 },
@@ -263,7 +263,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'Paradox Prevention',
-      imageUrl: 'https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
       narration: 'You intercept your past self. The meeting defies causality.',
       choices: [
         { id: 'tl-c41', text: 'Proceed with investigation', targetNodeId: 'tl-6', order: 1 },
@@ -275,7 +275,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'The Intervention',
-      imageUrl: 'https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
       narration: 'You position yourself at the laboratory entrance.',
       choices: [
         { id: 'tl-c43', text: 'Proceed with investigation', targetNodeId: 'tl-6', order: 1 },
@@ -287,7 +287,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'Memory Recovery',
-      imageUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=800',
       narration: 'Images flood your mind: a desperate race against time.',
       choices: [
         { id: 'tl-c45', text: 'Proceed with investigation', targetNodeId: 'tl-6', order: 1 },
@@ -299,7 +299,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'Hypnotic State',
-      imageUrl: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1501785888041-47e9e56c4ed1?w=800',
       narration: 'Under hypnosis, memories surface. You see the moment you created the loop, the desperation that drove you.',
       choices: [
         { id: 'tl-c47', text: 'Proceed with investigation', targetNodeId: 'tl-6', order: 1 },
@@ -407,7 +407,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'The Final Choice',
-      imageUrl: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1501785888041-47e9e56c4ed1?w=800',
       narration: 'You stand at the threshold of eternity. You have seen 47 iterations of this day.',
       choices: [
         { id: 'tl-c400', text: 'Become the eternal anchor', targetNodeId: 'tl-end1', order: 1 },
@@ -431,7 +431,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'ending',
       title: 'The Eternal Guardian',
-      imageUrl: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1501785888041-47e9e56c4ed1?w=800',
       narration: 'You become the anchor, the eternal guardian of the time loop. You will experience this same day forever.',
       choices: [],
     },
@@ -440,7 +440,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'ending',
       title: 'Shared Freedom',
-      imageUrl: 'https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1505144808419-1957a94ca61e?w=800',
       narration: 'Through shared rotation, you and other rememberers find a middle path.',
       choices: [],
     },
@@ -458,7 +458,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'ending',
       title: 'Freedom Restored',
-      imageUrl: 'https://images.unsplash.com/photo-1495364141860-b0d03eccd065?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=800',
       narration: 'You break the loop completely. Time rushes forward. You wake up on day 48.',
       choices: [],
     }

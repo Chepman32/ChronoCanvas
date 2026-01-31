@@ -48,9 +48,9 @@ export const newStories: Story[] = [
     description:
       'Dive into the deepest ocean trench where an ancient civilization awaits.',
     coverImageUrl:
-      'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800',
+      'https://images.unsplash.com/photo-1522673607200?w=800',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400',
+      'https://images.unsplash.com/photo-1522673607200?w=400',
     author: 'Captain Marina Torres',
     genre: 'mystery',
     involvement: 'medium',
@@ -110,10 +110,10 @@ export const newStories: Story[] = [
         'The depths claim you. Your submarine becomes part of the ruins.',
       ],
       [
-        'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800',
-        'https://images.unsplash.com/photo-1682687220742-aba13b6e50c5?w=800',
-        'https://images.unsplash.com/photo-1682687221038-404670f09ef1?w=800',
-        'https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=800',
+        'https://images.unsplash.com/photo-1522673607200?w=800',
+        'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
+        'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=800',
+        'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
       ],
       3,
     ),
@@ -125,9 +125,9 @@ export const newStories: Story[] = [
     description:
       "Alone on a space station, you discover you're not as alone as you thought.",
     coverImageUrl:
-      'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800',
+      'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=800',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=400',
+      'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=400',
     author: 'Commander Alex Rivera',
     genre: 'horror',
     involvement: 'high',
@@ -192,10 +192,10 @@ export const newStories: Story[] = [
         'Your pod drifts in space. Rescue may never come.',
       ],
       [
-        'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800',
-        'https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=800',
-        'https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=800',
-        'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800',
+        'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=800',
+        'https://images.unsplash.com/photo-1516589178581?w=800',
+        'https://images.unsplash.com/photo-1550895030-823330dfb759?w=800',
+        'https://images.unsplash.com/photo-1560263816-d704d83cce0f?w=800',
       ],
       4,
     ),
@@ -207,9 +207,9 @@ export const newStories: Story[] = [
     description:
       'Navigate deadly court politics where one wrong move means death.',
     coverImageUrl:
-      'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
+      'https://images.unsplash.com/photo-1522673607200?w=800',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=400',
+      'https://images.unsplash.com/photo-1522673607200?w=400',
     author: 'Lady Elara Blackwood',
     genre: 'mystery',
     involvement: 'high',
@@ -279,10 +279,10 @@ export const newStories: Story[] = [
         'Your death inspires a movement.',
       ],
       [
-        'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
-        'https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=800',
-        'https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?w=800',
-        'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800',
+        'https://images.unsplash.com/photo-1522673607200?w=800',
+        'https://images.unsplash.com/photo-1523438885200?w=800',
+        'https://images.unsplash.com/photo-1515549832467-8783363e19b6?w=800',
+        'https://images.unsplash.com/photo-1560263816-d704d83cce0f?w=800',
       ],
       5,
     ),
@@ -294,9 +294,9 @@ export const newStories: Story[] = [
     description:
       'Survive in a world where civilization has crumbled and humanity fights for scraps.',
     coverImageUrl:
-      'https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=800',
+      'https://images.unsplash.com/photo-1523438885200?w=800',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=400',
+      'https://images.unsplash.com/photo-1523438885200?w=400',
     author: 'Survivor 2847',
     genre: 'adventure',
     involvement: 'medium',
@@ -362,10 +362,10 @@ export const newStories: Story[] = [
         "Against all odds, there's still hope.",
       ],
       [
-        'https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=800',
-        'https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800',
-        'https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=800',
-        'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        'https://images.unsplash.com/photo-1523438885200?w=800',
+        'https://images.unsplash.com/photo-1505664194779-8ab2f700bfe0?w=800',
+        'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
+        'https://images.unsplash.com/photo-1485550409059-9afb054cada4?w=800',
       ],
       4,
     ),
@@ -377,9 +377,9 @@ export const newStories: Story[] = [
     description:
       'A hard-boiled detective story in a city where everyone has something to hide.',
     coverImageUrl:
-      'https://images.unsplash.com/photo-1514539079130-25950c84af65?w=800',
+      'https://images.unsplash.com/photo-1485627658391-1365e4e0dbfe?w=800',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1514539079130-25950c84af65?w=400',
+      'https://images.unsplash.com/photo-1485627658391-1365e4e0dbfe?w=400',
     author: 'Detective Jake Morrison',
     genre: 'mystery',
     involvement: 'high',
@@ -448,10 +448,10 @@ export const newStories: Story[] = [
         "Some cases aren't worth dying for. You walk away.",
       ],
       [
-        'https://images.unsplash.com/photo-1514539079130-25950c84af65?w=800',
-        'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800',
-        'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800',
-        'https://images.unsplash.com/photo-1477346611705-65d1883cee1e?w=800',
+        'https://images.unsplash.com/photo-1485627658391-1365e4e0dbfe?w=800',
+        'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=800',
+        'https://images.unsplash.com/photo-1518199266791?w=800',
+        'https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?w=800',
       ],
       4,
     ),
@@ -464,9 +464,9 @@ export const newStories: Story[] = [
     description:
       "Inherit a mansion with a dark past. The dead don't rest easy here.",
     coverImageUrl:
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800',
+      'https://images.unsplash.com/photo-1485627658391-1365e4e0dbfe?w=800',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=400',
+      'https://images.unsplash.com/photo-1485627658391-1365e4e0dbfe?w=400',
     author: 'Eleanor Blackwood',
     genre: 'horror',
     involvement: 'medium',
@@ -528,10 +528,10 @@ export const newStories: Story[] = [
         'Burn it all down. End the curse with fire.',
       ],
       [
-        'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800',
-        'https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=800',
-        'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
-        'https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?w=800',
+        'https://images.unsplash.com/photo-1485627658391-1365e4e0dbfe?w=800',
+        'https://images.unsplash.com/photo-1515630278258-407f66498911?w=800',
+        'https://images.unsplash.com/photo-1522673607200?w=800',
+        'https://images.unsplash.com/photo-1515549832467-8783363e19b6?w=800',
       ],
       3,
     ),
@@ -543,9 +543,9 @@ export const newStories: Story[] = [
     description:
       'Lost in the wilderness with nothing but your wits. Nature is beautiful and deadly.',
     coverImageUrl:
-      'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+      'https://images.unsplash.com/photo-1485550409059-9afb054cada4?w=800',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400',
+      'https://images.unsplash.com/photo-1485550409059-9afb054cada4?w=400',
     author: 'Ranger Sarah Mitchell',
     genre: 'adventure',
     involvement: 'low',
@@ -605,10 +605,10 @@ export const newStories: Story[] = [
         'Rescue never comes. The wilderness claims you.',
       ],
       [
-        'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
-        'https://images.unsplash.com/photo-1511497584788-876760111969?w=800',
-        'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800',
-        'https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800',
+        'https://images.unsplash.com/photo-1485550409059-9afb054cada4?w=800',
+        'https://images.unsplash.com/photo-1515630278258-407f66498911?w=800',
+        'https://images.unsplash.com/photo-1485550409059-9afb054cada4?w=800',
+        'https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=800',
       ],
       3,
     ),
@@ -620,9 +620,9 @@ export const newStories: Story[] = [
     title: 'Digital Heist',
     description: 'Pull off the ultimate cyber heist in a neon-soaked megacity.',
     coverImageUrl:
-      'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800',
+      'https://images.unsplash.com/photo-1518199266791?w=800',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400',
+      'https://images.unsplash.com/photo-1518199266791?w=400',
     author: 'Ghost Protocol',
     genre: 'scifi',
     involvement: 'high',
@@ -695,10 +695,10 @@ export const newStories: Story[] = [
         'The heist becomes legend in the underground.',
       ],
       [
-        'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800',
-        'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800',
-        'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800',
-        'https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=800',
+        'https://images.unsplash.com/photo-1518199266791?w=800',
+        'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=800',
+        'https://images.unsplash.com/photo-1545232979-8bf68ee9b1af?w=800',
+        'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
       ],
       5,
     ),
@@ -710,9 +710,9 @@ export const newStories: Story[] = [
     description:
       "Uncover the secrets of an ancient tomb and face the pharaoh's curse.",
     coverImageUrl:
-      'https://images.unsplash.com/photo-1568322445389-f64ac2515020?w=800',
+      'https://images.unsplash.com/photo-1453873531674-2151bcd01707?w=800',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1568322445389-f64ac2515020?w=400',
+      'https://images.unsplash.com/photo-1453873531674-2151bcd01707?w=400',
     author: 'Dr. James Carter',
     genre: 'adventure',
     involvement: 'medium',
@@ -778,10 +778,10 @@ export const newStories: Story[] = [
         'Seal the tomb forever. Some secrets should stay buried.',
       ],
       [
-        'https://images.unsplash.com/photo-1568322445389-f64ac2515020?w=800',
-        'https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?w=800',
-        'https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=800',
-        'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
+        'https://images.unsplash.com/photo-1453873531674-2151bcd01707?w=800',
+        'https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?w=800',
+        'https://images.unsplash.com/photo-1523438885200?w=800',
+        'https://images.unsplash.com/photo-1522673607200?w=800',
       ],
       4,
     ),
@@ -794,9 +794,9 @@ export const newStories: Story[] = [
     description:
       'The dead walk. Survive the zombie apocalypse and find other survivors.',
     coverImageUrl:
-      'https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=800',
+      'https://images.unsplash.com/photo-1515630278258-407f66498911?w=800',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=400',
+      'https://images.unsplash.com/photo-1515630278258-407f66498911?w=400',
     author: 'Anonymous Survivor',
     genre: 'horror',
     involvement: 'high',
@@ -867,10 +867,10 @@ export const newStories: Story[] = [
         "Against all odds, there's still hope for humanity.",
       ],
       [
-        'https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=800',
-        'https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=800',
-        'https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800',
-        'https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=800',
+        'https://images.unsplash.com/photo-1515630278258-407f66498911?w=800',
+        'https://images.unsplash.com/photo-1523438885200?w=800',
+        'https://images.unsplash.com/photo-1505664194779-8ab2f700bfe0?w=800',
+        'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
       ],
       4,
     ),
