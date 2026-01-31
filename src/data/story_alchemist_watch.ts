@@ -6,9 +6,9 @@ export const alchemistWatchStory: Story = {
   description:
     "A high-stakes noir mystery in a steam-powered city. You must traverse a deep web of conspiracy, solving the murder of a man who claimed to have invented immortality.",
   coverImageUrl:
-    'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=800',
+    'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
   thumbnailUrl:
-    'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=400',
+    'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=400',
   author: 'Elena Vance',
   genre: 'mystery',
   involvement: 'high',
@@ -26,7 +26,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'start',
       title: 'The Silent Laboratory',
-      imageUrl: 'https://images.unsplash.com/photo-1505664194779-8ab2f700bfe0?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
       narration:
         "The rain batters the skylight of Doctor Aris Thorne's laboratory, keeping time with the headache pulsing behind your eyes. Thorne is dead. The city's most controversial alchemist lies slumped over his mahogany desk, a brass syringe embedded in his neck. The room smells of ozone and bitter almonds. Inspector Graves is outside holding back the press, giving you exactly ten minutes to find something the police won't understand. The lab is cluttered: bubbling vats to your left, and a wall covered in frantic chalk equations to your right. You must choose your starting point carefully; the killer might still be in the building, or worse, they might have left a trap.",
       choices: [
@@ -72,7 +72,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'decision',
       title: 'The Body Evidence',
-      imageUrl: 'https://images.unsplash.com/photo-1550895030-823330dfb759?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800',
       narration:
         "You approach Thorne's corpse. The syringe is intricate, etched with a serpent eating its own tail. Strange—there's no blood. The skin around the wound is turned to gold. It's not murder; it's transmutation. You check his pockets and find a heavy iron key with a ticket stub for the 'Midnight Express' train leaving in one hour. Suddenly, the body twitches. It's a galvanic reflex, or perhaps something worse. You hear heavy boots approaching the lab door—the Inspector is coming in early. You can take the key and jump out the window to the fire escape, or hide in the closet to overhear what the Inspector says when he thinks he's alone.",
       choices: [
@@ -210,7 +210,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'decision',
       title: 'The Dark Secret',
-      imageUrl: 'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
       narration:
         "In the quiet of the library or the deep tunnels, you uncover the final piece of the puzzle. The buyer isn't just the Mayor; it's a secret society called 'The Golden Ouroboros.' And the next shipment of 'stolen time' is happening tonight at the Grand Gala. You also find a schematic for the device. It has a fatal flaw: if exposed to a specific resonant frequency, it shatters. You can spend the next hour building a sonic resonator weapon, or you can rush to the Gala immediately to gather physical evidence of the transaction before they close the deal.",
       choices: [
@@ -394,7 +394,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'decision',
       title: 'The Crash',
-      imageUrl: 'https://images.unsplash.com/photo-1550895030-823330dfb759?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800',
       narration:
         "The struggle causes the airship above to clip the building. Debris rains down. The device is damaged and leaking energy. It's going to explode. Thorne is laughing maniacally, broken and bleeding. 'If I can't have it, no one can!' he yells. You need to contain the blast. There is a lead-lined safe nearby (from the catering money transport) or you can throw it off the roof into the bay. The safe might contain the blast but you have to drag it there. The bay is safer for you, but the chemicals might poison the water supply for years.",
       choices: [
@@ -440,7 +440,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'decision',
       title: 'The Dark path',
-      imageUrl: 'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
       narration:
         "You have the device. You feel its hum against your ribs. You leave the scene before the police secure the roof. You are now a fugitive, but an immortal one. However, the device requires fuel. It feeds on life. You realize the hunger of the machine is now connected to your own heartbeat. You meet Elara in the alleyway. She looks at you with suspicion. 'Where is it?' she asks. 'Did you destroy it?' You can kill her to keep your secret and feed the machine its first meal, or you can confess your weakness and ask for her help to destroy it before it corrupts you completely.",
       choices: [
@@ -506,7 +506,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'ending',
       title: 'Ending: The Martyr',
-      imageUrl: 'https://images.unsplash.com/photo-1505664194779-8ab2f700bfe0?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
       narration:
         "The explosion was contained. The city was saved. They found your body slumped against the safe, glowing with a faint, fading light. They built a statue of you in the central plaza. It's made of bronze, and it stands tall against the rain. You gave everything so that time would flow naturally for everyone else. People leave flowers at your feet. You are gone, but in the memory of the city, you are immortal in a way Thorne never could have achieved.",
       choices: [],
@@ -516,7 +516,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'ending',
       title: 'Ending: The Time Lord',
-      imageUrl: 'https://images.unsplash.com/photo-1505664194779-8ab2f700bfe0?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
       narration:
         "You step over Elara's body. The device is yours. You turn the dial back. You watch the rain rise from the puddles to the sky. You watch the bullet fly back into the gun. You are the master of this city now. You can rewrite every mistake, win every bet, silence every critic. You live for a hundred years, then a thousand. But slowly, you forget why you wanted it. You forget your name. You become the clockwork god, perfect and cold, sitting on a throne of stolen seconds, ruling a kingdom of dust.",
       choices: [],

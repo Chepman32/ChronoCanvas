@@ -6,9 +6,9 @@ export const velvetGuillotineStory: Story = {
   description:
     'A noir mystery set in 1920s Paris. Detective Thorne investigates a murder at Chateau de Valois that unravels a conspiracy of assassins, secret societies, and political intrigue in the City of Light.',
   coverImageUrl:
-    'https://images.unsplash.com/photo-1505664194779-8ab2f700bfe0?w=800',
+    'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
   thumbnailUrl:
-    'https://images.unsplash.com/photo-1505664194779-8ab2f700bfe0?w=400',
+    'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=400',
   author: 'Celeste Moreau',
   genre: 'detective',
   involvement: 'high',
@@ -210,7 +210,7 @@ export const velvetGuillotineStory: Story = {
       storyId: 'story-velvet-guillotine',
       type: 'decision',
       title: 'Upper Gallery',
-      imageUrl: 'https://images.unsplash.com/photo-1550895030-823330dfb759?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800',
       narration:
         "The gallery study has been ransacked -- drawers pulled, papers strewn, but with methodical purpose. Someone sought specific documents. The safe stands open and empty, its combination lock melted by acid. On the desk, a leather ledger lists payments to various city officials, all marked with the same initials: B.H. -- Black Hand. A photograph shows the Duke shaking hands with Police Chief Dubois at a charity event. The Chief\'s cufflink bears the same inverted cross you found on the ring. Through the window, you see two figures on the roof: the Bishop of Paris and a man in a police uniform burning documents in a brazier. They have not noticed you yet.",
       choices: [
@@ -233,7 +233,7 @@ export const velvetGuillotineStory: Story = {
       storyId: 'story-velvet-guillotine',
       type: 'decision',
       title: 'Underground Tunnels',
-      imageUrl: 'https://images.unsplash.com/photo-1505664194779-8ab2f700bfe0?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
       narration:
         "The tunnels beneath Paris are a labyrinth of old quarries and forgotten sewers. You follow the boot prints by lantern light until you reach a junction. To the left, you hear the rumble of the Metro -- a route back to civilization and safety. To the right, chanting echoes from a hidden chamber, accompanied by the copper scent of blood and burning herbs. The voices speak in Latin, reciting what sounds like a ritual. You are not alone down here. The footsteps that followed you from the mausoleum have stopped, but you can feel eyes watching from the shadows. Whatever the Velvet Guillotine is, its heart beats in these depths.",
       choices: [
@@ -302,7 +302,7 @@ export const velvetGuillotineStory: Story = {
       storyId: 'story-velvet-guillotine',
       type: 'decision',
       title: 'Rooftop Revelation',
-      imageUrl: 'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
       narration:
         "You emerge onto the slate rooftop to find the Bishop and Police Chief Dubois feeding documents to a brazier\'s flames. The Bishop\'s cassock bears the inverted cross of the exiled Valois line. They turn as one, their expressions calm despite being caught. \'You are persistent, Detective,\" the Chief says, almost admiringly. \'But persistence is not wisdom.\' The Bishop adds another file to the fire -- birth records, adoption papers, evidence of a conspiracy decades in the making. \'The Velvet Guillotine serves justice the courts cannot. We are the blade that falls on the corrupt.\' They outnumber you, and the roof\'s edge is slick with rain.",
       choices: [
@@ -348,7 +348,7 @@ export const velvetGuillotineStory: Story = {
       storyId: 'story-velvet-guillotine',
       type: 'decision',
       title: 'Occult Altar',
-      imageUrl: 'https://images.unsplash.com/photo-1505664194779-8ab2f700bfe0?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
       narration:
         "The chanting leads to a cavernous chamber where robed figures circle a stone altar. On it lies a young woman -- not the Duke\'s fiancee, but a maid you glimpsed earlier. She is unconscious but alive. The robed figures wear masks of historical French executioners. At the chamber\'s center stands a guillotine, its blade wrapped in purple velvet -- the namesake of this conspiracy. A figure in papal robes addresses the assembly: \'The old order must fall so the pure may rise. The Duke\'s death is but the first cut. The Velvet Guillotine will cleanse Paris of its corrupt elite.\' They have not noticed you yet, hidden in the tunnel\'s shadow.",
       choices: [
@@ -509,7 +509,7 @@ export const velvetGuillotineStory: Story = {
       storyId: 'story-velvet-guillotine',
       type: 'decision',
       title: 'Standoff at Gunpoint',
-      imageUrl: 'https://images.unsplash.com/photo-1550895030-823330dfb759?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800',
       narration:
         "The man claiming to be the Duke reveals his true face -- literally. He tears away a latex mask to reveal the features of Henri Valois, the Duke\'s twin brother, believed dead in a childhood accident. \'Surprise, brother,\" he sneers at the real Duke, who stands frozen in horror. \'I did not drown that day. The Velvet Guillotine saved me, raised me, trained me. And now I take your place.\' Three guns are drawn: yours, Henri\'s, and the mercenary leader\'s. The real Duke is unarmed. \'The legends are true,\" the Duke whispers. \'I had a twin. He was the evil one.\' Henri laughs. \'Evil is just perspective, sibling.\'",
       choices: [
@@ -624,7 +624,7 @@ export const velvetGuillotineStory: Story = {
       storyId: 'story-velvet-guillotine',
       type: 'decision',
       title: 'Final Puzzle',
-      imageUrl: 'https://images.unsplash.com/photo-1505664194779-8ab2f700bfe0?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
       narration:
         "You feign drinking the poison, then throw the glass in Lady Elara\'s face. In the confusion, you reach the wall safe -- a combination lock requiring six digits. Behind you, Elara recovers, her gun aimed at your back. \'One try, Detective. Guess wrong, and I shoot. Guess right, and you have a chance.\' You scan the room for clues: a painting dated 1789, the year of the Revolution. A clock stopped at 12:12. A book opened to page 514. The numbers swirl in your mind. The Velvet Guillotine was founded in 1793, the year of the Terror. Robespierre died in July 1794. Your fingers hover over the dial. Elara\'s finger tightens on the trigger. This is your last chance.",
       choices: [
@@ -647,7 +647,7 @@ export const velvetGuillotineStory: Story = {
       storyId: 'story-velvet-guillotine',
       type: 'decision',
       title: 'Gathering',
-      imageUrl: 'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
       narration:
         "Morning light finds you at police headquarters, surrounded by officers and officials. The case files are spread before you -- but they tell a story different from what you witnessed. According to official records, you are the prime suspect in Duke Valois\'s murder. Chief Dubois smiles from across the table. \'Evidence is a funny thing, Thorne. It can point in so many directions depending on who presents it.\' You realize the depth of the trap: they have witnesses placing you at the scene, fingerprints on the murder weapon, motive provided by gambling debts you do not actually have. The room\'s occupants are all Dubois\'s men. But in the corner stands a young officer -- new, uncertain, watching you with troubled eyes. He might be an ally, or another trap.",
       choices: [
@@ -739,7 +739,7 @@ export const velvetGuillotineStory: Story = {
       storyId: 'story-velvet-guillotine',
       type: 'decision',
       title: 'Final Verdict: Corruption',
-      imageUrl: 'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
       narration:
         "Chief Dubois slides a badge across the table -- not a police badge, but a silver medallion bearing the inverted cross. \'You are resourceful, Thorne. Too resourceful to waste. We are offering you a place among us. Not as a puppet, but as a partner. Help us reshape this corrupt city from within. Use our resources, our network, our power. In five years, you could be Chief. In ten, Minister of Justice. Or...\' He gestures to the door, where two officers wait with handcuffs. \'Or you can join the Duke in an unmarked grave. Your reputation destroyed. Your name forgotten. Choose now. The door to power opens rarely, and never twice for the same man.\'",
       choices: [
@@ -851,7 +851,7 @@ export const velvetGuillotineStory: Story = {
       storyId: 'story-velvet-guillotine',
       type: 'ending',
       title: 'ENDING: The Orient Express',
-      imageUrl: 'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
       narration:
         "The train rattles eastward through snow-covered mountains, carrying you away from everything you knew. Paris fades behind, its corruption, its compromises, its velvet-wrapped blades. You share a compartment with a mysterious countess, a nervous diplomat, and a Belgian detective who studies you with knowing eyes. In your pocket rests a new identity, forged papers, and enough money to start again -- earned through evidence sold to the highest bidder, or stolen from Lady Elara\'s safe, or given by grateful victims you saved along the way. The past is past. The future stretches toward Istanbul, Baghdad, places where your reputation has not preceded you. A murder occurs in the next carriage -- a locked room, a disappeared weapon, a web of secrets. The Belgian detective rises to investigate, then pauses, looking back at you. \'Care to assist, mon ami?\' he asks. You smile. The game, it seems, continues. New city. New mystery. Same detective.",
       choices: [],

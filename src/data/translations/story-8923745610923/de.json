@@ -7,7 +7,7 @@
   },
   "story": {
     "title": "Herzlinie Zurückspulen",
-    "author": "ChronoCanvas Studio",
+    "author": "FableFlow Studio",
     "description": "Eine Stadt ist in einer 59-Minuten-Schleife gefangen, und deine Skizzen können die Stunden wieder zusammenfügen. Aber jede Reparatur bringt die Vergangenheit ins Wanken--besonders die Nacht, in der du Maya verloren hast. Wirst du die Zeitlinie wiederherstellen oder dein Schicksal neu zeichnen?",
     "genre": "romance",
     "estimatedDuration": 32,
@@ -18,7 +18,7 @@
       "id": "story-9123457712345-1",
       "type": "start",
       "title": "Geschleifte Mitternacht",
-      "narration": "Regen näht silberne Striche über die Straße, während ein Glockenturm stottert: 11:01--wieder. Dein ChronoCanvas summt in deiner Handfläche wie ein eingesperrtes Metronom, die Linie, die du zeichnest, hallt durch Pfützen und Neonschilder. Irgendwo in der Nähe wartet Maya am Observatorium, ohne zu wissen, dass diese Stunde bereits ein Dutzend Mal geschehen ist.",
+      "narration": "Regen näht silberne Striche über die Straße, während ein Glockenturm stottert: 11:01--wieder. Dein FableFlow summt in deiner Handfläche wie ein eingesperrtes Metronom, die Linie, die du zeichnest, hallt durch Pfützen und Neonschilder. Irgendwo in der Nähe wartet Maya am Observatorium, ohne zu wissen, dass diese Stunde bereits ein Dutzend Mal geschehen ist.",
       "choices": [
         {
           "id": "story-9123457712345-c1",
@@ -54,7 +54,7 @@
       "id": "story-9123457712345-3",
       "type": "decision",
       "title": "Regen-Café",
-      "narration": "Dampf vernebelt die Café-Fenster, während Regentropfen rückwärts am Glas entlangmarschieren--die Zeit hängt, dann läuft sie weiter. Maya lacht über eine Erinnerung, die du noch nicht kennen solltest, und das Lachen wird dünner, als die Lichter zweimal flackern. Das ChronoCanvas erwärmt sich, ungeduldig.",
+      "narration": "Dampf vernebelt die Café-Fenster, während Regentropfen rückwärts am Glas entlangmarschieren--die Zeit hängt, dann läuft sie weiter. Maya lacht über eine Erinnerung, die du noch nicht kennen solltest, und das Lachen wird dünner, als die Lichter zweimal flackern. Das FableFlow erwärmt sich, ungeduldig.",
       "choices": [
         {
           "id": "story-9123457712345-c5",

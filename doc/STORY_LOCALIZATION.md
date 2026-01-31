@@ -2,7 +2,7 @@
 
 ## Overview
 
-ChronoCanvas now supports full story content localization in 10 languages. Story titles, descriptions, narration, and choices are all translated manually for an authentic experience.
+FableFlow now supports full story content localization in 10 languages. Story titles, descriptions, narration, and choices are all translated manually for an authentic experience.
 
 ## Supported Languages
 

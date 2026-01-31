@@ -47,7 +47,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'Empty Laboratory',
-      imageUrl: 'https://images.unsplash.com/photo-1506744038136-d7ce7daaed5b?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800',
       narration: 'The quantum physics lab is deserted at this hour, filled only with the ominous hum.',
       choices: [
         { id: 'tl-c5', text: 'Examine the accelerator readings', targetNodeId: 'tl-3b', order: 1 },
@@ -119,7 +119,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'Restricted Sector',
-      imageUrl: 'https://images.unsplash.com/photo-1501854140801-8ab4360f7e85?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800',
       narration: 'The restricted sector contains a prototype temporal stabilizer.',
       choices: [
         { id: 'tl-c17', text: 'Study the specifications', targetNodeId: 'tl-5a', order: 1 },
@@ -191,7 +191,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'Accepting Responsibility',
-      imageUrl: 'https://images.unsplash.com/photo-1506905925346-21b6c50f1e71?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800',
       narration: 'You accept that you created this temporal prison deliberately.',
       choices: [
         { id: 'tl-c29', text: 'Search hidden notes', targetNodeId: 'tl-5g', order: 1 },
@@ -203,7 +203,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'Basement Room',
-      imageUrl: 'https://images.unsplash.com/photo-1501854140801-8ab4360f7e85?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800',
       narration: 'The coordinates led to a phrase: The loop is a vaccine, not a disease.',
       choices: [
         { id: 'tl-c31', text: 'Proceed with investigation', targetNodeId: 'tl-6', order: 1 },
@@ -299,7 +299,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'Hypnotic State',
-      imageUrl: 'https://images.unsplash.com/photo-1501785888041-47e9e56c4ed1?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800',
       narration: 'Under hypnosis, memories surface. You see the moment you created the loop, the desperation that drove you.',
       choices: [
         { id: 'tl-c47', text: 'Proceed with investigation', targetNodeId: 'tl-6', order: 1 },
@@ -407,7 +407,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'decision',
       title: 'The Final Choice',
-      imageUrl: 'https://images.unsplash.com/photo-1501785888041-47e9e56c4ed1?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800',
       narration: 'You stand at the threshold of eternity. You have seen 47 iterations of this day.',
       choices: [
         { id: 'tl-c400', text: 'Become the eternal anchor', targetNodeId: 'tl-end1', order: 1 },
@@ -431,7 +431,7 @@ export const timeLoopStory: Story = {
       storyId: 'story-3',
       type: 'ending',
       title: 'The Eternal Guardian',
-      imageUrl: 'https://images.unsplash.com/photo-1501785888041-47e9e56c4ed1?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800',
       narration: 'You become the anchor, the eternal guardian of the time loop. You will experience this same day forever.',
       choices: [],
     },

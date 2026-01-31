@@ -4,11 +4,11 @@ const fs = require('fs');
 const path = require('path');
 
 /**
- * Script to generate complete i18n files for ChronoCanvas stories
+ * Script to generate complete i18n files for FableFlow stories
  * with English and Russian translations
  */
 
-console.log('🌍 Generating i18n files for ChronoCanvas stories...\n');
+console.log('🌍 Generating i18n files for FableFlow stories...\n');
 
 // Note: Russian translations need to be manually added based on the user's provided JSON
 // This script provides the structure for the remaining two stories

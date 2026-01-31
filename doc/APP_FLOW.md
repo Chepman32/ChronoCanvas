@@ -1,4 +1,4 @@
-# ChronoCanvas - App Flow Diagram
+# FableFlow - App Flow Diagram
 
 ## Complete User Journey
 
@@ -11,7 +11,7 @@
 │                   SPLASH SCREEN                             │
 │  ┌───────────────────────────────────────────────────┐     │
 │  │                                                     │     │
-│  │              ChronoCanvas                          │     │
+│  │              FableFlow                          │     │
 │  │         Your Story, Your Choice                    │     │
 │  │                                                     │     │
 │  │         [Animated Logo - 2.5s]                     │     │
@@ -22,7 +22,7 @@
 ┌─────────────────────────────────────────────────────────────┐
 │                    HOME SCREEN                              │
 │  ┌───────────────────────────────────────────────────┐     │
-│  │  ChronoCanvas                                      │     │
+│  │  FableFlow                                      │     │
 │  │  Choose Your Adventure                             │     │
 │  └───────────────────────────────────────────────────┘     │
 │                                                             │

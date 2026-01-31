@@ -75,7 +75,7 @@ const originalStories: Story[] = [
         type: 'decision',
         title: 'The Ancient Oak',
         imageUrl:
-          'https://images.unsplash.com/photo-1518199266791?w=800',
+          'https://images.unsplash.com/photo-1514565131-fce0801e5785?w=800',
         narration:
           'The path leads you to a massive oak tree, its trunk wider than a house. Strange symbols are carved into its bark, glowing faintly with an ethereal light. You hear whispers in the wind.',
         choices: [
@@ -147,9 +147,9 @@ const originalStories: Story[] = [
     description:
       'Navigate the cyberpunk streets of Neo Tokyo in this thrilling sci-fi adventure.',
     coverImageUrl:
-      'https://images.unsplash.com/photo-1523438885200?w=800',
+      'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1523438885200?w=400',
+      'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400',
     author: 'Marcus Chen',
     genre: 'scifi',
     involvement: 'medium',
@@ -169,7 +169,7 @@ const originalStories: Story[] = [
         type: 'start',
         title: 'Downtown Neo Tokyo',
         imageUrl:
-          'https://images.unsplash.com/photo-1523438885200?w=800',
+          'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800',
         narration:
           'Rain falls on the neon-lit streets of Neo Tokyo. Your neural implant buzzes with an encrypted message. Someone needs your help, but can you trust them?',
         choices: [

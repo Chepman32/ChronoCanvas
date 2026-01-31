@@ -6,9 +6,9 @@ export const theLastLetterStory: Story = {
   description:
     "When you discover a mysterious love letter in your late grandmother's attic, it leads you to Paris and a decades-old romance that was never resolved. Can you find the author and finish what your grandmother started, while navigating your own unexpected connection with her grandson?",
   coverImageUrl:
-    'https://images.unsplash.com/photo-1522673607200?w=800',
+    'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800',
   thumbnailUrl:
-    'https://images.unsplash.com/photo-1522673607200?w=400',
+    'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=400',
   author: 'Elena Rousseau',
   genre: 'romance',
   involvement: 'medium',
@@ -27,7 +27,7 @@ export const theLastLetterStory: Story = {
       type: 'start',
       title: 'The Attic Discovery',
       imageUrl:
-        'https://images.unsplash.com/photo-1522673607200?w=800',
+        'https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=800',
       narration:
         'Dust particles dance in the afternoon light streaming through the attic window. You are sorting through your grandmother\'s belongings when a faded envelope slips from an old book. The letter inside is written in French, dated 1962, and signed only with "J." Your grandmother never mentioned a romance in Paris, never spoke of anyone named J. But the words are unmistakably passionate, promising to wait forever at Café de Flore. The handwriting is elegant, the paper thin with age, and you feel a connection to a secret carried for over sixty years.',
       choices: [
@@ -53,7 +53,7 @@ export const theLastLetterStory: Story = {
       type: 'decision',
       title: 'Crossing the Atlantic',
       imageUrl:
-        'https://images.unsplash.com/photo-1516589178581?w=800',
+        'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800',
       narration:
         'The plane touches down at Charles de Gaulle Airport as dawn breaks over Paris. You have spent the flight rehearsing what you will say, how you will explain your mission to strangers. Your aunt revealed that your grandmother spent a transformative year in Paris before meeting your grandfather, returning suddenly without explanation. She produced a photograph: your grandmother at twenty-three, radiant beside a young man whose face was turned away. Now, as you collect your luggage and step into the Paris morning, the reality of your quest settles upon you.',
       choices: [
@@ -79,7 +79,7 @@ export const theLastLetterStory: Story = {
       type: 'decision',
       title: 'Arrival in Saint-Germain',
       imageUrl:
-        'https://images.unsplash.com/photo-1522673607200?w=800',
+        'https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=800',
       narration:
         'The streets of Saint-Germain-des-Prés exude an old-world charm that makes you feel as though you have stepped back in time. Boulangeries emit the scent of fresh croissants, and bookshops display weathered volumes in their windows. You pass the famous Deux Magots café, imagining your grandmother walking these same cobblestones in 1962. The address from the letter leads you down a narrow street lined with chestnut trees. Your heart pounds with each step. This neighborhood has remained largely unchanged for decades, preserved like a time capsule.',
       choices: [
@@ -131,7 +131,7 @@ export const theLastLetterStory: Story = {
       type: 'decision',
       title: 'The Waiter\'s Recognition',
       imageUrl:
-        'https://images.unsplash.com/photo-1516589178581?w=800',
+        'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800',
       narration:
         'The waiter\'s eyes mist over as he examines the faded letter. "Julien," he whispers reverently. "Monsieur Moreau. He came here every single day for five years after she left, always waiting. Always the same table by the window." He points to a corner table where a young man now sits, sketching. "That is his grandson, Luc. He inherited the café after Julien passed away last year. You should speak with him. He has been searching for information about the woman who broke his grandfather\'s heart." The waiter pats your hand gently. "You have her eyes, you know."',
       choices: [
@@ -183,7 +183,7 @@ export const theLastLetterStory: Story = {
       type: 'decision',
       title: 'Julien\'s Legacy',
       imageUrl:
-        'https://images.unsplash.com/photo-1523438885200?w=800',
+        'https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?w=800',
       narration:
         'Luc invites you to sit, his hands trembling as he calls for coffee. He tells you about Julien Moreau—an artist who spent his life painting the same woman from memory, capturing her across six decades. "He owned this café but rarely left it, as if waiting for someone who would never return. He died believing she had simply forgotten him. But I found boxes of paintings in his studio, hundreds of canvases, all of her. And letters. Hundreds of unsent letters." Luc studies your face with growing comprehension. "Your grandmother. Éloise was your grandmother."',
       choices: [
@@ -209,7 +209,7 @@ export const theLastLetterStory: Story = {
       type: 'decision',
       title: 'The Studio Above',
       imageUrl:
-        'https://images.unsplash.com/photo-1523438885200?w=800',
+        'https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?w=800',
       narration:
         'Luc leads you up a narrow staircase to Julien\'s studio, a sunlit room that smells of turpentine and memories. The walls are covered with paintings—your grandmother\'s face rendered at every age, from the young woman in your photograph to an imagined elder with silver hair. Each canvas pulses with love and longing. "He painted her until his final days," Luc explains. "These are not the works of someone forgotten. These are the works of someone who loved completely, across a lifetime of absence." An unfinished painting stands in the corner: your grandmother as she might look today.',
       choices: [
@@ -261,7 +261,7 @@ export const theLastLetterStory: Story = {
       type: 'decision',
       title: 'The Full Truth',
       imageUrl:
-        'https://images.unsplash.com/photo-1518199266791?w=800',
+        'https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?w=800',
       narration:
         'You tell Luc everything—how your grandmother discovered she was pregnant in 1962, how her family forced her to return immediately, how she was forbidden from contacting Julien. She married your grandfather in a quiet ceremony, and he raised your mother as his own. "She kept his letter hidden her entire life," you explain. "Under her pillow, then in a locked box, finally in the attic. She never spoke of Paris, but my mother remembers her crying sometimes when she thought no one was watching. She never stopped loving him. She simply could not come back."',
       choices: [
@@ -287,7 +287,7 @@ export const theLastLetterStory: Story = {
       type: 'decision',
       title: 'Connection Across Generations',
       imageUrl:
-        'https://images.unsplash.com/photo-1516589178581?w=800',
+        'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800',
       narration:
         'Luc looks at you with something deeper than understanding—a recognition that spans decades. "Then we are connected," he says softly, taking your hand. "Your grandmother was the love of my grandfather\'s life, and somewhere in your history flows part of his legacy. They brought us together across sixty years and an ocean." The afternoon light streams through the studio windows. "This feels like fate," Luc continues. "Like they are giving us a second chance at their story. Like they want us to write a better ending than the one they had." His thumb traces circles on your palm.',
       choices: [
@@ -313,7 +313,7 @@ export const theLastLetterStory: Story = {
       type: 'decision',
       title: 'Evening Along the Seine',
       imageUrl:
-        'https://images.unsplash.com/photo-1522673607200?w=800',
+        'https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=800',
       narration:
         'That evening, Luc takes you for a walk along the Seine as the sun sets behind Notre-Dame. The Eiffel Tower begins its hourly sparkle, reflected in the river\'s current. He tells you about his childhood, growing up in Julien\'s stories of a lost love. "I thought they were just stories," Luc admits, stopping to face you. "Beautiful, tragic fiction. But you are real. Your grandmother was real. Their love was real." He brushes a strand of hair from your face. "And this feeling, right now, this connection I feel to you—this is real too, is it not?" His eyes search yours.',
       choices: [
@@ -365,7 +365,7 @@ export const theLastLetterStory: Story = {
       type: 'decision',
       title: 'Boundaries',
       imageUrl:
-        'https://images.unsplash.com/photo-1518199266791?w=800',
+        'https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?w=800',
       narration:
         'Luc\'s face falls, but he nods with understanding, stepping back. "You are right. This is heavy—our grandparents\' story, the weight of their loss. Maybe we are trying to fix something that was not ours to fix." He looks away toward the darkening river. "But I am glad you came. Glad my grandfather\'s story has some closure." The air between you feels thick with missed possibilities. You sense a decision point, a moment where your choice will echo across the years just as your grandmother\'s did. The city of light seems to hold its breath around you.',
       choices: [
@@ -469,7 +469,7 @@ export const theLastLetterStory: Story = {
       type: 'ending',
       title: 'Paris Forever',
       imageUrl:
-        'https://images.unsplash.com/photo-1518199266791?w=800',
+        'https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?w=800',
       narration:
         'That evening, Luc proposes at the spot where Julien first kissed your grandmother in 1962. The ring is his grandmother\'s antique. Your wedding takes place a year later in the café, surrounded by Julien\'s paintings and photographs of your grandmother watching over you. You write a book about their love story that becomes a bestseller, and the café becomes a pilgrimage site for romantics. Years later, when you hold your first child—a daughter named Éloise—you understand why your grandmother kept that letter. This time, the story gets its happy ending.',
       choices: [],
@@ -513,7 +513,7 @@ export const theLastLetterStory: Story = {
       type: 'ending',
       title: 'The Letter Home',
       imageUrl:
-        'https://images.unsplash.com/photo-1523438885200?w=800',
+        'https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?w=800',
       narration:
         'You return home with Julien\'s painting wrapped carefully in your luggage. Some connections are too complicated, too weighted with the past. But you fulfilled your mission—you found Julien, understood your grandmother\'s story, and gave them closure. You place the painting in your living room where your grandmother\'s portrait used to hang. She is young again, eternally summer, captured by someone who loved her completely. Sometimes you wonder about Luc, about the life you might have had. But your grandmother\'s story is complete. And yours continues, enriched by history, written on fresh pages.',
       choices: [],

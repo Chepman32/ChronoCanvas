@@ -23,11 +23,11 @@ export const story_9123457712345StoryTranslations: Partial<Record<Language, Stor
   en: {
     title: 'Heartline Rewind',
     description: 'A city is trapped in a 59-minute loop, and your sketches can splice the hours back together. But every repair ripples the past--especially the night you lost Maya. Will you restore the timeline or redraw your fate?',
-    author: 'ChronoCanvas Studio',
+    author: 'FableFlow Studio',
     nodes: {
       'story-9123457712345-1': {
         title: 'Looped Midnight',
-        narration: 'Rain stitches silver dashes across the street as a clock tower stutters: 11:01--again. Your ChronoCanvas hums in your palm like a caged metronome, the line you draw echoing through puddles and neon signs. Somewhere nearby, Maya waits at the observatory, unaware that this hour has already happened a dozen times.',
+        narration: 'Rain stitches silver dashes across the street as a clock tower stutters: 11:01--again. Your FableFlow hums in your palm like a caged metronome, the line you draw echoing through puddles and neon signs. Somewhere nearby, Maya waits at the observatory, unaware that this hour has already happened a dozen times.',
         choices: {
           'story-9123457712345-c1': {
             text: 'Hurry to the museum clock hall.',
@@ -55,7 +55,7 @@ export const story_9123457712345StoryTranslations: Partial<Record<Language, Stor
       },
       'story-9123457712345-3': {
         title: 'Rain Cafe',
-        narration: 'Steam ghosts the cafe windows as raindrops march backwards along the glass--time snagging, then resuming. Maya laughs at a memory you should not know yet, and the laugh thins when the lights flutter twice. The ChronoCanvas warms, impatient.',
+        narration: 'Steam ghosts the cafe windows as raindrops march backwards along the glass--time snagging, then resuming. Maya laughs at a memory you should not know yet, and the laugh thins when the lights flutter twice. The FableFlow warms, impatient.',
         choices: {
           'story-9123457712345-c5': {
             text: 'Confess the loop now.',
@@ -197,7 +197,7 @@ export const story_9123457712345StoryTranslations: Partial<Record<Language, Stor
   ru: {
     title: 'Перемотка Линии Сердца',
     description: 'Город в ловушке 59-минутной петли, и твои наброски могут сшить часы обратно. Но каждый ремонт создаёт рябь в прошлом--особенно в ту ночь, когда ты потерял Майю. Восстановишь ли ты временную линию или перерисуешь свою судьбу?',
-    author: 'ChronoCanvas Studio',
+    author: 'FableFlow Studio',
     nodes: {
       'story-9123457712345-1': {
         title: 'Зациклённая Полночь',
@@ -372,7 +372,7 @@ export const story_9123457712345StoryTranslations: Partial<Record<Language, Stor
   es: {
     title: 'Paleta Paradójica',
     description: 'A medianoche, una restauradora de museo descubre un cuaderno de bocetos que puede repintar el tiempo. Cada línea dibujada repara una fractura y divide otra, mientras un curador en duelo intenta borrar una hora trágica para siempre. ¿Puedes componer una línea temporal que se sostenga--antes de que el lienzo se desgarre?',
-    author: 'ChronoCanvas Studio',
+    author: 'FableFlow Studio',
     nodes: {
       'story-8923745610923-3': {
         title: 'Experimento en el Callejón',
@@ -491,7 +491,7 @@ export const story_9123457712345StoryTranslations: Partial<Record<Language, Stor
       },
       'story-8923745610923-18': {
         title: 'Ecuación Paradójica',
-        narration: 'Las estrellas parpadean como nodos en una red, líneas de potencial conectando el pasado con el ahora. El plano se superpone a la realidad, mostrando la hora cortada como una herida brillante. El ChronoCanvas pulsa, exigiendo una elección: sanar por rendición, o sanar por costo.',
+        narration: 'Las estrellas parpadean como nodos en una red, líneas de potencial conectando el pasado con el ahora. El plano se superpone a la realidad, mostrando la hora cortada como una herida brillante. El FableFlow pulsa, exigiendo una elección: sanar por rendición, o sanar por costo.',
         choices: {
           'story-8923745610923-c37': {
             text: 'Restaura la hora y absorbe tú mismo el retroceso.',
@@ -539,7 +539,7 @@ export const story_9123457712345StoryTranslations: Partial<Record<Language, Stor
       },
       'story-8923745610923-22': {
         title: 'Lienzo Consumido',
-        narration: 'El ChronoCanvas bebe su propia tinta, página tras página, hasta que solo queda un olor a lluvia. La herida se cierra sin costura, la historia suavizándose como pintura húmeda secándose. Nunca volverás a esbozar el tiempo, pero los relojes en todas partes respiran más fácil.',
+        narration: 'El FableFlow bebe su propia tinta, página tras página, hasta que solo queda un olor a lluvia. La herida se cierra sin costura, la historia suavizándose como pintura húmeda secándose. Nunca volverás a esbozar el tiempo, pero los relojes en todas partes respiran más fácil.',
         choices: {
         },
       },
@@ -562,11 +562,11 @@ export const story_9123457712345StoryTranslations: Partial<Record<Language, Stor
   de: {
     title: 'Herzlinie Zurückspulen',
     description: 'Eine Stadt ist in einer 59-Minuten-Schleife gefangen, und deine Skizzen können die Stunden wieder zusammenfügen. Aber jede Reparatur bringt die Vergangenheit ins Wanken--besonders die Nacht, in der du Maya verloren hast. Wirst du die Zeitlinie wiederherstellen oder dein Schicksal neu zeichnen?',
-    author: 'ChronoCanvas Studio',
+    author: 'FableFlow Studio',
     nodes: {
       'story-9123457712345-1': {
         title: 'Geschleifte Mitternacht',
-        narration: 'Regen näht silberne Striche über die Straße, während ein Glockenturm stottert: 11:01--wieder. Dein ChronoCanvas summt in deiner Handfläche wie ein eingesperrtes Metronom, die Linie, die du zeichnest, hallt durch Pfützen und Neonschilder. Irgendwo in der Nähe wartet Maya am Observatorium, ohne zu wissen, dass diese Stunde bereits ein Dutzend Mal geschehen ist.',
+        narration: 'Regen näht silberne Striche über die Straße, während ein Glockenturm stottert: 11:01--wieder. Dein FableFlow summt in deiner Handfläche wie ein eingesperrtes Metronom, die Linie, die du zeichnest, hallt durch Pfützen und Neonschilder. Irgendwo in der Nähe wartet Maya am Observatorium, ohne zu wissen, dass diese Stunde bereits ein Dutzend Mal geschehen ist.',
         choices: {
           'story-9123457712345-c1': {
             text: 'Eile zur Museums-Uhrhalle.',
@@ -594,7 +594,7 @@ export const story_9123457712345StoryTranslations: Partial<Record<Language, Stor
       },
       'story-9123457712345-3': {
         title: 'Regen-Café',
-        narration: 'Dampf vernebelt die Café-Fenster, während Regentropfen rückwärts am Glas entlangmarschieren--die Zeit hängt, dann läuft sie weiter. Maya lacht über eine Erinnerung, die du noch nicht kennen solltest, und das Lachen wird dünner, als die Lichter zweimal flackern. Das ChronoCanvas erwärmt sich, ungeduldig.',
+        narration: 'Dampf vernebelt die Café-Fenster, während Regentropfen rückwärts am Glas entlangmarschieren--die Zeit hängt, dann läuft sie weiter. Maya lacht über eine Erinnerung, die du noch nicht kennen solltest, und das Lachen wird dünner, als die Lichter zweimal flackern. Das FableFlow erwärmt sich, ungeduldig.',
         choices: {
           'story-9123457712345-c5': {
             text: 'Gestehe die Schleife jetzt.',
@@ -737,11 +737,11 @@ export const story_9123457712345StoryTranslations: Partial<Record<Language, Stor
   fr: {
     title: 'Rembobinage de la Ligne de Cœur',
     description: 'Une ville est piégée dans une boucle de 59 minutes, et vos esquisses peuvent recoller les heures ensemble. Mais chaque réparation fait onduler le passé--surtout la nuit où vous avez perdu Maya. Allez-vous restaurer la chronologie ou redessiner votre destin?',
-    author: 'ChronoCanvas Studio',
+    author: 'FableFlow Studio',
     nodes: {
       'story-9123457712345-1': {
         title: 'Minuit en Boucle',
-        narration: 'La pluie coud des tirets argentés à travers la rue tandis qu\'une tour d\'horloge bégaie: 11:01--encore. Votre ChronoCanvas bourdonne dans votre paume comme un métronome en cage, la ligne que vous tracez résonnant à travers les flaques et les enseignes au néon. Quelque part à proximité, Maya attend à l\'observatoire, ignorant que cette heure s\'est déjà produite une douzaine de fois.',
+        narration: 'La pluie coud des tirets argentés à travers la rue tandis qu\'une tour d\'horloge bégaie: 11:01--encore. Votre FableFlow bourdonne dans votre paume comme un métronome en cage, la ligne que vous tracez résonnant à travers les flaques et les enseignes au néon. Quelque part à proximité, Maya attend à l\'observatoire, ignorant que cette heure s\'est déjà produite une douzaine de fois.',
         choices: {
           'story-9123457712345-c1': {
             text: 'Hâtez-vous vers la salle des horloges du musée.',
@@ -769,7 +769,7 @@ export const story_9123457712345StoryTranslations: Partial<Record<Language, Stor
       },
       'story-9123457712345-3': {
         title: 'Café Pluvieux',
-        narration: 'La vapeur embrume les fenêtres du café tandis que des gouttes de pluie marchent à reculons le long du verre--le temps accroche, puis reprend. Maya rit d\'un souvenir que vous ne devriez pas encore connaître, et le rire s\'amincit quand les lumières vacillent deux fois. Le ChronoCanvas se réchauffe, impatient.',
+        narration: 'La vapeur embrume les fenêtres du café tandis que des gouttes de pluie marchent à reculons le long du verre--le temps accroche, puis reprend. Maya rit d\'un souvenir que vous ne devriez pas encore connaître, et le rire s\'amincit quand les lumières vacillent deux fois. Le FableFlow se réchauffe, impatient.',
         choices: {
           'story-9123457712345-c5': {
             text: 'Avouez la boucle maintenant.',
@@ -912,11 +912,11 @@ export const story_9123457712345StoryTranslations: Partial<Record<Language, Stor
   pt: {
     title: 'Rebobinagem da Linha do Coração',
     description: 'Uma cidade está presa em um loop de 59 minutos, e seus esboços podem emendar as horas de volta. Mas cada reparo ondula o passado--especialmente a noite em que você perdeu Maya. Você vai restaurar a linha temporal ou redesenhar seu destino?',
-    author: 'ChronoCanvas Studio',
+    author: 'FableFlow Studio',
     nodes: {
       'story-9123457712345-1': {
         title: 'Meia-Noite em Loop',
-        narration: 'A chuva costura traços prateados pela rua enquanto uma torre de relógio gagueja: 11:01--de novo. Seu ChronoCanvas zumbe em sua palma como um metrônomo enjaulado, a linha que você desenha ecoando através de poças e letreiros de néon. Em algum lugar próximo, Maya espera no observatório, sem saber que esta hora já aconteceu uma dúzia de vezes.',
+        narration: 'A chuva costura traços prateados pela rua enquanto uma torre de relógio gagueja: 11:01--de novo. Seu FableFlow zumbe em sua palma como um metrônomo enjaulado, a linha que você desenha ecoando através de poças e letreiros de néon. Em algum lugar próximo, Maya espera no observatório, sem saber que esta hora já aconteceu uma dúzia de vezes.',
         choices: {
           'story-9123457712345-c1': {
             text: 'Apresse-se para o salão de relógios do museu.',
@@ -944,7 +944,7 @@ export const story_9123457712345StoryTranslations: Partial<Record<Language, Stor
       },
       'story-9123457712345-3': {
         title: 'Café da Chuva',
-        narration: 'Vapor embaça as janelas do café enquanto gotas de chuva marcham de trás para frente no vidro--o tempo enrosca, depois retoma. Maya ri de uma memória que você ainda não deveria conhecer, e o riso afina quando as luzes piscam duas vezes. O ChronoCanvas aquece, impaciente.',
+        narration: 'Vapor embaça as janelas do café enquanto gotas de chuva marcham de trás para frente no vidro--o tempo enrosca, depois retoma. Maya ri de uma memória que você ainda não deveria conhecer, e o riso afina quando as luzes piscam duas vezes. O FableFlow aquece, impaciente.',
         choices: {
           'story-9123457712345-c5': {
             text: 'Confesse o loop agora.',

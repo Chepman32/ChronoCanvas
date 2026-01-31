@@ -1,4 +1,4 @@
-# How to Add a New Story to ChronoCanvas
+# How to Add a New Story to FableFlow
 
 ## Quick 3-Step Process
 

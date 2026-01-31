@@ -7,7 +7,7 @@
   },
   "story": {
     "title": "Paleta Paradójica",
-    "author": "ChronoCanvas Studio",
+    "author": "FableFlow Studio",
     "description": "A medianoche, una restauradora de museo descubre un cuaderno de bocetos que puede repintar el tiempo. Cada línea dibujada repara una fractura y divide otra, mientras un curador en duelo intenta borrar una hora trágica para siempre. ¿Puedes componer una línea temporal que se sostenga--antes de que el lienzo se desgarre?",
     "genre": "scifi",
     "estimatedDuration": 35,
@@ -167,7 +167,7 @@
       "id": "story-8923745610923-18",
       "type": "decision",
       "title": "Ecuación Paradójica",
-      "narration": "Las estrellas parpadean como nodos en una red, líneas de potencial conectando el pasado con el ahora. El plano se superpone a la realidad, mostrando la hora cortada como una herida brillante. El ChronoCanvas pulsa, exigiendo una elección: sanar por rendición, o sanar por costo.",
+      "narration": "Las estrellas parpadean como nodos en una red, líneas de potencial conectando el pasado con el ahora. El plano se superpone a la realidad, mostrando la hora cortada como una herida brillante. El FableFlow pulsa, exigiendo una elección: sanar por rendición, o sanar por costo.",
       "choices": [
         {
           "id": "story-8923745610923-c37",
@@ -228,7 +228,7 @@
       "id": "story-8923745610923-22",
       "type": "ending",
       "title": "Lienzo Consumido",
-      "narration": "El ChronoCanvas bebe su propia tinta, página tras página, hasta que solo queda un olor a lluvia. La herida se cierra sin costura, la historia suavizándose como pintura húmeda secándose. Nunca volverás a esbozar el tiempo, pero los relojes en todas partes respiran más fácil.",
+      "narration": "El FableFlow bebe su propia tinta, página tras página, hasta que solo queda un olor a lluvia. La herida se cierra sin costura, la historia suavizándose como pintura húmeda secándose. Nunca volverás a esbozar el tiempo, pero los relojes en todas partes respiran más fácil.",
       "choices": []
     },
     {

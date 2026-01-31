@@ -1,8 +1,8 @@
-# ChronoCanvas - Project Summary
+# FableFlow - Project Summary
 
 ## 🎯 Project Overview
 
-ChronoCanvas is a production-ready interactive storytelling mobile application for iOS, built with React Native. Users navigate through visual stories by making decisions that shape the narrative outcome.
+FableFlow is a production-ready interactive storytelling mobile application for iOS, built with React Native. Users navigate through visual stories by making decisions that shape the narrative outcome.
 
 ## ✅ Implementation Status
 
@@ -48,7 +48,7 @@ ChronoCanvas is a production-ready interactive storytelling mobile application f
 ## 📁 Project Structure
 
 ```
-ChronoCanvas/
+FableFlow/
 ├── src/
 │   ├── screens/           # 4 main screens
 │   ├── store/             # 2 Zustand stores

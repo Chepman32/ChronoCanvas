@@ -6,10 +6,10 @@ export const emberCrownOathStory: Story = {
   description:
     'When a mapmaker\'s sketch warms to living ember, forgotten waylines flare across the coast. A warlord moves to rekindle the mountain and seize the Crown that now answers your hand. Will you share its fire, break it, or wear it?',
   coverImageUrl:
-    'https://images.unsplash.com/photo-1507400492013-d776c8c05e?w=800',
+    'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
   thumbnailUrl:
     'https://images.unsplash.com/photo-1536152470836-b943b246224c?w=400',
-  author: 'ChronoCanvas Studio',
+  author: 'FableFlow Studio',
   genre: 'fantasy',
   involvement: 'medium',
   estimatedDuration: 65,
@@ -106,7 +106,7 @@ export const emberCrownOathStory: Story = {
       type: 'decision',
       title: 'Night\'s Shelter',
       imageUrl:
-        'https://images.unsplash.com/photo-1507400492013-d776c8c05e?w=800',
+        'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
       narration:
         'Darkness finds you in a hollow between ancient roots, the crown your only warmth against the biting wind. Dreams come fragmented—flames consuming maps, a voice like grinding stone speaking words you almost understand. You wake to frost on your eyelashes and the certainty that you\'re being followed. Footprints circle your camp, too large for any human, pressed deep into frozen earth. The trail ahead forks toward a village or upward into the crags.',
       choices: [
@@ -132,7 +132,7 @@ export const emberCrownOathStory: Story = {
       type: 'decision',
       title: 'The Meeting',
       imageUrl:
-        'https://images.unsplash.com/photo-1518882605630-8eb565f5e673?w=800',
+        'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800',
       narration:
         'Whether among huts or stones, you encounter her—the broker with eyes like polished obsidian who seems to have waited centuries for this moment. She speaks of waylines and oathfire, of crowns that choose rather than obey. Her fingers trace patterns in the air that leave trails of copper light. "The Warlord knows you carry it," she says. "His kiln grows hungry. You have three days, perhaps four, before the mountain answers his terrible call."',
       choices: [
@@ -210,7 +210,7 @@ export const emberCrownOathStory: Story = {
       type: 'decision',
       title: 'The Test of Breath',
       imageUrl:
-        'https://images.unsplash.com/photo-1507400492013-d776c8c05e?w=800',
+        'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
       narration:
         'In the center of the chamber stands a brazier long cold, its rim etched with sigils that match the crown\'s pattern. As you approach, the embers stir without fuel, recognizing kin in the gold you carry. This is the test the broker spoke of: the crown will reveal your true nature here, stripping away pretense and doubt. The air shimmers with heat that does not burn but transforms. You feel ancient eyes upon you.',
       choices: [
@@ -262,7 +262,7 @@ export const emberCrownOathStory: Story = {
       type: 'decision',
       title: 'The Revelation',
       imageUrl:
-        'https://images.unsplash.com/photo-1518882605630-8eb565f5e673?w=800',
+        'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800',
       narration:
         'Your oath takes root in the crown, changing its nature. Where it was warm, it now burns with purpose. Visions flood your mind—the Warlord\'s kiln, a throat of stone and flame that feeds on forests and villages alike. You see his face, scarred by ambition, and understand that he too once stood where you stand now. He chose differently. The crown shows you what might be: ash or warmth, tyranny or community. The path narrows toward confrontation.',
       choices: [
@@ -314,7 +314,7 @@ export const emberCrownOathStory: Story = {
       type: 'decision',
       title: 'The Confrontation',
       imageUrl:
-        'https://images.unsplash.com/photo-1507400492013-d776c8c05e?w=800',
+        'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
       narration:
         'You stand at the fulcrum of history. The Warlord awaits in his obsidian hall, or the kiln groans beneath your hands, or the people gather at your back—whatever path brought you here, all paths now converge on decision. The crown\'s fire has taught you its nature: it amplifies the soul that wears it. You understand now what you must become, and what you must refuse. The mountain holds its breath. The world watches your next move.',
       choices: [
@@ -392,7 +392,7 @@ export const emberCrownOathStory: Story = {
       type: 'decision',
       title: 'The Judgment',
       imageUrl:
-        'https://images.unsplash.com/photo-1507400492013-d776c8c05e?w=800',
+        'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
       narration:
         'The mountain itself seems to hold its breath as you make your final deliberation. Fourteen choices have led you to this precipice, each one a step closer to understanding the true nature of the crown and the responsibility it represents. The flames of the brazier dance in patterns that seem almost like writing, telling stories of those who came before. You see now that the crown was never meant to be wielded alone, yet the temptation of absolute power still burns bright in your chest.',
       choices: [
@@ -469,7 +469,7 @@ export const emberCrownOathStory: Story = {
       type: 'ending',
       title: 'Shared Flame',
       imageUrl:
-        'https://images.unsplash.com/photo-1518882605630-8eb565f5e673?w=800',
+        'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800',
       narration:
         'You lift the crown and it divides like bread, embers taking root in many hands. The kiln cools; the Warlord\'s plans die choked on community. Festivals bloom where garrisons would have stood, and maps are drawn by chorus. Years later, children gather around hearths that never go cold, tended by elders who bear a fraction of what you once carried. You wander among them, nameless and content, watching the fire you shared warm generations.',
       choices: [],
@@ -491,7 +491,7 @@ export const emberCrownOathStory: Story = {
       type: 'ending',
       title: 'Broken Crown',
       imageUrl:
-        'https://images.unsplash.com/photo-1518882605630-8eb565f5e673?w=800',
+        'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800',
       narration:
         'Gold screams like glass when you strike it on stone; embers leap, then settle as soft, ordinary warmth. The shrine sighs with relief, and history loses a tyrant it might have met. Your hands keep a faint glow on winter nights—enough to boil tea, to warm a traveler\'s hands, to light a candle when darkness falls. No crown ever chooses another bearer from these mountains. The Warlord\'s kiln goes cold. The people make their own fires now.',
       choices: [],

@@ -1,13 +1,13 @@
 # Story Generation Prompt Template
 
-Use this prompt template with any AI chatbot (ChatGPT, Claude, etc.) to generate new stories for ChronoCanvas.
+Use this prompt template with any AI chatbot (ChatGPT, Claude, etc.) to generate new stories for FableFlow.
 
 ---
 
 ## 📝 Prompt Template
 
 ````
-I need you to create an interactive story for a React Native mobile app called ChronoCanvas.
+I need you to create an interactive story for a React Native mobile app called FableFlow.
 The story should follow this exact TypeScript structure:
 
 STORY REQUIREMENTS:
@@ -119,7 +119,7 @@ Output the complete TypeScript code ready to paste into the app.
 
 ```
 
-I need you to create an interactive story for ChronoCanvas:
+I need you to create an interactive story for FableFlow:
 
 STORY REQUIREMENTS:
 
@@ -145,7 +145,7 @@ TONE: Suspenseful, action-packed, with moral dilemmas
 
 ```
 
-I need you to create an interactive story for ChronoCanvas:
+I need you to create an interactive story for FableFlow:
 
 STORY REQUIREMENTS:
 
@@ -171,7 +171,7 @@ TONE: Epic, magical, with moments of humor
 
 ```
 
-I need you to create an interactive story for ChronoCanvas:
+I need you to create an interactive story for FableFlow:
 
 STORY REQUIREMENTS:
 
@@ -359,4 +359,4 @@ For connected stories:
 
 **Last Updated**: October 2025  
 **Version**: 1.0  
-**Compatible with**: ChronoCanvas v1.0+
+**Compatible with**: FableFlow v1.0+

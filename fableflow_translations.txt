@@ -1,6 +1,6 @@
 === pl ===
 name.txt:
-ChronoCanvas
+FableFlow
 
 subtitle.txt:
 Wybierz Swoją Przygodę
@@ -12,13 +12,13 @@ keywords.txt:
 wybierz przygodę,powieść wizualna,interaktywna gra,gra fabularna,narracja,offline,fantasy
 
 description.txt:
-Wejdź do ChronoCanvas — gdzie każdy wybór kształtuje historię. Doświadcz wciągających narracji w fantastycznych królestwach, sci-fi zagadkach, nawiedzonych posiadłościach i postapokaliptycznych pustkowiach.
+Wejdź do FableFlow — gdzie każdy wybór kształtuje historię. Doświadcz wciągających narracji w fantastycznych królestwach, sci-fi zagadkach, nawiedzonych posiadłościach i postapokaliptycznych pustkowiach.
 
 TWOJE WYBORY. TWOJA HISTORIA. TWOJE ZAKOŃCZENIE.
 
-W przeciwieństwie do liniowych książek czy pasywnych gier, ChronoCanvas daje TOBIE kontrolę. Zaufasz tajemniczemu nieznajomemu? Stawisz czoła smokowi czy uciekniesz? Ocalisz załogę czy siebie? Dzięki niezliczonym punktom decyzyjnym i wielu unikalnym zakończeniom, żadne dwie rozgrywki nie są takie same.
+W przeciwieństwie do liniowych książek czy pasywnych gier, FableFlow daje TOBIE kontrolę. Zaufasz tajemniczemu nieznajomemu? Stawisz czoła smokowi czy uciekniesz? Ocalisz załogę czy siebie? Dzięki niezliczonym punktom decyzyjnym i wielu unikalnym zakończeniom, żadne dwie rozgrywki nie są takie same.
 
-⚡ DLACZEGO GRACZE KOCHAJĄ CHRONOCANVAS:
+⚡ DLACZEGO GRACZE KOCHAJĄ FABLEFLOW:
 
 ✓ ZACHWYCAJĄCA KOLEKCJA OPOWIEŚCI — Od szybkich przygód po epickie historie
 ✓ ZNACZĄCE WYBORY — Każda decyzja rozgałęzia fabułę
@@ -60,22 +60,22 @@ The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall 
 
 I więcej historii dodawanych regularnie!
 
-ChronoCanvas to nie tylko gra — to biblioteka żywych opowieści, gdzie TOBIE przypada rola protagonisty. Niezależnie od tego, czy masz 15 minut czy godzinę, ucieknij do światów, gdzie Twoje wybory naprawdę mają znaczenie.
+FableFlow to nie tylko gra — to biblioteka żywych opowieści, gdzie TOBIE przypada rola protagonisty. Niezależnie od tego, czy masz 15 minut czy godzinę, ucieknij do światów, gdzie Twoje wybory naprawdę mają znaczenie.
 
 Pobierz teraz i zacznij kształtować swoją historię.
 
 ---
 
-Pytania? Opinie? Jesteśmy tutaj: support@chronocanvas.app
+Pytania? Opinie? Jesteśmy tutaj: support@fableflow.app
 
 *Dostępne w języku angielskim. Dodatkowe języki wkrótce.*
 
 🤖 O NASZYCH HISTORIACH:
-Wszystkie historie w ChronoCanvas są generowane z pomocą AI i starannie sprawdzane, redagowane oraz kształtowane przez ludzkich narratorów, aby zapewnić jakość, spójność i wciągające doświadczenie narracyjne.
+Wszystkie historie w FableFlow są generowane z pomocą AI i starannie sprawdzane, redagowane oraz kształtowane przez ludzkich narratorów, aby zapewnić jakość, spójność i wciągające doświadczenie narracyjne.
 
 === cs ===
 name.txt:
-ChronoCanvas
+FableFlow
 
 subtitle.txt:
 Vyber Si Své Dobrodružství
@@ -87,13 +87,13 @@ keywords.txt:
 vyber dobrodružství,vizuální novela,interaktivní hra,story hra,příběh,offline hra,fantasy hra
 
 description.txt:
-Vkroč do ChronoCanvas — kde každé rozhodnutí utváří příběh. Zažij poutavé interaktivní příběhy zahrnující fantasy království, sci-fi záhady, strašidelná sídla a postapokalyptická pustá.
+Vkroč do FableFlow — kde každé rozhodnutí utváří příběh. Zažij poutavé interaktivní příběhy zahrnující fantasy království, sci-fi záhady, strašidelná sídla a postapokalyptická pustá.
 
 TVÉ VOLBY. TVŮJ PŘÍBĚH. TVŮJ KONEC.
 
-Na rozdíl od lineárních knih nebo pasivních her dává ChronoCanvas TOBĚ kontrolu. Důvěřuješ záhadnému cizinci? Vstoupíš do boje s drakem nebo utečeš? Zachráníš posádku nebo sebe? Díky nesčetným rozhodovacím bodům a více unikátním koncům se nikdy nebudou dvě hry opakovat.
+Na rozdíl od lineárních knih nebo pasivních her dává FableFlow TOBĚ kontrolu. Důvěřuješ záhadnému cizinci? Vstoupíš do boje s drakem nebo utečeš? Zachráníš posádku nebo sebe? Díky nesčetným rozhodovacím bodům a více unikátním koncům se nikdy nebudou dvě hry opakovat.
 
-⚡ PROČ HRÁČI MILUJÍ CHRONOCANVAS:
+⚡ PROČ HRÁČI MILUJÍ FABLEFLOW:
 
 ✓ OKOUZLUJÍCÍ SBÍRKA PŘÍBĚHŮ — Od rychlých dobrodružství po epické příběhy
 ✓ SMYSLNÁ ROZHODNUTÍ — Každé rozhodnutí rozvětvuje naraci
@@ -135,22 +135,22 @@ The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall 
 
 A další příběhy pravidelně přidávány!
 
-ChronoCanvas není jen hra — je to knihovna živých příběhů, kde TY jsi protagonistou. Ať už máš 15 minut nebo hodinu, unikni do světů, kde tvé volby skutečně záleží.
+FableFlow není jen hra — je to knihovna živých příběhů, kde TY jsi protagonistou. Ať už máš 15 minut nebo hodinu, unikni do světů, kde tvé volby skutečně záleží.
 
 Stáhni si nyní a začni utvářet svůj příběh.
 
 ---
 
-Dotazy? Zpětná vazba? Jsme tu: support@chronocanvas.app
+Dotazy? Zpětná vazba? Jsme tu: support@fableflow.app
 
 *Dostupné v angličtině. Další jazyky brzy.*
 
 🤖 O NAŠICH PŘÍBĚZÍCH:
-Všechny příběhy v ChronoCanvas jsou generovány s pomocí AI a pečlivě kontrolovány, upravovány a tvarovány lidskými vypravěči, aby byla zajištěna kvalita, soudržnost a poutavý narativní zážitek.
+Všechny příběhy v FableFlow jsou generovány s pomocí AI a pečlivě kontrolovány, upravovány a tvarovány lidskými vypravěči, aby byla zajištěna kvalita, soudržnost a poutavý narativní zážitek.
 
 === hu ===
 name.txt:
-ChronoCanvas
+FableFlow
 
 subtitle.txt:
 Válaszd Ki a Kalandod
@@ -162,13 +162,13 @@ keywords.txt:
 válaszd kalandod,vizuális regény,interaktív történet,játék,offline játék,fantasy játék
 
 description.txt:
-Lépj be a ChronoCanvasba — ahol minden döntésed formálja a történetet. Éld át a magával ragadó interaktív narratívákat fantasztikus királyságokban, sci-fi rejtélyekben, kísértetjárta kastélyokban és posztapokaliptikus pusztaságokban.
+Lépj be a FableFlowba — ahol minden döntésed formálja a történetet. Éld át a magával ragadó interaktív narratívákat fantasztikus királyságokban, sci-fi rejtélyekben, kísértetjárta kastélyokban és posztapokaliptikus pusztaságokban.
 
 A TE DÖNTÉSEID. A TE TÖRTÉNETED. A TE BEFEJEZÉSED.
 
-Ellentétben a lineáris könyvekkel vagy passzív játékokkal, a ChronoCanvas TÉGED helyez irányítás alá. Megbízol a rejtélyes idegenben? Megküzdesz a sárkánnyal vagy elmenekülsz? Megmented a legénységet vagy magadat? A számtalan döntési pont és több egyedi befejezés miatt két játék soha nem egyezik meg.
+Ellentétben a lineáris könyvekkel vagy passzív játékokkal, a FableFlow TÉGED helyez irányítás alá. Megbízol a rejtélyes idegenben? Megküzdesz a sárkánnyal vagy elmenekülsz? Megmented a legénységet vagy magadat? A számtalan döntési pont és több egyedi befejezés miatt két játék soha nem egyezik meg.
 
-⚡ MIÉRT IMÁDJÁK A JÁTÉKOSOK A CHRONOCANVAS-T:
+⚡ MIÉRT IMÁDJÁK A JÁTÉKOSOK A FABLEFLOW-T:
 
 ✓ ELBŰVÖLŐ TÖRTÉNETGYŰJTEMÉNY — Gyors kalandoktól epikus történetekig
 ✓ JELENTŐSÉGTELJES DÖNTÉSEK — Minden választás elágaztatja a cselekményt
@@ -210,22 +210,22 @@ The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall 
 
 És még több történet rendszeresen!
 
-A ChronoCanvas nem csak egy játék — egy élő történetek könyvtára, ahol TE vagy a főszereplő. Akár 15 perced van, akár egy órád, menekülj olyan világokba, ahol a döntéseid tényleg számítanak.
+A FableFlow nem csak egy játék — egy élő történetek könyvtára, ahol TE vagy a főszereplő. Akár 15 perced van, akár egy órád, menekülj olyan világokba, ahol a döntéseid tényleg számítanak.
 
 Töltsd le most és kezdd el formálni a történetedet.
 
 ---
 
-Kérdésed van? Visszajelzés? Itt vagyunk: support@chronocanvas.app
+Kérdésed van? Visszajelzés? Itt vagyunk: support@fableflow.app
 
 *Angol nyelven elérhető. További nyelvek hamarosan.*
 
 🤖 TÖRTÉNETEINKRŐL:
-A ChronoCanvas minden története AI segítségével készül, és gondosan ellenőrzik, szerkesztik és alakítják emberi mesélők, hogy biztosítsák a minőséget, a koherenciát és a magával ragadó narratív élményt.
+A FableFlow minden története AI segítségével készül, és gondosan ellenőrzik, szerkesztik és alakítják emberi mesélők, hogy biztosítsák a minőséget, a koherenciát és a magával ragadó narratív élményt.
 
 === ro ===
 name.txt:
-ChronoCanvas
+FableFlow
 
 subtitle.txt:
 Alege-ți Aventura
@@ -237,13 +237,13 @@ keywords.txt:
 alege aventura,vizual novel,poveste interactivă,joc poveste,narativ,joc offline,fantasy
 
 description.txt:
-Intră în ChronoCanvas — unde fiecare alegere pe care o faci dă formă poveștii. Experimentează narative interactive captivante care se întind în regate fantastice, mistere sci-fi, conace bântuite și pustietăți post-apocaliptice.
+Intră în FableFlow — unde fiecare alegere pe care o faci dă formă poveștii. Experimentează narative interactive captivante care se întind în regate fantastice, mistere sci-fi, conace bântuite și pustietăți post-apocaliptice.
 
 ALEGERILE TALE. POVESTEA TA. FINALUL TĂU.
 
-Spre deosebire de cărțile liniare sau jocurile pasive, ChronoCanvas te pune PE TINE la control. Ai încredere în străinul misterios? Te lupți cu dragonul sau fugi? Salvezi echipajul sau pe tine însuți? Cu nenumărate puncte de decizie și multiple finale unice, niciodată două jocuri nu sunt la fel.
+Spre deosebire de cărțile liniare sau jocurile pasive, FableFlow te pune PE TINE la control. Ai încredere în străinul misterios? Te lupți cu dragonul sau fugi? Salvezi echipajul sau pe tine însuți? Cu nenumărate puncte de decizie și multiple finale unice, niciodată două jocuri nu sunt la fel.
 
-⚡ DE CE IUBESC JUCĂTORII CHRONOCANVAS:
+⚡ DE CE IUBESC JUCĂTORII FABLEFLOW:
 
 ✓ COLECȚIE FASCINANTĂ DE POVEȘTI — De la aventuri rapide la povești epice
 ✓ ALEGERI SEMNIFICATIVE — Fiecare decizie ramifică narativul
@@ -285,22 +285,22 @@ The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall 
 
 Și mai multe povești adăugate regulat!
 
-ChronoCanvas nu este doar un joc — este o bibliotecă de povești vii unde TU ești protagonistul. Fie că ai 15 minute sau o oră, evadează în lumi unde alegerile tale chiar contează.
+FableFlow nu este doar un joc — este o bibliotecă de povești vii unde TU ești protagonistul. Fie că ai 15 minute sau o oră, evadează în lumi unde alegerile tale chiar contează.
 
 Descarcă acum și începe să-ți dai formă poveștii.
 
 ---
 
-Întrebări? Feedback? Suntem aici: support@chronocanvas.app
+Întrebări? Feedback? Suntem aici: support@fableflow.app
 
 *Disponibil în engleză. Alte limbi în curând.*
 
 🤖 DESPRE POVEȘTILE NOASTRE:
-Toate poveștile din ChronoCanvas sunt generate cu asistență AI și verificate, editate și îngrijite cu grijă de povestitori umani pentru a asigura calitatea, coerența și o experiență narativă captivantă.
+Toate poveștile din FableFlow sunt generate cu asistență AI și verificate, editate și îngrijite cu grijă de povestitori umani pentru a asigura calitatea, coerența și o experiență narativă captivantă.
 
 === uk ===
 name.txt:
-ChronoCanvas
+FableFlow
 
 subtitle.txt:
 Обери Свою Пригоду
@@ -312,13 +312,13 @@ keywords.txt:
 обери пригоду,візуальна новела,інтерактивна гра,сюжетна гра,оповідь,офлайн гра,фентезі
 
 description.txt:
-Крок у ChronoCanvas — де кожен твій вибір формує історію. Відчуй захопливі інтерактивні наративи у фентезійних королівствах, sci-fi таємницях, замкнених маєтках та постапокаліптичних пустках.
+Крок у FableFlow — де кожен твій вибір формує історію. Відчуй захопливі інтерактивні наративи у фентезійних королівствах, sci-fi таємницях, замкнених маєтках та постапокаліптичних пустках.
 
 ТВІЙ ВИБІР. ТВОЯ ІСТОРІЯ. ТВІЙ КІНЕЦЬ.
 
-На відміну від лінійних книг чи пасивних ігор, ChronoCanvas дає ТОБІ контроль. Чи довіришся загадковому незнайомцю? Чи битимешся з драконом чи втечеш? Чи врятуєш команду чи себе? Завдяки незліченним точкам прийняття рішень і кільком унікальним кінцівкам жодні дві ігри ніколи не повторюються.
+На відміну від лінійних книг чи пасивних ігор, FableFlow дає ТОБІ контроль. Чи довіришся загадковому незнайомцю? Чи битимешся з драконом чи втечеш? Чи врятуєш команду чи себе? Завдяки незліченним точкам прийняття рішень і кільком унікальним кінцівкам жодні дві ігри ніколи не повторюються.
 
-⚡ ЧОМУ ГРАВЦІ ЛЮБЛЯТЬ CHRONOCANVAS:
+⚡ ЧОМУ ГРАВЦІ ЛЮБЛЯТЬ FABLEFLOW:
 
 ✓ ЗАХОПЛИВА КОЛЕКЦІЯ ІСТОРІЙ — Від швидких пригод до епічних оповідань
 ✓ ЗНАЧУЩІ ВИБОРИ — Кожне рішення розгалужує сюжет
@@ -360,22 +360,22 @@ The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall 
 
 І більше історій додаються регулярно!
 
-ChronoCanvas — це не просто гра, це бібліотека живих історій, де ТИ є головним героєм. Незалежно від того, чи є у тебе 15 хвилин чи година, втечи у світи, де твої вибори справді мають значення.
+FableFlow — це не просто гра, це бібліотека живих історій, де ТИ є головним героєм. Незалежно від того, чи є у тебе 15 хвилин чи година, втечи у світи, де твої вибори справді мають значення.
 
 Завантаж зараз і почни формувати свою історію.
 
 ---
 
-Питання? Відгук? Ми тут: support@chronocanvas.app
+Питання? Відгук? Ми тут: support@fableflow.app
 
 *Доступно англійською. Додаткові мови незабаром.*
 
 🤖 ПРО НАШІ ІСТОРІЇ:
-Усі історії в ChronoCanvas створюються за допомогою ШІ та ретельно перевіряються, редагуються та опрацьовуються людьми-оповідачами для забезпечення якості, послідовності та захопливого наративного досвіду.
+Усі історії в FableFlow створюються за допомогою ШІ та ретельно перевіряються, редагуються та опрацьовуються людьми-оповідачами для забезпечення якості, послідовності та захопливого наративного досвіду.
 
 === el ===
 name.txt:
-ChronoCanvas
+FableFlow
 
 subtitle.txt:
 Διάλεξε την Περιπέτειά Σου
@@ -387,13 +387,13 @@ keywords.txt:
 διαλεξε περιπέτεια,οπτικη νουβελα,διαδραστικη ιστορια,παιχνιδι,offline,φαντασια
 
 description.txt:
-Μπες στο ChronoCanvas — όπου κάθε επιλογή που κάνεις διαμορφώνει την ιστορία. Ζήσε καθηλωτικές διαδραστικές αφηγήσεις σε βασίλεια φαντασίας, μυστήρια sci-fi, στοιχειωμένα αρχοντικά και μετα-αποκαλυπτικά τοπία.
+Μπες στο FableFlow — όπου κάθε επιλογή που κάνεις διαμορφώνει την ιστορία. Ζήσε καθηλωτικές διαδραστικές αφηγήσεις σε βασίλεια φαντασίας, μυστήρια sci-fi, στοιχειωμένα αρχοντικά και μετα-αποκαλυπτικά τοπία.
 
 ΟΙ ΕΠΙΛΟΓΕΣ ΣΟΥ. Η ΙΣΤΟΡΙΑ ΣΟΥ. ΤΟ ΤΕΛΟΣ ΣΟΥ.
 
-Σε αντίθεση με τα γραμμικά βιβλία ή τα παθητικά παιχνίδια, το ChronoCanvas βάζει ΕΣΕΝΑ στο τιμόνι. Θα εμπιστευτείς τον μυστηριώδη ξένο; Θα παλέψεις με το δράκο ή θα φύγεις; Θα σώσεις το πλήρωμα ή τον εαυτό σου; Με αμέτρητα σημεία απόφασης και πολλαπλά μοναδικά τέλη, ποτέ δύο παιχνίδια δεν είναι ίδια.
+Σε αντίθεση με τα γραμμικά βιβλία ή τα παθητικά παιχνίδια, το FableFlow βάζει ΕΣΕΝΑ στο τιμόνι. Θα εμπιστευτείς τον μυστηριώδη ξένο; Θα παλέψεις με το δράκο ή θα φύγεις; Θα σώσεις το πλήρωμα ή τον εαυτό σου; Με αμέτρητα σημεία απόφασης και πολλαπλά μοναδικά τέλη, ποτέ δύο παιχνίδια δεν είναι ίδια.
 
-⚡ ΓΙΑΤΙ ΟΙ ΠΑΙΚΤΕΣ ΑΓΑΠΟΥΝ ΤΟ CHRONOCANVAS:
+⚡ ΓΙΑΤΙ ΟΙ ΠΑΙΚΤΕΣ ΑΓΑΠΟΥΝ ΤΟ FABLEFLOW:
 
 ✓ ΣΥΝΑΡΠΑΣΤΙΚΗ ΣΥΛΛΟΓΗ ΙΣΤΟΡΙΩΝ — Από γρήγορες περιπέτειες έως επικές αφηγήσεις
 ✓ ΣΗΜΑΝΤΙΚΕΣ ΕΠΙΛΟΓΕΣ — Κάθε απόφαση διακλαδίζει την πλοκή
@@ -435,15 +435,15 @@ The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall 
 
 Και περισσότερες ιστορίες προστίθενται τακτικά!
 
-Το ChronoCanvas δεν είναι απλώς ένα παιχνίδι — είναι μια βιβλιοθήκη ζωντανών ιστοριών όπου ΕΣΥ είσαι ο πρωταγωνιστής. Είτε έχεις 15 λεπτά είτε μια ώρα, απόδρασε σε κόσμους όπου οι επιλογές σου μετράνε πραγματικά.
+Το FableFlow δεν είναι απλώς ένα παιχνίδι — είναι μια βιβλιοθήκη ζωντανών ιστοριών όπου ΕΣΥ είσαι ο πρωταγωνιστής. Είτε έχεις 15 λεπτά είτε μια ώρα, απόδρασε σε κόσμους όπου οι επιλογές σου μετράνε πραγματικά.
 
 Κατέβασε τώρα και ξεκίνα να διαμορφώνεις την ιστορία σου.
 
 ---
 
-Ερωτήσεις; Σχόλια; Είμαστε εδώ: support@chronocanvas.app
+Ερωτήσεις; Σχόλια; Είμαστε εδώ: support@fableflow.app
 
 *Διαθέσιμο στα Αγγλικά. Περισσότερες γλώσσες σύντομα.*
 
 🤖 ΣΧΕΤΙΚΑ ΜΕ ΤΙΣ ΙΣΤΟΡΙΕΣ ΜΑΣ:
-Όλες οι ιστορίες στο ChronoCanvas δημιουργούνται με τη βοήθεια AI και ελέγχονται, επεξεργάζονται και επιμελούνται προσεκτικά από ανθρώπινους αφηγητές για να διασφαλιστεί η ποιότητα, η συνοχή και μια συναρπαστική αφηγηματική εμπειρία.
+Όλες οι ιστορίες στο FableFlow δημιουργούνται με τη βοήθεια AI και ελέγχονται, επεξεργάζονται και επιμελούνται προσεκτικά από ανθρώπινους αφηγητές για να διασφαλιστεί η ποιότητα, η συνοχή και μια συναρπαστική αφηγηματική εμπειρία.

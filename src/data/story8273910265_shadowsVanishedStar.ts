@@ -68,7 +68,7 @@ export const shadowsVanishedStarStory: Story = {
       type: 'decision',
       title: 'Hidden Note',
       imageUrl:
-        'https://images.unsplash.com/photo-1505664194779-8ab2f700bfe0?w=800',
+        'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
       narration:
         'Kneeling beside the scattered belongings, you catch the metallic smell of rain mingled with something else. Tucked beneath a discarded jacket you find a sealed envelope, edges tinged with moisture. Voices blur around you as the world narrows to this paper – it could be a trap or the key to unlocking the entire mystery that brought you here tonight.',
       choices: [
@@ -128,7 +128,7 @@ export const shadowsVanishedStarStory: Story = {
       type: 'decision',
       title: 'Vaulted Truth',
       imageUrl:
-        'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=800',
+        'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
       narration:
         'Deep beneath marble floors, a chilled vault door swings open with a hiss. Using connections with a sympathetic bank manager, you gain access to a safety deposit box. Inside are folders of damning documents linking the city\'s elite to the disappearance. The weight of this evidence sits heavy in your hands.',
       choices: [
@@ -208,7 +208,7 @@ export const shadowsVanishedStarStory: Story = {
       type: 'decision',
       title: 'Breaking In',
       imageUrl:
-        'https://images.unsplash.com/photo-1550895030-823330dfb759?w=800',
+        'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800',
       narration:
         'You push open a side door into a long, dim hallway. Footsteps echo as you approach a meeting in progress, voices low and conspiratorial. Through a crack in the door you see figures gathered around a table, the star pendant displayed like a trophy. You have found the conspiracy\'s leaders.',
       choices: [
@@ -228,7 +228,7 @@ export const shadowsVanishedStarStory: Story = {
       type: 'decision',
       title: 'Point of No Return',
       imageUrl:
-        'https://images.unsplash.com/photo-1505664194779-8ab2f700bfe0?w=800',
+        'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
       narration:
         'You stand at the edge of everything. The conspiracy\'s heart beats before you, exposed and vulnerable. One word from you could save or damn a dozen souls. The star ornament grows warm in your pocket, a reminder of where this began. Choose carefully, for there is no turning back.',
       choices: [
@@ -269,7 +269,7 @@ export const shadowsVanishedStarStory: Story = {
       type: 'ending',
       title: 'Deal with the Devil',
       imageUrl:
-        'https://images.unsplash.com/photo-1550895030-823330dfb759?w=800',
+        'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800',
       narration:
         'Temptation wins. You pocket the files and step into the inner circle. The ladder you climb may be gilded, but every rung is slick with guilt. Wealth and connections flow your way, yet in quiet moments you wonder what became of the young woman whose ornament unlocked your fortune. You are rich but hollow, powerful but forever looking over your shoulder.',
       choices: [],
@@ -280,7 +280,7 @@ export const shadowsVanishedStarStory: Story = {
       type: 'ending',
       title: 'Justice Served',
       imageUrl:
-        'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=800',
+        'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
       narration:
         'You choose the lawful path. With solid evidence in hand and back-up at your side, you watch as the conspirators are hauled before a judge. The courtroom\'s wooden benches creak as verdicts are read and justice reverberates through marble halls. The heiress is found alive, and you feel a rare sense of closure wash over you like cleansing rain.',
       choices: [],

@@ -1,8 +1,8 @@
-# ChronoCanvas Story Catalog
+# FableFlow Story Catalog
 
 ## Complete Story Collection
 
-ChronoCanvas features 13 immersive interactive stories across multiple genres, with over 280 story nodes and 45+ unique endings.
+FableFlow features 13 immersive interactive stories across multiple genres, with over 280 story nodes and 45+ unique endings.
 
 ---
 

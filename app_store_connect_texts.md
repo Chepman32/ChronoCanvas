@@ -1,4 +1,4 @@
-# ChronoCanvas - App Store Connect Texts
+# FableFlow - App Store Connect Texts
 ## Optimized using Viktor Seraleev's ASO Best Practices
 
 ---
@@ -41,7 +41,7 @@ Countless choices. Multiple endings. One epic story game. Experience branching n
 
 **Alternative B:**
 ```
-Love visual novels? ChronoCanvas delivers immersive choose-your-own-adventure stories you can play anywhere — completely offline.
+Love visual novels? FableFlow delivers immersive choose-your-own-adventure stories you can play anywhere — completely offline.
 ```
 *147 characters* - Targets "visual novels" and "choose your own adventure" keywords
 
@@ -56,13 +56,13 @@ Immersive interactive stories with endless choices and multiple endings. Play fa
 ## 📝 DESCRIPTION (4,000 characters max)
 
 ```
-Step into ChronoCanvas — where every choice you make shapes the story. Experience immersive interactive narratives spanning fantasy kingdoms, sci-fi mysteries, haunted mansions, and post-apocalyptic wastelands.
+Step into FableFlow — where every choice you make shapes the story. Experience immersive interactive narratives spanning fantasy kingdoms, sci-fi mysteries, haunted mansions, and post-apocalyptic wastelands.
 
 YOUR CHOICES. YOUR STORY. YOUR ENDING.
 
-Unlike linear books or passive games, ChronoCanvas puts YOU in control. Will you trust the mysterious stranger? Fight the dragon or flee? Save the crew or yourself? With countless decision points and multiple unique endings, no two playthroughs are ever the same.
+Unlike linear books or passive games, FableFlow puts YOU in control. Will you trust the mysterious stranger? Fight the dragon or flee? Save the crew or yourself? With countless decision points and multiple unique endings, no two playthroughs are ever the same.
 
-⚡ WHY PLAYERS LOVE CHRONOCANVAS:
+⚡ WHY PLAYERS LOVE FABLEFLOW:
 
 ✓ CAPTIVATING STORY COLLECTION — From quick adventures to epic tales
 ✓ MEANINGFUL CHOICES — Every decision branches the narrative
@@ -104,18 +104,18 @@ The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall 
 
 And more stories added regularly!
 
-ChronoCanvas isn't just a game — it's a library of living stories where YOU are the protagonist. Whether you have 15 minutes or an hour, escape into worlds where your choices truly matter.
+FableFlow isn't just a game — it's a library of living stories where YOU are the protagonist. Whether you have 15 minutes or an hour, escape into worlds where your choices truly matter.
 
 Download now and start shaping your story.
 
 ---
 
-Questions? Feedback? We're here: support@chronocanvas.app
+Questions? Feedback? We're here: support@fableflow.app
 
 *Available in English. Additional languages coming soon.*
 
 🤖 ABOUT OUR STORIES:
-All stories in ChronoCanvas are generated with AI assistance and carefully checked, edited, and curated by human storytellers to ensure quality, coherence, and an engaging narrative experience.
+All stories in FableFlow are generated with AI assistance and carefully checked, edited, and curated by human storytellers to ensure quality, coherence, and an engaging narrative experience.
 ```
 
 **Character count:** ~2,100 (well under 4,000 limit, leaving room for localization)
@@ -164,7 +164,7 @@ episode alternative,choices game,storytelling adventure,branching story,rpg text
 | "story game" | High | Must-have despite competition |
 
 ### ✅ Metadata Optimization
-- **Title:** ChronoCanvas (brand name, distinctive)
+- **Title:** FableFlow (brand name, distinctive)
 - **Subtitle:** "Choose Your Adventure Story" (keywords + value prop)
 - **Keywords field:** Long-tail, specific terms rather than generic
 - **Description:** Natural keyword integration, benefit-driven structure

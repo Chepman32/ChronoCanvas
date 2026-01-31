@@ -1,6 +1,6 @@
 === tr ===
 name.txt:
-ChronoCanvas
+FableFlow
 
 subtitle.txt:
 Macera Hikayenizi Seçin
@@ -12,13 +12,13 @@ keywords.txt:
 macera seç,fantezi,görsel roman,metin macera,interaktif hikaye,dallanan anlatı,çevrimdışı oyun
 
 description.txt:
-ChronoCanvas'e adım atın — burada yaptığınız her seçim hikayeyi şekillendirir. Fantezi krallıkları, bilim kurgu gizemleri, perili konaklar ve kıyamet sonrası çöllerde uzanan sürükleyici interaktif anlatıları deneyimleyin.
+FableFlow'e adım atın — burada yaptığınız her seçim hikayeyi şekillendirir. Fantezi krallıkları, bilim kurgu gizemleri, perili konaklar ve kıyamet sonrası çöllerde uzanan sürükleyici interaktif anlatıları deneyimleyin.
 
 SİZİN SEÇİMLERİNİZ. SİZİN HİKAYENİZ. SİZİN SONUNUZ.
 
-Doğrusal kitaplardan veya pasif oyunlardan farklı olarak, ChronoCanvas KONTROLÜ size verir. Gizemli yabancıya güvenir misiniz? Ejderha ile savaşır mısınız yoksa kaçar mısınız? Mürettebatı mı yoksa kendinizi mi kurtarırsınız? Sayısız karar noktası ve birden fazla benzersiz sonla, hiçbir iki oynayış aynı değildir.
+Doğrusal kitaplardan veya pasif oyunlardan farklı olarak, FableFlow KONTROLÜ size verir. Gizemli yabancıya güvenir misiniz? Ejderha ile savaşır mısınız yoksa kaçar mısınız? Mürettebatı mı yoksa kendinizi mi kurtarırsınız? Sayısız karar noktası ve birden fazla benzersiz sonla, hiçbir iki oynayış aynı değildir.
 
-⚡ OYUNCULAR NEDEN CHRONOCANVAS'İ SEVİYOR:
+⚡ OYUNCULAR NEDEN FABLEFLOW'İ SEVİYOR:
 
 ✓ BÜYÜLEYİCİ HİKAYE KOLEKSİYONU — Hızlı maceralardan destansı hikayelere
 ✓ ANLAMLI SEÇİMLER — Her karar anlatıyı dallandırır
@@ -60,22 +60,22 @@ The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall 
 
 Ve düzenli olarak eklenen daha fazla hikaye!
 
-ChronoCanvas sadece bir oyun değil — burada SİZ başrolsiniz. İster 15 dakikanız ister bir saatiniz olsun, seçimlerinizin gerçekten önemli olduğu dünyalara kaçış yapın.
+FableFlow sadece bir oyun değil — burada SİZ başrolsiniz. İster 15 dakikanız ister bir saatiniz olsun, seçimlerinizin gerçekten önemli olduğu dünyalara kaçış yapın.
 
 Şimdi indirin ve hikayenizi şekillendirmeye başlayın.
 
 ---
 
-Sorularınız mı var? Geri bildirim? Buradayız: support@chronocanvas.app
+Sorularınız mı var? Geri bildirim? Buradayız: support@fableflow.app
 
 *İngilizce olarak mevcuttur. Ek diller yakında geliyor.*
 
 🤖 HİKAYELERİMİZ HAKKINDA:
-ChronoCanvas'teki tüm hikayeler yapay zeka desteğiyle oluşturulmuş ve kalite, tutarlılık ve sürükleyici bir anlatı deneyimi sağlamak için insan hikaye anlatıcıları tarafından dikkatlice kontrol edilmiş, düzenlenmiş ve derlenmiştir.
+FableFlow'teki tüm hikayeler yapay zeka desteğiyle oluşturulmuş ve kalite, tutarlılık ve sürükleyici bir anlatı deneyimi sağlamak için insan hikaye anlatıcıları tarafından dikkatlice kontrol edilmiş, düzenlenmiş ve derlenmiştir.
 
 === th ===
 name.txt:
-ChronoCanvas
+FableFlow
 
 subtitle.txt:
 เลือกผจญภัยของคุณ
@@ -87,13 +87,13 @@ keywords.txt:
 เลือกผจญภัย,นิยายภาพ,เกมเนื้อเรื่อง,เกมออฟไลน์,แฟนตาซี,ผจญภัย,เรื่องราวโต้ตอบ,นิยาย
 
 description.txt:
-ก้าวเข้าสู่ ChronoCanvas — ที่ซึ่งทุกการเลือกของคุณจะหล่อหลอมเรื่องราว สัมผัสการเล่าเรื่องแบบโต้ตอบที่ดื่มด่ำ ท่องไปในอาณาจักรแฟนตาซี ปริศนาไซไฟ คฤหาสน์สยองขวัญ และแดนทุรกันดารหลังหายนะ
+ก้าวเข้าสู่ FableFlow — ที่ซึ่งทุกการเลือกของคุณจะหล่อหลอมเรื่องราว สัมผัสการเล่าเรื่องแบบโต้ตอบที่ดื่มด่ำ ท่องไปในอาณาจักรแฟนตาซี ปริศนาไซไฟ คฤหาสน์สยองขวัญ และแดนทุรกันดารหลังหายนะ
 
 ตัวเลือกของคุณ เรื่องราวของคุณ ตอนจบของคุณ
 
-ต่างจากหนังสือแบบเส้นตรงหรือเกมแบบรับชม ChronoCanvas ให้คุณเป็นผู้ควบคุม คุณจะไว้วางใจคนแปลกหน้าลึกลับหรือไม่? สู้มังกรหรือหนี? ช่วยลูกเรือหรือช่วยตัวเอง? ด้วยจุดตัดสินใจนับไม่ถ้วนและตอนจบที่หลากหลาย ไม่มีสองการเล่นที่เหมือนกัน
+ต่างจากหนังสือแบบเส้นตรงหรือเกมแบบรับชม FableFlow ให้คุณเป็นผู้ควบคุม คุณจะไว้วางใจคนแปลกหน้าลึกลับหรือไม่? สู้มังกรหรือหนี? ช่วยลูกเรือหรือช่วยตัวเอง? ด้วยจุดตัดสินใจนับไม่ถ้วนและตอนจบที่หลากหลาย ไม่มีสองการเล่นที่เหมือนกัน
 
-⚡ ทำไมผู้เล่นถึงรัก CHRONOCANVAS:
+⚡ ทำไมผู้เล่นถึงรัก FABLEFLOW:
 
 ✓ คอลเลกชันเรื่องราวสุดดื่มด่ำ — จากผจญภัยสั้นๆ ถึงตำนานยิ่งใหญ่
 ✓ ตัวเลือกที่มีความหมาย — ทุกการตัดสินใจแยกสาขาเนื้อเรื่อง
@@ -135,22 +135,22 @@ The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall 
 
 และเรื่องราวใหม่ที่เพิ่มเป็นประจำ!
 
-ChronoCanvas ไม่ใช่แค่เกม — เป็นห้องสมุดเรื่องราวมีชีวิตที่คุณเป็นพระเอก ไม่ว่าจะมีเวลา 15 นาทีหรือหนึ่งชั่วโมง หลบหนีเข้าสู่โลกที่ตัวเลือกของคุณมีความหมายจริงๆ
+FableFlow ไม่ใช่แค่เกม — เป็นห้องสมุดเรื่องราวมีชีวิตที่คุณเป็นพระเอก ไม่ว่าจะมีเวลา 15 นาทีหรือหนึ่งชั่วโมง หลบหนีเข้าสู่โลกที่ตัวเลือกของคุณมีความหมายจริงๆ
 
 ดาวน์โหลดตอนนี้และเริ่มหล่อหลอมเรื่องราวของคุณ
 
 ---
 
-มีคำถาม? ข้อเสนอแนะ? ติดต่อเรา: support@chronocanvas.app
+มีคำถาม? ข้อเสนอแนะ? ติดต่อเรา: support@fableflow.app
 
 *มีให้บริการเป็นภาษาอังกฤษ ภาษาอื่นๆ กำลังจะตามมา*
 
 🤖 เกี่ยวกับเรื่องราวของเรา:
-เรื่องราวทั้งหมดใน ChronoCanvas สร้างด้วย AI และตรวจสอบ แก้ไข และคัดสรรโดยนักเล่าเรื่องมืออาชีพเพื่อให้ได้คุณภาพ ความสอดคล้อง และประสบการณ์การเล่าเรื่องที่ดื่มด่ำ
+เรื่องราวทั้งหมดใน FableFlow สร้างด้วย AI และตรวจสอบ แก้ไข และคัดสรรโดยนักเล่าเรื่องมืออาชีพเพื่อให้ได้คุณภาพ ความสอดคล้อง และประสบการณ์การเล่าเรื่องที่ดื่มด่ำ
 
 === vi ===
 name.txt:
-ChronoCanvas
+FableFlow
 
 subtitle.txt:
 Chọn Câu Chuyện Phiêu Lưu
@@ -162,13 +162,13 @@ keywords.txt:
 phiêu lưu,tiểu thuyết tranh,tương tác,trò chơi chữ,trò chơi câu chuyện,ngoại tuyến,giả tưởng
 
 description.txt:
-Bước vào ChronoCanvas — nơi mỗi lựa chọn của bạn định hình câu chuyện. Trải nghiệm các câu chuyện tương tác đắm chìm trải dài qua các vương quốc giả tưởng, bí ẩn khoa học viễn tưởng, dinh thự ma ám và vùng đất hoang hậu tận thế.
+Bước vào FableFlow — nơi mỗi lựa chọn của bạn định hình câu chuyện. Trải nghiệm các câu chuyện tương tác đắm chìm trải dài qua các vương quốc giả tưởng, bí ẩn khoa học viễn tưởng, dinh thự ma ám và vùng đất hoang hậu tận thế.
 
 LỰA CHỌN CỦA BẠN. CÂU CHUYỆN CỦA BẠN. KẾT THÚC CỦA BẠN.
 
-Khác với sách tuyến tính hay trò chơi thụ động, ChronoCanvas đặt BẠN vào vị trí điều khiển. Bạn có tin người lạ bí ẩn? Chiến đấu với rồng hay chạy trốn? Cứu thủy thủ đoàn hay cứu chính mình? Với vô số điểm quyết định và nhiều kết thúc độc đáo, không có hai lần chơi nào giống nhau.
+Khác với sách tuyến tính hay trò chơi thụ động, FableFlow đặt BẠN vào vị trí điều khiển. Bạn có tin người lạ bí ẩn? Chiến đấu với rồng hay chạy trốn? Cứu thủy thủ đoàn hay cứu chính mình? Với vô số điểm quyết định và nhiều kết thúc độc đáo, không có hai lần chơi nào giống nhau.
 
-⚡ TẠI SAO NGƯỜI CHƠI YÊU THÍCH CHRONOCANVAS:
+⚡ TẠI SAO NGƯỜI CHƠI YÊU THÍCH FABLEFLOW:
 
 ✓ BỘ SƯU TẬP CÂU CHUYỆN HẤP DẪN — Từ phiêu lưu ngắn đến truyền thuyết sử thi
 ✓ LỰA CHỌN CÓ Ý NGHĨA — Mỗi quyết định phân nhánh câu chuyện
@@ -210,22 +210,22 @@ The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall 
 
 Và nhiều câu chuyện được thêm thường xuyên!
 
-ChronoCanvas không chỉ là trò chơi — đó là thư viện câu chuyện sống nơi BẠN là nhân vật chính. Dù có 15 phút hay một giờ, hãy thoát vào thế giới nơi lựa chọn của bạn thực sự quan trọng.
+FableFlow không chỉ là trò chơi — đó là thư viện câu chuyện sống nơi BẠN là nhân vật chính. Dù có 15 phút hay một giờ, hãy thoát vào thế giới nơi lựa chọn của bạn thực sự quan trọng.
 
 Tải ngay và bắt đầu định hình câu chuyện của bạn.
 
 ---
 
-Có câu hỏi? Phản hồi? Liên hệ: support@chronocanvas.app
+Có câu hỏi? Phản hồi? Liên hệ: support@fableflow.app
 
 *Có sẵn bằng tiếng Anh. Ngôn ngữ khác sắp ra mắt.*
 
 🤖 VỀ CÂU CHUYỆN CỦA CHÚNG TÔI:
-Tất cả câu chuyện trong ChronoCanvas được tạo với hỗ trợ AI và kiểm tra, chỉnh sửa, tuyển chọn cẩn thận bởi người kể chuyện để đảm bảo chất lượng, mạch lạc và trải nghiệm kể chuyện hấp dẫn.
+Tất cả câu chuyện trong FableFlow được tạo với hỗ trợ AI và kiểm tra, chỉnh sửa, tuyển chọn cẩn thận bởi người kể chuyện để đảm bảo chất lượng, mạch lạc và trải nghiệm kể chuyện hấp dẫn.
 
 === id ===
 name.txt:
-ChronoCanvas
+FableFlow
 
 subtitle.txt:
 Pilih Petualanganmu
@@ -237,13 +237,13 @@ keywords.txt:
 pilih petualangan,novel visual,petualangan teks,cerita interaktif,naratif bercabang,offline,fantasi
 
 description.txt:
-Masuki ChronoCanvas — di mana setiap pilihan yang kamu buat membentuk cerita. Rasakan narasi interaktif imersif yang membentang di kerajaan fantasi, misteri fiksi ilmiah, mansion berhantu, dan gurun pasca-apokaliptik.
+Masuki FableFlow — di mana setiap pilihan yang kamu buat membentuk cerita. Rasakan narasi interaktif imersif yang membentang di kerajaan fantasi, misteri fiksi ilmiah, mansion berhantu, dan gurun pasca-apokaliptik.
 
 PILIHANMU. CERITAMU. AKHIRMU.
 
-Berbeda dengan buku linear atau game pasif, ChronoCanvas memberikan KONTROL kepadamu. Akankah kamu mempercayai orang asing misterius? Melawan naga atau lari? Menyelamatkan awak atau dirimu sendiri? Dengan titik keputusan yang tak terhitung dan banyak akhir unik, tidak ada dua kali bermain yang sama.
+Berbeda dengan buku linear atau game pasif, FableFlow memberikan KONTROL kepadamu. Akankah kamu mempercayai orang asing misterius? Melawan naga atau lari? Menyelamatkan awak atau dirimu sendiri? Dengan titik keputusan yang tak terhitung dan banyak akhir unik, tidak ada dua kali bermain yang sama.
 
-⚡ MENGAPA PEMAIN MENCINTAI CHRONOCANVAS:
+⚡ MENGAPA PEMAIN MENCINTAI FABLEFLOW:
 
 ✓ KOLEKSI CERITA MENAWAN — Dari petualangan cepat hingga kisah epik
 ✓ PILIHAN BERMAKNA — Setiap keputusan membuat cabang narasi
@@ -285,22 +285,22 @@ The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall 
 
 Dan lebih banyak cerita ditambahkan secara teratur!
 
-ChronoCanvas bukan sekadar game — ini perpustakaan cerita hidup di mana KAMU adalah protagonis. Baik punya 15 menit atau satu jam, kabur ke dunia di mana pilihanmu benar-benar penting.
+FableFlow bukan sekadar game — ini perpustakaan cerita hidup di mana KAMU adalah protagonis. Baik punya 15 menit atau satu jam, kabur ke dunia di mana pilihanmu benar-benar penting.
 
 Unduh sekarang dan mulai membentuk ceritamu.
 
 ---
 
-Pertanyaan? Masukan? Hubungi kami: support@chronocanvas.app
+Pertanyaan? Masukan? Hubungi kami: support@fableflow.app
 
 *Tersedia dalam Bahasa Inggris. Bahasa tambahan segera hadir.*
 
 🤘 TENTANG CERITA KAMI:
-Semua cerita di ChronoCanvas dibuat dengan bantuan AI dan diperiksa, diedit, serta dikurasi dengan cermat oleh penutur cerita manusia untuk memastikan kualitas, koherensi, dan pengalaman narasi yang menarik.
+Semua cerita di FableFlow dibuat dengan bantuan AI dan diperiksa, diedit, serta dikurasi dengan cermat oleh penutur cerita manusia untuk memastikan kualitas, koherensi, dan pengalaman narasi yang menarik.
 
 === ms ===
 name.txt:
-ChronoCanvas
+FableFlow
 
 subtitle.txt:
 Pilih Aventura Anda
@@ -312,13 +312,13 @@ keywords.txt:
 pilih aventura,novel visual,aventura teks,cerita interaktif,naratif bercabang,luar talian,fantasi
 
 description.txt:
-Masuki ChronoCanvas — di mana setiap pilihan anda membentuk cerita. Alami naratif interaktif mendalam merentasi kerajaan fantasi, misteri sains fiksyen, banglo berhantu, dan gurun pasca-apokalipsis.
+Masuki FableFlow — di mana setiap pilihan anda membentuk cerita. Alami naratif interaktif mendalam merentasi kerajaan fantasi, misteri sains fiksyen, banglo berhantu, dan gurun pasca-apokalipsis.
 
 PILIHAN ANDA. CERITA ANDA. PENGHABISAN ANDA.
 
-Tidak seperti buku linear atau permainan pasif, ChronoCanvas memberikan KAWALAN kepada anda. Adakah anda mempercayai orang asing misteri? Lawan naga atau lari? Selamatkan anak kapal atau diri sendiri? Dengan titik keputusan yang tidak terhitung dan banyak penghabisan unik, tiada dua permainan yang sama.
+Tidak seperti buku linear atau permainan pasif, FableFlow memberikan KAWALAN kepada anda. Adakah anda mempercayai orang asing misteri? Lawan naga atau lari? Selamatkan anak kapal atau diri sendiri? Dengan titik keputusan yang tidak terhitung dan banyak penghabisan unik, tiada dua permainan yang sama.
 
-⚡ KENAPA PEMAIN CINTAI CHRONOCANVAS:
+⚡ KENAPA PEMAIN CINTAI FABLEFLOW:
 
 ✓ KOLEKSI CERITA MENARIK — Dari aventura pantas hingga kisah epik
 ✓ PILIHAN BERMAKNA — Setiap keputusan mencabangkan naratif
@@ -360,22 +360,22 @@ The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall 
 
 Dan lebih banyak cerita ditambah secara berkala!
 
-ChronoCanvas bukan sekadar permainan — ia perpustakaan cerita hidup di mana ANDA adalah protagonis. Sama ada anda ada 15 minit atau sejam, lari ke dunia di mana pilihan anda benar-benar penting.
+FableFlow bukan sekadar permainan — ia perpustakaan cerita hidup di mana ANDA adalah protagonis. Sama ada anda ada 15 minit atau sejam, lari ke dunia di mana pilihan anda benar-benar penting.
 
 Muat turun sekarang dan mula membentuk cerita anda.
 
 ---
 
-Soalan? Maklum balas? Kami di sini: support@chronocanvas.app
+Soalan? Maklum balas? Kami di sini: support@fableflow.app
 
 *Tersedia dalam Bahasa Inggeris. Bahasa tambahan akan datang.*
 
 🤖 MENGENAI CERITA KAMI:
-Semua cerita dalam ChronoCanvas dijana dengan bantuan AI dan diperiksa, diedit, serta dikurasi dengan teliti oleh pencerita manusia untuk memastikan kualiti, koheren, dan pengalaman naratif yang menarik.
+Semua cerita dalam FableFlow dijana dengan bantuan AI dan diperiksa, diedit, serta dikurasi dengan teliti oleh pencerita manusia untuk memastikan kualiti, koheren, dan pengalaman naratif yang menarik.
 
 === hi ===
 name.txt:
-ChronoCanvas
+FableFlow
 
 subtitle.txt:
 अपना एडवेंचर चुनें
@@ -387,13 +387,13 @@ keywords.txt:
 चुनें साहसिक,दृश्य उपन्यास,पाठ साहसिक,इंटरैक्टिव कहानी,कहानी खेल,शाखित कथा,ऑफलाइन खेल,फैंटेसी खेल
 
 description.txt:
-ChronoCanvas में कदम रखें — जहां आपकी हर पसंद कहानी को आकार देती है। फैंटेसी राज्यों, विज्ञान-कथा रहस्यों, भूतिया हवेलियों और सर्वनाशोत्तर बंजर भूमियों में फैली मनोरम इंटरैक्टिव कथाओं का अनुभव करें।
+FableFlow में कदम रखें — जहां आपकी हर पसंद कहानी को आकार देती है। फैंटेसी राज्यों, विज्ञान-कथा रहस्यों, भूतिया हवेलियों और सर्वनाशोत्तर बंजर भूमियों में फैली मनोरम इंटरैक्टिव कथाओं का अनुभव करें।
 
 आपकी पसंद। आपकी कहानी। आपका अंत।
 
-रैखिक किताबों या निष्क्रिय खेलों के विपरीत, ChronoCanvas आपको नियंत्रण देता है। क्या आप रहस्यमय अजनबी पर भरोसा करेंगे? ड्रैगन से लड़ें या भागें? चालक दल को बचाएं या खुद को? अनगिनत निर्णायक बिंदुओं और कई अद्वितीय अंतों के साथ, कोई दो खेल एक जैसे नहीं होते।
+रैखिक किताबों या निष्क्रिय खेलों के विपरीत, FableFlow आपको नियंत्रण देता है। क्या आप रहस्यमय अजनबी पर भरोसा करेंगे? ड्रैगन से लड़ें या भागें? चालक दल को बचाएं या खुद को? अनगिनत निर्णायक बिंदुओं और कई अद्वितीय अंतों के साथ, कोई दो खेल एक जैसे नहीं होते।
 
-⚡ खिलाड़ी CHRONOCANVAS क्यों पसंद करते हैं:
+⚡ खिलाड़ी FABLEFLOW क्यों पसंद करते हैं:
 
 ✓ मनमोहक कहानी संग्रह — त्वरित साहसिक कार्यों से लेकर महाकाव्य कथाओं तक
 ✓ सार्थक पसंद — हर निर्णय कथा की शाखा बनाता है
@@ -435,22 +435,22 @@ The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall 
 
 और नियमित रूप से जोड़ी जा रही और भी कहानियां!
 
-ChronoCanvas सिर्फ एक खेल नहीं है — यह जीवित कहानियों का एक पुस्तकालय है जहां आप नायक हैं। चाहे आपके पास 15 मिनट हों या एक घंटा, उन दुनियाओं में खो जाएं जहां आपकी पसंद सचमुच मायने रखती है।
+FableFlow सिर्फ एक खेल नहीं है — यह जीवित कहानियों का एक पुस्तकालय है जहां आप नायक हैं। चाहे आपके पास 15 मिनट हों या एक घंटा, उन दुनियाओं में खो जाएं जहां आपकी पसंद सचमुच मायने रखती है।
 
 अभी डाउनलोड करें और अपनी कहानी आकार देना शुरू करें।
 
 ---
 
-कोई सवाल? प्रतिक्रिया? हम यहां हैं: support@chronocanvas.app
+कोई सवाल? प्रतिक्रिया? हम यहां हैं: support@fableflow.app
 
 *अंग्रेजी में उपलब्ध। अतिरिक्त भाषाएं जल्द आ रही हैं।*
 
 🤖 हमारी कहानियों के बारे में:
-ChronoCanvas की सभी कहानियां AI सहायता से बनाई गई हैं और गुणवत्ता, सुसंगतता और आकर्षक कथा अनुभव सुनिश्चित करने के लिए मानव कथावाचकों द्वारा सावधानीपूर्वक जांची, संपादित और क्यूरेट की गई हैं।
+FableFlow की सभी कहानियां AI सहायता से बनाई गई हैं और गुणवत्ता, सुसंगतता और आकर्षक कथा अनुभव सुनिश्चित करने के लिए मानव कथावाचकों द्वारा सावधानीपूर्वक जांची, संपादित और क्यूरेट की गई हैं।
 
 === he ===
 name.txt:
-ChronoCanvas
+FableFlow
 
 subtitle.txt:
 בחר את ההרפתקה שלך
@@ -462,13 +462,13 @@ keywords.txt:
 הרפתקה,רומן חזותי,טקסט,אינטראקטיבי,נראטיב מסועף,לא מקוון,פנטזיה
 
 description.txt:
-צעד לתוך ChronoCanvas — שם כל בחירה שאתה עושה מעצבת את הסיפור. חווה נראטיבים אינטראקטיביים מרתקים הנמתחים דרך ממלכות פנטזיה, מיסתוריני מדע בדיוני, אחוזות רדופות ושממות שלאחר אפוקליפסה.
+צעד לתוך FableFlow — שם כל בחירה שאתה עושה מעצבת את הסיפור. חווה נראטיבים אינטראקטיביים מרתקים הנמתחים דרך ממלכות פנטזיה, מיסתוריני מדע בדיוני, אחוזות רדופות ושממות שלאחר אפוקליפסה.
 
 הבחירות שלך. הסיפור שלך. הסוף שלך.
 
-בניגוד לספרים ליניאריים או משחקים פסיביים, ChronoCanvas נותן לך שליטה. האם תסמוך על הזר המסתורי? תילחם בדרקון או תברח? תציל את הצוות או את עצמך? עם נקודות החלטה בלתי מספר וסופים ייחודיים רבים, אין שני משחקים הזהים זה לזה.
+בניגוד לספרים ליניאריים או משחקים פסיביים, FableFlow נותן לך שליטה. האם תסמוך על הזר המסתורי? תילחם בדרקון או תברח? תציל את הצוות או את עצמך? עם נקודות החלטה בלתי מספר וסופים ייחודיים רבים, אין שני משחקים הזהים זה לזה.
 
-⚡ למה שחקנים אוהבים את CHRONOCANVAS:
+⚡ למה שחקנים אוהבים את FABLEFLOW:
 
 ✓ אוסף סיפורים מרתק — מהרפתקאות קצרות ועד סיפורים אפיים
 ✓ בחירות משמעותיות — כל החלטה מסעפת את הנראטיב
@@ -510,15 +510,15 @@ The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall 
 
 ועוד סיפורים מתווספים באופן קבוע!
 
-ChronoCanvas הוא לא רק משחק — זו ספריית סיפורים חיים שבה אתה הגיבור. בין אם יש לך 15 דקות או שעה, המלט לעולמות שבהם הבחירות שלך באמת חשובות.
+FableFlow הוא לא רק משחק — זו ספריית סיפורים חיים שבה אתה הגיבור. בין אם יש לך 15 דקות או שעה, המלט לעולמות שבהם הבחירות שלך באמת חשובות.
 
 הורד עכשיו והתחל לעצב את הסיפור שלך.
 
 ---
 
-שאלות? משוב? אנחנו כאן: support@chronocanvas.app
+שאלות? משוב? אנחנו כאן: support@fableflow.app
 
 *זמין באנגלית. שפות נוספות בקרוב.*
 
 🤖 אודות הסיפורים שלנו:
-כל הסיפורים ב-ChronoCanvas נוצרו בעזרת בינה מלאכותית ונבדקו, נערכו ונערכו בקפידה על ידי סופרים אנושיים כדי להבטיח איכות, עקביות וחוויית נראטיב מרתקת.
+כל הסיפורים ב-FableFlow נוצרו בעזרת בינה מלאכותית ונבדקו, נערכו ונערכו בקפידה על ידי סופרים אנושיים כדי להבטיח איכות, עקביות וחוויית נראטיב מרתקת.

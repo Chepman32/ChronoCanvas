@@ -92,7 +92,7 @@ export const echoesSummerFestivalStory: Story = {
       storyId: 'story-echoes-summer-festival',
       type: 'decision',
       title: 'Through the Crowd',
-      imageUrl: 'https://images.unsplash.com/photo-1516589178581?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?w=800',
       narration: 'You weave through the throngs of festival-goers, the press of bodies both overwhelming and strangely comforting. A group of teenagers laughs as they nearly collide with you, their sparklers leaving trails of golden light in the evening air. The smell of yakitori and grilled corn wafts from nearby stalls, making your stomach remind you that you haven\'t eaten since morning. But food can wait. You catch glimpses of the river through gaps in the crowd, and with each step closer, your heart beats faster. You\'re almost there now. You can see the old oak tree where you used to meet, its branches heavy with paper lanterns. You spot a familiar silhouette in the distance — could that be them? You need to decide how to approach.',
       choices: [
         {
@@ -114,7 +114,7 @@ export const echoesSummerFestivalStory: Story = {
       storyId: 'story-echoes-summer-festival',
       type: 'decision',
       title: 'Quiet Memories',
-      imageUrl: 'https://images.unsplash.com/photo-1523438885200?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=800',
       narration: 'You find a quiet corner near a stall selling handmade pottery, the earthy scent of clay grounding you in the present moment. An elderly woman arranges ceramic cups painted with delicate cherry blossoms, and she smiles at you without pressing for conversation. You close your eyes and breathe deeply, letting the sounds of the festival wash over you — the distant music, the laughter of children, the crackle of food being cooked over open flames. Three years. It feels like both yesterday and a lifetime ago. You\'ve carried the weight of how you left for so long, and now you\'re here to face it. The question is whether you\'re ready to face them directly, or if you need more time.',
       choices: [
         {
@@ -137,7 +137,7 @@ export const echoesSummerFestivalStory: Story = {
       storyId: 'story-echoes-summer-festival',
       type: 'decision',
       title: 'Spotting a Familiar Face',
-      imageUrl: 'https://images.unsplash.com/photo-1516589178581?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?w=800',
       narration: 'And then you see them. Alex stands by the river\'s edge, silhouetted against the lantern-lit water, holding a paper lantern they haven\'t yet released. They look different somehow — their hair shorter, their posture more guarded — but still unmistakably them. Your breath catches in your throat. Three years of absence crystallize into this single moment, this single figure standing where you once stood together. The river murmurs between you, carrying away the sounds of the festival until it feels like you and Alex are alone in the world. They haven\'t seen you yet. You have a choice to make: announce your presence boldly, or take a moment to simply observe, to prepare yourself for what comes next.',
       choices: [
         {
@@ -182,7 +182,7 @@ export const echoesSummerFestivalStory: Story = {
       storyId: 'story-echoes-summer-festival',
       type: 'decision',
       title: 'First Words',
-      imageUrl: 'https://images.unsplash.com/photo-1522673607200?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?w=800',
       narration: 'You close the final distance, each step feeling like it carries the weight of three years of silence. The river murmurs between you as you stop just close enough to see the emotions playing across Alex\'s face — hope, wariness, lingering hurt. \'You came,\' Alex says, and their voice is softer than you expected, carrying none of the anger you feared. \'I wasn\'t sure you would.\' \'I wasn\'t sure either,\' you admit, your voice barely above a whisper. \'But I couldn\'t stay away anymore. Three years is too long.\' Alex looks down at the lantern in their hands, fingers tracing its paper edges with nervous energy. \'I\'ve thought about this moment so many times. And now you\'re here, and I can barely remember my own name.\' The vulnerability in their voice cracks something open in your chest.',
       choices: [
         {
@@ -204,7 +204,7 @@ export const echoesSummerFestivalStory: Story = {
       storyId: 'story-echoes-summer-festival',
       type: 'decision',
       title: 'Holding Back',
-      imageUrl: 'https://images.unsplash.com/photo-1523438885200?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=800',
       narration: '\'Hi,\' Alex says simply, and the word contains multitudes — three years of wondering, of hurt, of tentative hope. \'Hi,\' you reply, your voice barely above a whisper. It\'s a start. A terrible, wonderful, terrifying start. The river flows on between you, indifferent to the weight of this moment, carrying away the last of the released lanterns toward the sea. \'You look good,\' Alex says, and it sounds like an offering, a peace branch extended across the chasm of years. \'You too,\' you manage, and it\'s true — they do look good, even with the shadows of sadness you can see lurking at the edges of their smile. But small talk feels wrong, feels like a waste of this moment, of this chance you\'ve traveled so far to take.',
       choices: [
         {
@@ -249,7 +249,7 @@ export const echoesSummerFestivalStory: Story = {
       storyId: 'story-echoes-summer-festival',
       type: 'decision',
       title: 'Old Wounds Surface',
-      imageUrl: 'https://images.unsplash.com/photo-1522673607200?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?w=800',
       narration: '\'You want to know how I felt?\' Alex asks, and there\'s an edge to their voice now, three years of hurt rising to the surface. \'I felt abandoned. One day we were planning our future, and the next you were gone with nothing but a note saying you needed space. I spent months wondering what I did wrong, replaying every conversation, analyzing every moment. Years, maybe.\' Your heart breaks hearing it, the weight of your actions settling on your shoulders, but you let them speak. They need this as much as you do. \'But,\' they continue, and their voice softens, \'I also grew. I learned that love isn\'t supposed to be about losing yourself. Maybe we both needed time apart to become who we are now.\'',
       choices: [
         {
@@ -294,7 +294,7 @@ export const echoesSummerFestivalStory: Story = {
       storyId: 'story-echoes-summer-festival',
       type: 'decision',
       title: 'Hearing Their Side',
-      imageUrl: 'https://images.unsplash.com/photo-1518199266791?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=800',
       narration: 'Alex pulls a paper lantern from their bag, along with a small pen, their movements careful and deliberate. \'The tradition says if you write your wish and release it, the river carries it to the stars,\' they say, offering you the pen. \'What would you wish for, if you could have anything?\' You take the pen, feeling the weight of the question. Around you, other festival-goers release their lanterns, and the sky fills with floating golden lights like a mirror of the stars above. You could wish for forgiveness, for a second chance, for the courage to say what you\'ve been holding back. Or you could wish for something simpler — peace between you, whatever form that takes. The lantern feels warm in your hands, full of potential.',
       choices: [
         {
@@ -317,7 +317,7 @@ export const echoesSummerFestivalStory: Story = {
       storyId: 'story-echoes-summer-festival',
       type: 'decision',
       title: 'Breaking Down Walls',
-      imageUrl: 'https://images.unsplash.com/photo-1523438885200?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=800',
       narration: 'You write your wish in careful characters, each stroke deliberate: May we begin again. May the past be a foundation, not a prison. Then you fold the paper and tuck it into the lantern with hands that only shake a little. Alex does the same, their handwriting as familiar to you as your own. Together you light the candles, and the paper globe fills with warm light. \'On three,\' Alex suggests. \'One. Two. Three.\' You release in unison, and the lantern rises, joining the constellation of hopes above the river. Without thinking, your hands find each other in the darkness, fingers intertwining. \'I missed you every single day,\' Alex whispers, their thumb tracing circles on your palm. \'Even when I was angry. Even when I tried to forget.\'',
       choices: [
         {
@@ -339,7 +339,7 @@ export const echoesSummerFestivalStory: Story = {
       storyId: 'story-echoes-summer-festival',
       type: 'decision',
       title: 'The Lantern Promise',
-      imageUrl: 'https://images.unsplash.com/photo-1516589178581?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?w=800',
       narration: 'You write your wish carefully: May we find peace, whatever path we take. May we both heal, together or apart. When you look up, Alex is watching you with something like understanding in their eyes. They don\'t ask what you wrote, and you don\'t ask them either. Some wishes are meant to be private, sacred things. Together you release your lanterns, watching them rise and join the others, two points of light among hundreds, separate but part of the same sky. \'Thank you for coming back,\' Alex says, their voice soft. \'Even if this is all it is — one night, one conversation, one lantern. It means more than you know. It closes a door that\'s been banging in the wind for three years.\' You feel tears prick your eyes — the tears of something long broken finally beginning to mend.',
       choices: [
         {
@@ -407,7 +407,7 @@ export const echoesSummerFestivalStory: Story = {
       storyId: 'story-echoes-summer-festival',
       type: 'decision',
       title: 'The Moment of Truth',
-      imageUrl: 'https://images.unsplash.com/photo-1518199266791?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=800',
       narration: 'You stand at the edge of the river, the weight of everything unsaid pressing down on your shoulders like a physical thing. The festival is ending now, the last lanterns drifting away into the darkness, and you know that soon you\'ll have to make a choice that will echo through the rest of your life. You look at Alex, really look at them, and you see both the person you loved and the stranger they\'ve become in your absence. Three years is a long time. People change. Feelings fade. Or they transform into something new, something that might not look like the love you once knew. You think about who you were when you left, and who you are now, and whether those two people can coexist in the same space, the same heart, the same future. The truth is, you\'re not sure. And maybe that\'s the answer.',
       choices: [
         {
@@ -435,7 +435,7 @@ export const echoesSummerFestivalStory: Story = {
       storyId: 'story-echoes-summer-festival',
       type: 'decision',
       title: 'What Comes Next',
-      imageUrl: 'https://images.unsplash.com/photo-1523438885200?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=800',
       narration: 'Hope flutters in your chest like the wings of the moths dancing around the remaining lanterns. You\'ve come so far tonight — from the train station to this riverbank, from silence to conversation, from absence to presence. But hope alone isn\'t enough to build a future on. You need to be honest with yourself about what you want, what you\'re capable of giving, what you\'re willing to risk. Alex is watching you, waiting, their eyes reflecting the last of the lantern light. They\'ve shown you their heart tonight, laid it bare across this riverbank. Now it\'s your turn. You can feel the words building in your throat — words of love, of hope, of commitment, or words of farewell. Whatever you say next will become the defining moment of this night, the phrase that echoes through both your memories for years to come.',
       choices: [
         {
@@ -464,7 +464,7 @@ export const echoesSummerFestivalStory: Story = {
       storyId: 'story-echoes-summer-festival',
       type: 'ending',
       title: 'Ending I: The Path of Distance',
-      imageUrl: 'https://images.unsplash.com/photo-1522673607200?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?w=800',
       narration: 'You walk away from the festival, from the lanterns and the river and Alex, your footsteps carrying you back toward the train station with a finality that feels like closing a book you\'ll never reopen. Some bridges, once burned, cannot be rebuilt. Some wounds, once inflicted, leave scars too deep to ignore, and the kindest thing is to let them heal apart. You tell yourself this is for the best, that Alex deserves someone who never left, someone stronger than you. The train back to the city is nearly empty, and you watch Millbrook disappear through the window, wondering if you\'ll ever return. Perhaps not. Perhaps some chapters are meant to stay closed. As the train carries you away, you finally let yourself cry for everything you lost, including the courage to try to get it back.',
       choices: [],
     },
@@ -473,7 +473,7 @@ export const echoesSummerFestivalStory: Story = {
       storyId: 'story-echoes-summer-festival',
       type: 'ending',
       title: 'Ending II: The Lantern Confession',
-      imageUrl: 'https://images.unsplash.com/photo-1523438885200?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=800',
       narration: '\'I love you,\' you say, and the words hang in the air between you, truer than anything you\'ve ever spoken. \'I loved you when I left, I loved you while I was gone, and I love you now. I was just too afraid to hold onto something that mattered so much.\' Alex\'s eyes fill with tears, but they\'re smiling — really smiling — for the first time tonight. \'I love you too,\' they whisper. \'I tried to stop, I tried to move on. But the heart doesn\'t work that way. You were always there.\' They pull you close, and you bury your face in their shoulder, breathing in the familiar scent of them. Around you, the lanterns continue their ascent. But yours, you realize, is already coming true. As Alex\'s hand finds yours in the dark, you know that whatever comes next, you\'ll face it together.',
       choices: [],
     },
@@ -491,7 +491,7 @@ export const echoesSummerFestivalStory: Story = {
       storyId: 'story-echoes-summer-festival',
       type: 'ending',
       title: 'Ending IV: Constellations of Friendship',
-      imageUrl: 'https://images.unsplash.com/photo-1522673607200?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?w=800',
       narration: '\'I\'d like us to be friends,\' you say, and the words feel right. \'Real friends. I\'ve missed having you in my life, even platonically. You were my best friend before anything else, and I\'d like to have that back if it\'s possible.\' Alex smiles, relieved — the smile of someone who has been hoping for exactly this outcome. \'I\'d like that too,\' they say. \'More than you know. The romantic stuff was wonderful, but what I missed most was just talking to you, having someone who understood me.\' You spend the rest of the evening walking through the festival together, sharing stories, laughing at old memories. At the end of the night, you hug goodbye — a real hug, full and genuine — and promise to stay in touch. Not every love story needs to end in romance. Some of the most enduring bonds are built on friendship.',
       choices: [],
     },

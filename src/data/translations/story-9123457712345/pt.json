@@ -7,7 +7,7 @@
   },
   "story": {
     "title": "Rebobinagem da Linha do Coração",
-    "author": "ChronoCanvas Studio",
+    "author": "FableFlow Studio",
     "description": "Uma cidade está presa em um loop de 59 minutos, e seus esboços podem emendar as horas de volta. Mas cada reparo ondula o passado--especialmente a noite em que você perdeu Maya. Você vai restaurar a linha temporal ou redesenhar seu destino?",
     "genre": "romance",
     "estimatedDuration": 32,
@@ -18,7 +18,7 @@
       "id": "story-9123457712345-1",
       "type": "start",
       "title": "Meia-Noite em Loop",
-      "narration": "A chuva costura traços prateados pela rua enquanto uma torre de relógio gagueja: 11:01--de novo. Seu ChronoCanvas zumbe em sua palma como um metrônomo enjaulado, a linha que você desenha ecoando através de poças e letreiros de néon. Em algum lugar próximo, Maya espera no observatório, sem saber que esta hora já aconteceu uma dúzia de vezes.",
+      "narration": "A chuva costura traços prateados pela rua enquanto uma torre de relógio gagueja: 11:01--de novo. Seu FableFlow zumbe em sua palma como um metrônomo enjaulado, a linha que você desenha ecoando através de poças e letreiros de néon. Em algum lugar próximo, Maya espera no observatório, sem saber que esta hora já aconteceu uma dúzia de vezes.",
       "choices": [
         {
           "id": "story-9123457712345-c1",
@@ -54,7 +54,7 @@
       "id": "story-9123457712345-3",
       "type": "decision",
       "title": "Café da Chuva",
-      "narration": "Vapor embaça as janelas do café enquanto gotas de chuva marcham de trás para frente no vidro--o tempo enrosca, depois retoma. Maya ri de uma memória que você ainda não deveria conhecer, e o riso afina quando as luzes piscam duas vezes. O ChronoCanvas aquece, impaciente.",
+      "narration": "Vapor embaça as janelas do café enquanto gotas de chuva marcham de trás para frente no vidro--o tempo enrosca, depois retoma. Maya ri de uma memória que você ainda não deveria conhecer, e o riso afina quando as luzes piscam duas vezes. O FableFlow aquece, impaciente.",
       "choices": [
         {
           "id": "story-9123457712345-c5",

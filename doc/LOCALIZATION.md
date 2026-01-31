@@ -2,7 +2,7 @@
 
 ## Overview
 
-ChronoCanvas now supports 10 languages with complete UI translations:
+FableFlow now supports 10 languages with complete UI translations:
 
 - 🇬🇧 English (en)
 - 🇷🇺 Russian (ru)

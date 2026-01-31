@@ -46,7 +46,7 @@ export const midnightCuratorStory: Story = {
     },
     {
       id: 'story-847362951-3', storyId: 'story-847362951', type: 'decision', title: 'Witness Testimony',
-      imageUrl: 'https://images.unsplash.com/photo-1505664194779-8ab2f700bfe0?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
       narration: "James Chen, Victoria's assistant, trembles as he recounts finding the body. His shoes are dry despite the downpour, and there's cigarette smoke on his jacket though the gallery prohibits smoking. His timeline seems inconsistent and he appears to be hiding something.",
       choices: [
         { id: 'story-847362951-c5', text: 'Press on inconsistencies', description: 'His story does not add up', targetNodeId: 'story-847362951-6', order: 1 },
@@ -73,7 +73,7 @@ export const midnightCuratorStory: Story = {
     },
     {
       id: 'story-847362951-6', storyId: 'story-847362951', type: 'decision', title: 'Hidden Evidence',
-      imageUrl: 'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
       narration: "James's laptop video from the storage room shows a figure in black at 11:42 PM. James admits he was hiding until 11:15 PM after overhearing Victoria arguing about forged documents. He heard a woman's voice shouting angrily at Victoria.",
       choices: [
         { id: 'story-847362951-c11', text: 'Analyze the voice', description: 'Identify who was arguing', targetNodeId: 'story-847362951-9', order: 1 },
@@ -82,7 +82,7 @@ export const midnightCuratorStory: Story = {
     },
     {
       id: 'story-847362951-7', storyId: 'story-847362951', type: 'decision', title: 'Victoria Past',
-      imageUrl: 'https://images.unsplash.com/photo-1505664194779-8ab2f700bfe0?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
       narration: 'James reveals Victoria had been paranoid lately, making suspicious phone calls at odd hours. Two weeks ago, she received a mysterious package that made her go pale with fear. A private investigator named David Morse left a business card with a handwritten note reading: I found what you are looking for. Payment due. Something dark in her past was haunting her, a secret she could not escape no matter how hard she tried to bury it.', 
       choices: [
         { id: 'story-847362951-c13', text: 'Find the investigator', description: 'Learn what he discovered', targetNodeId: 'story-847362951-9', order: 1 },
@@ -100,7 +100,7 @@ export const midnightCuratorStory: Story = {
     },
     {
       id: 'story-847362951-9', storyId: 'story-847362951', type: 'decision', title: 'Elena Volkov',
-      imageUrl: 'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
       narration: "Elena admits she negotiated with Victoria about authenticating a forged Caravaggio but claims Victoria was alive when she left. She received twenty thousand dollars from Richard's account. Her lawyer arrives suspiciously fast, clearly prepared for this confrontation.",
       choices: [
         { id: 'story-847362951-c17', text: 'Challenge her alibi', description: 'She is lying about the timeline', targetNodeId: 'story-847362951-10', order: 1 },
@@ -136,7 +136,7 @@ export const midnightCuratorStory: Story = {
     },
     {
       id: 'story-847362951-13', storyId: 'story-847362951', type: 'decision', title: 'The Confession',
-      imageUrl: 'https://images.unsplash.com/photo-1550895030-823330dfb759?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800',
       narration: "Simultaneous raids sweep across the city. Richard Ashford is arrested at his penthouse attempting to destroy documents. Sarah is apprehended at the airport with a one-way ticket to Buenos Aires. Elena provides formal testimony, securing immunity in exchange for cooperation. The conspiracy is fully exposed.",
       choices: [
         { id: 'story-847362951-c25', text: 'Prepare prosecution', description: 'Build the ironclad case', targetNodeId: 'story-847362951-14', order: 1 },
@@ -181,7 +181,7 @@ export const midnightCuratorStory: Story = {
     },
     {
       id: 'story-847362951-18', storyId: 'story-847362951', type: 'decision', title: 'The Next Chapter',
-      imageUrl: 'https://images.unsplash.com/photo-1550895030-823330dfb759?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800',
       narration: 'The Midnight Curator case will be remembered as one of your finest investigations. Through tenacious detective work, you unraveled a conspiracy that reached into the highest echelons of the art world. Victoria Ashford can rest in peace knowing her murderer faces justice. You close the file with satisfaction, ready for whatever challenge comes next.', 
       choices: [
         { id: 'story-847362951-c35', text: 'Archive the case', description: 'Add to your solved files', targetNodeId: 'story-847362951-19', order: 1 },
@@ -190,7 +190,7 @@ export const midnightCuratorStory: Story = {
     },
     {
       id: 'story-847362951-19', storyId: 'story-847362951', type: 'decision', title: 'Reflection',
-      imageUrl: 'https://images.unsplash.com/photo-1505664194779-8ab2f700bfe0?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
       narration: 'Justice delayed is justice denied, but in this case, justice arrived with the dawn. Richard Ashford will never again see freedom. Sarah Mitchell will serve her time. Elena Volkov has a chance to rebuild. And Victoria Ashford, the Midnight Curator, will be remembered not for her tragic death, but for the truth that her murder revealed. Your duty is complete.', 
       choices: [
         { id: 'story-847362951-c37', text: 'Final close', description: 'Case officially closed', targetNodeId: 'story-847362951-20', order: 1 },

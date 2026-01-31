@@ -23,7 +23,7 @@ export const story_9845237719284StoryTranslations: Partial<Record<Language, Stor
   en: {
     title: 'Ember Crown Oath',
     description: 'When a mapmaker’s sketch warms to living ember, forgotten waylines flare across the coast. A warlord moves to rekindle the mountain and seize the Crown that now answers your hand. Will you share its fire, break it, or wear it?',
-    author: 'ChronoCanvas Studio',
+    author: 'FableFlow Studio',
     nodes: {
       'story-9845237719284-1': {
         title: 'Cinder Omen',
@@ -665,7 +665,7 @@ export const story_9845237719284StoryTranslations: Partial<Record<Language, Stor
   es: {
     title: 'El Juramento de la Corona de Brasas',
     description: 'Cuando el boceto de un cartógrafo se calienta hasta convertirse en brasa viviente, líneas olvidadas arden a lo largo de la costa. Un señor de la guerra marcha para reavivar la montaña y apoderarse de la Corona que ahora responde a tu mano. ¿Compartirás su fuego, la romperás o la llevarás?',
-    author: 'Estudio ChronoCanvas',
+    author: 'Estudio FableFlow',
     nodes: {
       'story-9845237719284-1': {
         title: 'Presagio de Ceniza',
@@ -986,7 +986,7 @@ export const story_9845237719284StoryTranslations: Partial<Record<Language, Stor
   de: {
     title: 'Der Glutkronen-Eid',
     description: 'Als die Skizze eines Kartographen zu lebendiger Glut erwärmt, flammen vergessene Weglinien entlang der Küste auf. Ein Kriegsherr zieht los, um den Berg neu zu entfachen und die Krone zu ergreifen, die nun deiner Hand antwortet. Wirst du ihr Feuer teilen, sie zerbrechen oder sie tragen?',
-    author: 'ChronoCanvas Atelier',
+    author: 'FableFlow Atelier',
     nodes: {
       'story-9845237719284-1': {
         title: 'Aschenomen',
@@ -1307,7 +1307,7 @@ export const story_9845237719284StoryTranslations: Partial<Record<Language, Stor
   fr: {
     title: 'Le Serment de la Couronne de Braises',
     description: 'Quand l\'esquisse d\'un cartographe se réchauffe en braise vivante, des lignes oubliées s\'enflamment le long de la côte. Un seigneur de guerre marche pour raviver la montagne et s\'emparer de la Couronne qui répond maintenant à votre main. Partagerez-vous son feu, la briserez-vous ou la porterez-vous?',
-    author: 'Studio ChronoCanvas',
+    author: 'Studio FableFlow',
     nodes: {
       'story-9845237719284-1': {
         title: 'Présage de Cendre',
@@ -1628,7 +1628,7 @@ export const story_9845237719284StoryTranslations: Partial<Record<Language, Stor
   pt: {
     title: 'O Juramento da Coroa de Brasas',
     description: 'Quando o esboço de um cartógrafo aquece até se tornar brasa viva, linhas esquecidas flamejam ao longo da costa. Um senhor da guerra marcha para reacender a montanha e tomar a Coroa que agora responde à sua mão. Você compartilhará seu fogo, a quebrará ou a usará?',
-    author: 'Estúdio ChronoCanvas',
+    author: 'Estúdio FableFlow',
     nodes: {
       'story-9845237719284-1': {
         title: 'Presságio de Cinzas',

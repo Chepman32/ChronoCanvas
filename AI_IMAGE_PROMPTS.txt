@@ -1676,7 +1676,7 @@ Node: story-8923745610923
 Folder: src/assets/images/nodes/
 
 Prompt:
-On a workbench beneath a single lamp, gears glint like stars embedded in brass. Nova flips open a jet-black sketchbook--the ChronoCanvas--and a faint hum prickles the air. A line drawn across the page scifi, mystery style, cinematic, detailed, high quality, 800x600px
+On a workbench beneath a single lamp, gears glint like stars embedded in brass. Nova flips open a jet-black sketchbook--the FableFlow--and a faint hum prickles the air. A line drawn across the page scifi, mystery style, cinematic, detailed, high quality, 800x600px
 
 ---
 
@@ -1836,7 +1836,7 @@ Node: story-8923745610923-c33
 Folder: src/assets/images/nodes/
 
 Prompt:
-Nova sketches a surrogate fragment: a patient curve, a breath, a return. The room brightens as the ink settles, reality acknowledging a plausible stand-in. In the margin, the ChronoCanvas writes back- scifi, mystery style, cinematic, detailed, high quality, 800x600px
+Nova sketches a surrogate fragment: a patient curve, a breath, a return. The room brightens as the ink settles, reality acknowledging a plausible stand-in. In the margin, the FableFlow writes back- scifi, mystery style, cinematic, detailed, high quality, 800x600px
 
 ---
 
@@ -1846,7 +1846,7 @@ Node: story-8923745610923-c35
 Folder: src/assets/images/nodes/
 
 Prompt:
-Stars blink like nodes in a network, lines of potential connecting past to now. The blueprint overlays reality, showing the cut hour as a bright wound. The ChronoCanvas pulses, demanding a choice: hea scifi, mystery style, cinematic, detailed, high quality, 800x600px
+Stars blink like nodes in a network, lines of potential connecting past to now. The blueprint overlays reality, showing the cut hour as a bright wound. The FableFlow pulses, demanding a choice: hea scifi, mystery style, cinematic, detailed, high quality, 800x600px
 
 ---
 
@@ -1886,7 +1886,7 @@ Node: story-8923745610923-22
 Folder: src/assets/images/nodes/
 
 Prompt:
-The ChronoCanvas drinks its own ink, page by page, until only a smell of rain remains. The wound closes without a seam, history smoothing over like wet paint drying. You will never sketch time again,  scifi, mystery style, cinematic, detailed, high quality, 800x600px
+The FableFlow drinks its own ink, page by page, until only a smell of rain remains. The wound closes without a seam, history smoothing over like wet paint drying. You will never sketch time again,  scifi, mystery style, cinematic, detailed, high quality, 800x600px
 
 ---
 
@@ -2174,7 +2174,7 @@ Node: story-9123457712345
 Folder: src/assets/images/nodes/
 
 Prompt:
-Rain stitches silver dashes across the street as a clock tower stutters: 11:01--again. Your ChronoCanvas hums in your palm like a caged metronome, the line you draw echoing through puddles and neon si romance, scifi style, cinematic, detailed, high quality, 800x600px
+Rain stitches silver dashes across the street as a clock tower stutters: 11:01--again. Your FableFlow hums in your palm like a caged metronome, the line you draw echoing through puddles and neon si romance, scifi style, cinematic, detailed, high quality, 800x600px
 
 ---
 

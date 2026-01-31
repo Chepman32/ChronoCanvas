@@ -229,7 +229,7 @@
 
 ## Impact
 
-ChronoCanvas is now a **truly international app** with:
+FableFlow is now a **truly international app** with:
 
 - Native-language experience for users in 10 countries
 - Authentic, culturally-appropriate translations

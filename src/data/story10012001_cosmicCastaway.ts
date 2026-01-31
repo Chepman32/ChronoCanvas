@@ -72,7 +72,7 @@ export const cosmicCastawayStory: Story = {
       storyId: 'story-10012001',
       type: 'decision',
       title: 'Damage Control',
-      imageUrl: 'https://images.unsplash.com/photo-1506744038136-d7ce7daaed5b?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800',
       narration:
         'Working quickly, you stabilize the most critical systems. The hull breach is temporarily sealed, and you have confirmed that two escape pods remain operational. However, the ship is still falling toward the planet below, and your oxygen reserves continue to deplete. The cockpit displays show you have less than two hours before the ship enters the atmosphere. You need to make a fundamental decision about your strategy. Do you commit to repairing the ship and trying to signal for rescue, or do you accept that the vessel is doomed and focus entirely on preparing for planetfall?',
       choices: [
@@ -233,7 +233,7 @@ export const cosmicCastawayStory: Story = {
       storyId: 'story-10012001',
       type: 'decision',
       title: 'Pod Launch',
-      imageUrl: 'https://images.unsplash.com/photo-1501854140801-8ab4360f7e85?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800',
       narration:
         'You seal your helmet and climb into the compact escape pod, your heart pounding in your ears. The hatch pressurizes with a reassuring hiss as you initiate the launch sequence. The pod ejects with a violent jolt, and through the small porthole, you watch your dying ship recede into the void. The vessel that was your home for six months shrinks to a speck against the stars. The pod hurtles toward the planet\'s surface, rattling violently as it enters the atmosphere. The heat shield glows orange through the viewport as friction builds against the alien air.',
       choices: [
@@ -325,7 +325,7 @@ export const cosmicCastawayStory: Story = {
       storyId: 'story-10012001',
       type: 'decision',
       title: 'Controlled Descent',
-      imageUrl: 'https://images.unsplash.com/photo-1506905925346-21b6c50f1e71?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800',
       narration:
         'The pod\'s navigation system attempts to stabilize your descent as you plummet through the alien atmosphere. The retro-thrusters fire in carefully calculated bursts, slowing your fall. Through the viewport, you see the red landscape rushing up to meet you, jagged mountains and vast deserts stretching to the horizon. The heat shield glows brilliantly, and the pod shakes violently. You brace for impact as the altimeter counts down rapidly. Moments later, the pod crashes into the planet\'s surface with a bone-jarring impact, tumbling across the rocky terrain before finally coming to rest against a large boulder.',
       choices: [
@@ -417,7 +417,7 @@ export const cosmicCastawayStory: Story = {
       storyId: 'story-10012001',
       type: 'decision',
       title: 'Final Recording',
-      imageUrl: 'https://images.unsplash.com/photo-1501785888041-47e9e56c4ed1?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800',
       narration:
         'With the ship breaking apart around you, you retreat to the cockpit one final time. Your fingers move across the console, recording a message for whoever might find it. You speak of the mission, the accident, and your acceptance of fate. As the hull tears open and atmosphere rushes out, you gaze at the stars one last time, thinking of home and those you left behind. The ship groans and shudders as it enters the atmosphere.',
       choices: [
@@ -486,7 +486,7 @@ export const cosmicCastawayStory: Story = {
       storyId: 'story-10012001',
       type: 'decision',
       title: 'Beacon of Hope',
-      imageUrl: 'https://images.unsplash.com/photo-1506744038136-d7ce7daaed5b?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800',
       narration:
         'You immediately activate the pod\'s emergency beacon, a rhythmic pulse of radio waves broadcasting your distress into the alien sky. The signal is strong but will only last as long as the power cells hold out. You settle in to wait, rationing your supplies and monitoring the signal. Days pass slowly as you watch the alien sun rise and set over the red desert. You begin to lose hope, wondering if anyone will ever hear your call across the vastness of space.',
       choices: [
@@ -779,7 +779,7 @@ export const cosmicCastawayStory: Story = {
       storyId: 'story-10012001',
       type: 'ending',
       title: 'Final Transmission',
-      imageUrl: 'https://images.unsplash.com/photo-1501785888041-47e9e56c4ed1?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800',
       narration:
         'Your ship becomes a brilliant fireball in the atmosphere, streaking across the alien sky like a dying star. In your final moments, you feel a strange peace. You have done everything possible to survive, made every choice with courage and determination. Your story ends here, above this red world, but your final transmission carries onward through the void. Someday, someone will hear your words and know what became of the Orion-7. You are at peace, among the stars you once explored.',
       choices: [],

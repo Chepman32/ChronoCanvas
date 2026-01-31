@@ -7,7 +7,7 @@
   },
   "story": {
     "title": "Paradox Palette",
-    "author": "ChronoCanvas Studio",
+    "author": "FableFlow Studio",
     "description": "At midnight, a museum restorer discovers a sketchbook that can repaint time. Each line drawn mends one fracture and splits another, as a grieving curator moves to excise a tragic hour forever. Can you compose a timeline that holds--before the canvas tears itself apart?",
     "genre": "scifi",
     "estimatedDuration": 35,
@@ -167,7 +167,7 @@
       "id": "story-8923745610923-18",
       "type": "decision",
       "title": "Paradox Equation",
-      "narration": "Stars blink like nodes in a network, lines of potential connecting past to now. The blueprint overlays reality, showing the cut hour as a bright wound. The ChronoCanvas pulses, demanding a choice: heal by surrender, or heal by cost.",
+      "narration": "Stars blink like nodes in a network, lines of potential connecting past to now. The blueprint overlays reality, showing the cut hour as a bright wound. The FableFlow pulses, demanding a choice: heal by surrender, or heal by cost.",
       "choices": [
         {
           "id": "story-8923745610923-c37",
@@ -228,7 +228,7 @@
       "id": "story-8923745610923-22",
       "type": "ending",
       "title": "Canvas Consumed",
-      "narration": "The ChronoCanvas drinks its own ink, page by page, until only a smell of rain remains. The wound closes without a seam, history smoothing over like wet paint drying. You will never sketch time again, but clocks everywhere breathe easier.",
+      "narration": "The FableFlow drinks its own ink, page by page, until only a smell of rain remains. The wound closes without a seam, history smoothing over like wet paint drying. You will never sketch time again, but clocks everywhere breathe easier.",
       "choices": []
     },
     {

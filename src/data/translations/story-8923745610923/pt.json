@@ -7,7 +7,7 @@
   },
   "story": {
     "title": "Paleta Paradoxal",
-    "author": "ChronoCanvas Studio",
+    "author": "FableFlow Studio",
     "description": "À meia-noite, uma restauradora de museu descobre um caderno de esboços que pode repintar o tempo. Cada linha desenhada conserta uma fratura e divide outra, enquanto um curador enlutado tenta apagar uma hora trágica para sempre. Você consegue compor uma linha temporal que se sustente--antes que a tela se rasgue?",
     "genre": "scifi",
     "estimatedDuration": 35,
@@ -167,7 +167,7 @@
       "id": "story-8923745610923-18",
       "type": "decision",
       "title": "Equação Paradoxal",
-      "narration": "Estrelas piscam como nós em uma rede, linhas de potencial conectando passado ao agora. O projeto sobrepõe-se à realidade, mostrando a hora cortada como uma ferida brilhante. O ChronoCanvas pulsa, exigindo uma escolha: curar por rendição, ou curar por custo.",
+      "narration": "Estrelas piscam como nós em uma rede, linhas de potencial conectando passado ao agora. O projeto sobrepõe-se à realidade, mostrando a hora cortada como uma ferida brilhante. O FableFlow pulsa, exigindo uma escolha: curar por rendição, ou curar por custo.",
       "choices": [
         {
           "id": "story-8923745610923-c37",
@@ -228,7 +228,7 @@
       "id": "story-8923745610923-22",
       "type": "ending",
       "title": "Tela Consumida",
-      "narration": "O ChronoCanvas bebe sua própria tinta, página por página, até que apenas um cheiro de chuva permaneça. A ferida fecha-se sem costura, a história suavizando-se como tinta molhada secando. Você nunca mais esboçará o tempo, mas relógios em toda parte respiram mais facilmente.",
+      "narration": "O FableFlow bebe sua própria tinta, página por página, até que apenas um cheiro de chuva permaneça. A ferida fecha-se sem costura, a história suavizando-se como tinta molhada secando. Você nunca mais esboçará o tempo, mas relógios em toda parte respiram mais facilmente.",
       "choices": []
     },
     {

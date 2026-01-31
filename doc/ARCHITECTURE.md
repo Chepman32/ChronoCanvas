@@ -2,7 +2,7 @@
 
 ## System Overview
 
-ChronoCanvas follows a layered architecture pattern optimized for React Native, emphasizing separation of concerns, testability, and maintainability.
+FableFlow follows a layered architecture pattern optimized for React Native, emphasizing separation of concerns, testability, and maintainability.
 
 ## Layer Structure
 

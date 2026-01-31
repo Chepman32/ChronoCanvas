@@ -1,4 +1,4 @@
-# ChronoCanvas - Interactive Storytelling App
+# FableFlow - Interactive Storytelling App
 
 ## Implementation Overview
 
@@ -19,7 +19,7 @@ This is a production-ready interactive storytelling mobile application built wit
 ### Project Structure
 
 ```
-ChronoCanvas/
+FableFlow/
 ├── src/
 │   ├── screens/
 │   │   ├── SplashScreen.tsx       # Animated splash screen
@@ -280,7 +280,7 @@ npm test -- StoryStore.test.ts
 
 ### iOS App Store
 
-1. Update version in `package.json` and `ios/ChronoCanvas/Info.plist`
+1. Update version in `package.json` and `ios/FableFlow/Info.plist`
 2. Build release version in Xcode
 3. Archive and upload to App Store Connect
 4. Submit for review
@@ -339,7 +339,7 @@ MIT License - see LICENSE file for details
 For issues and questions:
 
 - GitHub Issues: [repository]/issues
-- Email: support@chronocanvas.app
+- Email: support@fableflow.app
 - Documentation: [repository]/wiki
 
 ---

@@ -26,7 +26,7 @@ export const midnightMissingStory: Story = {
       type: 'start',
       title: 'Missing at Midnight',
       imageUrl:
-        'https://images.unsplash.com/photo-1505664194779-8ab2f700bfe0?w=800',
+        'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
       narration:
         "A neon-lit clock strikes midnight as you sit in your cramped office, rain drumming on the window. The phone's ring shatters the silence – a panicked voice reports that **Emily Parker** is missing. Emily vanished from her apartment just hours ago, leaving behind a half-eaten dinner and an unlocked door. Her neighbor saw nothing unusual. You grab your coat, heart pounding, knowing every minute counts in an abduction case. With the city asleep and clues already fading, you vow to uncover the truth before dawn breaks.",
       choices: [
@@ -121,7 +121,7 @@ export const midnightMissingStory: Story = {
       type: 'decision',
       title: 'Abandoned Warehouse',
       imageUrl:
-        'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=800',
+        'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
       narration:
         "You arrive at the old warehouse just as purple-gray dawn light touches the horizon. The building stands silent and decrepit, its corrugated metal walls streaked with rust. Alan's car is parked outside, but he has vanished inside. Through a high window, you catch a glimpse of movement – a shadow pacing nervously. Your heart leaps, thinking it could be Emily or her captor. The front entrance is a heavy sliding door, slightly ajar. You stand alone in the chill morning air.",
       choices: [
@@ -159,7 +159,7 @@ export const midnightMissingStory: Story = {
       type: 'decision',
       title: 'Unexpected Visitor',
       imageUrl:
-        'https://images.unsplash.com/photo-1550895030-823330dfb759?w=800',
+        'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800',
       narration:
         "From your hiding spot behind rusted machinery, you watch as the warehouse door creaks open. A figure steps inside – **Victor Kross**, a known crime boss with ties to human trafficking rings. Your blood runs cold. This is bigger than a simple kidnapping. Victor approaches Alan, demanding to know why Emily is still alive. Alan stammers something about complications. Victor's voice is ice-cold as he orders Alan to 'finish the job' before sunrise. The situation just turned deadly serious.",
       choices: [
@@ -178,7 +178,7 @@ export const midnightMissingStory: Story = {
       type: 'decision',
       title: 'Critical Evidence',
       imageUrl:
-        'https://images.unsplash.com/photo-1505664194779-8ab2f700bfe0?w=800',
+        'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
       narration:
         "You carefully pull out your phone and begin recording the exchange between Victor and Alan. Their conversation reveals a sinister plot – Emily discovered Victor's money laundering operation at the company and was about to report it. Victor paid Alan to silence her permanently. The recording captures everything: the conspiracy, the payment, and Victor's direct order to eliminate Emily. This evidence could bring down an entire criminal network. But as Victor hands Alan a silenced pistol, you realize you have only seconds before Emily's fate is sealed.",
       choices: [
@@ -339,7 +339,7 @@ export const midnightMissingStory: Story = {
       type: 'ending',
       title: 'Career Triumph',
       imageUrl:
-        'https://images.unsplash.com/photo-1550895030-823330dfb759?w=800',
+        'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800',
       narration:
         "The police chief shakes your hand firmly in front of the press. 'Outstanding work,' he announces. 'This detective's persistence and courage brought down a criminal empire and saved an innocent life.' Cameras flash as you're awarded a commendation for bravery. Your career reaches new heights, and young officers look to you as a role model. Emily sends you a thank-you card every year on this date. **You solved the case, saved Emily, dismantled a criminal network, and earned the respect of the entire department.** Justice prevails because of your relentless pursuit of truth.",
       choices: [],
@@ -361,7 +361,7 @@ export const midnightMissingStory: Story = {
       type: 'ending',
       title: 'Endless Pursuit',
       imageUrl:
-        'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=800',
+        'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
       narration:
         "Instead of resting, you dive into the paperwork connecting Victor to other crimes. Your discoveries lead to three more arrests within the week, uncovering a trafficking ring that spanned three states. The FBI requests your consultation on organized crime cases. You become known as the detective who never stops digging. Emily recovers fully and becomes an advocate for corporate whistleblowers, inspired by your dedication. **You solved the case, saved Emily, and used that success to dismantle even greater evil.** A detective's work is never truly done, but you wouldn't have it any other way.",
       choices: [],

@@ -7,7 +7,7 @@
   },
   "story": {
     "title": "Rembobinage de la Ligne de Cœur",
-    "author": "ChronoCanvas Studio",
+    "author": "FableFlow Studio",
     "description": "Une ville est piégée dans une boucle de 59 minutes, et vos esquisses peuvent recoller les heures ensemble. Mais chaque réparation fait onduler le passé--surtout la nuit où vous avez perdu Maya. Allez-vous restaurer la chronologie ou redessiner votre destin?",
     "genre": "romance",
     "estimatedDuration": 32,
@@ -18,7 +18,7 @@
       "id": "story-9123457712345-1",
       "type": "start",
       "title": "Minuit en Boucle",
-      "narration": "La pluie coud des tirets argentés à travers la rue tandis qu'une tour d'horloge bégaie: 11:01--encore. Votre ChronoCanvas bourdonne dans votre paume comme un métronome en cage, la ligne que vous tracez résonnant à travers les flaques et les enseignes au néon. Quelque part à proximité, Maya attend à l'observatoire, ignorant que cette heure s'est déjà produite une douzaine de fois.",
+      "narration": "La pluie coud des tirets argentés à travers la rue tandis qu'une tour d'horloge bégaie: 11:01--encore. Votre FableFlow bourdonne dans votre paume comme un métronome en cage, la ligne que vous tracez résonnant à travers les flaques et les enseignes au néon. Quelque part à proximité, Maya attend à l'observatoire, ignorant que cette heure s'est déjà produite une douzaine de fois.",
       "choices": [
         {
           "id": "story-9123457712345-c1",
@@ -54,7 +54,7 @@
       "id": "story-9123457712345-3",
       "type": "decision",
       "title": "Café Pluvieux",
-      "narration": "La vapeur embrume les fenêtres du café tandis que des gouttes de pluie marchent à reculons le long du verre--le temps accroche, puis reprend. Maya rit d'un souvenir que vous ne devriez pas encore connaître, et le rire s'amincit quand les lumières vacillent deux fois. Le ChronoCanvas se réchauffe, impatient.",
+      "narration": "La vapeur embrume les fenêtres du café tandis que des gouttes de pluie marchent à reculons le long du verre--le temps accroche, puis reprend. Maya rit d'un souvenir que vous ne devriez pas encore connaître, et le rire s'amincit quand les lumières vacillent deux fois. Le FableFlow se réchauffe, impatient.",
       "choices": [
         {
           "id": "story-9123457712345-c5",

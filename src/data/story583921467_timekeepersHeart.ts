@@ -49,7 +49,7 @@ export const timekeepersHeartStory: Story = {
       storyId: 'story-583921467',
       type: 'decision',
       title: 'First Crossroads',
-      imageUrl: 'https://images.unsplash.com/photo-1522673607200?auto=format&fit=crop&w=800&q=80',
+      imageUrl: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80',
       narration:
         'Your chosen path leads to a chamber where temporal echoes linger. Whispers of conversations you have not yet had drift through the air like dust motes. The Heart Engine\'s influence is stronger here—reality itself seems to bend around your presence. You discover a temporal anchor, a fixed point that resists the engine\'s fluctuations. It pulses with dual resonance, suggesting it responds to both your biodata and Elias\'s. You could attempt to stabilize this anchor or investigate why it recognizes both your signatures simultaneously.',
       choices: [
@@ -72,7 +72,7 @@ export const timekeepersHeartStory: Story = {
       storyId: 'story-583921467',
       type: 'decision',
       title: 'Resonance Chamber',
-      imageUrl: 'https://images.unsplash.com/photo-1522673607200?auto=format&fit=crop&w=800&q=80',
+      imageUrl: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80',
       narration:
         'The anchor responds to your presence, revealing a hidden resonance chamber beneath the floor panels. Crystal formations line the walls, each one humming at a frequency that matches different emotional states. You recognize grief, joy, fear, and love—all preserved in mineral form. One crystal, larger than the others, projects a holographic record of your first meeting with Elias, but with subtle differences. In this version, you never spoke to him. The Heart Engine is showing you a timeline where loneliness prevailed. Do you shatter this crystal to prevent that future, or preserve it as a warning?',
       choices: [
@@ -95,7 +95,7 @@ export const timekeepersHeartStory: Story = {
       storyId: 'story-583921467',
       type: 'decision',
       title: 'Echoes of Choice',
-      imageUrl: 'https://images.unsplash.com/photo-1516589178581?auto=format&fit=crop&w=800&q=80',
+      imageUrl: 'https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&w=800&q=80',
       narration:
         'Your decision ripples through the chamber, causing the other crystals to rearrange themselves into a constellation pattern. The Heart Engine\'s neural lattice manifests as a glowing web in the center of the room, and it speaks directly into your mind. It explains that every choice creates temporal drag—a resistance that pulls timelines toward certain outcomes. Your relationship with Elias has generated more drag than any other pairing in the engine\'s memory. It offers to reduce this drag, making your future together smoother but less passionate. Do you accept the engine\'s optimization?',
       choices: [
@@ -118,7 +118,7 @@ export const timekeepersHeartStory: Story = {
       storyId: 'story-583921467',
       type: 'decision',
       title: 'The Engine\'s Judgment',
-      imageUrl: 'https://images.unsplash.com/photo-1523438885200?auto=format&fit=crop&w=800&q=80',
+      imageUrl: 'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=800&q=80',
       narration:
         'The neural lattice pulses with what feels like curiosity. It presents you with a scenario: Elias has been offered a position at a distant chronostation that would separate you for three years. In one timeline, you support his ambition; in another, you ask him to stay. Both choices lead to different kinds of happiness and different kinds of regret. The engine asks which version of you it should cultivate. You realize this is not hypothetical—the engine can influence probability to make either outcome certain. Your answer here will shape reality itself.',
       choices: [
@@ -141,7 +141,7 @@ export const timekeepersHeartStory: Story = {
       storyId: 'story-583921467',
       type: 'decision',
       title: 'Manifest Consequences',
-      imageUrl: 'https://images.unsplash.com/photo-1518199266791?auto=format&fit=crop&w=800&q=80',
+      imageUrl: 'https://images.unsplash.com/photo-1501139083538-0139583c060f?auto=format&fit=crop&w=800&q=80',
       narration:
         'The chamber walls become transparent, revealing two parallel realities unfolding simultaneously. In one, Elias boards a transport vessel, waving goodbye with a mixture of excitement and sorrow. In the other, he remains by your side, smiling but occasionally glancing at the stars with unspoken longing. The Heart Engine informs you that both scenarios are now equally probable until you make your next choice. It offers a compromise: a temporal loop where he experiences both paths while remaining physically present with you. But loops create scars on the soul. Do you accept the compromise or commit to one reality?',
       choices: [
@@ -164,7 +164,7 @@ export const timekeepersHeartStory: Story = {
       storyId: 'story-583921467',
       type: 'decision',
       title: 'Soul Scars',
-      imageUrl: 'https://images.unsplash.com/photo-1518199266791?auto=format&fit=crop&w=800&q=80',
+      imageUrl: 'https://images.unsplash.com/photo-1501139083538-0139583c060f?auto=format&fit=crop&w=800&q=80',
       narration:
         'The weight of your decision settles upon you like a physical burden. The Heart Engine reveals that your biodata now carries the imprint of your choice—either the complexity of parallel experiences or the clarity of singular commitment. Elias enters the chamber, drawn by the energy fluctuations. He looks at you with complete trust, unaware that you have just shaped his destiny. The engine offers to share your knowledge with him, letting him understand the choice you made, or it can preserve his innocence, keeping the burden yours alone. Do you share the truth or protect him from it?',
       choices: [
@@ -187,7 +187,7 @@ export const timekeepersHeartStory: Story = {
       storyId: 'story-583921467',
       type: 'decision',
       title: 'Partnership Tested',
-      imageUrl: 'https://images.unsplash.com/photo-1516589178581?auto=format&fit=crop&w=800&q=80',
+      imageUrl: 'https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&w=800&q=80',
       narration:
         'Elias reacts to your revelation—or your silence—in ways that confirm the depth of your bond. If you shared the truth, he embraces the complexity and pledges to navigate it with you. If you protected him, he senses your burden anyway and offers to share it without knowing its source. The Heart Engine observes this exchange with what seems like approval. It now presents its final challenge before the proposal moment can proceed: you must synchronize your heartbeats with the engine\'s core rhythm, creating a temporal tether that will bind your fates. But the process requires absolute trust. Any doubt will create a fracture.',
       choices: [
@@ -279,7 +279,7 @@ export const timekeepersHeartStory: Story = {
       storyId: 'story-583921467',
       type: 'decision',
       title: 'Final Threshold',
-      imageUrl: 'https://images.unsplash.com/photo-1516589178581?auto=format&fit=crop&w=800&q=80',
+      imageUrl: 'https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&w=800&q=80',
       narration:
         'The Heart Engine prepares for the final phase of your journey together. It has monitored your choices, evaluated your compatibility, and assessed your resilience. The verdict is clear: you and Elias represent a rare configuration—a love that can withstand temporal stress without fracturing. The engine now offers you four possible futures, each the culmination of the path you have walked. The Infinite Vows path honors your honesty and acceptance. The Preserved Moments path reflects your choice to archive your love. The Separate Currents path acknowledges that some loves are meant to shape us rather than define us. The Unwritten Pages path celebrates your rejection of predetermined outcomes. Choose now, and know that this choice, unlike the others, cannot be undone.',
       choices: [
@@ -334,7 +334,7 @@ export const timekeepersHeartStory: Story = {
       storyId: 'story-583921467',
       type: 'ending',
       title: 'Separate Currents',
-      imageUrl: 'https://images.unsplash.com/photo-1523438885200?auto=format&fit=crop&w=800&q=80',
+      imageUrl: 'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=800&q=80',
       narration:
         'The paths diverge, and you find yourself walking forward alone. You and Elias have chosen separate futures, recognizing that some loves are meant to shape us rather than define our entire journey. The Heart Engine continues its endless ticking, indifferent to your parting. Years later, you catch fleeting glimpses of a life where you stood together—phantom memories of a future that never was. The knowledge of what might have been lingers like a phantom heartbeat, a bittersweet reminder that love, like time, flows only in one direction. Yet you carry the lessons of your time together, and in that way, Elias remains with you always, a chapter completed but never forgotten.',
       choices: [],

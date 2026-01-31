@@ -2,7 +2,7 @@
 
 ## 🎉 Successfully Added 11 New Stories!
 
-The ChronoCanvas app now features **13 total stories** with rich, branching narratives.
+The FableFlow app now features **13 total stories** with rich, branching narratives.
 
 ---
 
@@ -247,7 +247,7 @@ npm run ios
 
 ## Conclusion
 
-Successfully expanded ChronoCanvas from 2 sample stories to a full-featured interactive storytelling app with 13 diverse stories across multiple genres. The app now offers 6+ hours of content with 280+ decision points and 45+ unique endings.
+Successfully expanded FableFlow from 2 sample stories to a full-featured interactive storytelling app with 13 diverse stories across multiple genres. The app now offers 6+ hours of content with 280+ decision points and 45+ unique endings.
 
 **The app is ready for users to explore!** 🎉
 

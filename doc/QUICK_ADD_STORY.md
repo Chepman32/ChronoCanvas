@@ -192,7 +192,7 @@ Just replace the placeholder content with your actual story!
 
 ```bash
 # Make sure you're in the project root
-cd ChronoCanvas
+cd FableFlow
 
 # Try with node directly
 node scripts/add-story.js pirates

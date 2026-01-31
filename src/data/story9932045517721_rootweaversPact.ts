@@ -9,7 +9,7 @@ export const rootweaversPactStory: Story = {
     'https://images.unsplash.com/photo-1536152470836-b943b246224c?w=800',
   thumbnailUrl:
     'https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=400',
-  author: 'ChronoCanvas Studio',
+  author: 'FableFlow Studio',
   genre: 'fantasy',
   involvement: 'low',
   estimatedDuration: 42,
@@ -47,7 +47,7 @@ export const rootweaversPactStory: Story = {
       type: 'decision',
       title: 'Market Under-Tree',
       imageUrl:
-        'https://images.unsplash.com/photo-1507400492013-d776c8c05e?w=800',
+        'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
       narration:
         'Vendors braid vines into charms and stack mushrooms that glow like moons. A blind archivist in a barkcloak smells your hands and nods, recognizing sap-scent. "Memory threads snap," she says. "You will need a vow or a price." Her words hang heavy as you consider your next step deeper into the tree\'s mysteries.',
       choices: [
@@ -104,7 +104,7 @@ export const rootweaversPactStory: Story = {
       type: 'decision',
       title: 'Glow Spores',
       imageUrl:
-        'https://images.unsplash.com/photo-1518882605630-8eb565f5e673?w=800',
+        'https://images.unsplash.com/photo-1511497584788-876760111969?w=800',
       narration:
         'The spores cup your breath, then blink awake like tiny eyes. Held in darkness, they bloom into a map of possible steps—the brighter the dot, the kinder the outcome. In their dim blue light, you see the path forward winding between two massive root columns. These living lights will guide you through the tree\'s winding passages.',
       choices: [
@@ -123,7 +123,7 @@ export const rootweaversPactStory: Story = {
       type: 'decision',
       title: 'Spore Trial',
       imageUrl:
-        'https://images.unsplash.com/photo-1518882605630-8eb565f5e673?w=800',
+        'https://images.unsplash.com/photo-1511497584788-876760111969?w=800',
       narration:
         'Spores crowd your lips with glow and truth. When you speak your name, three other names arrive—selves that might have been, each offering a tool. The tree waits to see which you borrow. This trial tests not just your strength, but your wisdom in choosing which path of possibility to embrace.',
       choices: [
@@ -161,7 +161,7 @@ export const rootweaversPactStory: Story = {
       type: 'decision',
       title: 'Memory Thread',
       imageUrl:
-        'https://images.unsplash.com/photo-1507400492013-d776c8c05e?w=800',
+        'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
       narration:
         'A silver thread tugs from your rib to a tunnel speckled with glow. Each step sings a chord you recognize from childhood lullabies. The thread pulses steady as a heartbeat, drawing you deeper into the tree\'s memories. The tree\'s recollections surround you, pressing close with their weight of centuries.',
       choices: [
@@ -180,7 +180,7 @@ export const rootweaversPactStory: Story = {
       type: 'decision',
       title: 'Pulse Chamber',
       imageUrl:
-        'https://images.unsplash.com/photo-1507400492013-d776c8c05e?w=800',
+        'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
       narration:
         'Walls throb with slow light; resin beads like tears. You set the vow ring against the grain and feel your heartbeat braid with the tree\'s. The rhythm steadies—enough to risk a deeper cut. The chamber breathes around you, alive with the ancient pulse you\'ve come to heal.',
       choices: [
@@ -218,7 +218,7 @@ export const rootweaversPactStory: Story = {
       type: 'decision',
       title: 'Breach Rift',
       imageUrl:
-        'https://images.unsplash.com/photo-1518882605630-8eb565f5e673?w=800',
+        'https://images.unsplash.com/photo-1511497584788-876760111969?w=800',
       narration:
         'The tree opens a mouth where no mouth was, showing night through day—an outside that doesn\'t match. Wind tastes of coins and lullabies. The wound gapes before you, raw and bleeding sap. You stand at the threshold where all paths merge into destiny, ready to make your final choice.',
       choices: [

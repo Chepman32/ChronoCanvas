@@ -6,9 +6,9 @@ export const echoesMoonlitGroveStory: Story = {
   description:
     'When the moon rises full over Blackbriar Forest, an old bargain wakes. You carry a shard of a broken sigil that hums near the trees, calling you toward a forgotten crown and a debt the grove intends to collect. Choose allies, honor, or power—but the grove always takes its due.',
   coverImageUrl:
-    'https://images.unsplash.com/photo-1518882605630-8eb565f5e673?w=800',
+    'https://images.unsplash.com/photo-1511497584788-876760111969?w=800',
   thumbnailUrl:
-    'https://images.unsplash.com/photo-1507400492013-d776c8c05e?w=400',
+    'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400',
   author: 'Daria Voronova',
   genre: 'fantasy',
   involvement: 'medium',
@@ -28,7 +28,7 @@ export const echoesMoonlitGroveStory: Story = {
       type: 'start',
       title: 'Moonlit Omen',
       imageUrl:
-        'https://images.unsplash.com/photo-1518882605630-8eb565f5e673?w=800',
+        'https://images.unsplash.com/photo-1511497584788-876760111969?w=800',
       narration:
         'A blue-white moon climbs above Blackbriar\'s tangled crowns, and the shard in your pocket warms as if it remembers a promise. Owls fall silent. Between the pines, a narrow path gleams like wet ink, pulling at your boots with a force that feels almost like longing. The shard thrums again, answering something old that stirs in the roots, something that has waited centuries for this particular night and this particular bearer to arrive.',
       choices: [
@@ -80,7 +80,7 @@ export const echoesMoonlitGroveStory: Story = {
       type: 'decision',
       title: 'Elder Yew',
       imageUrl:
-        'https://images.unsplash.com/photo-1518882605630-8eb565f5e673?w=800',
+        'https://images.unsplash.com/photo-1511497584788-876760111969?w=800',
       narration:
         'A yew older than any temple arches over a slow, clear rill that sings secrets in a language of water and stone. Red berries gleam like droplets of warning against the dark foliage. When you touch the bark, rough as centuries, the tree remembers you—your grandmother\'s voice, a cradle-song about a debt to the grove that your family never fully explained. The water brightens, showing your face crowned in thorns, and you understand that nothing here is merely what it seems.',
       choices: [
@@ -106,7 +106,7 @@ export const echoesMoonlitGroveStory: Story = {
       type: 'decision',
       title: 'Spirit Lanterns',
       imageUrl:
-        'https://images.unsplash.com/photo-1507400492013-d776c8c05e?w=800',
+        'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
       narration:
         'Light beads rise from the stream and spiral around you, curious as fox kits discovering something new in their territory. They nudge at your chest, your hands, the shard in your pocket with a gentle insistence. When one passes through your palm, your skin sings with a thin, silver ache—the grove judges you and finds a debt unpaid but not unworthy of consideration. The lanterns form patterns that might be words if you knew how to read them.',
       choices: [
@@ -210,7 +210,7 @@ export const echoesMoonlitGroveStory: Story = {
       type: 'decision',
       title: 'Thorn Pact',
       imageUrl:
-        'https://images.unsplash.com/photo-1518882605630-8eb565f5e673?w=800',
+        'https://images.unsplash.com/photo-1511497584788-876760111969?w=800',
       narration:
         'A hollow tree opens like a chapel, candles guttering in sap-lit niches that cast shadows dancing with meaning. Whispered names drift through—lineage, debts, vows made and broken across generations. The shard warms until it hurts, and you understand: taking the crown means wearing the grove\'s hunger, becoming part of its endless cycle. The walls weep amber that smells of sacrifice, and you feel the weight of all who came before.',
       choices: [
@@ -366,7 +366,7 @@ export const echoesMoonlitGroveStory: Story = {
       type: 'decision',
       title: 'Mirror Duel',
       imageUrl:
-        'https://images.unsplash.com/photo-1507400492013-d776c8c05e?w=800',
+        'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
       narration:
         'On a frozen ridge, the wind hardens into a shape that mirrors you blow for blow, every gesture and stance perfectly reflected. Each strike rings, shaking snow from black pines, and you realize you are fighting yourself—or what you might become. The grove watches without breath, judging which self will serve it best—the one who takes or the one who yields, the one who rules or the one who serves.',
       choices: [
@@ -392,7 +392,7 @@ export const echoesMoonlitGroveStory: Story = {
       type: 'decision',
       title: 'Price of Magic',
       imageUrl:
-        'https://images.unsplash.com/photo-1518882605630-8eb565f5e673?w=800',
+        'https://images.unsplash.com/photo-1511497584788-876760111969?w=800',
       narration:
         'Fog folds into a circle of standing stones, every surface carved with offerings—hair, teeth, rings, lullabies written in ash, promises kept and broken. The grove does not bargain without coin, has never been generous without cause. You can buy a path, but you must name your loss. The moon reaches its zenith, demanding decision, and you feel time pressing against your skin like a physical weight.',
       choices: [
@@ -496,7 +496,7 @@ export const echoesMoonlitGroveStory: Story = {
       type: 'decision',
       title: 'Breaking the Chain',
       imageUrl:
-        'https://images.unsplash.com/photo-1518882605630-8eb565f5e673?w=800',
+        'https://images.unsplash.com/photo-1511497584788-876760111969?w=800',
       narration:
         'The grove resists your rejection with a sound like tearing silk. Vines tighten, roots groan, and the air grows heavy with the weight of broken tradition pressing against your chest. You feel the pull of generations urging you to accept, to continue the cycle, to be what they were. But somewhere deep, a crack forms in the ancient pattern, and through it you see the possibility of something new being born.',
       choices: [
@@ -555,7 +555,7 @@ export const echoesMoonlitGroveStory: Story = {
       type: 'ending',
       title: 'Queen of Thorns',
       imageUrl:
-        'https://images.unsplash.com/photo-1507400492013-d776c8c05e?w=800',
+        'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
       narration:
         'You bow to your reflection, and it steps forward, wearing your face and a crown of living vine that blooms and withers in cycles too quick to follow. The aurora ripples in the antlers of the watching stag as roots rise to form a throne that is both prison and privilege. You will rule by listening, no blade needed—yet the crown drinks from your sleep each night, and your dreams belong to the grove forever.',
       choices: [],
@@ -566,7 +566,7 @@ export const echoesMoonlitGroveStory: Story = {
       type: 'ending',
       title: 'Forest Devours',
       imageUrl:
-        'https://images.unsplash.com/photo-1507400492013-d776c8c05e?w=800',
+        'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
       narration:
         'Seeds burst in a rush of roots that crack stone and swallow halls, a green tide that does not care for kings or kindness. The crown smothers under a growth that knows only hunger and reach. Years later, travelers whisper of a new wood that grows too quickly, hungry as a storm, consuming villages and roads. Your name is lost beneath leaves, but the forest remembers, and in its way, it thanks you for the freedom you granted it.',
       choices: [],
@@ -577,7 +577,7 @@ export const echoesMoonlitGroveStory: Story = {
       type: 'ending',
       title: 'The Unbound Path',
       imageUrl:
-        'https://images.unsplash.com/photo-1518882605630-8eb565f5e673?w=800',
+        'https://images.unsplash.com/photo-1511497584788-876760111969?w=800',
       narration:
         'The words of release dissolve the ancient bonds like morning mist before the sun. The grove sighs—a sound of both loss and relief—and opens a path that leads beyond the forest\'s reach, a way out that was never there before. You walk free, the shard crumbling to dust in your palm, the first of your line to choose their own fate. Behind you, the trees murmur in wonder at the novelty of a story that ended differently.',
       choices: [],

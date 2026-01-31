@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * ChronoCanvas - Add New Story Script
+ * FableFlow - Add New Story Script
  * Usage: node scripts/add-story.js story-name
  * Example: node scripts/add-story.js pirates
  */

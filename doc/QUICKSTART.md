@@ -24,7 +24,7 @@ That's it! The app should launch in the iOS simulator.
 
 ## What You'll See
 
-1. **Splash Screen** (2.5s) - Animated ChronoCanvas logo
+1. **Splash Screen** (2.5s) - Animated FableFlow logo
 2. **Home Screen** - 13 amazing stories:
    - 8 free stories across multiple genres
    - 5 premium stories (locked with gold badges)

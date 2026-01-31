@@ -252,7 +252,7 @@ All other stories are currently English-only and ready for translation:
 
 ## Impact
 
-Users can now experience ChronoCanvas stories in their native language with:
+Users can now experience FableFlow stories in their native language with:
 
 - Authentic, culturally-appropriate translations
 - Immersive storytelling in 10 languages
@@ -260,4 +260,4 @@ Users can now experience ChronoCanvas stories in their native language with:
 - Seamless language switching
 - Full story content localization (not just UI)
 
-This makes ChronoCanvas truly international! 🌍
+This makes FableFlow truly international! 🌍

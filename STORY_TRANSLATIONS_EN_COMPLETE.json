@@ -2152,12 +2152,12 @@
     },
     "story8923745610923_paradoxPalette": {
       "title": "Paradox Palette",
-      "author": "ChronoCanvas Studio",
+      "author": "FableFlow Studio",
       "description": "At midnight, a museum restorer discovers a sketchbook that can repaint time. Each line drawn mends one fracture and splits another, as a grieving curator moves to excise a tragic hour forever. Can you compose a timeline that holds--before the canvas tears itself apart?",
       "nodes": {
         "story-8923745610923": {
           "title": "Ink of Time",
-          "narration": "On a workbench beneath a single lamp, gears glint like stars embedded in brass. Nova flips open a jet-black sketchbook--the ChronoCanvas--and a faint hum prickles the air. A line drawn across the page ripples the room, nudging a pendulum\\",
+          "narration": "On a workbench beneath a single lamp, gears glint like stars embedded in brass. Nova flips open a jet-black sketchbook--the FableFlow--and a faint hum prickles the air. A line drawn across the page ripples the room, nudging a pendulum\\",
           "choices": {
             "story-8923745610923": {
               "text": "Slip into the museum galleries.",
@@ -2346,7 +2346,7 @@
         },
         "story-8923745610923-5": {
           "title": "Hall of Clocks",
-          "narration": "An orchestra of ticking surrounds a cathedral of glass domes and pendulums. One central clock stutters, then double-ticks, as if arguing with itself about the present. The ChronoCanvas warms in Nova",
+          "narration": "An orchestra of ticking surrounds a cathedral of glass domes and pendulums. One central clock stutters, then double-ticks, as if arguing with itself about the present. The FableFlow warms in Nova",
           "choices": {}
         },
         "story-8923745610923-6": {
@@ -2406,12 +2406,12 @@
         },
         "story-8923745610923-17": {
           "title": "Replacement Glyphs",
-          "narration": "Nova sketches a surrogate fragment: a patient curve, a breath, a return. The room brightens as the ink settles, reality acknowledging a plausible stand-in. In the margin, the ChronoCanvas writes back--one translucent word: ",
+          "narration": "Nova sketches a surrogate fragment: a patient curve, a breath, a return. The room brightens as the ink settles, reality acknowledging a plausible stand-in. In the margin, the FableFlow writes back--one translucent word: ",
           "choices": {}
         },
         "story-8923745610923-18": {
           "title": "Paradox Equation",
-          "narration": "Stars blink like nodes in a network, lines of potential connecting past to now. The blueprint overlays reality, showing the cut hour as a bright wound. The ChronoCanvas pulses, demanding a choice: heal by surrender, or heal by cost.",
+          "narration": "Stars blink like nodes in a network, lines of potential connecting past to now. The blueprint overlays reality, showing the cut hour as a bright wound. The FableFlow pulses, demanding a choice: heal by surrender, or heal by cost.",
           "choices": {}
         },
         "story-8923745610923-19": {
@@ -2431,7 +2431,7 @@
         },
         "story-8923745610923-22": {
           "title": "Canvas Consumed",
-          "narration": "The ChronoCanvas drinks its own ink, page by page, until only a smell of rain remains. The wound closes without a seam, history smoothing over like wet paint drying. You will never sketch time again, but clocks everywhere breathe easier.",
+          "narration": "The FableFlow drinks its own ink, page by page, until only a smell of rain remains. The wound closes without a seam, history smoothing over like wet paint drying. You will never sketch time again, but clocks everywhere breathe easier.",
           "choices": {}
         },
         "story-8923745610923-23": {
@@ -2733,12 +2733,12 @@
     },
     "story9123457712345_heartlineRewind": {
       "title": "Heartline Rewind",
-      "author": "ChronoCanvas Studio",
+      "author": "FableFlow Studio",
       "description": "A city is trapped in a 59-minute loop, and your sketches can splice the hours back together. But every repair ripples the past--especially the night you lost Maya. Will you restore the timeline or redraw your fate?",
       "nodes": {
         "story-9123457712345": {
           "title": "Looped Midnight",
-          "narration": "Rain stitches silver dashes across the street as a clock tower stutters: 11:01--again. Your ChronoCanvas hums in your palm like a caged metronome, the line you draw echoing through puddles and neon signs. Somewhere nearby, Maya waits at the observatory, unaware that this hour has already happened a dozen times.",
+          "narration": "Rain stitches silver dashes across the street as a clock tower stutters: 11:01--again. Your FableFlow hums in your palm like a caged metronome, the line you draw echoing through puddles and neon signs. Somewhere nearby, Maya waits at the observatory, unaware that this hour has already happened a dozen times.",
           "choices": {
             "story-9123457712345": {
               "text": "Hurry to the museum clock hall.",
@@ -2769,7 +2769,7 @@
               "description": "Two minds for one mechanism."
             },
             "story-9123457712345-c8": {
-              "text": "Show her the ChronoCanvas\\",
+              "text": "Show her the FableFlow\\",
               "description": null
             },
             "story-9123457712345-5": {
@@ -2901,7 +2901,7 @@
         },
         "story-9123457712345-3": {
           "title": "Rain Cafe",
-          "narration": "Steam ghosts the cafe windows as raindrops march backwards along the glass--time snagging, then resuming. Maya laughs at a memory you should not know yet, and the laugh thins when the lights flutter twice. The ChronoCanvas warms, impatient.",
+          "narration": "Steam ghosts the cafe windows as raindrops march backwards along the glass--time snagging, then resuming. Maya laughs at a memory you should not know yet, and the laugh thins when the lights flutter twice. The FableFlow warms, impatient.",
           "choices": {}
         },
         "story-9123457712345-4": {
@@ -3003,7 +3003,7 @@
     },
     "story9328745634021_lettersOnTheWind": {
       "title": "Letters on the Wind",
-      "author": "ChronoCanvas Studio",
+      "author": "FableFlow Studio",
       "description": "Bottled notes wash ashore at dawn, each penned in the same graceful hand. When you finally meet the writer, a storm bears down and a developer eyes your boathouse. Love, like tide, asks: will you anchor--or sail?",
       "nodes": {
         "story-9328745634021": {
@@ -3265,7 +3265,7 @@
     },
     "story9845237719284_emberCrownOath": {
       "title": "Ember Crown Oath",
-      "author": "ChronoCanvas Studio",
+      "author": "FableFlow Studio",
       "description": "When a mapmaker’s sketch warms to living ember, forgotten waylines flare across the coast. A warlord moves to rekindle the mountain and seize the Crown that now answers your hand. Will you share its fire, break it, or wear it?",
       "nodes": {
         "story-9845237719284": {
@@ -3561,7 +3561,7 @@
     },
     "story9932045517721_rootweaversPact": {
       "title": "Rootweaver’s Pact",
-      "author": "ChronoCanvas Studio",
+      "author": "FableFlow Studio",
       "description": "Letters carved by sap bleed through bark: the world-tree is unwell. You can hear its pulse if you press your ear to the grain—and if you dare, you can answer. Will you heal with memory, bargain with fae, or cut what must be cut?",
       "nodes": {
         "story-9932045517721": {

@@ -7,7 +7,7 @@
   },
   "story": {
     "title": "Heartline Rewind",
-    "author": "ChronoCanvas Studio",
+    "author": "FableFlow Studio",
     "description": "A city is trapped in a 59-minute loop, and your sketches can splice the hours back together. But every repair ripples the past--especially the night you lost Maya. Will you restore the timeline or redraw your fate?",
     "genre": "romance",
     "estimatedDuration": 32,
@@ -18,7 +18,7 @@
       "id": "story-9123457712345-1",
       "type": "start",
       "title": "Looped Midnight",
-      "narration": "Rain stitches silver dashes across the street as a clock tower stutters: 11:01--again. Your ChronoCanvas hums in your palm like a caged metronome, the line you draw echoing through puddles and neon signs. Somewhere nearby, Maya waits at the observatory, unaware that this hour has already happened a dozen times.",
+      "narration": "Rain stitches silver dashes across the street as a clock tower stutters: 11:01--again. Your FableFlow hums in your palm like a caged metronome, the line you draw echoing through puddles and neon signs. Somewhere nearby, Maya waits at the observatory, unaware that this hour has already happened a dozen times.",
       "choices": [
         {
           "id": "story-9123457712345-c1",
@@ -54,7 +54,7 @@
       "id": "story-9123457712345-3",
       "type": "decision",
       "title": "Rain Cafe",
-      "narration": "Steam ghosts the cafe windows as raindrops march backwards along the glass--time snagging, then resuming. Maya laughs at a memory you should not know yet, and the laugh thins when the lights flutter twice. The ChronoCanvas warms, impatient.",
+      "narration": "Steam ghosts the cafe windows as raindrops march backwards along the glass--time snagging, then resuming. Maya laughs at a memory you should not know yet, and the laugh thins when the lights flutter twice. The FableFlow warms, impatient.",
       "choices": [
         {
           "id": "story-9123457712345-c5",

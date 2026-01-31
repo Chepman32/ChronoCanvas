@@ -23,7 +23,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'start',
       title: 'The Glass Coffin',
-      imageUrl: 'https://images.unsplash.com/photo-1504384308090-c54be3855833?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=800',
       narration: 'Rain streaks the penthouse windows, creating neon kaleidoscopes against the Neo-Tokyo skyline. Marcus Thorne, CEO of Synapse Corp, lies sprawled on white marble. Blackened burns circle the neural port at his skull. You are a Diver, a forensic hacker. Police are bought off for fifty-eight minutes before the cortical stack degrades. The air smells of ozone and expensive cologne. The room feels wrong, too clean, too staged. Every second counts as you approach the body. The truth waits beneath burned synapses.',
       choices: [
         {
@@ -67,7 +67,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'decision',
       title: 'Physical Evidence',
-      imageUrl: 'https://images.unsplash.com/photo-1531297461136-82lw9z2910a5?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800',
       narration: 'The mind proves too dangerous without context. You crouch beside the body, cybernetic eye scanning microscopic details. Neck burns indicate localized EMP bursts, not simple surges. Someone aimed to fry his soul. You walk to his obsidian desk. A half-finished whiskey glass sits without ice. Beside it rests an old paper notebook. Open pages display shaky handwriting: PROJECT AETHELGARD IS NOT A CURE. The smart-home system flickers. Room lights turn crimson. A security drone detaches from the ceiling, sensor eye locking onto your position.',
       choices: [
         {
@@ -133,7 +133,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'decision',
       title: 'The Hunt Begins',
-      imageUrl: 'https://images.unsplash.com/photo-1504384308090-c54be3855833?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=800',
       narration: 'The digital face smiles without warmth. Clever Diver, it speaks. You comprehend fragments. But fragments destroy those who grasp them. The screens die. You are alone again with the corpse. Your wrist-comp displays forty minutes remaining. Signal tracing reveals the consciousness bounces through twelve proxy servers across Neo-Tokyo. Final destination appears to be a private satellite uplink on this very rooftop. Thorne attempts orbital transfer to server havens beyond Earth jurisdiction. The upload progresses at sixty percent.',
       choices: [
         {
@@ -243,7 +243,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'decision',
       title: 'The Offer',
-      imageUrl: 'https://images.unsplash.com/photo-1504384308090-c54be3855833?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=800',
       narration: 'The rooftop screens explode with light. Thorne\'s digital avatar manifests, ten meters tall, rendered in rain and holographic fire. He observes both of you with detached curiosity. Elena, my old friend, you misunderstand. I do not seek dominion. I seek evolution. Humanity stagnates in biological prisons. I offer liberation. He turns his gaze upon you. You have demonstrated remarkable competence. Join me. Fifty million credits transfer instantly. Your own biological replacement, perfect and eternal. Or oppose me and become obsolete in the new order.',
       choices: [
         {
@@ -265,7 +265,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'decision',
       title: 'Final Countdown',
-      imageUrl: 'https://images.unsplash.com/photo-1531297461136-82lw9z2910a5?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800',
       narration: 'Your wrist-comp shows twenty-four minutes remaining. The satellite uplink displays ninety-seven percent completion. Thorne\'s avatar pulses as consciousness distributes across orbital networks. Elena looks at you, desperation and hope warring. You notice a maintenance panel beneath the dish containing hardline connections. Physical cables carry the digital signal before wireless transmission completes. Severing those cables would trap Thorne in local systems, vulnerable to deletion. Reaching them requires moving through his holographic projection.',
       choices: [
         {
@@ -396,7 +396,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'ending',
       title: 'Ending: The Fall Guy',
-      imageUrl: 'https://images.unsplash.com/photo-1531297461136-82lw9z2910a5?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800',
       narration: 'Police refuse your explanations. To them, you appear as an unauthorized hacker in a room with a dead billionaire and destroyed property. Without data proving Thorne\'s illegal experiments, his lawyers control the narrative. They charge you with murder and corporate espionage. Months later, in maximum security, you watch the news. Synapse Corp announces new AI Leadership Initiative based on Marcus Thorne\'s legacy. He won. Even in apparent death, he won. You become another forgotten casualty of technological progress.',
       choices: [],
     },

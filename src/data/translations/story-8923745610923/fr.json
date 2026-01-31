@@ -7,7 +7,7 @@
   },
   "story": {
     "title": "Palette Paradoxale",
-    "author": "ChronoCanvas Studio",
+    "author": "FableFlow Studio",
     "description": "À minuit, une restauratrice de musée découvre un carnet de croquis qui peut repeindre le temps. Chaque ligne tracée répare une fracture et en divise une autre, tandis qu'un conservateur endeuillé s'efforce d'effacer à jamais une heure tragique. Pouvez-vous composer une chronologie qui tienne--avant que la toile ne se déchire?",
     "genre": "scifi",
     "estimatedDuration": 35,
@@ -167,7 +167,7 @@
       "id": "story-8923745610923-18",
       "type": "decision",
       "title": "Équation Paradoxale",
-      "narration": "Les étoiles clignotent comme des nœuds dans un réseau, des lignes de potentiel reliant le passé au présent. Le plan se superpose à la réalité, montrant l'heure coupée comme une blessure lumineuse. Le ChronoCanvas pulse, exigeant un choix: guérir par l'abandon, ou guérir par le coût.",
+      "narration": "Les étoiles clignotent comme des nœuds dans un réseau, des lignes de potentiel reliant le passé au présent. Le plan se superpose à la réalité, montrant l'heure coupée comme une blessure lumineuse. Le FableFlow pulse, exigeant un choix: guérir par l'abandon, ou guérir par le coût.",
       "choices": [
         {
           "id": "story-8923745610923-c37",
@@ -228,7 +228,7 @@
       "id": "story-8923745610923-22",
       "type": "ending",
       "title": "Toile Consumée",
-      "narration": "Le ChronoCanvas boit sa propre encre, page après page, jusqu'à ce qu'il ne reste qu'une odeur de pluie. La blessure se ferme sans couture, l'histoire se lissant comme de la peinture humide qui sèche. Tu ne dessineras plus jamais le temps, mais les horloges partout respirent plus facilement.",
+      "narration": "Le FableFlow boit sa propre encre, page après page, jusqu'à ce qu'il ne reste qu'une odeur de pluie. La blessure se ferme sans couture, l'histoire se lissant comme de la peinture humide qui sèche. Tu ne dessineras plus jamais le temps, mais les horloges partout respirent plus facilement.",
       "choices": []
     },
     {

@@ -1,9 +1,9 @@
 import { Story } from '../types';
 
-// ChronoCanvas Interactive Story for React Native
+// FableFlow Interactive Story for React Native
 // STORY THEME: Time can be sketched, erased, and repainted like art; every stroke has a cost.
 // SETTING: A modern city's midnight museum, rain-slick alleys, and a sunken desert temple glimpsed through temporal doors.
-// PROTAGONIST: Nova Reyes, a restoration artist-hacker who wields the ChronoCanvas--an obsidian sketchbook that edits time.
+// PROTAGONIST: Nova Reyes, a restoration artist-hacker who wields the FableFlow--an obsidian sketchbook that edits time.
 // CONFLICT: A grieving curator intends to excise a catastrophic hour from history, tearing a widening paradox in the timeline.
 // TONE: Suspenseful, wonder-filled, and emotionally charged with moments of quiet melancholy and daring resolve.
 // STRUCTURE: 17 decision layers before any ending, 22 total nodes, strictly linear progression
@@ -14,10 +14,10 @@ export const paradoxPaletteStory: Story = {
   description:
     'At midnight, a museum restorer discovers a sketchbook that can repaint time. Each line drawn mends one fracture and splits another, as a grieving curator moves to excise a tragic hour forever. Can you compose a timeline that holds--before the canvas tears itself apart?',
   coverImageUrl:
-    'https://images.unsplash.com/photo-1555685812-4b943f3e0b90?w=800',
+    'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800',
   thumbnailUrl:
-    'https://images.unsplash.com/photo-1504384308090-c54be3855833?w=400',
-  author: 'ChronoCanvas Studio',
+    'https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=400',
+  author: 'FableFlow Studio',
   genre: 'scifi',
   involvement: 'medium',
   estimatedDuration: 55,
@@ -39,7 +39,7 @@ export const paradoxPaletteStory: Story = {
       imageUrl:
         'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800',
       narration:
-        'On a workbench beneath a single lamp, gears glint like stars embedded in brass. Nova flips open a jet-black sketchbook--the ChronoCanvas--and a faint hum prickles the air. A line drawn across the page ripples the room, nudging a pendulum\'s swing into a different beat. Beyond the locked restoration lab, the museum groans at midnight, as if remembering something it had tried to forget. The canvas feels warm, alive, hungry for purpose.',
+        'On a workbench beneath a single lamp, gears glint like stars embedded in brass. Nova flips open a jet-black sketchbook--the FableFlow--and a faint hum prickles the air. A line drawn across the page ripples the room, nudging a pendulum\'s swing into a different beat. Beyond the locked restoration lab, the museum groans at midnight, as if remembering something it had tried to forget. The canvas feels warm, alive, hungry for purpose.',
       choices: [
         {
           id: 'story-8923745610923-c1',
@@ -64,9 +64,9 @@ export const paradoxPaletteStory: Story = {
       type: 'decision',
       title: 'Midnight Threshold',
       imageUrl:
-        'https://images.unsplash.com/photo-1531297461136-82lw9z2910a5?w=800',
+        'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800',
       narration:
-        'Marble floors mirror lanky shadows of sculptures frozen mid-gesture. Security lights pulse in a heartbeat rhythm, syncing to some deeper metronome Nova can feel in her teeth. The ChronoCanvas vibrates against her hip, resonating with something vast and buried deep beneath the foundations. A curator\'s silhouette crosses a distant doorway, carrying rolled blueprints that crackle with static time.',
+        'Marble floors mirror lanky shadows of sculptures frozen mid-gesture. Security lights pulse in a heartbeat rhythm, syncing to some deeper metronome Nova can feel in her teeth. The FableFlow vibrates against her hip, resonating with something vast and buried deep beneath the foundations. A curator\'s silhouette crosses a distant doorway, carrying rolled blueprints that crackle with static time.',
       choices: [
         {
           id: 'story-8923745610923-c3',
@@ -93,7 +93,7 @@ export const paradoxPaletteStory: Story = {
       imageUrl:
         'https://images.unsplash.com/photo-1515630278258-407f66498911?w=800',
       narration:
-        'Footsteps echo between staff doors, the rhythm irregular--as if walking through pockets of thicker time. Nova\'s shadow overlays another on the wall, two silhouettes braided by emergency lights. A pressure builds at her temples; time itself objects to her presence here. The ChronoCanvas grows warm, offering comfort and warning in equal measure.',
+        'Footsteps echo between staff doors, the rhythm irregular--as if walking through pockets of thicker time. Nova\'s shadow overlays another on the wall, two silhouettes braided by emergency lights. A pressure builds at her temples; time itself objects to her presence here. The FableFlow grows warm, offering comfort and warning in equal measure.',
       choices: [
         {
           id: 'story-8923745610923-c5',
@@ -145,7 +145,7 @@ export const paradoxPaletteStory: Story = {
       type: 'decision',
       title: 'Ciphered Blueprint',
       imageUrl:
-        'https://images.unsplash.com/photo-1504384308090-c54be3855833?w=800',
+        'https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=800',
       narration:
         'The captured image reveals coordinates folded into ornamental filigree--a cartographer\'s joke. Overlaid, the lines translate to a map of the museum basement and something older beneath it. A missing fragment, torn from the page, is the key to the sequence. Without it, the plan remains incomplete, a dangerous puzzle with a gaping hole at its center.',
       choices: [
@@ -174,7 +174,7 @@ export const paradoxPaletteStory: Story = {
       imageUrl:
         'https://images.unsplash.com/photo-1515630278258-407f66498911?w=800',
       narration:
-        'An orchestra of ticking surrounds a cathedral of glass domes and pendulums. One central clock stutters, then double-ticks, as if arguing with itself about the present. The ChronoCanvas warms in Nova\'s hand, hungry for a stabilizing line. The air tastes of copper and possibility; here, time is malleable, waiting for an artist\'s touch to reshape its flow.',
+        'An orchestra of ticking surrounds a cathedral of glass domes and pendulums. One central clock stutters, then double-ticks, as if arguing with itself about the present. The FableFlow warms in Nova\'s hand, hungry for a stabilizing line. The air tastes of copper and possibility; here, time is malleable, waiting for an artist\'s touch to reshape its flow.',
       choices: [
         {
           id: 'story-8923745610923-c11',
@@ -226,7 +226,7 @@ export const paradoxPaletteStory: Story = {
       type: 'decision',
       title: 'Clockwork Heart',
       imageUrl:
-        'https://images.unsplash.com/photo-1555685812-4b943f3e0b90?w=800',
+        'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800',
       narration:
         'The central mechanism opens like a ribcage, gears glistening with oil and memory. With a careful stroke, Nova bridges a missing tooth; the second hand exhales into smooth motion. In that calm, a hidden compartment clicks--an invitation. Within lies a fragment of vellum, ancient and smelling of cedar, bearing a glyph that seems to move when unobserved, watching back.',
       choices: [
@@ -253,7 +253,7 @@ export const paradoxPaletteStory: Story = {
       type: 'decision',
       title: 'Lost Fragment',
       imageUrl:
-        'https://images.unsplash.com/photo-1504384308090-c54be3855833?w=800',
+        'https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=800',
       narration:
         'The torn vellum shows a glyph shaped like a brushstroke formed into a number nine lying on its side. When held to light, the mark resembles an eye--and a loop. It matches the gap in the blueprint perfectly, completing a circuit of understanding. Nova\'s hands tremble; she holds the missing piece of a plan to unmake an hour of history, and the weight of that knowledge tastes like copper.',
       choices: [
@@ -307,7 +307,7 @@ export const paradoxPaletteStory: Story = {
       type: 'decision',
       title: 'Descending Passage',
       imageUrl:
-        'https://images.unsplash.com/photo-1555685812-4b943f3e0b90?w=800',
+        'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800',
       narration:
         'The spiral stair descends into depths that feel impossible beneath a city museum. Stone walls give way to crystalline formations that pulse with soft blue light, each crystal containing what looks like a frozen moment--a raindrop suspended, a bird mid-wingbeat, a tear on a cheek. The air grows thick with temporal potential.',
       choices: [
@@ -334,9 +334,9 @@ export const paradoxPaletteStory: Story = {
       type: 'decision',
       title: 'Crystalline Memory',
       imageUrl:
-        'https://images.unsplash.com/photo-1531297461136-82lw9z2910a5?w=800',
+        'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800',
       narration:
-        'Touching the crystal floods Nova with visions--not her own memories, but echoes of those who wielded the ChronoCanvas before. Each keeper faced the same choice she now confronts: to preserve, destroy, or transform. Their wisdom and their failures intermingle, offering guidance and warning in equal measure. The canvas hums, recognizing its lineage.',
+        'Touching the crystal floods Nova with visions--not her own memories, but echoes of those who wielded the FableFlow before. Each keeper faced the same choice she now confronts: to preserve, destroy, or transform. Their wisdom and their failures intermingle, offering guidance and warning in equal measure. The canvas hums, recognizing its lineage.',
       choices: [
         {
           id: 'story-8923745610923-c23',
@@ -361,7 +361,7 @@ export const paradoxPaletteStory: Story = {
       type: 'decision',
       title: 'Ancient City',
       imageUrl:
-        'https://images.unsplash.com/photo-1504384308090-c54be3855833?w=800',
+        'https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=800',
       narration:
         'Moonlight pools in a roofless chamber where sand drifts like snow. Reliefs show artists painting with comet tails, their murals looping days into new shapes. Footprints--fresh--circle a dais carved into a nine-turned-eye. The air shimmers with potential, every grain of sand a moment waiting to be arranged by willing hands.',
       choices: [
@@ -388,9 +388,9 @@ export const paradoxPaletteStory: Story = {
       type: 'decision',
       title: 'Drawn Doorway',
       imageUrl:
-        'https://images.unsplash.com/photo-1555685812-4b943f3e0b90?w=800',
+        'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800',
       narration:
-        'At the chamber\'s end, cold air spills through a sketch Nova does not remember making, flavored with dust and a scent like sun on old stone. Beyond, sand sings softly in a space that should not exist beneath a city museum. The ChronoCanvas grows heavy, recognizing its counterpart--a place where time was first painted into being by hands that understood sacrifice.',
+        'At the chamber\'s end, cold air spills through a sketch Nova does not remember making, flavored with dust and a scent like sun on old stone. Beyond, sand sings softly in a space that should not exist beneath a city museum. The FableFlow grows heavy, recognizing its counterpart--a place where time was first painted into being by hands that understood sacrifice.',
       choices: [
         {
           id: 'story-8923745610923-c27',
@@ -444,7 +444,7 @@ export const paradoxPaletteStory: Story = {
       imageUrl:
         'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800',
       narration:
-        'Stars blink like nodes in a network, lines of potential connecting past to now. The blueprint overlays reality, showing the cut hour as a bright wound. The ChronoCanvas pulses, demanding a choice: heal by surrender, or heal by cost. Either way, Nova will not emerge unchanged. The timeline holds its breath, waiting for her brush to fall.',
+        'Stars blink like nodes in a network, lines of potential connecting past to now. The blueprint overlays reality, showing the cut hour as a bright wound. The FableFlow pulses, demanding a choice: heal by surrender, or heal by cost. Either way, Nova will not emerge unchanged. The timeline holds its breath, waiting for her brush to fall.',
       choices: [
         {
           id: 'story-8923745610923-c31',
@@ -485,7 +485,7 @@ export const paradoxPaletteStory: Story = {
       imageUrl:
         'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800',
       narration:
-        'You restore the hour, accepting the backlash as a personal undertow. Days later, you wake with a new tremor, a ghost-tick in your wrist that syncs with distant storms. The world continues--whole--while you learn to hold its weather alone. The ChronoCanvas remains, but you are bound to it now, a living anchor for the timeline you saved.',
+        'You restore the hour, accepting the backlash as a personal undertow. Days later, you wake with a new tremor, a ghost-tick in your wrist that syncs with distant storms. The world continues--whole--while you learn to hold its weather alone. The FableFlow remains, but you are bound to it now, a living anchor for the timeline you saved.',
       choices: [],
     },
     {
@@ -494,9 +494,9 @@ export const paradoxPaletteStory: Story = {
       type: 'ending',
       title: 'Canvas Consumed',
       imageUrl:
-        'https://images.unsplash.com/photo-1531297461136-82lw9z2910a5?w=800',
+        'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800',
       narration:
-        'The ChronoCanvas drinks its own ink, page by page, until only a smell of rain remains. The wound closes without a seam, history smoothing over like wet paint drying. You will never sketch time again, but clocks everywhere breathe easier. In the silence, you find a different kind of peace--the ordinary rhythm of seconds passing unaltered.',
+        'The FableFlow drinks its own ink, page by page, until only a smell of rain remains. The wound closes without a seam, history smoothing over like wet paint drying. You will never sketch time again, but clocks everywhere breathe easier. In the silence, you find a different kind of peace--the ordinary rhythm of seconds passing unaltered.',
       choices: [],
     },
     {
@@ -518,7 +518,7 @@ export const paradoxPaletteStory: Story = {
       imageUrl:
         'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800',
       narration:
-        'You paint a door that opens for all who bear loss, inviting them to add their strokes to the healing. The curator joins first, then others, each contributing a line to the greater composition. No single hand holds the burden; the timeline mends through collective care. The ChronoCanvas becomes a shared legacy, passed from artist to artist across generations.',
+        'You paint a door that opens for all who bear loss, inviting them to add their strokes to the healing. The curator joins first, then others, each contributing a line to the greater composition. No single hand holds the burden; the timeline mends through collective care. The FableFlow becomes a shared legacy, passed from artist to artist across generations.',
       choices: [],
     },
   ],

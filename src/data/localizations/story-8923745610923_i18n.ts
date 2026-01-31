@@ -23,7 +23,7 @@ export const story_8923745610923StoryTranslations: Partial<Record<Language, Stor
   en: {
     title: 'Paradox Palette',
     description: 'At midnight, a museum restorer discovers a sketchbook that can repaint time. Each line drawn mends one fracture and splits another, as a grieving curator moves to excise a tragic hour forever. Can you compose a timeline that holds--before the canvas tears itself apart?',
-    author: 'ChronoCanvas Studio',
+    author: 'FableFlow Studio',
     nodes: {
       'story-8923745610923-3': {
         title: 'Alley Experiment',
@@ -142,7 +142,7 @@ export const story_8923745610923StoryTranslations: Partial<Record<Language, Stor
       },
       'story-8923745610923-18': {
         title: 'Paradox Equation',
-        narration: 'Stars blink like nodes in a network, lines of potential connecting past to now. The blueprint overlays reality, showing the cut hour as a bright wound. The ChronoCanvas pulses, demanding a choice: heal by surrender, or heal by cost.',
+        narration: 'Stars blink like nodes in a network, lines of potential connecting past to now. The blueprint overlays reality, showing the cut hour as a bright wound. The FableFlow pulses, demanding a choice: heal by surrender, or heal by cost.',
         choices: {
           'story-8923745610923-c37': {
             text: 'Restore the hour and absorb the backlash yourself.',
@@ -190,7 +190,7 @@ export const story_8923745610923StoryTranslations: Partial<Record<Language, Stor
       },
       'story-8923745610923-22': {
         title: 'Canvas Consumed',
-        narration: 'The ChronoCanvas drinks its own ink, page by page, until only a smell of rain remains. The wound closes without a seam, history smoothing over like wet paint drying. You will never sketch time again, but clocks everywhere breathe easier.',
+        narration: 'The FableFlow drinks its own ink, page by page, until only a smell of rain remains. The wound closes without a seam, history smoothing over like wet paint drying. You will never sketch time again, but clocks everywhere breathe easier.',
         choices: {
         },
       },
@@ -213,7 +213,7 @@ export const story_8923745610923StoryTranslations: Partial<Record<Language, Stor
   ru: {
     title: 'Парадоксальная Палитра',
     description: 'В полночь реставратор музея обнаруживает скетчбук, способный перерисовать время. Каждая проведённая линия исправляет один разлом и создаёт другой, пока скорбящий куратор пытается навсегда стереть трагический час. Сможешь ли ты создать временную линию, которая устоит--прежде чем холст разорвёт сам себя?',
-    author: 'ChronoCanvas Studio',
+    author: 'FableFlow Studio',
     nodes: {
       'story-8923745610923-3': {
         title: 'Эксперимент в Переулке',
@@ -403,7 +403,7 @@ export const story_8923745610923StoryTranslations: Partial<Record<Language, Stor
   es: {
     title: 'Paleta Paradójica',
     description: 'A medianoche, una restauradora de museo descubre un cuaderno de bocetos que puede repintar el tiempo. Cada línea dibujada repara una fractura y divide otra, mientras un curador en duelo intenta borrar una hora trágica para siempre. ¿Puedes componer una línea temporal que se sostenga--antes de que el lienzo se desgarre?',
-    author: 'ChronoCanvas Studio',
+    author: 'FableFlow Studio',
     nodes: {
       'story-8923745610923-3': {
         title: 'Experimento en el Callejón',
@@ -522,7 +522,7 @@ export const story_8923745610923StoryTranslations: Partial<Record<Language, Stor
       },
       'story-8923745610923-18': {
         title: 'Ecuación Paradójica',
-        narration: 'Las estrellas parpadean como nodos en una red, líneas de potencial conectando el pasado con el ahora. El plano se superpone a la realidad, mostrando la hora cortada como una herida brillante. El ChronoCanvas pulsa, exigiendo una elección: sanar por rendición, o sanar por costo.',
+        narration: 'Las estrellas parpadean como nodos en una red, líneas de potencial conectando el pasado con el ahora. El plano se superpone a la realidad, mostrando la hora cortada como una herida brillante. El FableFlow pulsa, exigiendo una elección: sanar por rendición, o sanar por costo.',
         choices: {
           'story-8923745610923-c37': {
             text: 'Restaura la hora y absorbe tú mismo el retroceso.',
@@ -570,7 +570,7 @@ export const story_8923745610923StoryTranslations: Partial<Record<Language, Stor
       },
       'story-8923745610923-22': {
         title: 'Lienzo Consumido',
-        narration: 'El ChronoCanvas bebe su propia tinta, página tras página, hasta que solo queda un olor a lluvia. La herida se cierra sin costura, la historia suavizándose como pintura húmeda secándose. Nunca volverás a esbozar el tiempo, pero los relojes en todas partes respiran más fácil.',
+        narration: 'El FableFlow bebe su propia tinta, página tras página, hasta que solo queda un olor a lluvia. La herida se cierra sin costura, la historia suavizándose como pintura húmeda secándose. Nunca volverás a esbozar el tiempo, pero los relojes en todas partes respiran más fácil.',
         choices: {
         },
       },
@@ -593,11 +593,11 @@ export const story_8923745610923StoryTranslations: Partial<Record<Language, Stor
   de: {
     title: 'Herzlinie Zurückspulen',
     description: 'Eine Stadt ist in einer 59-Minuten-Schleife gefangen, und deine Skizzen können die Stunden wieder zusammenfügen. Aber jede Reparatur bringt die Vergangenheit ins Wanken--besonders die Nacht, in der du Maya verloren hast. Wirst du die Zeitlinie wiederherstellen oder dein Schicksal neu zeichnen?',
-    author: 'ChronoCanvas Studio',
+    author: 'FableFlow Studio',
     nodes: {
       'story-9123457712345-1': {
         title: 'Geschleifte Mitternacht',
-        narration: 'Regen näht silberne Striche über die Straße, während ein Glockenturm stottert: 11:01--wieder. Dein ChronoCanvas summt in deiner Handfläche wie ein eingesperrtes Metronom, die Linie, die du zeichnest, hallt durch Pfützen und Neonschilder. Irgendwo in der Nähe wartet Maya am Observatorium, ohne zu wissen, dass diese Stunde bereits ein Dutzend Mal geschehen ist.',
+        narration: 'Regen näht silberne Striche über die Straße, während ein Glockenturm stottert: 11:01--wieder. Dein FableFlow summt in deiner Handfläche wie ein eingesperrtes Metronom, die Linie, die du zeichnest, hallt durch Pfützen und Neonschilder. Irgendwo in der Nähe wartet Maya am Observatorium, ohne zu wissen, dass diese Stunde bereits ein Dutzend Mal geschehen ist.',
         choices: {
           'story-9123457712345-c1': {
             text: 'Eile zur Museums-Uhrhalle.',
@@ -625,7 +625,7 @@ export const story_8923745610923StoryTranslations: Partial<Record<Language, Stor
       },
       'story-9123457712345-3': {
         title: 'Regen-Café',
-        narration: 'Dampf vernebelt die Café-Fenster, während Regentropfen rückwärts am Glas entlangmarschieren--die Zeit hängt, dann läuft sie weiter. Maya lacht über eine Erinnerung, die du noch nicht kennen solltest, und das Lachen wird dünner, als die Lichter zweimal flackern. Das ChronoCanvas erwärmt sich, ungeduldig.',
+        narration: 'Dampf vernebelt die Café-Fenster, während Regentropfen rückwärts am Glas entlangmarschieren--die Zeit hängt, dann läuft sie weiter. Maya lacht über eine Erinnerung, die du noch nicht kennen solltest, und das Lachen wird dünner, als die Lichter zweimal flackern. Das FableFlow erwärmt sich, ungeduldig.',
         choices: {
           'story-9123457712345-c5': {
             text: 'Gestehe die Schleife jetzt.',
@@ -768,7 +768,7 @@ export const story_8923745610923StoryTranslations: Partial<Record<Language, Stor
   fr: {
     title: 'Palette Paradoxale',
     description: 'À minuit, une restauratrice de musée découvre un carnet de croquis qui peut repeindre le temps. Chaque ligne tracée répare une fracture et en divise une autre, tandis qu\'un conservateur endeuillé s\'efforce d\'effacer à jamais une heure tragique. Pouvez-vous composer une chronologie qui tienne--avant que la toile ne se déchire?',
-    author: 'ChronoCanvas Studio',
+    author: 'FableFlow Studio',
     nodes: {
       'story-8923745610923-3': {
         title: 'Expérience dans l\'Allée',
@@ -887,7 +887,7 @@ export const story_8923745610923StoryTranslations: Partial<Record<Language, Stor
       },
       'story-8923745610923-18': {
         title: 'Équation Paradoxale',
-        narration: 'Les étoiles clignotent comme des nœuds dans un réseau, des lignes de potentiel reliant le passé au présent. Le plan se superpose à la réalité, montrant l\'heure coupée comme une blessure lumineuse. Le ChronoCanvas pulse, exigeant un choix: guérir par l\'abandon, ou guérir par le coût.',
+        narration: 'Les étoiles clignotent comme des nœuds dans un réseau, des lignes de potentiel reliant le passé au présent. Le plan se superpose à la réalité, montrant l\'heure coupée comme une blessure lumineuse. Le FableFlow pulse, exigeant un choix: guérir par l\'abandon, ou guérir par le coût.',
         choices: {
           'story-8923745610923-c37': {
             text: 'Restaure l\'heure et absorbe toi-même le contrecoup.',
@@ -935,7 +935,7 @@ export const story_8923745610923StoryTranslations: Partial<Record<Language, Stor
       },
       'story-8923745610923-22': {
         title: 'Toile Consumée',
-        narration: 'Le ChronoCanvas boit sa propre encre, page après page, jusqu\'à ce qu\'il ne reste qu\'une odeur de pluie. La blessure se ferme sans couture, l\'histoire se lissant comme de la peinture humide qui sèche. Tu ne dessineras plus jamais le temps, mais les horloges partout respirent plus facilement.',
+        narration: 'Le FableFlow boit sa propre encre, page après page, jusqu\'à ce qu\'il ne reste qu\'une odeur de pluie. La blessure se ferme sans couture, l\'histoire se lissant comme de la peinture humide qui sèche. Tu ne dessineras plus jamais le temps, mais les horloges partout respirent plus facilement.',
         choices: {
         },
       },
@@ -958,7 +958,7 @@ export const story_8923745610923StoryTranslations: Partial<Record<Language, Stor
   pt: {
     title: 'Paleta Paradoxal',
     description: 'À meia-noite, uma restauradora de museu descobre um caderno de esboços que pode repintar o tempo. Cada linha desenhada conserta uma fratura e divide outra, enquanto um curador enlutado tenta apagar uma hora trágica para sempre. Você consegue compor uma linha temporal que se sustente--antes que a tela se rasgue?',
-    author: 'ChronoCanvas Studio',
+    author: 'FableFlow Studio',
     nodes: {
       'story-8923745610923-3': {
         title: 'Experimento no Beco',
@@ -1077,7 +1077,7 @@ export const story_8923745610923StoryTranslations: Partial<Record<Language, Stor
       },
       'story-8923745610923-18': {
         title: 'Equação Paradoxal',
-        narration: 'Estrelas piscam como nós em uma rede, linhas de potencial conectando passado ao agora. O projeto sobrepõe-se à realidade, mostrando a hora cortada como uma ferida brilhante. O ChronoCanvas pulsa, exigindo uma escolha: curar por rendição, ou curar por custo.',
+        narration: 'Estrelas piscam como nós em uma rede, linhas de potencial conectando passado ao agora. O projeto sobrepõe-se à realidade, mostrando a hora cortada como uma ferida brilhante. O FableFlow pulsa, exigindo uma escolha: curar por rendição, ou curar por custo.',
         choices: {
           'story-8923745610923-c37': {
             text: 'Restaure a hora e absorva o contragolpe você mesmo.',
@@ -1125,7 +1125,7 @@ export const story_8923745610923StoryTranslations: Partial<Record<Language, Stor
       },
       'story-8923745610923-22': {
         title: 'Tela Consumida',
-        narration: 'O ChronoCanvas bebe sua própria tinta, página por página, até que apenas um cheiro de chuva permaneça. A ferida fecha-se sem costura, a história suavizando-se como tinta molhada secando. Você nunca mais esboçará o tempo, mas relógios em toda parte respiram mais facilmente.',
+        narration: 'O FableFlow bebe sua própria tinta, página por página, até que apenas um cheiro de chuva permaneça. A ferida fecha-se sem costura, a história suavizando-se como tinta molhada secando. Você nunca mais esboçará o tempo, mas relógios em toda parte respiram mais facilmente.',
         choices: {
         },
       },

@@ -44,7 +44,7 @@
 import { useTranslation } from '../localization/useTranslation';
 
 const t = useTranslation();
-console.log(t.appName); // "ChronoCanvas" or localized version
+console.log(t.appName); // "FableFlow" or localized version
 ```
 
 #### Add story translations:

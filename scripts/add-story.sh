@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# ChronoCanvas - Add New Story Script
+# FableFlow - Add New Story Script
 # Usage: ./scripts/add-story.sh story-name
 
 set -e

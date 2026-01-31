@@ -82,7 +82,7 @@ export const midnightCallerStory: Story = {
       type: 'decision',
       title: 'Fresh Fingerprints',
       imageUrl:
-        'https://images.unsplash.com/photo-1505664194779-8ab2f700bfe0?w=800',
+        'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
       narration:
         'With your desk lamp angled just right, you spot smudges on the file folder—fresh fingerprints in the dust, not yours. Someone has been in your apartment recently. Your door lock shows tiny scratches near the keyhole, almost invisible unless you know what to look for. They picked your lock, searched your case files, and took evidence. The realization hits you hard: the caller is not just watching you, they have been inside your home while you slept. You need to secure your apartment.',
       choices: [
@@ -163,7 +163,7 @@ export const midnightCallerStory: Story = {
       type: 'decision',
       title: 'Morrison Books',
       imageUrl:
-        'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=800',
+        'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
       narration:
         'The bookstore is a cozy labyrinth of wooden shelves and the smell of old paper. The owner, an elderly woman with reading glasses on a chain, recognizes Sarah from your description. She called in sick today—first time in eight months, the woman says, concern creasing her face. Sarah has been jumpy lately, looking over her shoulder like someone is following her. She gives you an address, a small apartment building on the edge of town, but warns you: Sarah seemed scared of something. Or someone.',
       choices: [
@@ -271,7 +271,7 @@ export const midnightCallerStory: Story = {
       type: 'decision',
       title: 'Digital Shadow',
       imageUrl:
-        'https://images.unsplash.com/photo-1550895030-823330dfb759?w=800',
+        'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800',
       narration:
         'Rebecca Dalton has tried to stay invisible, but everyone leaves traces. You find a library card in her name, checked out yesterday. A coffee shop loyalty app with recent purchases near the industrial district. Then you find the critical link: she volunteers at a women shelter three nights a week, and tonight is one of those nights. Sarah and Rebecca were college roommates—they have known each other for years. This is not just about witnessing a murder. This is personal.',
       choices: [
@@ -298,7 +298,7 @@ export const midnightCallerStory: Story = {
       type: 'decision',
       title: 'Linked Lives',
       imageUrl:
-        'https://images.unsplash.com/photo-1505664194779-8ab2f700bfe0?w=800',
+        'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
       narration:
         'You dig deeper into both women histories and find the connection: they were roommates in college, years before Marcus Dalton death. Sarah Chen and Rebecca Dalton lived together for two years, then drifted apart. But when Marcus was killed, Sarah suddenly moved away without telling anyone where she was going. And when Rebecca was released from the institution six months ago, Sarah returned to the city within weeks. These two women have been connected for years, bound by something that started long before that morning in Riverside Park.',
       choices: [
@@ -325,7 +325,7 @@ export const midnightCallerStory: Story = {
       type: 'decision',
       title: 'The Truth Emerges',
       imageUrl:
-        'https://images.unsplash.com/photo-1505664194779-8ab2f700bfe0?w=800',
+        'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
       narration:
         'The pieces finally click into place. You track Rebecca to a safe house on the outskirts of town. Through the window, you see both women—Sarah and Rebecca—poring over documents spread across a kitchen table. They look exhausted but determined. You have a choice now: approach them as an ally, or treat them as suspects. Your decision will determine how this story ends. Three years of secrets, lies, and pain have led to this moment. What kind of detective are you?',
       choices: [
@@ -366,7 +366,7 @@ export const midnightCallerStory: Story = {
       type: 'ending',
       title: 'Justice Served',
       imageUrl:
-        'https://images.unsplash.com/photo-1550895030-823330dfb759?w=800',
+        'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800',
       narration:
         'Rebecca lowers her weapon and tells you everything. Her brother Marcus discovered that Captain Morrison was using the Dalton cannery to store and distribute drugs seized from evidence. When Marcus threatened to expose him, Morrison killed him and framed it as a random attack. Rebecca saw everything from her car that morning—she was bringing Marcus coffee, their weekly ritual. Morrison paid the medical director to declare her mentally unfit, ensuring no one would believe her confession. But Rebecca spent three years in an institution gathering evidence. She recorded everything. You listen to the recordings, look at the documents, and make your choice. Together, you bring Morrison down. He gets life without parole. Rebecca is cleared. You are promoted. Some nights, you still wonder if you did enough, but then Rebecca texts you photos of her opening a bakery with her settlement money, and you remember: this time, the good guys won.',
       choices: [],
@@ -378,7 +378,7 @@ export const midnightCallerStory: Story = {
       type: 'ending',
       title: 'System Failure',
       imageUrl:
-        'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=800',
+        'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
       narration:
         'You arrest Rebecca for stalking and harassment. In custody, she refuses to talk, gives you nothing. Without her evidence—the location of which she will not reveal—there is no case against Morrison. He retires three months later with full pension and a ceremony honoring his thirty years of service. Rebecca serves eight months for misdemeanor stalking, then disappears. Sarah Chen moves away again, and you never hear from her. The case file stays open on your desk for another year before you finally archive it. Sometimes the system protects the guilty, and sometimes justice is nothing more than paperwork and compromises. You hand in your badge six months later, tired of fighting battles you cannot win. The midnight caller never contacts you again.',
       choices: [],

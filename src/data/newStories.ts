@@ -48,9 +48,9 @@ export const newStories: Story[] = [
     description:
       'Dive into the deepest ocean trench where an ancient civilization awaits.',
     coverImageUrl:
-      'https://images.unsplash.com/photo-1522673607200?w=800',
+      'https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1522673607200?w=400',
+      'https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=400',
     author: 'Captain Marina Torres',
     genre: 'mystery',
     involvement: 'medium',
@@ -110,7 +110,7 @@ export const newStories: Story[] = [
         'The depths claim you. Your submarine becomes part of the ruins.',
       ],
       [
-        'https://images.unsplash.com/photo-1522673607200?w=800',
+        'https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800',
         'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
         'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=800',
         'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
@@ -125,9 +125,9 @@ export const newStories: Story[] = [
     description:
       "Alone on a space station, you discover you're not as alone as you thought.",
     coverImageUrl:
-      'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=800',
+      'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=400',
+      'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=400',
     author: 'Commander Alex Rivera',
     genre: 'horror',
     involvement: 'high',
@@ -192,9 +192,9 @@ export const newStories: Story[] = [
         'Your pod drifts in space. Rescue may never come.',
       ],
       [
-        'https://images.unsplash.com/photo-1516975080664-2151bcd01707?w=800',
-        'https://images.unsplash.com/photo-1516589178581?w=800',
-        'https://images.unsplash.com/photo-1550895030-823330dfb759?w=800',
+        'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
+        'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800',
+        'https://images.unsplash.com/photo-1560263816-d704d83cce0f?w=800',
         'https://images.unsplash.com/photo-1560263816-d704d83cce0f?w=800',
       ],
       4,
@@ -207,9 +207,9 @@ export const newStories: Story[] = [
     description:
       'Navigate deadly court politics where one wrong move means death.',
     coverImageUrl:
-      'https://images.unsplash.com/photo-1522673607200?w=800',
+      'https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1522673607200?w=400',
+      'https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=400',
     author: 'Lady Elara Blackwood',
     genre: 'mystery',
     involvement: 'high',
@@ -279,8 +279,8 @@ export const newStories: Story[] = [
         'Your death inspires a movement.',
       ],
       [
-        'https://images.unsplash.com/photo-1522673607200?w=800',
-        'https://images.unsplash.com/photo-1523438885200?w=800',
+        'https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800',
+        'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800',
         'https://images.unsplash.com/photo-1515549832467-8783363e19b6?w=800',
         'https://images.unsplash.com/photo-1560263816-d704d83cce0f?w=800',
       ],
@@ -294,9 +294,9 @@ export const newStories: Story[] = [
     description:
       'Survive in a world where civilization has crumbled and humanity fights for scraps.',
     coverImageUrl:
-      'https://images.unsplash.com/photo-1523438885200?w=800',
+      'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1523438885200?w=400',
+      'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400',
     author: 'Survivor 2847',
     genre: 'adventure',
     involvement: 'medium',
@@ -362,8 +362,8 @@ export const newStories: Story[] = [
         "Against all odds, there's still hope.",
       ],
       [
-        'https://images.unsplash.com/photo-1523438885200?w=800',
-        'https://images.unsplash.com/photo-1505664194779-8ab2f700bfe0?w=800',
+        'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800',
+        'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
         'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
         'https://images.unsplash.com/photo-1485550409059-9afb054cada4?w=800',
       ],
@@ -450,7 +450,7 @@ export const newStories: Story[] = [
       [
         'https://images.unsplash.com/photo-1485627658391-1365e4e0dbfe?w=800',
         'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=800',
-        'https://images.unsplash.com/photo-1518199266791?w=800',
+        'https://images.unsplash.com/photo-1514565131-fce0801e5785?w=800',
         'https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?w=800',
       ],
       4,
@@ -530,7 +530,7 @@ export const newStories: Story[] = [
       [
         'https://images.unsplash.com/photo-1485627658391-1365e4e0dbfe?w=800',
         'https://images.unsplash.com/photo-1515630278258-407f66498911?w=800',
-        'https://images.unsplash.com/photo-1522673607200?w=800',
+        'https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800',
         'https://images.unsplash.com/photo-1515549832467-8783363e19b6?w=800',
       ],
       3,
@@ -620,9 +620,9 @@ export const newStories: Story[] = [
     title: 'Digital Heist',
     description: 'Pull off the ultimate cyber heist in a neon-soaked megacity.',
     coverImageUrl:
-      'https://images.unsplash.com/photo-1518199266791?w=800',
+      'https://images.unsplash.com/photo-1514565131-fce0801e5785?w=800',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1518199266791?w=400',
+      'https://images.unsplash.com/photo-1514565131-fce0801e5785?w=400',
     author: 'Ghost Protocol',
     genre: 'scifi',
     involvement: 'high',
@@ -695,7 +695,7 @@ export const newStories: Story[] = [
         'The heist becomes legend in the underground.',
       ],
       [
-        'https://images.unsplash.com/photo-1518199266791?w=800',
+        'https://images.unsplash.com/photo-1514565131-fce0801e5785?w=800',
         'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=800',
         'https://images.unsplash.com/photo-1545232979-8bf68ee9b1af?w=800',
         'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
@@ -780,8 +780,8 @@ export const newStories: Story[] = [
       [
         'https://images.unsplash.com/photo-1453873531674-2151bcd01707?w=800',
         'https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?w=800',
-        'https://images.unsplash.com/photo-1523438885200?w=800',
-        'https://images.unsplash.com/photo-1522673607200?w=800',
+        'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800',
+        'https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800',
       ],
       4,
     ),
@@ -868,8 +868,8 @@ export const newStories: Story[] = [
       ],
       [
         'https://images.unsplash.com/photo-1515630278258-407f66498911?w=800',
-        'https://images.unsplash.com/photo-1523438885200?w=800',
-        'https://images.unsplash.com/photo-1505664194779-8ab2f700bfe0?w=800',
+        'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800',
+        'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
         'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
       ],
       4,

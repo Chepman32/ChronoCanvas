@@ -1,4 +1,4 @@
-# ChronoCanvas
+# FableFlow
 
 **Interactive Storytelling Mobile Application for iOS**
 
@@ -71,7 +71,7 @@ npm run ios
 ## 🏗️ Architecture
 
 ```
-ChronoCanvas/
+FableFlow/
 ├── src/
 │   ├── screens/          # UI Screens
 │   ├── store/            # State Management (Zustand)
@@ -200,7 +200,7 @@ MIT License - see LICENSE file for details
 
 - **Documentation**: See docs in project root
 - **Issues**: GitHub Issues
-- **Email**: support@chronocanvas.app
+- **Email**: support@fableflow.app
 
 ## 🎉 Acknowledgments
 

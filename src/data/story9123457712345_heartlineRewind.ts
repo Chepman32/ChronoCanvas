@@ -6,10 +6,10 @@ export const heartlineRewindStory: Story = {
   description:
     'A city is trapped in a 59-minute loop, and your sketches can splice the hours back together. But every repair ripples the past--especially the night you lost Maya. Will you restore the timeline or redraw your fate?',
   coverImageUrl:
-    'https://images.unsplash.com/photo-1522673607200?w=800',
+    'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800',
   thumbnailUrl:
-    'https://images.unsplash.com/photo-1523438885200?w=400',
-  author: 'ChronoCanvas Studio',
+    'https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=400',
+  author: 'FableFlow Studio',
   genre: 'romance',
   involvement: 'medium',
   estimatedDuration: 32,
@@ -30,7 +30,7 @@ export const heartlineRewindStory: Story = {
       imageUrl:
         'https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=800',
       narration:
-        'Rain stitches silver dashes across the street as a clock tower stutters: 11:01--again. Your ChronoCanvas hums in your palm like a caged metronome, the line you draw echoing through puddles and neon signs. Somewhere nearby, Maya waits at the observatory, unaware that this hour has already happened a dozen times. You feel the familiar tug of the loop pulling you back, yet something feels different tonight. The air tastes of ozone and possibility.',
+        'Rain stitches silver dashes across the street as a clock tower stutters: 11:01--again. Your FableFlow hums in your palm like a caged metronome, the line you draw echoing through puddles and neon signs. Somewhere nearby, Maya waits at the observatory, unaware that this hour has already happened a dozen times. You feel the familiar tug of the loop pulling you back, yet something feels different tonight. The air tastes of ozone and possibility.',
       choices: [
         {
           id: 'story-9123457712345-c1',
@@ -54,9 +54,9 @@ export const heartlineRewindStory: Story = {
       type: 'decision',
       title: 'First Junction',
       imageUrl:
-        'https://images.unsplash.com/photo-1518199266791?w=800',
+        'https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=800',
       narration:
-        'Wind chimes the guy wires around the telescope dome. Maya stands beneath a sky cleaved by clouds, studying a faint anomaly like a thumbprint in the stars. She glances toward the stairwell as if expecting someone--then your phone buzzes with a warning: loop integrity failing. The ChronoCanvas grows warm in your pocket, sensing the temporal fracture widening. You must decide whether to trust her with the truth or protect her from the burden of knowing.',
+        'Wind chimes the guy wires around the telescope dome. Maya stands beneath a sky cleaved by clouds, studying a faint anomaly like a thumbprint in the stars. She glances toward the stairwell as if expecting someone--then your phone buzzes with a warning: loop integrity failing. The FableFlow grows warm in your pocket, sensing the temporal fracture widening. You must decide whether to trust her with the truth or protect her from the burden of knowing.',
       choices: [
         {
           id: 'story-9123457712345-c3',
@@ -80,9 +80,9 @@ export const heartlineRewindStory: Story = {
       type: 'decision',
       title: 'Rain Cafe',
       imageUrl:
-        'https://images.unsplash.com/photo-1522673607200?w=800',
+        'https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=800',
       narration:
-        'Steam ghosts the cafe windows as raindrops march backwards along the glass--time snagging, then resuming. Maya laughs at a memory you should not know yet, and the laugh thins when the lights flutter twice. The ChronoCanvas warms, impatient. Outside, the streetlights flicker in an impossible pattern, spelling out coordinates only you can read. The barista watches you with eyes that seem to know too much, as if she too has lived this hour before.',
+        'Steam ghosts the cafe windows as raindrops march backwards along the glass--time snagging, then resuming. Maya laughs at a memory you should not know yet, and the laugh thins when the lights flutter twice. The FableFlow warms, impatient. Outside, the streetlights flicker in an impossible pattern, spelling out coordinates only you can read. The barista watches you with eyes that seem to know too much, as if she too has lived this hour before.',
       choices: [
         {
           id: 'story-9123457712345-c5',
@@ -106,7 +106,7 @@ export const heartlineRewindStory: Story = {
       type: 'decision',
       title: 'Shared Secret',
       imageUrl:
-        'https://images.unsplash.com/photo-1516589178581?w=800',
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800',
       narration:
         'Words spill: the hour repeats, you have met her here before, and each time you learn a little more. Maya studies you, not unkindly; her fingers find yours as thunder mutters. \'If that is true,\' she says, \'then we choose differently this time.\' Her eyes hold galaxies of questions, but also a fierce determination that makes your heart ache. You realize she has been waiting for someone to share this burden with, someone who understands the weight of temporal recursion.',
       choices: [
@@ -134,7 +134,7 @@ export const heartlineRewindStory: Story = {
       imageUrl:
         'https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?w=800',
       narration:
-        'A cathedral of pendulums debates the present in overlapping ticks. One massive regulator argues loudly--its seconds hand double-steps, then sulks. You can feel the loop snag on its teeth. Maya gasps as she sees the anomaly, her scientific mind struggling to comprehend what her eyes report. The ancient timepieces seem to lean toward you, as if recognizing the ChronoCanvas as one of their own. The air hums with temporal resonance, heavy with possibility.',
+        'A cathedral of pendulums debates the present in overlapping ticks. One massive regulator argues loudly--its seconds hand double-steps, then sulks. You can feel the loop snag on its teeth. Maya gasps as she sees the anomaly, her scientific mind struggling to comprehend what her eyes report. The ancient timepieces seem to lean toward you, as if recognizing the FableFlow as one of their own. The air hums with temporal resonance, heavy with possibility.',
       choices: [
         {
           id: 'story-9123457712345-c9',
@@ -158,7 +158,7 @@ export const heartlineRewindStory: Story = {
       type: 'decision',
       title: 'Ancient Mural',
       imageUrl:
-        'https://images.unsplash.com/photo-1523438885200?w=800',
+        'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800',
       narration:
         'The painted figures move when you do not look directly, depicting artists who wielded time like clay. A hidden panel glows faintly where the regulator\'s shadow falls. Maya traces the symbols with trembling fingers, whispering translations from forgotten languages. The mural shows a doorway opening beneath a spiral moon, and you realize this is not the first loop this city has endured. Others have stood where you stand now, and some have succeeded.',
       choices: [
@@ -212,7 +212,7 @@ export const heartlineRewindStory: Story = {
       imageUrl:
         'https://images.unsplash.com/photo-1545232979-8bf68ee9b1af?w=800',
       narration:
-        'The pages describe your current moment with impossible accuracy, ending with a warning: \'Do not trust the curator.\' Footsteps echo from the main hall--heavy, purposeful, too soon. Maya presses against you in the shadows, her heartbeat synchronizing with the ChronoCanvas pulse. The journal falls open to a diagram showing two paths forward, each leading to different destinies, each demanding a different sacrifice.',
+        'The pages describe your current moment with impossible accuracy, ending with a warning: \'Do not trust the curator.\' Footsteps echo from the main hall--heavy, purposeful, too soon. Maya presses against you in the shadows, her heartbeat synchronizing with the FableFlow pulse. The journal falls open to a diagram showing two paths forward, each leading to different destinies, each demanding a different sacrifice.',
       choices: [
         {
           id: 'story-9123457712345-c15',
@@ -236,7 +236,7 @@ export const heartlineRewindStory: Story = {
       type: 'decision',
       title: 'After-Hours Encounter',
       imageUrl:
-        'https://images.unsplash.com/photo-1522673607200?w=800',
+        'https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=800',
       narration:
         'Emergency lights braid your shadow with the curator\'s. Their rolled plans crackle with static, humming in time with the faulty clock. They glance back--guilty, grieving, determined. \'You have it wrong,\' they whisper, tears cutting tracks through dust on their cheeks. \'I am not the one who trapped us here. I am trying to free us.\' Their voice carries the weight of countless failed loops, countless attempts to break the cycle.',
       choices: [
@@ -262,7 +262,7 @@ export const heartlineRewindStory: Story = {
       type: 'decision',
       title: 'Curator\'s Confession',
       imageUrl:
-        'https://images.unsplash.com/photo-1516589178581?w=800',
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800',
       narration:
         'They reveal a daughter lost in the first loop, a grief so sharp it cut time itself. \'The loop is a scar,\' they say, \'and scars protect what is wounded beneath.\' Maya\'s hand tightens in yours as you understand: breaking the loop means facing the original pain. The curator unfolds their plans, showing a mechanism that could heal the fracture, but the price is remembering everything--every loop, every loss, every version of goodbye.',
       choices: [
@@ -288,7 +288,7 @@ export const heartlineRewindStory: Story = {
       type: 'decision',
       title: 'Clockwork Calm',
       imageUrl:
-        'https://images.unsplash.com/photo-1516589178581?w=800',
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800',
       narration:
         'Your stroke bridges a missing tooth, and the seconds hand exhales to true pace. A hidden panel unlocks with a polite click. Inside: the torn vellum fragment and a key shaped like a question mark. The curator weeps openly now, not from sorrow but from hope. Maya discovers an inscription on the key\'s shaft--coordinates to the temporal nexus where the loop first formed. Time shudders, granting you one clear path forward.',
       choices: [
@@ -314,7 +314,7 @@ export const heartlineRewindStory: Story = {
       type: 'decision',
       title: 'Sketched Threshold',
       imageUrl:
-        'https://images.unsplash.com/photo-1523438885200?w=800',
+        'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800',
       narration:
         'Ink takes to brass like dew to dawn. The clock face softens, accepting a drawn door that opens on dry, singing sand. Cold air with a scent of sun on stone brushes your cheeks. Beyond lies the nexus--a place outside time where all loops converge. Maya steps forward without hesitation, her trust absolute. The curator hangs back, warning that once you cross, you cannot return unchanged. The Canvas pulses with anticipation.',
       choices: [
@@ -340,9 +340,9 @@ export const heartlineRewindStory: Story = {
       type: 'decision',
       title: 'Temple Dais',
       imageUrl:
-        'https://images.unsplash.com/photo-1518199266791?w=800',
+        'https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=800',
       narration:
-        'Moonlight gathers in a roofless chamber; sand whispers in little avalanches. Murals show artists painting with comet tails, looping days into gentler shapes. Two sets of footprints circle the dais--yours, and the version of you that keeps trying. At the center stands an altar where the ChronoCanvas was born, where time first bent to human will. The air shimmers with potential, waiting for your choice to crystalize into reality.',
+        'Moonlight gathers in a roofless chamber; sand whispers in little avalanches. Murals show artists painting with comet tails, looping days into gentler shapes. Two sets of footprints circle the dais--yours, and the version of you that keeps trying. At the center stands an altar where the FableFlow was born, where time first bent to human will. The air shimmers with potential, waiting for your choice to crystalize into reality.',
       choices: [
         {
           id: 'story-9123457712345-c25',
@@ -366,7 +366,7 @@ export const heartlineRewindStory: Story = {
       type: 'decision',
       title: 'Nexus Revelation',
       imageUrl:
-        'https://images.unsplash.com/photo-1523438885200?w=800',
+        'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800',
       narration:
         'The altar displays the blueprint of your life, every choice branching like frost across glass. The loop is a knot you tied yourself--trying to prevent Maya\'s accident, refusing to accept loss. Understanding crashes over you: you created this prison from love, and only you can unlock it. Maya sees it too, her eyes wide with recognition. \'You did this for me,\' she breathes, and her voice holds wonder and sorrow intertwined.',
       choices: [
@@ -394,7 +394,7 @@ export const heartlineRewindStory: Story = {
       imageUrl:
         'https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?w=800',
       narration:
-        'The blueprint overlays reality: the cut hour is a bright wound, throbbing. Your Canvas pulses with two clear options--restore the hour and take the shock yourself, or let the Canvas consume itself to close the seam cleanly. Maya\'s hand finds yours; either way, love is a constant. The temple begins to shake, sands shifting as the loop fights to maintain itself. Time demands an answer, and the ChronoCanvas glows with ultimate power.',
+        'The blueprint overlays reality: the cut hour is a bright wound, throbbing. Your Canvas pulses with two clear options--restore the hour and take the shock yourself, or let the Canvas consume itself to close the seam cleanly. Maya\'s hand finds yours; either way, love is a constant. The temple begins to shake, sands shifting as the loop fights to maintain itself. Time demands an answer, and the FableFlow glows with ultimate power.',
       choices: [
         {
           id: 'story-9123457712345-c29',
@@ -420,7 +420,7 @@ export const heartlineRewindStory: Story = {
       imageUrl:
         'https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?w=800',
       narration:
-        'The mechanism demands a final decision. You feel the weight of all loops pressing down--every version of you who tried and failed, every version who loved and lost. Maya stands beside you, her presence anchoring you to this moment, this choice. The ChronoCanvas shows four paths crystallizing from possibility, each leading to a different tomorrow. One path keeps the power but bears the burden. Another releases everything for freedom.',
+        'The mechanism demands a final decision. You feel the weight of all loops pressing down--every version of you who tried and failed, every version who loved and lost. Maya stands beside you, her presence anchoring you to this moment, this choice. The FableFlow shows four paths crystallizing from possibility, each leading to a different tomorrow. One path keeps the power but bears the burden. Another releases everything for freedom.',
       choices: [
         {
           id: 'story-9123457712345-c31',
@@ -460,7 +460,7 @@ export const heartlineRewindStory: Story = {
       imageUrl:
         'https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=800',
       narration:
-        'The hour returns with a soft click--rain resumes, traffic murmurs, and the city exhales. Your wrist ticks sometimes in storms, a private thunder you carry without complaint. Maya kisses the place the loop left bright: \'We will count together.\' You remember every version of her, every smile across infinite iterations, and know that love transcends even time\'s relentless march. The ChronoCanvas remains, quiet now, waiting.',
+        'The hour returns with a soft click--rain resumes, traffic murmurs, and the city exhales. Your wrist ticks sometimes in storms, a private thunder you carry without complaint. Maya kisses the place the loop left bright: \'We will count together.\' You remember every version of her, every smile across infinite iterations, and know that love transcends even time\'s relentless march. The FableFlow remains, quiet now, waiting.',
       choices: [],
     },
     {
@@ -469,7 +469,7 @@ export const heartlineRewindStory: Story = {
       type: 'ending',
       title: 'Paper Sacrifice',
       imageUrl:
-        'https://images.unsplash.com/photo-1518199266791?w=800',
+        'https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=800',
       narration:
         'The Canvas drinks its own ink until only the scent of rain remains. Time smooths like fresh paint drying, and clocks across the city breathe easier. You and Maya walk out under honest weather, empty-handed and free. You cannot remember what you sacrificed, only that it was worth this peace. The curator\'s daughter appears at the museum door, restored to a timeline that never broke.',
       choices: [],
@@ -491,9 +491,9 @@ export const heartlineRewindStory: Story = {
       type: 'ending',
       title: 'Scar Together',
       imageUrl:
-        'https://images.unsplash.com/photo-1522673607200?w=800',
+        'https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=800',
       narration:
-        'You paint a careful scar across your days, a looped nine resting under the skin of memory. The city moves on, loopless; you and Maya learn the rhythm of imperfect time. Some mornings you wake already finishing a laugh you have not started. She remembers fragments too, and together you build a language of déjà vu. The ChronoCanvas becomes a shared dream, a bridge between two souls who chose to carry time\'s weight as one.',
+        'You paint a careful scar across your days, a looped nine resting under the skin of memory. The city moves on, loopless; you and Maya learn the rhythm of imperfect time. Some mornings you wake already finishing a laugh you have not started. She remembers fragments too, and together you build a language of déjà vu. The FableFlow becomes a shared dream, a bridge between two souls who chose to carry time\'s weight as one.',
       choices: [],
     },
   ],

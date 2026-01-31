@@ -6,9 +6,9 @@ export const midnightGardenStory: Story = {
   description:
     "You inherit a Victorian mansion with a garden that only blooms at midnight. When you meet the enigmatic gardener who tends it, you discover he's been waiting a century for someone who can see the flowers. As magic intertwines with romance, you must choose between your world and his.",
   coverImageUrl:
-    'https://images.unsplash.com/photo-1518199266791?w=800',
+    'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800',
   thumbnailUrl:
-    'https://images.unsplash.com/photo-1518199266791?w=400',
+    'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=400',
   author: 'Isabella Crane',
   genre: 'romance',
   involvement: 'medium',
@@ -56,7 +56,7 @@ export const midnightGardenStory: Story = {
       type: 'decision',
       title: 'Luminescent Blooms',
       imageUrl:
-        'https://images.unsplash.com/photo-1522673607200?w=800',
+        'https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800',
       narration:
         'The garden glows with otherworldly light. Flowers you have never seen—petals like stained glass, stems that pulse with silver luminescence—bloom in impossible arrangements. At the garden\'s heart stands a man in a worn coat, tending the flowers with careful devotion. He looks up, and his eyes widen in shock. "You can see them," he breathes. "You can actually see the flowers." His face is beautiful and ageless, touched by moonlight and something more. He has been waiting, you realize, for someone exactly like you. The moment stretches between you, charged with possibility and ancient magic.',
       choices: [
@@ -109,7 +109,7 @@ export const midnightGardenStory: Story = {
       type: 'decision',
       title: 'Moonlit Confession',
       imageUrl:
-        'https://images.unsplash.com/photo-1516589178581?w=800',
+        'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
       narration:
         'The gardener straightens, eyes glinting like silvered leaves in the moonlight. His voice trembles between relief and dread as he speaks. "My name is Elias Thorne, bound to this garden until the right heir arrives." The petals around you pulse, echoing his heartbeat in a rhythm that feels ancient and intimate. He studies your face with an intensity that makes your breath catch, searching for something in your features. "You have her eyes," he whispers, "the eyes of Eleanor Thornewood, who planted the first seed a century ago." His words hang in the fragrant air between you.',
       choices: [
@@ -135,7 +135,7 @@ export const midnightGardenStory: Story = {
       type: 'decision',
       title: 'Glimmering Vision',
       imageUrl:
-        'https://images.unsplash.com/photo-1523438885200?w=800',
+        'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=800',
       narration:
         'As your fingers brush the bloom, liquid light pours through you like warm honey. Your pulse syncs with the garden\'s rhythm and you glimpse memories that are not yours—moonlit dances in this very spot, whispered vows exchanged beneath flowering arches, a lonely gardener tending petals that outlive every season. The vision shows you Elias, unchanged through decades, waiting with patient sorrow. When you open your eyes, he is beside you, wonder and fear warring in his expression. "The flowers have chosen to show you," he says softly, reaching toward you with trembling fingers.',
       choices: [
@@ -161,7 +161,7 @@ export const midnightGardenStory: Story = {
       type: 'decision',
       title: 'Moonbound Conservatory',
       imageUrl:
-        'https://images.unsplash.com/photo-1523438885200?w=800',
+        'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=800',
       narration:
         'A domed conservatory waits beyond a curtain of ivy, its glass panes glowing with inner light. Inside, instruments of brass and crystal hang like constellations from the ceiling, each tremor of the humming note setting them aglow with sympathetic resonance. A hidden door is edged with frost, exhaling midnight air that smells of snow and jasmine. On a marble pedestal, a single flower blooms in defiance of winter—its petals move like liquid silver, and you realize with a shock that it is the source of the humming that has guided you through the darkened halls of your inheritance.',
       choices: [
@@ -187,7 +187,7 @@ export const midnightGardenStory: Story = {
       type: 'decision',
       title: 'Ancestral Study',
       imageUrl:
-        'https://images.unsplash.com/photo-1518199266791?w=800',
+        'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800',
       narration:
         'Dust billows as the sealed study yields to your push. Ledgers, maps, and a portrait of a woman who shares your eyes crowd the shelves—her expression is knowing, as if she expected you. A silver key shaped like a crescent rests atop a velvet journal, waiting for someone to claim it. The pages of the journal are yellowed with age, filled with handwriting that mirrors your own. Entries speak of a garden that blooms only at midnight, of a guardian bound by love and oath, of a choice that will determine the fate of both garden and keeper.',
       choices: [
@@ -214,7 +214,7 @@ export const midnightGardenStory: Story = {
       type: 'decision',
       title: 'Cursed Wakefulness',
       imageUrl:
-        'https://images.unsplash.com/photo-1516589178581?w=800',
+        'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
       narration:
         'Elias exhales, revealing that the garden blooms only for the Thorne bloodline. He explains how he pledged himself to guard the liminal gate between worlds until an heir could see the midnight blossoms and decide the manor\'s fate. "A century ago, Eleanor and I made a pact," he says, his voice heavy with memory. "I would keep the garden alive, and she would send someone who could set me free—or bind me forever." The weight of generations hangs between you, and you feel the burden of his waiting pressing on your heart like a heavy stone.',
       choices: [
@@ -266,7 +266,7 @@ export const midnightGardenStory: Story = {
       type: 'decision',
       title: 'Pulse of Starlight',
       imageUrl:
-        'https://images.unsplash.com/photo-1522673607200?w=800',
+        'https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800',
       narration:
         'The energy you pulled back coils inside your chest like a captured comet. Every heartbeat sends sparks down your arms, and the flowers nearest you bloom brighter, bending toward your warmth as if seeking the sun. Elias watches with something like awe. "You carry the resonance," he whispers. "The garden recognizes you as Thorne blood." The power hums beneath your skin, demanding to be used, to be directed. You feel connected to every root and petal, aware of the garden as a living entity with desires and needs of its own calling to you.',
       choices: [
@@ -344,7 +344,7 @@ export const midnightGardenStory: Story = {
       type: 'decision',
       title: 'Eleanor\'s Testament',
       imageUrl:
-        'https://images.unsplash.com/photo-1516589178581?w=800',
+        'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
       narration:
         'The journal reveals Eleanor\'s deepest secrets. She loved Elias but chose mortality and family over his eternal garden. "I have left this for the one who inherits my eyes and my debt," she writes. "Three paths exist: join him and become bound to the midnight blooms, free him and risk the garden\'s death, or find a way to bridge both worlds—though I never discovered how." Her final entry is a confession of regret, of nights spent wondering, of hope that her descendant would succeed where she had failed.',
       choices: [
@@ -423,7 +423,7 @@ export const midnightGardenStory: Story = {
       type: 'decision',
       title: 'Resonant Promise',
       imageUrl:
-        'https://images.unsplash.com/photo-1523438885200?w=800',
+        'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=800',
       narration:
         'Standing within the circle of moonlight, you feel the garden attune to both your breaths. Elias speaks of dawns he has never witnessed and futures he no longer dares imagine. "I have been alone so long," he confesses, "that I had forgotten what it feels like to be seen." His hand in yours is warm, solid, alive. The garden\'s magic weaves around you, offering connection, offering permanence, offering a shared existence beyond the boundaries of ordinary life. But it also demands choice, commitment, a path that cannot be easily reversed.',
       choices: [
@@ -475,7 +475,7 @@ export const midnightGardenStory: Story = {
       type: 'decision',
       title: 'Shared Strength',
       imageUrl:
-        'https://images.unsplash.com/photo-1516589178581?w=800',
+        'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
       narration:
         'Together, you and Elias channel the power you have gathered. The garden responds to your combined intention, blooming brighter than ever before. "With two hearts instead of one," Elias says, wonder in his voice, "the magic is stronger but also more flexible." He looks at you with an expression that transcends gratitude—it is recognition, as if he has found the companion he has been seeking for a century. The path forward is still unclear, but you face it together, your hands joined, your resolve matched in strength.',
       choices: [
@@ -634,7 +634,7 @@ export const midnightGardenStory: Story = {
       type: 'decision',
       title: 'Guardian\'s Pledge',
       imageUrl:
-        'https://images.unsplash.com/photo-1518199266791?w=800',
+        'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800',
       narration:
         'The garden recognizes your commitment, blooming in a cascade of silver light that wraps around you like silken threads. You feel the ancient magic weaving around you, offering permanence, offering purpose, offering a shared existence with Elias that transcends mortal bounds. But permanence has its price—you will be bound as he was, tied to midnight and moonlight, absent from the daylit world. Elias looks at you with anguish and joy mingled in his beautiful eyes. "Are you certain?" he asks softly. "I would not wish my solitude on anyone."',
       choices: [
@@ -714,7 +714,7 @@ export const midnightGardenStory: Story = {
       type: 'decision',
       title: 'The Promise of Dawn',
       imageUrl:
-        'https://images.unsplash.com/photo-1522673607200?w=800',
+        'https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800',
       narration:
         'You stand at the threshold between midnight and morning, between binding and freedom. Elias faces you, hope and fear equally present in his expression. "Whatever you choose," he says, "know that you have already given me something precious—the memory of being seen, being chosen, being loved." The garden seems to hold its breath, waiting. The stars above begin to fade as the eastern sky lightens. Time presses upon you; the choice cannot be delayed much longer.',
       choices: [
@@ -740,7 +740,7 @@ export const midnightGardenStory: Story = {
       type: 'decision',
       title: 'Final Release',
       imageUrl:
-        'https://images.unsplash.com/photo-1523438885200?w=800',
+        'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=800',
       narration:
         'The moment of final decision arrives with the first gray light of dawn touching the horizon. You and Elias stand together at the threshold, your hands joined, your futures intertwined whether you choose to stay or go. The garden seems to hold its breath, every flower, every leaf, every root aware that everything is about to change forever. "Whatever comes next," Elias says, his voice steady and full of love, "I am grateful you came. You have given me something I thought lost forever—hope and connection."',
       choices: [
@@ -767,7 +767,7 @@ export const midnightGardenStory: Story = {
       type: 'ending',
       title: 'Midnight Keepers',
       imageUrl:
-        'https://images.unsplash.com/photo-1516589178581?w=800',
+        'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
       narration:
         'You choose the moonlit path, remaining with Elias as the garden\'s new heart. Together you tend the blooms that bridge worlds, greeting each night with shared laughter and whispered promises. The outside world fades like a half-remembered dream, but the midnight garden thrives under your combined care. Elias teaches you the names of flowers that exist nowhere else, and you teach him that solitude can become companionship. Centuries may pass, but you will face them together, two souls woven into the eternal tapestry of Thornewood Manor.',
       choices: [],
@@ -778,7 +778,7 @@ export const midnightGardenStory: Story = {
       type: 'ending',
       title: 'Shared Sunrise',
       imageUrl:
-        'https://images.unsplash.com/photo-1518199266791?w=800',
+        'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800',
       narration:
         'You guide Elias beyond the gates as dawn breaks, carrying a single luminous bloom as proof the magic can survive the sun. The manor awakens to laughter, music, and a garden that finally welcomes daylight. Together you transform the ancient estate into a place where both worlds meet—where midnight flowers bloom in protected glades and morning roses climb the walls. Love and legacy take root in the open air, and Elias weeps with joy at his first sunrise in a hundred years, your hand warm in his.',
       choices: [],

@@ -23,7 +23,7 @@ export const story_9932045517721StoryTranslations: Partial<Record<Language, Stor
   en: {
     title: 'Rootweaver’s Pact',
     description: 'Letters carved by sap bleed through bark: the world-tree is unwell. You can hear its pulse if you press your ear to the grain—and if you dare, you can answer. Will you heal with memory, bargain with fae, or cut what must be cut?',
-    author: 'ChronoCanvas Studio',
+    author: 'FableFlow Studio',
     nodes: {
       'story-9932045517721-1': {
         title: 'Whispering Roots',
@@ -609,7 +609,7 @@ export const story_9932045517721StoryTranslations: Partial<Record<Language, Stor
   es: {
     title: 'El Pacto del Tejedor de Raíces',
     description: 'Letras talladas por savia sangran a través de la corteza: el árbol del mundo está enfermo. Puedes escuchar su pulso si presionas tu oído contra la veta, y si te atreves, puedes responder. ¿Sanarás con memoria, negociarás con hadas, o cortarás lo que debe ser cortado?',
-    author: 'Estudio ChronoCanvas',
+    author: 'Estudio FableFlow',
     nodes: {
       'story-9932045517721-1': {
         title: 'Raíces Susurrantes',
@@ -902,7 +902,7 @@ export const story_9932045517721StoryTranslations: Partial<Record<Language, Stor
   de: {
     title: 'Der Pakt des Wurzelwebers',
     description: 'In Saft geschnitzte Buchstaben bluten durch die Rinde: Der Weltenbaum ist krank. Du kannst seinen Puls hören, wenn du dein Ohr an die Maserung drückst – und wenn du es wagst, kannst du antworten. Wirst du mit Erinnerung heilen, mit Feen verhandeln oder schneiden, was geschnitten werden muss?',
-    author: 'ChronoCanvas Studio',
+    author: 'FableFlow Studio',
     nodes: {
       'story-9932045517721-1': {
         title: 'Flüsternde Wurzeln',
@@ -1195,7 +1195,7 @@ export const story_9932045517721StoryTranslations: Partial<Record<Language, Stor
   fr: {
     title: 'Le Pacte du Tisseur de Racines',
     description: 'Des lettres gravées par la sève saignent à travers l\'écorce : l\'arbre-monde est malade. Tu peux entendre son pouls si tu colles ton oreille contre le grain, et si tu oses, tu peux répondre. Guériras-tu avec la mémoire, négocieras-tu avec les fées, ou couperas-tu ce qui doit être coupé ?',
-    author: 'Studio ChronoCanvas',
+    author: 'Studio FableFlow',
     nodes: {
       'story-9932045517721-1': {
         title: 'Racines Chuchotantes',
@@ -1488,7 +1488,7 @@ export const story_9932045517721StoryTranslations: Partial<Record<Language, Stor
   pt: {
     title: 'O Pacto do Tecelão de Raízes',
     description: 'Letras esculpidas pela seiva sangram através da casca: a árvore-mundo está doente. Podes ouvir o seu pulso se encostares o ouvido ao grão, e se ousares, podes responder. Irás curar com memória, negociar com fadas, ou cortar o que deve ser cortado?',
-    author: 'Estúdio ChronoCanvas',
+    author: 'Estúdio FableFlow',
     nodes: {
       'story-9932045517721-1': {
         title: 'Raízes Sussurrantes',
