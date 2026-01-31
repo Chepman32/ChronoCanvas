@@ -9,7 +9,7 @@ export const glassKeyProtocolStory: Story = {
     'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=800',
   thumbnailUrl:
     'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=400',
-  author: 'Noir Collective',
+  author: 'Sam Vickers',
   genre: 'mystery',
   involvement: 'high',
   estimatedDuration: 35,

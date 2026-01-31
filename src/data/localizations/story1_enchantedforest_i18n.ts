@@ -555,4 +555,256 @@ export const enchantedForestStoryTranslations: Record<
       },
     },
   },
+
+  it: {
+    title: 'La Foresta Incantata',
+    description: 'Un viaggio mistico attraverso un\'antica foresta dove ogni scelta plasma il tuo destino.',
+    author: 'Elena Rivers',
+    nodes: {
+      'node-1': {
+        title: 'L\'Ingresso della Foresta',
+        narration: 'Ti trovi ai margini di un\'antica foresta. Gli alberi si ergono sopra di te, i loro rami formano una chioma che filtra la luce solare in pattern danzanti sul pavimento della foresta. Un sentiero battuto conduce più in profondità nei boschi, mentre un ruscello luccica alla tua destra.',
+        choices: {
+          'choice-1': { text: 'Segui il sentiero battuto', description: 'Il sentiero sembra percorso spesso' },
+          'choice-2': { text: 'Segui il ruscello', description: 'L\'acqua luccica in modo invitante' },
+        },
+      },
+      'node-2': {
+        title: 'La Quercia Antica',
+        narration: 'Il sentiero ti conduce a una quercia massiccia, il cui tronco è più largo di una casa. Simboli strani sono intagliati nella sua corteccia, brillando debolmente con una luce eterea. Senti sussurri nel vento.',
+        choices: {
+          'choice-3': { text: 'Tocca i simboli brillanti' },
+          'choice-4': { text: 'Continua oltre l\'albero' },
+        },
+      },
+      'node-3': {
+        title: 'Lo Stagno di Cristallo',
+        narration: 'Seguendo il ruscello, scopri uno stagno cristallino. L\'acqua è così trasparente che puoi vedere pesci colorati nuotare sotto. Al centro dello stagno, una piccola isola ospita un singolo fiore bianco.',
+        choices: {
+          'choice-5': { text: 'Vai verso l\'isola' },
+          'choice-6': { text: 'Riposa vicino allo stagno' },
+        },
+      },
+      'node-4': {
+        title: 'Il Guardiano della Foresta',
+        narration: 'La tua scelta risveglia il guardiano della foresta, uno spirito maestoso di luce e natura. Ti ringrazia per il tuo coraggio e ti concede il dono di comprendere tutte le cose viventi. Lasci la foresta per sempre cambiato, in grado di sentire i sussurri della natura.',
+        choices: {},
+      },
+      'node-5': {
+        title: 'Viaggio Pacifico',
+        narration: 'Continui il tuo viaggio attraverso la foresta, godendone la bellezza e la tranquillità. Quando emergi dall\'altro lato, ti senti rinfrescato e in pace. La foresta ti ha dato un dono di serenità che rimarrà con te per sempre.',
+        choices: {},
+      },
+    },
+  },
+
+  ar: {
+    title: 'الغابة المسحورة',
+    description: 'رحلة غامضة عبر غابة قديمة حيث كل اختيار يحدد مصيرك.',
+    author: 'إلينا ريفرز',
+    nodes: {
+      'node-1': {
+        title: 'مدخل الغابة',
+        narration: 'تقف على حافة غابة قديمة. الأشجار ترتفع فوقك، وفروعها تشكل مظلة تُرشح أشعة الشمس إلى أنماط راقصة على أرضية الغابة. طريق ممهد يؤدي أعمق إلى الغابة، بينما يتلألأ جدول على يمينك.',
+        choices: {
+          'choice-1': { text: 'اتبع الطريق الممهد', description: 'يبدو أن الطريق معبّد جيداً' },
+          'choice-2': { text: 'اتبع الجدول', description: 'الماء يلمع بشكل مغري' },
+        },
+      },
+      'node-2': {
+        title: 'البلوطة القديمة',
+        narration: 'الطريق يقودك إلى شجرة بلوطة ضخمة، جذعها أعرض من منزل. رموز غريبة محفورة في لحائها، تتوهج بضوء شبحي خافت. تسمع همسات في الرياح.',
+        choices: {
+          'choice-3': { text: 'المس الرموز المتوهجة' },
+          'choice-4': { text: 'استمر عبر الشجرة' },
+        },
+      },
+      'node-3': {
+        title: 'البركة البلورية',
+        narration: 'باتباع الجدول، تكتشف بركة بلورية. الماء شفاف جداً بحيث يمكنك رؤية الأسماك الملونة تسبح في الأسفل. في وسط البركة، جزيرة صغيرة تحمل زهرة بيضاء واحدة.',
+        choices: {
+          'choice-5': { text: 'توغل إلى الجزيرة' },
+          'choice-6': { text: 'استرح بجانب البركة' },
+        },
+      },
+      'node-4': {
+        title: 'حارس الغابة',
+        narration: 'يستيقظ حارس الغابة بفضل اختيارك، روح مهيبة من الضوء والطبيعة. تشكرك على شجاعتك وتمنحك موهبة فهم جميع الكائنات الحية. تغادر الغابة متغيراً إلى الأبد، قادراً على سماع همسات الطبيعة.',
+        choices: {},
+      },
+      'node-5': {
+        title: 'رحلة سلمية',
+        narration: 'تستمر في رحلتك عبر الغابة، متمتعاً بجمالها وهدوئها. عندما تخرج من الجانب الآخر، تشعر بالانتعاش والسلام. منحتك الغابة عطية الهدوء التي ستبقى معك إلى الأبد.',
+        choices: {},
+      },
+    },
+  },
+
+  hi: {
+    title: 'जादुई जंगल',
+    description: 'एक प्राचीन जंगल के माध्यम से एक रहस्यमयी यात्रा जहाँ हर विकल्प आपकी किस्मत का निर्धारण करता है।',
+    author: 'एलेना रिवर्स',
+    nodes: {
+      'node-1': {
+        title: 'जंगल का प्रवेश द्वार',
+        narration: 'आप एक प्राचीन जंगल के किनारे खड़े हैं। पेड़ आपके ऊपर उभरे हैं, उनकी शाखाएँ एक छत बनाती हैं जो सूरज की रोशनी को जंगल के फर्श पर नाचते पैटर्न में छानती है। एक घिसा हुआ रास्ता जंगल में गहराई तक जाता है, जबकि दाईं ओर एक नदी चमक रही है।',
+        choices: {
+          'choice-1': { text: 'घिसे हुए रास्ते का पालन करें', description: 'रास्ता अच्छी तरह से तय किया हुआ लगता है' },
+          'choice-2': { text: 'नदी का पालन करें', description: 'पानी आकर्षक रूप से चमक रहा है' },
+        },
+      },
+      'node-2': {
+        title: 'प्राचीन बलूत का पेड़',
+        narration: 'रास्ता आपको एक विशाल बलूत के पेड़ तक ले जाता है, जिसका तना एक घर से चौड़ा है। अजीब प्रतीक इसकी छाल में उकेरे गए हैं, एक अलौकिक प्रकाश के साथ धीरे-धीरे चमक रहे हैं। आप हवा में फुसफुसाहट सुनते हैं।',
+        choices: {
+          'choice-3': { text: 'चमकते प्रतीकों को छुएं' },
+          'choice-4': { text: 'पेड़ के पास से आगे बढ़ें' },
+        },
+      },
+      'node-3': {
+        title: 'क्रिस्टल तालाब',
+        narration: 'नदी का पालन करते हुए, आप एक क्रिस्टल-स्पष्ट तालाब की खोज करते हैं। पानी इतना पारदर्शी है कि आप नीचे तैरती रंगीन मछलियों को देख सकते हैं। तालाब के केंद्र में, एक छोटा द्वीप एक सफेद फूल रखता है।',
+        choices: {
+          'choice-5': { text: 'द्वीप की ओर बढ़ें' },
+          'choice-6': { text: 'तालाब के पास आराम करें' },
+        },
+      },
+      'node-4': {
+        title: 'जंगल का संरक्षक',
+        narration: 'आपकी पसंद जंगल के संरक्षक को जगाती है, प्रकाश और प्रकृति की एक भव्य आत्मा। वह आपकी बहादुरी के लिए धन्यवाद करती है और आपको सभी जीवित चीजों को समझने का उपहार देती है। आप जंगल को हमेशा के लिए बदलकर छोड़ते हैं, प्रकृति की फुसफुसाहट सुनने में सक्षम।',
+        choices: {},
+      },
+      'node-5': {
+        title: 'शांतिपूर्ण यात्रा',
+        narration: 'आप जंगल के माध्यम से अपनी यात्रा जारी रखते हैं, इसकी सुंदरता और शांति का आनंद लेते हुए। जब आप दूसरी तरफ निकलते हैं, तो आप तरोताजा और शांति महसूस करते हैं। जंगल ने आपको शांति का उपहार दिया है जो हमेशा के लिए आपके साथ रहेगा।',
+        choices: {},
+      },
+    },
+  },
+
+  nl: {
+    title: 'Het Betoverde Bos',
+    description: 'Een mystieke reis door een oud bos waar elke keuze je lot vormt.',
+    author: 'Elena Rivers',
+    nodes: {
+      'node-1': {
+        title: 'De Bosingang',
+        narration: 'Je staat aan de rand van een oud bos. De bomen toren boven je uit, hun takken vormen een luifel die het zonlicht filtert in dansende patronen op de bosvloer. Een versleten pad leidt dieper het bos in, terwijl een beekje rechts van je glinstert.',
+        choices: {
+          'choice-1': { text: 'Volg het versleten pad', description: 'Het pad ziet er goed begaanbaar uit' },
+          'choice-2': { text: 'Volg het beekje', description: 'Het water glinstert uitnodigend' },
+        },
+      },
+      'node-2': {
+        title: 'De Oude Eik',
+        narration: 'Het pad leidt je naar een enorme eikboom, waarvan de stam breder is dan een huis. Vreemde symbolen zijn in zijn schors gekerfd, zwak gloeiend met een etherisch licht. Je hoort gefluister in de wind.',
+        choices: {
+          'choice-3': { text: 'Raak de gloeiende symbolen aan' },
+          'choice-4': { text: 'Loop verder langs de boom' },
+        },
+      },
+      'node-3': {
+        title: 'De Kristalvijver',
+        narration: 'Het beekje volgend, ontdek je een kristalheldere vijver. Het water is zo transparant dat je kleurrijke vissen eronder kunt zien zwemmen. In het midden van de vijver houdt een klein eilandje een enkele witte bloem.',
+        choices: {
+          'choice-5': { text: 'Wad naar het eiland' },
+          'choice-6': { text: 'Rust bij de vijver' },
+        },
+      },
+      'node-4': {
+        title: 'De Boswachter',
+        narration: 'Je keuze wekt de boswachter, een majestueuze geest van licht en natuur. Ze bedankt je voor je moed en schenkt je de gave om alle levende wezens te begrijpen. Je verlaat het bos voor altijd veranderd, in staat om de fluisteringen van de natuur te horen.',
+        choices: {},
+      },
+      'node-5': {
+        title: 'Vredige Reis',
+        narration: 'Je zet je reis door het bos voort, genietend van de schoonheid en rust. Wanneer je aan de andere kant uitkomt, voel je je verfrist en vredig. Het bos heeft je een gave van sereniteit gegeven die altijd bij je zal blijven.',
+        choices: {},
+      },
+    },
+  },
+
+  pl: {
+    title: 'Zaczarowany Las',
+    description: 'Mistyczna podróż przez starożytny las, gdzie każdy wybór kształtuje twój los.',
+    author: 'Elena Rivers',
+    nodes: {
+      'node-1': {
+        title: 'Wejście do Lasu',
+        narration: 'Stoisz na skraju starożytnego lasu. Drzewa wznoszą się nad tobą, ich gałęzie tworzą baldachim, który filtruje światło słoneczne w tańczące wzory na podłodze lasu. Wytarty szlak prowadzi głębiej w las, podczas gdy strumień błyszczy po twojej prawej stronie.',
+        choices: {
+          'choice-1': { text: 'Podążaj wytartym szlakiem', description: 'Szlak wygląda na dobrze przetarty' },
+          'choice-2': { text: 'Podążaj strumieniem', description: 'Woda błyszczy zachęcająco' },
+        },
+      },
+      'node-2': {
+        title: 'Starożytny Dąb',
+        narration: 'Szlak prowadzi cię do ogromnego dębu, którego pień jest szerszy niż dom. Dziwne symbole są wyrzeźbione w jego korze, słabo świecąc eterycznym światłem. Słyszysz szepty na wietrze.',
+        choices: {
+          'choice-3': { text: 'Dotknij świecących symboli' },
+          'choice-4': { text: 'Kontynuuj obok drzewa' },
+        },
+      },
+      'node-3': {
+        title: 'Kryształowy Staw',
+        narration: 'Podążając strumieniem, odkrywasz kryształowo czysty staw. Woda jest tak przezroczysta, że możesz zobaczyć kolorowe ryby pływające pod spodem. W centrum stawu mała wyspa trzyma jeden biały kwiat.',
+        choices: {
+          'choice-5': { text: 'Wade do wyspy' },
+          'choice-6': { text: 'Odpocznij przy stawie' },
+        },
+      },
+      'node-4': {
+        title: 'Strażnik Lasu',
+        narration: 'Twój wybór budzi strażnika lasu, majestatycznego ducha światła i natury. Dziękuje ci za odwagę i obdarza cię darem rozumienia wszystkich żywych istot. Opuszczasz las na zawsze zmieniony, zdolny do słyszenia szepczącej natury.',
+        choices: {},
+      },
+      'node-5': {
+        title: 'Pokojowa Podróż',
+        narration: 'Kontynuujesz swoją podróż przez las, ciesząc się jego pięknem i spokojem. Gdy wychodzisz z drugiej strony, czujesz się odświeżony i pokojowy. Las dał ci dar spokoju, który pozostanie z tobą na zawsze.',
+        choices: {},
+      },
+    },
+  },
+
+  tr: {
+    title: 'Büyülü Orman',
+    description: 'Her seçimin kaderini belirlediği eski bir ormanda mistik bir yolculuk.',
+    author: 'Elena Rivers',
+    nodes: {
+      'node-1': {
+        title: 'Orman Girişi',
+        narration: 'Eski bir ormanın kenarında duruyorsunuz. Ağaçlar sizin üzerinizde yükseliyor, dalları güneş ışığını orman zemininde dans eden desenlere süzen bir gölgelik oluşturuyor. Eski bir patika ormanın derinliklerine doğru ilerliyor, sağınızda bir dere parıldıyor.',
+        choices: {
+          'choice-1': { text: 'Eski patikayı takip et', description: 'Patika iyi yürütülmüş görünüyor' },
+          'choice-2': { text: 'Dereyi takip et', description: 'Su davetkar bir şekilde parıldıyor' },
+        },
+      },
+      'node-2': {
+        title: 'Antik Meşe',
+        narration: 'Patika sizi gövdesi bir evden geniş olan devasa bir meşe ağacına götürüyor. Kabuğuna oymaları tuhaf semboller, etere bir ışıkla zayıfça parlıyor. Rüzgarda fısıltılar duyuyorsunuz.',
+        choices: {
+          'choice-3': { text: 'Parlayan sembollere dokun' },
+          'choice-4': { text: 'Ağacın yanından devam et' },
+        },
+      },
+      'node-3': {
+        title: 'Kristal Havuz',
+        narration: 'Dereyi takip ederek kristal berraklığında bir havuz keşfediyorsunuz. Su öyle şeffaf ki altta yüzen renkli balıkları görebiliyorsunuz. Havuzun ortasında küçük bir ada tek beyaz bir çiçek tutuyor.',
+        choices: {
+          'choice-5': { text: 'Adaya doğru yürü' },
+          'choice-6': { text: 'Havuzun yanında dinlen' },
+        },
+      },
+      'node-4': {
+        title: 'Orman Muhafızı',
+        narration: 'Seçiminiz orman muhafızını uyandırıyor, ışığın ve doğanın görkemli bir ruhu. Cesaretiniz için size teşekkür ediyor ve tüm canlıları anlama hediyesini veriyor. Ormandan sonsuza dek değişmiş bir şekilde ayrılıyorsunuz, doğanın fısıltılarını duyabilecek şekilde.',
+        choices: {},
+      },
+      'node-5': {
+        title: 'Huzurlu Yolculuk',
+        narration: 'Ormandan geçen yolculuğunuza devam ediyor, güzelliğinin ve huzurunun tadını çıkarıyorsunuz. Diğer taraftan çıktığınızda kendinizi yenilenmiş ve huzurlu hissediyorsunuz. Orman size sonsuza kadar kalacak huzur hediyesini verdi.',
+        choices: {},
+      },
+    },
+  },
 };

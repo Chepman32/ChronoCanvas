@@ -43,30 +43,21 @@ export const story_892746531StoryTranslations: Partial<Record<Language, StoryTra
   },
 
   // Русский - Not yet translated
-  ru: { title: '', description: '', author: '', nodes: {} },
 
   // Español - Not yet translated
-  es: { title: '', description: '', author: '', nodes: {} },
 
   // Deutsch - Not yet translated
-  de: { title: '', description: '', author: '', nodes: {} },
 
   // Français - Not yet translated
-  fr: { title: '', description: '', author: '', nodes: {} },
 
   // Português - Not yet translated
-  pt: { title: '', description: '', author: '', nodes: {} },
 
   // 日本語 - Not yet translated
-  ja: { title: '', description: '', author: '', nodes: {} },
 
   // 中文 - Not yet translated
-  zh: { title: '', description: '', author: '', nodes: {} },
 
   // 한국어 - Not yet translated
-  ko: { title: '', description: '', author: '', nodes: {} },
 
   // Українська - Not yet translated
-  uk: { title: '', description: '', author: '', nodes: {} },
 
 };

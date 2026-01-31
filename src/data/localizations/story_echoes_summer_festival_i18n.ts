@@ -23,7 +23,7 @@ export const echoesSummerFestivalTranslations: Partial<Record<Language, StoryTra
   en: {
     title: 'Echoes of the Summer Festival',
     description: 'You return to your hometown\'s summer festival and reconnect with an old friend, discovering how one evening can change everything.',
-    author: 'AI Story Generator',
+    author: 'Maya Chen',
     nodes: {
       'node-1': {
         title: 'Return to Lantern Hill',
@@ -48,7 +48,7 @@ export const echoesSummerFestivalTranslations: Partial<Record<Language, StoryTra
   ru: {
     title: 'Эхо Летнего Фестиваля',
     description: 'Вы возвращаетесь на летний фестиваль в родной город и встречаетесь со старым другом, открывая, как один вечер может изменить всё.',
-    author: 'ИИ Генератор Историй',
+    author: 'Майя Чен',
     nodes: {
       'node-1': {
         title: 'Возвращение на Холм Фонарей',
@@ -73,7 +73,7 @@ export const echoesSummerFestivalTranslations: Partial<Record<Language, StoryTra
   es: {
     title: 'Ecos del Festival de Verano',
     description: 'Regresas al festival de verano de tu ciudad natal y te reconectas con un viejo amigo, descubriendo cómo una sola tarde puede cambiarlo todo.',
-    author: 'Generador de Historias IA',
+    author: 'Maya Chen',
     nodes: {
       'node-1': {
         title: 'Regreso a la Colina de los Faroles',
@@ -98,7 +98,7 @@ export const echoesSummerFestivalTranslations: Partial<Record<Language, StoryTra
   de: {
     title: 'Echos des Sommerfestes',
     description: 'Du kehrst zum Sommerfest deiner Heimatstadt zurück und findest zu einem alten Freund zurück, entdeckst, wie ein einziger Abend alles verändern kann.',
-    author: 'KI Geschichtengenerator',
+    author: 'Maya Chen',
     nodes: {
       'node-1': {
         title: 'Rückkehr zum Laternenhügel',
@@ -123,7 +123,7 @@ export const echoesSummerFestivalTranslations: Partial<Record<Language, StoryTra
   fr: {
     title: 'Les Échos du Festival d\'Été',
     description: 'Tu retournes au festival d\'été de ta ville natale et retrouves un vieil ami, découvrant comment une seule soirée peut tout changer.',
-    author: 'Générateur de Histoires IA',
+    author: 'Maya Chen',
     nodes: {
       'node-1': {
         title: 'Retour à la Colline des Lanternes',
@@ -148,7 +148,7 @@ export const echoesSummerFestivalTranslations: Partial<Record<Language, StoryTra
   pt: {
     title: 'Ecos do Festival de Verão',
     description: 'Você retorna ao festival de verão da sua cidade natal e se reconecta com um velho amigo, descobrindo como uma única noite pode mudar tudo.',
-    author: 'Gerador de Histórias IA',
+    author: 'Maya Chen',
     nodes: {
       'node-1': {
         title: 'Retorno à Colina dos Lanterns',
@@ -173,7 +173,7 @@ export const echoesSummerFestivalTranslations: Partial<Record<Language, StoryTra
   ja: {
     title: '夏祭りの残響',
     description: '故郷の夏祭りに戻り、昔の友と再会し、一晩ですべてが変わることを発見する。',
-    author: 'AIストーリージェネレーター',
+    author: 'Maya Chen',
     nodes: {
       'node-1': {
         title: '灯籠の丘への帰還',
@@ -198,7 +198,7 @@ export const echoesSummerFestivalTranslations: Partial<Record<Language, StoryTra
   zh: {
     title: '夏之祭的回响',
     description: '你回到家乡的夏日祭典，与一位老友重逢，发现一个夜晚如何改变一切。',
-    author: 'AI故事生成器',
+    author: 'Maya Chen',
     nodes: {
       'node-1': {
         title: '重返灯笼山',
@@ -223,7 +223,7 @@ export const echoesSummerFestivalTranslations: Partial<Record<Language, StoryTra
   ko: {
     title: '여름 축제의 메아리',
     description: '고향의 여름 축제로 돌아가 오랜 친구와 재회하며, 어떻게 하룻밤이 모든 것을 바꿀 수 있는지 발견한다.',
-    author: 'AI 스토리 생성기',
+    author: 'Maya Chen',
     nodes: {
       'node-1': {
         title: '등불의 언덕으로의 귀환',
@@ -248,7 +248,7 @@ export const echoesSummerFestivalTranslations: Partial<Record<Language, StoryTra
   uk: {
     title: 'Літній Фестиваль: Відлуння',
     description: 'Ви повертаєтеся на літній фестиваль у рідне місто та зустрічаєтеся зі старим другом, відкриваючи, як один вечір може змінити все.',
-    author: 'AI Генератор Історій',
+    author: 'Maya Chen',
     nodes: {
       'node-1': {
         title: 'Повернення на Пагорб Ліхтарів',
@@ -273,7 +273,7 @@ export const echoesSummerFestivalTranslations: Partial<Record<Language, StoryTra
   it: {
     title: 'Echi del Festival Estivo',
     description: 'Torni al festival estivo della tua città natale e riconnetterti con un vecchio amico, scoprendo come una sola sera può cambiare tutto.',
-    author: 'Generatore di Storie AI',
+    author: 'Maya Chen',
     nodes: {
       'node-1': {
         title: 'Ritorno alla Collina delle Lanterne',
@@ -298,7 +298,7 @@ export const echoesSummerFestivalTranslations: Partial<Record<Language, StoryTra
   ar: {
     title: 'صدى مهرجان الصيف',
     description: 'تعود إلى مهرجان الصيف في مسقط رأسك وتتواصل مع صديق قديم، لاكتشاف كيف يمكن لمساء واحد أن يغير كل شيء.',
-    author: 'مولد القصص الذكاء الاصطناعي',
+    author: 'Maya Chen',
     nodes: {
       'node-1': {
         title: 'العودة إلى تل الفوانيس',
@@ -323,7 +323,7 @@ export const echoesSummerFestivalTranslations: Partial<Record<Language, StoryTra
   hi: {
     title: 'ग्रीष्मोत्सव की गूंज',
     description: 'आप अपने गृहनगर के ग्रीष्मोत्सव में लौटते हैं और एक पुराने दोस्त से पुनः जुड़ते हैं, यह discovering कि कैसे एक शाम सब कुछ बदल सकती है।',
-    author: 'AI कहानी जनरेटर',
+    author: 'Maya Chen',
     nodes: {
       'node-1': {
         title: 'लालटेन हिल पर वापसी',
@@ -348,7 +348,7 @@ export const echoesSummerFestivalTranslations: Partial<Record<Language, StoryTra
   nl: {
     title: 'Echo\'s van het Zomerfestival',
     description: 'Je keert terug naar het zomerfestival van je geboortestad en herenigt met een oude vriend, waarbij je ontdekt hoe één avond alles kan veranderen.',
-    author: 'AI Verhalengenerator',
+    author: 'Maya Chen',
     nodes: {
       'node-1': {
         title: 'Terugkeer naar Lantaarnheuvel',
@@ -373,7 +373,7 @@ export const echoesSummerFestivalTranslations: Partial<Record<Language, StoryTra
   pl: {
     title: 'Echa Letniego Festiwalu',
     description: 'Wracasz na letni festiwal w swoim rodzinnym mieście i ponownie łączysz się ze starym przyjacielem, odkrywając, jak jeden wieczór może zmienić wszystko.',
-    author: 'Generator Historii AI',
+    author: 'Maya Chen',
     nodes: {
       'node-1': {
         title: 'Powrót na Wzgórze Latarni',
@@ -398,7 +398,7 @@ export const echoesSummerFestivalTranslations: Partial<Record<Language, StoryTra
   tr: {
     title: 'Yaz Festivali Yankıları',
     description: 'Doğum yerinin yaz festivaline dönüyorsun ve eski bir arkadaşınla yeniden bağlantı kurarak, tek bir akşamın her şeyi nasıl değiştirebileceğini keşfediyorsun.',
-    author: 'AI Hikaye Oluşturucu',
+    author: 'Maya Chen',
     nodes: {
       'node-1': {
         title: 'Fener Tepesi\'ne Dönüş',

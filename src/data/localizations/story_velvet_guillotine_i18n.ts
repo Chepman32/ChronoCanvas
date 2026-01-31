@@ -23,7 +23,7 @@ export const velvetGuillotineTranslations: Partial<Record<Language, StoryTransla
   en: {
     title: 'The Velvet Guillotine',
     description: 'A noir mystery set in 1920s Paris. Amidst a masquerade ball, a murder occurs that unravels a conspiracy of occultism and political blackmail.',
-    author: 'AI Story Generator',
+    author: 'Celeste Moreau',
     nodes: {
       'node-1': {
         title: 'The Midnight Masquerade',
@@ -48,7 +48,7 @@ export const velvetGuillotineTranslations: Partial<Record<Language, StoryTransla
   ru: {
     title: 'Бархатная Гильотина',
     description: 'Нуарная тайна в Париже 1920-х. Среди бала-маскарада происходит убийство, раскрывающее заговор оккультизма и политического шантажа.',
-    author: 'ИИ Генератор Историй',
+    author: 'Celeste Moreau',
     nodes: {
       'node-1': {
         title: 'Полуночный Маскарад',
@@ -73,7 +73,7 @@ export const velvetGuillotineTranslations: Partial<Record<Language, StoryTransla
   es: {
     title: 'La Guillotina de Terciopelo',
     description: 'Un misterio noir ambientado en el París de los años 20. Durante un baile de máscaras, ocurre un asesinato que desentraña una conspiración de ocultismo y chantaje político.',
-    author: 'Generador de Historias IA',
+    author: 'Celeste Moreau',
     nodes: {
       'node-1': {
         title: 'El Mascarada de Medianoche',
@@ -98,7 +98,7 @@ export const velvetGuillotineTranslations: Partial<Record<Language, StoryTransla
   de: {
     title: 'Die Samt-Guillotine',
     description: 'Ein Noir-Mystery im Paris der 1920er Jahre. Bei einem Maskenball geschieht ein Mord, der eine Verschwörung aus Okkultismus und politischer Erpressung aufdeckt.',
-    author: 'KI Geschichtengenerator',
+    author: 'Celeste Moreau',
     nodes: {
       'node-1': {
         title: 'Die Mitternachtsmaskerade',
@@ -123,7 +123,7 @@ export const velvetGuillotineTranslations: Partial<Record<Language, StoryTransla
   fr: {
     title: 'La Guilotine de Velours',
     description: 'Un mystère noir dans le Paris des années 1920. Au milieu d\'un bal masqué, un meurtre dévoile une conspiration d\'occultisme et de chantage politique.',
-    author: 'Générateur de Histoires IA',
+    author: 'Celeste Moreau',
     nodes: {
       'node-1': {
         title: 'Le Bal Masqué de Minuit',
@@ -148,7 +148,7 @@ export const velvetGuillotineTranslations: Partial<Record<Language, StoryTransla
   pt: {
     title: 'A Guilhotina de Veludo',
     description: 'Um mistério noir ambientado no Paris dos anos 1920. Durante um baile de máscaras, ocorre um assassinato que desvenda uma conspiração de ocultismo e chantagem política.',
-    author: 'Gerador de Histórias IA',
+    author: 'Celeste Moreau',
     nodes: {
       'node-1': {
         title: 'O Baile de Máscaras da Meia-Noite',
@@ -173,7 +173,7 @@ export const velvetGuillotineTranslations: Partial<Record<Language, StoryTransla
   ja: {
     title: 'ベルベット・ギロチン',
     description: '1920年代のパリを舞台にしたノワール・ミステリー。仮面舞踏会で起きた殺人事件が、神秘主義と政治的恐喝の陰謀を暴く。',
-    author: 'AIストーリージェネレーター',
+    author: 'Celeste Moreau',
     nodes: {
       'node-1': {
         title: '真夜中の仮面舞踏会',
@@ -198,7 +198,7 @@ export const velvetGuillotineTranslations: Partial<Record<Language, StoryTransla
   zh: {
     title: '天鹅绒断头台',
     description: '一部以1920年代巴黎为背景的黑色悬疑剧。在一场化装舞会上发生了一起谋杀案，揭开了神秘主义和政治勒索的阴谋。',
-    author: 'AI故事生成器',
+    author: 'Celeste Moreau',
     nodes: {
       'node-1': {
         title: '午夜化装舞会',
@@ -223,7 +223,7 @@ export const velvetGuillotineTranslations: Partial<Record<Language, StoryTransla
   ko: {
     title: '벨벳 기요틴',
     description: '1920년대 파리를 배경으로 한 누와르 미스터리. 가장 물의 가면 묏회에서 살인 사건이 발생하며 신비주의와 정치적 협박의 음모가 드러난다.',
-    author: 'AI 스토리 생성기',
+    author: 'Celeste Moreau',
     nodes: {
       'node-1': {
         title: '자정의 가면 묏회',
@@ -248,7 +248,7 @@ export const velvetGuillotineTranslations: Partial<Record<Language, StoryTransla
   uk: {
     title: 'Оксамитова Гільйотина',
     description: 'Нуарна загадка у Парижі 1920-х. Серед маскарадного балу відбувається вбивство, яке розкриває змову окультизму та політичного шантажу.',
-    author: 'AI Генератор Історій',
+    author: 'Celeste Moreau',
     nodes: {
       'node-1': {
         title: 'Північний Маскарад',
@@ -273,7 +273,7 @@ export const velvetGuillotineTranslations: Partial<Record<Language, StoryTransla
   it: {
     title: 'La Ghigliottina di Velluto',
     description: 'Un mystery noir ambientato nella Parigi degli anni \'20. Durante un ballo in maschera, avviene un omicidio che svela una cospirazione di occultismo e ricatto politico.',
-    author: 'Generatore di Storie AI',
+    author: 'Celeste Moreau',
     nodes: {
       'node-1': {
         title: 'Il Ballo di Mezzanotte',
@@ -298,7 +298,7 @@ export const velvetGuillotineTranslations: Partial<Record<Language, StoryTransla
   ar: {
     title: 'المقصلة المخملية',
     description: 'لغز noir يدور في باريس عشرينيات القرن الماضي. وسط حفلة تنكرية، يحدث قتل يكشف مؤامرة من التنجيم والابتزاز السياسي.',
-    author: 'مولد القصص الذكاء الاصطناعي',
+    author: 'Celeste Moreau',
     nodes: {
       'node-1': {
         title: 'الحفل التنكري في منتصف الليل',
@@ -323,7 +323,7 @@ export const velvetGuillotineTranslations: Partial<Record<Language, StoryTransla
   hi: {
     title: 'मखमली गिलोटीन',
     description: '1920 के दशक के पेरिस में सेट किया गया एक न्वार रहस्य। एक मास्करेड बॉल के बीच, एक हत्या होती है जो गूढ़वाद और राजनीतिक ब्लैकमेल की साजिश को उजागर करती है।',
-    author: 'AI कहानी जनरेटर',
+    author: 'Celeste Moreau',
     nodes: {
       'node-1': {
         title: 'आधी रात का मास्करेड',
@@ -348,7 +348,7 @@ export const velvetGuillotineTranslations: Partial<Record<Language, StoryTransla
   nl: {
     title: 'Het Fluweelen Guillotine',
     description: 'Een noir mysterie dat zich afspeelt in het Parijs van de jaren 1920. Tijdens een maskeradebal vindt er een moord plaats die een samenzwering van occultisme en politieke chantage onthult.',
-    author: 'AI Verhalengenerator',
+    author: 'Celeste Moreau',
     nodes: {
       'node-1': {
         title: 'De Middernachtse Maskerade',
@@ -373,7 +373,7 @@ export const velvetGuillotineTranslations: Partial<Record<Language, StoryTransla
   pl: {
     title: 'Aksamitna Gilotyna',
     description: 'Mroczna zagadka noir w Paryżu lat 20. XX wieku. W trakcie balu maskowego dochodzi do morderstwa, które ujawnia spisek okultyzmu i politycznego szantażu.',
-    author: 'Generator Historii AI',
+    author: 'Celeste Moreau',
     nodes: {
       'node-1': {
         title: 'Północny Bal Maskowy',
@@ -398,7 +398,7 @@ export const velvetGuillotineTranslations: Partial<Record<Language, StoryTransla
   tr: {
     title: 'Kadife Giyotin',
     description: '1920\'lerin Paris\'inde geçen bir noir gizem. Bir maskeli balo sırasında işlenen bir cinayet, gizemcilik ve siyasi şantajın komplosunu ortaya çıkarır.',
-    author: 'AI Hikaye Oluşturucu',
+    author: 'Celeste Moreau',
     nodes: {
       'node-1': {
         title: 'Gece Yarısı Maskeli Balo',

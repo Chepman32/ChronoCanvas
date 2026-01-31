@@ -16,12 +16,11 @@ import { story_9123457712345StoryTranslations } from './story-9123457712345_i18n
 import { story_9845237719284StoryTranslations } from './story-9845237719284_i18n';
 import { story_9932045517721StoryTranslations } from './story-9932045517721_i18n';
 import { cityOfSecondChancesTranslations } from './story-8742190384_i18n';
-import { alchemistWatchTranslations } from './story-alchemist-watch_i18n';
 import { echoesSummerFestivalTranslations } from './story_echoes_summer_festival_i18n';
-import { neonSynapseTranslations } from './story_neon_synapse_i18n';
 import { velvetGuillotineTranslations } from './story_velvet_guillotine_i18n';
-import { glassKeyProtocolTranslations } from './story_glass_key_protocol_i18n';
 import { newStoriesTranslations } from './newStories_i18n';
+import { enchantedForestStoryTranslations } from './story1_enchantedforest_i18n';
+import { neonNightsStoryTranslations } from './story2_neonnights_i18n';
 
 interface StoryTranslations {
   title: string;
@@ -65,12 +64,11 @@ export const storyTranslationsRegistry: Record<
   'story-9845237719284': story_9845237719284StoryTranslations,
   'story-9932045517721': story_9932045517721StoryTranslations,
   'story-8742190384': cityOfSecondChancesTranslations,
-  'story-alchemist-watch': alchemistWatchTranslations,
   'story-echoes-summer-festival': echoesSummerFestivalTranslations,
-  'story-neon-synapse': neonSynapseTranslations,
   'story-velvet-guillotine': velvetGuillotineTranslations,
-  'story-glass-key-protocol': glassKeyProtocolTranslations,
   ...newStoriesTranslations,
+  'story-1': enchantedForestStoryTranslations,
+  'story-2': neonNightsStoryTranslations,
 };
 
 /**

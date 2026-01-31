@@ -9,7 +9,7 @@ export const alchemistWatchStory: Story = {
     'https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?w=800',
   thumbnailUrl:
     'https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?w=400',
-  author: 'AI Story Generator',
+  author: 'Elena Vance',
   genre: 'mystery',
   involvement: 'high',
   estimatedDuration: 45,

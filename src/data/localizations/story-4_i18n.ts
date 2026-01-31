@@ -221,6 +221,5 @@ export const story_4StoryTranslations: Partial<Record<Language, StoryTranslation
   },
 
   // Українська - Not yet translated
-  uk: { title: '', description: '', author: '', nodes: {} },
 
 };

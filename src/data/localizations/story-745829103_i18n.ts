@@ -2018,6 +2018,5 @@ export const story_745829103StoryTranslations: Partial<Record<Language, StoryTra
   },
 
   // Українська - Not yet translated
-  uk: { title: '', description: '', author: '', nodes: {} },
 
 };

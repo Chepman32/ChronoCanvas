@@ -93,4 +93,46 @@ export const neonNightsStoryTranslations: Record<Language, StoryTranslations> =
       author: 'Маркус Чен',
       nodes: {},
     },
+
+    it: {
+      title: 'Notti al neon',
+      description: 'Naviga per le strade cyberpunk di Neo Tokyo in questa emozionante avventura fantascientifica.',
+      author: 'Marcus Chen',
+      nodes: {},
+    },
+
+    ar: {
+      title: 'ليالي النيون',
+      description: 'تجول في شوارع نيو طوكيو السيبرانية في هذه المغامرة الخيالية المثيرة.',
+      author: 'ماركوس تشن',
+      nodes: {},
+    },
+
+    hi: {
+      title: 'नियॉन नाइट्स',
+      description: 'इस रोमांचक विज्ञान-कथा साहसिक में नियो टोक्यो की साइबरपंक सड़कों पर नेविगेट करें।',
+      author: 'मार्कस चेन',
+      nodes: {},
+    },
+
+    nl: {
+      title: 'Neon Nachten',
+      description: 'Navigeer door de cyberpunk straten van Neo Tokyo in dit spannende sciencefiction avontuur.',
+      author: 'Marcus Chen',
+      nodes: {},
+    },
+
+    pl: {
+      title: 'Nocy neony',
+      description: 'Poruszaj się po cyberpunkowych ulicach Neo Tokio w tej ekscytującej przygodzie science fiction.',
+      author: 'Marcus Chen',
+      nodes: {},
+    },
+
+    tr: {
+      title: 'Neon Geceleri',
+      description: 'Bu heyecan verici bilim kurgu macerasında Neo Tokyo\'nun siberpunk sokaklarında gezinin.',
+      author: 'Marcus Chen',
+      nodes: {},
+    },
   };

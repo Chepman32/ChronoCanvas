@@ -158,7 +158,6 @@ export const story_10012001StoryTranslations: Partial<Record<Language, StoryTran
   },
 
   // Español - Not yet translated
-  es: { title: '', description: '', author: '', nodes: {} },
 
   // Deutsch
   de: {
@@ -506,9 +505,7 @@ export const story_10012001StoryTranslations: Partial<Record<Language, StoryTran
   },
 
   // 한국어 - Not yet translated
-  ko: { title: '', description: '', author: '', nodes: {} },
 
   // Українська - Not yet translated
-  uk: { title: '', description: '', author: '', nodes: {} },
 
 };

@@ -1609,6 +1609,5 @@ export const story_9123457712345StoryTranslations: Partial<Record<Language, Stor
   },
 
   // Українська - Not yet translated
-  uk: { title: '', description: '', author: '', nodes: {} },
 
 };

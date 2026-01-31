@@ -317,6 +317,5 @@ export const story_3StoryTranslations: Partial<Record<Language, StoryTranslation
   },
 
   // Українська - Not yet translated
-  uk: { title: '', description: '', author: '', nodes: {} },
 
 };

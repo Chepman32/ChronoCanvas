@@ -6,7 +6,7 @@ export const echoesSummerFestivalStory: Story = {
   description: 'You return to your hometown\'s summer festival and reconnect with an old friend, discovering how one evening can change everything.',
   coverImageUrl: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800',
   thumbnailUrl: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=400',
-  author: 'AI Story Generator',
+  author: 'Maya Chen',
   genre: 'romance',
   involvement: 'medium',
   estimatedDuration: 30,

@@ -18,10 +18,10 @@ interface StoryTranslations {
   };
 }
 
-export const midnightMissingStoryTranslations: Record<
+export const midnightMissingStoryTranslations: Partial<Record<
   Language,
   StoryTranslations
-> = {
+>> = {
   en: {
     title: 'Midnight Missing',
     description:

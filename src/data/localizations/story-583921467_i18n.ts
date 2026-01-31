@@ -1004,9 +1004,7 @@ export const story_583921467StoryTranslations: Partial<Record<Language, StoryTra
   },
 
   // 한국어 - Not yet translated
-  ko: { title: '', description: '', author: '', nodes: {} },
 
   // Українська - Not yet translated
-  uk: { title: '', description: '', author: '', nodes: {} },
 
 };

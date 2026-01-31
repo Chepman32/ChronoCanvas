@@ -13,10 +13,10 @@ interface StoryTranslations {
   };
 }
 
-export const midnightCuratorStoryTranslations: Record<
+export const midnightCuratorStoryTranslations: Partial<Record<
   Language,
   StoryTranslations
-> = {
+>> = {
   en: {
     title: 'The Midnight Curator',
     description:

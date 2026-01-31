@@ -9,7 +9,7 @@ export const velvetGuillotineStory: Story = {
     'https://images.unsplash.com/photo-1509024644558-2f56ce76c490?w=800',
   thumbnailUrl:
     'https://images.unsplash.com/photo-1509024644558-2f56ce76c490?w=400',
-  author: 'Noir Collective',
+  author: 'Celeste Moreau',
   genre: 'detective',
   involvement: 'high',
   estimatedDuration: 55,

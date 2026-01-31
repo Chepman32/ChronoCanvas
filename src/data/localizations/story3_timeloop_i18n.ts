@@ -18,7 +18,7 @@ interface StoryTranslations {
   };
 }
 
-export const timeLoopStoryTranslations: Record<Language, StoryTranslations> = {
+export const timeLoopStoryTranslations: Partial<Record<Language, StoryTranslations>> = {
   // English (Original)
   en: {
     title: 'The Time Loop Paradox',
@@ -104,11 +104,4 @@ export const timeLoopStoryTranslations: Record<Language, StoryTranslations> = {
   },
 
   // Placeholder for other languages
-  es: { title: '', description: '', author: '', nodes: {} },
-  de: { title: '', description: '', author: '', nodes: {} },
-  pt: { title: '', description: '', author: '', nodes: {} },
-  ja: { title: '', description: '', author: '', nodes: {} },
-  zh: { title: '', description: '', author: '', nodes: {} },
-  ko: { title: '', description: '', author: '', nodes: {} },
-  uk: { title: '', description: '', author: '', nodes: {} },
 };

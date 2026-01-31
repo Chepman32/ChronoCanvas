@@ -6,7 +6,7 @@ export const neonSynapseStory: Story = {
   description: 'In a rain-slicked future, you are a Memory Diver hired to solve the murder of a tech mogul before his neural implant decays forever. Navigate through ten layers of corporate conspiracy, digital warfare, and existential choices.',
   coverImageUrl: 'https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=800',
   thumbnailUrl: 'https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=400',
-  author: 'AI Story Generator',
+  author: 'Kaito Nakamura',
   genre: 'scifi',
   involvement: 'high',
   estimatedDuration: 35,
