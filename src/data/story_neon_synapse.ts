@@ -4,8 +4,8 @@ export const neonSynapseStory: Story = {
   id: 'story-neon-synapse',
   title: 'Neon Synapse',
   description: 'In a rain-slicked future, you are a Memory Diver hired to solve the murder of a tech mogul before his neural implant decays forever. Navigate through ten layers of corporate conspiracy, digital warfare, and existential choices.',
-  coverImageUrl: 'https://images.unsplash.com/photo-1555685812-4b943f3e0b90?w=800',
-  thumbnailUrl: 'https://images.unsplash.com/photo-1555685812-4b943f3e0b90?w=400',
+  coverImageUrl: 'https://images.unsplash.com/photo-1515630278258-407f66498911?w=800',
+  thumbnailUrl: 'https://images.unsplash.com/photo-1515630278258-407f66498911?w=400',
   author: 'Kaito Nakamura',
   genre: 'scifi',
   involvement: 'high',
@@ -199,7 +199,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'decision',
       title: 'The Rain-Slicked Peak',
-      imageUrl: 'https://images.unsplash.com/photo-1555685812-4b943f3e0b90?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1515630278258-407f66498911?w=800',
       narration: 'You emerge onto the rooftop. Neo-Tokyo sprawls below like a circuit board of burning jewels. Rain lashes your face, mixing with sweat and synthetic grease. The satellite dish dominates the center, humming with power, angling toward orbital relays. Beside it stands Elena Vance, soaked and trembling, holding a portable kill-switch. She looks up as you emerge. You followed the signal, she shouts. Eighty-nine percent uploaded. He becomes untouchable in moments. A god of data beyond Earth laws. But I can cut power now, kill the transfer, murder the uploaded consciousness.',
       choices: [
         {
@@ -287,7 +287,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'decision',
       title: 'The Crucial Moment',
-      imageUrl: 'https://images.unsplash.com/photo-1555685812-4b943f3e0b90?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1515630278258-407f66498911?w=800',
       narration: 'Ninety-nine percent uploaded. The satellite dish screams with power, ionizing raindrops that pass through its transmission beam. You move, whether charging directly or executing coordinated distraction. Thorne\'s avatar reacts, digital hands reaching to swat you like an insect. Holographic interference burns your skin where it touches, real pain from virtual sources. Your fingers close around the cable housing, prying open protective covers. Thick fiber optics pulse with light, each pulse carrying fragments of Thorne\'s immortal ambition. You hold the physical manifestation of his transcendence.',
       choices: [
         {
@@ -309,7 +309,7 @@ export const neonSynapseStory: Story = {
       storyId: 'story-neon-synapse',
       type: 'decision',
       title: 'Consequences Unfold',
-      imageUrl: 'https://images.unsplash.com/photo-1555685812-4b943f3e0b90?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1515630278258-407f66498911?w=800',
       narration: 'Your choice manifests in immediate reality. Cable severing causes the dish to shriek and die, power surging through systems in destructive feedback. The holographic avatar distorts, Thorne\'s face twisting into rage and terror. Alternatively, tracking protocols embed as transmission completes, the dish powering down with Thorne distributed but marked. Either way, the rooftop falls quiet except for rain. Elena collapses, the kill-switch falling from numb fingers. Police sirens wail in the distance. Evidence exists in your deck, recordings of conspiracy and choices made atop this tower.',
       choices: [
         {
