@@ -21,6 +21,7 @@ import { echoesSummerFestivalTranslations } from './story_echoes_summer_festival
 import { neonSynapseTranslations } from './story_neon_synapse_i18n';
 import { velvetGuillotineTranslations } from './story_velvet_guillotine_i18n';
 import { glassKeyProtocolTranslations } from './story_glass_key_protocol_i18n';
+import { newStoriesTranslations } from './newStories_i18n';
 
 interface StoryTranslations {
   title: string;
@@ -69,6 +70,7 @@ export const storyTranslationsRegistry: Record<
   'story-neon-synapse': neonSynapseTranslations,
   'story-velvet-guillotine': velvetGuillotineTranslations,
   'story-glass-key-protocol': glassKeyProtocolTranslations,
+  ...newStoriesTranslations,
 };
 
 /**

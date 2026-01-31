@@ -18,19 +18,15 @@ interface StoryTranslations {
   };
 }
 
-export const shadowsVanishedStarStoryTranslations: Record<
-  Language,
-  StoryTranslations
-> = {
-  // English (Original)
+export const story8273910265Translations: Partial<Record<Language, StoryTranslations>> = {
   en: {
     title: 'Shadows of the Vanished Star',
     description:
-      'When a tech heiress vanishes and only a cryptic ornament remains, private detective Sam Mercer is drawn into a labyrinth of rain-soaked alleys, secret libraries and shadowed docks. Every clue raises new questions and every decision pulls him deeper into a conspiracy that reaches the city\'s highest towers. Your choices will determine whether justice shines through or the truth disappears into darkness.',
-    author: 'Daphne Sawyer',
+      'A noir mystery in a rain-soaked city where a missing starlet, a cryptic clue, and shadowy conspirators converge. Navigate betrayal, corruption, and elusive hope to uncover the truth.',
+    author: 'Detective Jack Reynolds',
     nodes: {
       'story-8273910265-1': {
-        title: 'Midnight Client',
+        title: 'The Missing Starlet',
         narration:
           'The rain beats against your office window as you stare at the blinking neon outside. A shadow crosses the threshold and a woman in a soaked trench coat steps in, her eyes pleading as she produces a star-shaped ornament and whispers about a missing heiress. The scent of damp pavement and old paper fills the room as you weigh the danger in her words. The city hums with secrets and you sense this is only the beginning.',
         choices: {
@@ -52,3 +48,6 @@ export const shadowsVanishedStarStoryTranslations: Record<
       },
     },
   },
+};
+
+export default story8273910265Translations;
