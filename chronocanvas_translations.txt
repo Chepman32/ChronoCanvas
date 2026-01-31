@@ -1,0 +1,449 @@
+=== pl ===
+name.txt:
+ChronoCanvas
+
+subtitle.txt:
+Wybierz Swoją Przygodę
+
+promotional_text.txt:
+Zanurz się w historiach, gdzie TWOJE wybory decydują o zakończeniu. Fantasy, horror, kryminał i więcej — wszystko offline. Rozpocznij przygodę!
+
+keywords.txt:
+wybierz przygodę,powieść wizualna,interaktywna gra,gra fabularna,narracja,offline,fantasy
+
+description.txt:
+Wejdź do ChronoCanvas — gdzie każdy wybór kształtuje historię. Doświadcz wciągających narracji w fantastycznych królestwach, sci-fi zagadkach, nawiedzonych posiadłościach i postapokaliptycznych pustkowiach.
+
+TWOJE WYBORY. TWOJA HISTORIA. TWOJE ZAKOŃCZENIE.
+
+W przeciwieństwie do liniowych książek czy pasywnych gier, ChronoCanvas daje TOBIE kontrolę. Zaufasz tajemniczemu nieznajomemu? Stawisz czoła smokowi czy uciekniesz? Ocalisz załogę czy siebie? Dzięki niezliczonym punktom decyzyjnym i wielu unikalnym zakończeniom, żadne dwie rozgrywki nie są takie same.
+
+⚡ DLACZEGO GRACZE KOCHAJĄ CHRONOCANVAS:
+
+✓ ZACHWYCAJĄCA KOLEKCJA OPOWIEŚCI — Od szybkich przygód po epickie historie
+✓ ZNACZĄCE WYBORY — Każda decyzja rozgałęzia fabułę
+✓ WIELE ZAKOŃCZEŃ — Odkrywaj unikalne finały w kolejnych rozgrywkach
+✓ CAŁKOWICIE OFFLINE — Graj gdziekolwiek, kiedykolwiek. Bez WiFi
+✓ PIĘKNA GRAFIKA — Zdumiewająca sztuka ożywia każdą scenę
+✓ PEŁNE DOŚWIADCZENIE — Wszystkie przygody odblokowane i gotowe do gry
+✓ ZAPIS POSTĘPU — Automatyczne zakładki we wszystkich przygodach
+
+🎭 ZGŁĘBIAJ GATUNKI NA KAŻDY NASTRÓJ:
+
+• FANTASY — "The Enchanted Forest" i "Crown of Thorns" (średniowieczna intryga)
+• SCI-FI — "The Time Loop Paradox" i "Neon Nights" (cyberpunkowy thriller)
+• HORROR — "Blackwood Manor" i "Station Omega" (kosmiczny horror)
+• MYSTERY — "City of Shadows" (detektyw noir) i "Curse of the Pharaoh"
+• SURVIVAL — "After the Fall" (postapokalipsa) i "Into the Wild"
+
+🌟 IDEALNE DLA FANÓW:
+
+Książek typu "Wybierz Swoją Przygodę" | Wizualnych Powieści | Interaktywnej Fikcji | Tekstowych Gier Przygodowych | Gier z Rozgałęzioną Narracją | Fabularnych RPG | Gier Offline | Opowieści Przygodowych
+
+📚 WYRÓŻNIONE HISTORIE:
+
+"The Time Loop Paradox" — Uwięziony w powtarzającym się dniu, czy uda Ci się przerwać cykl? (35 min, 3 zakończenia)
+"Blackwood Manor" — Nawiedzona posiadłość skrywa mroczne rodzinne sekrety. Czy przetrwasz noc? (32 min, 3 zakończenia)
+"Digital Heist" — Przeprowadź ostateczny cyberpunkowy skok w Neo Tokyo. (42 min, 5 zakończeń)
+"After the Fall" — Nawiguj postapokaliptycznym światem, gdzie każdy wybór kosztuje życie. (35 min, 4 zakończenia)
+
+🎮 JAK TO DZIAŁA:
+
+1. Przeglądaj bibliotekę historii i wybierz swoją przygodę
+2. Czytaj wciągające sceny z piękną grafiką
+3. Podejmuj wybory kształtujące los Twojej postaci
+4. Odkrywaj zakończenia oparte na TWOICH decyzjach
+5. Graj ponownie, by odblokować unikalne finały
+
+📚 WYRÓŻNIONE PRZYGODY:
+The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall | Blackwood Manor | Into the Wild | Crown of Thorns | Curse of the Pharaoh | Neon Nights | Station Omega | City of Shadows | Digital Heist | Dead Rising
+
+I więcej historii dodawanych regularnie!
+
+ChronoCanvas to nie tylko gra — to biblioteka żywych opowieści, gdzie TOBIE przypada rola protagonisty. Niezależnie od tego, czy masz 15 minut czy godzinę, ucieknij do światów, gdzie Twoje wybory naprawdę mają znaczenie.
+
+Pobierz teraz i zacznij kształtować swoją historię.
+
+---
+
+Pytania? Opinie? Jesteśmy tutaj: support@chronocanvas.app
+
+*Dostępne w języku angielskim. Dodatkowe języki wkrótce.*
+
+🤖 O NASZYCH HISTORIACH:
+Wszystkie historie w ChronoCanvas są generowane z pomocą AI i starannie sprawdzane, redagowane oraz kształtowane przez ludzkich narratorów, aby zapewnić jakość, spójność i wciągające doświadczenie narracyjne.
+
+=== cs ===
+name.txt:
+ChronoCanvas
+
+subtitle.txt:
+Vyber Si Své Dobrodružství
+
+promotional_text.txt:
+Ponoř se do poutavých příběhů, kde TVÉ volby rozhodují o konci. Fantasy, horor, sci-fi a další — vše offline. Začni dobrodružství!
+
+keywords.txt:
+vyber dobrodružství,vizuální novela,interaktivní hra,story hra,příběh,offline hra,fantasy hra
+
+description.txt:
+Vkroč do ChronoCanvas — kde každé rozhodnutí utváří příběh. Zažij poutavé interaktivní příběhy zahrnující fantasy království, sci-fi záhady, strašidelná sídla a postapokalyptická pustá.
+
+TVÉ VOLBY. TVŮJ PŘÍBĚH. TVŮJ KONEC.
+
+Na rozdíl od lineárních knih nebo pasivních her dává ChronoCanvas TOBĚ kontrolu. Důvěřuješ záhadnému cizinci? Vstoupíš do boje s drakem nebo utečeš? Zachráníš posádku nebo sebe? Díky nesčetným rozhodovacím bodům a více unikátním koncům se nikdy nebudou dvě hry opakovat.
+
+⚡ PROČ HRÁČI MILUJÍ CHRONOCANVAS:
+
+✓ OKOUZLUJÍCÍ SBÍRKA PŘÍBĚHŮ — Od rychlých dobrodružství po epické příběhy
+✓ SMYSLNÁ ROZHODNUTÍ — Každé rozhodnutí rozvětvuje naraci
+✓ VÍCE KONCŮ — Objev unikátní zakončení napříč opakovanými hrami
+✓ ZCELA OFFLINE — Hraj kdekoli, kdykoli. Bez WiFi
+✓ PŘEKRÁSNÁ VIZUÁLNÍ STRÁNKA — Úchvatné umění oživuje každou scénu
+✓ KOMPLETNÍ ZÁŽITEK — Všechna dobrodružství odemčena a připravena k hraní
+✓ UKLÁDÁNÍ POSTUPU — Automatické záložky ve všech dobrodružstvích
+
+🎭 PROZKOUMAJ ŽÁNRY PRO KAŽDOU NÁLADU:
+
+• FANTASY — "The Enchanted Forest" a "Crown of Thorns" (středověká intrika)
+• SCI-FI — "The Time Loop Paradox" a "Neon Nights" (cyberpunkový thriller)
+• HORROR — "Blackwood Manor" a "Station Omega" (horor na vesmírné stanici)
+• MYSTERY — "City of Shadows" (detektivní noir) a "Curse of the Pharaoh"
+• SURVIVAL — "After the Fall" (postapokalypsa) a "Into the Wild"
+
+🌟 IDEÁLNÍ PRO FANOUŠKY:
+
+Knih typu "Vyber Si Své Dobrodružství" | Vizuálních Novel | Interaktivní Fikce | Textových Adventur | Her s Rozvětvenou Narací | Příběhových RPG | Offline Her | Narativních Adventur
+
+📚 VYBRANÉ PŘÍBĚHY:
+
+"The Time Loop Paradox" — Uvězněn v opakujícím se dni, dokážeš přerušit cyklus? (35 min, 3 konce)
+"Blackwood Manor" — Strašidelné sídlo skrývá temná rodinná tajemství. Přežiješ noc? (32 min, 3 konce)
+"Digital Heist" — Proveď ultimátní cyberpunkovou loupež v Neo Tokyo. (42 min, 5 konců)
+"After the Fall" — Naviguj postapokalyptickým světem, kde každá volba stojí životy. (35 min, 4 konce)
+
+🎮 JAK TO FUNGUJE:
+
+1. Prohlížej knihovnu příběhů a vyber si dobrodružství
+2. Čti pohlcující scény s nádhernou grafikou
+3. Dělej rozhodnutí utvářející osud tvé postavy
+4. Objevuj konce založené na TVÝCH rozhodnutích
+5. Hraj znovu pro odemčení unikátních zakončení
+
+📚 VYBRANÁ DOBRODRUŽSTVÍ:
+The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall | Blackwood Manor | Into the Wild | Crown of Thorns | Curse of the Pharaoh | Neon Nights | Station Omega | City of Shadows | Digital Heist | Dead Rising
+
+A další příběhy pravidelně přidávány!
+
+ChronoCanvas není jen hra — je to knihovna živých příběhů, kde TY jsi protagonistou. Ať už máš 15 minut nebo hodinu, unikni do světů, kde tvé volby skutečně záleží.
+
+Stáhni si nyní a začni utvářet svůj příběh.
+
+---
+
+Dotazy? Zpětná vazba? Jsme tu: support@chronocanvas.app
+
+*Dostupné v angličtině. Další jazyky brzy.*
+
+🤖 O NAŠICH PŘÍBĚZÍCH:
+Všechny příběhy v ChronoCanvas jsou generovány s pomocí AI a pečlivě kontrolovány, upravovány a tvarovány lidskými vypravěči, aby byla zajištěna kvalita, soudržnost a poutavý narativní zážitek.
+
+=== hu ===
+name.txt:
+ChronoCanvas
+
+subtitle.txt:
+Válaszd Ki a Kalandod
+
+promotional_text.txt:
+Merülj el lenyűgöző történetekben, ahol TE döntesz a befejezésről. Fantasy, horror, rejtély és még több — mindezt offline. Kezdd el a kalandot!
+
+keywords.txt:
+válaszd kalandod,vizuális regény,interaktív történet,játék,offline játék,fantasy játék
+
+description.txt:
+Lépj be a ChronoCanvasba — ahol minden döntésed formálja a történetet. Éld át a magával ragadó interaktív narratívákat fantasztikus királyságokban, sci-fi rejtélyekben, kísértetjárta kastélyokban és posztapokaliptikus pusztaságokban.
+
+A TE DÖNTÉSEID. A TE TÖRTÉNETED. A TE BEFEJEZÉSED.
+
+Ellentétben a lineáris könyvekkel vagy passzív játékokkal, a ChronoCanvas TÉGED helyez irányítás alá. Megbízol a rejtélyes idegenben? Megküzdesz a sárkánnyal vagy elmenekülsz? Megmented a legénységet vagy magadat? A számtalan döntési pont és több egyedi befejezés miatt két játék soha nem egyezik meg.
+
+⚡ MIÉRT IMÁDJÁK A JÁTÉKOSOK A CHRONOCANVAS-T:
+
+✓ ELBŰVÖLŐ TÖRTÉNETGYŰJTEMÉNY — Gyors kalandoktól epikus történetekig
+✓ JELENTŐSÉGTELJES DÖNTÉSEK — Minden választás elágaztatja a cselekményt
+✓ TÖBB BEFEJEZÉS — Fedezd fel az egyedi finálékat többszöri játék során
+✓ TELJESEN OFFLINE — Játssz bárhol, bármikor. WiFi nélkül
+✓ GYÖNYÖRŰ LÁTVÁNYVILÁG — Lenyűgöző grafika eleveníti meg minden jelenetet
+✓ TELJES ÉLMÉNY — Minden kaland feloldva és készen áll a játékra
+✓ MENTÉS — Automatikus könyvjelzők minden kalandban
+
+🎭 FEDEZZ FEL MŰFAJOKAT MINDEN HANGULATHOZ:
+
+• FANTASY — "The Enchanted Forest" és "Crown of Thorns" (középkori intrika)
+• SCI-FI — "The Time Loop Paradox" és "Neon Nights" (cyberpunk thriller)
+• HORROR — "Blackwood Manor" és "Station Omega" (űrállomásos horror)
+• MYSTERY — "City of Shadows" (detektív noir) és "Curse of the Pharaoh"
+• SURVIVAL — "After the Fall" (posztapokalipszis) és "Into the Wild"
+
+🌟 TÖKÉLETES RAJONGÓKNAK:
+
+Válaszd Ki a Kalandod könyvek | Vizuális Regények | Interaktív Fikció | Szöveges Kalandjátékok | Elágazó Narratívájú Játékok | Történetvezérelt RPG-k | Offline Játékok | Narratív Kalandok
+
+📚 KIEMELT TÖRTÉNETEK:
+
+"The Time Loop Paradox" — Csapdában egy ismétlődő napban, képes vagy megtörni a kört? (35 perc, 3 befejezés)
+"Blackwood Manor" — Egy kísértetjárta kastély sötét családi titkokat rejt. Túléled az éjszakát? (32 perc, 3 befejezés)
+"Digital Heist" — Hajtsd végre a végső cyberpunk rablást Neo Tokióban. (42 perc, 5 befejezés)
+"After the Fall" — Navigálj egy posztapokaliptikus világban, ahol minden döntés életeket követel. (35 perc, 4 befejezés)
+
+🎮 HOGYAN MŰKÖDIK:
+
+1. Böngészd a történetkönyvtárat és válaszd ki a kalandod
+2. Olvasd el a magával ragadó jeleneteket gyönyörű grafikával
+3. Hozz döntéseket, amelyek formálják karaktered sorsát
+4. Fedezd fel a TE döntéseidre épülő befejezéseket
+5. Játszd újra az egyedi finálék feloldásához
+
+📚 KIEMELT KALANDOK:
+The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall | Blackwood Manor | Into the Wild | Crown of Thorns | Curse of the Pharaoh | Neon Nights | Station Omega | City of Shadows | Digital Heist | Dead Rising
+
+És még több történet rendszeresen!
+
+A ChronoCanvas nem csak egy játék — egy élő történetek könyvtára, ahol TE vagy a főszereplő. Akár 15 perced van, akár egy órád, menekülj olyan világokba, ahol a döntéseid tényleg számítanak.
+
+Töltsd le most és kezdd el formálni a történetedet.
+
+---
+
+Kérdésed van? Visszajelzés? Itt vagyunk: support@chronocanvas.app
+
+*Angol nyelven elérhető. További nyelvek hamarosan.*
+
+🤖 TÖRTÉNETEINKRŐL:
+A ChronoCanvas minden története AI segítségével készül, és gondosan ellenőrzik, szerkesztik és alakítják emberi mesélők, hogy biztosítsák a minőséget, a koherenciát és a magával ragadó narratív élményt.
+
+=== ro ===
+name.txt:
+ChronoCanvas
+
+subtitle.txt:
+Alege-ți Aventura
+
+promotional_text.txt:
+Scufundă-te în povești captivante unde ALEGERILE TALE decid finalul. Fantasy, horror, mister și altele — toate offline. Începe aventura!
+
+keywords.txt:
+alege aventura,vizual novel,poveste interactivă,joc poveste,narativ,joc offline,fantasy
+
+description.txt:
+Intră în ChronoCanvas — unde fiecare alegere pe care o faci dă formă poveștii. Experimentează narative interactive captivante care se întind în regate fantastice, mistere sci-fi, conace bântuite și pustietăți post-apocaliptice.
+
+ALEGERILE TALE. POVESTEA TA. FINALUL TĂU.
+
+Spre deosebire de cărțile liniare sau jocurile pasive, ChronoCanvas te pune PE TINE la control. Ai încredere în străinul misterios? Te lupți cu dragonul sau fugi? Salvezi echipajul sau pe tine însuți? Cu nenumărate puncte de decizie și multiple finale unice, niciodată două jocuri nu sunt la fel.
+
+⚡ DE CE IUBESC JUCĂTORII CHRONOCANVAS:
+
+✓ COLECȚIE FASCINANTĂ DE POVEȘTI — De la aventuri rapide la povești epice
+✓ ALEGERI SEMNIFICATIVE — Fiecare decizie ramifică narativul
+✓ FINALURI MULTIPLE — Descoperă concluzii unice în mai multe jocuri
+✓ COMPLET OFFLINE — Joacă oriunde, oricând. Fără WiFi
+✓ VIZUALURI FRUMOASE — Artă uimitoare aduce fiecare scenă la viață
+✓ EXPERIENȚĂ COMPLETĂ — Toate aventurile deblocate și gata de joc
+✓ SALVEAZĂ PROGRESUL — Marcaje automate în toate aventurile
+
+🎭 EXPLOREAZĂ GENURI PENTRU FIECARE STARE:
+
+• FANTASY — "The Enchanted Forest" și "Crown of Thorns" (intrigă medievală)
+• SCI-FI — "The Time Loop Paradox" și "Neon Nights" (thriller cyberpunk)
+• HORROR — "Blackwood Manor" și "Station Omega" (teroare pe stație spațială)
+• MYSTERY — "City of Shadows" (detectiv noir) și "Curse of the Pharaoh"
+• SURVIVAL — "After the Fall" (post-apocaliptic) și "Into the Wild"
+
+🌟 PERFECT PENTRU FANII:
+
+Cărților "Alege-ți Aventura" | Romanelor Vizuale | Ficțiunii Interactive | Jocurilor de Aventură Text | Jocurilor cu Narativ Ramificat | RPG-urilor Bazate pe Poveste | Jocurilor Offline | Aventurilor Narative
+
+📚 POVEȘTI RECOMANDATE:
+
+"The Time Loop Paradox" — Prins într-o zi care se repetă, poți rupe ciclul? (35 min, 3 finale)
+"Blackwood Manor" — O conac bântuit ascunde secrete întunecate de familie. Vei supraviețui nopții? (32 min, 3 finale)
+"Digital Heist" — Pune la cale jaful cyberpunk suprem în Neo Tokyo. (42 min, 5 finale)
+"After the Fall" — Navighează într-o lume post-apocaliptică unde fiecare alegere costă vieți. (35 min, 4 finale)
+
+🎮 CUM FUNCȚIONEAZĂ:
+
+1. Răsfoiește biblioteca de povești și alege-ți aventura
+2. Citește scene captivante cu grafică frumoasă
+3. Ia decizii care dau formează soarta personajului tău
+4. Descoperă finale bazate pe ALEGERILE TALE
+5. Rejoacă pentru a debloca concluzii unice
+
+📚 AVENTURI RECOMANDATE:
+The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall | Blackwood Manor | Into the Wild | Crown of Thorns | Curse of the Pharaoh | Neon Nights | Station Omega | City of Shadows | Digital Heist | Dead Rising
+
+Și mai multe povești adăugate regulat!
+
+ChronoCanvas nu este doar un joc — este o bibliotecă de povești vii unde TU ești protagonistul. Fie că ai 15 minute sau o oră, evadează în lumi unde alegerile tale chiar contează.
+
+Descarcă acum și începe să-ți dai formă poveștii.
+
+---
+
+Întrebări? Feedback? Suntem aici: support@chronocanvas.app
+
+*Disponibil în engleză. Alte limbi în curând.*
+
+🤖 DESPRE POVEȘTILE NOASTRE:
+Toate poveștile din ChronoCanvas sunt generate cu asistență AI și verificate, editate și îngrijite cu grijă de povestitori umani pentru a asigura calitatea, coerența și o experiență narativă captivantă.
+
+=== uk ===
+name.txt:
+ChronoCanvas
+
+subtitle.txt:
+Обери Свою Пригоду
+
+promotional_text.txt:
+Поринь у захопливі історії, де ТВІЙ вибір вирішує кінцівку. Фентезі, жахи, детектив та інше — все офлайн. Почни свою пригоду!
+
+keywords.txt:
+обери пригоду,візуальна новела,інтерактивна гра,сюжетна гра,оповідь,офлайн гра,фентезі
+
+description.txt:
+Крок у ChronoCanvas — де кожен твій вибір формує історію. Відчуй захопливі інтерактивні наративи у фентезійних королівствах, sci-fi таємницях, замкнених маєтках та постапокаліптичних пустках.
+
+ТВІЙ ВИБІР. ТВОЯ ІСТОРІЯ. ТВІЙ КІНЕЦЬ.
+
+На відміну від лінійних книг чи пасивних ігор, ChronoCanvas дає ТОБІ контроль. Чи довіришся загадковому незнайомцю? Чи битимешся з драконом чи втечеш? Чи врятуєш команду чи себе? Завдяки незліченним точкам прийняття рішень і кільком унікальним кінцівкам жодні дві ігри ніколи не повторюються.
+
+⚡ ЧОМУ ГРАВЦІ ЛЮБЛЯТЬ CHRONOCANVAS:
+
+✓ ЗАХОПЛИВА КОЛЕКЦІЯ ІСТОРІЙ — Від швидких пригод до епічних оповідань
+✓ ЗНАЧУЩІ ВИБОРИ — Кожне рішення розгалужує сюжет
+✓ ДЕКІЛЬКА КІНЦІВОК — Відкривай унікальні фінали за кілька ігор
+✓ ПОВНІСТЮ ОФЛАЙН — Грай де завгодно, коли завгодно. Без WiFi
+✓ КРАСИВА ГРАФІКА — Приголомшливе мистецтво оживляє кожну сцену
+✓ ПОВНИЙ ДОСВІД — Усі пригоди розблоковані та готові до гри
+✓ ЗБЕРЕЖЕННЯ ПРОГРЕСУ — Автоматичні закладки у всіх пригодах
+
+🎭 ДОСЛІДЖУЙ ЖАНРИ НА КОЖЕН НАСТРІЙ:
+
+• FANTASY — "The Enchanted Forest" та "Crown of Thorns" (середньовічна інтрига)
+• SCI-FI — "The Time Loop Paradox" та "Neon Nights" (кіберпанк-трилер)
+• HORROR — "Blackwood Manor" та "Station Omega" (космічний жах)
+• MYSTERY — "City of Shadows" (детектив нуар) та "Curse of the Pharaoh"
+• SURVIVAL — "After the Fall" (постапокаліпсис) та "Into the Wild"
+
+🌟 ІДЕАЛЬНО ДЛЯ ШАНУВАЛЬНИКІВ:
+
+Книг "Обери Свою Пригоду" | Візуальних Новел | Інтерактивної Фіктики | Текстових Ігор-Пригод | Ігор із Розгалуженою Оповіддю | Сюжетних RPG | Офлайн Ігор | Нарративних Пригод
+
+📚 РЕКОМЕНДОВАНІ ІСТОРІЇ:
+
+"The Time Loop Paradox" — У пастці повторюваного дня, чи зможеш ти розірвати коло? (35 хв, 3 кінцівки)
+"Blackwood Manor" — Замкнений маєток приховує темні родинні секрети. Чи переживеш ніч? (32 хв, 3 кінцівки)
+"Digital Heist" — Проверни остаточне кіберпанк пограбування в Нео Токіо. (42 хв, 5 кінцівок)
+"After the Fall" — Навігуй постапокаліптичним світом, де кожен вибір коштує життів. (35 хв, 4 кінцівки)
+
+🎮 ЯК ЦЕ ПРАЦЮЄ:
+
+1. Переглядай бібліотеку історій та обери свою пригоду
+2. Читай захопливі сцени з прекрасною графікою
+3. Приймай рішення, що формують долю твого персонажа
+4. Відкривай кінцівки, засновані на ТВОЇХ рішеннях
+5. Перегравай, щоб відкрити унікальні фінали
+
+📚 РЕКОМЕНДОВАНІ ПРИГОДИ:
+The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall | Blackwood Manor | Into the Wild | Crown of Thorns | Curse of the Pharaoh | Neon Nights | Station Omega | City of Shadows | Digital Heist | Dead Rising
+
+І більше історій додаються регулярно!
+
+ChronoCanvas — це не просто гра, це бібліотека живих історій, де ТИ є головним героєм. Незалежно від того, чи є у тебе 15 хвилин чи година, втечи у світи, де твої вибори справді мають значення.
+
+Завантаж зараз і почни формувати свою історію.
+
+---
+
+Питання? Відгук? Ми тут: support@chronocanvas.app
+
+*Доступно англійською. Додаткові мови незабаром.*
+
+🤖 ПРО НАШІ ІСТОРІЇ:
+Усі історії в ChronoCanvas створюються за допомогою ШІ та ретельно перевіряються, редагуються та опрацьовуються людьми-оповідачами для забезпечення якості, послідовності та захопливого наративного досвіду.
+
+=== el ===
+name.txt:
+ChronoCanvas
+
+subtitle.txt:
+Διάλεξε την Περιπέτειά Σου
+
+promotional_text.txt:
+Βυθίσου σε συναρπαστικές ιστορίες όπου οι ΕΠΙΛΟΓΕΣ ΣΟΥ καθορίζουν το τέλος. Φαντασία, τρόμος, μυστήριο κι άλλα — όλα εκτός σύνδεσης. Ξεκίνα την περιπέτειά σου!
+
+keywords.txt:
+διαλεξε περιπέτεια,οπτικη νουβελα,διαδραστικη ιστορια,παιχνιδι,offline,φαντασια
+
+description.txt:
+Μπες στο ChronoCanvas — όπου κάθε επιλογή που κάνεις διαμορφώνει την ιστορία. Ζήσε καθηλωτικές διαδραστικές αφηγήσεις σε βασίλεια φαντασίας, μυστήρια sci-fi, στοιχειωμένα αρχοντικά και μετα-αποκαλυπτικά τοπία.
+
+ΟΙ ΕΠΙΛΟΓΕΣ ΣΟΥ. Η ΙΣΤΟΡΙΑ ΣΟΥ. ΤΟ ΤΕΛΟΣ ΣΟΥ.
+
+Σε αντίθεση με τα γραμμικά βιβλία ή τα παθητικά παιχνίδια, το ChronoCanvas βάζει ΕΣΕΝΑ στο τιμόνι. Θα εμπιστευτείς τον μυστηριώδη ξένο; Θα παλέψεις με το δράκο ή θα φύγεις; Θα σώσεις το πλήρωμα ή τον εαυτό σου; Με αμέτρητα σημεία απόφασης και πολλαπλά μοναδικά τέλη, ποτέ δύο παιχνίδια δεν είναι ίδια.
+
+⚡ ΓΙΑΤΙ ΟΙ ΠΑΙΚΤΕΣ ΑΓΑΠΟΥΝ ΤΟ CHRONOCANVAS:
+
+✓ ΣΥΝΑΡΠΑΣΤΙΚΗ ΣΥΛΛΟΓΗ ΙΣΤΟΡΙΩΝ — Από γρήγορες περιπέτειες έως επικές αφηγήσεις
+✓ ΣΗΜΑΝΤΙΚΕΣ ΕΠΙΛΟΓΕΣ — Κάθε απόφαση διακλαδίζει την πλοκή
+✓ ΠΟΛΛΑΠΛΑ ΤΕΛΗ — Ανακάλυψε μοναδικά φινάλε σε πολλαπλά παιχνίδια
+✓ ΠΛΗΡΩΣ OFFLINE — Παίξε οπουδήποτε, οποτεδήποτε. Χωρίς WiFi
+✓ ΟΜΟΡΦΑ ΟΠΤΙΚΑ — Εκπληκτική τέχνη ζωντανεύει κάθε σκηνή
+✓ ΠΛΗΡΗΣ ΕΜΠΕΙΡΙΑ — Όλες οι περιπέτειες ξεκλείδωτες και έτοιμες για παιχνίδι
+✓ ΑΠΟΘΗΚΕΥΣΗ ΠΡΟΟΔΟΥ — Αυτόματοι σελιδοδείκτες σε όλες τις περιπέτειες
+
+🎭 ΕΞΕΡΕΥΝΗΣΕ ΕΙΔΗ ΓΙΑ ΚΑΘΕ ΔΙΑΘΕΣΗ:
+
+• FANTASY — "The Enchanted Forest" και "Crown of Thorns" (μεσαιωνική ίντριγκα)
+• SCI-FI — "The Time Loop Paradox" και "Neon Nights" (cyberpunk θρίλερ)
+• HORROR — "Blackwood Manor" και "Station Omega" (τρόμος διαστημικού σταθμού)
+• MYSTERY — "City of Shadows" (νουάρ ντετέκτιβ) και "Curse of the Pharaoh"
+• SURVIVAL — "After the Fall" (μετα-αποκαλυπτικό) και "Into the Wild"
+
+🌟 ΙΔΑΝΙΚΟ ΓΙΑ ΟΠΑΔΟΥΣ ΤΩΝ:
+
+Βιβλίων "Διάλεξε την Περιπέτειά Σου" | Οπτικών Μυθιστορημάτων | Διαδραστικής Μυθοπλασίας | Παιχνιδιών Κειμένου Περιπέτειας | Παιχνιδιών με Διακλαδιζόμενη Αφήγηση | Story-Driven RPG | Offline Παιχνιδιών | Αφηγηματικών Περιπετειών
+
+📚 ΞΕΧΩΡΙΣΤΕΣ ΙΣΤΟΡΙΕΣ:
+
+"The Time Loop Paradox" — Παγιδευμένος σε μια επαναλαμβανόμενη μέρα, μπορείς να σπάσεις τον κύκλο; (35 λεπτά, 3 τέλη)
+"Blackwood Manor" — Ένα στοιχειωμένο αρχοντικό κρύβει σκοτεινά οικογενειακά μυστικά. Θα επιβιώσεις τη νύχτα; (32 λεπτά, 3 τέλη)
+"Digital Heist" — Φέρσε εις πέρας την απόλυτη cyberpunk ληστεία στο Neo Tokyo. (42 λεπτά, 5 τέλη)
+"After the Fall" — Πλοηγήσου σε έναν μετα-αποκαλυπτικό κόσμο όπου κάθε επιλογή κοστίζει ζωές. (35 λεπτά, 4 τέλη)
+
+🎮 ΠΩΣ ΛΕΙΤΟΥΡΓΕΙ:
+
+1. Ξεφύλλισε τη βιβλιοθήκη ιστοριών και διάλεξε την περιπέτειά σου
+2. Διάβασε καθηλωτικές σκηνές με όμορφη τέχνη
+3. Πάρε αποφάσεις που διαμορφώνουν τη μοίρα του χαρακτήρα σου
+4. Ανακάλυψε τέλη βασισμένα στις ΕΠΙΛΟΓΕΣ ΣΟΥ
+5. Παίξε ξανά για να ξεκλειδώσεις μοναδικά φινάλε
+
+📚 ΞΕΧΩΡΙΣΤΕΣ ΠΕΡΙΠΕΤΕΙΕΣ:
+The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall | Blackwood Manor | Into the Wild | Crown of Thorns | Curse of the Pharaoh | Neon Nights | Station Omega | City of Shadows | Digital Heist | Dead Rising
+
+Και περισσότερες ιστορίες προστίθενται τακτικά!
+
+Το ChronoCanvas δεν είναι απλώς ένα παιχνίδι — είναι μια βιβλιοθήκη ζωντανών ιστοριών όπου ΕΣΥ είσαι ο πρωταγωνιστής. Είτε έχεις 15 λεπτά είτε μια ώρα, απόδρασε σε κόσμους όπου οι επιλογές σου μετράνε πραγματικά.
+
+Κατέβασε τώρα και ξεκίνα να διαμορφώνεις την ιστορία σου.
+
+---
+
+Ερωτήσεις; Σχόλια; Είμαστε εδώ: support@chronocanvas.app
+
+*Διαθέσιμο στα Αγγλικά. Περισσότερες γλώσσες σύντομα.*
+
+🤖 ΣΧΕΤΙΚΑ ΜΕ ΤΙΣ ΙΣΤΟΡΙΕΣ ΜΑΣ:
+Όλες οι ιστορίες στο ChronoCanvas δημιουργούνται με τη βοήθεια AI και ελέγχονται, επεξεργάζονται και επιμελούνται προσεκτικά από ανθρώπινους αφηγητές για να διασφαλιστεί η ποιότητα, η συνοχή και μια συναρπαστική αφηγηματική εμπειρία.

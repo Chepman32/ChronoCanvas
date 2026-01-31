@@ -1,0 +1,524 @@
+=== tr ===
+name.txt:
+ChronoCanvas
+
+subtitle.txt:
+Macera Hikayenizi Seçin
+
+promotional_text.txt:
+Seçimlerinizin sonucu belirlediği sürükleyici hikayelere dalın. Fantezi, gizem, korku ve daha fazlası — tamamen çevrimdışı. Maceranız bugün başlasın!
+
+keywords.txt:
+macera seç,fantezi,görsel roman,metin macera,interaktif hikaye,dallanan anlatı,çevrimdışı oyun
+
+description.txt:
+ChronoCanvas'e adım atın — burada yaptığınız her seçim hikayeyi şekillendirir. Fantezi krallıkları, bilim kurgu gizemleri, perili konaklar ve kıyamet sonrası çöllerde uzanan sürükleyici interaktif anlatıları deneyimleyin.
+
+SİZİN SEÇİMLERİNİZ. SİZİN HİKAYENİZ. SİZİN SONUNUZ.
+
+Doğrusal kitaplardan veya pasif oyunlardan farklı olarak, ChronoCanvas KONTROLÜ size verir. Gizemli yabancıya güvenir misiniz? Ejderha ile savaşır mısınız yoksa kaçar mısınız? Mürettebatı mı yoksa kendinizi mi kurtarırsınız? Sayısız karar noktası ve birden fazla benzersiz sonla, hiçbir iki oynayış aynı değildir.
+
+⚡ OYUNCULAR NEDEN CHRONOCANVAS'İ SEVİYOR:
+
+✓ BÜYÜLEYİCİ HİKAYE KOLEKSİYONU — Hızlı maceralardan destansı hikayelere
+✓ ANLAMLI SEÇİMLER — Her karar anlatıyı dallandırır
+✓ ÇOKLU SONLAR — Birden fazla oynayışta benzersiz sonuçları keşfedin
+✓ TAMAMEN ÇEVRİMDIŞI — Her yerde, her zaman oynayın. WiFi gerekmez
+✓ GÖZ ALICI GÖRSELLER — Büyüleyici sanat eserleri her sahneyi canlandırır
+✓ TAM DENEYİM — Tüm maceralar açık ve oynamaya hazır
+✓ İLERLEMEYİ KAYDET — Tüm maceralarda otomatik yer imi
+
+🎭 HER RUHAL İÇİN TÜRLER:
+
+• FANTASY — "The Enchanted Forest" ve "Crown of Thorns" (ortaçağı entrikası)
+• SCI-FI — "The Time Loop Paradox" ve "Neon Nights" (siberpunk gerilim)
+• HORROR — "Blackwood Manor" ve "Station Omega" (uzay istasyonu terörü)
+• MYSTERY — "City of Shadows" (dedektif noir) ve "Curse of the Pharaoh"
+• SURVIVAL — "After the Fall" (kıyamet sonrası) ve "Into the Wild"
+
+🌟 ŞUNLARIN HAYRANLARI İÇİN MÜKEMMEL:
+
+Kendi Maceranı Seç kitapları | Görsel Romanlar | İnteraktif Kurgu | Metin Macera Oyunları | Dallanan Anlatı Oyunları | Hikaye Odaklı RPG'ler | Çevrimdışı Oyunlar | Anlatı Maceraları
+
+📚 ÖNE ÇIKAN HİKAYELER:
+
+"The Time Loop Paradox" — Tekrarlayan bir günde hapsolmuş halde, döngüyü kırabilir misiniz? (35 dk, 3 son)
+"Blackwood Manor" — Perili bir konak karanlık aile sırlarını gizliyor. Geceyi atlatır mısınız? (32 dk, 3 son)
+"Digital Heist" — Neo Tokyo'da nihai siberpunk soygununu gerçekleştirin. (42 dk, 5 son)
+"After the Fall" — Her seçimin cana mal olduğu kıyamet sonrası bir dünyada yol alın. (35 dk, 4 son)
+
+🎮 NASIL ÇALIŞIR:
+
+1. Hikaye kütüphanesine göz atın ve maceranızı seçin
+2. Güzel sanat eserleriyle sürükleyici sahneleri okuyun
+3. Karakterinizin kaderini şekillendiren seçimler yapın
+4. SEÇİMLERİNİZE dayanan sonları keşfedin
+5. Benzersiz sonuçların kilidini açmak için yeniden oynayın
+
+📚 ÖNE ÇIKAN MACERALAR:
+The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall | Blackwood Manor | Into the Wild | Crown of Thorns | Curse of the Pharaoh | Neon Nights | Station Omega | City of Shadows | Digital Heist | Dead Rising
+
+Ve düzenli olarak eklenen daha fazla hikaye!
+
+ChronoCanvas sadece bir oyun değil — burada SİZ başrolsiniz. İster 15 dakikanız ister bir saatiniz olsun, seçimlerinizin gerçekten önemli olduğu dünyalara kaçış yapın.
+
+Şimdi indirin ve hikayenizi şekillendirmeye başlayın.
+
+---
+
+Sorularınız mı var? Geri bildirim? Buradayız: support@chronocanvas.app
+
+*İngilizce olarak mevcuttur. Ek diller yakında geliyor.*
+
+🤖 HİKAYELERİMİZ HAKKINDA:
+ChronoCanvas'teki tüm hikayeler yapay zeka desteğiyle oluşturulmuş ve kalite, tutarlılık ve sürükleyici bir anlatı deneyimi sağlamak için insan hikaye anlatıcıları tarafından dikkatlice kontrol edilmiş, düzenlenmiş ve derlenmiştir.
+
+=== th ===
+name.txt:
+ChronoCanvas
+
+subtitle.txt:
+เลือกผจญภัยของคุณ
+
+promotional_text.txt:
+ดำดิ่งสู่เรื่องราวสุดดื่มด่ำที่ตัวเลือกของคุณเป็นผู้ตัดสินใจ แฟนตาซี ลึกลับ สยองขวัญ และอีกมากมาย — เล่นออฟไลน์ได้ เริ่มผจญภัยวันนี้!
+
+keywords.txt:
+เลือกผจญภัย,นิยายภาพ,เกมเนื้อเรื่อง,เกมออฟไลน์,แฟนตาซี,ผจญภัย,เรื่องราวโต้ตอบ,นิยาย
+
+description.txt:
+ก้าวเข้าสู่ ChronoCanvas — ที่ซึ่งทุกการเลือกของคุณจะหล่อหลอมเรื่องราว สัมผัสการเล่าเรื่องแบบโต้ตอบที่ดื่มด่ำ ท่องไปในอาณาจักรแฟนตาซี ปริศนาไซไฟ คฤหาสน์สยองขวัญ และแดนทุรกันดารหลังหายนะ
+
+ตัวเลือกของคุณ เรื่องราวของคุณ ตอนจบของคุณ
+
+ต่างจากหนังสือแบบเส้นตรงหรือเกมแบบรับชม ChronoCanvas ให้คุณเป็นผู้ควบคุม คุณจะไว้วางใจคนแปลกหน้าลึกลับหรือไม่? สู้มังกรหรือหนี? ช่วยลูกเรือหรือช่วยตัวเอง? ด้วยจุดตัดสินใจนับไม่ถ้วนและตอนจบที่หลากหลาย ไม่มีสองการเล่นที่เหมือนกัน
+
+⚡ ทำไมผู้เล่นถึงรัก CHRONOCANVAS:
+
+✓ คอลเลกชันเรื่องราวสุดดื่มด่ำ — จากผจญภัยสั้นๆ ถึงตำนานยิ่งใหญ่
+✓ ตัวเลือกที่มีความหมาย — ทุกการตัดสินใจแยกสาขาเนื้อเรื่อง
+✓ หลายตอนจบ — ค้นพบบทสรุปที่ไม่เหมือนใครผ่านการเล่นซ้ำ
+✓ เล่นออฟไลน์ได้เต็มรูปแบบ — เล่นได้ทุกที่ทุกเวลา ไม่ต้องใช้ WiFi
+✓ ภาพสวยงาม — ศิลปะสุดตระการตาให้ชีวิตแก่ทุกฉาก
+✓ ประสบการณ์สมบูรณ์ — ปลดล็อกผจญภัยทั้งหมดพร้อมเล่น
+✓ บันทึกความคืบหน้า — บุ๊กมาร์กอัตโนมัติทุกการผจญภัย
+
+🎭 สำรวจแนวตามอารมณ์:
+
+• FANTASY — "The Enchanted Forest" และ "Crown of Thorns" (การเมืองยุคกลาง)
+• SCI-FI — "The Time Loop Paradox" และ "Neon Nights" (ระทึกขวัญไซเบอร์พังค์)
+• HORROR — "Blackwood Manor" และ "Station Omega" (ความ terror บนสถานีอวกาศ)
+• MYSTERY — "City of Shadows" (นักสืบ noir) และ "Curse of the Pharaoh"
+• SURVIVAL — "After the Fall" (หลังหายนะ) และ "Into the Wild"
+
+🌟 เหมาะสำหรับแฟนของ:
+
+หนังสือ Choose Your Own Adventure | นิยายภาพ | นิยายโต้ตอบ | เกมผจญภัยตัวอักษร | เกมเนื้อเรื่องแยกสาขา | RPG เนื้อเรื่อง | เกมออฟไลน์ | การผจญภัยเชิงเล่าเรื่อง
+
+📚 เรื่องราวแนะนำ:
+
+"The Time Loop Paradox" — ติดอยู่ในวันที่วนซ้ำ คุณจะหยุดวงจรได้หรือไม่? (35 นาที, 3 ตอนจบ)
+"Blackwood Manor" — คฤหาสน์สยองขวัญซ่อนความลับครอบครัวอันมืดมิด คุณจะรอดค่ำคืนนี้หรือไม่? (32 นาที, 3 ตอนจบ)
+"Digital Heist" — ปล้นครั้งยิ่งใหญ่ในโลกไซเบอร์พังค์ของ Neo Tokyo (42 นาที, 5 ตอนจบ)
+"After the Fall" — เอาชีวิตรอดในโลกหลังหายนะที่ทุกการเลือกมีค่าชีวิต (35 นาที, 4 ตอนจบ)
+
+🎮 วิธีเล่น:
+
+1. ค้นหาในห้องสมุดเรื่องราวและเลือกผจญภัยของคุณ
+2. อ่านฉากดื่มด่ำพร้อมภาพสวยงาม
+3. ตัดสินใจเพื่อหล่อหลอมชะตากรรมตัวละคร
+4. ค้นพบตอนจบตามการตัดสินใจของคุณ
+5. เล่นซ้ำเพื่อปลดล็อกตอนจบที่ไม่เหมือนใคร
+
+📚 การผจญภัยแนะนำ:
+The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall | Blackwood Manor | Into the Wild | Crown of Thorns | Curse of the Pharaoh | Neon Nights | Station Omega | City of Shadows | Digital Heist | Dead Rising
+
+และเรื่องราวใหม่ที่เพิ่มเป็นประจำ!
+
+ChronoCanvas ไม่ใช่แค่เกม — เป็นห้องสมุดเรื่องราวมีชีวิตที่คุณเป็นพระเอก ไม่ว่าจะมีเวลา 15 นาทีหรือหนึ่งชั่วโมง หลบหนีเข้าสู่โลกที่ตัวเลือกของคุณมีความหมายจริงๆ
+
+ดาวน์โหลดตอนนี้และเริ่มหล่อหลอมเรื่องราวของคุณ
+
+---
+
+มีคำถาม? ข้อเสนอแนะ? ติดต่อเรา: support@chronocanvas.app
+
+*มีให้บริการเป็นภาษาอังกฤษ ภาษาอื่นๆ กำลังจะตามมา*
+
+🤖 เกี่ยวกับเรื่องราวของเรา:
+เรื่องราวทั้งหมดใน ChronoCanvas สร้างด้วย AI และตรวจสอบ แก้ไข และคัดสรรโดยนักเล่าเรื่องมืออาชีพเพื่อให้ได้คุณภาพ ความสอดคล้อง และประสบการณ์การเล่าเรื่องที่ดื่มด่ำ
+
+=== vi ===
+name.txt:
+ChronoCanvas
+
+subtitle.txt:
+Chọn Câu Chuyện Phiêu Lưu
+
+promotional_text.txt:
+Đắm chìm trong câu chuyện nơi LỰA CHỌN của bạn quyết định kết thúc. Giả tưởng, bí ẩn, kinh dị và hơn nữa — hoàn toàn ngoại tuyến. Bắt đầu phiêu lưu ngay!
+
+keywords.txt:
+phiêu lưu,tiểu thuyết tranh,tương tác,trò chơi chữ,trò chơi câu chuyện,ngoại tuyến,giả tưởng
+
+description.txt:
+Bước vào ChronoCanvas — nơi mỗi lựa chọn của bạn định hình câu chuyện. Trải nghiệm các câu chuyện tương tác đắm chìm trải dài qua các vương quốc giả tưởng, bí ẩn khoa học viễn tưởng, dinh thự ma ám và vùng đất hoang hậu tận thế.
+
+LỰA CHỌN CỦA BẠN. CÂU CHUYỆN CỦA BẠN. KẾT THÚC CỦA BẠN.
+
+Khác với sách tuyến tính hay trò chơi thụ động, ChronoCanvas đặt BẠN vào vị trí điều khiển. Bạn có tin người lạ bí ẩn? Chiến đấu với rồng hay chạy trốn? Cứu thủy thủ đoàn hay cứu chính mình? Với vô số điểm quyết định và nhiều kết thúc độc đáo, không có hai lần chơi nào giống nhau.
+
+⚡ TẠI SAO NGƯỜI CHƠI YÊU THÍCH CHRONOCANVAS:
+
+✓ BỘ SƯU TẬP CÂU CHUYỆN HẤP DẪN — Từ phiêu lưu ngắn đến truyền thuyết sử thi
+✓ LỰA CHỌN CÓ Ý NGHĨA — Mỗi quyết định phân nhánh câu chuyện
+✓ NHIỀU KẾT THÚC — Khám phá kết luận độc đáo qua nhiều lần chơi
+✓ HOÀN TOÀN NGOẠI TUYẾN — Chơi mọi lúc mọi nơi. Không cần WiFi
+✓ HÌNH ẢNH TUYỆT ĐẸP — Tác phẩm nghệ thuật tuyệt vời làm sống động mọi cảnh
+✓ TRẢI NGHIỆM TRỌN VẸN — Tất cả phiêu lưu đã mở khóa sẵn sàng chơi
+✓ LƯU TIẾN ĐỘ — Đánh dấu tự động trong mọi cuộc phiêu lưu
+
+🎭 KHÁM PHÁ THỂ LOẠI CHO MỌI TÂM TRẠNG:
+
+• FANTASY — "The Enchanted Forest" và "Crown of Thorns" (âm mưu thời trung cổ)
+• SCI-FI — "The Time Loop Paradox" và "Neon Nights" (giật gân cyberpunk)
+• HORROR — "Blackwood Manor" và "Station Omega" (kinh hoàng trạm vũ trụ)
+• MYSTERY — "City of Shadows" (thám tử noir) và "Curse of the Pharaoh"
+• SURVIVAL — "After the Fall" (hậu tận thế) và "Into the Wild"
+
+🌟 HOÀN HẢO CHO FAN CỦA:
+
+Sách Choose Your Own Adventure | Tiểu Thuyết Tranh | Tiểu Thuyết Tương Tác | Trò Chơi Phiêu Lưu Chữ | Trò Chơi Câu Chuyện Phân Nhánh | RPG Cốt Truyện | Trò Chơi Ngoại Tuyến | Phiêu Lưu Kể Chuyện
+
+📚 CÂU CHUYỆN NỔI BẬT:
+
+"The Time Loop Paradox" — Mắc kẹt trong ngày lặp lại, bạn có phá vỡ vòng lặp không? (35 phút, 3 kết thúc)
+"Blackwood Manor" — Dinh thự ma ám giấu bí mật gia đình đen tối. Bạn sống sót qua đêm chứ? (32 phút, 3 kết thúc)
+"Digital Heist" — Thực hiện vụ cướp cyberpunk tuyệt đỉnh ở Neo Tokyo. (42 phút, 5 kết thúc)
+"After the Fall" — Điều hướng thế giới hậu tận thế nơi mỗi lựa chọn tốn sinh mạng. (35 phút, 4 kết thúc)
+
+🎮 CÁCH CHƠI:
+
+1. Duyệt thư viện câu chuyện và chọn phiêu lưu của bạn
+2. Đọc cảnh đắm chìm với tác phẩm nghệ thuật đẹp
+3. Đưa ra lựa chọn định hình số phận nhân vật
+4. Khám phá kết thúc dựa trên quyết định CỦA BẠN
+5. Chơi lại để mở khóa kết luận độc đáo
+
+📚 PHIÊU LƯU NỔI BẬT:
+The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall | Blackwood Manor | Into the Wild | Crown of Thorns | Curse of the Pharaoh | Neon Nights | Station Omega | City of Shadows | Digital Heist | Dead Rising
+
+Và nhiều câu chuyện được thêm thường xuyên!
+
+ChronoCanvas không chỉ là trò chơi — đó là thư viện câu chuyện sống nơi BẠN là nhân vật chính. Dù có 15 phút hay một giờ, hãy thoát vào thế giới nơi lựa chọn của bạn thực sự quan trọng.
+
+Tải ngay và bắt đầu định hình câu chuyện của bạn.
+
+---
+
+Có câu hỏi? Phản hồi? Liên hệ: support@chronocanvas.app
+
+*Có sẵn bằng tiếng Anh. Ngôn ngữ khác sắp ra mắt.*
+
+🤖 VỀ CÂU CHUYỆN CỦA CHÚNG TÔI:
+Tất cả câu chuyện trong ChronoCanvas được tạo với hỗ trợ AI và kiểm tra, chỉnh sửa, tuyển chọn cẩn thận bởi người kể chuyện để đảm bảo chất lượng, mạch lạc và trải nghiệm kể chuyện hấp dẫn.
+
+=== id ===
+name.txt:
+ChronoCanvas
+
+subtitle.txt:
+Pilih Petualanganmu
+
+promotional_text.txt:
+Terjun ke dalam kisah imersif di mana pilihan ANDA memutuskan akhirnya. Fantasi, misteri, horor & lainnya — semua offline. Mulai petualanganmu hari ini!
+
+keywords.txt:
+pilih petualangan,novel visual,petualangan teks,cerita interaktif,naratif bercabang,offline,fantasi
+
+description.txt:
+Masuki ChronoCanvas — di mana setiap pilihan yang kamu buat membentuk cerita. Rasakan narasi interaktif imersif yang membentang di kerajaan fantasi, misteri fiksi ilmiah, mansion berhantu, dan gurun pasca-apokaliptik.
+
+PILIHANMU. CERITAMU. AKHIRMU.
+
+Berbeda dengan buku linear atau game pasif, ChronoCanvas memberikan KONTROL kepadamu. Akankah kamu mempercayai orang asing misterius? Melawan naga atau lari? Menyelamatkan awak atau dirimu sendiri? Dengan titik keputusan yang tak terhitung dan banyak akhir unik, tidak ada dua kali bermain yang sama.
+
+⚡ MENGAPA PEMAIN MENCINTAI CHRONOCANVAS:
+
+✓ KOLEKSI CERITA MENAWAN — Dari petualangan cepat hingga kisah epik
+✓ PILIHAN BERMAKNA — Setiap keputusan membuat cabang narasi
+✓ BANYAK AKHIR — Temukan kesimpulan unik di berbagai kali bermain
+✓ SEPENUHNYA OFFLINE — Main di mana saja, kapan saja. Tidak perlu WiFi
+✓ VISUAL INDAH — Karya seni menakjubkan menghidupkan setiap adegan
+✓ PENGALAMAN LENGKAP — Semua petualangan terbuka dan siap dimainkan
+✓ SIMPAN PROGRES — Penanda otomatis di semua petualangan
+
+🎭 JELAJAHI GENRE UNTUK SETIAP SUASANA HATI:
+
+• FANTASY — "The Enchanted Forest" & "Crown of Thorns" (intrik abad pertengahan)
+• SCI-FI — "The Time Loop Paradox" & "Neon Nights" (thriller cyberpunk)
+• HORROR — "Blackwood Manor" & "Station Omega" (teror stasiun luar angkasa)
+• MYSTERY — "City of Shadows" (detektif noir) & "Curse of the Pharaoh"
+• SURVIVAL — "After the Fall" (pasca-apokaliptik) & "Into the Wild"
+
+🌟 SEMPURNA UNTUK PECINTA:
+
+Buku Pilih Petualanganmu Sendiri | Novel Visual | Fiksi Interaktif | Game Petualangan Teks | Game Naratif Bercabang | RPG Berbasis Cerita | Game Offline | Petualangan Naratif
+
+📚 CERITA UNGGULAN:
+
+"The Time Loop Paradox" — Terjebak dalam hari yang berulang, bisakah kamu memutus siklusnya? (35 mnt, 3 akhir)
+"Blackwood Manor" — Mansion berhantu menyembunyikan rahasia keluarga kelam. Bisakah kamu bertahan malam itu? (32 mnt, 3 akhir)
+"Digital Heist" — Lakukan perampokan cyberpunk pamungkas di Neo Tokyo. (42 mnt, 5 akhir)
+"After the Fall" — Navigasi dunia pasca-apokaliptik di mana setiap pilihan memakan korban. (35 mnt, 4 akhir)
+
+🎮 CARA KERJANYA:
+
+1. Jelajahi perpustakaan cerita dan pilih petualanganmu
+2. Baca adegan imersif dengan karya seni indah
+3. Buat pilihan yang membentuk takdir karaktermu
+4. Temukan akhir berdasarkan keputusanMU
+5. Main ulang untuk membuka kesimpulan unik
+
+📚 PETUALANGAN UNGGULAN:
+The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall | Blackwood Manor | Into the Wild | Crown of Thorns | Curse of the Pharaoh | Neon Nights | Station Omega | City of Shadows | Digital Heist | Dead Rising
+
+Dan lebih banyak cerita ditambahkan secara teratur!
+
+ChronoCanvas bukan sekadar game — ini perpustakaan cerita hidup di mana KAMU adalah protagonis. Baik punya 15 menit atau satu jam, kabur ke dunia di mana pilihanmu benar-benar penting.
+
+Unduh sekarang dan mulai membentuk ceritamu.
+
+---
+
+Pertanyaan? Masukan? Hubungi kami: support@chronocanvas.app
+
+*Tersedia dalam Bahasa Inggris. Bahasa tambahan segera hadir.*
+
+🤘 TENTANG CERITA KAMI:
+Semua cerita di ChronoCanvas dibuat dengan bantuan AI dan diperiksa, diedit, serta dikurasi dengan cermat oleh penutur cerita manusia untuk memastikan kualitas, koherensi, dan pengalaman narasi yang menarik.
+
+=== ms ===
+name.txt:
+ChronoCanvas
+
+subtitle.txt:
+Pilih Aventura Anda
+
+promotional_text.txt:
+Terjun ke dalam kisah mendalam di mana pilihan ANDA tentukan pengakhirannya. Fantasi, misteri, seram & banyak lagi — semua offline. Mulakan aventura anda hari ini!
+
+keywords.txt:
+pilih aventura,novel visual,aventura teks,cerita interaktif,naratif bercabang,luar talian,fantasi
+
+description.txt:
+Masuki ChronoCanvas — di mana setiap pilihan anda membentuk cerita. Alami naratif interaktif mendalam merentasi kerajaan fantasi, misteri sains fiksyen, banglo berhantu, dan gurun pasca-apokalipsis.
+
+PILIHAN ANDA. CERITA ANDA. PENGHABISAN ANDA.
+
+Tidak seperti buku linear atau permainan pasif, ChronoCanvas memberikan KAWALAN kepada anda. Adakah anda mempercayai orang asing misteri? Lawan naga atau lari? Selamatkan anak kapal atau diri sendiri? Dengan titik keputusan yang tidak terhitung dan banyak penghabisan unik, tiada dua permainan yang sama.
+
+⚡ KENAPA PEMAIN CINTAI CHRONOCANVAS:
+
+✓ KOLEKSI CERITA MENARIK — Dari aventura pantas hingga kisah epik
+✓ PILIHAN BERMAKNA — Setiap keputusan mencabangkan naratif
+✓ PELBAGAI PENGHABISAN — Temui kesimpulan unik merentasi pelbagai permainan
+✓ SEPENUHNYA LUAR TALIAN — Main di mana-mana, bila-bila. Tiada WiFi diperlukan
+✓ VISUAL CANTIK — Karya seni menakjubkan menghidupkan setiap adegan
+✓ PENGALAMAN LENGKAP — Semua aventura dibuka dan sedia untuk dimainkan
+✓ SIMPAN KEMAJUAN — Penanda automatik merentasi semua aventura
+
+🎭 TEROKAI GENRE UNTUK SETIAP SUASANA:
+
+• FANTASY — "The Enchanted Forest" & "Crown of Thorns" (intrig zaman pertengahan)
+• SCI-FI — "The Time Loop Paradox" & "Neon Nights" (thriller cyberpunk)
+• HORROR — "Blackwood Manor" & "Station Omega" (seram stesen angkasa)
+• MYSTERY — "City of Shadows" (detektif noir) & "Curse of the Pharaoh"
+• SURVIVAL — "After the Fall" (pasca-apokalipsis) & "Into the Wild"
+
+🌟 SESUAI UNTUK PEMINAT:
+
+Buku Pilih Aventura Anda Sendiri | Novel Visual | Fiksyen Interaktif | Permainan Aventura Teks | Permainan Naratif Bercabang | RPG Berasaskan Cerita | Permainan Luar Talian | Aventura Naratif
+
+📚 CERITA PILIHAN:
+
+"The Time Loop Paradox" — Terperangkap dalam hari yang berulang, dapatkah anda memutuskan kitaran? (35 min, 3 penghabisan)
+"Blackwood Manor" — Banglo berhantu menyembunyikan rahsia keluarga kelam. Dapatkah anda bertahan malam itu? (32 min, 3 penghabisan)
+"Digital Heist" — Lakukan rompakan cyberpunk muktamad di Neo Tokyo. (42 min, 5 penghabisan)
+"After the Fall" — Navigasi dunia pasca-apokalipsis di mana setiap pilihan mengorbankan nyawa. (35 min, 4 penghabisan)
+
+🎮 CARA BERMAIN:
+
+1. Layari perpustakaan cerita dan pilih aventura anda
+2. Baca adegan mendalam dengan karya seni cantik
+3. Buat pilihan yang membentuk takdir watak anda
+4. Temui penghabisan berdasarkan keputusan ANDA
+5. Main semula untuk membuka kesimpulan unik
+
+📚 AVENTURA PILIHAN:
+The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall | Blackwood Manor | Into the Wild | Crown of Thorns | Curse of the Pharaoh | Neon Nights | Station Omega | City of Shadows | Digital Heist | Dead Rising
+
+Dan lebih banyak cerita ditambah secara berkala!
+
+ChronoCanvas bukan sekadar permainan — ia perpustakaan cerita hidup di mana ANDA adalah protagonis. Sama ada anda ada 15 minit atau sejam, lari ke dunia di mana pilihan anda benar-benar penting.
+
+Muat turun sekarang dan mula membentuk cerita anda.
+
+---
+
+Soalan? Maklum balas? Kami di sini: support@chronocanvas.app
+
+*Tersedia dalam Bahasa Inggeris. Bahasa tambahan akan datang.*
+
+🤖 MENGENAI CERITA KAMI:
+Semua cerita dalam ChronoCanvas dijana dengan bantuan AI dan diperiksa, diedit, serta dikurasi dengan teliti oleh pencerita manusia untuk memastikan kualiti, koheren, dan pengalaman naratif yang menarik.
+
+=== hi ===
+name.txt:
+ChronoCanvas
+
+subtitle.txt:
+अपना एडवेंचर चुनें
+
+promotional_text.txt:
+उन कहानियों में खो जाएं जहां आपकी पसंद अंत तय करती है। फैंटेसी, रहस्य, डरावनी और बहुत कुछ — पूरी तरह ऑफलाइन। आज ही अपना साहसिक कार्य शुरू करें!
+
+keywords.txt:
+चुनें साहसिक,दृश्य उपन्यास,पाठ साहसिक,इंटरैक्टिव कहानी,कहानी खेल,शाखित कथा,ऑफलाइन खेल,फैंटेसी खेल
+
+description.txt:
+ChronoCanvas में कदम रखें — जहां आपकी हर पसंद कहानी को आकार देती है। फैंटेसी राज्यों, विज्ञान-कथा रहस्यों, भूतिया हवेलियों और सर्वनाशोत्तर बंजर भूमियों में फैली मनोरम इंटरैक्टिव कथाओं का अनुभव करें।
+
+आपकी पसंद। आपकी कहानी। आपका अंत।
+
+रैखिक किताबों या निष्क्रिय खेलों के विपरीत, ChronoCanvas आपको नियंत्रण देता है। क्या आप रहस्यमय अजनबी पर भरोसा करेंगे? ड्रैगन से लड़ें या भागें? चालक दल को बचाएं या खुद को? अनगिनत निर्णायक बिंदुओं और कई अद्वितीय अंतों के साथ, कोई दो खेल एक जैसे नहीं होते।
+
+⚡ खिलाड़ी CHRONOCANVAS क्यों पसंद करते हैं:
+
+✓ मनमोहक कहानी संग्रह — त्वरित साहसिक कार्यों से लेकर महाकाव्य कथाओं तक
+✓ सार्थक पसंद — हर निर्णय कथा की शाखा बनाता है
+✓ कई अंत — कई खेलों में अद्वितीय निष्कर्ष खोजें
+✓ पूरी तरह ऑफलाइन — कहीं भी, कभी भी खेलें। WiFi की जरूरत नहीं
+✓ सुंदर दृश्य — आश्चर्यजनक कला हर दृश्य को जीवंत बनाती है
+✓ पूर्ण अनुभव — सभी साहसिक कार्य अनलॉक और खेलने के लिए तैयार
+✓ प्रगति सहेजें — सभी साहसिक कार्यों में स्वचालित बुकमार्किंग
+
+🎭 हर मूड के लिए विधाएं:
+
+• FANTASY — "The Enchanted Forest" और "Crown of Thorns" (मध्यकालीन साजिश)
+• SCI-FI — "The Time Loop Paradox" और "Neon Nights" (साइबरपंक रोमांच)
+• HORROR — "Blackwood Manor" और "Station Omega" (अंतरिक्ष स्टेशन का terror)
+• MYSTERY — "City of Shadows" (जासूस noir) और "Curse of the Pharaoh"
+• SURVIVAL — "After the Fall" (सर्वनाशोत्तर) और "Into the Wild"
+
+🌟 इनके प्रशंसकों के लिए बेहतरीन:
+
+अपना साहसिक कार्य चुनें किताबें | दृश्य उपन्यास | इंटरैक्टिव कथा | पाठ साहसिक खेल | शाखित कथा खेल | कथा-आधारित RPG | ऑफलाइन खेल | कथा साहसिक कार्य
+
+📚 चुनिंदा कहानियां:
+
+"The Time Loop Paradox" — दोहराने वाले दिन में फंसे, क्या आप चक्र तोड़ सकते हैं? (35 मिनट, 3 अंत)
+"Blackwood Manor" — एक भूतिया हवेली गहरे पारिवारिक रहस्य छिपाती है। क्या आप रात बिता पाएंगे? (32 मिनट, 3 अंत)
+"Digital Heist" — Neo Tokyo में परम साइबरपंक डकैती को अंजाम दें। (42 मिनट, 5 अंत)
+"After the Fall" — उस सर्वनाशोत्तर दुनिया में नेविगेट करें जहां हर पसंद जान लेती है। (35 मिनट, 4 अंत)
+
+🎮 यह कैसे काम करता है:
+
+1. कहानी पुस्तकालय ब्राउज़ करें और अपना साहसिक कार्य चुनें
+2. सुंदर कला के साथ मनोरम दृश्य पढ़ें
+3. अपने पात्र के भाग्य को आकार देने वाली पसंद करें
+4. अपने निर्णयों पर आधारित अंत खोजें
+5. अद्वितीय निष्कर्ष अनलॉक करने के लिए फिर से खेलें
+
+📚 चुनिंदा साहसिक कार्य:
+The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall | Blackwood Manor | Into the Wild | Crown of Thorns | Curse of the Pharaoh | Neon Nights | Station Omega | City of Shadows | Digital Heist | Dead Rising
+
+और नियमित रूप से जोड़ी जा रही और भी कहानियां!
+
+ChronoCanvas सिर्फ एक खेल नहीं है — यह जीवित कहानियों का एक पुस्तकालय है जहां आप नायक हैं। चाहे आपके पास 15 मिनट हों या एक घंटा, उन दुनियाओं में खो जाएं जहां आपकी पसंद सचमुच मायने रखती है।
+
+अभी डाउनलोड करें और अपनी कहानी आकार देना शुरू करें।
+
+---
+
+कोई सवाल? प्रतिक्रिया? हम यहां हैं: support@chronocanvas.app
+
+*अंग्रेजी में उपलब्ध। अतिरिक्त भाषाएं जल्द आ रही हैं।*
+
+🤖 हमारी कहानियों के बारे में:
+ChronoCanvas की सभी कहानियां AI सहायता से बनाई गई हैं और गुणवत्ता, सुसंगतता और आकर्षक कथा अनुभव सुनिश्चित करने के लिए मानव कथावाचकों द्वारा सावधानीपूर्वक जांची, संपादित और क्यूरेट की गई हैं।
+
+=== he ===
+name.txt:
+ChronoCanvas
+
+subtitle.txt:
+בחר את ההרפתקה שלך
+
+promotional_text.txt:
+צלול לסיפורים מרתקים שבהם הבחירות שלך קובעות את הסוף. פנטזיה, מיסתורין, אימה ועוד — הכל במצב לא מקוון. התחל את ההרפתקה היום!
+
+keywords.txt:
+הרפתקה,רומן חזותי,טקסט,אינטראקטיבי,נראטיב מסועף,לא מקוון,פנטזיה
+
+description.txt:
+צעד לתוך ChronoCanvas — שם כל בחירה שאתה עושה מעצבת את הסיפור. חווה נראטיבים אינטראקטיביים מרתקים הנמתחים דרך ממלכות פנטזיה, מיסתוריני מדע בדיוני, אחוזות רדופות ושממות שלאחר אפוקליפסה.
+
+הבחירות שלך. הסיפור שלך. הסוף שלך.
+
+בניגוד לספרים ליניאריים או משחקים פסיביים, ChronoCanvas נותן לך שליטה. האם תסמוך על הזר המסתורי? תילחם בדרקון או תברח? תציל את הצוות או את עצמך? עם נקודות החלטה בלתי מספר וסופים ייחודיים רבים, אין שני משחקים הזהים זה לזה.
+
+⚡ למה שחקנים אוהבים את CHRONOCANVAS:
+
+✓ אוסף סיפורים מרתק — מהרפתקאות קצרות ועד סיפורים אפיים
+✓ בחירות משמעותיות — כל החלטה מסעפת את הנראטיב
+✓ סופים מרובים — גלה מסקנות ייחודיות במהלך משחקים מרובים
+✓ לגמרי לא מקוון — שחק בכל מקום, בכל זמן. לא צריך WiFi
+✓ חזותיות מרהיבות — אמנות מדהימה מחייה כל סצנה
+✓ חוויה שלמה — כל ההרפתקאות פתוחות ומוכנות למשחק
+✓ שמור התקדמות — סימנייה אוטומטית בכל ההרפתקאות
+
+🎭 גלה ז'אנרים לכל מצב רוח:
+
+• FANTASY — "The Enchanted Forest" ו-"Crown of Thorns" (תככים ימי ביניים)
+• SCI-FI — "The Time Loop Paradox" ו-"Neon Nights" (מתח סייברפאנק)
+• HORROR — "Blackwood Manor" ו-"Station Omega" (אימה בתחנת חלל)
+• MYSTERY — "City of Shadows" (בלש noir) ו-"Curse of the Pharaoh"
+• SURVIVAL — "After the Fall" (לאחר אפוקליפסה) ו-"Into the Wild"
+
+🌟 מושלם לאוהדים של:
+
+ספרי בחר את ההרפתקה שלך | רומנים חזותיים | בדיון אינטראקטיבי | משחקי הרפתקאות טקסט | משחקי נראטיב מסועף | RPG מבוססי סיפור | משחקים לא מקוונים | הרפתקאות נראטיביות
+
+📚 סיפורים נבחרים:
+
+"The Time Loop Paradox" — לכוד ביום חוזר, האם תוכל לשבור את המעגל? (35 דק', 3 סופים)
+"Blackwood Manor" — אחוזה רדופה מסתירה סודות משפחתיים אפלים. האם תשרוד את הלילה? (32 דק', 3 סופים)
+"Digital Heist" — בצע את השוד הסייברפאנק האולטימטיבי בניאו טוקיו. (42 דק', 5 סופים)
+"After the Fall" — נווט בעולם שלאחר אפוקליפסה שבו כל בחירה עולה בחיים. (35 דק', 4 סופים)
+
+🎮 איך זה עובד:
+
+1. עיין בספריית הסיפורים ובחר את ההרפתקה שלך
+2. קרא סצנות מרתקות עם אמנות יפה
+3. קבל החלטות שמעצבות את גורל הדמות שלך
+4. גלה סופים המבוססים על ההחלטות שלך
+5. שחק שוב כדי לפתוח מסקנות ייחודיות
+
+📚 הרפתקאות נבחרות:
+The Enchanted Forest | The Time Loop Paradox | Abyssal Secrets | After the Fall | Blackwood Manor | Into the Wild | Crown of Thorns | Curse of the Pharaoh | Neon Nights | Station Omega | City of Shadows | Digital Heist | Dead Rising
+
+ועוד סיפורים מתווספים באופן קבוע!
+
+ChronoCanvas הוא לא רק משחק — זו ספריית סיפורים חיים שבה אתה הגיבור. בין אם יש לך 15 דקות או שעה, המלט לעולמות שבהם הבחירות שלך באמת חשובות.
+
+הורד עכשיו והתחל לעצב את הסיפור שלך.
+
+---
+
+שאלות? משוב? אנחנו כאן: support@chronocanvas.app
+
+*זמין באנגלית. שפות נוספות בקרוב.*
+
+🤖 אודות הסיפורים שלנו:
+כל הסיפורים ב-ChronoCanvas נוצרו בעזרת בינה מלאכותית ונבדקו, נערכו ונערכו בקפידה על ידי סופרים אנושיים כדי להבטיח איכות, עקביות וחוויית נראטיב מרתקת.
