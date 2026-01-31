@@ -18,7 +18,7 @@ interface StoryTranslations {
   };
 }
 
-export const story_8273910265StoryTranslations: Record<Language, StoryTranslations> = {
+export const story_8273910265StoryTranslations: Partial<Record<Language, StoryTranslations>> = {
   // English
   en: {
     title: 'Shadows of the Vanished Star',

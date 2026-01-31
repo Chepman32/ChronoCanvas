@@ -18,7 +18,7 @@ interface StoryTranslations {
   };
 }
 
-export const story_8743921042StoryTranslations: Record<Language, StoryTranslations> = {
+export const story_8743921042StoryTranslations: Partial<Record<Language, StoryTranslations>> = {
   // English
   en: {
     title: 'Echoes of the Moonlit Grove',

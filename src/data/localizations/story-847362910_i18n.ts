@@ -18,7 +18,7 @@ interface StoryTranslations {
   };
 }
 
-export const story_847362910StoryTranslations: Record<Language, StoryTranslations> = {
+export const story_847362910StoryTranslations: Partial<Record<Language, StoryTranslations>> = {
   // English
   en: {
     title: 'The Midnight Caller',

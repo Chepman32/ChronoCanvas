@@ -15,6 +15,8 @@ import { story_892746531StoryTranslations } from './story-892746531_i18n';
 import { story_9123457712345StoryTranslations } from './story-9123457712345_i18n';
 import { story_9845237719284StoryTranslations } from './story-9845237719284_i18n';
 import { story_9932045517721StoryTranslations } from './story-9932045517721_i18n';
+import { cityOfSecondChancesTranslations } from './story-8742190384_i18n';
+import { alchemistWatchTranslations } from './story-alchemist-watch_i18n';
 
 interface StoryTranslations {
   title: string;
@@ -40,7 +42,7 @@ interface StoryTranslations {
  */
 export const storyTranslationsRegistry: Record<
   string,
-  Record<Language, StoryTranslations>
+  Partial<Record<Language, StoryTranslations>>
 > = {
   'story-10012001': story_10012001StoryTranslations,
   'story-3': story_3StoryTranslations,
@@ -57,6 +59,8 @@ export const storyTranslationsRegistry: Record<
   'story-9123457712345': story_9123457712345StoryTranslations,
   'story-9845237719284': story_9845237719284StoryTranslations,
   'story-9932045517721': story_9932045517721StoryTranslations,
+  'story-8742190384': cityOfSecondChancesTranslations,
+  'story-alchemist-watch': alchemistWatchTranslations,
 };
 
 /**
@@ -64,7 +68,7 @@ export const storyTranslationsRegistry: Record<
  */
 export function getStoryTranslations(
   storyId: string,
-): Record<Language, StoryTranslations> | undefined {
+): Partial<Record<Language, StoryTranslations>> | undefined {
   return storyTranslationsRegistry[storyId];
 }
 

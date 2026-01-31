@@ -18,7 +18,7 @@ interface StoryTranslations {
   };
 }
 
-export const story_7481296StoryTranslations: Record<Language, StoryTranslations> = {
+export const story_7481296StoryTranslations: Partial<Record<Language, StoryTranslations>> = {
   // English
   en: {
     title: 'Midnight Missing',

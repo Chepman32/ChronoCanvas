@@ -18,7 +18,7 @@ interface StoryTranslations {
   };
 }
 
-export const story_8923745610923StoryTranslations: Record<Language, StoryTranslations> = {
+export const story_8923745610923StoryTranslations: Partial<Record<Language, StoryTranslations>> = {
   // English
   en: {
     title: 'Paradox Palette',

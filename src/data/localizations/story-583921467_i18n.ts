@@ -18,7 +18,7 @@ interface StoryTranslations {
   };
 }
 
-export const story_583921467StoryTranslations: Record<Language, StoryTranslations> = {
+export const story_583921467StoryTranslations: Partial<Record<Language, StoryTranslations>> = {
   // English
   en: {
     title: 'The Timekeeper\'s Heart',

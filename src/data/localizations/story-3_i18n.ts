@@ -18,7 +18,7 @@ interface StoryTranslations {
   };
 }
 
-export const story_3StoryTranslations: Record<Language, StoryTranslations> = {
+export const story_3StoryTranslations: Partial<Record<Language, StoryTranslations>> = {
   // English
   en: {
     title: 'The Time Loop Paradox',

@@ -18,7 +18,7 @@ interface StoryTranslations {
   };
 }
 
-export const story_847362951StoryTranslations: Record<Language, StoryTranslations> = {
+export const story_847362951StoryTranslations: Partial<Record<Language, StoryTranslations>> = {
   // English
   en: {
     title: 'The Midnight Curator',

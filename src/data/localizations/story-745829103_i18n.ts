@@ -18,7 +18,7 @@ interface StoryTranslations {
   };
 }
 
-export const story_745829103StoryTranslations: Record<Language, StoryTranslations> = {
+export const story_745829103StoryTranslations: Partial<Record<Language, StoryTranslations>> = {
   // English
   en: {
     title: 'The Midnight Garden',

@@ -18,7 +18,7 @@ interface StoryTranslations {
   };
 }
 
-export const story_9932045517721StoryTranslations: Record<Language, StoryTranslations> = {
+export const story_9932045517721StoryTranslations: Partial<Record<Language, StoryTranslations>> = {
   // English
   en: {
     title: 'Rootweaver’s Pact',

@@ -18,7 +18,7 @@ interface StoryTranslations {
   };
 }
 
-export const story_10012001StoryTranslations: Record<Language, StoryTranslations> = {
+export const story_10012001StoryTranslations: Partial<Record<Language, StoryTranslations>> = {
   // English
   en: {
     title: 'Cosmic Castaway',

@@ -18,7 +18,7 @@ interface StoryTranslations {
   };
 }
 
-export const story_4StoryTranslations: Record<Language, StoryTranslations> = {
+export const story_4StoryTranslations: Partial<Record<Language, StoryTranslations>> = {
   // English
   en: {
     title: 'Abyssal Secrets',

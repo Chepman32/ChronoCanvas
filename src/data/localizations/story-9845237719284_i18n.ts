@@ -18,7 +18,7 @@ interface StoryTranslations {
   };
 }
 
-export const story_9845237719284StoryTranslations: Record<Language, StoryTranslations> = {
+export const story_9845237719284StoryTranslations: Partial<Record<Language, StoryTranslations>> = {
   // English
   en: {
     title: 'Ember Crown Oath',

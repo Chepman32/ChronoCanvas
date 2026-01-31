@@ -18,7 +18,7 @@ interface StoryTranslations {
   };
 }
 
-export const story_892746531StoryTranslations: Record<Language, StoryTranslations> = {
+export const story_892746531StoryTranslations: Partial<Record<Language, StoryTranslations>> = {
   // English
   en: {
     title: 'The Last Letter',

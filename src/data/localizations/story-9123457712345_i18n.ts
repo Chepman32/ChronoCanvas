@@ -18,7 +18,7 @@ interface StoryTranslations {
   };
 }
 
-export const story_9123457712345StoryTranslations: Record<Language, StoryTranslations> = {
+export const story_9123457712345StoryTranslations: Partial<Record<Language, StoryTranslations>> = {
   // English
   en: {
     title: 'Heartline Rewind',
