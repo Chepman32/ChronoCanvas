@@ -89,6 +89,22 @@ export interface Translations {
   involvementLow: string;
   involvementMedium: string;
   involvementHigh: string;
+
+  // Story Cache
+  storyCache: string;
+  cacheSize: string;
+  lastSync: string;
+  never: string;
+  clearCache: string;
+  clearCacheTitle: string;
+  clearCacheMessage: string;
+  checkForNewStories: string;
+  syncing: string;
+  syncComplete: string;
+  storiesUpdated: string;
+  syncError: string;
+  clear: string;
+  cancel: string;
 }
 
 export const translations: Record<Language, Translations> = {
@@ -157,6 +173,21 @@ export const translations: Record<Language, Translations> = {
     involvementLow: 'Low',
     involvementMedium: 'Medium',
     involvementHigh: 'High',
+
+    storyCache: 'Story Cache',
+    cacheSize: 'Cache Size',
+    lastSync: 'Last Sync',
+    never: 'Never',
+    clearCache: 'Clear Cache',
+    clearCacheTitle: 'Clear Cache',
+    clearCacheMessage: 'This will remove all downloaded stories. They will be re-downloaded when you check for new stories.',
+    checkForNewStories: 'Check for New Stories',
+    syncing: 'Syncing...',
+    syncComplete: 'Sync Complete',
+    storiesUpdated: '{count} stories updated',
+    syncError: 'Sync Error',
+    clear: 'Clear',
+    cancel: 'Cancel',
   },
 
   // Russian (Русский)
@@ -224,6 +255,21 @@ export const translations: Record<Language, Translations> = {
     involvementLow: 'Низкая',
     involvementMedium: 'Средняя',
     involvementHigh: 'Высокая',
+
+    storyCache: 'Кэш историй',
+    cacheSize: 'Размер кэша',
+    lastSync: 'Последняя синхронизация',
+    never: 'Никогда',
+    clearCache: 'Очистить кэш',
+    clearCacheTitle: 'Очистить кэш',
+    clearCacheMessage: 'Это удалит все загруженные истории. Они будут загружены заново при проверке новых историй.',
+    checkForNewStories: 'Проверить новые истории',
+    syncing: 'Синхронизация...',
+    syncComplete: 'Синхронизация завершена',
+    storiesUpdated: 'Обновлено историй: {count}',
+    syncError: 'Ошибка синхронизации',
+    clear: 'Очистить',
+    cancel: 'Отмена',
   },
 
   // Spanish (Español)
@@ -291,6 +337,21 @@ export const translations: Record<Language, Translations> = {
     involvementLow: 'Baja',
     involvementMedium: 'Media',
     involvementHigh: 'Alta',
+
+    storyCache: 'Caché de historias',
+    cacheSize: 'Tamaño del caché',
+    lastSync: 'Última sincronización',
+    never: 'Nunca',
+    clearCache: 'Limpiar caché',
+    clearCacheTitle: 'Limpiar caché',
+    clearCacheMessage: 'Esto eliminará todas las historias descargadas. Se volverán a descargar cuando busques nuevas historias.',
+    checkForNewStories: 'Buscar nuevas historias',
+    syncing: 'Sincronizando...',
+    syncComplete: 'Sincronización completada',
+    storiesUpdated: '{count} historias actualizadas',
+    syncError: 'Error de sincronización',
+    clear: 'Limpiar',
+    cancel: 'Cancelar',
   },
 
   // German (Deutsch)
@@ -359,6 +420,21 @@ export const translations: Record<Language, Translations> = {
     involvementLow: 'Niedrig',
     involvementMedium: 'Mittel',
     involvementHigh: 'Hoch',
+
+    storyCache: 'Geschichte-Cache',
+    cacheSize: 'Cache-Größe',
+    lastSync: 'Letzte Synchronisierung',
+    never: 'Nie',
+    clearCache: 'Cache löschen',
+    clearCacheTitle: 'Cache löschen',
+    clearCacheMessage: 'Dies löscht alle heruntergeladenen Geschichten. Sie werden neu heruntergeladen, wenn Sie nach neuen Geschichten suchen.',
+    checkForNewStories: 'Nach neuen Geschichten suchen',
+    syncing: 'Synchronisiere...',
+    syncComplete: 'Synchronisierung abgeschlossen',
+    storiesUpdated: '{count} Geschichten aktualisiert',
+    syncError: 'Synchronisierungsfehler',
+    clear: 'Löschen',
+    cancel: 'Abbrechen',
   },
 
   // French (Français)
@@ -427,6 +503,21 @@ export const translations: Record<Language, Translations> = {
     involvementLow: 'Faible',
     involvementMedium: 'Moyenne',
     involvementHigh: 'Élevée',
+
+    storyCache: 'Cache des histoires',
+    cacheSize: 'Taille du cache',
+    lastSync: 'Dernière synchronisation',
+    never: 'Jamais',
+    clearCache: 'Vider le cache',
+    clearCacheTitle: 'Vider le cache',
+    clearCacheMessage: 'Cela supprimera toutes les histoires téléchargées. Elles seront retéléchargées lors de la recherche de nouvelles histoires.',
+    checkForNewStories: 'Rechercher de nouvelles histoires',
+    syncing: 'Synchronisation...',
+    syncComplete: 'Synchronisation terminée',
+    storiesUpdated: '{count} histoires mises à jour',
+    syncError: 'Erreur de synchronisation',
+    clear: 'Effacer',
+    cancel: 'Annuler',
   },
 
   // Portuguese (Português)
@@ -494,6 +585,21 @@ export const translations: Record<Language, Translations> = {
     involvementLow: 'Baixo',
     involvementMedium: 'Médio',
     involvementHigh: 'Alto',
+
+    storyCache: 'Cache de histórias',
+    cacheSize: 'Tamanho do cache',
+    lastSync: 'Última sincronização',
+    never: 'Nunca',
+    clearCache: 'Limpar cache',
+    clearCacheTitle: 'Limpar cache',
+    clearCacheMessage: 'Isso removerá todas as histórias baixadas. Elas serão baixadas novamente quando você verificar novas histórias.',
+    checkForNewStories: 'Verificar novas histórias',
+    syncing: 'Sincronizando...',
+    syncComplete: 'Sincronização concluída',
+    storiesUpdated: '{count} histórias atualizadas',
+    syncError: 'Erro de sincronização',
+    clear: 'Limpar',
+    cancel: 'Cancelar',
   },
 
   // Japanese (日本語)
@@ -562,6 +668,21 @@ export const translations: Record<Language, Translations> = {
     involvementLow: '低',
     involvementMedium: '中',
     involvementHigh: '高',
+
+    storyCache: 'ストーリーキャッシュ',
+    cacheSize: 'キャッシュサイズ',
+    lastSync: '最終同期',
+    never: '未実行',
+    clearCache: 'キャッシュをクリア',
+    clearCacheTitle: 'キャッシュをクリア',
+    clearCacheMessage: 'ダウンロードしたすべてのストーリーが削除されます。新しいストーリーを確認すると再ダウンロードされます。',
+    checkForNewStories: '新しいストーリーを確認',
+    syncing: '同期中...',
+    syncComplete: '同期完了',
+    storiesUpdated: '{count}件のストーリーが更新されました',
+    syncError: '同期エラー',
+    clear: 'クリア',
+    cancel: 'キャンセル',
   },
 
   // Chinese (中文)
@@ -629,6 +750,21 @@ export const translations: Record<Language, Translations> = {
     involvementLow: '低',
     involvementMedium: '中',
     involvementHigh: '高',
+
+    storyCache: '故事缓存',
+    cacheSize: '缓存大小',
+    lastSync: '上次同步',
+    never: '从未',
+    clearCache: '清除缓存',
+    clearCacheTitle: '清除缓存',
+    clearCacheMessage: '这将删除所有下载的故事。当您检查新故事时，它们将被重新下载。',
+    checkForNewStories: '检查新故事',
+    syncing: '同步中...',
+    syncComplete: '同步完成',
+    storiesUpdated: '已更新 {count} 个故事',
+    syncError: '同步错误',
+    clear: '清除',
+    cancel: '取消',
   },
 
   // Korean (한국어)
@@ -696,6 +832,21 @@ export const translations: Record<Language, Translations> = {
     involvementLow: '낮음',
     involvementMedium: '중간',
     involvementHigh: '높음',
+
+    storyCache: '스토리 캐시',
+    cacheSize: '캐시 크기',
+    lastSync: '마지막 동기화',
+    never: '없음',
+    clearCache: '캐시 지우기',
+    clearCacheTitle: '캐시 지우기',
+    clearCacheMessage: '다운로드한 모든 스토리가 삭제됩니다. 새 스토리를 확인하면 다시 다운로드됩니다.',
+    checkForNewStories: '새 스토리 확인',
+    syncing: '동기화 중...',
+    syncComplete: '동기화 완료',
+    storiesUpdated: '{count}개 스토리 업데이트됨',
+    syncError: '동기화 오류',
+    clear: '지우기',
+    cancel: '취소',
   },
 
   // Ukrainian (Українська)
@@ -763,6 +914,21 @@ export const translations: Record<Language, Translations> = {
     involvementLow: 'Низька',
     involvementMedium: 'Середня',
     involvementHigh: 'Висока',
+
+    storyCache: 'Кеш історій',
+    cacheSize: 'Розмір кешу',
+    lastSync: 'Остання синхронізація',
+    never: 'Ніколи',
+    clearCache: 'Очистити кеш',
+    clearCacheTitle: 'Очистити кеш',
+    clearCacheMessage: 'Це видалить усі завантажені історії. Вони будуть завантажені знову при перевірці нових історій.',
+    checkForNewStories: 'Перевірити нові історії',
+    syncing: 'Синхронізація...',
+    syncComplete: 'Синхронізацію завершено',
+    storiesUpdated: 'Оновлено історій: {count}',
+    syncError: 'Помилка синхронізації',
+    clear: 'Очистити',
+    cancel: 'Скасувати',
   },
 
   // Italian (Italiano)
@@ -830,6 +996,21 @@ export const translations: Record<Language, Translations> = {
     involvementLow: 'Basso',
     involvementMedium: 'Medio',
     involvementHigh: 'Alto',
+
+    storyCache: 'Cache delle storie',
+    cacheSize: 'Dimensione cache',
+    lastSync: 'Ultima sincronizzazione',
+    never: 'Mai',
+    clearCache: 'Svuota cache',
+    clearCacheTitle: 'Svuota cache',
+    clearCacheMessage: 'Questo rimuoverà tutte le storie scaricate. Verranno riscaricate quando cercherai nuove storie.',
+    checkForNewStories: 'Cerca nuove storie',
+    syncing: 'Sincronizzazione...',
+    syncComplete: 'Sincronizzazione completata',
+    storiesUpdated: '{count} storie aggiornate',
+    syncError: 'Errore di sincronizzazione',
+    clear: 'Svuota',
+    cancel: 'Annulla',
   },
 
   // Arabic (العربية)
@@ -897,6 +1078,21 @@ export const translations: Record<Language, Translations> = {
     involvementLow: 'منخفض',
     involvementMedium: 'متوسط',
     involvementHigh: 'مرتفع',
+
+    storyCache: 'ذاكرة القصص المؤقتة',
+    cacheSize: 'حجم الذاكرة المؤقتة',
+    lastSync: 'آخر مزامنة',
+    never: 'أبداً',
+    clearCache: 'مسح الذاكرة المؤقتة',
+    clearCacheTitle: 'مسح الذاكرة المؤقتة',
+    clearCacheMessage: 'سيؤدي هذا إلى إزالة جميع القصص المحملة. سيتم إعادة تحميلها عند البحث عن قصص جديدة.',
+    checkForNewStories: 'البحث عن قصص جديدة',
+    syncing: 'جاري المزامنة...',
+    syncComplete: 'اكتملت المزامنة',
+    storiesUpdated: 'تم تحديث {count} قصة',
+    syncError: 'خطأ في المزامنة',
+    clear: 'مسح',
+    cancel: 'إلغاء',
   },
 
   // Hindi (हिंदी)
@@ -964,6 +1160,21 @@ export const translations: Record<Language, Translations> = {
     involvementLow: 'कम',
     involvementMedium: 'मध्यम',
     involvementHigh: 'उच्च',
+
+    storyCache: 'कहानी कैश',
+    cacheSize: 'कैश आकार',
+    lastSync: 'अंतिम सिंक',
+    never: 'कभी नहीं',
+    clearCache: 'कैश साफ़ करें',
+    clearCacheTitle: 'कैश साफ़ करें',
+    clearCacheMessage: 'यह सभी डाउनलोड की गई कहानियों को हटा देगा। नई कहानियां खोजते समय वे फिर से डाउनलोड हो जाएंगी।',
+    checkForNewStories: 'नई कहानियां खोजें',
+    syncing: 'सिंक हो रहा है...',
+    syncComplete: 'सिंक पूर्ण',
+    storiesUpdated: '{count} कहानियां अपडेट हुईं',
+    syncError: 'सिंक त्रुटि',
+    clear: 'साफ़ करें',
+    cancel: 'रद्द करें',
   },
 
   // Dutch (Nederlands)
@@ -1031,6 +1242,21 @@ export const translations: Record<Language, Translations> = {
     involvementLow: 'Laag',
     involvementMedium: 'Gemiddeld',
     involvementHigh: 'Hoog',
+
+    storyCache: 'Verhaalcache',
+    cacheSize: 'Cachegrootte',
+    lastSync: 'Laatste synchronisatie',
+    never: 'Nooit',
+    clearCache: 'Cache wissen',
+    clearCacheTitle: 'Cache wissen',
+    clearCacheMessage: 'Dit verwijdert alle gedownloade verhalen. Ze worden opnieuw gedownload wanneer je naar nieuwe verhalen zoekt.',
+    checkForNewStories: 'Controleren op nieuwe verhalen',
+    syncing: 'Synchroniseren...',
+    syncComplete: 'Synchronisatie voltooid',
+    storiesUpdated: '{count} verhalen bijgewerkt',
+    syncError: 'Synchronisatiefout',
+    clear: 'Wissen',
+    cancel: 'Annuleren',
   },
 
   // Polish (Polski)
@@ -1098,6 +1324,21 @@ export const translations: Record<Language, Translations> = {
     involvementLow: 'Niskie',
     involvementMedium: 'Średnie',
     involvementHigh: 'Wysokie',
+
+    storyCache: 'Pamięć podręczna opowieści',
+    cacheSize: 'Rozmiar pamięci podręcznej',
+    lastSync: 'Ostatnia synchronizacja',
+    never: 'Nigdy',
+    clearCache: 'Wyczyść pamięć podręczną',
+    clearCacheTitle: 'Wyczyść pamięć podręczną',
+    clearCacheMessage: 'Spowoduje to usunięcie wszystkich pobranych opowieści. Zostaną ponownie pobrane podczas sprawdzania nowych opowieści.',
+    checkForNewStories: 'Sprawdź nowe opowieści',
+    syncing: 'Synchronizacja...',
+    syncComplete: 'Synchronizacja zakończona',
+    storiesUpdated: 'Zaktualizowano {count} opowieści',
+    syncError: 'Błąd synchronizacji',
+    clear: 'Wyczyść',
+    cancel: 'Anuluj',
   },
 
   // Turkish (Türkçe)
@@ -1165,6 +1406,21 @@ export const translations: Record<Language, Translations> = {
     involvementLow: 'Düşük',
     involvementMedium: 'Orta',
     involvementHigh: 'Yüksek',
+
+    storyCache: 'Hikaye Önbelleği',
+    cacheSize: 'Önbellek Boyutu',
+    lastSync: 'Son Senkronizasyon',
+    never: 'Hiçbir zaman',
+    clearCache: 'Önbelleği Temizle',
+    clearCacheTitle: 'Önbelleği Temizle',
+    clearCacheMessage: 'Bu, indirilen tüm hikayeleri kaldıracak. Yeni hikayeler arandığında tekrar indirilecekler.',
+    checkForNewStories: 'Yeni Hikayeleri Kontrol Et',
+    syncing: 'Senkronize ediliyor...',
+    syncComplete: 'Senkronizasyon Tamamlandı',
+    storiesUpdated: '{count} hikaye güncellendi',
+    syncError: 'Senkronizasyon Hatası',
+    clear: 'Temizle',
+    cancel: 'İptal',
   },
 };
 

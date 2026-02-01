@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import {
   View,
   Text,
@@ -6,13 +6,25 @@ import {
   ScrollView,
   TouchableOpacity,
   Switch,
+  Alert,
+  ActivityIndicator,
 } from 'react-native';
 import Slider from '@react-native-community/slider';
 import { useSettingsStore } from '../store/settingsStore';
+import { useStoryStore } from '../store/storyStore';
+import { useSyncStore } from '../store/remoteSyncStore';
 import { ThemeName } from '../theme/colors';
 import { spacing, borderRadius } from '../theme/colors';
 import { useTranslation } from '../localization/useTranslation';
 import { Language, languageNames } from '../localization/translations';
+import {
+  clearCache,
+  getCacheSize,
+  formatBytes,
+  getAllCachedStories,
+  getLastSyncTimestamp,
+} from '../services/storyCacheService';
+import { syncStories } from '../services/remoteStoryService';
 
 interface SettingsScreenProps {
   onBack: () => void;
@@ -44,7 +56,79 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({ onBack }) => {
     toggleHaptics,
   } = useSettingsStore();
 
+  const setRemoteStories = useStoryStore(state => state.setRemoteStories);
+  const { isSyncing, lastSyncTime, syncProgress, startSync, updateProgress, finishSync, setLastSyncTime } =
+    useSyncStore();
+
   const t = useTranslation();
+
+  const [cacheSize, setCacheSize] = useState(0);
+
+  // Update cache size on mount and after operations
+  const refreshCacheSize = useCallback(() => {
+    setCacheSize(getCacheSize());
+  }, []);
+
+  useEffect(() => {
+    refreshCacheSize();
+    // Restore last sync time from cache
+    const lastSync = getLastSyncTimestamp();
+    if (lastSync) {
+      setLastSyncTime(lastSync);
+    }
+  }, [refreshCacheSize, setLastSyncTime]);
+
+  const handleClearCache = () => {
+    Alert.alert(
+      t.clearCacheTitle || 'Clear Cache',
+      t.clearCacheMessage || 'This will remove all downloaded stories. They will be re-downloaded when you check for new stories.',
+      [
+        { text: t.cancel || 'Cancel', style: 'cancel' },
+        {
+          text: t.clear || 'Clear',
+          style: 'destructive',
+          onPress: () => {
+            clearCache();
+            setCacheSize(0);
+            setRemoteStories([]);
+            setLastSyncTime(null);
+          },
+        },
+      ],
+    );
+  };
+
+  const handleCheckForStories = async () => {
+    startSync();
+
+    try {
+      const result = await syncStories((current, total, storyId) => {
+        updateProgress(current, total, storyId);
+      });
+
+      finishSync(true);
+
+      // Reload stories
+      const cachedStories = getAllCachedStories();
+      setRemoteStories(cachedStories);
+      refreshCacheSize();
+
+      Alert.alert(
+        t.syncComplete || 'Sync Complete',
+        (t.storiesUpdated || '{count} stories updated').replace('{count}', result.updated.toString()),
+      );
+    } catch (error) {
+      const message = error instanceof Error ? error.message : 'Sync failed';
+      finishSync(false, message);
+      Alert.alert(t.syncError || 'Sync Error', message);
+    }
+  };
+
+  const formatLastSync = (timestamp: number | null): string => {
+    if (!timestamp) return t.never || 'Never';
+    const date = new Date(timestamp);
+    return date.toLocaleDateString() + ' ' + date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+  };
 
   const themeOptions: { value: ThemeName; label: string }[] = [
     { value: 'light', label: t.themeLight },
@@ -257,6 +341,102 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({ onBack }) => {
           </View>
         </View>
 
+        {/* Story Cache Section */}
+        <View style={styles.section}>
+          <Text style={[styles.sectionTitle, { color: theme.textPrimary }]}>
+            {t.storyCache || 'Story Cache'}
+          </Text>
+
+          {/* Cache Info */}
+          <View
+            style={[
+              styles.settingRow,
+              { backgroundColor: theme.surface, borderColor: theme.border },
+            ]}
+          >
+            <View style={{ flex: 1 }}>
+              <Text style={[styles.settingLabel, { color: theme.textPrimary }]}>
+                {t.cacheSize || 'Cache Size'}
+              </Text>
+              <Text
+                style={[styles.settingDescription, { color: theme.textSecondary }]}
+              >
+                {formatBytes(cacheSize)}
+              </Text>
+            </View>
+          </View>
+
+          {/* Last Sync */}
+          <View
+            style={[
+              styles.settingRow,
+              {
+                backgroundColor: theme.surface,
+                borderColor: theme.border,
+                marginTop: spacing.sm,
+              },
+            ]}
+          >
+            <View style={{ flex: 1 }}>
+              <Text style={[styles.settingLabel, { color: theme.textPrimary }]}>
+                {t.lastSync || 'Last Sync'}
+              </Text>
+              <Text
+                style={[styles.settingDescription, { color: theme.textSecondary }]}
+              >
+                {formatLastSync(lastSyncTime)}
+              </Text>
+            </View>
+          </View>
+
+          {/* Action Buttons */}
+          <View style={styles.cacheButtonsContainer}>
+            {/* Check for New Stories Button */}
+            <TouchableOpacity
+              style={[
+                styles.cacheButton,
+                { backgroundColor: theme.primary },
+                isSyncing && styles.cacheButtonDisabled,
+              ]}
+              onPress={handleCheckForStories}
+              disabled={isSyncing}
+              activeOpacity={0.7}
+            >
+              {isSyncing ? (
+                <View style={styles.syncingContainer}>
+                  <ActivityIndicator color="#FFFFFF" size="small" />
+                  <Text style={styles.cacheButtonText}>
+                    {syncProgress
+                      ? `${syncProgress.current}/${syncProgress.total}`
+                      : t.syncing || 'Syncing...'}
+                  </Text>
+                </View>
+              ) : (
+                <Text style={styles.cacheButtonText}>
+                  {t.checkForNewStories || 'Check for New Stories'}
+                </Text>
+              )}
+            </TouchableOpacity>
+
+            {/* Clear Cache Button */}
+            <TouchableOpacity
+              style={[
+                styles.cacheButton,
+                styles.clearCacheButton,
+                { borderColor: theme.error },
+                isSyncing && styles.cacheButtonDisabled,
+              ]}
+              onPress={handleClearCache}
+              disabled={isSyncing}
+              activeOpacity={0.7}
+            >
+              <Text style={[styles.cacheButtonText, { color: theme.error }]}>
+                {t.clearCache || 'Clear Cache'}
+              </Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+
         {/* App Info */}
         <View style={[styles.section, styles.infoSection]}>
           <Text style={[styles.infoText, { color: theme.textSecondary }]}>
@@ -395,5 +575,33 @@ const styles = StyleSheet.create({
   slider: {
     flex: 1,
     height: 40,
+  },
+  cacheButtonsContainer: {
+    marginTop: spacing.md,
+    gap: spacing.sm,
+  },
+  cacheButton: {
+    padding: spacing.md,
+    borderRadius: borderRadius.medium,
+    alignItems: 'center',
+    justifyContent: 'center',
+    minHeight: 50,
+  },
+  clearCacheButton: {
+    backgroundColor: 'transparent',
+    borderWidth: 1,
+  },
+  cacheButtonDisabled: {
+    opacity: 0.6,
+  },
+  cacheButtonText: {
+    color: '#FFFFFF',
+    fontSize: 16,
+    fontWeight: '600',
+  },
+  syncingContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
   },
 });
