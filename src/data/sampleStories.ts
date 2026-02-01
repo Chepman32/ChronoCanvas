@@ -99,7 +99,7 @@ const originalStories: Story[] = [
         type: 'decision',
         title: 'The Crystal Pool',
         imageUrl:
-          'https://images.unsplash.com/photo-1516589178581?w=800',
+          'https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?w=800',
         narration:
           'Following the stream, you discover a crystal-clear pool. The water is so transparent you can see colorful fish swimming below. In the center of the pool, a small island holds a single white flower.',
         choices: [
@@ -123,7 +123,7 @@ const originalStories: Story[] = [
         type: 'ending',
         title: 'The Forest Guardian',
         imageUrl:
-          'https://images.unsplash.com/photo-1522673607200?w=800',
+          'https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=800',
         narration:
           'Your choice awakens the forest guardian, a majestic spirit of light and nature. She thanks you for your courage and grants you the gift of understanding all living things. You leave the forest forever changed, able to hear the whispers of nature.',
         choices: [],

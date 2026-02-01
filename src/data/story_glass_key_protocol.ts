@@ -6,9 +6,9 @@ export const glassKeyProtocolStory: Story = {
   description:
     'A noir mystery set in 1940s San Francisco. Private investigator Jack Malone must uncover the truth behind a murdered senator\'s son, a mysterious glass key, and a conspiracy that reaches the highest levels of power.',
   coverImageUrl:
-    'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
+    'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=800',
   thumbnailUrl:
-    'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=400',
+    'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=400',
   author: 'Sam Vickers',
   genre: 'mystery',
   involvement: 'high',
@@ -26,7 +26,7 @@ export const glassKeyProtocolStory: Story = {
       storyId: 'story-glass-key-protocol',
       type: 'start',
       title: 'The Glass Key',
-      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=800',
       narration:
         'The rain falls hard on the cobblestones outside your office. You\'re Jack Malone, private detective, and tonight a dying man stumbled through your door with a glass key in his hand and a bullet in his chest. \'They\'re coming,\' he gasped. \'The Protocol... it\'s real.\' Before he died, he pressed the key into your palm. It\'s cold, translucent, and etched with symbols you don\'t recognize. Now you hear footsteps on the stairs -- heavy boots, more than one pair. The glass key burns in your pocket like a frozen ember.',
       choices: [
@@ -141,7 +141,7 @@ export const glassKeyProtocolStory: Story = {
       storyId: 'story-glass-key-protocol',
       type: 'decision',
       title: 'Gunfight',
-      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=800',
       narration:
         'Your shot takes the first man in the shoulder; he drops his gun with a scream. You dive behind your desk as return fire splinters the wood. The second gunman is cautious -- professional. You kick open the secret panel and slip into the crawlspace between walls. Above, you hear them searching. \'He\'s got the key,\' one mutters. \'Boss wants it tonight.\' You emerge two buildings down, breathless, but now you\'re unarmed and hunted.',
       choices: [
@@ -210,7 +210,7 @@ export const glassKeyProtocolStory: Story = {
       storyId: 'story-glass-key-protocol',
       type: 'decision',
       title: 'Clara Blackwell',
-      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=800',
       narration:
         'Clara Blackwell is young, rich, and terrified. When you show her the glass key, she gasps. \'That\'s one of the seven. My brother had the seventh.\' The Protocol is a secret agreement between the city\'s elite and organized crime. Seven keys exist; holders control voting blocks, police captains, judges. Her brother discovered the Protocol and tried to expose it. \'They killed him. Made it look like an accident.\' Her hand shakes.',
       choices: [
@@ -348,7 +348,7 @@ export const glassKeyProtocolStory: Story = {
       storyId: 'story-glass-key-protocol',
       type: 'decision',
       title: 'Solo Investigation',
-      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=800',
       narration:
         'You work better alone. Thomas Reed had a sister -- Margaret, a librarian in Oakland. You find her in a small house surrounded by books. \'Thomas said someone would come,\' she says, handing you a letter. The letter details how Reed discovered the Protocol while auditing the Senator\'s finances. Seven keys, seven million in bribes, seven murders covered up. \'The keys aren\'t just symbols,\' Reed wrote.',
       choices: [
@@ -371,7 +371,7 @@ export const glassKeyProtocolStory: Story = {
       storyId: 'story-glass-key-protocol',
       type: 'decision',
       title: 'The Chronicle Office',
-      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=800',
       narration:
         'The newspaper office buzzes with deadline energy. Eddie lays out the story -- the Protocol, the keys, the murders. Clara\'s folio provides names and bank accounts. Enough to indict half the city government. \'We print tonight,\' Eddie says. But as the presses roll, Morano\'s men surround the building. They\'re not here to negotiate. Gunfire shatters windows. \'The basement,\' Eddie shouts. \'Tunnel to the print shop.\'',
       choices: [
@@ -486,7 +486,7 @@ export const glassKeyProtocolStory: Story = {
       storyId: 'story-glass-key-protocol',
       type: 'decision',
       title: 'Last Stand',
-      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=800',
       narration:
         'You barricade the door and draw your gun. Clara helps Eddie move printing presses to create cover. \'We\'ll never get out alive,\' she says, loading a shotgun. Morano\'s men break through, and the office becomes a warzone. You\'re pinned down, outnumbered, but presses keep running -- each copy is a bullet against the Protocol. \'One minute until distribution,\' Eddie calls. Then sirens -- real police. Morano\'s men hesitate.',
       choices: [
@@ -555,7 +555,7 @@ export const glassKeyProtocolStory: Story = {
       storyId: 'story-glass-key-protocol',
       type: 'decision',
       title: 'The Feds',
-      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=800',
       narration:
         'The federal holding cell is cold and featureless. You\'ve been here three days. No lawyer, no phone call, no charges. Finally, a man in a gray suit enters. \'The Protocol exists because we allow it,\' he says. \'It keeps order.\' He sits on the bunk. \'The Senator\'s dead -- suicide. Morano\'s disappeared. Clara\'ll testify that you kidnapped her. Unless...\' He produces a document. \'Sign this confession, take ten years, and she goes free.\'',
       choices: [
@@ -578,7 +578,7 @@ export const glassKeyProtocolStory: Story = {
       storyId: 'story-glass-key-protocol',
       type: 'decision',
       title: 'The Easy Way',
-      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=800',
       narration:
         'You catch a steamer to Manila under a false name. The fifty thousand dollars buys you a new life -- a house by the beach, a fishing boat. But some nights you wake up sweating, hearing Clara\'s screams. You read about the Senator\'s death -- suicide, they said. The Protocol continues, stronger than ever. Eddie\'s newspaper was shut down. You\'re alive, rich, and broken. The glass key sits on your desk. You tell yourself survival is its own victory.',
       choices: [
@@ -624,7 +624,7 @@ export const glassKeyProtocolStory: Story = {
       storyId: 'story-glass-key-protocol',
       type: 'decision',
       title: 'The Escape',
-      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=800',
       narration:
         'You run through the print shop\'s back corridors, Clara leading the way. She knows these streets. You emerge in Chinatown, losing yourselves in night market crowds. At a safe house, you catch your breath. \'We need to disappear,\' Clara says. \'My brother had accounts in Switzerland. We can start over.\' She\'s offering a life with her. But Eddie\'s story never ran. The evidence is scattered. The Protocol wins. Can you live with that?',
       choices: [
@@ -716,7 +716,7 @@ export const glassKeyProtocolStory: Story = {
       storyId: 'story-glass-key-protocol',
       type: 'decision',
       title: 'Shadow War',
-      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=800',
       narration:
         'You become a ghost. No name, no address, no face the same twice. From the shadows, you strike at the Protocol -- leaking documents, warning targets, sabotaging operations. You can\'t win, but you can hurt them. Each victory costs something -- a safe house burned, a contact arrested. Clara works with you for a year before the danger becomes too much. Now you work alone. They\'ve put a million-dollar price on your head.',
       choices: [
@@ -762,7 +762,7 @@ export const glassKeyProtocolStory: Story = {
       storyId: 'story-glass-key-protocol',
       type: 'decision',
       title: 'The Guardian',
-      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=800',
       narration:
         'You focus on protection rather than attack. The Resistance becomes a shield for the innocent -- escorting witnesses, warning officials, destroying evidence. You\'re not heroes; you\'re guardians. Clara joins you -- she couldn\'t stay away. Together, you build something lasting: a network of good people in bad places. The Protocol can\'t eliminate you; you\'re too diffuse. Years pass. You grow old in shadows. Then a new generation arrives -- young, fierce, ready.',
       choices: [
@@ -785,7 +785,7 @@ export const glassKeyProtocolStory: Story = {
       storyId: 'story-glass-key-protocol',
       type: 'decision',
       title: 'The Memoir',
-      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=800',
       narration:
         'Clara\'s memoir becomes an international sensation. Translated into twenty languages, discussed in parliaments. She names names, dates, crimes. The Protocol scrambles to contain the damage, but the truth has escaped. Senators resign, judges are impeached. You watch from Switzerland as the empire crumbles. But retaliation comes swiftly -- assassins, legal challenges. You\'re forced to move again. But as you read the headlines -- \'Corruption Ring Exposed\' -- you know it was worth it.',
       choices: [
@@ -842,7 +842,7 @@ export const glassKeyProtocolStory: Story = {
       storyId: 'story-glass-key-protocol',
       type: 'ending',
       title: 'ENDING: The Survivor',
-      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=800',
       narration:
         'You chose survival over glory, and survival is what you got. Years in prison, decades in hiding. But you\'re alive when so many others aren\'t. The Protocol still exists -- weakened, changed. Sometimes you see the new generation fighting. But you\'re old now. Instead, you write -- memoirs, advice. Clara visits you in your small apartment. On your last day, she holds your hand. \'You did good, Jack,\' she whispers. Not a hero\'s ending, but a human one. That\'s enough.',
       choices: [
@@ -853,7 +853,7 @@ export const glassKeyProtocolStory: Story = {
       storyId: 'story-glass-key-protocol',
       type: 'ending',
       title: 'ENDING: The New Dawn',
-      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1514315384763-ba401779410f?w=800',
       narration:
         'You return to a changed city. The Protocol is gone -- truly gone. San Francisco reinvents itself, cleaner and more honest. You and Clara open a detective agency -- legitimate this time. The glass key hangs in your window. Young people come to you for advice. Years later, you\'re elected to the city council. From your office, you see the bay glittering. The fog still rolls in, but it doesn\'t hide monsters anymore. You did that.',
       choices: [

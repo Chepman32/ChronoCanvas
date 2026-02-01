@@ -14,6 +14,7 @@ import { useStoryStore } from '../store/storyStore';
 import { useSettingsStore } from '../store/settingsStore';
 import { Story, StoryGenre } from '../types';
 import { useTranslation } from '../localization/useTranslation';
+import { calculateEstimatedDuration } from '../utils/storyDuration';
 
 const { width } = Dimensions.get('window');
 const CARD_WIDTH = width * 0.65;
@@ -99,7 +100,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
         <Text style={styles.cardAuthor}>{story.author}</Text>
         <View style={styles.cardMeta}>
           <Text style={styles.metaText}>
-            {story.estimatedDuration} {t.minutes}
+            {calculateEstimatedDuration(story)} {t.minutes}
           </Text>
           <Text style={styles.metaText}>•</Text>
           <Text style={styles.metaText}>
@@ -132,7 +133,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
         <Text style={styles.featuredCardAuthor}>{story.author}</Text>
         <View style={styles.cardMeta}>
           <Text style={styles.metaText}>
-            {story.estimatedDuration} {t.minutes}
+            {calculateEstimatedDuration(story)} {t.minutes}
           </Text>
           <Text style={styles.metaText}>•</Text>
           <Text style={styles.metaText}>

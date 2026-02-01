@@ -13,6 +13,7 @@ import { useStoryStore } from '../store/storyStore';
 import { useUserStore } from '../store/userStore';
 import { useSettingsStore } from '../store/settingsStore';
 import { useTranslation } from '../localization/useTranslation';
+import { calculateEstimatedDuration } from '../utils/storyDuration';
 
 const { width, height } = Dimensions.get('window');
 
@@ -74,7 +75,7 @@ export const StoryDetailScreen: React.FC<StoryDetailScreenProps> = ({
           <View style={[styles.statsRow, { backgroundColor: theme.surface }]}>
             <View style={styles.stat}>
               <Text style={[styles.statValue, { color: theme.primary }]}>
-                {story.estimatedDuration}
+                {calculateEstimatedDuration(story)}
               </Text>
               <Text style={[styles.statLabel, { color: theme.textSecondary }]}>
                 {t.minutes}

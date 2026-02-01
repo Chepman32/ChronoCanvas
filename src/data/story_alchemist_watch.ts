@@ -6,9 +6,9 @@ export const alchemistWatchStory: Story = {
   description:
     "A high-stakes noir mystery in a steam-powered city. You must traverse a deep web of conspiracy, solving the murder of a man who claimed to have invented immortality.",
   coverImageUrl:
-    'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
+    'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
   thumbnailUrl:
-    'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=400',
+    'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=400',
   author: 'Elena Vance',
   genre: 'mystery',
   involvement: 'high',
@@ -210,7 +210,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'decision',
       title: 'The Dark Secret',
-      imageUrl: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
       narration:
         "In the quiet of the library or the deep tunnels, you uncover the final piece of the puzzle. The buyer isn't just the Mayor; it's a secret society called 'The Golden Ouroboros.' And the next shipment of 'stolen time' is happening tonight at the Grand Gala. You also find a schematic for the device. It has a fatal flaw: if exposed to a specific resonant frequency, it shatters. You can spend the next hour building a sonic resonator weapon, or you can rush to the Gala immediately to gather physical evidence of the transaction before they close the deal.",
       choices: [
@@ -440,7 +440,7 @@ export const alchemistWatchStory: Story = {
       storyId: 'story-alchemist-watch',
       type: 'decision',
       title: 'The Dark path',
-      imageUrl: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
+      imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
       narration:
         "You have the device. You feel its hum against your ribs. You leave the scene before the police secure the roof. You are now a fugitive, but an immortal one. However, the device requires fuel. It feeds on life. You realize the hunger of the machine is now connected to your own heartbeat. You meet Elara in the alleyway. She looks at you with suspicion. 'Where is it?' she asks. 'Did you destroy it?' You can kill her to keep your secret and feed the machine its first meal, or you can confess your weakness and ask for her help to destroy it before it corrupts you completely.",
       choices: [

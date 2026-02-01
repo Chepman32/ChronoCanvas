@@ -6,9 +6,9 @@ export const shadowsVanishedStarStory: Story = {
   description:
     'When a tech heiress vanishes and only a cryptic ornament remains, private detective Sam Mercer is drawn into a labyrinth of rain-soaked alleys, secret libraries and shadowed docks. Every clue raises new questions and every decision pulls him deeper into a conspiracy that reaches the city\'s highest towers. Your choices will determine whether justice shines through or the truth disappears into darkness.',
   coverImageUrl:
-    'https://images.unsplash.com/photo-1560263816-d704d83cce0f?w=800',
+    'https://images.unsplash.com/photo-1514565131-fce0801e5785?w=800',
   thumbnailUrl:
-    'https://images.unsplash.com/photo-1560263816-d704d83cce0f?w=400',
+    'https://images.unsplash.com/photo-1514565131-fce0801e5785?w=400',
   author: 'Daphne Sawyer',
   genre: 'detective',
   involvement: 'high',
@@ -291,7 +291,7 @@ export const shadowsVanishedStarStory: Story = {
       type: 'ending',
       title: 'Whistleblower',
       imageUrl:
-        'https://images.unsplash.com/photo-1560263816-d704d83cce0f?w=800',
+        'https://images.unsplash.com/photo-1514565131-fce0801e5785?w=800',
       narration:
         'You choose exposure over safety. Hidden behind glowing monitors, you compile recordings and documents and leak them to the press. Headlines explode, powerful figures fall, and the city convulses. You become both hero and target, vanishing into digital shadows while knowing you did the right thing. The truth is out, and you are free.',
       choices: [],
