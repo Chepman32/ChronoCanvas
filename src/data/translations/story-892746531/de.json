@@ -1,0 +1,355 @@
+{
+  "meta": {
+    "storyId": "story-892746531",
+    "language": "de",
+    "languageName": "Deutsch",
+    "version": "1.0",
+    "lastUpdated": "2025-01-15"
+  },
+  "story": {
+    "title": "Der Letzte Brief",
+    "author": "Elena Rousseau",
+    "description": "Als du einen mysteriösen Liebesbrief auf dem Dachboden deiner verstorbenen Großmutter entdeckst, führt er dich nach Paris und zu einer jahrzehntealten Romanze, die nie aufgelöst wurde. Kannst du den Autor finden und beenden, was deine Großmutter begonnen hat, während du deine eigene unerwartete Verbindung mit seinem Enkel navigierst?",
+    "genre": "romance",
+    "estimatedDuration": 45,
+    "involvement": "mittel"
+  },
+  "nodes": [
+    {
+      "id": "story-892746531-1",
+      "type": "start",
+      "title": "Die Dachbodenentdeckung",
+      "narration": "Staubteilchen tanzen im Nachmittagslicht, das durch das Dachfenster fällt. Du sortierst die Habseligkeiten deiner Großmutter, als ein verblasster Umschlag aus einem alten Buch rutscht. Der Brief darin ist auf Französisch verfasst, datiert auf 1962, und nur mit einem »J.« unterschrieben. Deine Großmutter erwähnte nie eine Romanze in Paris, sprach nie von jemandem namens J. Aber die Worte sind unverkennbar leidenschaftlich, versprechen für immer im Café de Flore zu warten. Die Handschrift ist elegant, das Papier mit den Jahren dünn geworden, und du spürst eine Verbindung zu einem Geheimnis, das seit mehr als sechzig Jahren gehütet wurde.",
+      "choices": [
+        {
+          "id": "story-892746531-c1",
+          "text": "Das Café recherchieren und einen Flug nach Paris buchen",
+          "description": "Dem Geheimnis bis zur Quelle folgen"
+        },
+        {
+          "id": "story-892746531-c2",
+          "text": "Zuerst deine Familie nach Großmutters Vergangenheit fragen",
+          "description": "Informationen sammeln, bevor du handelst"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-2",
+      "type": "decision",
+      "title": "Über den Atlantik",
+      "narration": "Das Flugzeug landet auf dem Flughafen Charles de Gaulle, während die Morgendämmerung über Paris bricht. Du hast den Flug damit verbracht, zu üben, was du sagen wirst, wie du deine Mission Fremden erklären wirst. Deine Tante verriet, dass deine Großmutter ein transformierendes Jahr in Paris verbrachte, bevor sie deinen Großvater kennenlernte, und plötzlich ohne Erklärung zurückkehrte. Sie zeigte dir ein Foto: deine Großmutter mit dreiundzwanzig, strahlend neben einem jungen Mann, dessen Gesicht abgewandt war. Jetzt, während du dein Gepäck abholst und den ersten Schritt in den Pariser Morgen tust, setzt sich die Realität deiner Suche in dir fest.",
+      "choices": [
+        {
+          "id": "story-892746531-c3",
+          "text": "Den Zug direkt nach Saint-Germain-des-Prés nehmen",
+          "description": "Direkt zum Café fahren"
+        },
+        {
+          "id": "story-892746531-c4",
+          "text": "Im Hotel einchecken und deinen Ansatz planen",
+          "description": "Vor dem Beginn ausruhen"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-3",
+      "type": "decision",
+      "title": "Ankunft in Saint-Germain",
+      "narration": "Die Straßen von Saint-Germain-des-Prés strahlen einen altmodischen Charme aus, der dich das Gefühl haben lässt, als wärst du in der Zeit zurückgereist. Die Bäckereien verströmen den Duft frischer Croissants, und die Buchhandlungen zeigen abgenutzte Bände in ihren Schaufenstern. Du gehst am berühmten Café Les Deux Magots vorbei und stellst dir vor, wie deine Großmutter 1962 über diese gleichen Kopfsteine ging. Die Adresse aus dem Brief führt dich eine schmale, von Kastanienbäumen gesäumte Straße hinunter. Dein Herz pocht bei jedem Schritt. Dieses Viertel ist seit Jahrzehnten weitgehend unverändert geblieben, bewahrt wie eine Zeitkapsel.",
+      "choices": [
+        {
+          "id": "story-892746531-c5",
+          "text": "Einen örtlichen Händler nach der Geschichte des Cafés fragen",
+          "description": "Lokales Wissen sammeln"
+        },
+        {
+          "id": "story-892746531-c6",
+          "text": "Direkt zum Café de Flore weitergehen",
+          "description": "Es dir zuerst selbst ansehen"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-4",
+      "type": "decision",
+      "title": "Die Ikonische Rote Markise",
+      "narration": "Da steht es: das Café de Flore, mit seiner markanten roten Markise und dem Art-Déco-Interieur, das durch die großen Fenster sichtbar ist. Die gleiche Markise aus den alten Fotos deiner Großmutter hängt noch immer über dem Eingang, leicht verblasst durch Jahrzehnte pariser Sonne. Schriftsteller und Künstler haben sich hier über Generationen versammelt, und die Terrasse füllt sich bereits mit Gästen, die Espresso schlürfen. Du hälst den Brief in deiner Tasche und spürst seine Präsenz wie einen Talisman. Ein älterer Kellner mit silbernem Haar bemerkt dein Zögern. Er nähert sich mit einem wissenden Lächeln, als hätte er diese Szene schon einmal gespielt gesehen.",
+      "choices": [
+        {
+          "id": "story-892746531-c7",
+          "text": "Ihm den Brief sofort zeigen",
+          "description": "Direkt über deine Mission sprechen"
+        },
+        {
+          "id": "story-892746531-c8",
+          "text": "Erst Kaffee bestellen und das Café beobachten",
+          "description": "Zeit nehmen, die Atmosphäre aufzusaugen"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-5",
+      "type": "decision",
+      "title": "Die Erkenntnis des Kellners",
+      "narration": "Die Augen des Kellners trüben sich, während er den verblassten Brief untersucht. »Julien«, flüstert er ehrfürchtig. »Monsieur Moreau. Er kam hier jeden Tag für fünf Jahre nach ihrer Abreise, immer wartend. Immer der gleiche Tisch am Fenster.« Er zeigt auf einen Tisch in der Ecke, wo jetzt ein junger Mann sitzt und skizziert. »Das ist sein Enkel, Luc. Er erbte das Café nach Juliens Tod letztes Jahr. Du solltest mit ihm sprechen. Er hat nach Informationen über die Frau gesucht, die seinem Großvater das Herz gebrochen hat.« Der Kellner streichelt sanft deine Hand. »Du hast ihre Augen, weißt du.«",
+      "choices": [
+        {
+          "id": "story-892746531-c9",
+          "text": "Mit dem Brief an Lucs Tisch herantreten",
+          "description": "Ehrlich über dein Ziel sein"
+        },
+        {
+          "id": "story-892746531-c10",
+          "text": "Sich zunächst locker vorstellen",
+          "description": "Vertrauen aufbauen, bevor du offenbarst"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-6",
+      "type": "decision",
+      "title": "Erste Begegnung",
+      "narration": "Luc blickt von seinem Skizzenbuch auf, als du dich näherst, und seine grünen Augen weiten sich vor Erkennen. Er hat Künstlerhände, tintenbefleckt und ausdrucksstark. Als sich eure Blicke treffen, wendet er den Blick nicht ab. Stattdessen schließt er langsam sein Skizzenbuch und steht auf, spricht Englisch mit einem Akzent, der von Erstaunen getragen wird: »Verzeihen Sie, aber Sie sehen genau aus wie jemand auf einem alten Foto, das mein Großvater sein ganzes Leben lang aufbewahrt hat. Ich habe dieses Bild seit meiner Kindheit betrachtet. Und jetzt sind Sie hier, treten in sein Café ein. Das kann kein Zufall sein.« Seine Stimme zittert leicht vor Emotion.",
+      "choices": [
+        {
+          "id": "story-892746531-c11",
+          "text": "Ihm den Brief deiner Großmutter zeigen",
+          "description": "Die Verbindung sofort offenbaren"
+        },
+        {
+          "id": "story-892746531-c12",
+          "text": "Zuerst nach seinem Großvater fragen",
+          "description": "Juliens Geschichte kennenlernen, bevor du deine offenbarst"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-7",
+      "type": "decision",
+      "title": "Juliens Vermächtnis",
+      "narration": "Luc lädt dich zum Sitzen ein, seine Hände zittern, während er Kaffee bestellt. Er erzählt dir von Julien Moreau—einem Künstler, der sein Leben damit verbrachte, dieselbe Frau aus dem Gedächtnis zu malen, sie über sechs Jahrzehnte hinweg einzufangen. »Er besaß dieses Café, verließ es aber selten, als würde er auf jemanden warten, der nie zurückkehren würde. Er starb in dem Glauben, dass sie ihn einfach vergessen hatte. Aber ich fand Kisten mit Gemälden in seinem Atelier, hunderte Leinwände, alle von ihr. Und Briefe. Hunderte ungesendeter Briefe.« Luc studiert dein Gesicht mit wachsendem Verständnis. »Deine Großmutter. Éloise war deine Großmutter.«",
+      "choices": [
+        {
+          "id": "story-892746531-c13",
+          "text": "Die Verbindung bestätigen und ihre Geschichte teilen",
+          "description": "Ihm alles erzählen"
+        },
+        {
+          "id": "story-892746531-c14",
+          "text": "Zuerst Juliens Gemälde sehen wollen",
+          "description": "Die Beweise sehen, bevor du mehr offenbarst"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-8",
+      "type": "decision",
+      "title": "Das Atelier Oben",
+      "narration": "Luc führt dich eine schmale Treppe hinauf zu Juliens Atelier, einem sonnendurchfluteten Raum, der nach Terpentin und Erinnerungen riecht. Die Wände sind mit Gemälden bedeckt—das Gesicht deiner Großmutter in jedem Alter wiedergegeben, von der jungen Frau auf deinem Foto bis zu einer imaginären Älteren mit silbernem Haar. Jede Leinwand pulsiert vor Liebe und Sehnsucht. »Er malte sie bis zu seinen letzten Tagen«, erklärt Luc. »Das sind nicht die Werke eines Vergessenen. Das sind die Werke eines Menschen, der völlig liebte, durch ein ganzes Leben der Abwesenheit hindurch.« Ein unvollendetes Gemälde steht in der Ecke: deine Großmutter, wie sie heute aussehen könnte.",
+      "choices": [
+        {
+          "id": "story-892746531-c15",
+          "text": "Luc erzählen, warum deine Großmutter wirklich ging",
+          "description": "Das Familiengeheimnis teilen"
+        },
+        {
+          "id": "story-892746531-c16",
+          "text": "Juliens ungesendete Briefe lesen wollen",
+          "description": "Zuerst Juliens Stimme hören"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-9",
+      "type": "decision",
+      "title": "Briefe Durch die Zeit",
+      "narration": "Luc öffnet eine Holztruhe voller gealterter Umschläge, jeder adressiert an »Meine liebste Éloise«. Ihr lest sie gemeinsam, während sich Juliens Hingabe über sechzig Jahre hinweg entfaltet. Der letzte Brief, geschrieben Tage vor seinem Tod, enthält Worte, die dich zerbrechen: »Ich verstehe jetzt, dass du nicht zurückkommen konntest. Ich hoffe nur, dass du glücklich warst. Ich hoffe nur, dass du so geliebt wurdest, wie du es verdient hast. Ich vergebe dir, dass du nicht zurückgekehrt bist, und ich werde auf dich warten, in dem, was danach kommt.« Luc schließt die Truhe, Tränen strömen über sein Gesicht. Das Gewicht der Jahrzehnte schwebt in der Luft.",
+      "choices": [
+        {
+          "id": "story-892746531-c17",
+          "text": "Die Wahrheit über die Schwangerschaft offenbaren",
+          "description": "Juliens Erinnerung Frieden bringen"
+        },
+        {
+          "id": "story-892746531-c18",
+          "text": "Luc in gemeinsamer Trauer trösten",
+          "description": "Zusammen Trost finden"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-10",
+      "type": "decision",
+      "title": "Die Ganze Wahrheit",
+      "narration": "Du erzählst Luc alles—wie deine Großmutter 1962 herausfand, dass sie schwanger war, wie ihre Familie sie zwang, sofort zurückzukehren, wie ihr verboten wurde, Julien zu kontaktieren. Sie heiratete deinen Großvater in einer stillen Zeremonie, und er zog deine Mutter wie seine eigene auf, liebte sie innig. »Sie hütete seinen Brief ihr ganzes Leben über verborgen«, erklärst du. »Unter ihrem Kissen, dann in einer verschlossenen Kiste, schließlich auf dem Dachboden. Sie sprach nie von Paris, aber meine Mutter erinnert sich, dass sie manchmal weinte, wenn sie dachte, niemand würde zusehen. Sie hörte nie auf, ihn zu lieben. Sie konnte einfach nicht zurückkommen.«",
+      "choices": [
+        {
+          "id": "story-892746531-c19",
+          "text": "Vorschlagen, ihre Liebe mit einem Denkmal zu ehren",
+          "description": "Etwas Bleibendes schaffen"
+        },
+        {
+          "id": "story-892746531-c20",
+          "text": "Luc nach seinen Träumen für das Café fragen",
+          "description": "Zur Gegenwart wechseln"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-11",
+      "type": "decision",
+      "title": "Verbindung Über Generationen",
+      "narration": "Luc sieht dich mit etwas an, das tiefer ist als Verständnis—eine Erkenntnis, die sich über Jahrzehnte erstreckt. »Dann sind wir verbunden«, sagt er sanft und nimmt deine Hand. »Deine Großmutter war die Liebe des Lebens meines Großvaters, und irgendwo in deiner Geschichte fließt ein Teil seines Erbes. Sie haben uns über sechzig Jahre und einen Ozean hinweg zusammengeführt.« Das Nachmittagslicht fällt durch die Fenster des Ateliers. »Das fühlt sich wie Schicksal an«, fährt Luc fort. »Als würden sie uns eine zweite Chance mit ihrer Geschichte geben. Als wollten sie, dass wir ein besseres Ende schreiben als das, das sie hatten.« Sein Daumen zeichnet Kreise auf deiner Handfläche.",
+      "choices": [
+        {
+          "id": "story-892746531-c21",
+          "text": "Die Verbindung anerkennen und näherkommen",
+          "description": "Die Möglichkeit umarmen"
+        },
+        {
+          "id": "story-892746531-c22",
+          "text": "Zum Abendessen vorschlagen, um weiterzureden",
+          "description": "Die Dinge langsam angehen"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-12",
+      "type": "decision",
+      "title": "Abend an der Seine",
+      "narration": "An diesem Abend führt dich Luc an der Seine entlang spazieren, während die Sonne hinter Notre-Dame untergeht. Der Eiffelturm beginnt sein stündliches Funkeln, widergespiegelt in der Strömung des Flusses. Er erzählt dir von seiner Kindheit, aufgewachsen mit Juliens Geschichten über eine verlorene Liebe. »Ich dachte, es wären nur Geschichten«, gibt Luc zu und bleibt stehen, um dich anzusehen. »Schöne, tragische Fiktion. Aber du bist real. Deine Großmutter war real. Ihre Liebe war real.« Er streicht dir eine Haarsträhne aus dem Gesicht. »Und dieses Gefühl, gerade jetzt, diese Verbindung, die ich zu dir spüre—die ist auch real, nicht wahr?« Seine Augen suchen die deinen.",
+      "choices": [
+        {
+          "id": "story-892746531-c23",
+          "text": "Ihn unter dem funkelnden Turm küssen",
+          "description": "Deinem Herzen folgen"
+        },
+        {
+          "id": "story-892746531-c24",
+          "text": "Sagen, dass du Zeit brauchst, um alles zu verarbeiten",
+          "description": "Vorsichtig sein"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-13",
+      "type": "decision",
+      "title": "Ein Neuer Anfang",
+      "narration": "Der Kuss schmeckt nach Rotwein und Möglichkeit, nach zwei Geschichten, die sich über Generationen hinweg verflechten. Als ihr euch löst, lächelt Luc durch seine Tränen. »Ich habe auf dich gewartet«, flüstert er, »ohne überhaupt zu wissen, wer du warst. Aber jetzt verstehe ich. Unsere Großeltern begannen etwas Schönes, das die Umstände zerrissen. Wir können ihren Kreis vervollständigen.« In den folgenden Wochen erkundet ihr Paris und entdeckt gleichzeitig mehr von der Geschichte eurer Großeltern. Du findest heraus, dass Julien deine schwangere Großmutter malte—er wusste vom Baby, wusste, dass sie sein Kind trug, und wartete trotzdem.",
+      "choices": [
+        {
+          "id": "story-892746531-c25",
+          "text": "Beschließen, dauerhaft in Paris zu bleiben",
+          "description": "Ein neues Leben gemeinsam aufbauen"
+        },
+        {
+          "id": "story-892746531-c26",
+          "text": "Eine Fernbeziehung vorschlagen",
+          "description": "Zwischen zwei Welten navigieren"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-14",
+      "type": "decision",
+      "title": "Grenzen",
+      "narration": "Lucs Gesicht fällt, aber er nickt verständnisvoll und tritt einen Schritt zurück. »Du hast recht. Das ist schwer—die Geschichte unserer Großeltern, das Gewicht ihres Verlustes. Vielleicht versuchen wir, etwas zu reparieren, das nicht uns gehörte, um es zu reparieren.« Er wendet den Blick dem sich verdunkelnden Fluss zu. »Aber ich bin froh, dass du gekommen bist. Dass die Geschichte meines Großvaters etwas Abschluss findet.« Die Luft zwischen euch fühlt sich dicht an mit verpassten Möglichkeiten. Du spürst einen Wendepunkt, einen Moment, in dem deine Wahl über die Jahre widerhallen wird, wie es die deiner Großmutter tat. Die Stadt des Lichts scheint um euch herum den Atem anzuhalten.",
+      "choices": [
+        {
+          "id": "story-892746531-c27",
+          "text": "Meinung ändern und nach seiner Hand greifen",
+          "description": "Diesen Moment nicht verstreichen lassen"
+        },
+        {
+          "id": "story-892746531-c28",
+          "text": "Ihm danken und die Heimreise vorbereiten",
+          "description": "Manche Geschichten enden anders"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-15",
+      "type": "decision",
+      "title": "Zukunft Bauen",
+      "narration": "Ein Jahr später stehst du im renovierten Café de Flore als Mitinhaberin mit Luc. Die Wände beherbergen jetzt eine Ausstellung: »Julien und Éloise—Eine Liebesgeschichte durch die Zeit«. Juliens Gemälde hängen neben Fotografien deiner Großmutter und erzählen ihre Geschichte neuen Generationen. Der ursprüngliche Brief deiner Großmutter ist gerahmt am Fenstertisch, wo Julien wartete. Luc hält dich umarmt, während Gäste die Ausstellung bewundern. »Sie haben uns zusammengeführt«, flüstert er. »Und wir haben ihnen das Ende gegeben, das sie verdienten.« Du spürst die Richtigkeit davon, die Vollständigkeit eines Kreises, der vor sechs Jahrzehnten begann.",
+      "choices": [
+        {
+          "id": "story-892746531-c29",
+          "text": "Annehmen, wenn Luc an ihrem besonderen Ort vorschlägt",
+          "description": "Ein neues Kapitel beginnt"
+        },
+        {
+          "id": "story-892746531-c30",
+          "text": "Vorschlagen, zu warten, bis ihr euch besser kennt",
+          "description": "Langsam, aber sicher aufbauen"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-16",
+      "type": "decision",
+      "title": "Zwischen Zwei Welten",
+      "narration": "Du teilst jetzt dein Leben zwischen zwei Städten—deinem Zuhause und Paris. Die Fernbeziehung ist herausfordernd, aber irgendwie passend, hallt die Trennung nach, die deine Großeltern ertrugen, obwohl deine glücklichere Zwischenspiele hat. Ihr schreibt Briefe wie Julien und Éloise, obwohl deine ihr Ziel erreichen. Ihr trefft euch in verschiedenen europäischen Städten, sammelt Erinnerungen an Flughäfen und Bahnhöfen. Auf dem Dachboden deiner Großmutter, jetzt deinem Schreibstudio, verfasst du ein Buch über ihre Romanze. Luc schickt Fotografien aus dem Café, wo er eine Dauerausstellung des Werks seines Großvaters schafft.",
+      "choices": [
+        {
+          "id": "story-892746531-c31",
+          "text": "Deinen eventuellen Umzug nach Paris planen",
+          "description": "Auf die Einheit hinarbeiten"
+        },
+        {
+          "id": "story-892746531-c32",
+          "text": "Dies als deine dauerhafte Vereinbarung akzeptieren",
+          "description": "Liebe überwindet Distanz"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-17",
+      "type": "decision",
+      "title": "Das Gemälde",
+      "narration": "Luc schüttelt den Kopf, als du erwähnst, ein Gemälde zu kaufen, aber angesichts deiner Verbindung zum Werk wird er weicher. »Das sind das Herz des Großvaters, seine Seele. Sie waren nie zum Verkauf bestimmt.« Er hält inne, dich musternd. »Wenn Éloise jedoch deine Großmutter war, dann sollte vielleicht eines in ihre Familie zurückkehren. Wähle das, das zu dir spricht.« Du wählst eine kleine Leinwand: deine Großmutter, die in der Sommersonne lacht, so lebendig, so geliebt. Während Luc sie sorgfältig einwickelt, streifen sich eure Finger, und du fragst dich, ob dies wirklich ein Abschied ist.",
+      "choices": [
+        {
+          "id": "story-892746531-c33",
+          "text": "Mit dem Gemälde und deinen Erinnerungen gehen",
+          "description": "Deine Mission vervollständigen"
+        },
+        {
+          "id": "story-892746531-c34",
+          "text": "Luc nach der Heimkehr schreiben",
+          "description": "Die Verbindung am Leben erhalten"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-18",
+      "type": "ending",
+      "title": "Paris für Immer",
+      "narration": "An diesem Abend macht Luc dir an dem Ort einen Antrag, an dem Julien deine Großmutter 1962 zum ersten Mal geküsst hat. Der Ring ist der Antiquität seiner Großmutter. Eure Hochzeit findet ein Jahr später im Café statt, umgeben von Juliens Gemälden und Fotografien deiner Großmutter, die über euch wachen. Du schreibst ein Buch über ihre Liebesgeschichte, das zum Bestseller wird, und das Café wird zu einer Pilgerstätte für Romantiker. Jahre später, wenn du dein erstes Kind hälst—eine Tochter namens Éloise—verstehst du, warum deine Großmutter diesen Brief aufbewahrt hat. Diesmal bekommt die Geschichte ihr glückliches Ende."
+    },
+    {
+      "id": "story-892746531-19",
+      "type": "ending",
+      "title": "Liebe Wächst Langsam",
+      "narration": "Ihr baut eure Beziehung sorgfältig auf, ehrt die Intensität eurer Verbindung und respektiert gleichzeitig das Bedürfnis nach Zeit. Luc versteht das, und gemeinsam schafft ihr eine Partnerschaft, die seine pariser Welt mit deiner verbindet. In zwei Jahren habt ihr einen Rhythmus gefunden—Monate der Entdeckung, bevor ihr dauerhafte Entscheidungen trefft. Das Café gedeiht mit deinem Beitrag, und du kurierst Ausstellungen vergessener Liebesgeschichten. Wenn ihr schließlich heiratet, dann mit der Gewissheit, die aus dem wirklichen Kennenlernen der anderen Person entsteht. Die Liebesgeschichte, die 1962 begann, setzt sich durch dich fort, ewig wie die Stadt des Lichts."
+    },
+    {
+      "id": "story-892746531-20",
+      "type": "ending",
+      "title": "Reise zur Einheit",
+      "narration": "Die Distanz ist temporär, eine Brücke, die ihr beide zu überqueren bereit seid. Innerhalb von achtzehn Monaten regelst du deine Angelegenheiten, um Paris zu deinem dauerhaften Zuhause zu machen. Der Prozess ist kompliziert—dein Haus verkaufen, die französische Bürokratie lernen—aber jedes Hindernis ist es wert, wenn du in der Wohnung über dem Café mit Luc an deiner Seite aufwachst. Du wirst französische Staatsbürgerin und widmest dein Leben der Bewahrung von Liebesgeschichten, die Grenzen überwanden haben. Gemeinsam gründet ihr eine Stiftung, die hilft, durch Umstände getrennte Familien wieder zusammenzubringen, und verwandelst Tragödie in Hoffnung für andere."
+    },
+    {
+      "id": "story-892746531-21",
+      "type": "ending",
+      "title": "Liebe Über Distanz",
+      "narration": "Ihr akzeptiert, dass eure Liebe keine physische Nähe erfordert. Über Jahre pflegt ihr eure transatlantische Beziehung, trefft euch in neuen Städten, schreibt Briefe, die den Ozean überqueren. Die Vereinbarung passt euch beiden—Luc bewahrt das Café seines Großvaters, du pflegst deine Karriere, und zusammen schafft ihr etwas Einzigartiges. Schließlich veröffentlichst du dein Buch über Julien und Éloise und widmest es denen, die über unmögliche Distanzen hinweg liebten. Es wird zum Pflichtlektüre. Wenn du alt bist und mit Luc auf der Terrasse des Cafés sitzt, wird dir klar, dass eure Großeltern euch beigebracht haben, jeden Moment zu schätzen."
+    },
+    {
+      "id": "story-892746531-22",
+      "type": "ending",
+      "title": "Der Brief Nach Hause",
+      "narration": "Du kehrst mit Juliens Gemälde, das sorgfältig in deinem Gepäck verpackt ist, nach Hause zurück. Manche Verbindungen sind zu kompliziert, zu schwer belastet durch die Vergangenheit. Aber du hast deine Mission erfüllt—du hast Julien gefunden, die Geschichte deiner Großmutter verstanden und ihnen Abschluss gebracht. Du hängst das Gemälde in dein Wohnzimmer, wo vorher das Porträt deiner Großmutter hing. Sie ist wieder jung, ewig Sommer, eingefangen von jemandem, der sie vollständig liebte. Manchmal fragst du dich nach Luc, nach dem Leben, das du hättest haben können. Aber die Geschichte deiner Großmutter ist vollständig. Und deine setzt sich fort, bereichert durch die Geschichte, geschrieben auf frischen Seiten."
+    }
+  ]
+}

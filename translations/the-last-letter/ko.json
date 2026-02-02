@@ -1,0 +1,355 @@
+{
+  "meta": {
+    "storyId": "story-892746531",
+    "language": "ko",
+    "languageName": "Korean",
+    "version": "1.0",
+    "lastUpdated": "2025-01-15"
+  },
+  "story": {
+    "title": "마지막 편지",
+    "author": "엘레나 루소",
+    "description": "When you discover a mysterious love letter in your late grandmother's attic, it leads you to Paris and a decades-old romance that was never resolved. Can you find the author and finish what your grandmother started?",
+    "genre": "romance",
+    "estimatedDuration": 45,
+    "involvement": "medium"
+  },
+  "nodes": [
+    {
+      "id": "story-892746531-1",
+      "type": "start",
+      "title": "The Attic Discovery",
+      "narration": "Dust particles dance in the afternoon light streaming through the attic window. You are sorting through your grandmother's belongings when a faded envelope slips from an old book. The letter inside is written in French, dated 1962, and signed only with a 'J.' Your grandmother never mentioned a romance in Paris, never spoke of anyone named J. But the words are unmistakably passionate, promising to wait forever at Cafe de Flore.",
+      "choices": [
+        {
+          "id": "story-892746531-c1",
+          "text": "Research the cafe and book a flight to Paris",
+          "description": "Follow the mystery to its source"
+        },
+        {
+          "id": "story-892746531-c2",
+          "text": "Ask your family about grandmother's past first",
+          "description": "Gather information before acting"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-2",
+      "type": "decision",
+      "title": "Crossing the Atlantic",
+      "narration": "The plane touches down at Charles de Gaulle Airport as dawn breaks over Paris. Your aunt revealed that your grandmother spent a transformative year in Paris before meeting your grandfather, returning suddenly without explanation. Now, as you collect your luggage and step into the Paris morning, the reality of your quest settles upon you.",
+      "choices": [
+        {
+          "id": "story-892746531-c3",
+          "text": "Take the train directly to Saint-Germain-des-Pres",
+          "description": "Head straight to the cafe"
+        },
+        {
+          "id": "story-892746531-c4",
+          "text": "Check into your hotel and plan your approach",
+          "description": "Rest before beginning"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-3",
+      "type": "decision",
+      "title": "Arrival in Saint-Germain",
+      "narration": "The streets of Saint-Germain-des-Pres exude an old-world charm. You pass the famous Deux Magots cafe, imagining your grandmother walking these same cobblestones in 1962. The address from the letter leads you down a narrow street lined with chestnut trees.",
+      "choices": [
+        {
+          "id": "story-892746531-c5",
+          "text": "Ask a local shopkeeper about the cafe's history",
+          "description": "Gather local knowledge"
+        },
+        {
+          "id": "story-892746531-c6",
+          "text": "Continue directly to Cafe de Flore",
+          "description": "See it for yourself first"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-4",
+      "type": "decision",
+      "title": "The Iconic Red Awning",
+      "narration": "There it stands: Cafe de Flore, with its distinctive red awning and Art Deco interior. The same awning from your grandmother's old photographs still hangs above the entrance. An elderly waiter with silver hair notices your hesitation. He approaches with a knowing smile.",
+      "choices": [
+        {
+          "id": "story-892746531-c7",
+          "text": "Show him the letter immediately",
+          "description": "Be direct about your mission"
+        },
+        {
+          "id": "story-892746531-c8",
+          "text": "Order coffee and observe the cafe first",
+          "description": "Take time to absorb the atmosphere"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-5",
+      "type": "decision",
+      "title": "The Waiter's Recognition",
+      "narration": "The waiter's eyes mist over as he examines the faded letter. 'Julien,' he whispers reverently. 'Monsieur Moreau. He came here every single day for five years after she left, always waiting. Always the same table by the window.' He points to a corner table where a young man now sits, sketching. 'That is his grandson, Luc. You should speak with him. He has been searching for information about the woman who broke his grandfather's heart.' The waiter pats your hand gently. 'You have her eyes, you know.'",
+      "choices": [
+        {
+          "id": "story-892746531-c9",
+          "text": "Approach Luc's table with the letter",
+          "description": "Be honest about your purpose"
+        },
+        {
+          "id": "story-892746531-c10",
+          "text": "Introduce yourself casually first",
+          "description": "Build rapport before revealing"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-6",
+      "type": "decision",
+      "title": "First Encounter",
+      "narration": "Luc looks up from his sketchbook as you approach, and his green eyes widen with recognition. 'Forgive me, but you look exactly like someone from an old photograph my grandfather kept his entire life. This cannot be coincidence.' His voice trembles slightly with emotion.",
+      "choices": [
+        {
+          "id": "story-892746531-c11",
+          "text": "Show him your grandmother's letter",
+          "description": "Reveal the connection immediately"
+        },
+        {
+          "id": "story-892746531-c12",
+          "text": "Ask about his grandfather first",
+          "description": "Learn Julien's story before revealing yours"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-7",
+      "type": "decision",
+      "title": "Julien's Legacy",
+      "narration": "Luc invites you to sit. 'Julien Moreau spent his life painting the same woman from memory, capturing her across six decades. He owned this cafe but rarely left it, as if waiting for someone who would never return. He died believing she had simply forgotten him. But I found boxes of paintings in his studio, hundreds of canvases, all of her. And letters. Hundreds of unsent letters.' Luc studies your face. 'Your grandmother. Eloise was your grandmother.'",
+      "choices": [
+        {
+          "id": "story-892746531-c13",
+          "text": "Confirm the connection and share her story",
+          "description": "Tell him everything"
+        },
+        {
+          "id": "story-892746531-c14",
+          "text": "Ask to see Julien's paintings first",
+          "description": "See the evidence before revealing more"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-8",
+      "type": "decision",
+      "title": "The Studio Above",
+      "narration": "Luc leads you up a narrow staircase to Julien's studio, a sunlit room that smells of turpentine and memories. The walls are covered with paintings: your grandmother's face rendered at every age. Each canvas pulses with love and longing. 'He painted her until his final days,' Luc explains.",
+      "choices": [
+        {
+          "id": "story-892746531-c15",
+          "text": "Tell Luc why your grandmother really left",
+          "description": "Share the family secret"
+        },
+        {
+          "id": "story-892746531-c16",
+          "text": "Ask to read Julien's unsent letters",
+          "description": "Hear Julien's voice first"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-9",
+      "type": "decision",
+      "title": "Letters Across Time",
+      "narration": "Luc opens a wooden chest filled with aged envelopes, each addressed to 'My dearest Eloise.' The last letter, penned days before his death: 'I understand now that you could not come back. I only hope you were happy. I forgive you for not returning, and I will wait for you still, in whatever comes after.' Luc closes the chest, tears streaming down his face.",
+      "choices": [
+        {
+          "id": "story-892746531-c17",
+          "text": "Reveal the truth about the pregnancy",
+          "description": "Give Julien's memory closure"
+        },
+        {
+          "id": "story-892746531-c18",
+          "text": "Comfort Luc in shared grief",
+          "description": "Find solace together"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-10",
+      "type": "decision",
+      "title": "The Full Truth",
+      "narration": "You tell Luc everything: how your grandmother discovered she was pregnant in 1962, how her family forced her to return immediately, how she was forbidden from contacting Julien. 'She kept his letter hidden her entire life. She never stopped loving him. She simply could not come back.'",
+      "choices": [
+        {
+          "id": "story-892746531-c19",
+          "text": "Suggest honoring their love with a memorial",
+          "description": "Create something lasting"
+        },
+        {
+          "id": "story-892746531-c20",
+          "text": "Ask Luc about his dreams for the cafe",
+          "description": "Shift to the present"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-11",
+      "type": "decision",
+      "title": "Connection Across Generations",
+      "narration": "'Then we are connected,' Luc says softly, taking your hand. 'Your grandmother was the love of my grandfather's life. They brought us together across sixty years and an ocean.' 'This feels like fate,' Luc continues. 'Like they are giving us a second chance at their story.'",
+      "choices": [
+        {
+          "id": "story-892746531-c21",
+          "text": "Acknowledge the connection and lean closer",
+          "description": "Embrace the possibility"
+        },
+        {
+          "id": "story-892746531-c22",
+          "text": "Suggest dinner to continue talking",
+          "description": "Take things slowly"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-12",
+      "type": "decision",
+      "title": "Evening Along the Seine",
+      "narration": "That evening, Luc takes you for a walk along the Seine as the sun sets behind Notre-Dame. The Eiffel Tower begins its hourly sparkle. 'I thought they were just stories,' Luc admits. 'But you are real. Your grandmother was real. Their love was real.' He brushes a strand of hair from your face. 'And this feeling, right now, this connection I feel to you, this is real too, is it not?'",
+      "choices": [
+        {
+          "id": "story-892746531-c23",
+          "text": "Kiss him beneath the sparkling tower",
+          "description": "Follow your heart"
+        },
+        {
+          "id": "story-892746531-c24",
+          "text": "Tell him you need time to process everything",
+          "description": "Be cautious"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-13",
+      "type": "decision",
+      "title": "A New Beginning",
+      "narration": "The kiss tastes of red wine and possibility. 'I have been waiting for you,' Luc whispers, 'without even knowing who you were. But now I understand. Our grandparents started something beautiful that circumstances tore apart. We can complete their circle.' You discover Julien painted your grandmother pregnant: he knew about the baby, and waited anyway.",
+      "choices": [
+        {
+          "id": "story-892746531-c25",
+          "text": "Decide to stay in Paris permanently",
+          "description": "Build a new life together"
+        },
+        {
+          "id": "story-892746531-c26",
+          "text": "Suggest a long-distance relationship",
+          "description": "Navigate between two worlds"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-14",
+      "type": "decision",
+      "title": "Boundaries",
+      "narration": "Luc's face falls, but he nods with understanding. 'You are right. This is heavy: our grandparents' story, the weight of their loss.' He looks away toward the darkening river. 'But I am glad you came. That my grandfather's story has some closure.'",
+      "choices": [
+        {
+          "id": "story-892746531-c27",
+          "text": "Change your mind and reach for his hand",
+          "description": "Don't let this moment pass"
+        },
+        {
+          "id": "story-892746531-c28",
+          "text": "Thank him and prepare to return home",
+          "description": "Some stories end differently"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-15",
+      "type": "decision",
+      "title": "Building a Future",
+      "narration": "One year later, you stand in the renovated Cafe de Flore as co-owner with Luc. The walls now feature an exhibition: 'Julien and Eloise: A Love Story Across Time.' Your grandmother's original letter is framed by the window table where Julien waited. 'They brought us together,' Luc whispers. 'And we gave them the ending they deserved.'",
+      "choices": [
+        {
+          "id": "story-892746531-c29",
+          "text": "Accept when Luc proposes at their special spot",
+          "description": "A new chapter begins"
+        },
+        {
+          "id": "story-892746531-c30",
+          "text": "Suggest waiting until you know each other better",
+          "description": "Build slowly but surely"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-16",
+      "type": "decision",
+      "title": "Between Two Worlds",
+      "narration": "You divide your life between two cities now. You write letters like Julien and Eloise, though yours reach their destinations. In your grandmother's attic, now your writing studio, you are composing a book about their romance.",
+      "choices": [
+        {
+          "id": "story-892746531-c31",
+          "text": "Plan your eventual move to Paris",
+          "description": "Work toward unity"
+        },
+        {
+          "id": "story-892746531-c32",
+          "text": "Accept this as your permanent arrangement",
+          "description": "Love transcends distance"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-17",
+      "type": "decision",
+      "title": "The Painting",
+      "narration": "'These are Grand-pere's heart, his soul. They were never meant for sale.' He pauses. 'However, if Eloise was your grandmother, then perhaps one should return to her family. Choose whichever speaks to you.' You select a small canvas: your grandmother laughing in summer sunshine.",
+      "choices": [
+        {
+          "id": "story-892746531-c33",
+          "text": "Leave with the painting and your memories",
+          "description": "Complete your mission"
+        },
+        {
+          "id": "story-892746531-c34",
+          "text": "Write to Luc after returning home",
+          "description": "Keep the connection alive"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-18",
+      "type": "ending",
+      "title": "Paris Forever",
+      "narration": "That evening, Luc proposes at the spot where Julien first kissed your grandmother in 1962. Your wedding takes place a year later in the cafe. You write a book about their love story that becomes a bestseller. Years later, when you hold your first child, a daughter named Eloise, you understand why your grandmother kept that letter. This time, the story gets its happy ending."
+    },
+    {
+      "id": "story-892746531-19",
+      "type": "ending",
+      "title": "Love Grows Slowly",
+      "narration": "You build your relationship carefully. The cafe thrives with your input. When you finally marry, it is with certainty that comes from truly knowing another person. The love story that began in 1962 continues through you, eternal as the City of Light."
+    },
+    {
+      "id": "story-892746531-20",
+      "type": "ending",
+      "title": "Journey to Unity",
+      "narration": "The distance is temporary, a bridge you are both committed to crossing. Within eighteen months, you arrange your affairs to make Paris your permanent home. You become a French citizen and dedicate your life to preserving stories of love that transcended borders."
+    },
+    {
+      "id": "story-892746531-21",
+      "type": "ending",
+      "title": "Love Across Distance",
+      "narration": "You accept that your love does not require physical proximity. Eventually, you publish your book about Julien and Eloise, dedicating it to those who loved across impossible distances. When you are old, sitting with Luc on the cafe terrace, you realize your grandparents taught you to cherish every moment."
+    },
+    {
+      "id": "story-892746531-22",
+      "type": "ending",
+      "title": "The Letter Home",
+      "narration": "You return home with Julien's painting carefully wrapped in your luggage. You fulfilled your mission: you found Julien, understood your grandmother's story, and gave them closure. She is young again, eternally summer, captured by someone who loved her completely."
+    }
+  ]
+}

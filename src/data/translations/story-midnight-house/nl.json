@@ -1,0 +1,416 @@
+{
+  "title": "Het Huis om Middernacht",
+  "description": "Een Victoriaans landhuis herbergt duistere geheimen. Zul je de waarheid ontdekken of een zoveelste geest worden?",
+  "nodes": {
+    "node-1": {
+      "title": "De Aankomst",
+      "narration": "Je staat voor de ijzeren poorten van Het Huis om Middernacht. Mist kolkt rond je enkels, koud en klam. De brief zei dat je alleen moest komen, na het donker. 'Ik weet wat je vorige zomer hebt gedaan', stond er op het briefje, geschreven in een beverig handschrift. 'Kom naar Blackwood Manor als je wilt dat het een geheim blijft.' Het enorme huis torent uit tegen de donkere lucht, een eenzaam licht flikkert in een raam op de eerste verdieping. Het hek staat op een kier, alsof het je uitnodigt om binnen te komen... of je in een val lokt.",
+      "choices": {
+        "choice-1": {
+          "text": "Ga door de hoofdpoort naar binnen en loop naar de voordeur"
+        },
+        "choice-2": {
+          "text": "Loop rond de omtrek op zoek naar een andere ingang"
+        }
+      }
+    },
+    "node-2": {
+      "title": "De Hoofdingang",
+      "narration": "Grind knerst onder je laarzen terwijl je de oprit oploopt. De wind huilt door de kronkelige takken van de oude eiken. Je beklimt de stenen trappen naar de massieve eikenhouten deur. De klopper in de vorm van een waterspuwer staart je met lege ogen aan. Je reikt uit om te kloppen, maar de deur zwaait met een kraak uit zichzelf open, een donkere vestibule onthullend. De geur van oud papier en verwelkte bloemen ontsnapt naar buiten.",
+      "choices": {
+        "choice-3": {
+          "text": "Ga de vestibule binnen en roep de gastheer"
+        },
+        "choice-4": {
+          "text": "Blijf op de veranda en wacht tot er iemand verschijnt"
+        }
+      }
+    },
+    "node-3": {
+      "title": "In de Schaduw van de Tuin",
+      "narration": "Je besluit niet rechtstreeks naar de voordeur te gaan. In plaats daarvan sluip je door het hoge gras naar de zijkant van het huis. Het is donker hier, het maanlicht breekt nauwelijks door de dikke wolken. Je stuit op een oude kas, waarvan de ruiten gebroken en vuil zijn. Binnen zijn vreemde, onnatuurlijke schaduwen van planten zichtbaar. Vlakbij is een dienstingang die er minder imposant uitziet dan de hoofdingang.",
+      "choices": {
+        "choice-5": {
+          "text": "Probeer de dienstdeur te openen"
+        },
+        "choice-6": {
+          "text": "Kijk in de kas"
+        }
+      }
+    },
+    "node-4": {
+      "title": "De Grote Hal",
+      "narration": "Je gaat naar binnen. 'Hallo? Is daar iemand?' Je stem echoot tegen de hoge muren. De deur achter je slaat met een klap dicht. Je rukt aan de klink - op slot. Je zit in de val. Het enige licht komt van een kroonluchter boven je, die zwak flikkert. Voor je is een brede trap die naar boven leidt, en donkere gangen links en rechts.",
+      "choices": {
+        "choice-7": {
+          "text": "Ga de trap op naar de eerste verdieping"
+        },
+        "choice-8": {
+          "text": "Verken de gang links"
+        }
+      }
+    },
+    "node-5": {
+      "title": "Het Wachten",
+      "narration": "Je besluit te wachten. Minuten gaan voorbij en voelen als uren. De kou trekt in je botten. Plotseling hoor je een fluistering vlak bij je oor: 'Waarom laat je ons wachten?' Je draait je abrupt om, maar er is niemand. Als je terugkijkt naar de deur, zie je een lange gestalte in een donkere jas in de opening staan. 'Je bent te laat', zegt de gestalte met een stem die klinkt als schurende stenen. 'Het diner is geserveerd.'",
+      "choices": {
+        "choice-9": {
+          "text": "Volg de gestalte naar binnen"
+        },
+        "choice-10": {
+          "text": "Duw de gestalte opzij en probeer te vluchten"
+        }
+      }
+    },
+    "node-6": {
+      "title": "De Keuken",
+      "narration": "De dienstdeur geeft mee met een protesterend gekreun. Je bevindt je in een ruime, verlaten keuken. Rijen koperen pannen glanzen zwak in het maanlicht. Op een grote haktafel ligt een verse rode appel, die er vreemd misplaatst uitziet tussen het stof en de spinnenwebben. Vanuit de diepte van het huis klinken zachte voetstappen.",
+      "choices": {
+        "choice-11": {
+          "text": "Verstop je in de voorraadkast"
+        },
+        "choice-12": {
+          "text": "Pak een mes van de tafel en ga op het geluid af"
+        }
+      }
+    },
+    "node-7": {
+      "title": "De Kas",
+      "narration": "Je veegt het vuile glas schoon en kijkt naar binnen. De planten binnen... bewegen, hoewel er geen wind is. Dit zijn geen gewone bloemen; hun ranken kronkelen als slangen, en de knoppen lijken op kleine mondjes. In het midden van de kas staat een standbeeld van een vrouw die recht naar je lijkt te kijken. Plotseling breekt een van de ranken door het glas en grijpt je arm!",
+      "choices": {
+        "choice-13": {
+          "text": "Probeer los te breken en ren naar de dienstdeur"
+        },
+        "choice-14": {
+          "text": "Gebruik een aansteker om de plant af te schrikken"
+        }
+      }
+    },
+    "node-8": {
+      "title": "De Eerste Verdieping",
+      "narration": "Je beklimt de krakende trap. Bovenaan is een lange gang met veel deuren. Die waar je het licht van buitenaf zag, is helemaal aan het eind. Er klinkt een zachte melodie van een muziekdoos uit een kamer rechts.",
+      "choices": {
+        "choice-15": {
+          "text": "Ga naar de kamer met het licht aan het einde van de gang"
+        },
+        "choice-16": {
+          "text": "Check de kamer met de muziek"
+        }
+      }
+    },
+    "node-9": {
+      "title": "De Bibliotheek",
+      "narration": "De gang links leidt je naar een enorme bibliotheek. Planken van vloer tot plafond staan vol met oude boeken. Kolen gloeien nog in de open haard, hoewel er niemand is. Op een tafel ligt een geopend dagboek. Je leest de laatste notitie: 'Ze zijn voor mij gekomen. Ik kan me niet langer verstoppen. Het geheim zit in het portret.'",
+      "choices": {
+        "choice-17": {
+          "text": "Bekijk het portret boven de open haard"
+        },
+        "choice-18": {
+          "text": "Lees eerdere pagina's van het dagboek"
+        }
+      }
+    },
+    "node-10": {
+      "title": "De Eetkamer",
+      "narration": "De gestalte leidt je naar de eetkamer. Een lange tafel is gedekt voor één persoon. 'Ga zitten', beveelt de gastheer. Je merkt dat er op het bord geen eten ligt, maar een oude, vergeelde foto... van jou. Gisteren genomen. 'We hebben je in de gaten gehouden', zegt hij.",
+      "choices": {
+        "choice-19": {
+          "text": "Eis uitleg"
+        },
+        "choice-20": {
+          "text": "Gooi de tafel om en creëer chaos"
+        }
+      }
+    },
+    "node-11": {
+      "title": "De Ontsnapping",
+      "narration": "Je duwt de gestalte. Hij voelt hard als hout en koud aan. De gestalte valt niet, maar je slaagt erin om erlangs te glippen. Je rent terug naar het hek, maar het is dichtgeslagen. De spijlen zijn te hoog om overheen te klimmen. Je hoort zware voetstappen achter je.",
+      "choices": {
+        "choice-21": {
+          "text": "Verstop je in de struiken"
+        },
+        "choice-22": {
+          "text": "Ren naar de kas"
+        }
+      }
+    },
+    "node-12": {
+      "title": "De Voorraadkast",
+      "narration": "Je perst jezelf in een smalle voorraadkast die naar schimmel ruikt. Door een kier in de deur zie je een vrouw in een Victoriaanse dienstmeisjesjurk de keuken binnenkomen. Ze neuriet een griezelig slaapliedje. Ze pakt de appel, en haar gezicht verandert - haar kaak zakt onnatuurlijk laag en onthult rijen scherpe tanden.",
+      "choices": {
+        "choice-23": {
+          "text": "Houd je adem in en hoop dat ze weggaat"
+        },
+        "choice-24": {
+          "text": "Spring tevoorschijn en val aan terwijl ze afgeleid is"
+        }
+      }
+    },
+    "node-13": {
+      "title": "Gewapend",
+      "narration": "Met het roestige mes in je hand sluip je op het geluid af. Het leidt je naar een dienstgang. Voor je zie je licht onder een deur vandaan komen. Stemmen maken ruzie binnen. 'Hij zal niet komen', zegt de een. 'Hij moet wel', antwoordt de ander. 'Het ritueel vereist zijn bloed.'",
+      "choices": {
+        "choice-25": {
+          "text": "Storm de kamer binnen"
+        },
+        "choice-26": {
+          "text": "Blijf luisteren"
+        }
+      }
+    },
+    "node-14": {
+      "title": "Vuur",
+      "narration": "Je ontsteekt de aansteker. De vlam laait op en de plant deinst met een gil terug. Het vuur slaat over op droge bladeren in de buurt. De hele kas begint zich te vullen met rook. Een deur naar het huis gaat open en iemand rent hoestend naar buiten.",
+      "choices": {
+        "choice-27": {
+          "text": "Gebruik de verwarring en ga het huis binnen"
+        },
+        "choice-28": {
+          "text": "Help de persoon naar buiten"
+        }
+      }
+    },
+    "node-15": {
+      "title": "Kamer van de Meester",
+      "narration": "Je bereikt het einde van de gang en duwt de deur open. De kamer is verlicht door kaarsen. In het midden staat een oude man. 'Ik heb op je gewacht, Anton', zegt hij (hoewel dat niet je naam is, of toch wel...?). 'Het is tijd om de schuld in te lossen.'",
+      "choices": {
+        "choice-29": {
+          "text": "Zeg dat hij zich vergist"
+        },
+        "choice-30": {
+          "text": "Vraag over welke schuld hij het heeft"
+        }
+      }
+    },
+    "node-16": {
+      "title": "De Kinderkamer",
+      "narration": "De bron van de muziek is een oude kinderkamer. In het midden van de kamer staat een wieg die uit zichzelf schommelt. Een muziekdoos op de plank speelt 'Baa, Baa, Black Sheep', maar in mineur. Je loopt naar de wieg en kijkt erin. Hij is leeg, alleen een spiegel ligt op de bodem.",
+      "choices": {
+        "choice-31": {
+          "text": "Pak de spiegel"
+        },
+        "choice-32": {
+          "text": "Stop de wieg"
+        }
+      }
+    },
+    "node-17": {
+      "title": "Gesprek met de Doden",
+      "narration": "Je drukt je handen tegen de muur en spreekt direct tegen de aanwezigheid erachter. 'Samuel? Als dat je naam is, wil ik begrijpen wat er met je gebeurd is.' Het krabben stopt. Stilte. Dan komt een stem, jong en wanhopig, door het hout alsof van grote afstand: 'Hij heeft haar vermoord. Zei dat het voor haar eigen bestwil was, maar hij doodde haar langzaam. Hij doodde mij langzaam. Dwang me toe te kijken terwijl ik stukje bij beetje stierf.' Je stem trilt als je vraagt: 'Wat wil je?' Het antwoord komt onmiddellijk: 'Ik wil dat hij voelt wat ik voelde. Elk moment. Elke dag. Tot hij begrijpt dat de dood genade is.' Je realiseert je met een zinkend gevoel dat Samuel niet gevangen zit. Hij heeft de controle. Het hele huis is nu van hem: een verlengstuk van zijn wil, zijn pijn, zijn behoefte aan straf. 'Breng me iemand', fluistert Samuel. 'Breng me iemand nieuws. Iemand in wie de levenskracht helder brandt. Als je dat doet, laat hij je gaan. Je kunt je vrijheid krijgen.' Je handen vallen van de muur. Je hebt een pact aangeboden gekregen. Iemand anders verraden of zelf gevangen blijven.",
+      "choices": {
+        "choice-33": {
+          "text": "Weiger het pact en zoek een andere ontsnapping"
+        },
+        "choice-34": {
+          "text": "Accepteer Samuels voorwaarden en zoek een slachtoffer"
+        }
+      }
+    },
+    "node-18": {
+      "title": "Geheime Doorgang",
+      "narration": "Je bladert terug in het dagboek. De pagina's staan vol met waanzinnige tekeningen van ogen en deuren. Eén notitie trekt de aandacht: 'Achter de open haard is een doorgang. Je moet op de steen met de barst drukken.' Je kijkt naar de open haard.",
+      "choices": {
+        "choice-35": {
+          "text": "Zoek de steen"
+        },
+        "choice-36": {
+          "text": "Negeer het en zoek een andere uitgang uit de bibliotheek"
+        }
+      }
+    },
+    "node-19": {
+      "title": "De Waarheid",
+      "narration": "De gastheer lacht, een droog, krakend geluid. 'Uitleg? Je bent hier niet om vragen te stellen. Je bent hier om deel uit te maken van de collectie.' De muren beginnen te schuiven en onthullen nissen met de gebalsemde lichamen van vorige gasten.",
+      "choices": {
+        "choice-37": {
+          "text": "Vecht voor je leven"
+        },
+        "choice-38": {
+          "text": "Smeek om genade"
+        }
+      }
+    },
+    "node-20": {
+      "title": "Chaos",
+      "narration": "Je gooit de zware eikenhouten tafel met kracht om. Het servies vliegt met een oorverdovend gekletter op de grond. De gastheer sist als een boze kat en deinst terug in de schaduw. 'Dwaas! Je hebt de urn gebroken!' schreeuwt hij. Uit de scherven van de gebroken vaas stijgt een grijze rook op.",
+      "choices": {
+        "choice-39": {
+          "text": "Ren naar de uitgang terwijl hij afgeleid is"
+        },
+        "choice-40": {
+          "text": "Val de gastheer aan"
+        }
+      }
+    },
+    "node-21": {
+      "title": "Het Tuin Doolhof",
+      "narration": "De struiken blijken deel uit te maken van een oud doolhof. Je duikt naar binnen, takken krassen in je gezicht. De voetstappen achter je worden luider, en vallen dan stil. Je bent verdwaald. Rondom alleen maar hoge hagen.",
+      "choices": {
+        "choice-41": {
+          "text": "Volg de rechterhandregel"
+        },
+        "choice-42": {
+          "text": "Probeer door de heg te breken"
+        }
+      }
+    },
+    "node-22": {
+      "title": "De Geest van de Kas",
+      "narration": "Je rent naar de kas, maar de deur zit op slot. Binnen zie je de gedaante van een meisje dat met haar vuisten op het glas slaat. 'Niet binnenkomen!' schreeuwt ze zonder geluid. Maar de voetstappen van de achtervolger zijn al heel dichtbij.",
+      "choices": {
+        "choice-43": {
+          "text": "Breek het glas en ga naar binnen"
+        },
+        "choice-44": {
+          "text": "Verstop je achter de kas"
+        }
+      }
+    },
+    "node-23": {
+      "title": "Ontdekking",
+      "narration": "Het dienstmeisje vertrekt, mompelend over 'vers vlees'. Je blaast uit. Nu is de weg naar de keuken vrij, maar de deur waar ze door naar buiten ging, leidt naar de kelder.",
+      "choices": {
+        "choice-45": {
+          "text": "Verken de kelder"
+        },
+        "choice-46": {
+          "text": "Ga via de keuken het huis in"
+        }
+      }
+    },
+    "node-24": {
+      "title": "Confrontatie",
+      "narration": "Je springt met een schreeuw tevoorschijn. Het wezen krijst met een onmenselijke stem en stort zich op je. Je slaagt erin haar te raken met iets zwaars, en ze vergaat tot stof. Maar het lawaai heeft zeker de aandacht getrokken.",
+      "choices": {
+        "choice-47": {
+          "text": "Vluchten"
+        },
+        "choice-48": {
+          "text": "Barricadeer jezelf"
+        }
+      }
+    },
+    "node-25": {
+      "title": "Het Ritueel",
+      "narration": "Je stormt de kamer binnen. Vijf figuren in kappen staan rond een pentagram. Ze draaien hun hoofden naar jou. 'Een vrijwilliger', zegt de leider. 'Wat aardig.'",
+      "choices": {
+        "choice-49": {
+          "text": "Probeer het ritueel te onderbreken"
+        },
+        "choice-50": {
+          "text": "Geef je over"
+        }
+      }
+    },
+    "node-26": {
+      "title": "Geheime Kennis",
+      "narration": "Je luistert. Ze praten over hoe het huis zich voedt met angst. De enige manier om het te verslaan is door niet bang te zijn. 'Als hij lacht, wordt de betovering verbroken', zegt een stem.",
+      "choices": {
+        "choice-51": {
+          "text": "Ga naar binnen en vertel een mop"
+        },
+        "choice-52": {
+          "text": "Gebruik deze kennis later"
+        }
+      }
+    },
+    "node-27": {
+      "title": "In het Huis",
+      "narration": "Gebruikmakend van de paniek, glip je door de open deur. Je bevindt je in een gang met portretten waarvan de ogen je volgen.",
+      "choices": {
+        "choice-53": {
+          "text": "Ren dieper het huis in"
+        },
+        "choice-54": {
+          "text": "Verstop je achter een gordijn"
+        }
+      }
+    },
+    "node-28": {
+      "title": "Redding",
+      "narration": "Je grijpt de hand van de persoon en trekt hem naar buiten. Het is een jonge jongen, doodsbang. 'Bedankt', hijgt hij. 'Ik weet waar de uitgang is. Een geheime tunnel.'",
+      "choices": {
+        "choice-55": {
+          "text": "Vertrouw hem"
+        },
+        "choice-56": {
+          "text": "Vertrouw hem niet en ga alleen"
+        }
+      }
+    },
+    "node-29": {
+      "title": "De Ontknoping",
+      "narration": "Je weigert het pact resoluut. 'Ik word niet zoals hij. En ik word niet jouw marionet.' Samuel schreeuwt van woede, de muren trillen. 'BLIJF HIER DAN VOOR ALTIJD!' De vloer onder je zakt weg.",
+      "choices": {
+        "choice-57": {
+          "text": "Probeer de rand vast te grijpen"
+        },
+        "choice-58": {
+          "text": "Accepteer de val"
+        }
+      }
+    },
+    "node-30": {
+      "title": "De Nieuwe Meester",
+      "narration": "Je stemt toe. 'Wijze keuze', fluistert Samuel. De deur gaat open. In de gang staat dezelfde jongen die je uit de kas hebt gered (of had kunnen redden). Hij kijkt je hoopvol aan. Je klemt je hand om het heft van het mes in je zak...",
+      "choices": {
+        "choice-59": {
+          "text": "Vervul jouw deel van de afspraak"
+        },
+        "choice-60": {
+          "text": "Bedenk je op het laatste moment en val de 'aanwezigheid' aan"
+        }
+      }
+    },
+    "node-31": {
+      "title": "De Spiegel",
+      "narration": "Je pakt de spiegel. In de reflectie zie je niet jezelf, maar een geest die over je schouder meekijkt. Hij glimlacht en legt een vinger op zijn lippen.",
+      "choices": {
+        "choice-61": {
+          "text": "Breek de spiegel"
+        },
+        "choice-62": {
+          "text": "Vraag wie hij is"
+        }
+      }
+    },
+    "node-32": {
+      "title": "De Wieg",
+      "narration": "Je stopt de wieg met je hand. De muziek stopt abrupt. De stilte drukt op je oren. Plotseling begint de wieg met wilde kracht te schudden, en een babygehuil, luid en doordringend, scheurt door de lucht.",
+      "choices": {
+        "choice-63": {
+          "text": "Vlucht uit de kamer"
+        },
+        "choice-64": {
+          "text": "Probeer de 'baby' te kalmeren"
+        }
+      }
+    }
+  },
+  "endings": {
+    "ending-1": {
+      "title": "De Eeuwige Gast",
+      "narration": "Je kon niet ontsnappen. Het huis heeft je opgeslokt, net als vele anderen. Nu ben je deel van de collectie, weer een geest die door de gangen dwaalt en nieuwe gasten angst aanjaagt. Misschien heb je de volgende keer meer geluk... maar voor jou komt er geen volgende keer."
+    },
+    "ending-2": {
+      "title": "Vrijheid... of niet?",
+      "narration": "Je rent de poort uit, je longen branden van de koude lucht. Je stopt niet tot je de stad bereikt. Je bent gered. Maar elke nacht droom je van dit huis. En soms, als je in de spiegel kijkt, zie je over je schouder een schaduw met ogen als kooltjes. Je hebt Het Huis om Middernacht verlaten, maar heeft het jou verlaten?"
+    },
+    "ending-3": {
+      "title": "De Erfgenaam",
+      "narration": "Je hebt het ritueel uitgevoerd. Je hebt het offer gebracht. Het huis heeft je geaccepteerd. Nu ben jij de nieuwe Meester. De kracht stroomt door je aderen, oud en duister. Je kijkt uit het raam naar de nieuwe gasten die aankomen. 'Welkom', fluister je met een glimlach. Het diner is geserveerd."
+    },
+    "ending-4": {
+      "title": "De Vloekbreker",
+      "narration": "Je moed (of domheid) heeft de betovering verbroken. Het lachen, het gebrek aan angst, of misschien het vuur - iets werkte. Het huis begon in te storten, steen voor steen, oplossend in de ochtendmist. Je staat op een leeg veld, waar zojuist nog het landhuis stond. Het is voorbij. De vloek is opgeheven."
+    },
+    "ending-5": {
+      "title": "De Vergetene",
+      "narration": "Je hebt je te goed verstopt. Niemand heeft je gevonden. Niemand is voor je gekomen. Je bleef in het donker, wachtend op een redding die nooit kwam. Na verloop van tijd vergat je je naam. Je vergat hoe de zon eruitziet. Je werd gewoon een zoveelste schaduw in de hoek."
+    },
+    "ending-6": {
+      "title": "Pact met de Duivel",
+      "narration": "Je hebt een deal gesloten met Samuel. Je bent vrij, rijk en succesvol. Maar de prijs was hoog. In elke schaduw zie je de gezichten van degenen die je hebt verraden. En je weet dat wanneer jouw uur slaat, Samuel de schuld komt innen. En de rente zal verschrikkelijk zijn."
+    }
+  }
+}

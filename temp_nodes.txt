@@ -1,0 +1,1994 @@
+LOGIC_START
+
+      {
+        id: 'path-1',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Mossy Stone',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'You pass a large stone covered in thick, velvet-like moss. It feels warm to the touch.',
+        choices: [
+          {
+            id: 'choice-path-1-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-2',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-2',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Twisted Roots',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'Huge roots snake across the path, requiring you to step carefully. They seem to pulse with life.',
+        choices: [
+          {
+            id: 'choice-path-2-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-3',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-3',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Sunbeam',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'A single beam of sunlight pierces the canopy, illuminating a patch of wildflowers.',
+        choices: [
+          {
+            id: 'choice-path-3-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-4',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-4',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Blue Butterfly',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'A brilliant blue butterfly flutters ahead of you, as if guiding the way.',
+        choices: [
+          {
+            id: 'choice-path-4-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-5',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-5',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Old Bridge',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'You cross a small, creaky wooden bridge over a dry creek bed.',
+        choices: [
+          {
+            id: 'choice-path-5-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-6',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-6',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Whispering Wind',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'The wind picks up, carrying faint whispers that you can\'t quite make out.',
+        choices: [
+          {
+            id: 'choice-path-6-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-7',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-7',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Stone Circle',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'You pass a small circle of stones. Someone—or something—arranged them long ago.',
+        choices: [
+          {
+            id: 'choice-path-7-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-8',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-8',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Hollow Log',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'A massive fallen log blocks the way. You climb over it, smelling damp wood and earth.',
+        choices: [
+          {
+            id: 'choice-path-8-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-9',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-9',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Deer's Trail',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'You spot fresh deer tracks crossing your path. The forest is alive around you.',
+        choices: [
+          {
+            id: 'choice-path-9-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-10',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-10',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Silent Grove',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'The bird song suddenly stops as you enter a grove of silver-barked trees.',
+        choices: [
+          {
+            id: 'choice-path-10-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-11',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-11',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Babbling Brook',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'A small brook crosses the path. The water is cool and refreshing.',
+        choices: [
+          {
+            id: 'choice-path-11-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-12',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-12',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Fern Gully',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'You walk through a sea of waist-high ferns that brush against your legs.',
+        choices: [
+          {
+            id: 'choice-path-12-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-13',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-13',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Owl's Perch',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'An owl watches you from a high branch, its yellow eyes unblinking.',
+        choices: [
+          {
+            id: 'choice-path-13-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-14',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-14',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Misty Hollow',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'A low mist clings to the ground here, swirling around your boots.',
+        choices: [
+          {
+            id: 'choice-path-14-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-15',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-15',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Ancient Marker',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'An old stone marker stands by the path, its inscriptions worn away by time.',
+        choices: [
+          {
+            id: 'choice-path-15-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-16',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-16',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Edge of the Deep Woods',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'The trees grow larger and older. You sense you are approaching the heart of the forest.',
+        choices: [
+          {
+            id: 'choice-path-16-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'node-2',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-1',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Pebbled Shore',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'The stream flows over smooth, colorful pebbles. The sound is soothing.',
+        choices: [
+          {
+            id: 'choice-stream-1-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-2',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-2',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Dragonflies',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'Jewel-toned dragonflies dart over the water\'s surface, chasing invisible prey.',
+        choices: [
+          {
+            id: 'choice-stream-2-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-3',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-3',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Willow Tree',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'A weeping willow dips its branches into the stream, creating ripples.',
+        choices: [
+          {
+            id: 'choice-stream-3-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-4',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-4',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Jumping Fish',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'A silver fish leaps from the water to catch a fly, splashing back down.',
+        choices: [
+          {
+            id: 'choice-stream-4-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-5',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-5',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Narrow Gorge',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'The stream cuts through a narrow rocky gorge. You carefully walk along the edge.',
+        choices: [
+          {
+            id: 'choice-stream-5-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-6',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-6',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Slippery Rocks',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'The path becomes rocky and slick with spray. You tread with caution.',
+        choices: [
+          {
+            id: 'choice-stream-6-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-7',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-7',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Calm Pool',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'The stream widens into a small, calm pool before continuing its journey.',
+        choices: [
+          {
+            id: 'choice-stream-7-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-8',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-8',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The River Bend',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'The stream takes a sharp turn. You can\'t see what lies around the bend.',
+        choices: [
+          {
+            id: 'choice-stream-8-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-9',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-9',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Otter's Den',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'You spot an otter slipping into the water from its den in the bank.',
+        choices: [
+          {
+            id: 'choice-stream-9-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-10',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-10',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Floating Leaves',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'Golden leaves float downstream, like tiny boats on a journey.',
+        choices: [
+          {
+            id: 'choice-stream-10-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-11',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-11',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Distant Waterfall',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'You hear the roar of a waterfall somewhere ahead.',
+        choices: [
+          {
+            id: 'choice-stream-11-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-12',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-12',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Mist Spray',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'The air grows damp with cool mist from the turbulent water.',
+        choices: [
+          {
+            id: 'choice-stream-12-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-13',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-13',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Rainbow Arch',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'Sunlight hits the mist, creating a faint rainbow over the stream.',
+        choices: [
+          {
+            id: 'choice-stream-13-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-14',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-14',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Spirit's Song',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'For a moment, the sound of the water sounds like a melodic song.',
+        choices: [
+          {
+            id: 'choice-stream-14-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-15',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-15',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Golden Sand',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'Patches of golden sand line the banks, sparkling in the light.',
+        choices: [
+          {
+            id: 'choice-stream-15-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-16',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-16',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Widening Stream',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'The stream grows wider and deeper. You feel a magical presence ahead.',
+        choices: [
+          {
+            id: 'choice-stream-16-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'node-3',
+            order: 1,
+          }
+        ],
+      },
+LOGIC_END
+I18N_EN_START
+
+      'path-1': {
+        title: 'The Mossy Stone',
+        narration: 'You pass a large stone covered in thick, velvet-like moss. It feels warm to the touch.',
+        choices: {
+          'choice-path-1-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'path-2': {
+        title: 'The Twisted Roots',
+        narration: 'Huge roots snake across the path, requiring you to step carefully. They seem to pulse with life.',
+        choices: {
+          'choice-path-2-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'path-3': {
+        title: 'The Sunbeam',
+        narration: 'A single beam of sunlight pierces the canopy, illuminating a patch of wildflowers.',
+        choices: {
+          'choice-path-3-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'path-4': {
+        title: 'The Blue Butterfly',
+        narration: 'A brilliant blue butterfly flutters ahead of you, as if guiding the way.',
+        choices: {
+          'choice-path-4-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'path-5': {
+        title: 'The Old Bridge',
+        narration: 'You cross a small, creaky wooden bridge over a dry creek bed.',
+        choices: {
+          'choice-path-5-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'path-6': {
+        title: 'The Whispering Wind',
+        narration: 'The wind picks up, carrying faint whispers that you can\'t quite make out.',
+        choices: {
+          'choice-path-6-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'path-7': {
+        title: 'The Stone Circle',
+        narration: 'You pass a small circle of stones. Someone—or something—arranged them long ago.',
+        choices: {
+          'choice-path-7-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'path-8': {
+        title: 'The Hollow Log',
+        narration: 'A massive fallen log blocks the way. You climb over it, smelling damp wood and earth.',
+        choices: {
+          'choice-path-8-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'path-9': {
+        title: 'The Deer's Trail',
+        narration: 'You spot fresh deer tracks crossing your path. The forest is alive around you.',
+        choices: {
+          'choice-path-9-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'path-10': {
+        title: 'The Silent Grove',
+        narration: 'The bird song suddenly stops as you enter a grove of silver-barked trees.',
+        choices: {
+          'choice-path-10-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'path-11': {
+        title: 'The Babbling Brook',
+        narration: 'A small brook crosses the path. The water is cool and refreshing.',
+        choices: {
+          'choice-path-11-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'path-12': {
+        title: 'The Fern Gully',
+        narration: 'You walk through a sea of waist-high ferns that brush against your legs.',
+        choices: {
+          'choice-path-12-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'path-13': {
+        title: 'The Owl's Perch',
+        narration: 'An owl watches you from a high branch, its yellow eyes unblinking.',
+        choices: {
+          'choice-path-13-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'path-14': {
+        title: 'The Misty Hollow',
+        narration: 'A low mist clings to the ground here, swirling around your boots.',
+        choices: {
+          'choice-path-14-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'path-15': {
+        title: 'The Ancient Marker',
+        narration: 'An old stone marker stands by the path, its inscriptions worn away by time.',
+        choices: {
+          'choice-path-15-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'path-16': {
+        title: 'The Edge of the Deep Woods',
+        narration: 'The trees grow larger and older. You sense you are approaching the heart of the forest.',
+        choices: {
+          'choice-path-16-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'stream-1': {
+        title: 'The Pebbled Shore',
+        narration: 'The stream flows over smooth, colorful pebbles. The sound is soothing.',
+        choices: {
+          'choice-stream-1-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'stream-2': {
+        title: 'The Dragonflies',
+        narration: 'Jewel-toned dragonflies dart over the water\'s surface, chasing invisible prey.',
+        choices: {
+          'choice-stream-2-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'stream-3': {
+        title: 'The Willow Tree',
+        narration: 'A weeping willow dips its branches into the stream, creating ripples.',
+        choices: {
+          'choice-stream-3-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'stream-4': {
+        title: 'The Jumping Fish',
+        narration: 'A silver fish leaps from the water to catch a fly, splashing back down.',
+        choices: {
+          'choice-stream-4-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'stream-5': {
+        title: 'The Narrow Gorge',
+        narration: 'The stream cuts through a narrow rocky gorge. You carefully walk along the edge.',
+        choices: {
+          'choice-stream-5-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'stream-6': {
+        title: 'The Slippery Rocks',
+        narration: 'The path becomes rocky and slick with spray. You tread with caution.',
+        choices: {
+          'choice-stream-6-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'stream-7': {
+        title: 'The Calm Pool',
+        narration: 'The stream widens into a small, calm pool before continuing its journey.',
+        choices: {
+          'choice-stream-7-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'stream-8': {
+        title: 'The River Bend',
+        narration: 'The stream takes a sharp turn. You can\'t see what lies around the bend.',
+        choices: {
+          'choice-stream-8-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'stream-9': {
+        title: 'The Otter's Den',
+        narration: 'You spot an otter slipping into the water from its den in the bank.',
+        choices: {
+          'choice-stream-9-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'stream-10': {
+        title: 'The Floating Leaves',
+        narration: 'Golden leaves float downstream, like tiny boats on a journey.',
+        choices: {
+          'choice-stream-10-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'stream-11': {
+        title: 'The Distant Waterfall',
+        narration: 'You hear the roar of a waterfall somewhere ahead.',
+        choices: {
+          'choice-stream-11-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'stream-12': {
+        title: 'The Mist Spray',
+        narration: 'The air grows damp with cool mist from the turbulent water.',
+        choices: {
+          'choice-stream-12-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'stream-13': {
+        title: 'The Rainbow Arch',
+        narration: 'Sunlight hits the mist, creating a faint rainbow over the stream.',
+        choices: {
+          'choice-stream-13-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'stream-14': {
+        title: 'The Spirit's Song',
+        narration: 'For a moment, the sound of the water sounds like a melodic song.',
+        choices: {
+          'choice-stream-14-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'stream-15': {
+        title: 'The Golden Sand',
+        narration: 'Patches of golden sand line the banks, sparkling in the light.',
+        choices: {
+          'choice-stream-15-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+
+      'stream-16': {
+        title: 'The Widening Stream',
+        narration: 'The stream grows wider and deeper. You feel a magical presence ahead.',
+        choices: {
+          'choice-stream-16-next': {
+            text: 'Continue',
+            description: 'Move forward',
+          },
+        },
+      },
+I18N_EN_END
+I18N_ES_START
+
+      'path-1': {
+        title: '[ES] The Mossy Stone',
+        narration: '[ES] You pass a large stone covered in thick, velvet-like moss. It feels warm to the touch.',
+        choices: {
+          'choice-path-1-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'path-2': {
+        title: '[ES] The Twisted Roots',
+        narration: '[ES] Huge roots snake across the path, requiring you to step carefully. They seem to pulse with life.',
+        choices: {
+          'choice-path-2-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'path-3': {
+        title: '[ES] The Sunbeam',
+        narration: '[ES] A single beam of sunlight pierces the canopy, illuminating a patch of wildflowers.',
+        choices: {
+          'choice-path-3-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'path-4': {
+        title: '[ES] The Blue Butterfly',
+        narration: '[ES] A brilliant blue butterfly flutters ahead of you, as if guiding the way.',
+        choices: {
+          'choice-path-4-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'path-5': {
+        title: '[ES] The Old Bridge',
+        narration: '[ES] You cross a small, creaky wooden bridge over a dry creek bed.',
+        choices: {
+          'choice-path-5-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'path-6': {
+        title: '[ES] The Whispering Wind',
+        narration: '[ES] The wind picks up, carrying faint whispers that you can\'t quite make out.',
+        choices: {
+          'choice-path-6-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'path-7': {
+        title: '[ES] The Stone Circle',
+        narration: '[ES] You pass a small circle of stones. Someone—or something—arranged them long ago.',
+        choices: {
+          'choice-path-7-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'path-8': {
+        title: '[ES] The Hollow Log',
+        narration: '[ES] A massive fallen log blocks the way. You climb over it, smelling damp wood and earth.',
+        choices: {
+          'choice-path-8-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'path-9': {
+        title: '[ES] The Deer's Trail',
+        narration: '[ES] You spot fresh deer tracks crossing your path. The forest is alive around you.',
+        choices: {
+          'choice-path-9-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'path-10': {
+        title: '[ES] The Silent Grove',
+        narration: '[ES] The bird song suddenly stops as you enter a grove of silver-barked trees.',
+        choices: {
+          'choice-path-10-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'path-11': {
+        title: '[ES] The Babbling Brook',
+        narration: '[ES] A small brook crosses the path. The water is cool and refreshing.',
+        choices: {
+          'choice-path-11-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'path-12': {
+        title: '[ES] The Fern Gully',
+        narration: '[ES] You walk through a sea of waist-high ferns that brush against your legs.',
+        choices: {
+          'choice-path-12-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'path-13': {
+        title: '[ES] The Owl's Perch',
+        narration: '[ES] An owl watches you from a high branch, its yellow eyes unblinking.',
+        choices: {
+          'choice-path-13-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'path-14': {
+        title: '[ES] The Misty Hollow',
+        narration: '[ES] A low mist clings to the ground here, swirling around your boots.',
+        choices: {
+          'choice-path-14-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'path-15': {
+        title: '[ES] The Ancient Marker',
+        narration: '[ES] An old stone marker stands by the path, its inscriptions worn away by time.',
+        choices: {
+          'choice-path-15-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'path-16': {
+        title: '[ES] The Edge of the Deep Woods',
+        narration: '[ES] The trees grow larger and older. You sense you are approaching the heart of the forest.',
+        choices: {
+          'choice-path-16-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'stream-1': {
+        title: '[ES] The Pebbled Shore',
+        narration: '[ES] The stream flows over smooth, colorful pebbles. The sound is soothing.',
+        choices: {
+          'choice-stream-1-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'stream-2': {
+        title: '[ES] The Dragonflies',
+        narration: '[ES] Jewel-toned dragonflies dart over the water\'s surface, chasing invisible prey.',
+        choices: {
+          'choice-stream-2-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'stream-3': {
+        title: '[ES] The Willow Tree',
+        narration: '[ES] A weeping willow dips its branches into the stream, creating ripples.',
+        choices: {
+          'choice-stream-3-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'stream-4': {
+        title: '[ES] The Jumping Fish',
+        narration: '[ES] A silver fish leaps from the water to catch a fly, splashing back down.',
+        choices: {
+          'choice-stream-4-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'stream-5': {
+        title: '[ES] The Narrow Gorge',
+        narration: '[ES] The stream cuts through a narrow rocky gorge. You carefully walk along the edge.',
+        choices: {
+          'choice-stream-5-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'stream-6': {
+        title: '[ES] The Slippery Rocks',
+        narration: '[ES] The path becomes rocky and slick with spray. You tread with caution.',
+        choices: {
+          'choice-stream-6-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'stream-7': {
+        title: '[ES] The Calm Pool',
+        narration: '[ES] The stream widens into a small, calm pool before continuing its journey.',
+        choices: {
+          'choice-stream-7-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'stream-8': {
+        title: '[ES] The River Bend',
+        narration: '[ES] The stream takes a sharp turn. You can\'t see what lies around the bend.',
+        choices: {
+          'choice-stream-8-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'stream-9': {
+        title: '[ES] The Otter's Den',
+        narration: '[ES] You spot an otter slipping into the water from its den in the bank.',
+        choices: {
+          'choice-stream-9-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'stream-10': {
+        title: '[ES] The Floating Leaves',
+        narration: '[ES] Golden leaves float downstream, like tiny boats on a journey.',
+        choices: {
+          'choice-stream-10-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'stream-11': {
+        title: '[ES] The Distant Waterfall',
+        narration: '[ES] You hear the roar of a waterfall somewhere ahead.',
+        choices: {
+          'choice-stream-11-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'stream-12': {
+        title: '[ES] The Mist Spray',
+        narration: '[ES] The air grows damp with cool mist from the turbulent water.',
+        choices: {
+          'choice-stream-12-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'stream-13': {
+        title: '[ES] The Rainbow Arch',
+        narration: '[ES] Sunlight hits the mist, creating a faint rainbow over the stream.',
+        choices: {
+          'choice-stream-13-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'stream-14': {
+        title: '[ES] The Spirit's Song',
+        narration: '[ES] For a moment, the sound of the water sounds like a melodic song.',
+        choices: {
+          'choice-stream-14-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'stream-15': {
+        title: '[ES] The Golden Sand',
+        narration: '[ES] Patches of golden sand line the banks, sparkling in the light.',
+        choices: {
+          'choice-stream-15-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+
+      'stream-16': {
+        title: '[ES] The Widening Stream',
+        narration: '[ES] The stream grows wider and deeper. You feel a magical presence ahead.',
+        choices: {
+          'choice-stream-16-next': {
+            text: '[ES] Continue',
+            description: '[ES] Move forward',
+          },
+        },
+      },
+I18N_ES_END
+I18N_FR_START
+
+      'path-1': {
+        title: '[FR] The Mossy Stone',
+        narration: '[FR] You pass a large stone covered in thick, velvet-like moss. It feels warm to the touch.',
+        choices: {
+          'choice-path-1-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'path-2': {
+        title: '[FR] The Twisted Roots',
+        narration: '[FR] Huge roots snake across the path, requiring you to step carefully. They seem to pulse with life.',
+        choices: {
+          'choice-path-2-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'path-3': {
+        title: '[FR] The Sunbeam',
+        narration: '[FR] A single beam of sunlight pierces the canopy, illuminating a patch of wildflowers.',
+        choices: {
+          'choice-path-3-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'path-4': {
+        title: '[FR] The Blue Butterfly',
+        narration: '[FR] A brilliant blue butterfly flutters ahead of you, as if guiding the way.',
+        choices: {
+          'choice-path-4-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'path-5': {
+        title: '[FR] The Old Bridge',
+        narration: '[FR] You cross a small, creaky wooden bridge over a dry creek bed.',
+        choices: {
+          'choice-path-5-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'path-6': {
+        title: '[FR] The Whispering Wind',
+        narration: '[FR] The wind picks up, carrying faint whispers that you can\'t quite make out.',
+        choices: {
+          'choice-path-6-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'path-7': {
+        title: '[FR] The Stone Circle',
+        narration: '[FR] You pass a small circle of stones. Someone—or something—arranged them long ago.',
+        choices: {
+          'choice-path-7-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'path-8': {
+        title: '[FR] The Hollow Log',
+        narration: '[FR] A massive fallen log blocks the way. You climb over it, smelling damp wood and earth.',
+        choices: {
+          'choice-path-8-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'path-9': {
+        title: '[FR] The Deer's Trail',
+        narration: '[FR] You spot fresh deer tracks crossing your path. The forest is alive around you.',
+        choices: {
+          'choice-path-9-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'path-10': {
+        title: '[FR] The Silent Grove',
+        narration: '[FR] The bird song suddenly stops as you enter a grove of silver-barked trees.',
+        choices: {
+          'choice-path-10-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'path-11': {
+        title: '[FR] The Babbling Brook',
+        narration: '[FR] A small brook crosses the path. The water is cool and refreshing.',
+        choices: {
+          'choice-path-11-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'path-12': {
+        title: '[FR] The Fern Gully',
+        narration: '[FR] You walk through a sea of waist-high ferns that brush against your legs.',
+        choices: {
+          'choice-path-12-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'path-13': {
+        title: '[FR] The Owl's Perch',
+        narration: '[FR] An owl watches you from a high branch, its yellow eyes unblinking.',
+        choices: {
+          'choice-path-13-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'path-14': {
+        title: '[FR] The Misty Hollow',
+        narration: '[FR] A low mist clings to the ground here, swirling around your boots.',
+        choices: {
+          'choice-path-14-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'path-15': {
+        title: '[FR] The Ancient Marker',
+        narration: '[FR] An old stone marker stands by the path, its inscriptions worn away by time.',
+        choices: {
+          'choice-path-15-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'path-16': {
+        title: '[FR] The Edge of the Deep Woods',
+        narration: '[FR] The trees grow larger and older. You sense you are approaching the heart of the forest.',
+        choices: {
+          'choice-path-16-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'stream-1': {
+        title: '[FR] The Pebbled Shore',
+        narration: '[FR] The stream flows over smooth, colorful pebbles. The sound is soothing.',
+        choices: {
+          'choice-stream-1-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'stream-2': {
+        title: '[FR] The Dragonflies',
+        narration: '[FR] Jewel-toned dragonflies dart over the water\'s surface, chasing invisible prey.',
+        choices: {
+          'choice-stream-2-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'stream-3': {
+        title: '[FR] The Willow Tree',
+        narration: '[FR] A weeping willow dips its branches into the stream, creating ripples.',
+        choices: {
+          'choice-stream-3-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'stream-4': {
+        title: '[FR] The Jumping Fish',
+        narration: '[FR] A silver fish leaps from the water to catch a fly, splashing back down.',
+        choices: {
+          'choice-stream-4-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'stream-5': {
+        title: '[FR] The Narrow Gorge',
+        narration: '[FR] The stream cuts through a narrow rocky gorge. You carefully walk along the edge.',
+        choices: {
+          'choice-stream-5-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'stream-6': {
+        title: '[FR] The Slippery Rocks',
+        narration: '[FR] The path becomes rocky and slick with spray. You tread with caution.',
+        choices: {
+          'choice-stream-6-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'stream-7': {
+        title: '[FR] The Calm Pool',
+        narration: '[FR] The stream widens into a small, calm pool before continuing its journey.',
+        choices: {
+          'choice-stream-7-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'stream-8': {
+        title: '[FR] The River Bend',
+        narration: '[FR] The stream takes a sharp turn. You can\'t see what lies around the bend.',
+        choices: {
+          'choice-stream-8-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'stream-9': {
+        title: '[FR] The Otter's Den',
+        narration: '[FR] You spot an otter slipping into the water from its den in the bank.',
+        choices: {
+          'choice-stream-9-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'stream-10': {
+        title: '[FR] The Floating Leaves',
+        narration: '[FR] Golden leaves float downstream, like tiny boats on a journey.',
+        choices: {
+          'choice-stream-10-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'stream-11': {
+        title: '[FR] The Distant Waterfall',
+        narration: '[FR] You hear the roar of a waterfall somewhere ahead.',
+        choices: {
+          'choice-stream-11-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'stream-12': {
+        title: '[FR] The Mist Spray',
+        narration: '[FR] The air grows damp with cool mist from the turbulent water.',
+        choices: {
+          'choice-stream-12-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'stream-13': {
+        title: '[FR] The Rainbow Arch',
+        narration: '[FR] Sunlight hits the mist, creating a faint rainbow over the stream.',
+        choices: {
+          'choice-stream-13-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'stream-14': {
+        title: '[FR] The Spirit's Song',
+        narration: '[FR] For a moment, the sound of the water sounds like a melodic song.',
+        choices: {
+          'choice-stream-14-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'stream-15': {
+        title: '[FR] The Golden Sand',
+        narration: '[FR] Patches of golden sand line the banks, sparkling in the light.',
+        choices: {
+          'choice-stream-15-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+
+      'stream-16': {
+        title: '[FR] The Widening Stream',
+        narration: '[FR] The stream grows wider and deeper. You feel a magical presence ahead.',
+        choices: {
+          'choice-stream-16-next': {
+            text: '[FR] Continue',
+            description: '[FR] Move forward',
+          },
+        },
+      },
+I18N_FR_END
+I18N_TR_START
+
+      'path-1': {
+        title: '[TR] The Mossy Stone',
+        narration: '[TR] You pass a large stone covered in thick, velvet-like moss. It feels warm to the touch.',
+        choices: {
+          'choice-path-1-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'path-2': {
+        title: '[TR] The Twisted Roots',
+        narration: '[TR] Huge roots snake across the path, requiring you to step carefully. They seem to pulse with life.',
+        choices: {
+          'choice-path-2-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'path-3': {
+        title: '[TR] The Sunbeam',
+        narration: '[TR] A single beam of sunlight pierces the canopy, illuminating a patch of wildflowers.',
+        choices: {
+          'choice-path-3-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'path-4': {
+        title: '[TR] The Blue Butterfly',
+        narration: '[TR] A brilliant blue butterfly flutters ahead of you, as if guiding the way.',
+        choices: {
+          'choice-path-4-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'path-5': {
+        title: '[TR] The Old Bridge',
+        narration: '[TR] You cross a small, creaky wooden bridge over a dry creek bed.',
+        choices: {
+          'choice-path-5-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'path-6': {
+        title: '[TR] The Whispering Wind',
+        narration: '[TR] The wind picks up, carrying faint whispers that you can\'t quite make out.',
+        choices: {
+          'choice-path-6-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'path-7': {
+        title: '[TR] The Stone Circle',
+        narration: '[TR] You pass a small circle of stones. Someone—or something—arranged them long ago.',
+        choices: {
+          'choice-path-7-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'path-8': {
+        title: '[TR] The Hollow Log',
+        narration: '[TR] A massive fallen log blocks the way. You climb over it, smelling damp wood and earth.',
+        choices: {
+          'choice-path-8-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'path-9': {
+        title: '[TR] The Deer's Trail',
+        narration: '[TR] You spot fresh deer tracks crossing your path. The forest is alive around you.',
+        choices: {
+          'choice-path-9-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'path-10': {
+        title: '[TR] The Silent Grove',
+        narration: '[TR] The bird song suddenly stops as you enter a grove of silver-barked trees.',
+        choices: {
+          'choice-path-10-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'path-11': {
+        title: '[TR] The Babbling Brook',
+        narration: '[TR] A small brook crosses the path. The water is cool and refreshing.',
+        choices: {
+          'choice-path-11-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'path-12': {
+        title: '[TR] The Fern Gully',
+        narration: '[TR] You walk through a sea of waist-high ferns that brush against your legs.',
+        choices: {
+          'choice-path-12-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'path-13': {
+        title: '[TR] The Owl's Perch',
+        narration: '[TR] An owl watches you from a high branch, its yellow eyes unblinking.',
+        choices: {
+          'choice-path-13-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'path-14': {
+        title: '[TR] The Misty Hollow',
+        narration: '[TR] A low mist clings to the ground here, swirling around your boots.',
+        choices: {
+          'choice-path-14-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'path-15': {
+        title: '[TR] The Ancient Marker',
+        narration: '[TR] An old stone marker stands by the path, its inscriptions worn away by time.',
+        choices: {
+          'choice-path-15-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'path-16': {
+        title: '[TR] The Edge of the Deep Woods',
+        narration: '[TR] The trees grow larger and older. You sense you are approaching the heart of the forest.',
+        choices: {
+          'choice-path-16-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'stream-1': {
+        title: '[TR] The Pebbled Shore',
+        narration: '[TR] The stream flows over smooth, colorful pebbles. The sound is soothing.',
+        choices: {
+          'choice-stream-1-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'stream-2': {
+        title: '[TR] The Dragonflies',
+        narration: '[TR] Jewel-toned dragonflies dart over the water\'s surface, chasing invisible prey.',
+        choices: {
+          'choice-stream-2-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'stream-3': {
+        title: '[TR] The Willow Tree',
+        narration: '[TR] A weeping willow dips its branches into the stream, creating ripples.',
+        choices: {
+          'choice-stream-3-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'stream-4': {
+        title: '[TR] The Jumping Fish',
+        narration: '[TR] A silver fish leaps from the water to catch a fly, splashing back down.',
+        choices: {
+          'choice-stream-4-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'stream-5': {
+        title: '[TR] The Narrow Gorge',
+        narration: '[TR] The stream cuts through a narrow rocky gorge. You carefully walk along the edge.',
+        choices: {
+          'choice-stream-5-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'stream-6': {
+        title: '[TR] The Slippery Rocks',
+        narration: '[TR] The path becomes rocky and slick with spray. You tread with caution.',
+        choices: {
+          'choice-stream-6-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'stream-7': {
+        title: '[TR] The Calm Pool',
+        narration: '[TR] The stream widens into a small, calm pool before continuing its journey.',
+        choices: {
+          'choice-stream-7-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'stream-8': {
+        title: '[TR] The River Bend',
+        narration: '[TR] The stream takes a sharp turn. You can\'t see what lies around the bend.',
+        choices: {
+          'choice-stream-8-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'stream-9': {
+        title: '[TR] The Otter's Den',
+        narration: '[TR] You spot an otter slipping into the water from its den in the bank.',
+        choices: {
+          'choice-stream-9-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'stream-10': {
+        title: '[TR] The Floating Leaves',
+        narration: '[TR] Golden leaves float downstream, like tiny boats on a journey.',
+        choices: {
+          'choice-stream-10-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'stream-11': {
+        title: '[TR] The Distant Waterfall',
+        narration: '[TR] You hear the roar of a waterfall somewhere ahead.',
+        choices: {
+          'choice-stream-11-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'stream-12': {
+        title: '[TR] The Mist Spray',
+        narration: '[TR] The air grows damp with cool mist from the turbulent water.',
+        choices: {
+          'choice-stream-12-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'stream-13': {
+        title: '[TR] The Rainbow Arch',
+        narration: '[TR] Sunlight hits the mist, creating a faint rainbow over the stream.',
+        choices: {
+          'choice-stream-13-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'stream-14': {
+        title: '[TR] The Spirit's Song',
+        narration: '[TR] For a moment, the sound of the water sounds like a melodic song.',
+        choices: {
+          'choice-stream-14-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'stream-15': {
+        title: '[TR] The Golden Sand',
+        narration: '[TR] Patches of golden sand line the banks, sparkling in the light.',
+        choices: {
+          'choice-stream-15-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+
+      'stream-16': {
+        title: '[TR] The Widening Stream',
+        narration: '[TR] The stream grows wider and deeper. You feel a magical presence ahead.',
+        choices: {
+          'choice-stream-16-next': {
+            text: '[TR] Continue',
+            description: '[TR] Move forward',
+          },
+        },
+      },
+I18N_TR_END

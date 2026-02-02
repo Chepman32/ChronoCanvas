@@ -1,0 +1,416 @@
+{
+  "title": "Dom o Północy",
+  "description": "Wiktoriańska posiadłość kryje mroczne sekrety. Czy odkryjesz prawdę, czy staniesz się kolejnym duchem?",
+  "nodes": {
+    "node-1": {
+      "title": "Przybycie",
+      "narration": "Stoisz przed żelazną bramą Domu o Północy. Mgła kłębi się wokół twoich kostek, zimna i lepka. W liście napisano, żeby przyjść samemu, po zmroku. 'Wiem, co zrobiłeś zeszłego lata' - głosił liścik napisany drżącą ręką. - 'Przyjdź do Posiadłości Blackwood, jeśli chcesz, by to pozostało tajemnicą.' Ogromny dom rysuje się na tle ciemnego nieba, w jednym z okien na piętrze migocze samotne światło. Brama jest lekko uchylona, jakby zapraszając cię do środka... lub wabiąc w pułapkę.",
+      "choices": {
+        "choice-1": {
+          "text": "Wejść przez główną bramę i podejść do drzwi frontowych"
+        },
+        "choice-2": {
+          "text": "Obejść teren w poszukiwaniu innego wejścia"
+        }
+      }
+    },
+    "node-2": {
+      "title": "Główne Wejście",
+      "narration": "Żwir chrzęści pod twoimi butami, gdy idziesz podjazdem. Wiatr wyje przez powykręcane gałęzie starych dębów. Wchodzisz po kamiennych schodach do masywnych dębowych drzwi. Kołatka w kształcie głowy gargulca patrzy na ciebie pustymi oczami. Wyciągasz rękę, by zapukać, ale drzwi otwierają się same ze skrzypieniem, ukazując ciemny przedsionek. Zapach starego papieru i zwiędłych kwiatów wydostaje się na zewnątrz.",
+      "choices": {
+        "choice-3": {
+          "text": "Wejść do przedsionka i zawołać gospodarza"
+        },
+        "choice-4": {
+          "text": "Zostać na ganku i czekać, aż ktoś się pojawi"
+        }
+      }
+    },
+    "node-3": {
+      "title": "W Cieniu Ogrodu",
+      "narration": "Decydujesz się nie iść prosto do drzwi frontowych. Zamiast tego skradasz się przez wysoką trawę na tyły domu. Jest tu ciemno, światło księżyca ledwo przebija się przez gęste chmury. Natykasz się na starą oranżerię, której szyby są powybijane i brudne. Wewnątrz widać dziwne, nienaturalne cienie roślin. Obok znajdują się drzwi dla służby, które wyglądają mniej imponująco niż główne wejście.",
+      "choices": {
+        "choice-5": {
+          "text": "Spróbować otworzyć drzwi dla służby"
+        },
+        "choice-6": {
+          "text": "Zajrzeć do oranżerii"
+        }
+      }
+    },
+    "node-4": {
+      "title": "Główny Hol",
+      "narration": "Wchodzisz do środka. 'Halo? Jest tu kto?' - twój głos odbija się echem od wysokich ścian. Drzwi za tobą zatrzaskują się z hukiem. Szarpiesz za klamkę - zamknięte. Jesteś w pułapce. Jedyne światło pochodzi z żyrandola powyżej, który słabo migocze. Przed tobą szerokie schody prowadzące na górę, a po lewej i prawej ciemne korytarze.",
+      "choices": {
+        "choice-7": {
+          "text": "Wejść po schodach na piętro"
+        },
+        "choice-8": {
+          "text": "Zbadac korytarz po lewej"
+        }
+      }
+    },
+    "node-5": {
+      "title": "Oczekiwanie",
+      "narration": "Decydujesz się poczekać. Mijają minuty, które ciągną się jak godziny. Chłód przenika do kości. Nagle słyszysz szept tuż przy uchu: 'Dlaczego każesz nam czekać?' Odwracasz się gwałtownie, ale nikogo nie ma. Patrząc z powrotem na drzwi, widzisz wysoką postać w ciemnym płaszczu stojącą w wejściu. 'Spóźniłeś się' - mówi postać głosem przypominającym zgrzyt kamieni. - 'Kolacja już podana.'",
+      "choices": {
+        "choice-9": {
+          "text": "Podążyć za postacią do środka"
+        },
+        "choice-10": {
+          "text": "Popchnąć postać i spróbować uciec"
+        }
+      }
+    },
+    "node-6": {
+      "title": "Kuchnia",
+      "narration": "Drzwi dla służby ustępują z protestującym jękiem. Znajdujesz się w przestronnej, opuszczonej kuchni. Rzędy miedzianych garnków słabo lśnią w świetle księżyca. Na dużym stole do krojenia leży świeże czerwone jabłko, wyglądające dziwnie nie na miejscu wśród kurzu i pajęczyn. Z głębi domu dobiegają ciche kroki.",
+      "choices": {
+        "choice-11": {
+          "text": "Schować się w spiżarni"
+        },
+        "choice-12": {
+          "text": "Wziąć nóż ze stołu i iść w stronę dźwięku"
+        }
+      }
+    },
+    "node-7": {
+      "title": "Oranżeria",
+      "narration": "Przecierasz brudną szybę i zaglądasz do środka. Rośliny wewnątrz... poruszają się, choć nie ma wiatru. To nie są zwykłe kwiaty; ich pnącza wiją się jak węże, a pąki przypominają małe usta. W centrum oranżerii stoi posąg kobiety, która wydaje się patrzeć prosto na ciebie. Nagle jedno z pnączy rozbija szybę i chwyta cię za rękę!",
+      "choices": {
+        "choice-13": {
+          "text": "Próbować się wyrwać i uciec do drzwi służbowych"
+        },
+        "choice-14": {
+          "text": "Użyć zapalniczki, by odstraszyć roślinę"
+        }
+      }
+    },
+    "node-8": {
+      "title": "Pierwsze Piętro",
+      "narration": "Wchodzisz po skrzypiących schodach. Na górze znajduje się długi korytarz z wieloma drzwiami. Te, spod których widziałeś światło z ulicy, znajdują się na samym końcu. Słychać cichą melodię pozytywki dobiegającą z pokoju po prawej.",
+      "choices": {
+        "choice-15": {
+          "text": "Iść do pokoju ze światłem na końcu korytarza"
+        },
+        "choice-16": {
+          "text": "Sprawdzić pokój z muzyką"
+        }
+      }
+    },
+    "node-9": {
+      "title": "Biblioteka",
+      "narration": "Korytarz po lewej prowadzi cię do ogromnej biblioteki. Regały od podłogi do sufitu są wypełnione starymi księgami. W kominku żarzą się węgle, choć nikogo nie ma. Na stole leży otwarty dziennik. Czytasz ostatni wpis: 'Przyszli po mnie. Nie mogę się już ukrywać. Sekret jest w portrecie.'",
+      "choices": {
+        "choice-17": {
+          "text": "Obejrzeć portret nad kominkiem"
+        },
+        "choice-18": {
+          "text": "Przeczytać wcześniejsze strony dziennika"
+        }
+      }
+    },
+    "node-10": {
+      "title": "Jadalnia",
+      "narration": "Postać prowadzi cię do jadalni. Długi stół jest nakryty dla jednej osoby. 'Siadaj' - rozkazuje gospodarz. Zauważasz, że na talerzu nie ma jedzenia, lecz stare, pożółkłe zdjęcie... twoje. Zrobione wczoraj. 'Obserwowaliśmy cię' - mówi.",
+      "choices": {
+        "choice-19": {
+          "text": "Zażądać wyjaśnień"
+        },
+        "choice-20": {
+          "text": "Przewrócić stół i wywołać chaos"
+        }
+      }
+    },
+    "node-11": {
+      "title": "Ucieczka",
+      "narration": "Popychasz postać. W dotyku jest twarda jak drewno i zimna. Postać nie upada, ale udaje ci się przemknąć obok. Biegniesz z powrotem do bramy, ale ta się zatrzasnęła. Kraty są zbyt wysokie, by się wspiąć. Słyszysz za sobą ciężkie kroki.",
+      "choices": {
+        "choice-21": {
+          "text": "Schować się w krzakach"
+        },
+        "choice-22": {
+          "text": "Biec do oranżerii"
+        }
+      }
+    },
+    "node-12": {
+      "title": "Spiżarnia",
+      "narration": "Wciskasz się do wąskiej spiżarni pachnącej stęchlizną. Przez szparę w drzwiach widzisz, jak do kuchni wchodzi kobieta w stroju pokojówki z epoki wiktoriańskiej. Nuci upiorną kołysankę. Bierze jabłko, a jej twarz się zmienia - szczęka opada nienaturalnie nisko, odsłaniając rzędy ostrych zębów.",
+      "choices": {
+        "choice-23": {
+          "text": "Wstrzymać oddech i mieć nadzieję, że odejdzie"
+        },
+        "choice-24": {
+          "text": "Wyskoczyć i zaatakować, póki jest rozproszona"
+        }
+      }
+    },
+    "node-13": {
+      "title": "Uzbrojony",
+      "narration": "Ściskając zardzewiały nóż, skradasz się w stronę dźwięku. Prowadzi cię on do korytarza dla służby. Przed sobą widzisz światło wydobywające się spod drzwi. Głosy kłócą się w środku. 'On nie przyjdzie' - mówi jeden. 'Musi przyjść' - odpowiada drugi. - 'Rytuał wymaga jego krwi.'",
+      "choices": {
+        "choice-25": {
+          "text": "Wtargnąć do pokoju"
+        },
+        "choice-26": {
+          "text": "Podsłuchiwać dalej"
+        }
+      }
+    },
+    "node-14": {
+      "title": "Ogień",
+      "narration": "Pstrykasz zapalniczką. Płomień wybucha, a roślina cofa się z piskiem. Ogień przenosi się na suche liście obok. Cała oranżeria zaczyna wypełniać się dymem. Drzwi do domu otwierają się i ktoś wybiega, kaszląc.",
+      "choices": {
+        "choice-27": {
+          "text": "Wykorzystać zamieszanie i wejść do domu"
+        },
+        "choice-28": {
+          "text": "Pomóc tej osobie wyjść"
+        }
+      }
+    },
+    "node-15": {
+      "title": "Pokój Pana",
+      "narration": "Docierasz do końca korytarza i popychasz drzwi. Pokój jest oświetlony świecami. Na środku stoi starzec. 'Czekałem na ciebie, Anton' - mówi (choć nie tak masz na imię, a może...?). 'Nadszedł czas, by spłacić dług.'",
+      "choices": {
+        "choice-29": {
+          "text": "Powiedzieć, że się myli"
+        },
+        "choice-30": {
+          "text": "Zapytać, o jaki dług chodzi"
+        }
+      }
+    },
+    "node-16": {
+      "title": "Dziecięcy Pokój",
+      "narration": "Źródłem muzyki jest stary pokój dziecięcy. Na środku stoi kołyska, która sama się kołysze. Pozytywka na półce gra 'Baa, Baa, Black Sheep', ale w tonacji molowej. Podchodzisz do kołyski i zaglądasz do środka. Jest pusta, tylko lustro leży na dnie.",
+      "choices": {
+        "choice-31": {
+          "text": "Wziąć lustro"
+        },
+        "choice-32": {
+          "text": "Zatrzymać kołyskę"
+        }
+      }
+    },
+    "node-17": {
+      "title": "Rozmowa z Umarłymi",
+      "narration": "Przyciskasz dłonie do ściany i mówisz bezpośrednio do obecności za nią. 'Samuel? Jeśli tak masz na imię, chcę zrozumieć, co ci się stało.' Drapanie ustaje. Cisza. Potem głos, młody i zdesperowany, dobiega przez drewno jakby z dużej odległości: 'On ją zabił. Powiedział, że to dla jej dobra, ale zabijał ją powoli. Mnie też zabijał powoli. Kazał mi patrzeć, jak umieram kawałek po kawałku.' Twój głos drży, gdy pytasz: 'Czego chcesz?' Odpowiedź przychodzi natychmiast: 'Chcę, żeby poczuł to, co ja. Każdą chwilę. Każdy dzień. Aż zrozumie, że śmierć to łaska.' Uświadamiasz sobie z przerażającą pewnością, że Samuel nie jest w pułapce. On ma kontrolę. Cały dom jest teraz jego: przedłużeniem jego woli, jego bólu, jego pragnienia kary. 'Przyprowadź mi kogoś' - szepcze Samuel. - 'Przyprowadź kogoś nowego. Kogoś, w kim siła życiowa płonie jasno. Jeśli to zrobisz, on cię wypuści. Będziesz wolny.' Twoje ręce opadają ze ściany. Zaproponowano ci układ. Zdradzić kogoś innego lub zostać uwięzionym samemu.",
+      "choices": {
+        "choice-33": {
+          "text": "Odrzucić układ i szukać innej drogi ucieczki"
+        },
+        "choice-34": {
+          "text": "Przyjąć warunki Samuela i szukać ofiary"
+        }
+      }
+    },
+    "node-18": {
+      "title": "Tajne Przejście",
+      "narration": "Kartkujesz dziennik wstecz. Strony są wypełnione szalonymi rysunkami oczu i drzwi. Jeden wpis przykuwa uwagę: 'Za kominkiem jest przejście. Trzeba nacisnąć pękniętą cegłę.' Patrzysz na kominek.",
+      "choices": {
+        "choice-35": {
+          "text": "Szukać cegły"
+        },
+        "choice-36": {
+          "text": "Zignorować i szukać innego wyjścia z biblioteki"
+        }
+      }
+    },
+    "node-19": {
+      "title": "Prawda",
+      "narration": "Gospodarz śmieje się suchym, trzeszczącym dźwiękiem. 'Wyjaśnienia? Nie jesteś tu po to, by zadawać pytania. Jesteś tu, by stać się częścią kolekcji.' Ściany zaczynają się przesuwać, odsłaniając wnęki z zabalsamowanymi ciałami poprzednich gości.",
+      "choices": {
+        "choice-37": {
+          "text": "Walczyć o życie"
+        },
+        "choice-38": {
+          "text": "Błagać o litość"
+        }
+      }
+    },
+    "node-20": {
+      "title": "Chaos",
+      "narration": "Z siłą przewracasz ciężki dębowy stół. Zastawa leci na podłogę z ogłuszającym brzękiem. Gospodarz syczy jak wściekły kot i cofa się w cień. 'Głupiec! Rozbiłeś urnę!' - krzyczy. Z odłamków rozbitej wazy unosi się szary dym.",
+      "choices": {
+        "choice-39": {
+          "text": "Biec do wyjścia, póki jest rozproszony"
+        },
+        "choice-40": {
+          "text": "Zaatakować gospodarza"
+        }
+      }
+    },
+    "node-21": {
+      "title": "Ogrodowy Labirynt",
+      "narration": "Krzewy okazują się być częścią starego labiryntu. Nurkujesz w głąb, gałęzie drapią ci twarz. Kroki za tobą stają się głośniejsze, a potem cichną. Zgubiłeś się. Dookoła tylko wysokie żywopłoty.",
+      "choices": {
+        "choice-41": {
+          "text": "Iść zgodnie z zasadą prawej ręki"
+        },
+        "choice-42": {
+          "text": "Próbować przedrzeć się przez żywopłot"
+        }
+      }
+    },
+    "node-22": {
+      "title": "Duch Oranżerii",
+      "narration": "Dobiegasz do oranżerii, ale drzwi są zamknięte. Wewnątrz widzisz postać dziewczyny, która wali pięściami w szybę. 'Nie wchodź!' - krzyczy bezgłośnie. Ale kroki prześladowcy są już bardzo blisko.",
+      "choices": {
+        "choice-43": {
+          "text": "Rozbić szybę i wejść"
+        },
+        "choice-44": {
+          "text": "Schować się za oranżerią"
+        }
+      }
+    },
+    "node-23": {
+      "title": "Odkrycie",
+      "narration": "Pokojówka odchodzi, mrucząc coś o 'świeżym mięsie'. Wypuszczasz powietrze. Teraz droga do kuchni jest wolna, ale drzwi, którymi wyszła, prowadzą do piwnicy.",
+      "choices": {
+        "choice-45": {
+          "text": "Zbadac piwnicę"
+        },
+        "choice-46": {
+          "text": "Wyjść przez kuchnię do domu"
+        }
+      }
+    },
+    "node-24": {
+      "title": "Starcie",
+      "narration": "Wyskakujesz z krzykiem. Stworzenie piszczy nieludzkim głosem i rzuca się na ciebie. Udaje ci się uderzyć je czymś ciężkim, a ono rozsypuje się w proch. Ale hałas z pewnością przyciągnął uwagę.",
+      "choices": {
+        "choice-47": {
+          "text": "Uciekać"
+        },
+        "choice-48": {
+          "text": "Zabarykadować się"
+        }
+      }
+    },
+    "node-25": {
+      "title": "Rytuał",
+      "narration": "Wpadasz do pokoju. Pięć zakapturzonych postaci stoi wokół pentagramu. Odwracają głowy w twoją stronę. 'Ochotnik' - mówi przywódca. - 'Jak miło.'",
+      "choices": {
+        "choice-49": {
+          "text": "Próbować przerwać rytuał"
+        },
+        "choice-50": {
+          "text": "Poddac się"
+        }
+      }
+    },
+    "node-26": {
+      "title": "Tajemna Wiedza",
+      "narration": "Słuchasz. Mówią o tym, że dom żywi się strachem. Jedynym sposobem na pokonanie go jest brak strachu. 'Jeśli on się zaśmieje, czar pryśnie' - mówi głos.",
+      "choices": {
+        "choice-51": {
+          "text": "Wejść i opowiedzieć żart"
+        },
+        "choice-52": {
+          "text": "Wykorzystać tę wiedzę później"
+        }
+      }
+    },
+    "node-27": {
+      "title": "W Domu",
+      "narration": "Wykorzystując panikę, przemykasz przez otwarte drzwi. Znajdujesz się w korytarzu z portretami, których oczy cię śledzą.",
+      "choices": {
+        "choice-53": {
+          "text": "Biec w głąb domu"
+        },
+        "choice-54": {
+          "text": "Schować się za zasłoną"
+        }
+      }
+    },
+    "node-28": {
+      "title": "Ratunek",
+      "narration": "Chwytasz człowieka za rękę i wyciągasz go. To młody chłopak, śmiertelnie przerażony. 'Dzięki' - chrypi. - 'Wiem, gdzie jest wyjście. Tajny tunel.'",
+      "choices": {
+        "choice-55": {
+          "text": "Zaufać mu"
+        },
+        "choice-56": {
+          "text": "Nie ufać i iść samemu"
+        }
+      }
+    },
+    "node-29": {
+      "title": "Rozwiązanie",
+      "narration": "Zdecydowanie odrzucasz układ. 'Nie stanę się taki jak on. I nie będę twoją marionetką.' Samuel krzyczy z wściekłości, ściany drżą. 'WIĘC ZOSTAŃ TU NA ZAWSZE!' Podłoga pod tobą zapada się.",
+      "choices": {
+        "choice-57": {
+          "text": "Próbować chwycić się krawędzi"
+        },
+        "choice-58": {
+          "text": "Zaakceptować upadek"
+        }
+      }
+    },
+    "node-30": {
+      "title": "Nowy Pan",
+      "narration": "Zgadzasz się. 'Mądry wybór' - szepcze Samuel. Drzwi się otwierają. W korytarzu stoi ten sam chłopak, którego uratowałeś z oranżerii (lub mogłeś uratować). Patrzy na ciebie z nadzieją. Zaciskasz rękę na rękojeści noża w kieszeni...",
+      "choices": {
+        "choice-59": {
+          "text": "Wypełnić swoją część umowy"
+        },
+        "choice-60": {
+          "text": "W ostatniej chwili zmienić zdanie i zaatakować 'obecność'"
+        }
+      }
+    },
+    "node-31": {
+      "title": "Lustro",
+      "narration": "Bierzesz lustro. W odbiciu nie widzisz siebie, lecz ducha stojącego za twoim ramieniem. Uśmiecha się i przykłada palec do ust.",
+      "choices": {
+        "choice-61": {
+          "text": "Rozbić lustro"
+        },
+        "choice-62": {
+          "text": "Zapytać, kim jest"
+        }
+      }
+    },
+    "node-32": {
+      "title": "Kołyska",
+      "narration": "Zatrzymujesz kołyskę ręką. Muzyka gwałtownie cichnie. Cisza naciska na uszy. Nagle kołyska zaczyna trząść się z dziką siłą, a płacz dziecka, głośny i przenikliwy, rozdziera powietrze.",
+      "choices": {
+        "choice-63": {
+          "text": "Uciec z pokoju"
+        },
+        "choice-64": {
+          "text": "Próbować uspokoić 'dziecko'"
+        }
+      }
+    }
+  },
+  "endings": {
+    "ending-1": {
+      "title": "Wieczny Gość",
+      "narration": "Nie udało ci się uciec. Dom pochłonął cię, jak wielu innych. Teraz jesteś częścią kolekcji, kolejnym duchem błąkającym się po korytarzach i straszącym nowych gości. Może następnym razem będziesz miał więcej szczęścia... ale dla ciebie nie będzie następnego razu."
+    },
+    "ending-2": {
+      "title": "Wolność... czy nie?",
+      "narration": "Wybiegasz za bramę, płuca płoną od zimnego powietrza. Nie zatrzymujesz się, dopóki nie dobiegasz do miasta. Jesteś uratowany. Ale każdej nocy śni ci się ten dom. I czasem, patrząc w lustro, widzisz za swoim ramieniem cień z oczami jak węgle. Opuściłeś Dom o Północy, ale czy on opuścił ciebie?"
+    },
+    "ending-3": {
+      "title": "Dziedzic",
+      "narration": "Wykonałeś rytuał. Złożyłeś ofiarę. Dom cię przyjął. Teraz jesteś nowym Panem. Moc płynie w twoich żyłach, starożytna i mroczna. Patrzysz przez okno na przybywających nowych gości. 'Witajcie' - szepczesz z uśmiechem. Kolacja podana."
+    },
+    "ending-4": {
+      "title": "Niszczyciel Klątwy",
+      "narration": "Twoja odwaga (lub głupota) złamała czar. Śmiech, brak strachu, a może ogień - coś zadziałało. Dom zaczął się walić, cegła po cegle, rozpływając się w porannej mgle. Stoisz na pustym polu, gdzie przed chwilą była posiadłość. To koniec. Klątwa zdjęta."
+    },
+    "ending-5": {
+      "title": "Zapomniany",
+      "narration": "Schowałeś się zbyt dobrze. Nikt cię nie znalazł. Nikt po ciebie nie przyszedł. Zostałeś w ciemności, czekając na ratunek, który nigdy nie nadszedł. Z czasem zapomniałeś swojego imienia. Zapomniałeś, jak wygląda słońce. Stałeś się po prostu kolejnym cieniem w kącie."
+    },
+    "ending-6": {
+      "title": "Pakt z Diabłem",
+      "narration": "Zawarłeś układ z Samuelem. Jesteś wolny, bogaty i odnosisz sukcesy. Ale cena była wysoka. W każdym cieniu widzisz twarze tych, których zdradziłeś. I wiesz, że gdy wybije twoja godzina, Samuel przyjdzie po dług. A odsetki będą straszne."
+    }
+  }
+}

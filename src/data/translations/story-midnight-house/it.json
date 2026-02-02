@@ -1,0 +1,416 @@
+{
+  "title": "La Casa di Mezzanotte",
+  "description": "Un nuovo lavoro come custode residente in una tenuta isolata si trasforma in orrore quando scopri gli oscuri segreti della casa. Ogni decisione determina se ne uscirai vivo.",
+  "nodes": {
+    "node-1": {
+      "title": "L'Offerta di Lavoro",
+      "narration": "La tenuta si estende su dieci acri di bosco incolto. Sei arrivato questa mattina come nuovo custode residente, assunto senza colloquio da un anziano di nome signor Ashford che ti ha a malapena guardato. La villa si erge davanti a te con la sua architettura vittoriana, la vernice scrostata e le finestre scure come occhi che ti fissano. La tua chiave tintinna nella serratura. L'aria all'interno odora di polvere, vecchio legno e qualcosa di più dolce, più putrido. Nell'atrio, un biglietto sul tavolo dice: 'La cena è alle sette. Non lasciare la tua stanza dopo il tramonto. Ashford.' Sono solo le 15:00. Il tuo telefono non ha segnale. Fuori, il sole inizia a scendere tra gli alberi.",
+      "choices": {
+        "choice-1": {
+          "text": "Esplorare la villa immediatamente in cerca di risposte"
+        },
+        "choice-2": {
+          "text": "Rimanere nella tua stanza e aspettare il signor Ashford"
+        }
+      }
+    },
+    "node-2": {
+      "title": "La Biblioteca",
+      "narration": "Decidi di dare un'occhiata in giro. Il piano terra è un labirinto di corridoi in ombra. Trovi una biblioteca, le pareti rivestite di libri rilegati in pelle. Un libro è aperto su una scrivania: 'Storia dell'Occulto nel New England'. A margine, scarabocchiato con una calligrafia che sembra quella di Ashford: 'Il ricettacolo deve essere pronto entro mezzanotte'. Il pavimento scricchiola sopra di te. Qualcuno sta camminando al piano di sopra, anche se Ashford ha detto che sarebbe stato nel suo studio nell'ala est. Il suono è pesante, trascinato, non sembrano passi umani.",
+      "choices": {
+        "choice-3": {
+          "text": "Salire per investigare il rumore"
+        },
+        "choice-4": {
+          "text": "Nascondersi nella biblioteca e osservare"
+        }
+      }
+    },
+    "node-3": {
+      "title": "L'Attesa",
+      "narration": "Segui le istruzioni e rimani nella tua stanza. È spartana: un letto, una sedia, un armadio. Mentre il crepuscolo scende, senti dei graffi all'interno delle pareti. Non topi. Qualcosa di più grande. È ritmico. Graffio. Pausa. Graffio. Pausa. Poi un sussurro proprio dietro la testiera del letto: 'Ne ha portato un altro'. Ti alzi di scatto. Le pareti sono solide. Il sussurro continua: 'Non mangiare la cena. La carne... siamo noi'.",
+      "choices": {
+        "choice-5": {
+          "text": "Ispezionare le pareti in cerca di passaggi segreti"
+        },
+        "choice-6": {
+          "text": "Fuggire dalla stanza e lasciare la casa"
+        }
+      }
+    },
+    "node-4": {
+      "title": "L'Orrore Strisciante",
+      "narration": "Sali le scale strisciando. Il suono di trascinamento diventa più forte, accompagnato da un respiro umido e rantolante. In fondo al corridoio, vedi una figura. Non è Ashford. È umanoide, ma gli arti sono troppo lunghi, le articolazioni piegate all'indietro. Indossa stracci di abiti vittoriani. Non ti vede. Sta trascinando un grande sacco che lascia una scia bagnata sul tappeto. Scompare in una stanza a sinistra.",
+      "choices": {
+        "choice-7": {
+          "text": "Seguire la creatura silenziosamente"
+        },
+        "choice-8": {
+          "text": "Ritirarsi al piano terra e cercare un'arma"
+        }
+      }
+    },
+    "node-5": {
+      "title": "L'Osservatore Nascosto",
+      "narration": "Ti nascondi dietro una pesante poltrona di velluto. La porta della biblioteca si apre con un cigolio. Entra il signor Ashford. In mano ha una mannaia da macellaio. Sembra più giovane di questa mattina. La sua pelle è rosea, i suoi movimenti fluidi. Va alla scrivania, chiude il libro e parla alla stanza vuota: 'So che sei qui, nuovo custode. La casa sente il tuo odore di paura'.",
+      "choices": {
+        "choice-9": {
+          "text": "Rivelarti e provare a negoziare"
+        },
+        "choice-10": {
+          "text": "Provare a sgattaiolare oltre lui verso la porta"
+        }
+      }
+    },
+    "node-6": {
+      "title": "La Voce nel Muro",
+      "narration": "Batti sulle pareti. Un pannello suona vuoto. Lo tiri con le unghie e si apre con uno scatto, rivelando uno stretto passaggio tra i muri. L'aria qui è stantia. Il sussurro diventa più forte: 'Di qua. Presto. Prima che l'orologio batta le sei'.",
+      "choices": {
+        "choice-11": {
+          "text": "Entrare nel passaggio"
+        },
+        "choice-12": {
+          "text": "Ignorare la voce e barricare la porta"
+        }
+      }
+    },
+    "node-7": {
+      "title": "Tentativo di Fuga",
+      "narration": "Spalanchi la porta. Il corridoio è vuoto, ma tutte le porte sono ora aperte. Un debole bagliore verdastro emana da ciascuna. Corri verso le scale. La porta d'ingresso è in basso. Sembra lontana chilometri. Le scale iniziano ad allungarsi, i gradini si stirano come caramella mou. La casa non vuole lasciarti andare.",
+      "choices": {
+        "choice-13": {
+          "text": "Saltare oltre la ringhiera al piano di sotto"
+        },
+        "choice-14": {
+          "text": "Cercare di mantenere l'equilibrio e scendere correndo"
+        }
+      }
+    },
+    "node-8": {
+      "title": "La Stanza del Sacrificio",
+      "narration": "Sbrici nella stanza. La creatura sta svuotando il contenuto del sacco al centro di un pentacolo dipinto sul pavimento. Sono ossa. Ossa umane. Inizia a cantilenare in una lingua che ti fa dolere i denti. La stanza pulsa di energia oscura. Nell'angolo, vedi una botola socchiusa di qualche centimetro.",
+      "choices": {
+        "choice-15": {
+          "text": "Strisciare verso la botola"
+        },
+        "choice-16": {
+          "text": "Attaccare la creatura mentre è distratta"
+        }
+      }
+    },
+    "node-9": {
+      "title": "La Cucina",
+      "narration": "Torni silenziosamente di sotto. La cucina è accanto alla biblioteca. Afferri il coltello più grande che riesci a trovare. Sul bancone, la cena è in preparazione: carne cruda che si contrae da sola. La radio si accende, suonando jazz degli anni '20. L'elettricità statica interrompe la musica: 'Non mangiare la carne', dice la tua stessa voce dalla radio.",
+      "choices": {
+        "choice-17": {
+          "text": "Rompere la radio e scappare"
+        },
+        "choice-18": {
+          "text": "Cercare le chiavi della porta sul retro in cucina"
+        }
+      }
+    },
+    "node-10": {
+      "title": "Confronto",
+      "narration": "Esci con le mani alzate. 'Signor Ashford, me ne vado.' Lui ride, un suono come vetro che si rompe. 'Nessuno se ne va. Il contratto è sigillato col sangue. Il tuo sangue.' Si lancia all'attacco. È innaturalmente veloce.",
+      "choices": {
+        "choice-19": {
+          "text": "Schivare a sinistra e spingerlo"
+        },
+        "choice-20": {
+          "text": "Afferrare una lampada pesante per difendersi"
+        }
+      }
+    },
+    "node-11": {
+      "title": "Furtività",
+      "narration": "Strisci verso la porta. Ashford ti dà le spalle, canticchiando. Ci sei quasi. Un'asse del pavimento urla sotto il tuo peso come un animale ferito. Ashford si blocca. 'Topi', sussurra. 'O ratti?' Si gira lentamente.",
+      "choices": {
+        "choice-21": {
+          "text": "Scattare verso la porta"
+        },
+        "choice-22": {
+          "text": "Immobilizzarsi e sperare che non ti veda nell'ombra"
+        }
+      }
+    },
+    "node-12": {
+      "title": "I Tunnel",
+      "narration": "Ti strizzi nel passaggio. È stretto, pieno di ragnatele. La voce ti guida: 'Giù. In cantina. Il cuore della casa è lì.' Attraverso le fessure nel legno, vedi Ashford entrare nella tua stanza con un'ascia. Colpisce il tuo letto, pensando che tu stia dormendo.",
+      "choices": {
+        "choice-23": {
+          "text": "Scendere in cantina"
+        },
+        "choice-24": {
+          "text": "Cercare un'uscita verso l'esterno attraverso i muri"
+        }
+      }
+    },
+    "node-13": {
+      "title": "Barricata",
+      "narration": "Spingi l'armadio contro la porta. I colpi dall'altra parte scuotono la stanza. 'Apri, porcellino!' urla la voce di Ashford, ma è distorta, demoniaca. La porta inizia a creparsi. La finestra è inchiodata dall'esterno.",
+      "choices": {
+        "choice-25": {
+          "text": "Provare a staccare le assi dalla finestra"
+        },
+        "choice-26": {
+          "text": "Prepararsi a combattere con la sedia"
+        }
+      }
+    },
+    "node-14": {
+      "title": "Il Salto",
+      "narration": "Salti. È una lunga caduta. Atterri sul tappeto dell'atrio, storcendoti una caviglia. Il dolore è accecante. La porta d'ingresso è proprio lì. Ti trascini verso di essa. La maniglia è gelida. Non gira. Non c'è buco della serratura.",
+      "choices": {
+        "choice-27": {
+          "text": "Sparare alla serratura (se hai un'arma) o rompere il vetro"
+        },
+        "choice-28": {
+          "text": "Nascondersi nell'armadio dell'atrio"
+        }
+      }
+    },
+    "node-15": {
+      "title": "La Scala Infinita",
+      "narration": "Corri, ma i gradini si muovono verso l'alto alla stessa velocità. Corri sul posto. Dall'alto, la creatura del corridoio si sporge dalla ringhiera, la sua bava gocciola vicino a te. Sorride, rivelando file di denti come aghi.",
+      "choices": {
+        "choice-29": {
+          "text": "Arrendersi e lasciare che ti prenda"
+        },
+        "choice-30": {
+          "text": "Saltare oltre la ringhiera in un tentativo disperato"
+        }
+      }
+    },
+    "node-16": {
+      "title": "La Botola",
+      "narration": "Scivoli nella botola. È uno scivolo. Cadi nell'oscurità, atterrando su un mucchio di qualcosa di morbido. Vestiti marci. Sei in cantina. Al centro della stanza, un cuore gigante fatto di carne e tubi batte, sospeso al soffitto. Pompa un fluido nero in tubature che portano ai piani superiori.",
+      "choices": {
+        "choice-31": {
+          "text": "Distruggere il cuore"
+        },
+        "choice-32": {
+          "text": "Cercare un'altra uscita"
+        }
+      }
+    },
+    "node-17": {
+      "title": "Parlare con i Morti",
+      "narration": "Premi le mani contro il muro e parli direttamente alla presenza dietro di esso. 'Samuel? Se è questo il tuo nome, voglio capire cosa ti è successo.' I graffi si fermano. Silenzio. Poi una voce, giovane e disperata, arriva attraverso il legno come da una grande distanza: 'Lui l'ha uccisa. Ha detto che era per il suo bene, ma l'ha uccisa lentamente. Ha ucciso me lentamente. Mi ha fatto guardare mentre morivo pezzo per pezzo.' La tua voce trema quando chiedi: 'Cosa vuoi?' La risposta arriva immediatamente: 'Voglio che lui senta quello che ho sentito io. Ogni momento. Ogni giorno. Finché non capirà che la morte è misericordia.' Realizzi con una certezza sprofondante che Samuel non è in trappola. Lui ha il controllo. L'intera casa è sua ora: un'estensione della sua volontà, del suo dolore, del suo bisogno di punizione. 'Portami qualcuno,' sussurra Samuel. 'Portami qualcuno nuovo. Qualcuno in cui la forza vitale bruci luminosa. Se lo fai, lui ti lascerà andare. Puoi avere la libertà.' Le tue mani cadono dal muro. Ti è stato offerto un patto. Tradire qualcun altro o rimanere in trappola tu stesso.",
+      "choices": {
+        "choice-33": {
+          "text": "Rifiutare il patto e pianificare un'altra via di fuga"
+        },
+        "choice-34": {
+          "text": "Accettare i termini di Samuel mentre cerchi vittime"
+        }
+      }
+    },
+    "node-18": {
+      "title": "Fuga Disperata",
+      "narration": "Ti lanci verso la porta, ignorando il dolore alla gamba. Ashford appare in cima alle scale, il viso contorto dalla rabbia. 'Ingrato!' ruggisce. Lancia l'ascia. Vola ruotando verso la tua testa.",
+      "choices": {
+        "choice-35": {
+          "text": "Abbassarsi"
+        },
+        "choice-36": {
+          "text": "Provare a prenderla (folle)"
+        }
+      }
+    },
+    "node-19": {
+      "title": "Il Cuore della Casa",
+      "narration": "Trovi un pezzo di metallo affilato sul pavimento. Ti avvicini al cuore. Batte più forte, percependo la minaccia. La casa trema. L'intonaco cade dal soffitto. Conficchi il metallo nell'organo. Un urlo echeggia, non umano, ma dell'edificio stesso.",
+      "choices": {
+        "choice-37": {
+          "text": "Continuare a pugnalare"
+        },
+        "choice-38": {
+          "text": "Scappare mentre la casa muore"
+        }
+      }
+    },
+    "node-20": {
+      "title": "Il Rituale",
+      "narration": "Trovi un libro di incantesimi vicino al cuore. C'è un rituale di esilio. Richiede un sacrificio. 'Carne della carne', dice. Guardi la tua mano.",
+      "choices": {
+        "choice-39": {
+          "text": "Sacrificare un dito per completare il rituale"
+        },
+        "choice-40": {
+          "text": "Rifiutare e cercare un'altra via"
+        }
+      }
+    },
+    "node-21": {
+      "title": "Le Chiavi",
+      "narration": "Frughi nei cassetti. Trovi una chiave arrugginita con l'etichetta 'Cantina'. C'è anche un fucile sotto il bancone con due cartucce.",
+      "choices": {
+        "choice-41": {
+          "text": "Prendere il fucile e andare di sopra ad affrontare Ashford"
+        },
+        "choice-42": {
+          "text": "Prendere la chiave e andare in cantina"
+        }
+      }
+    },
+    "node-22": {
+      "title": "Il Vetro",
+      "narration": "Rompi il vetro accanto alla porta. Fuori, la notte è un muro nero solido. Non si vede nulla. Allunghi la mano per aprire la porta dall'interno. Qualcosa di freddo ti afferra il polso.",
+      "choices": {
+        "choice-43": {
+          "text": "Tirare indietro il braccio"
+        },
+        "choice-44": {
+          "text": "Sparare nell'oscurità"
+        }
+      }
+    },
+    "node-23": {
+      "title": "L'Armadio",
+      "narration": "Ti nascondi tra i cappotti. Odorano di naftalina e vecchio sudore. I passi di Ashford passano oltre. Canticchia una ninna nanna. Si ferma proprio davanti all'armadio. 'Sento il tuo cuore battere', sussurra.",
+      "choices": {
+        "choice-45": {
+          "text": "Irrompere fuori e attaccare"
+        },
+        "choice-46": {
+          "text": "Trattenere il respiro e pregare"
+        }
+      }
+    },
+    "node-24": {
+      "title": "La Lotta",
+      "narration": "Schivi il suo colpo. È forte, innaturalmente forte. Lo spingi e lui sbatte contro il muro, ma rimbalza all'istante. I suoi occhi sono completamente neri. 'Lei mi ha promesso l'eternità!' urla.",
+      "choices": {
+        "choice-47": {
+          "text": "Usare la lampada per colpirlo in testa"
+        },
+        "choice-48": {
+          "text": "Scappare verso la finestra"
+        }
+      }
+    },
+    "node-25": {
+      "title": "La Finestra",
+      "narration": "Strappi via le assi. Il vetro si rompe. Ti arrampichi sul tetto del portico. L'aria fredda della notte ti colpisce il viso. La foresta davanti sembra infinita, ma è una via d'uscita.",
+      "choices": {
+        "choice-49": {
+          "text": "Saltare giù e correre nella foresta"
+        },
+        "choice-50": {
+          "text": "Arrampicarsi sul tetto per nascondersi"
+        }
+      }
+    },
+    "node-26": {
+      "title": "La Morte di Ashford",
+      "narration": "Lo colpisci con la lampada. Il cranio scricchiola. Cade. Ma non muore. Il suo corpo inizia a convellere e cambiare. Le ossa si rompono e si riorganizzano. Sta diventando qualcos'altro.",
+      "choices": {
+        "choice-51": {
+          "text": "Finirlo mentre si trasforma"
+        },
+        "choice-52": {
+          "text": "Scappare mentre è inabile"
+        }
+      }
+    },
+    "node-27": {
+      "title": "La Foresta",
+      "narration": "Corri tra gli alberi. I rami ti graffiano il viso. Senti un ululato dietro di te. Non un lupo. È la casa che urla per aver perso la sua preda. Vedi le luci di una strada più avanti.",
+      "choices": {
+        "choice-53": {
+          "text": "Correre verso la strada"
+        },
+        "choice-54": {
+          "text": "Nascondersi in un fosso e aspettare un'auto"
+        }
+      }
+    },
+    "node-28": {
+      "title": "Il Tetto",
+      "narration": "Ti arrampichi fino al colmo del tetto. Da qui vedi l'intera tenuta. È viva. Il terreno pulsa. Gli alberi sono dita che cercano di afferrare il cielo. Ashford (o ciò che è diventato) sta uscendo dalla finestra sotto.",
+      "choices": {
+        "choice-55": {
+          "text": "Lanciargli delle tegole"
+        },
+        "choice-56": {
+          "text": "Provare a saltare sull'albero più vicino"
+        }
+      }
+    },
+    "node-29": {
+      "title": "La Cantina",
+      "narration": "Trovi il cuore. È enorme, riempie la stanza. Capisci che Ashford era solo una marionetta. La casa è il vero mostro. E ha fame.",
+      "choices": {
+        "choice-57": {
+          "text": "Dare fuoco alla cantina"
+        },
+        "choice-58": {
+          "text": "Provare a comunicare con la casa"
+        }
+      }
+    },
+    "node-30": {
+      "title": "Il Fuoco",
+      "narration": "Il fuoco si diffonde velocemente. Il legno antico si accende come carta. L'urlo della casa è assordante. Corri su per le scale, attraverso il fumo. La porta d'ingresso si sta sciogliendo.",
+      "choices": {
+        "choice-59": {
+          "text": "Sfondare la porta"
+        },
+        "choice-60": {
+          "text": "Trovare una finestra al piano terra"
+        }
+      }
+    },
+    "node-31": {
+      "title": "L'Autostrada",
+      "narration": "Inciampi sull'asfalto. I fari ti accecano. Un camion suona il clacson e frena bruscamente. L'autista ti guarda con gli occhi spalancati. Sei coperto di sangue, i vestiti strappati. 'Aiuto', riesci a dire.",
+      "choices": {
+        "choice-61": {
+          "text": "Salire sul camion"
+        },
+        "choice-62": {
+          "text": "Chiedere di chiamare la polizia"
+        }
+      }
+    },
+    "node-32": {
+      "title": "La Scelta Finale",
+      "narration": "La casa crolla dietro di te. Ashford è morto. Samuel è libero, ma a quale prezzo? Ti trovi tra le ceneri mentre sorge il sole. L'incubo è finito, ma le cicatrici rimarranno per sempre.",
+      "choices": {
+        "choice-63": {
+          "text": "Andarsene e non guardarsi mai indietro"
+        },
+        "choice-64": {
+          "text": "Cercare resti per seppellirli degnamente"
+        }
+      }
+    }
+  },
+  "endings": {
+    "ending-1": {
+      "title": "Il Sacrificio",
+      "narration": "Hai scelto di cedere alle richieste di Samuel. Il tuo corpo rimane intrappolato nella casa, ma la tua anima è liberata dai tormenti del passato. La gente del posto parla ancora del custode scomparso senza lasciare traccia."
+    },
+    "ending-2": {
+      "title": "Il Posseduto",
+      "narration": "Non sei riuscito a scappare. La casa ti ha consumato. Ora sei il nuovo Ashford, in attesa del prossimo custode per continuare il ciclo. Sei diventato parte della fame."
+    },
+    "ending-3": {
+      "title": "Il Sopravvissuto",
+      "narration": "Ce l'hai fatta. La polizia ha trovato solo rovine dopo l'incendio. Non ti hanno creduto, ma non importa. Sei vivo. Ma ogni notte alle 3 del mattino, ti svegli con l'odore di fumo e vecchio legno."
+    },
+    "ending-4": {
+      "title": "Il Nuovo Padrone",
+      "narration": "Hai ucciso Ashford e preso il suo posto. Il potere della casa è tuo ora. Lo senti scorrere nelle vene. È inebriante. Perché andarsene quando puoi essere un dio?"
+    },
+    "ending-5": {
+      "title": "Lo Spezzato",
+      "narration": "Sei scappato, ma la tua mente è rimasta lì. Passi i tuoi giorni in un manicomio, urlando di cuori che battono e muri che sussurrano. Nessuno ascolta. Ma a volte, i dottori trovano schegge di legno sotto le tue unghie."
+    },
+    "ending-6": {
+      "title": "Il Liberatore",
+      "narration": "Hai bruciato la casa fino alle fondamenta. La maledizione è spezzata. Le anime intrappolate sono libere. Mentre ti allontani, senti una brezza leggera, come un sussurro di gratitudine. Hai fatto ciò che nessun altro poteva fare."
+    }
+  }
+}

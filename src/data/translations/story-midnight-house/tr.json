@@ -1,0 +1,416 @@
+{
+  "title": "Gece Yarısı Evi",
+  "description": "Viktorya döneminden kalma bir köşk karanlık sırlar saklıyor. Gerçeği ortaya mı çıkaracaksınız yoksa bir başka hayalet mi olacaksınız?",
+  "nodes": {
+    "node-1": {
+      "title": "Varış",
+      "narration": "Gece Yarısı Evi'nin demir kapılarının önünde duruyorsunuz. Sis ayak bileklerinizin etrafında dönüyor, soğuk ve yapışkan. Mektupta yalnız gelmeniz, hava karardıktan sonra gelmeniz söyleniyordu. Titrek bir el yazısıyla yazılmış notta 'Geçen yaz ne yaptığını biliyorum' yazıyordu. 'Bunun bir sır olarak kalmasını istiyorsan Blackwood Malikanesi'ne gel.' Devasa ev karanlık gökyüzüne karşı yükseliyor, ikinci kattaki bir pencerede yalnız bir ışık titriyor. Kapı hafifçe aralık, sanki sizi içeri davet ediyor... ya da bir tuzağa çekiyor.",
+      "choices": {
+        "choice-1": {
+          "text": "Ana kapıdan gir ve ön kapıya yaklaş"
+        },
+        "choice-2": {
+          "text": "Başka bir giriş aramak için çevreyi dolaş"
+        }
+      }
+    },
+    "node-2": {
+      "title": "Ön Giriş",
+      "narration": "Siz araba yolunda yürürken çakıl taşları botlarınızın altında gıcırdıyor. Rüzgar yaşlı meşe ağaçlarının bükülmüş dalları arasında uğulduyor. Taş basamakları tırmanıp masif meşe kapıya ulaşıyorsunuz. Çörten şeklindeki kapı tokmağı boş gözlerle size bakıyor. Kapıyı çalmak için uzanıyorsunuz ama kapı gıcırdayarak kendiliğinden açılıyor ve karanlık bir giriş holünü ortaya çıkarıyor. Dışarıya eski kağıt ve solmuş çiçek kokusu yayılıyor.",
+      "choices": {
+        "choice-3": {
+          "text": "Giriş holüne gir ve ev sahibine seslen"
+        },
+        "choice-4": {
+          "text": "Verandada kal ve birinin görünmesini bekle"
+        }
+      }
+    },
+    "node-3": {
+      "title": "Bahçenin Gölgelerinde",
+      "narration": "Doğrudan ön kapıya gitmemeye karar veriyorsunuz. Bunun yerine uzun otların arasından evin yan tarafına doğru süzülüyorsunuz. Burası karanlık, ay ışığı kalın bulutların arasından zar zor sızıyor. Camları kırık ve kirli eski bir seraya rastlıyorsunuz. İçeride bitkilerin garip, doğal olmayan gölgeleri görünüyor. Yakınlarda, ana girişten daha az heybetli görünen bir hizmetçi kapısı var.",
+      "choices": {
+        "choice-5": {
+          "text": "Hizmetçi kapısını açmayı dene"
+        },
+        "choice-6": {
+          "text": "Seranın içine bak"
+        }
+      }
+    },
+    "node-4": {
+      "title": "Büyük Salon",
+      "narration": "İçeri giriyorsunuz. 'Kimse var mı?' Sesiniz yüksek duvarlarda yankılanıyor. Arkanızdaki kapı gürültüyle kapanıyor. Kolu çekiyorsunuz - kilitli. Kapana kısıldınız. Tek ışık, yukarıda zayıfça titreyen bir avizeden geliyor. Önünüzde yukarı çıkan geniş bir merdiven, sağda ve solda ise karanlık koridorlar var.",
+      "choices": {
+        "choice-7": {
+          "text": "Merdivenlerden ikinci kata çık"
+        },
+        "choice-8": {
+          "text": "Soldaki koridoru keşfet"
+        }
+      }
+    },
+    "node-5": {
+      "title": "Bekleyiş",
+      "narration": "Beklemeye karar veriyorsunuz. Dakikalar geçiyor ve saatler gibi hissettiriyor. Soğuk kemiklerinize işliyor. Aniden kulağınızın hemen dibinde bir fısıltı duyuyorsunuz: 'Neden bizi bekletiyorsun?' Hızla arkanızı dönüyorsunuz ama kimse yok. Kapıya tekrar baktığınızda, girişte duran koyu renk paltolu uzun bir figür görüyorsunuz. Figür, taşların sürtünmesine benzeyen bir sesle 'Geciktiniz,' diyor. 'Akşam yemeği servis edildi.'",
+      "choices": {
+        "choice-9": {
+          "text": "Figürü içeriye kadar takip et"
+        },
+        "choice-10": {
+          "text": "Figürü it ve kaçmaya çalış"
+        }
+      }
+    },
+    "node-6": {
+      "title": "Mutfak",
+      "narration": "Hizmetçi kapısı protesto eden bir iniltiyle açılıyor. Kendinizi geniş, terk edilmiş bir mutfakta buluyorsunuz. Bakır tencere sıraları ay ışığında zayıfça parlıyor. Büyük bir kesme masasının üzerinde taze kırmızı bir elma duruyor, toz ve örümcek ağlarının arasında garip bir şekilde yersiz görünüyor. Evin derinliklerinden hafif ayak sesleri geliyor.",
+      "choices": {
+        "choice-11": {
+          "text": "Kilerde saklan"
+        },
+        "choice-12": {
+          "text": "Masadan bir bıçak al ve sese doğru git"
+        }
+      }
+    },
+    "node-7": {
+      "title": "Sera",
+      "narration": "Kirli camı siliyor ve içeri bakıyorsunuz. İçerideki bitkiler... hareket ediyor, rüzgar olmamasına rağmen. Bunlar sıradan çiçekler değil; sarmaşıkları yılan gibi kıvrılıyor ve tomurcukları küçük ağızlara benziyor. Seranın ortasında, doğrudan size bakıyormuş gibi görünen bir kadın heykeli var. Aniden sarmaşıklardan biri camı kırıyor ve kolunuzu yakalıyor!",
+      "choices": {
+        "choice-13": {
+          "text": "Kurtulmaya çalış ve hizmetçi kapısına koş"
+        },
+        "choice-14": {
+          "text": "Bitkiyi korkutmak için çakmak kullan"
+        }
+      }
+    },
+    "node-8": {
+      "title": "İkinci Kat",
+      "narration": "Gıcırdayan merdivenleri çıkıyorsunuz. Tepede birçok kapısı olan uzun bir koridor var. Sokaktan ışığını gördüğünüz oda en sonda. Sağdaki bir odadan gelen sessiz bir müzik kutusu melodisi duyuluyor.",
+      "choices": {
+        "choice-15": {
+          "text": "Koridorun sonundaki ışıklı odaya git"
+        },
+        "choice-16": {
+          "text": "Müzik gelen odayı kontrol et"
+        }
+      }
+    },
+    "node-9": {
+      "title": "Kütüphane",
+      "narration": "Soldaki koridor sizi devasa bir kütüphaneye götürüyor. Yerden tavana kadar raflar eski kitaplarla dolu. Kimse olmamasına rağmen şöminede kömürler parlıyor. Masanın üzerinde açık bir günlük duruyor. Son girdiyi okuyorsunuz: 'Benim için geldiler. Artık saklanamam. Sır portrede.'",
+      "choices": {
+        "choice-17": {
+          "text": "Şöminenin üzerindeki portreyi incele"
+        },
+        "choice-18": {
+          "text": "Günlüğün önceki sayfalarını oku"
+        }
+      }
+    },
+    "node-10": {
+      "title": "Yemek Odası",
+      "narration": "Figür sizi yemek odasına götürüyor. Uzun masa bir kişi için hazırlanmış. 'Oturun,' diye emrediyor ev sahibi. Tabakta yemek olmadığını, eski, sararmış bir fotoğraf olduğunu fark ediyorsunuz... sizin fotoğrafınız. Dün çekilmiş. 'Sizi izliyorduk,' diyor.",
+      "choices": {
+        "choice-19": {
+          "text": "Açıklama talep et"
+        },
+        "choice-20": {
+          "text": "Masayı devir ve kaos yarat"
+        }
+      }
+    },
+    "node-11": {
+      "title": "Kaçış",
+      "narration": "Figürü itiyorsunuz. Dokunuşu ahşap gibi sert ve soğuk. Figür düşmüyor ama yanından geçmeyi başarıyorsunuz. Kapıya geri koşuyorsunuz ama kapanmış. Parmaklıklar tırmanmak için çok yüksek. Arkanızda ağır ayak sesleri duyuyorsunuz.",
+      "choices": {
+        "choice-21": {
+          "text": "Çalılıkların arasına saklan"
+        },
+        "choice-22": {
+          "text": "Seraya koş"
+        }
+      }
+    },
+    "node-12": {
+      "title": "Kiler",
+      "narration": "Küf kokan dar bir kilere sıkışıyorsunuz. Kapı aralığından, Viktorya dönemi hizmetçi kıyafeti giymiş bir kadının mutfağa girdiğini görüyorsunuz. Ürpertici bir ninni mırıldanıyor. Elmayı alıyor ve yüzü değişiyor - çenesi doğal olmayan bir şekilde aşağı düşüyor ve sıra sıra keskin dişleri ortaya çıkarıyor.",
+      "choices": {
+        "choice-23": {
+          "text": "Nefesini tut ve gitmesini um"
+        },
+        "choice-24": {
+          "text": "Fırla ve o dalgınken saldır"
+        }
+      }
+    },
+    "node-13": {
+      "title": "Silahlı",
+      "narration": "Paslı bıçağı sıkıca tutarak sese doğru sürünüyorsunuz. Sizi bir hizmetçi koridoruna götürüyor. İleride bir kapının altından sızan ışığı görüyorsunuz. İçeride sesler tartışıyor. 'Gelmeyecek,' diyor biri. 'Gelmeli,' diye cevap veriyor diğeri. 'Ritüel onun kanını gerektiriyor.'",
+      "choices": {
+        "choice-25": {
+          "text": "Odaya dal"
+        },
+        "choice-26": {
+          "text": "Dinlemeye devam et"
+        }
+      }
+    },
+    "node-14": {
+      "title": "Ateş",
+      "narration": "Çakmağı çakıyorsunuz. Alev parlıyor ve bitki bir çığlıkla geri çekiliyor. Ateş yakındaki kuru yapraklara sıçrıyor. Tüm sera dumanla dolmaya başlıyor. Eve açılan bir kapı açılıyor ve biri öksürerek dışarı koşuyor.",
+      "choices": {
+        "choice-27": {
+          "text": "Karmaşadan faydalan ve eve gir"
+        },
+        "choice-28": {
+          "text": "Kişinin dışarı çıkmasına yardım et"
+        }
+      }
+    },
+    "node-15": {
+      "title": "Efendinin Odası",
+      "narration": "Koridorun sonuna ulaşıp kapıyı itiyorsunuz. Oda mum ışığıyla aydınlanmış. Ortada yaşlı bir adam duruyor. 'Seni bekliyordum, Anton,' diyor (adınız bu olmasa da, ya da öyle mi...?). 'Borcu ödeme zamanı geldi.'",
+      "choices": {
+        "choice-29": {
+          "text": "Yanıldığını söyle"
+        },
+        "choice-30": {
+          "text": "Hangi borçtan bahsettiğini sor"
+        }
+      }
+    },
+    "node-16": {
+      "title": "Çocuk Odası",
+      "narration": "Müziğin kaynağı eski bir çocuk odası. Odanın ortasında kendi kendine sallanan bir beşik var. Raftaki bir müzik kutusu 'Baa, Baa, Black Sheep' çalıyor ama minör tonda. Beşiğe yaklaşıp içine bakıyorsunuz. Boş, dibinde sadece bir ayna duruyor.",
+      "choices": {
+        "choice-31": {
+          "text": "Aynayı al"
+        },
+        "choice-32": {
+          "text": "Beşiği durdur"
+        }
+      }
+    },
+    "node-17": {
+      "title": "Ölülerle Konuşma",
+      "narration": "Ellerinizi duvara bastırıyor ve arkasındaki varlığa doğrudan sesleniyorsunuz. 'Samuel? Eğer adın buysa, sana ne olduğunu anlamak istiyorum.' Tırmalama duruyor. Sessizlik. Sonra genç ve çaresiz bir ses, sanki çok uzaklardan geliyormuş gibi ahşabın içinden geliyor: 'Onu öldürdü. İyiliği için olduğunu söyledi ama onu yavaş yavaş öldürdü. Beni yavaş yavaş öldürdü. Parça parça ölmemi izletti bana.' Sorarken sesiniz titriyor: 'Ne istiyorsun?' Cevap hemen geliyor: 'Benim hissettiğimi hissetmesini istiyorum. Her an. Her gün. Ölümün merhamet olduğunu anlayana kadar.' Samuel'in kapana kısılmadığını, içinizi kemiren bir kesinlikle fark ediyorsunuz. Kontrol onda. Bütün ev artık onun: iradesinin, acısının, cezalandırma ihtiyacının bir uzantısı. 'Bana birini getir,' diye fısıldıyor Samuel. 'Bana yeni birini getir. Yaşam gücü parlak yanan birini. Bunu yaparsan gitmene izin verir. Özgürlüğüne kavuşabilirsin.' Elleriniz duvardan düşüyor. Size bir anlaşma teklif edildi. Başkasını ihanet etmek ya da kendiniz kapana kısılmak.",
+      "choices": {
+        "choice-33": {
+          "text": "Anlaşmayı reddet ve başka bir kaçış yolu planla"
+        },
+        "choice-34": {
+          "text": "Samuel'in şartlarını kabul et ve bir kurban ara"
+        }
+      }
+    },
+    "node-18": {
+      "title": "Gizli Geçit",
+      "narration": "Günlüğü geriye doğru karıştırıyorsunuz. Sayfalar çılgınca çizilmiş gözler ve kapılarla dolu. Bir giriş dikkatinizi çekiyor: 'Şöminenin arkasında bir geçit var. Çatlak tuğlaya basmak gerek.' Şömineye bakıyorsunuz.",
+      "choices": {
+        "choice-35": {
+          "text": "Tuğlayı ara"
+        },
+        "choice-36": {
+          "text": "Görmezden gel ve kütüphaneden başka bir çıkış ara"
+        }
+      }
+    },
+    "node-19": {
+      "title": "Gerçek",
+      "narration": "Ev sahibi gülüyor, kuru, çatırtılı bir ses. 'Açıklama mı? Soru sormak için burada değilsin. Koleksiyonun bir parçası olmak için buradasın.' Duvarlar kaymaya başlıyor, önceki misafirlerin mumyalanmış bedenlerinin olduğu nişleri ortaya çıkarıyor.",
+      "choices": {
+        "choice-37": {
+          "text": "Hayatın için savaş"
+        },
+        "choice-38": {
+          "text": "Merhamet dilen"
+        }
+      }
+    },
+    "node-20": {
+      "title": "Kaos",
+      "narration": "Ağır meşe masayı tüm gücünüzle deviriyorsunuz. Tabaklar sağır edici bir şangırtıyla yere uçuyor. Ev sahibi kızgın bir kedi gibi tıslıyor ve gölgelere çekiliyor. 'Aptal! Urnayı kırdın!' diye bağırıyor. Kırık vazonun parçalarından gri bir duman yükseliyor.",
+      "choices": {
+        "choice-39": {
+          "text": "O dalgınken çıkışa koş"
+        },
+        "choice-40": {
+          "text": "Ev sahibine saldır"
+        }
+      }
+    },
+    "node-21": {
+      "title": "Bahçe Labirenti",
+      "narration": "Çalıların eski bir labirentin parçası olduğu ortaya çıkıyor. İçeri dalıyorsunuz, dallar yüzünüzü çiziyor. Arkadaki ayak sesleri yükseliyor, sonra susuyor. Kayboldunuz. Etrafınızda sadece yüksek çitler var.",
+      "choices": {
+        "choice-41": {
+          "text": "Sağ el kuralını izle"
+        },
+        "choice-42": {
+          "text": "Çitlerin arasından geçmeye çalış"
+        }
+      }
+    },
+    "node-22": {
+      "title": "Seranın Hayaleti",
+      "narration": "Seraya koşuyorsunuz ama kapı kilitli. İçeride cama yumruklarını vuran bir kız figürü görüyorsunuz. 'Girme!' diye sessizce bağırıyor. Ama takipçinin ayak sesleri artık çok yakın.",
+      "choices": {
+        "choice-43": {
+          "text": "Camı kır ve gir"
+        },
+        "choice-44": {
+          "text": "Seranın arkasına saklan"
+        }
+      }
+    },
+    "node-23": {
+      "title": "Keşif",
+      "narration": "Hizmetçi 'taze et' hakkında mırıldanarak gidiyor. Nefes veriyorsunuz. Şimdi mutfağa giden yol açık ama çıktığı kapı bodruma gidiyor.",
+      "choices": {
+        "choice-45": {
+          "text": "Bodrumu keşfet"
+        },
+        "choice-46": {
+          "text": "Mutfaktan eve çık"
+        }
+      }
+    },
+    "node-24": {
+      "title": "Çatışma",
+      "narration": "Bir çığlıkla dışarı fırlıyorsunuz. Yaratık insanlık dışı bir sesle ciyaklıyor ve üzerinize atılıyor. Ona ağır bir şeyle vurmayı başarıyorsunuz ve toza dönüşüyor. Ama gürültü kesinlikle dikkat çekti.",
+      "choices": {
+        "choice-47": {
+          "text": "Kaç"
+        },
+        "choice-48": {
+          "text": "Barikat kur"
+        }
+      }
+    },
+    "node-25": {
+      "title": "Ritüel",
+      "narration": "Odaya dalıyorsunuz. Kukuletalı beş figür bir pentagramın etrafında duruyor. Başlarını size çeviriyorlar. 'Bir gönüllü,' diyor lider. 'Ne kadar nazik.'",
+      "choices": {
+        "choice-49": {
+          "text": "Ritüeli bölmeye çalış"
+        },
+        "choice-50": {
+          "text": "Teslim ol"
+        }
+      }
+    },
+    "node-26": {
+      "title": "Gizli Bilgi",
+      "narration": "Dinliyorsunuz. Evin korkuyla beslendiğinden bahsediyorlar. Onu yenmenin tek yolu korkmamak. 'Eğer gülerse, büyü bozulur,' diyor bir ses.",
+      "choices": {
+        "choice-51": {
+          "text": "İçeri gir ve bir şaka yap"
+        },
+        "choice-52": {
+          "text": "Bu bilgiyi daha sonra kullan"
+        }
+      }
+    },
+    "node-27": {
+      "title": "Evde",
+      "narration": "Panikten yararlanarak açık kapıdan süzülüyorsunuz. Kendinizi gözleri sizi takip eden portrelerle dolu bir koridorda buluyorsunuz.",
+      "choices": {
+        "choice-53": {
+          "text": "Evin derinliklerine koş"
+        },
+        "choice-54": {
+          "text": "Bir perdenin arkasına saklan"
+        }
+      }
+    },
+    "node-28": {
+      "title": "Kurtuluş",
+      "narration": "Kişinin elini tutup dışarı çekiyorsunuz. Bu genç bir çocuk, ölesiye korkmuş. 'Teşekkürler,' diye hırıldıyor. 'Çıkışın nerede olduğunu biliyorum. Gizli bir tünel.'",
+      "choices": {
+        "choice-55": {
+          "text": "Ona güven"
+        },
+        "choice-56": {
+          "text": "Güvenme ve yalnız git"
+        }
+      }
+    },
+    "node-29": {
+      "title": "Çözüm",
+      "narration": "Anlaşmayı kararlılıkla reddediyorsunuz. 'Onun gibi olmayacağım. Ve senin kuklan olmayacağım.' Samuel öfkeyle bağırıyor, duvarlar titriyor. 'ÖYLEYSE SONSUZA KADAR BURADA KAL!' Altınızdaki zemin çöküyor.",
+      "choices": {
+        "choice-57": {
+          "text": "Kenara tutunmaya çalış"
+        },
+        "choice-58": {
+          "text": "Düşüşü kabullen"
+        }
+      }
+    },
+    "node-30": {
+      "title": "Yeni Efendi",
+      "narration": "Kabul ediyorsunuz. 'Bilgece bir seçim,' diye fısıldıyor Samuel. Kapı açılıyor. Koridorda, seradan kurtardığınız (veya kurtarabileceğiniz) aynı çocuk duruyor. Size umutla bakıyor. Cebinizdeki bıçağın sapını sıkıyorsunuz...",
+      "choices": {
+        "choice-59": {
+          "text": "Anlaşmanın sana düşen kısmını yerine getir"
+        },
+        "choice-60": {
+          "text": "Son anda fikrini değiştir ve 'varlığa' saldır"
+        }
+      }
+    },
+    "node-31": {
+      "title": "Ayna",
+      "narration": "Aynayı alıyorsunuz. Yansımada kendinizi değil, omzunuzun arkasında duran bir hayaleti görüyorsunuz. Gülümsüyor ve parmağını dudaklarına götürüyor.",
+      "choices": {
+        "choice-61": {
+          "text": "Aynayı kır"
+        },
+        "choice-62": {
+          "text": "Kim olduğunu sor"
+        }
+      }
+    },
+    "node-32": {
+      "title": "Beşik",
+      "narration": "Elinizle beşiği durduruyorsunuz. Müzik aniden kesiliyor. Sessizlik kulaklarınıza baskı yapıyor. Aniden beşik vahşi bir güçle sallanmaya başlıyor ve yüksek, delici bir bebek ağlaması havayı yırtıyor.",
+      "choices": {
+        "choice-63": {
+          "text": "Odadan kaç"
+        },
+        "choice-64": {
+          "text": "'Bebeği' sakinleştirmeye çalış"
+        }
+      }
+    }
+  },
+  "endings": {
+    "ending-1": {
+      "title": "Ebedi Misafir",
+      "narration": "Kaçamadınız. Ev sizi de diğer pek çoğu gibi yuttu. Artık koleksiyonun bir parçasısınız, koridorlarda dolaşan ve yeni misafirleri korkutan bir başka hayalet. Belki bir dahaki sefere daha şanslı olursunuz... ama sizin için bir dahaki sefer olmayacak."
+    },
+    "ending-2": {
+      "title": "Özgürlük... mü?",
+      "narration": "Kapıdan dışarı koşuyorsunuz, ciğerleriniz soğuk havayla yanıyor. Şehre varana kadar durmuyorsunuz. Kurtuldunuz. Ama her gece rüyanızda bu evi görüyorsunuz. Ve bazen aynaya baktığınızda, omzunuzun üzerinden kömür gözlü bir gölge görüyorsunuz. Gece Yarısı Evi'ni terk ettiniz, ama o sizi terk etti mi?"
+    },
+    "ending-3": {
+      "title": "Varis",
+      "narration": "Ritüeli gerçekleştirdiniz. Kurbanı verdiniz. Ev sizi kabul etti. Artık yeni Efendi sizsiniz. Damarlarınızda kadim ve karanlık bir güç akıyor. Pencereden gelen yeni misafirlere bakıyorsunuz. 'Hoş geldiniz,' diye fısıldıyorsunuz bir gülümsemeyle. Akşam yemeği servis edildi."
+    },
+    "ending-4": {
+      "title": "Lanet Kıran",
+      "narration": "Cesaretiniz (ya da aptallığınız) büyüyü bozdu. Kahkaha, korkusuzluk ya da belki de ateş - bir şeyler işe yaradı. Ev tuğla tuğla çökmeye, sabah sisinde erimeye başladı. Az önce köşkün olduğu boş bir arazide duruyorsunuz. Bitti. Lanet kalktı."
+    },
+    "ending-5": {
+      "title": "Unutulan",
+      "narration": "Çok iyi saklandınız. Kimse sizi bulamadı. Kimse sizin için gelmedi. Karanlıkta kaldınız, hiç gelmeyen bir kurtuluşu beklediniz. Zamanla adınızı unuttunuz. Güneşin neye benzediğini unuttunuz. Köşedeki bir başka gölgeye dönüştünüz."
+    },
+    "ending-6": {
+      "title": "Şeytanla Anlaşma",
+      "narration": "Samuel ile bir anlaşma yaptınız. Özgür, zengin ve başarılısınız. Ama bedeli ağır oldu. Her gölgede ihanet ettiğiniz kişilerin yüzlerini görüyorsunuz. Ve saatiniz geldiğinde Samuel'in borcunu tahsil etmeye geleceğini biliyorsunuz. Ve faizi korkunç olacak."
+    }
+  }
+}

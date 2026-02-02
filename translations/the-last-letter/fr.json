@@ -1,0 +1,355 @@
+{
+  "meta": {
+    "storyId": "story-892746531",
+    "language": "fr",
+    "languageName": "Français",
+    "version": "1.0",
+    "lastUpdated": "2025-01-15"
+  },
+  "story": {
+    "title": "La Dernière Lettre",
+    "author": "Elena Rousseau",
+    "description": "Lorsque vous découvrez une mystérieuse lettre d'amour dans le grenier de votre défunte grand-mère, elle vous conduit à Paris et vers une romance de plusieurs décennies qui n'a jamais été résolue. Pourrez-vous trouver l'auteur et terminer ce que votre grand-mère a commencé, tout en naviguant votre propre connexion inattendue avec son petit-fils ?",
+    "genre": "romance",
+    "estimatedDuration": 45,
+    "involvement": "moyen"
+  },
+  "nodes": [
+    {
+      "id": "story-892746531-1",
+      "type": "start",
+      "title": "La Découverte au Grenier",
+      "narration": "Les particules de poussière dansent dans la lumière de l'après-midi qui filtre par la fenêtre du grenier. Vous triez les affaires de votre grand-mère quand une enveloppe décolorée glisse d'un vieux livre. La lettre à l'intérieur est écrite en français, datée de 1962, et signée seulement d'un « J ». Votre grand-mère n'a jamais mentionné une romance à Paris, n'a jamais parlé de quelqu'un nommé J. Mais les mots sont incontestablement passionnés, promettant d'attendre éternellement au Café de Flore. L'écriture est élégante, le papier fin avec l'âge, et vous ressentez une connexion avec un secret gardé depuis plus de soixante ans.",
+      "choices": [
+        {
+          "id": "story-892746531-c1",
+          "text": "Rechercher le café et réserver un vol pour Paris",
+          "description": "Suivre le mystère jusqu'à sa source"
+        },
+        {
+          "id": "story-892746531-c2",
+          "text": "Demander à votre famille le passé de grand-mère d'abord",
+          "description": "Rassembler des informations avant d'agir"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-2",
+      "type": "decision",
+      "title": "Traversée de l'Atlantique",
+      "narration": "L'avion atterrit à l'aéroport Charles de Gaulle tandis que l'aube se lève sur Paris. Vous avez passé le vol à répéter ce que vous direz, comment vous expliquerez votre mission à des inconnus. Votre tante a révélé que votre grand-mère avait passé une année transformative à Paris avant de rencontrer votre grand-père, rentrant soudainement sans explication. Elle vous a montré une photographie : votre grand-mère à vingt-trois ans, radieuse à côté d'un jeune homme dont le visage était tourné. Maintenant, alors que vous récupérez vos bagages et faites votre premier pas dans la matinée parisienne, la réalité de votre quête s'installe sur vous.",
+      "choices": [
+        {
+          "id": "story-892746531-c3",
+          "text": "Prendre le train direct pour Saint-Germain-des-Prés",
+          "description": "Aller directement au café"
+        },
+        {
+          "id": "story-892746531-c4",
+          "text": "Vous enregistrer à l'hôtel et planifier votre approche",
+          "description": "Vous reposer avant de commencer"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-3",
+      "type": "decision",
+      "title": "Arrivée à Saint-Germain",
+      "narration": "Les rues de Saint-Germain-des-Prés dégagent un charme d'antan qui vous fait sentir comme si vous aviez remonté le temps. Les boulangeries émettent l'arôme des croissants frais, et les librairies exposent des volumes usés dans leurs vitrines. Vous passez devant le célèbre café Les Deux Magots, imaginant votre grand-mère marchant sur ces mêmes pavés en 1962. L'adresse de la lettre vous guide dans une rue étroite bordée de marronniers. Votre cœur bat fort à chaque pas. Ce quartier est resté largement inchangé pendant des décennies, préservé comme une capsule temporelle.",
+      "choices": [
+        {
+          "id": "story-892746531-c5",
+          "text": "Demander à un commerçant local l'histoire du café",
+          "description": "Recueillir des connaissances locales"
+        },
+        {
+          "id": "story-892746531-c6",
+          "text": "Continuer directement au Café de Flore",
+          "description": "Le voir par vous-même d'abord"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-4",
+      "type": "decision",
+      "title": "L'Emblématique Auvent Rouge",
+      "narration": "Le voilà : le Café de Flore, avec son auvent rouge distinctif et son intérieur Art Déco visible à travers les grandes fenêtres. Le même auvent des vieilles photographies de votre grand-mère pend toujours au-dessus de l'entrée, légèrement décoloré par des décennies de soleil parisien. Des écrivains et des artistes se sont rassemblés ici pendant des générations, et la terrasse se remplit déjà de clients sirotant des espressos. Vous serrez la lettre dans votre poche, sentant sa présence comme un talisman. Un serveur âgé aux cheveux argentés remarque votre hésitation. Il s'approche avec un sourire complice, comme s'il avait déjà vu cette scène se dérouler.",
+      "choices": [
+        {
+          "id": "story-892746531-c7",
+          "text": "Lui montrer la lettre immédiatement",
+          "description": "Être directe sur votre mission"
+        },
+        {
+          "id": "story-892746531-c8",
+          "text": "Commander un café et observer d'abord",
+          "description": "Prendre le temps d'absorber l'atmosphère"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-5",
+      "type": "decision",
+      "title": "La Reconnaissance du Garçon",
+      "narration": "Les yeux du serveur se voilent tandis qu'il examine la lettre décolorée. « Julien », murmure-t-il avec révérence. « Monsieur Moreau. Il venait ici chaque jour pendant cinq ans après son départ, attendant toujours. Toujours la même table près de la fenêtre. » Il pointe une table dans le coin où un jeune homme est maintenant assis, esquissant. « C'est son petit-fils, Luc. Il a hérité du café après le décès de Julien l'année dernière. Vous devriez lui parler. Il cherchait des informations sur la femme qui a brisé le cœur de son grand-père. » Le serveur vous caresse la main doucement. « Vous avez ses yeux, vous savez. »",
+      "choices": [
+        {
+          "id": "story-892746531-c9",
+          "text": "Approcher la table de Luc avec la lettre",
+          "description": "Être honnête sur votre objectif"
+        },
+        {
+          "id": "story-892746531-c10",
+          "text": "Se présenter d'abord de façon décontractée",
+          "description": "Créer un lien avant de révéler"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-6",
+      "type": "decision",
+      "title": "Première Rencontre",
+      "narration": "Luc lève les yeux de son carnet de croquis en vous approchant, et ses yeux verts s'écarquillent de reconnaissance. Il a des mains d'artiste, tachées d'encre et expressives. Quand vos yeux se rencontrent, il ne détourne pas le regard. Au contraire, il referme lentement son carnet et se lève, parlant en anglais avec un accent porté par l'émerveillement : « Pardonnez-moi, mais vous ressemblez exactement à quelqu'un sur une vieille photographie que mon grand-père a gardée toute sa vie. J'ai contemplé cette image depuis l'enfance. Et maintenant vous voilà, entrant dans son café. Ce ne peut pas être une coïncidence. » Sa voix tremble légèrement d'émotion.",
+      "choices": [
+        {
+          "id": "story-892746531-c11",
+          "text": "Lui montrer la lettre de votre grand-mère",
+          "description": "Révéler la connexion immédiatement"
+        },
+        {
+          "id": "story-892746531-c12",
+          "text": "Lui demander d'abord de son grand-père",
+          "description": "Connaître l'histoire de Julien avant de révéler la vôtre"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-7",
+      "type": "decision",
+      "title": "L'Héritage de Julien",
+      "narration": "Luc vous invite à vous asseoir, ses mains tremblent tandis qu'il commande du café. Il vous parle de Julien Moreau—un artiste qui a passé sa vie à peindre la même femme de mémoire, la capturant à travers six décennies. « Il possédait ce café mais le quittait rarement, comme s'il attendait quelqu'un qui ne reviendrait jamais. Il est mort croyant qu'elle l'avait simplement oublié. Mais j'ai trouvé des boîtes de peintures dans son atelier, des centaines de toiles, toutes d'elle. Et des lettres. Des centaines de lettres jamais envoyées. » Luc étudie votre visage avec une compréhension croissante. « Votre grand-mère. Éloise était votre grand-mère. »",
+      "choices": [
+        {
+          "id": "story-892746531-c13",
+          "text": "Confirmer le lien et partager son histoire",
+          "description": "Tout lui raconter"
+        },
+        {
+          "id": "story-892746531-c14",
+          "text": "Demander à voir d'abord les peintures de Julien",
+          "description": "Voir les preuves avant d'en révéler davantage"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-8",
+      "type": "decision",
+      "title": "L'Atelier en Haut",
+      "narration": "Luc vous guide par un escalier étroit jusqu'à l'atelier de Julien, une pièce ensoleillée qui sent la térébenthine et les souvenirs. Les murs sont couverts de peintures—le visage de votre grand-mère représenté à chaque âge, depuis la jeune femme de votre photographie jusqu'à une aînée imaginée aux cheveux argentés. Chaque toile pulse d'amour et de nostalgie. « Il l'a peinte jusqu'à ses derniers jours », explique Luc. « Ce ne sont pas des œuvres de quelqu'un d'oublié. Ce sont des œuvres de quelqu'un qui a aimé complètement, à travers toute une vie d'absence. » Une peinture inachevée repose dans le coin : votre grand-mère telle qu'elle pourrait paraître aujourd'hui.",
+      "choices": [
+        {
+          "id": "story-892746531-c15",
+          "text": "Dire à Luc pourquoi votre grand-mère est vraiment partie",
+          "description": "Partager le secret de famille"
+        },
+        {
+          "id": "story-892746531-c16",
+          "text": "Demander à lire les lettres non envoyées de Julien",
+          "description": "Entendre d'abord la voix de Julien"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-9",
+      "type": "decision",
+      "title": "Des Lettres à Travers le Temps",
+      "narration": "Luc ouvre un coffre en bois rempli d'enveloppes vieillies, chacune adressée à « Ma chère Éloise ». Vous les lisez ensemble tandis que la dévotion de Julien se déploie à travers soixante ans. La dernière lettre, écrite quelques jours avant sa mort, contient des mots qui vous brisent : « Je comprends maintenant que vous ne pouviez pas revenir. J'espère seulement que vous avez été heureuse. J'espère seulement que vous avez été aimée comme vous le méritiez. Je vous pardonne de ne pas être revenue, et je vous attendrai encore, dans ce qui vient après. » Luc ferme le coffre, des larmes coulant sur son visage. Le poids des décennies flotte dans l'air.",
+      "choices": [
+        {
+          "id": "story-892746531-c17",
+          "text": "Révéler la vérité sur la grossesse",
+          "description": "Apporter la paix à la mémoire de Julien"
+        },
+        {
+          "id": "story-892746531-c18",
+          "text": "Réconforter Luc dans le deuil partagé",
+          "description": "Trouver du réconfort ensemble"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-10",
+      "type": "decision",
+      "title": "Toute la Vérité",
+      "narration": "Vous racontez tout à Luc—comment votre grand-mère a découvert qu'elle était enceinte en 1962, comment sa famille l'a forcée à rentrer immédiatement, comment on lui a interdit de contacter Julien. Elle a épousé votre grand-père dans une cérémonie intime, et il a élevé votre mère comme la sienne, l'aimant intensément. « Elle a gardé sa lettre cachée toute sa vie », expliquez-vous. « Sous son oreiller, puis dans une boîte fermée, enfin dans le grenier. Elle n'a jamais parlé de Paris, mais ma mère se souvient qu'elle pleurait parfois quand elle croyait que personne ne regardait. Elle ne l'a jamais cessé d'aimer. Elle ne pouvait simplement pas revenir. »",
+      "choices": [
+        {
+          "id": "story-892746531-c19",
+          "text": "Suggérer d'honorer leur amour avec un mémorial",
+          "description": "Créer quelque chose de durable"
+        },
+        {
+          "id": "story-892746531-c20",
+          "text": "Demander à Luc ses rêves pour le café",
+          "description": "Passer au présent"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-11",
+      "type": "decision",
+      "title": "Connexion à Travers les Générations",
+      "narration": "Luc vous regarde avec quelque chose de plus profond que la compréhension—une reconnaissance qui s'étend sur des décennies. « Alors nous sommes connectés », dit-il doucement, en prenant votre main. « Votre grand-mère a été l'amour de la vie de mon grand-père, et quelque part dans votre histoire coule une partie de son héritage. Ils nous ont réunis à travers soixante ans et un océan. » La lumière de l'après-midi filtre par les fenêtres de l'atelier. « Cela ressemble au destin », continue Luc. « Comme s'ils nous donnaient une seconde chance avec leur histoire. Comme s'ils voulaient que nous écrivions une meilleure fin que celle qu'ils ont eue. » Son pouce trace des cercles sur votre paume.",
+      "choices": [
+        {
+          "id": "story-892746531-c21",
+          "text": "Reconnaître la connexion et se rapprocher",
+          "description": "Embrasser la possibilité"
+        },
+        {
+          "id": "story-892746531-c22",
+          "text": "Suggérer de dîner pour continuer à parler",
+          "description": "Prendre les choses lentement"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-12",
+      "type": "decision",
+      "title": "Soirée le Long de la Seine",
+      "narration": "Ce soir-là, Luc vous emmène vous promener le long de la Seine tandis que le soleil se couche derrière Notre-Dame. La Tour Eiffel commence son scintillement horaire, reflété dans le courant de la rivière. Il vous parle de son enfance, grandissant avec les histoires de Julien sur un amour perdu. « Je pensais que c'étaient juste des histoires », admet Luc, s'arrêtant pour vous faire face. « Une belle, tragique fiction. Mais vous êtes réelle. Votre grand-mère était réelle. Leur amour était réel. » Il vous repousse une mèche de cheveux du visage. « Et ce sentiment, maintenant, cette connexion que je ressens avec vous—c'est réel aussi, n'est-ce pas ? » Ses yeux cherchent les vôtres.",
+      "choices": [
+        {
+          "id": "story-892746531-c23",
+          "text": "L'embrasser sous la tour scintillante",
+          "description": "Suivre votre cœur"
+        },
+        {
+          "id": "story-892746531-c24",
+          "text": "Dire que vous avez besoin de temps pour tout digérer",
+          "description": "Être prudente"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-13",
+      "type": "decision",
+      "title": "Un Nouveau Départ",
+      "narration": "Le baiser goûte au vin rouge et à la possibilité, à deux histoires s'entrelçant à travers les générations. Quand vous vous séparez, Luc sourit à travers ses larmes. « Je vous attendais », chuchote-t-il, « sans même savoir qui vous étiez. Mais maintenant je comprends. Nos grands-parents ont commencé quelque chose de beau que les circonstances ont déchiré. Nous pouvons compléter leur cercle. » Au cours des semaines suivantes, vous explorez Paris tout en découvrant davantage l'histoire de vos grands-parents. Vous découvrez que Julien a peint votre grand-mère enceinte—il savait pour le bébé, savait qu'elle portait son enfant, et a attendu quand même.",
+      "choices": [
+        {
+          "id": "story-892746531-c25",
+          "text": "Décider de rester à Paris définitivement",
+          "description": "Construire une nouvelle vie ensemble"
+        },
+        {
+          "id": "story-892746531-c26",
+          "text": "Suggérer une relation à distance",
+          "description": "Naviguer entre deux mondes"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-14",
+      "type": "decision",
+      "title": "Limites",
+      "narration": "Le visage de Luc tombe, mais il hoche avec compréhension, faisant un pas en arrière. « Vous avez raison. C'est très lourd—l'histoire de nos grands-parents, le poids de leur perte. Peut-être essayons-nous de réparer quelque chose qui ne nous revenait pas de réparer. » Il détourne le regard vers la rivière s'assombrissant. « Mais je suis content que vous soyez venue. Que l'histoire de mon grand-père ait un peu de conclusion. » L'air entre vous se fait dense de possibilités manquées. Vous sentez un point de bascule, un moment où votre choix résonnera à travers les années comme l'a fait celui de votre grand-mère. La ville de lumière semble retenir son souffle autour de vous.",
+      "choices": [
+        {
+          "id": "story-892746531-c27",
+          "text": "Changer d'avis et chercher sa main",
+          "description": "Ne pas laisser passer ce moment"
+        },
+        {
+          "id": "story-892746531-c28",
+          "text": "Le remercier et préparer votre retour",
+          "description": "Certaines histoires finissent différemment"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-15",
+      "type": "decision",
+      "title": "Construire un Avenir",
+      "narration": "Un an plus tard, vous vous tenez dans le Café de Flore rénové comme co-propriétaire avec Luc. Les murs accueillent maintenant une exposition : « Julien et Éloise—Une Histoire d'Amour à Travers le Temps ». Les peintures de Julien sont suspendues à côté de photographies de votre grand-mère, racontant leur histoire aux nouvelles générations. La lettre originale de votre grand-mère est encadrée près de la table près de la fenêtre où Julien attendait. Luc vous enlace tandis que les clients admirent l'exposition. « Ils nous ont réunis », murmure-t-il. « Et nous leur avons donné la fin qu'ils méritaient. » Vous ressentez la justesse de cela, la complétude d'un cercle commencé il y a six décennies.",
+      "choices": [
+        {
+          "id": "story-892746531-c29",
+          "text": "Accepter quand Luc propose à leur endroit spécial",
+          "description": "Un nouveau chapitre commence"
+        },
+        {
+          "id": "story-892746531-c30",
+          "text": "Suggérer d'attendre pour mieux se connaître",
+          "description": "Construire lentement mais sûrement"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-16",
+      "type": "decision",
+      "title": "Entre Deux Mondes",
+      "narration": "Vous partagez maintenant votre vie entre deux villes—votre chez-vous et Paris. La relation à distance est exigeante mais d'une certaine manière appropriée, faisant écho à la séparation qu'ont endurée vos grands-parents, bien que la vôtre ait des intermèdes plus heureux. Vous écrivez des lettres comme Julien et Éloise, bien que les vôtres atteignent leur destination. Vous vous retrouvez dans différentes villes européennes, accumulant des souvenirs dans des aéroports et des gares. Dans le grenier de votre grand-mère, maintenant votre studio d'écriture, vous composez un livre sur leur romance. Luc envoie des photographies depuis le café, où il crée une exposition permanente de l'œuvre de son grand-père.",
+      "choices": [
+        {
+          "id": "story-892746531-c31",
+          "text": "Planifier votre déménagement éventuel à Paris",
+          "description": "Travailler vers l'union"
+        },
+        {
+          "id": "story-892746531-c32",
+          "text": "Accepter cela comme votre arrangement permanent",
+          "description": "L'amour transcende la distance"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-17",
+      "type": "decision",
+      "title": "Le Tableau",
+      "narration": "Luc secoue la tête quand vous mentionnez acheter une peinture, mais en voyant votre connexion avec l'œuvre, il s'adoucit. « Ce sont le cœur du grand-père, son âme. Elles n'ont jamais été destinées à la vente. » Il fait une pause, vous étudiant. « Cependant, si Éloise était votre grand-mère, alors peut-être qu'une devrait retourner à sa famille. Choisissez celle qui vous parle. » Vous sélectionnez une petite toile : votre grand-mère riant sous le soleil de l'été, si vivante, si aimée. Tandis que Luc l'enveloppe soigneusement, ses doigts frôlent les vôtres, et vous vous demandez si c'est vraiment un adieu.",
+      "choices": [
+        {
+          "id": "story-892746531-c33",
+          "text": "Partir avec le tableau et vos souvenirs",
+          "description": "Achever votre mission"
+        },
+        {
+          "id": "story-892746531-c34",
+          "text": "Écrire à Luc après être rentrée",
+          "description": "Garder la connexion vivante"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-18",
+      "type": "ending",
+      "title": "Paris pour Toujours",
+      "narration": "Ce soir-là, Luc demande votre main à l'endroit où Julien a embrassé votre grand-mère pour la première fois en 1962. La bague est l'antique de sa grand-mère. Votre mariage a lieu un an plus tard dans le café, entourée des peintures de Julien et des photographies de votre grand-mère veillant sur vous. Vous écrivez un livre sur leur histoire d'amour qui devient un best-seller, et le café devient un lieu de pèlerinage pour les romantiques. Des années plus tard, quand vous tenez votre premier enfant—une fille prénommée Éloise—vous comprenez pourquoi votre grand-mère avait gardé cette lettre. Cette fois, l'histoire a sa fin heureuse."
+    },
+    {
+      "id": "story-892746531-19",
+      "type": "ending",
+      "title": "L'Amour Grandit Doucement",
+      "narration": "Vous construisez votre relation avec soin, honorant l'intensité de votre connexion tout en respectant le besoin de temps. Luc comprend, et ensemble vous créez un partenariat qui mêle son monde parisien au vôtre. En deux ans, vous avez établi un rythme—des mois de découverte avant de prendre des décisions permanentes. Le café prospère avec votre contribution, et vous curez des expositions d'histoires d'amour oubliées. Quand vous vous mariez finalement, c'est avec la certitude qui vient de vraiment connaître l'autre personne. L'histoire d'amour qui a commencé en 1962 continue à travers vous, éternelle comme la Ville Lumière."
+    },
+    {
+      "id": "story-892746531-20",
+      "type": "ending",
+      "title": "Voyage vers l'Union",
+      "narration": "La distance est temporaire, un pont que vous vous engagez tous les deux à traverser. En dix-huit mois, vous arrangez vos affaires pour faire de Paris votre foyer permanent. Le processus est compliqué—vendre votre maison, apprendre la bureaucratie française—mais chaque obstacle en vaut la peine quand vous vous réveillez dans l'appartement au-dessus du café avec Luc à vos côtés. Vous devenez citoyenne française et dédiez votre vie à préserver les histoires d'amour qui ont transcendé les frontières. Ensemble, vous établissez une fondation qui aide à réunir des familles séparées par les circonstances, transformant la tragédie en espoir pour d'autres."
+    },
+    {
+      "id": "story-892746531-21",
+      "type": "ending",
+      "title": "L'Amour à Travers la Distance",
+      "narration": "Vous acceptez que votre amour ne nécessite pas de proximité physique. Pendant des années, vous maintenez votre relation transatlantique, vous rencontrant dans de nouvelles villes, écrivant des lettres qui traversent l'océan. L'arrangement vous convient à tous les deux—Luc préserve le café de son grand-père, vous maintenez votre carrière, et ensemble vous créez quelque chose d'unique. Finalement, vous publiez votre livre sur Julien et Éloise, le dédiant à ceux qui ont aimé à travers des distances impossibles. Il devient une lecture obligatoire. Quand vous êtes âgée, assise avec Luc sur la terrasse du café, vous réalisez que vos grands-parents vous ont appris à chérir chaque moment."
+    },
+    {
+      "id": "story-892746531-22",
+      "type": "ending",
+      "title": "La Lettre à la Maison",
+      "narration": "Vous rentrez chez vous avec la peinture de Julien soigneusement enveloppée dans vos bagages. Certaines connexions sont trop compliquées, trop chargées par le passé. Mais vous avez accompli votre mission—vous avez trouvé Julien, compris l'histoire de votre grand-mère, et leur avez apporté une conclusion. Vous placez le tableau dans votre salon où le portrait de votre grand-mère se trouvait auparavant. Elle est jeune à nouveau, éternellement été, capturée par quelqu'un qui l'aimait complètement. Parfois vous pensez à Luc, à la vie que vous auriez pu avoir. Mais l'histoire de votre grand-mère est complète. Et la vôtre continue, enrichie par l'histoire, écrite sur des pages vierges."
+    }
+  ]
+}

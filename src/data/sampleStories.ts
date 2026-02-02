@@ -34,13 +34,13 @@ const originalStories: Story[] = [
     author: 'Elena Rivers',
     genre: 'fantasy',
     involvement: 'low',
-    estimatedDuration: 15,
+    estimatedDuration: 25,
     isPremium: false,
-    version: '1.0',
+    version: '2.0',
     createdAt: '2025-01-01',
-    updatedAt: '2025-01-01',
-    totalNodes: 5,
-    totalEndings: 2,
+    updatedAt: '2025-02-02',
+    totalNodes: 18,
+    totalEndings: 6,
     startNodeId: 'node-1',
     nodes: [
       {
@@ -57,19 +57,594 @@ const originalStories: Story[] = [
             id: 'choice-1',
             text: 'Follow the worn path',
             description: 'The path looks well-traveled',
-            targetNodeId: 'node-2',
+            targetNodeId: 'path-1',
             order: 1,
           },
           {
             id: 'choice-2',
             text: 'Follow the stream',
             description: 'The water sparkles invitingly',
-            targetNodeId: 'node-3',
+            targetNodeId: 'stream-1',
             order: 2,
           },
         ],
       },
       {
+        id: 'path-1',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Mossy Stone',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'You pass a large stone covered in thick, velvet-like moss. It feels warm to the touch.',
+        choices: [
+          {
+            id: 'choice-path-1-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-2',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-2',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Twisted Roots',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'Huge roots snake across the path, requiring you to step carefully. They seem to pulse with life.',
+        choices: [
+          {
+            id: 'choice-path-2-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-3',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-3',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Sunbeam',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'A single beam of sunlight pierces the canopy, illuminating a patch of wildflowers.',
+        choices: [
+          {
+            id: 'choice-path-3-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-4',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-4',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Blue Butterfly',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'A brilliant blue butterfly flutters ahead of you, as if guiding the way.',
+        choices: [
+          {
+            id: 'choice-path-4-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-5',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-5',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Old Bridge',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'You cross a small, creaky wooden bridge over a dry creek bed.',
+        choices: [
+          {
+            id: 'choice-path-5-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-6',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-6',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Whispering Wind',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'The wind picks up, carrying faint whispers that you can\'t quite make out.',
+        choices: [
+          {
+            id: 'choice-path-6-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-7',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-7',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Stone Circle',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'You pass a small circle of stones. Someone—or something—arranged them long ago.',
+        choices: [
+          {
+            id: 'choice-path-7-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-8',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-8',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Hollow Log',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'A massive fallen log blocks the way. You climb over it, smelling damp wood and earth.',
+        choices: [
+          {
+            id: 'choice-path-8-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-9',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-9',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Deer\'s Trail',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'You spot fresh deer tracks crossing your path. The forest is alive around you.',
+        choices: [
+          {
+            id: 'choice-path-9-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-10',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-10',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Silent Grove',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'The bird song suddenly stops as you enter a grove of silver-barked trees.',
+        choices: [
+          {
+            id: 'choice-path-10-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-11',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-11',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Babbling Brook',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'A small brook crosses the path. The water is cool and refreshing.',
+        choices: [
+          {
+            id: 'choice-path-11-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-12',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-12',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Fern Gully',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'You walk through a sea of waist-high ferns that brush against your legs.',
+        choices: [
+          {
+            id: 'choice-path-12-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-13',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-13',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Owl\'s Perch',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'An owl watches you from a high branch, its yellow eyes unblinking.',
+        choices: [
+          {
+            id: 'choice-path-13-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-14',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-14',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Misty Hollow',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'A low mist clings to the ground here, swirling around your boots.',
+        choices: [
+          {
+            id: 'choice-path-14-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-15',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-15',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Ancient Marker',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'An old stone marker stands by the path, its inscriptions worn away by time.',
+        choices: [
+          {
+            id: 'choice-path-15-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'path-16',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'path-16',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Edge of the Deep Woods',
+        imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800',
+        narration: 'The trees grow larger and older. You sense you are approaching the heart of the forest.',
+        choices: [
+          {
+            id: 'choice-path-16-next',
+            text: 'Continue',
+            description: 'Press onward',
+            targetNodeId: 'node-2',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-1',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Pebbled Shore',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'The stream flows over smooth, colorful pebbles. The sound is soothing.',
+        choices: [
+          {
+            id: 'choice-stream-1-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-2',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-2',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Dragonflies',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'Jewel-toned dragonflies dart over the water\'s surface, chasing invisible prey.',
+        choices: [
+          {
+            id: 'choice-stream-2-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-3',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-3',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Willow Tree',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'A weeping willow dips its branches into the stream, creating ripples.',
+        choices: [
+          {
+            id: 'choice-stream-3-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-4',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-4',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Jumping Fish',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'A silver fish leaps from the water to catch a fly, splashing back down.',
+        choices: [
+          {
+            id: 'choice-stream-4-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-5',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-5',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Narrow Gorge',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'The stream cuts through a narrow rocky gorge. You carefully walk along the edge.',
+        choices: [
+          {
+            id: 'choice-stream-5-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-6',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-6',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Slippery Rocks',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'The path becomes rocky and slick with spray. You tread with caution.',
+        choices: [
+          {
+            id: 'choice-stream-6-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-7',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-7',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Calm Pool',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'The stream widens into a small, calm pool before continuing its journey.',
+        choices: [
+          {
+            id: 'choice-stream-7-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-8',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-8',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The River Bend',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'The stream takes a sharp turn. You can\'t see what lies around the bend.',
+        choices: [
+          {
+            id: 'choice-stream-8-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-9',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-9',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Otter\'s Den',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'You spot an otter slipping into the water from its den in the bank.',
+        choices: [
+          {
+            id: 'choice-stream-9-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-10',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-10',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Floating Leaves',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'Golden leaves float downstream, like tiny boats on a journey.',
+        choices: [
+          {
+            id: 'choice-stream-10-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-11',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-11',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Distant Waterfall',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'You hear the roar of a waterfall somewhere ahead.',
+        choices: [
+          {
+            id: 'choice-stream-11-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-12',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-12',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Mist Spray',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'The air grows damp with cool mist from the turbulent water.',
+        choices: [
+          {
+            id: 'choice-stream-12-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-13',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-13',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Rainbow Arch',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'Sunlight hits the mist, creating a faint rainbow over the stream.',
+        choices: [
+          {
+            id: 'choice-stream-13-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-14',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-14',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Spirit\'s Song',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'For a moment, the sound of the water sounds like a melodic song.',
+        choices: [
+          {
+            id: 'choice-stream-14-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-15',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-15',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Golden Sand',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'Patches of golden sand line the banks, sparkling in the light.',
+        choices: [
+          {
+            id: 'choice-stream-15-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'stream-16',
+            order: 1,
+          }
+        ],
+      },
+
+      {
+        id: 'stream-16',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Widening Stream',
+        imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800',
+        narration: 'The stream grows wider and deeper. You feel a magical presence ahead.',
+        choices: [
+          {
+            id: 'choice-stream-16-next',
+            text: 'Continue',
+            description: 'Follow the stream',
+            targetNodeId: 'node-3',
+            order: 1,
+          }
+        ],
+      },
+{
         id: 'node-2',
         storyId: 'story-1',
         type: 'decision',
@@ -77,17 +652,19 @@ const originalStories: Story[] = [
         imageUrl:
           'https://images.unsplash.com/photo-1514565131-fce0801e5785?w=800',
         narration:
-          'The path leads you to a massive oak tree, its trunk wider than a house. Strange symbols are carved into its bark, glowing faintly with an ethereal light. You hear whispers in the wind.',
+          'The path leads you to a massive oak tree, its trunk wider than a house. Strange symbols are carved into its bark, glowing faintly with an ethereal light. You hear whispers in the wind, and the air feels charged with ancient magic.',
         choices: [
           {
             id: 'choice-3',
             text: 'Touch the glowing symbols',
+            description: 'The symbols pulse with energy',
             targetNodeId: 'node-4',
             order: 1,
           },
           {
             id: 'choice-4',
             text: 'Continue past the tree',
+            description: 'Better not disturb ancient magic',
             targetNodeId: 'node-5',
             order: 2,
           },
@@ -101,18 +678,20 @@ const originalStories: Story[] = [
         imageUrl:
           'https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?w=800',
         narration:
-          'Following the stream, you discover a crystal-clear pool. The water is so transparent you can see colorful fish swimming below. In the center of the pool, a small island holds a single white flower.',
+          'Following the stream, you discover a crystal-clear pool. The water is so transparent you can see colorful fish swimming below. In the center of the pool, a small island holds a single white flower that seems to glow with its own light.',
         choices: [
           {
             id: 'choice-5',
             text: 'Wade to the island',
-            targetNodeId: 'node-4',
+            description: 'The flower calls to you',
+            targetNodeId: 'node-6',
             order: 1,
           },
           {
             id: 'choice-6',
             text: 'Rest by the pool',
-            targetNodeId: 'node-5',
+            description: 'Take a moment to reflect',
+            targetNodeId: 'node-7',
             order: 2,
           },
         ],
@@ -120,23 +699,448 @@ const originalStories: Story[] = [
       {
         id: 'node-4',
         storyId: 'story-1',
-        type: 'ending',
-        title: 'The Forest Guardian',
+        type: 'decision',
+        title: 'The Awakening',
         imageUrl:
           'https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=800',
         narration:
-          'Your choice awakens the forest guardian, a majestic spirit of light and nature. She thanks you for your courage and grants you the gift of understanding all living things. You leave the forest forever changed, able to hear the whispers of nature.',
-        choices: [],
+          'As your fingers touch the symbols, the oak shimmers and a spectral figure emerges from the trunk. It is an ancient forest spirit, its form made of light and leaves. "You have awakened me, traveler," it whispers. "What do you seek in this sacred place?"',
+        choices: [
+          {
+            id: 'choice-7',
+            text: 'Ask for wisdom',
+            description: 'Knowledge is the greatest treasure',
+            targetNodeId: 'node-8',
+            order: 1,
+          },
+          {
+            id: 'choice-8',
+            text: 'Ask for protection',
+            description: 'Safety in a dangerous world',
+            targetNodeId: 'node-9',
+            order: 2,
+          },
+        ],
       },
       {
         id: 'node-5',
         storyId: 'story-1',
-        type: 'ending',
-        title: 'Peaceful Journey',
+        type: 'decision',
+        title: 'The Dark Hollow',
         imageUrl:
-          'https://images.unsplash.com/photo-1545232979-8bf68ee9b1af?w=800',
+          'https://images.unsplash.com/photo-1511497584788-876760111969?w=800',
         narration:
-          'You continue your journey through the forest, enjoying its beauty and tranquility. As you emerge on the other side, you feel refreshed and at peace. The forest has given you a gift of serenity that will stay with you always.',
+          'You walk past the oak and find yourself in a darker part of the forest. The trees here are twisted, and shadows move in the corner of your vision. You notice a cave entrance partially hidden by vines, and a faint light coming from deeper in the woods.',
+        choices: [
+          {
+            id: 'choice-9',
+            text: 'Enter the cave',
+            description: 'Discover what lies within',
+            targetNodeId: 'node-10',
+            order: 1,
+          },
+          {
+            id: 'choice-10',
+            text: 'Follow the light',
+            description: 'Light usually means safety',
+            targetNodeId: 'node-11',
+            order: 2,
+          },
+        ],
+      },
+      {
+        id: 'node-6',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Island of Whispers',
+        imageUrl:
+          'https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800',
+        narration:
+          'The water is surprisingly warm as you wade to the island. The white flower trembles as you approach, and you realize it is not a flower at all, but a crystalline formation that hums with energy. Touching it might change everything.',
+        choices: [
+          {
+            id: 'choice-11',
+            text: 'Touch the crystal flower',
+            description: 'Embrace the unknown',
+            targetNodeId: 'node-12',
+            order: 1,
+          },
+          {
+            id: 'choice-12',
+            text: 'Study it from afar',
+            description: 'Caution before curiosity',
+            targetNodeId: 'node-13',
+            order: 2,
+          },
+        ],
+      },
+      {
+        id: 'node-7',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'Dreams by the Water',
+        imageUrl:
+          'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800',
+        narration:
+          'You sit by the pool, and drowsiness washes over you. In your half-dream state, you see visions of the forest past: ancient civilizations, magical creatures, and a great tree at the heart of everything. A voice asks if you wish to understand these visions.',
+        choices: [
+          {
+            id: 'choice-13',
+            text: 'Embrace the vision',
+            description: 'Dive deeper into the dream',
+            targetNodeId: 'node-13',
+            order: 1,
+          },
+          {
+            id: 'choice-14',
+            text: 'Wake yourself',
+            description: 'Some dreams are too deep',
+            targetNodeId: 'node-14',
+            order: 2,
+          },
+        ],
+      },
+      {
+        id: 'node-8',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Spirit\'s Trial',
+        imageUrl:
+          'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
+        narration:
+          '"Wisdom must be earned," the spirit says. The forest around you transforms into a labyrinth of living wood. "Find your way to the Heart Tree, and I shall grant you the wisdom of ages. But beware—the forest tests all who seek its secrets."',
+        choices: [
+          {
+            id: 'choice-15',
+            text: 'Navigate by instinct',
+            description: 'Trust your inner compass',
+            targetNodeId: 'node-15',
+            order: 1,
+          },
+          {
+            id: 'choice-16',
+            text: 'Follow the fireflies',
+            description: 'Nature often guides the way',
+            targetNodeId: 'node-16',
+            order: 2,
+          },
+        ],
+      },
+      {
+        id: 'node-9',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Guardian\'s Blessing',
+        imageUrl:
+          'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800',
+        narration:
+          'The spirit smiles and weaves a protective charm around you. "You shall be shielded from harm, but protection comes with responsibility. Will you use this gift to defend the forest, or to shield yourself as you walk your own path?"',
+        choices: [
+          {
+            id: 'choice-17',
+            text: 'Defend the forest',
+            description: 'Become its guardian',
+            targetNodeId: 'node-17',
+            order: 1,
+          },
+          {
+            id: 'choice-18',
+            text: 'Walk your own path',
+            description: 'Protection for your journey',
+            targetNodeId: 'node-18',
+            order: 2,
+          },
+        ],
+      },
+      {
+        id: 'node-10',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Crystal Cavern',
+        imageUrl:
+          'https://images.unsplash.com/photo-1504333638930-c8787321eee0?w=800',
+        narration:
+          'Inside the cave, you find walls covered in luminescent crystals that pulse like a heartbeat. In the center, a pool of liquid silver reflects not your face, but possible futures. You sense great power here, but also great danger.',
+        choices: [
+          {
+            id: 'choice-19',
+            text: 'Drink from the pool',
+            description: 'See your destiny',
+            targetNodeId: 'node-19',
+            order: 1,
+          },
+          {
+            id: 'choice-20',
+            text: 'Take a crystal',
+            description: 'A piece of magic to keep',
+            targetNodeId: 'node-20',
+            order: 2,
+          },
+        ],
+      },
+      {
+        id: 'node-11',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Fairy Ring',
+        imageUrl:
+          'https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=800',
+        narration:
+          'The light leads you to a clearing where mushrooms grow in a perfect circle. Tiny lights dance within the ring, and you hear laughter like chiming bells. The fairies invite you to join their dance, but warn that time moves differently in their circle.',
+        choices: [
+          {
+            id: 'choice-21',
+            text: 'Join the dance',
+            description: 'Dance with the fae',
+            targetNodeId: 'node-21',
+            order: 1,
+          },
+          {
+            id: 'choice-22',
+            text: 'Politely decline',
+            description: 'Respectfully watch instead',
+            targetNodeId: 'node-22',
+            order: 2,
+          },
+        ],
+      },
+      {
+        id: 'node-12',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Transformation',
+        imageUrl:
+          'https://images.unsplash.com/photo-1518882605630-8eb565f5e673?w=800',
+        narration:
+          'The moment you touch the crystal, energy surges through you. You feel your senses sharpen—you can hear the trees breathing, feel the roots beneath the earth, and sense the heartbeat of the forest itself. You are becoming something more than human.',
+        choices: [
+          {
+            id: 'choice-23',
+            text: 'Embrace the change',
+            description: 'Become one with nature',
+            targetNodeId: 'ending-1',
+            order: 1,
+          },
+          {
+            id: 'choice-24',
+            text: 'Resist and withdraw',
+            description: 'Remain who you are',
+            targetNodeId: 'node-14',
+            order: 2,
+          },
+        ],
+      },
+      {
+        id: 'node-13',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Prophecy Revealed',
+        imageUrl:
+          'https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800',
+        narration:
+          'Your visions coalesce into a clear message: the forest is dying, and you are the key to its survival. An ancient blight is spreading from the north, and only someone who has walked the enchanted paths can stop it. The choice before you is clear.',
+        choices: [
+          {
+            id: 'choice-25',
+            text: 'Accept your destiny',
+            description: 'Save the forest',
+            targetNodeId: 'ending-2',
+            order: 1,
+          },
+          {
+            id: 'choice-26',
+            text: 'The burden is too great',
+            description: 'Choose another way',
+            targetNodeId: 'ending-3',
+            order: 2,
+          },
+        ],
+      },
+      {
+        id: 'node-14',
+        storyId: 'story-1',
+        type: 'decision',
+        title: 'The Crossroads',
+        imageUrl:
+          'https://images.unsplash.com/photo-1448375240586-882707db888b?w=800',
+        narration:
+          'You find yourself at a crossroads where three paths meet. Each path glows with a different color: gold for wealth, green for growth, and blue for knowledge. The forest waits for your decision, its fate hanging in the balance.',
+        choices: [
+          {
+            id: 'choice-27',
+            text: 'The golden path',
+            description: 'Seek treasure',
+            targetNodeId: 'ending-4',
+            order: 1,
+          },
+          {
+            id: 'choice-28',
+            text: 'The green path',
+            description: 'Seek harmony',
+            targetNodeId: 'ending-5',
+            order: 2,
+          },
+          {
+            id: 'choice-29',
+            text: 'The blue path',
+            description: 'Seek understanding',
+            targetNodeId: 'ending-6',
+            order: 3,
+          },
+        ],
+      },
+      {
+        id: 'node-15',
+        storyId: 'story-1',
+        type: 'ending',
+        title: 'The Heart Tree Found',
+        imageUrl:
+          'https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=800',
+        narration:
+          'Your instincts guide you true, and you emerge into a grove where the Heart Tree stands—a massive tree with bark of gold and leaves that shimmer like emeralds. The spirit appears and bestows upon you the ancient wisdom of the forest. You become the first human in centuries to truly understand the language of nature, and you vow to be its voice in the human world.',
+        choices: [],
+      },
+      {
+        id: 'node-16',
+        storyId: 'story-1',
+        type: 'ending',
+        title: 'The Firefly\'s Gift',
+        imageUrl:
+          'https://images.unsplash.com/photo-1518882605630-8eb565f5e673?w=800',
+        narration:
+          'The fireflies lead you not to the Heart Tree, but to a hidden grove where the last dragons of the forest sleep. They awaken at your approach and grant you their eternal friendship. With dragon allies, you become a legend—the Dragon Friend who bridges the world of humans and the ancient wyrms.',
+        choices: [],
+      },
+      {
+        id: 'node-17',
+        storyId: 'story-1',
+        type: 'ending',
+        title: 'The Eternal Guardian',
+        imageUrl:
+          'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
+        narration:
+          'You accept the responsibility of protecting the forest, and the spirit transforms you into an Eternal Guardian—neither fully human nor fully spirit, but something in between. You will watch over these woods for centuries, guiding lost travelers and keeping the ancient magic safe from those who would exploit it.',
+        choices: [],
+      },
+      {
+        id: 'node-18',
+        storyId: 'story-1',
+        type: 'ending',
+        title: 'The Protected Traveler',
+        imageUrl:
+          'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800',
+        narration:
+          'With the spirit\'s blessing upon you, you leave the forest protected from all harm. You live a long and fortunate life, shielded from accidents and illness. But sometimes, in your dreams, you hear the forest calling, wondering if you made the right choice.',
+        choices: [],
+      },
+      {
+        id: 'node-19',
+        storyId: 'story-1',
+        type: 'ending',
+        title: 'The Oracle\'s Vision',
+        imageUrl:
+          'https://images.unsplash.com/photo-1504333638930-c8787321eee0?w=800',
+        narration:
+          'The silver liquid shows you all possible futures, and you gain the gift of prophecy. You leave the forest as an oracle, able to guide others through their destinies. But knowing the future is a heavy burden—you see both joys and sorrows that are yet to come.',
+        choices: [],
+      },
+      {
+        id: 'node-20',
+        storyId: 'story-1',
+        type: 'ending',
+        title: 'The Crystal Keeper',
+        imageUrl:
+          'https://images.unsplash.com/photo-1518882605630-8eb565f5e673?w=800',
+        narration:
+          'The crystal you take becomes your constant companion, humming with magic and lighting your way through darkness. You become known as the Crystal Keeper, using its power to heal the sick and ward off evil. The forest stays with you always, a piece of its magic in your pocket.',
+        choices: [],
+      },
+      {
+        id: 'node-21',
+        storyId: 'story-1',
+        type: 'ending',
+        title: 'The Fairy Friend',
+        imageUrl:
+          'https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=800',
+        narration:
+          'You dance with the fairies until dawn, though decades pass in the human world. When you return, you are unchanged, but you carry the fairies\' blessing. You can see through glamour, speak with the little folk, and you will never age. You become a bridge between the human world and the fairy realm.',
+        choices: [],
+      },
+      {
+        id: 'node-22',
+        storyId: 'story-1',
+        type: 'ending',
+        title: 'The Respectful Observer',
+        imageUrl:
+          'https://images.unsplash.com/photo-1448375240586-882707db888b?w=800',
+        narration:
+          'You watch the fairy dance from outside the circle, showing wisdom and restraint. The fairies notice your respect and gift you a seed from their sacred tree. When planted, it grows into a tree that bears fruit of pure knowledge. You become a wise sage, sharing the fruit\'s wisdom with those who seek truth.',
+        choices: [],
+      },
+      {
+        id: 'ending-1',
+        storyId: 'story-1',
+        type: 'ending',
+        title: 'The Nature Bond',
+        imageUrl:
+          'https://images.unsplash.com/photo-1518882605630-8eb565f5e673?w=800',
+        narration:
+          'You fully embrace your transformation, becoming a guardian of the forest with the power to speak with animals and command the growth of plants. You leave behind your human life to become one with the enchanted woods, finding a peace you never knew existed.',
+        choices: [],
+      },
+      {
+        id: 'ending-2',
+        storyId: 'story-1',
+        type: 'ending',
+        title: 'The Forest Savior',
+        imageUrl:
+          'https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=800',
+        narration:
+          'You accept your destiny and become the Forest Savior. With your newfound powers, you journey north to confront the blight. The battle is fierce, but your courage prevails. You save not just this forest, but all forests connected to it through the ancient root network.',
+        choices: [],
+      },
+      {
+        id: 'ending-3',
+        storyId: 'story-1',
+        type: 'ending',
+        title: 'The Humble Path',
+        imageUrl:
+          'https://images.unsplash.com/photo-1448375240586-882707db888b?w=800',
+        narration:
+          'You choose not to accept the burden of destiny, and the forest respects your honesty. Instead of power, you are granted a simple blessing: the ability to always find your way home. You leave the forest with your life unchanged, but with the knowledge that sometimes the bravest choice is to know your own limits.',
+        choices: [],
+      },
+      {
+        id: 'ending-4',
+        storyId: 'story-1',
+        type: 'ending',
+        title: 'The Golden Bounty',
+        imageUrl:
+          'https://images.unsplash.com/photo-1518882605630-8eb565f5e673?w=800',
+        narration:
+          'The golden path leads you to a treasure beyond imagination—gold, jewels, and artifacts of ancient magic. You leave the forest wealthy beyond your dreams, but the treasure comes with a warning: use it wisely, or it will use you.',
+        choices: [],
+      },
+      {
+        id: 'ending-5',
+        storyId: 'story-1',
+        type: 'ending',
+        title: 'The Harmony Seeker',
+        imageUrl:
+          'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800',
+        narration:
+          'The green path teaches you the secret of living in harmony with all things. You gain the ability to grow any plant and communicate with the earth itself. You become a druid, traveling the world to heal damaged lands and teach others to respect nature.',
+        choices: [],
+      },
+      {
+        id: 'ending-6',
+        storyId: 'story-1',
+        type: 'ending',
+        title: 'The Seeker of Truth',
+        imageUrl:
+          'https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800',
+        narration:
+          'The blue path reveals the hidden truths of existence—why we are here, where we go, and what connects all living things. You become a philosopher and teacher, sharing your insights with those who seek understanding. The forest has given you the greatest gift: the answer to life\'s deepest questions.',
         choices: [],
       },
     ],

@@ -72,7 +72,7 @@ export const storyIdCamelCase: Story = {
   description: 'Compelling description...',
   coverImageUrl: 'https://images.unsplash.com/photo-XXX?w=800',
   thumbnailUrl: 'https://images.unsplash.com/photo-XXX?w=400',
-  author: 'AI Story Generator',
+  author: '[some random but realistic name]',
   genre: 'mystery' | 'romance' | 'fantasy' | 'sci-fi' | 'thriller',
   involvement: 'low' | 'medium' | 'high',
   estimatedDuration: 30-60,

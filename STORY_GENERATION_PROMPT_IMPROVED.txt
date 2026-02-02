@@ -1,4 +1,4 @@
-You are an expert interactive story writer for a mobile storytelling app. Generate a complete, engaging story following these specifications AND output STRICT, VALID JSON files that can be directly used in a remote story repository.
+You are an expert interactive story writer for a mobile storytelling app. Generate a complete, engaging story following these specifications AND output STRICT, VALID JSON that can be pasted directly into a JavaScript/TypeScript project without syntax issues.
 
 === CRITICAL: STORY DEPTH REQUIREMENT (NON-NEGOTIABLE) ===
 
@@ -73,8 +73,7 @@ EVERY choice must significantly alter the story path or outcome:
 - Late-game choices (layer 8+) determine which ending is reached
 
 BANNED GENERIC CHOICES:
-❌ "Choose A" / "Choose B"
-❌ "Option 1" / "Option 2"
+❌ "Choose A" / "Choose B",❌ "Option 1" / "Option 2", "Choise 1" / "Choise B" and so on
 ❌ "Go left" / "Go right" (without context)
 ❌ "Yes" / "No" (unless meaningful moral dilemma)
 ❌ "Fight" / "Run" (unless genuinely different consequences)
@@ -87,9 +86,12 @@ CHOICE TEXT GUIDELINES:
 - Bad: "Hide emotions"
 
 === STORY REQUIREMENTS ===
-- Genre: [GENRE] (only 1 genre from: fantasy, scifi, mystery, romance, horror, adventure, detective)
-- Duration: [DURATION] minutes of gameplay (20-30 minutes recommended)
-- Total Nodes: [NODES] story nodes (28-38 for 25-30 pages)
+- Genre: [GENRE] (only 1 genre)
+- Duration: [DURATION] minutes of gameplay
+- Total Nodes: [NODES] story nodes
+  - For ~20 pages: 24-28 nodes (10+ layers + endings)
+  - For ~25 pages: 28-32 nodes (12+ layers + endings)
+  - For ~30 pages: 32-38 nodes (15+ layers + endings)
 - Total Endings: [ENDINGS] possible endings (4-6 endings)
 - User Involvement: [INVOLVEMENT] (low/medium/high)
 - Target Audience: [TARGET_AUDIENCE] (kids/teens/adults/all)
@@ -97,6 +99,21 @@ CHOICE TEXT GUIDELINES:
 - Central Themes: [THEMES] (array of short strings)
 - Emotional Tone: [EMOTIONAL_TONE] (lighthearted/serious/dark/humorous)
 - Difficulty: [DIFFICULTY] (easy/medium/hard)
+- Total Length Target (characters):
+  - 20 pages: 18000-25000 characters
+  - 25 pages: 22500-31250 characters
+  - 30 pages: 27000-37500 characters
+
+=== JSON SAFETY / JS COMPATIBILITY ===
+
+Output ONLY a single JSON object. No markdown, no explanations, no trailing text.
+The JSON MUST be strictly valid (double quotes only, no trailing commas, no comments).
+Use ONLY standard ASCII characters in all strings:
+- Do NOT use curly quotes: " " ' '
+- Do NOT use em/en dashes: — –
+- Do NOT use ellipsis: …
+- Use straight quotes only: " and '
+- Do NOT include newline characters inside narration strings (single line only)
 
 === CONTENT GUIDELINES ===
 
@@ -106,176 +123,28 @@ Each ending node narration: 200-300 words (1100-1700 ASCII characters)
 Include sensory details and emotional stakes
 Maintain continuity (names, facts, tone)
 
-=== REPOSITORY STRUCTURE (CRITICAL) ===
+=== IMAGE REQUIREMENTS ===
 
-The output must be a ZIP file containing this exact folder structure:
-
-```
-story-{UNIQUE_ID}/
-├── story.json          (Base story in English with all nodes and metadata)
-└── i18n/
-    ├── en.json         (English - same content as story.json)
-    ├── ru.json         (Russian translation)
-    ├── es.json         (Spanish translation)
-    ├── de.json         (German translation)
-    ├── fr.json         (French translation)
-    ├── pt.json         (Portuguese translation)
-    ├── ja.json         (Japanese translation)
-    ├── zh.json         (Chinese translation)
-    ├── ko.json         (Korean translation)
-    ├── uk.json         (Ukrainian translation)
-    ├── it.json         (Italian translation)
-    ├── ar.json         (Arabic translation)
-    ├── hi.json         (Hindi translation)
-    ├── nl.json         (Dutch translation)
-    ├── pl.json         (Polish translation)
-    └── tr.json         (Turkish translation)
-```
-
-=== STORY.JSON FORMAT (Base File) ===
-
-This is the main story file containing the full story structure:
-
-```json
-{
-  "id": "story-{UNIQUE_ID}",
-  "title": "Story Title",
-  "description": "1-2 sentences describing the story hook.",
-  "author": "Realistic Author Name",
-  "genre": "[GENRE]",
-  "difficulty": "[DIFFICULTY]",
-  "involvement": "[INVOLVEMENT]",
-  "estimatedDuration": [DURATION],
-  "isPremium": false,
-  "version": "1.0.0",
-  "createdAt": "2025-01-15",
-  "updatedAt": "2025-01-15",
-  "totalNodes": [NODES],
-  "totalEndings": [ENDINGS],
-  "startNodeId": "node-1",
-  "coverImageUrl": "https://images.unsplash.com/photo-XXXXXXXXXXXXXXX?w=800",
-  "thumbnailUrl": "https://images.unsplash.com/photo-XXXXXXXXXXXXXXX?w=400",
-  "nodes": [
-    {
-      "id": "node-1",
-      "storyId": "story-{UNIQUE_ID}",
-      "type": "start",
-      "title": "Scene Title",
-      "narration": "Single line narration text. No newlines. 150-200 words per node.",
-      "imageUrl": "https://images.unsplash.com/photo-XXXXXXXXXXXXXXX?w=800",
-      "thumbnailUrl": "https://images.unsplash.com/photo-XXXXXXXXXXXXXXX?w=400",
-      "choices": [
-        {
-          "id": "choice-1",
-          "text": "Specific descriptive action text here",
-          "targetNodeId": "node-2",
-          "order": 1
-        },
-        {
-          "id": "choice-2",
-          "text": "Different specific descriptive action here",
-          "targetNodeId": "node-3",
-          "order": 2
-        }
-      ]
-    }
-  ]
-}
-```
-
-=== I18N/EN.JSON FORMAT (Translation File) ===
-
-Translation files contain ONLY the localized text content. IMPORTANT: node IDs and choice IDs must match exactly with story.json:
-
-```json
-{
-  "title": "Story Title",
-  "description": "Story description in this language.",
-  "author": "Author Name (translated if needed)",
-  "nodes": {
-    "node-1": {
-      "title": "Scene Title",
-      "narration": "Narration text in this language...",
-      "choices": {
-        "choice-1": {
-          "text": "Choice text in this language"
-        },
-        "choice-2": {
-          "text": "Choice text in this language"
-        }
-      }
-    },
-    "node-2": {
-      "title": "Another Scene Title",
-      "narration": "More narration...",
-      "choices": {
-        "choice-3": {
-          "text": "Another choice"
-        }
-      }
-    }
-  }
-}
-```
+- metadata.coverImageUrl: Unsplash URL with ?w=800
+- metadata.thumbnailUrl: Unsplash URL with ?w=400
+- nodes[].imageUrl: Unsplash URL with ?w=800
+- nodes[].thumbnailUrl: Unsplash URL with ?w=400
+All images should be various and different each other but have the same visual style/mood
+Do not use any abstract images - they should be realistic and relevant to the story content (people, car(s), buildings, etc.)
+Before using an image link ensure it's not broken - it doesn't leading to 404, etc
+Use only the images that are not listed yet in https://github.com/Chepman32/ChronoCanvas/blob/main/IMAGE_MAPPING.json
 
 === NODE MODEL RULES ===
 
-- Node ids must be unique and sequential: node-1, node-2, ... node-[N]
+- Node ids must be unique and sequential: node-1 ... node-[NODES]
 - node-1 type must be "start"
 - Exactly [ENDINGS] nodes must have type "ending"
 - All other nodes must have type "decision"
 - Every choice targetNodeId must point to an existing node id
 - Ending nodes must have choices: [] (empty array)
 - Non-ending nodes must have 2 or 3 choices
-- Choice ids must be unique across the entire story: choice-1, choice-2, etc.
+- Choice ids must be unique: choice-1 ... choice-[X]
 - choices[].text must be 5-12 words, descriptive and specific
-
-=== IMAGE REQUIREMENTS ===
-
-- Use real, working Unsplash URLs ONLY
-- Format: https://images.unsplash.com/photo-{ACTUAL_ID}?w=800
-- Verify URLs are not 404 before including
-- All images should be different but have consistent visual style/mood
-- Use realistic images (people, places, objects) - NO abstract art
-- coverImageUrl: w=800, thumbnailUrl: w=400
-- Each node needs: imageUrl (w=800), thumbnailUrl (w=400)
-
-=== JSON SAFETY / JS COMPATIBILITY ===
-
-- Output ONLY valid JSON for each file
-- Use double quotes ONLY, no single quotes
-- NO trailing commas
-- NO comments in JSON output
-- NO newline characters inside strings
-- Use straight quotes: " not curly quotes: " "
-- Use hyphens: - not em/en dashes: — –
-- Use three dots: ... not ellipsis: …
-
-=== TRANSLATION REQUIREMENTS ===
-
-Generate translations for ALL 16 languages (in addition to English):
-1. English (en) - base language
-2. Russian (ru)
-3. Spanish (es)
-4. German (de)
-5. French (fr)
-6. Portuguese (pt)
-7. Japanese (ja)
-8. Chinese (zh)
-9. Korean (ko)
-10. Ukrainian (uk)
-11. Italian (it)
-12. Arabic (ar)
-13. Hindi (hi)
-14. Dutch (nl)
-15. Polish (pl)
-16. Turkish (tr)
-
-Translation quality requirements:
-- Maintain tone, emotion, and character voice
-- Adapt cultural references appropriately
-- Keep choice text 5-12 words in all languages
-- Ensure node narration length matches original (150-200 words equivalent)
 
 === FINAL LAYER CHECK (BEFORE OUTPUT) ===
 
@@ -287,14 +156,40 @@ Map out your story layers explicitly and verify:
 
 If you cannot verify 10+ layers, ADD MORE NODES.
 
-=== OUTPUT INSTRUCTIONS ===
+=== OUTPUT FORMAT ===
 
-Generate a ZIP file containing the complete story package with:
-1. story.json - Base story file (English) with full node structure
-2. i18n/en.json - English translation file (same content as story.json)
-3. i18n/ru.json through i18n/tr.json - All 16 language translations
+{
+  "metadata": {
+    "title": "Story Title",
+    "description": "1-2 sentences.",
+    "author": ["Some random but realistic name"],
+    "genre": "[GENRE]",
+    "themes": ["theme1", "theme2"],
+    "targetAudience": "[TARGET_AUDIENCE]",
+    "contentRating": "[CONTENT_RATING]",
+    "emotionalTone": "[EMOTIONAL_TONE]",
+    "difficulty": "[DIFFICULTY]",
+    "estimatedDuration": [DURATION],
+    "totalNodes": [NODES],
+    "totalEndings": [ENDINGS],
+    "involvement": "[INVOLVEMENT]",
+    "coverImageUrl": "https://images.unsplash.com/photo-XXXXXXXXXXXXXXX?w=800",
+    "thumbnailUrl": "https://images.unsplash.com/photo-XXXXXXXXXXXXXXX?w=400"
+  },
+  "nodes": [
+    {
+      "id": "node-1",
+      "type": "start",
+      "title": "Scene Title",
+      "narration": "Single line narration. No newlines.",
+      "imageUrl": "https://images.unsplash.com/photo-XXXXXXXXXXXXXXX?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-XXXXXXXXXXXXXXX?w=400",
+      "choices": [
+        { "id": "choice-1", "text": "Specific descriptive action text", "targetNodeId": "node-2", "order": 1 },
+        { "id": "choice-2", "text": "Different specific descriptive action", "targetNodeId": "node-3", "order": 2 }
+      ]
+    }
+  ]
+}
 
-The ZIP should have the folder name: story-{UNIQUE_ID}/
-Where {UNIQUE_ID} is a unique numeric ID (e.g., story-123456789)
-
-DO NOT include markdown code blocks, explanations, or any text outside the JSON files in the final output.
+Generate the full story JSON ensuring MINIMUM 10 decision layers before any ending.

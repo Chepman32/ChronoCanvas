@@ -1,0 +1,416 @@
+{
+  "title": "A Casa da Meia-Noite",
+  "description": "Uma mansão vitoriana guarda segredos sombrios. Irá descobrir a verdade ou tornar-se mais um fantasma?",
+  "nodes": {
+    "node-1": {
+      "title": "A Chegada",
+      "narration": "Você está diante dos portões de ferro da Casa da Meia-Noite. A névoa rodopia ao redor dos seus tornozelos, fria e pegajosa. A carta dizia para vir sozinho, depois de escurecer. 'Eu sei o que você fez no verão passado', dizia o bilhete, escrito com uma caligrafia trêmula. 'Venha à Mansão Blackwood se quiser manter isso em segredo.' A enorme casa ergue-se contra o céu escuro, uma luz solitária tremeluz numa janela do segundo andar. O portão está entreaberto, como se o convidasse a entrar... ou atraindo-o para uma armadilha.",
+      "choices": {
+        "choice-1": {
+          "text": "Entrar pelos portões principais e aproximar-se da porta da frente"
+        },
+        "choice-2": {
+          "text": "Dar a volta ao perímetro à procura de outra entrada"
+        }
+      }
+    },
+    "node-2": {
+      "title": "A Entrada Principal",
+      "narration": "O cascalho estala sob as suas botas enquanto caminha pela entrada. O vento uiva através dos ramos retorcidos dos velhos carvalhos. Você sobe os degraus de pedra até a maciça porta de carvalho. A aldrava em forma de gárgula encara-o com olhos vazios. Você estende a mão para bater, mas a porta abre-se sozinha com um rangido, revelando um vestíbulo escuro. O cheiro de papel velho e flores murchas escapa para fora.",
+      "choices": {
+        "choice-3": {
+          "text": "Entrar no vestíbulo e chamar pelo dono"
+        },
+        "choice-4": {
+          "text": "Ficar na varanda e esperar que alguém apareça"
+        }
+      }
+    },
+    "node-3": {
+      "title": "Nas Sombras do Jardim",
+      "narration": "Você decide não ir direto para a porta da frente. Em vez disso, esgueira-se pela grama alta até a lateral da casa. Está escuro aqui, a luz da lua mal atravessa as nuvens espessas. Você tropeça numa velha estufa, com os vidros quebrados e sujos. Dentro, sombras estranhas e não naturais de plantas são visíveis. Perto dali, há uma porta de serviço que parece menos imponente que a entrada principal.",
+      "choices": {
+        "choice-5": {
+          "text": "Tentar abrir a porta de serviço"
+        },
+        "choice-6": {
+          "text": "Espreitar dentro da estufa"
+        }
+      }
+    },
+    "node-4": {
+      "title": "O Grande Salão",
+      "narration": "Você entra. 'Olá? Tem alguém aqui?' A sua voz ecoa pelas paredes altas. A porta atrás de você fecha-se com um estrondo. Você puxa a maçaneta - trancada. Você está preso. A única luz vem de um candelabro acima, que pisca fracamente. Diante de você há uma larga escadaria que leva para cima, e corredores escuros à esquerda e à direita.",
+      "choices": {
+        "choice-7": {
+          "text": "Subir as escadas para o segundo andar"
+        },
+        "choice-8": {
+          "text": "Explorar o corredor à esquerda"
+        }
+      }
+    },
+    "node-5": {
+      "title": "A Espera",
+      "narration": "Você decide esperar. Passam-se minutos que parecem horas. O frio penetra até aos ossos. De repente, ouve um sussurro bem no seu ouvido: 'Por que nos faz esperar?' Você vira-se bruscamente, mas não há ninguém. Olhando de volta para a porta, vê uma figura alta num casaco escuro parada na entrada. 'Está atrasado', diz a figura com uma voz que soa como pedras a roçar. 'O jantar está servido.'",
+      "choices": {
+        "choice-9": {
+          "text": "Seguir a figura para dentro"
+        },
+        "choice-10": {
+          "text": "Empurrar a figura e tentar fugir"
+        }
+      }
+    },
+    "node-6": {
+      "title": "A Cozinha",
+      "narration": "A porta de serviço cede com um gemido de protesto. Você encontra-se numa cozinha espaçosa e abandonada. Fileiras de panelas de cobre brilham fracamente ao luar. Numa grande mesa de corte repousa uma maçã vermelha fresca, parecendo estranhamente deslocada entre a poeira e teias de aranha. Das profundezas da casa, ouvem-se passos suaves.",
+      "choices": {
+        "choice-11": {
+          "text": "Esconder-se na despensa"
+        },
+        "choice-12": {
+          "text": "Pegar numa faca da mesa e ir em direção ao som"
+        }
+      }
+    },
+    "node-7": {
+      "title": "A Estufa",
+      "narration": "Você limpa o vidro sujo e espreita para dentro. As plantas lá dentro... estão a mexer-se, embora não haja vento. Não são flores comuns; as suas vinhas contorcem-se como cobras, e os botões parecem pequenas bocas. No centro da estufa está uma estátua de uma mulher que parece estar a olhar diretamente para você. De repente, uma das vinhas quebra o vidro e agarra o seu braço!",
+      "choices": {
+        "choice-13": {
+          "text": "Tentar soltar-se e correr para a porta de serviço"
+        },
+        "choice-14": {
+          "text": "Usar um isqueiro para afugentar a planta"
+        }
+      }
+    },
+    "node-8": {
+      "title": "O Segundo Andar",
+      "narration": "Você sobe a escada rangente. No topo há um longo corredor com muitas portas. Aquela de onde viu a luz da rua está no final. Ouve-se uma melodia suave de uma caixa de música vindo de um quarto à direita.",
+      "choices": {
+        "choice-15": {
+          "text": "Ir para o quarto com a luz no final do corredor"
+        },
+        "choice-16": {
+          "text": "Verificar o quarto com a música"
+        }
+      }
+    },
+    "node-9": {
+      "title": "A Biblioteca",
+      "narration": "O corredor da esquerda leva-o a uma enorme biblioteca. Prateleiras do chão ao teto estão cheias de livros antigos. Brasas ainda brilham na lareira, embora não haja ninguém. Um diário aberto está sobre a mesa. Você lê a última entrada: 'Eles vieram buscar-me. Não posso me esconder mais. O segredo está no retrato.'",
+      "choices": {
+        "choice-17": {
+          "text": "Examinar o retrato sobre a lareira"
+        },
+        "choice-18": {
+          "text": "Ler as páginas anteriores do diário"
+        }
+      }
+    },
+    "node-10": {
+      "title": "A Sala de Jantar",
+      "narration": "A figura leva-o à sala de jantar. Uma longa mesa está posta para uma pessoa. 'Sente-se', ordena o anfitrião. Você nota que no prato não há comida, mas uma fotografia antiga e amarelada... sua. Tirada ontem. 'Nós estivemos a observar', diz ele.",
+      "choices": {
+        "choice-19": {
+          "text": "Exigir explicações"
+        },
+        "choice-20": {
+          "text": "Virar a mesa e criar o caos"
+        }
+      }
+    },
+    "node-11": {
+      "title": "A Fuga",
+      "narration": "Você empurra a figura. Ela parece sólida como madeira e fria ao toque. A figura não cai, mas você consegue passar por ela. Corre de volta para o portão, mas ele fechou-se. As grades são muito altas para escalar. Você ouve passos pesados atrás de si.",
+      "choices": {
+        "choice-21": {
+          "text": "Esconder-se nos arbustos"
+        },
+        "choice-22": {
+          "text": "Correr para a estufa"
+        }
+      }
+    },
+    "node-12": {
+      "title": "A Despensa",
+      "narration": "Você espreme-se numa despensa estreita com cheiro a mofo. Pela fresta da porta, vê uma mulher com um vestido de criada da era vitoriana entrar na cozinha. Ela cantarola uma canção de ninar assustadora. Ela pega na maçã e o seu rosto muda - a mandíbula cai de forma não natural, revelando fileiras de dentes afiados.",
+      "choices": {
+        "choice-23": {
+          "text": "Prender a respiração e esperar que ela vá embora"
+        },
+        "choice-24": {
+          "text": "Sair e atacar enquanto ela está distraída"
+        }
+      }
+    },
+    "node-13": {
+      "title": "Armado",
+      "narration": "Segurando a faca enferrujada, você esgueira-se em direção ao som. Ele leva-o a um corredor de serviço. À frente, vê luz saindo por baixo de uma porta. Vozes discutem lá dentro. 'Ele não virá', diz uma. 'Ele tem que vir', responde outra. 'O ritual exige o sangue dele.'",
+      "choices": {
+        "choice-25": {
+          "text": "Invadir o quarto"
+        },
+        "choice-26": {
+          "text": "Continuar a ouvir"
+        }
+      }
+    },
+    "node-14": {
+      "title": "Fogo",
+      "narration": "Você acende o isqueiro. A chama surge e a planta recua com um guincho. O fogo espalha-se para as folhas secas próximas. Toda a estufa começa a encher-se de fumaça. Uma porta da casa abre-se e alguém sai a correr, tossindo.",
+      "choices": {
+        "choice-27": {
+          "text": "Aproveitar a confusão e entrar na casa"
+        },
+        "choice-28": {
+          "text": "Ajudar a pessoa a sair"
+        }
+      }
+    },
+    "node-15": {
+      "title": "O Quarto do Mestre",
+      "narration": "Você chega ao fim do corredor e empurra a porta. O quarto está iluminado por velas. No centro está um velho. 'Eu estava à sua espera, Anton', diz ele (embora esse não seja o seu nome, ou será...?). 'Chegou a hora de pagar a dívida.'",
+      "choices": {
+        "choice-29": {
+          "text": "Dizer que ele está enganado"
+        },
+        "choice-30": {
+          "text": "Perguntar de que dívida ele está a falar"
+        }
+      }
+    },
+    "node-16": {
+      "title": "O Quarto de Criança",
+      "narration": "A fonte da música é um antigo quarto de criança. No meio do quarto há um berço que balança sozinho. Uma caixa de música na prateleira toca 'Baa, Baa, Black Sheep', mas num tom menor. Você aproxima-se do berço e olha para dentro. Está vazio, apenas um espelho repousa no fundo.",
+      "choices": {
+        "choice-31": {
+          "text": "Pegar no espelho"
+        },
+        "choice-32": {
+          "text": "Parar o berço"
+        }
+      }
+    },
+    "node-17": {
+      "title": "Conversa com os Mortos",
+      "narration": "Você pressiona as mãos contra a parede e fala diretamente com a presença atrás dela. 'Samuel? Se é esse o seu nome, eu quero entender o que lhe aconteceu.' Os arranhões param. Silêncio. Então uma voz, jovem e desesperada, vem através da madeira como se de muito longe: 'Ele matou-a. Disse que era para o bem dela, mas matou-a lentamente. Matou-me lentamente. Fez-me assistir enquanto eu morria pedaço por pedaço.' A sua voz treme quando pergunta: 'O que você quer?' A resposta vem imediatamente: 'Quero que ele sinta o que eu senti. Cada momento. Cada dia. Até que entenda que a morte é misericórdia.' Você percebe com uma certeza afundante que Samuel não está preso. Ele está no controlo. A casa inteira é dele agora: uma extensão da sua vontade, da sua dor, da sua necessidade de punição. 'Traga-me alguém', sussurra Samuel. 'Traga-me alguém novo. Alguém em quem a força vital brilhe forte. Se fizer isso, ele deixá-lo-á ir. Poderá ter a liberdade.' As suas mãos caem da parede. Foi-lhe oferecido um pacto. Trair outra pessoa ou ficar preso você mesmo.",
+      "choices": {
+        "choice-33": {
+          "text": "Recusar o pacto e planear outra fuga"
+        },
+        "choice-34": {
+          "text": "Aceitar os termos de Samuel e procurar uma vítima"
+        }
+      }
+    },
+    "node-18": {
+      "title": "Passagem Secreta",
+      "narration": "Você folheia o diário para trás. As páginas estão cheias de desenhos loucos de olhos e portas. Uma entrada chama a atenção: 'Atrás da lareira há uma passagem. É preciso pressionar o tijolo com a rachadura.' Você olha para a lareira.",
+      "choices": {
+        "choice-35": {
+          "text": "Procurar o tijolo"
+        },
+        "choice-36": {
+          "text": "Ignorar e procurar outra saída da biblioteca"
+        }
+      }
+    },
+    "node-19": {
+      "title": "A Verdade",
+      "narration": "O anfitrião ri, um som seco e estaladiço. 'Explicações? Você não está aqui para fazer perguntas. Está aqui para se tornar parte da coleção.' As paredes começam a mover-se, revelando nichos com os corpos embalsamados de hóspedes anteriores.",
+      "choices": {
+        "choice-37": {
+          "text": "Lutar pela sua vida"
+        },
+        "choice-38": {
+          "text": "Implorar por misericórdia"
+        }
+      }
+    },
+    "node-20": {
+      "title": "Caos",
+      "narration": "Você vira a pesada mesa de carvalho com força. A louça voa para o chão com um som ensurdecedor. O anfitrião sibila como um gato zangado e recua para as sombras. 'Tolo! Partiu a urna!' grita ele. Dos fragmentos do vaso partido sobe uma fumaça cinzenta.",
+      "choices": {
+        "choice-39": {
+          "text": "Correr para a saída enquanto ele está distraído"
+        },
+        "choice-40": {
+          "text": "Atacar o anfitrião"
+        }
+      }
+    },
+    "node-21": {
+      "title": "O Labirinto do Jardim",
+      "narration": "Os arbustos revelam-se parte de um antigo labirinto. Você mergulha para dentro, os ramos arranham o seu rosto. Os passos atrás ficam mais altos, depois silenciam. Você está perdido. Ao redor, apenas sebes altas.",
+      "choices": {
+        "choice-41": {
+          "text": "Seguir a regra da mão direita"
+        },
+        "choice-42": {
+          "text": "Tentar abrir caminho através da sebe"
+        }
+      }
+    },
+    "node-22": {
+      "title": "O Fantasma da Estufa",
+      "narration": "Você corre até a estufa, mas a porta está trancada. Lá dentro, vê a figura de uma rapariga a bater nos vidros. 'Não entre!' grita ela sem som. Mas os passos do perseguidor já estão muito próximos.",
+      "choices": {
+        "choice-43": {
+          "text": "Quebrar o vidro e entrar"
+        },
+        "choice-44": {
+          "text": "Esconder-se atrás da estufa"
+        }
+      }
+    },
+    "node-23": {
+      "title": "Descoberta",
+      "narration": "A criada sai, murmurando sobre 'carne fresca'. Você expira. Agora o caminho para a cozinha está livre, mas a porta por onde ela saiu leva à cave.",
+      "choices": {
+        "choice-45": {
+          "text": "Explorar a cave"
+        },
+        "choice-46": {
+          "text": "Sair pela cozinha para a casa"
+        }
+      }
+    },
+    "node-24": {
+      "title": "Confronto",
+      "narration": "Você salta com um grito. A criatura guincha com uma voz desumana e lança-se sobre você. Você consegue acertar-lhe com algo pesado, e ela desfaz-se em pó. Mas o barulho certamente atraiu atenção.",
+      "choices": {
+        "choice-47": {
+          "text": "Fugir"
+        },
+        "choice-48": {
+          "text": "Barricar-se"
+        }
+      }
+    },
+    "node-25": {
+      "title": "O Ritual",
+      "narration": "Você invade a sala. Cinco figuras encapuzadas estão em volta de um pentagrama. Elas viram as cabeças para si. 'Um voluntário', diz o líder. 'Que gentileza.'",
+      "choices": {
+        "choice-49": {
+          "text": "Tentar interromper o ritual"
+        },
+        "choice-50": {
+          "text": "Render-se"
+        }
+      }
+    },
+    "node-26": {
+      "title": "Conhecimento Secreto",
+      "narration": "Você ouve. Eles falam sobre como a casa se alimenta do medo. A única maneira de a vencer é não ter medo. 'Se ele rir, o feitiço quebra-se', diz uma voz.",
+      "choices": {
+        "choice-51": {
+          "text": "Entrar e contar uma piada"
+        },
+        "choice-52": {
+          "text": "Usar esse conhecimento mais tarde"
+        }
+      }
+    },
+    "node-27": {
+      "title": "Na Casa",
+      "narration": "Aproveitando o pânico, você esgueira-se pela porta aberta. Encontra-se num corredor com retratos cujos olhos o seguem.",
+      "choices": {
+        "choice-53": {
+          "text": "Correr para o interior da casa"
+        },
+        "choice-54": {
+          "text": "Esconder-se atrás de uma cortina"
+        }
+      }
+    },
+    "node-28": {
+      "title": "Resgate",
+      "narration": "Você agarra a mão da pessoa e puxa-a para fora. É um jovem rapaz, apavorado até à morte. 'Obrigado', ele sussurra rouco. 'Eu sei onde é a saída. Um túnel secreto.'",
+      "choices": {
+        "choice-55": {
+          "text": "Confiar nele"
+        },
+        "choice-56": {
+          "text": "Não confiar e ir sozinho"
+        }
+      }
+    },
+    "node-29": {
+      "title": "O Clímax",
+      "narration": "Você recusa o pacto decisivamente. 'Não serei como ele. E não serei a tua marioneta.' Samuel grita de fúria, as paredes tremem. 'ENTÃO FIQUE AQUI PARA SEMPRE!' O chão sob você cede.",
+      "choices": {
+        "choice-57": {
+          "text": "Tentar agarrar-se à borda"
+        },
+        "choice-58": {
+          "text": "Aceitar a queda"
+        }
+      }
+    },
+    "node-30": {
+      "title": "O Novo Mestre",
+      "narration": "Você concorda. 'Sábia escolha', sussurra Samuel. A porta abre-se. No corredor está o mesmo rapaz que você salvou da estufa (ou poderia ter salvo). Ele olha para si com esperança. Você aperta o cabo da faca no bolso...",
+      "choices": {
+        "choice-59": {
+          "text": "Cumprir a sua parte do acordo"
+        },
+        "choice-60": {
+          "text": "Mudar de ideia no último momento e atacar a 'presença'"
+        }
+      }
+    },
+    "node-31": {
+      "title": "O Espelho",
+      "narration": "Você pega no espelho. No reflexo, não vê a si mesmo, mas um fantasma parado atrás do seu ombro. Ele sorri e coloca um dedo nos lábios.",
+      "choices": {
+        "choice-61": {
+          "text": "Partir o espelho"
+        },
+        "choice-62": {
+          "text": "Perguntar quem ele é"
+        }
+      }
+    },
+    "node-32": {
+      "title": "O Berço",
+      "narration": "Você para o berço com a mão. A música para abruptamente. O silêncio pressiona os ouvidos. De repente, o berço começa a tremer com força selvagem, e um choro de bebé, alto e penetrante, rasga o ar.",
+      "choices": {
+        "choice-63": {
+          "text": "Fugir do quarto"
+        },
+        "choice-64": {
+          "text": "Tentar acalmar o 'bebé'"
+        }
+      }
+    }
+  },
+  "endings": {
+    "ending-1": {
+      "title": "O Hóspede Eterno",
+      "narration": "Você não conseguiu escapar. A casa consumiu-o, como a muitos outros. Agora você é parte da coleção, mais um fantasma a vaguear pelos corredores e a assustar novos hóspedes. Talvez na próxima vez tenha mais sorte... mas para si não haverá próxima vez."
+    },
+    "ending-2": {
+      "title": "Liberdade... ou não?",
+      "narration": "Você corre pelos portões, os pulmões a arder com o ar frio. Não para até chegar à cidade. Está salvo. Mas todas as noites sonha com esta casa. E às vezes, ao olhar para o espelho, vê uma sombra com olhos de brasa atrás do ombro. Você deixou a Casa da Meia-Noite, mas será que ela o deixou a si?"
+    },
+    "ending-3": {
+      "title": "O Herdeiro",
+      "narration": "Você realizou o ritual. Fez o sacrifício. A casa aceitou-o. Agora você é o novo Mestre. O poder corre pelas suas veias, antigo e sombrio. Você olha pela janela para os novos hóspedes que chegam. 'Bem-vindos', sussurra com um sorriso. O jantar está servido."
+    },
+    "ending-4": {
+      "title": "O Destruidor da Maldição",
+      "narration": "A sua coragem (ou estupidez) quebrou o feitiço. O riso, a falta de medo, ou talvez o fogo - algo funcionou. A casa começou a desmoronar, tijolo por tijolo, dissolvendo-se na névoa da manhã. Você está num campo vazio, onde há pouco estava a mansão. Acabou. A maldição foi quebrada."
+    },
+    "ending-5": {
+      "title": "O Esquecido",
+      "narration": "Você escondeu-se demasiado bem. Ninguém o encontrou. Ninguém veio por si. Ficou na escuridão, à espera de um resgate que nunca chegou. Com o tempo, esqueceu o seu nome. Esqueceu como é o sol. Tornou-se apenas mais uma sombra no canto."
+    },
+    "ending-6": {
+      "title": "Pacto com o Diabo",
+      "narration": "Você fez um acordo com Samuel. É livre, rico e bem-sucedido. Mas o preço foi alto. Em cada sombra vê os rostos daqueles que traiu. E sabe que quando a sua hora chegar, Samuel virá cobrar a dívida. E os juros serão terríveis."
+    }
+  }
+}

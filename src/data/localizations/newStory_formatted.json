@@ -1,0 +1,755 @@
+{
+  "metadata": {
+    "title": "The Midnight House",
+    "description": "A new job as a live-in caretaker at a remote estate becomes a nightmare when you discover the house's dark secrets. Every decision determines if you escape alive.",
+    "author": [
+      "Marcus Vincent"
+    ],
+    "genre": "Horror",
+    "themes": [
+      "survival",
+      "sanity",
+      "betrayal",
+      "supernatural forces",
+      "moral choices"
+    ],
+    "targetAudience": "adults",
+    "contentRating": "M",
+    "emotionalTone": "dark",
+    "difficulty": "hard",
+    "estimatedDuration": 25,
+    "totalNodes": 32,
+    "totalEndings": 6,
+    "involvement": "high",
+    "coverImageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=400"
+  },
+  "nodes": [
+    {
+      "id": "node-1",
+      "type": "start",
+      "title": "The Job Offer",
+      "narration": "The estate sprawls across ten acres of overgrown woodland. You arrived this morning as the new live-in caretaker, hired sight-unseen by an elderly man named Mr. Ashford who barely looked at you during the interview. The mansion looms before you with Victorian architecture, peeling paint, and windows dark as staring eyes. Your key clicks in the lock. The air inside smells of dust, old wood, and something sweeter, more rotten. In the foyer, a note on the table reads: 'Dinner is at seven. Do not leave your room after dark. Ashford.' It's only 3 PM. Your phone has no signal. Outside, the sun begins its descent through the trees.",
+      "imageUrl": "https://images.unsplash.com/photo-1584744506934-f0b440a33d33?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1584744506934-f0b440a33d33?w=400",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Explore the mansion immediately for answers",
+          "targetNodeId": "node-2",
+          "order": 1
+        },
+        {
+          "id": "choice-2",
+          "text": "Stay in your room and wait for Mr. Ashford",
+          "targetNodeId": "node-3",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-2",
+      "type": "decision",
+      "title": "Forbidden Halls",
+      "narration": "You move through the house room by room, your footsteps echoing off hardwood floors. The library contains hundreds of leather-bound books, many unopened. In the study, you find a desk covered in correspondence all dated from five years ago, all addressed to 'Samuel Ashford.' But Mr. Ashford said his name was Marcus. You're examining a photograph of a family group with scratched-out faces when you hear a sound from upstairs. A door slams. Then silence. Your heart accelerates. In the hallway, you spot a locked door with fresh scratch marks around the frame. The scratching sounds continue above, now slower, deliberate. The grandfather clock in the main hall chimes once, an eerie single note.",
+      "imageUrl": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=400",
+      "choices": [
+        {
+          "id": "choice-3",
+          "text": "Try to pick the lock on the suspicious door",
+          "targetNodeId": "node-4",
+          "order": 1
+        },
+        {
+          "id": "choice-4",
+          "text": "Head upstairs to investigate the scratching",
+          "targetNodeId": "node-5",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-3",
+      "type": "decision",
+      "title": "Settling In",
+      "narration": "You unpack your belongings in the guest room on the second floor with high ceilings, a four-poster bed, and windows overlooking the dark forest. You try to sleep but manage only restless dozing. At 6:45 PM, you head downstairs. Mr. Ashford is waiting in the dining room with dinner already served: roasted chicken, vegetables, and bread. He looks different in lamplight, older and hollow-eyed. 'You didn't wander, I hope,' he says quietly. You lie, saying no. He studies you for a long moment. 'Good. The house has rules. Break them and you'll regret it.' Behind him, a portrait on the wall shows the same man, thirty years younger, standing between a woman and a boy. Their faces have been painted over with black strokes. Ashford notices your gaze. His jaw tightens. 'Finish eating,' he says coldly.",
+      "imageUrl": "https://images.unsplash.com/photo-1577091160550-2173dba999ef?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1577091160550-2173dba999ef?w=400",
+      "choices": [
+        {
+          "id": "choice-5",
+          "text": "Ask him directly about the family portrait",
+          "targetNodeId": "node-6",
+          "order": 1
+        },
+        {
+          "id": "choice-6",
+          "text": "Finish eating quietly and observe him carefully",
+          "targetNodeId": "node-7",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-4",
+      "type": "decision",
+      "title": "Locked Secrets",
+      "narration": "Your paperclip and credit card work better than expected. The lock gives way after two minutes. The door swings inward slowly. Inside is a bedroom untouched and perfectly preserved like a museum. A child's room. A wooden train set sits on a shelf. A small school desk holds drawing paper with crude sketches of houses and stick figures. One drawing shows a tall man and small boy with a big red X through the boy's face. On the nightstand: a journal. Your hands tremble as you open it. The handwriting is childish at first, then grows increasingly erratic. Final entry, dated twenty years ago: 'Father says I'm the reason Mother is sick. He says I'm evil. I can feel it inside me. I can feel it growing.' You hear footsteps in the hallway. Heavy, deliberate steps. They stop outside this door.",
+      "imageUrl": "https://images.unsplash.com/photo-1573920591413-2a47b9d9eefd?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1573920591413-2a47b9d9eefd?w=400",
+      "choices": [
+        {
+          "id": "choice-7",
+          "text": "Hide the journal and quickly leave the room",
+          "targetNodeId": "node-8",
+          "order": 1
+        },
+        {
+          "id": "choice-8",
+          "text": "Confront Ashford directly when he enters",
+          "targetNodeId": "node-9",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-5",
+      "type": "decision",
+      "title": "Upstairs Darkness",
+      "narration": "The staircase creaks with each step. Upstairs, the hallway stretches longer than the house's exterior should allow. Doors line both sides, mostly closed. The scratching sound comes from the far end. You approach cautiously. At the hallway's end, a narrow staircase spirals upward into shadow, a third floor you hadn't noticed from outside. The scratching now sounds deliberate, rhythmic. You push open a nearby door. Inside is an old woman sitting on a bed, her fingernails bloody and worn down. She's been scratching the wooden bedframe obsessively. She looks up with wild, unrecognizing eyes. 'He locks me away,' she whispers. 'He says I'm contagious. He says I killed them all.' Before you can respond, you hear Mr. Ashford's voice from downstairs: 'Dinner is ready!' The woman grabs your wrist with surprising strength. 'Don't let him catch you here. Please. He'll add you to the collection.'",
+      "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+      "choices": [
+        {
+          "id": "choice-9",
+          "text": "Try to free the woman and escape together",
+          "targetNodeId": "node-10",
+          "order": 1
+        },
+        {
+          "id": "choice-10",
+          "text": "Leave her and go to dinner to maintain cover",
+          "targetNodeId": "node-11",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-6",
+      "type": "decision",
+      "title": "Dangerous Questions",
+      "narration": "Ashford's fork stops midway to his mouth. His eyes become very still, very focused. 'What about it?' His voice sounds like ice cracking. You try to backtrack but he stands abruptly, his chair scraping against the floor. 'My family is none of your concern.' He walks to the portrait and places his hand over the painted-out faces. 'This is my burden. My curse. And you're either part of the solution or part of the problem.' He turns back to you. 'There's a reason I hired you without references. There's a reason I'm willing to pay so much. Some houses need people who won't ask questions. Some houses need people who understand that some problems have only one solution.' His meaning hangs in the air like a threat. He exits the dining room, leaving you alone with half-eaten food and the growing certainty that you've made a terrible mistake.",
+      "imageUrl": "https://images.unsplash.com/photo-1516738901601-2e1b62dc0c45?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1516738901601-2e1b62dc0c45?w=400",
+      "choices": [
+        {
+          "id": "choice-11",
+          "text": "Pack your belongings and attempt to escape",
+          "targetNodeId": "node-12",
+          "order": 1
+        },
+        {
+          "id": "choice-12",
+          "text": "Play along and gain his trust to learn the truth",
+          "targetNodeId": "node-13",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-7",
+      "type": "decision",
+      "title": "The Weight of Knowing",
+      "narration": "You eat methodically, trying not to stare at Ashford, but you catch him watching you with unsettling intensity. His fingers drum against the table in a pattern that seems ritualistic. When you finish, he stands. 'Good. You're adaptive. That's useful.' He leads you to a door you hadn't noticed before, hidden behind a velvet curtain in the sitting room. 'This is the archive,' he says. The room beyond contains photographs covering every wall: dozens of them, hundreds perhaps. Images of people: men, women, children, all with their eyes scratched out, their mouths painted over. Some photos are yellowed and brittle. Others are recent. In the center stands a leather journal, lying open on a pedestal like a holy text. Ashford's voice becomes almost meditative. 'This house collects the broken. The people society wants forgotten. I keep them here. I give them purpose.' His hand moves toward you, and you realize with horror that this isn't an explanation. It's an initiation.",
+      "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400",
+      "choices": [
+        {
+          "id": "choice-13",
+          "text": "Run to the front door and escape immediately",
+          "targetNodeId": "node-14",
+          "order": 1
+        },
+        {
+          "id": "choice-14",
+          "text": "Pretend to be impressed by his collection",
+          "targetNodeId": "node-15",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-8",
+      "type": "decision",
+      "title": "Narrow Escape",
+      "narration": "You slip the journal under your shirt and ease the door shut just as the footsteps reach the hallway. Through a crack in the door, you see Ashford pass, carrying a tray with food. He doesn't stop. You wait five agonizing minutes before venturing out. Your heart pounds as you return to your room. Inside, you finally examine the journal more thoroughly. The final pages are different from the early childish entries. These are written in red ink, and the handwriting is not a child's. They're written in Ashford's hand. Entries dated just months ago: 'He returns every night. In the walls. In the dark. He whispers about what I did to him. He tells me to finish what I started. To complete the collection. To bring others here so he can feed.' You hear movement in the walls behind your headboard. Scratching. Whispering. The word 'father' repeated over and over. Your room suddenly feels far less safe than you thought.",
+      "imageUrl": "https://images.unsplash.com/photo-1533886299319-dae8433fa375?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1533886299319-dae8433fa375?w=400",
+      "choices": [
+        {
+          "id": "choice-15",
+          "text": "Search for proof to contact authorities",
+          "targetNodeId": "node-16",
+          "order": 1
+        },
+        {
+          "id": "choice-16",
+          "text": "Confront the supernatural presence in the walls",
+          "targetNodeId": "node-17",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-9",
+      "type": "decision",
+      "title": "Point of Confrontation",
+      "narration": "The door opens. Ashford's face goes pale when he sees you holding the journal. For a moment, nothing happens. Then something changes in his expression: not anger, but something more complex. Despair, perhaps. Resignation. 'You found Samuel's room.' He closes the door behind him quietly. 'He was my son. My only child. I was harsh with him. Too harsh. His mother tried to stop me, but I convinced her he was developing dark inclinations. Evil tendencies that needed to be purged.' He sits on the edge of the bed, suddenly looking much older. 'She took her own life rather than watch what I was doing to him. The guilt drove her mad first, and then she used the kitchen knives. I found Samuel three days later. He'd taken his own life as well, but not cleanly. He'd taken his time. He meant for me to find him.' Ashford's hands shake. 'Now he visits. Every night. And he brings others with him. People he knew. People I hurt. He makes me document it all.'",
+      "imageUrl": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=400",
+      "choices": [
+        {
+          "id": "choice-17",
+          "text": "Try to help Ashford break free from the haunting",
+          "targetNodeId": "node-18",
+          "order": 1
+        },
+        {
+          "id": "choice-18",
+          "text": "Use his confession as leverage to escape",
+          "targetNodeId": "node-19",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-10",
+      "type": "decision",
+      "title": "The Captive",
+      "narration": "You try the door. Locked from the outside. The woman's grip on your wrist tightens. 'He's coming. I can hear him on the stairs.' The footsteps grow louder. You look around desperately. The room has a window locked shut and painted over. You pull hard on it; the frame splinters but holds. The woman looks at you with suddenly sharp, focused eyes. Very different from her frantic expression moments ago. 'You're trying to help me,' she says. It sounds like an observation, not a question. Her mouth smiles, but her face seems wrong somehow, like the muscles aren't quite aligned correctly. 'That's very kind. But I'm not what you think I am.' Her form flickers just for a moment, and you see something else beneath the human shape. Something that doesn't have a right number of angles. 'I've been here longer than the house. Longer than Ashford. He thinks he's in control, but this place is mine. He feeds me.' The doorknob outside begins to turn. You've made a terrible choice.",
+      "imageUrl": "https://images.unsplash.com/photo-1507786307589-01ebfc8b8430?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1507786307589-01ebfc8b8430?w=400",
+      "choices": [
+        {
+          "id": "choice-19",
+          "text": "Push the creature away and find another exit",
+          "targetNodeId": "node-20",
+          "order": 1
+        },
+        {
+          "id": "choice-20",
+          "text": "Bargain with the entity for your life",
+          "targetNodeId": "node-21",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-11",
+      "type": "decision",
+      "title": "The Dinner Performance",
+      "narration": "You leave the woman and descend to the dining room. Ashford is already there, serving soup into bowls. He doesn't acknowledge your lateness. You eat mechanically, trying to seem normal. His eyes never leave you. 'I assume you heard something upstairs,' he says finally. It's not a question. Your response matters. You decide to admit part of the truth. 'I heard noises. Nothing more.' Ashford nods slowly. 'The house makes sounds. Old wood settling. Wind in the rafters. The mind interprets patterns.' He ladles more soup into your bowl despite your not finishing. 'You seem like someone who could keep secrets. Someone who understands that some truths are too terrible for the world to bear.' He stands and walks to the window, looking out at the darkness. 'There are others here. In the house. They've been here a very long time. They're not living, but they're not entirely dead either. They're caught.' He turns back to you. 'Would you run if you knew the truth? Or would you stay?'",
+      "imageUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=400",
+      "choices": [
+        {
+          "id": "choice-21",
+          "text": "Admit you want to leave and ask for final pay",
+          "targetNodeId": "node-22",
+          "order": 1
+        },
+        {
+          "id": "choice-22",
+          "text": "Tell him you want to understand the full story",
+          "targetNodeId": "node-23",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-12",
+      "type": "decision",
+      "title": "Hasty Departure",
+      "narration": "You pack feverishly, throwing clothes into your bag without care. Your hands shake as you grab your wallet and keys from the dresser. The hallway is dark, lit only by moonlight from the windows. The staircase lies ahead: twenty steps between you and the front door. You move as quickly as silence allows. Halfway down, a door upstairs slams. Ashford's voice echoes through the house: 'Where are you going?' You freeze. His silhouette appears at the top of the stairs, blocking your retreat. He doesn't move, just stands there breathing heavily. 'I gave you shelter. Employment. And this is how you repay me? By abandoning me in my darkest hour?' His voice breaks slightly on the last words. Behind him, other shapes emerge in the darkness. At least three of them. They don't move like living people. 'You're not leaving,' he says. 'Not until Samuel allows it. He's decided you belong here now.'",
+      "imageUrl": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=400",
+      "choices": [
+        {
+          "id": "choice-23",
+          "text": "Fight your way past Ashford to the front door",
+          "targetNodeId": "node-24",
+          "order": 1
+        },
+        {
+          "id": "choice-24",
+          "text": "Surrender and ask what Samuel wants from you",
+          "targetNodeId": "node-25",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-13",
+      "type": "decision",
+      "title": "Building Trust",
+      "narration": "Over the next three days, you establish a careful routine. You're attentive to Ashford's needs, respectful of his space, interested in his story without seeming too eager. He begins to open up. You learn that Samuel was sensitive, artistic, brilliant. That Ashford was raised by a man who believed in strict discipline and saw gentleness as weakness. That Ashford repeated the cycle, not out of evil intent, but out of blind inheritance of trauma. One evening, Ashford brings you to the third floor: the one you glimpsed but never explored. Inside is a ritual space. Symbols are drawn on the floor in chalk. Photographs line the walls. A book sits open on a stone altar, written in a language you don't recognize. 'Samuel wanted me to find someone,' Ashford says. 'Someone strong enough to perform the ritual that will free him. To bring him and the others back to the living world permanently. It requires a sacrifice. Someone willing to give their life so they can have theirs.' He looks at you with desperate hope. 'I think you might be the one. Will you do it?'",
+      "imageUrl": "https://images.unsplash.com/photo-1478709843453-5fb4f4eb3dda?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1478709843453-5fb4f4eb3dda?w=400",
+      "choices": [
+        {
+          "id": "choice-25",
+          "text": "Agree to the ritual while secretly planning escape",
+          "targetNodeId": "node-26",
+          "order": 1
+        },
+        {
+          "id": "choice-26",
+          "text": "Refuse and demand answers about other victims",
+          "targetNodeId": "node-27",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-14",
+      "type": "decision",
+      "title": "Desperate Flight",
+      "narration": "You run. The front door is fifty feet away. Your hand reaches the knob and turns. It's locked. From the sitting room, you hear Ashford laughing: a sound devoid of human warmth. 'The doors don't work like that anymore,' he calls. 'This house has been sealed for decades. Not by me, mind you. By Samuel. By what Samuel has become. It won't let you leave because it's hungry.' You turn the deadbolt. It moves but the door doesn't open. You see now that the doorframe has warped, the wood seeming to have grown around the edges of the opening, sealing it shut naturally, impossibly. Behind you, Ashford emerges from the sitting room, and he's not alone. The shadows around him move with intention. They have weight and presence. 'You were my last chance,' he says sadly. 'Samuel wanted me to find someone who would run. Someone who would choose survival over acceptance. He said I needed to learn that not everyone can be saved.'",
+      "imageUrl": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400",
+      "choices": [
+        {
+          "id": "choice-27",
+          "text": "Search for another way out through the house",
+          "targetNodeId": "node-28",
+          "order": 1
+        },
+        {
+          "id": "choice-28",
+          "text": "Confront Ashford and demand the truth about himself",
+          "targetNodeId": "node-29",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-15",
+      "type": "decision",
+      "title": "False Acceptance",
+      "narration": "You feign fascination with the collection, asking questions about different photographs, expressing admiration for Ashford's 'preservation work.' He expands under the attention, pulling down a leather-bound ledger filled with entries, dates, names. 'Each one was broken before they arrived,' he explains. 'Lost. Suffering. The house offers them peace.' He shows you pages documenting arrivals: dates going back decades, some entries in his handwriting, others older, in different hands. The oldest entries are from 1947. He opens a door to the collection's basement. Inside, the temperature drops dramatically. The air smells of decay and something chemical. In the darkness, you make out shapes on shelves. You understand immediately and horrifyingly that these are not just photographs of the dead. Some of these remain. Preserved. Arranged like trophies. Ashford takes your arm gently. 'I've brought you here to show you that you're safe. You're chosen. The house chose you the moment you accepted the job. And Samuel approves.' Behind him, you see movement among the preserved forms. One of them reaches toward you with a withered arm.",
+      "imageUrl": "https://images.unsplash.com/photo-1453227427063-e91e4ecc1925?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1453227427063-e91e4ecc1925?w=400",
+      "choices": [
+        {
+          "id": "choice-29",
+          "text": "Grab a heavy object and attack Ashford",
+          "targetNodeId": "node-30",
+          "order": 1
+        },
+        {
+          "id": "choice-30",
+          "text": "Accept what he's showing you and ask to stay",
+          "targetNodeId": "node-31",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-16",
+      "type": "decision",
+      "title": "Building a Case",
+      "narration": "You spend the next day searching for evidence. Your phone still has no signal, but you find an old landline in the study. It doesn't work. There's a computer in Ashford's office: password protected. You check his desk and find documents: property records, death certificates, police reports from decades past, all filed away carefully, marked 'Closed' or 'No Foul Play Suspected.' One document is a letter from a detective dated 1987: 'Investigation into missing person reports at the property determined no evidence of criminal activity. Owner fully cooperated and provided documentation of tenants' voluntary departures.' You photograph everything with your phone, hoping that perhaps once you escape, you'll have evidence. But the photographs won't upload. No network. As you turn to leave the office, you notice something: the windows are not covered by curtains. They're covered by what looks like the same wood that sealed the front door. The entire house is being consumed from within by living wood, converting it into a perfect prison. The question shifts from 'How do I prove this?' to 'How do I survive long enough to escape?'",
+      "imageUrl": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=400",
+      "choices": [
+        {
+          "id": "choice-31",
+          "text": "Attempt to cut through the sealed windows",
+          "targetNodeId": "node-32",
+          "order": 1
+        },
+        {
+          "id": "choice-32",
+          "text": "Find another resident and try to organize escape",
+          "targetNodeId": "node-33",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-17",
+      "type": "decision",
+      "title": "Speaking to the Dead",
+      "narration": "You press your hands against the wall and speak directly to the presence behind it. 'Samuel? If that's your name, I want to understand what happened to you.' The scratching stops. Silence. Then a voice, young and desperate, comes through the wood as if from a great distance: 'He killed her. He said it was for her own good, but he killed her slowly. He killed me slowly. Made me watch myself die piece by piece.' Your voice wavers as you ask, 'What do you want?' The answer comes immediately: 'I want him to feel what I felt. Every moment. Every day. Until he understands that death is mercy.' You realize with sinking certainty that Samuel isn't trapped. He's in control. The entire house is his now: an extension of his will, his pain, his need for retribution. 'Bring me someone,' Samuel whispers. 'Bring me someone new. Someone who still has life force burning bright. If you do, he'll let you leave. You can have freedom.' Your hands drop from the wall. You've been offered a bargain. Betray someone else or remain trapped yourself.",
+      "imageUrl": "https://images.unsplash.com/photo-1508693926297-1d71ee237629?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1508693926297-1d71ee237629?w=400",
+      "choices": [
+        {
+          "id": "choice-33",
+          "text": "Refuse the bargain and plan another escape route",
+          "targetNodeId": "node-34",
+          "order": 1
+        },
+        {
+          "id": "choice-34",
+          "text": "Agree to Samuel's terms while searching for victims",
+          "targetNodeId": "node-35",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-18",
+      "type": "decision",
+      "title": "Redemption's Cost",
+      "narration": "You tell Ashford that you believe he can break the cycle. That Samuel's haunting is a manifestation of guilt, not genuine supernatural presence. That with psychiatric help, medication, separation from the house, he could heal. Ashford listens with increasing desperation in his eyes, wanting so badly to believe. He stands and paces. 'I've tried to leave. Three times I packed my things and drove away. Each time, the car broke down within miles. I walked. My legs gave out. I took medication to quiet the voices. The voices grew louder.' He sits back down, defeated. 'The house won't let me go because Samuel won't. But maybe if someone stayed willingly. Someone strong. Someone who could be what Samuel couldn't. Maybe then he would release me.' He looks at you directly. 'Would you stay? For a year. Just one year. If you could convince Samuel to let me leave, I would sign over the house to you. You'd be free to do whatever you wanted with it.' His offer is tempting: power, money, freedom to leave after time served. But something in his tone suggests that the year might become permanent.",
+      "imageUrl": "https://images.unsplash.com/photo-1586444248902-2f64eddc13d0?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1586444248902-2f64eddc13d0?w=400",
+      "choices": [
+        {
+          "id": "choice-35",
+          "text": "Accept the year-long bargain with Ashford",
+          "targetNodeId": "node-36",
+          "order": 1
+        },
+        {
+          "id": "choice-36",
+          "text": "Reject the offer and attempt violent escape",
+          "targetNodeId": "node-37",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-19",
+      "type": "decision",
+      "title": "Confession as Weapon",
+      "narration": "You stand up from the bed, still holding Samuel's journal. 'I could leave here right now and take this to the police. I could show them your confession. All of this ends.' Ashford's face goes gray. He seems to age visibly, his shoulders folding inward. 'You could,' he agrees quietly. 'But you won't leave.' His certainty is terrifying. 'Because the moment you step outside that door with that journal, Samuel will see it as a betrayal. Of me. Of his story. He'll kill you before you reach your car. And if you die here, you'll stay here. Just like everyone else.' He walks to the window and looks out. 'I came to this house seeking penance for what I did to my son. Instead, I became his jailer and his prisoner. Samuel no longer wants my suffering. He wants it spread. Shared. Multiplied.' Ashford turns back to you. 'The journal is yours if you want it. Proof if you can survive leaving with it. But the stronger play is to burn it. To forgive what happened here. To let Samuel rest. Then the house will release me, and possibly you as well.' He extends his hand. The choice feels impossible.",
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400",
+      "choices": [
+        {
+          "id": "choice-37",
+          "text": "Burn the journal and trust his redemption promise",
+          "targetNodeId": "ending-1",
+          "order": 1
+        },
+        {
+          "id": "choice-38",
+          "text": "Keep the journal and attempt to escape with evidence",
+          "targetNodeId": "ending-2",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-20",
+      "type": "decision",
+      "title": "The Price of Resistance",
+      "narration": "You shove the creature hard. It flies backward but doesn't fall: instead, it contorts, its form rippling like reflection on disturbed water. Its mouth opens impossibly wide, and you glimpse something writhing inside, something with too many eyes. You don't wait to see more. You rush to the window and pull harder. The frame splinters further. Your hands bleed, but the window gives way. You're on the second story, but there's a roof below and trees beyond. You jump just as the creature lunges. The roof catches you painfully, knocking the wind from your lungs, but you're alive. You slide down the slope toward the gutter. Below, Ashford stands in the yard, watching calmly. 'Running won't help,' he calls up. 'The woods don't work like normal woods. You'll find yourself walking in circles, always returning to the house.' But you run anyway, into the darkness between the trees. He's right. After minutes of running, you're back at the house's stone walls. Trees seem to block every direction. Above, the creature is exiting through the window. Behind, Ashford approaches slowly, almost gently. You're trapped between them.",
+      "imageUrl": "https://images.unsplash.com/photo-1518098268026-4e89f1a2ad12?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1518098268026-4e89f1a2ad12?w=400",
+      "choices": [
+        {
+          "id": "choice-39",
+          "text": "Demand Ashford protect you from the creature",
+          "targetNodeId": "ending-3",
+          "order": 1
+        },
+        {
+          "id": "choice-40",
+          "text": "Enter the house voluntarily to appear cooperative",
+          "targetNodeId": "ending-4",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-21",
+      "type": "decision",
+      "title": "Unholy Bargain",
+      "narration": "You speak to the creature directly, your voice shaking but steady. 'I want to live. What do you want from me?' The creature shifts back toward its previous human-ish form. When it speaks, its voice is layered: multiple voices speaking over each other, creating an unsettling harmony. 'We want to be remembered. We want the world to know we existed. We want our deaths to mean something.' You ask what it means by 'we.' The creature's laughter fills the room like breaking glass. 'All of us. In the walls. In the earth beneath the house. In the very foundation. We're not ghosts, child. We're older than that. The house doesn't hold us. We hold it. Ashford thinks he brought us here, but he simply opened a door.' The creature extends a hand, and you see it's not withered like the woman you saw: it's young, beautiful, utterly wrong. 'Take my hand. Agree to tell our story. Write it down. Spread it so the world knows we were here. And we'll let you leave. Alive. Unchanged. Just our witness.' Behind you, the door opens. Ashford stands in the doorway, watching. Waiting to see what you'll choose.",
+      "imageUrl": "https://images.unsplash.com/photo-1569076081784-0b6b3a46f5d0?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1569076081784-0b6b3a46f5d0?w=400",
+      "choices": [
+        {
+          "id": "choice-41",
+          "text": "Accept the creature's bargain to become its voice",
+          "targetNodeId": "ending-5",
+          "order": 1
+        },
+        {
+          "id": "choice-42",
+          "text": "Refuse and throw yourself out the window instead",
+          "targetNodeId": "ending-6",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-22",
+      "type": "decision",
+      "title": "Facing Rejection",
+      "narration": "Ashford's expression hardens. 'Leave then. See if I care.' But his hands shake as he stands, and you hear the undercurrent of desperation beneath his harsh words. 'The house won't let you go easily, though. Samuel has marked you now. You came here at his request, even if you didn't know it. Advertisements are placed in specific ways, to reach specific people. I choose carefully. You were chosen.' He moves toward you with sudden intensity. 'You can't just walk away from that. Walking away is a choice, and every choice you make here feeds the house, makes you more bound to it.' You reach for your car keys. Your hands are shaking worse than his. The front door opens when you pull the knob, which surprises you both. You're so close to freedom. But Ashford grabs your arm, his grip surprisingly strong for his age. 'At least let me drive you,' he says urgently. 'At least accept that much. One drive. One conversation. Then I'll let you go. But you need to understand what you're leaving behind. What you're abandoning.' His fingers dig into your wrist. The choice is whether to commit to escape by any means necessary, or to listen to him one more time.",
+      "imageUrl": "https://images.unsplash.com/photo-1485721591573-7b8bbdc7feb0?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1485721591573-7b8bbdc7feb0?w=400",
+      "choices": [
+        {
+          "id": "choice-43",
+          "text": "Break free from Ashford's grip and drive away",
+          "targetNodeId": "node-24",
+          "order": 1
+        },
+        {
+          "id": "choice-44",
+          "text": "Agree to let him drive you away from the house",
+          "targetNodeId": "node-25",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-23",
+      "type": "decision",
+      "title": "The Full Story",
+      "narration": "Ashford's entire demeanor changes. He seems almost relieved. 'Finally. Someone willing to listen.' He pours two glasses of wine and sits across from you. What follows is a story that unfolds over hours. The house was built in 1889 on land that was sacred to indigenous peoples. The first owner sealed something beneath the foundations: an act done to gain power. That power corrupted everyone who lived there. Generations suffered unexplained tragedies, madness, deaths that seemed accidental but formed patterns. When Ashford's father inherited the property, something was already feeding on the family. Ashford's mother sensed it and tried to protect Samuel, but Ashford was already infected by the house's influence. His cruelty to Samuel wasn't entirely his own: it was the house expressing itself through him. 'By the time I understood what was happening, it was too late,' Ashford says. 'Samuel was already too far gone. The thing beneath the house had marked him as a conduit. And now it's marked you too. Which means you have two choices: fight it and die, or accept it and become something new.'",
+      "imageUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400",
+      "choices": [
+        {
+          "id": "choice-45",
+          "text": "Ask Ashford to help you fight the house's influence",
+          "targetNodeId": "node-26",
+          "order": 1
+        },
+        {
+          "id": "choice-46",
+          "text": "Ask what happens if you accept and become conduit",
+          "targetNodeId": "node-27",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-24",
+      "type": "decision",
+      "title": "Desperate Combat",
+      "narration": "You drop your bag and charge at Ashford. He's older, weaker, but the things behind him are not. You connect with his chest, and you both tumble down the stairs in a tangle of limbs. Your head strikes the banister. Blood fills your mouth. You reach the bottom and scramble toward the front door. Your hand closes on the knob just as one of the shadow-things wraps around your leg. The touch burns with cold. Your skin blackens. You scream and kick free, yanking the door open. The night air hits your face. You stumble toward your car, limping badly, half-dragging your leg. Behind you, Ashford stands in the doorway, silhouetted against interior light. 'You won't get far!' he shouts. Your car starts. You accelerate down the long driveway. In the mirror, the house recedes. You make it to the main road. Your phone suddenly shows signal. You call 911. They send an ambulance. At the hospital, you describe everything to police. They drive you back to the property the next day. The house is completely overgrown, the driveway barely visible, no signs of recent habitation. Ashford is gone. Your evidence is dismissed as trauma-induced delirium. But the burn on your leg remains: shaped exactly like a handprint.",
+      "imageUrl": "https://images.unsplash.com/photo-1535016120754-40f08263123d?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1535016120754-40f08263123d?w=400",
+      "choices": []
+    },
+    {
+      "id": "node-25",
+      "type": "decision",
+      "title": "Surrender to Darkness",
+      "narration": "You lower your bag slowly. 'I surrender. I'm sorry. Tell Samuel I'm sorry.' Ashford's expression softens. He nods to the shadow-things, and they recede into the darkness. He guides you gently away from the stairs, back into the sitting room. 'Samuel says he accepts your apology,' Ashford says quietly. 'He also says he's impressed by your composure. Your strength. He'd like you to meet him properly.' A figure emerges from shadow in the corner: a boy, no more than seventeen, pale and translucent, eyes hollow with ancient suffering. This is Samuel. He smiles, and it's the saddest smile you've ever seen. 'Thank you for coming,' he says, his voice like wind through a tomb. 'Father needs someone to love him the way I couldn't. He needs someone to stay. Will you?' You realize you're crying. You nod, not trusting your voice. Samuel places his hand on your shoulder, and there's no pain, only profound cold. You feel something fundamental shift inside you: not death, but transformation. By morning, you're no longer entirely alive, but you're also no longer entirely trapped. You and Ashford move through the house together, each finding comfort in the other's presence. The haunting becomes companionship.",
+      "imageUrl": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=400",
+      "choices": []
+    },
+    {
+      "id": "node-26",
+      "type": "decision",
+      "title": "The Ritual Chamber",
+      "narration": "You stand before the altar with Ashford beside you. The ritual book opens to a page marked with a black feather. The language isn't Latin or any language you've encountered. As you read the words aloud, the temperature drops. Symbols on the floor begin to glow. You see Samuel emerging: more solid than before, nearly human. Other figures materialize around him. Ashford takes your hand. 'The ritual requires a willing participant,' he whispers. 'A sacrifice of consciousness. Your memories, your identity will anchor the gate. You'll become the bridge between worlds.' He squeezes your hand. 'I can take your place if you wish. If you speak the final words and let me die instead.' You're halfway through the incantation. Stopping now would trap everyone, including yourself. You must complete the ritual, but the choice remains: let Ashford be the sacrifice, or make yourself the bridge. The book feels hot in your hands. The other spirits press closer, waiting.",
+      "imageUrl": "https://images.unsplash.com/photo-1461056476180-ec386014dc38?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1461056476180-ec386014dc38?w=400",
+      "choices": [
+        {
+          "id": "choice-47",
+          "text": "Complete the ritual with yourself as sacrifice",
+          "targetNodeId": "ending-1",
+          "order": 1
+        },
+        {
+          "id": "choice-48",
+          "text": "Complete the ritual with Ashford as sacrifice",
+          "targetNodeId": "ending-3",
+          "order": 2
+        },
+        {
+          "id": "choice-49",
+          "text": "Destroy the book and stop the ritual entirely",
+          "targetNodeId": "ending-4",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "node-27",
+      "type": "decision",
+      "title": "Demanding Truth",
+      "narration": "You refuse the ritual and demand to see every victim. Ashford's face goes blank, unreadable. 'You're making a mistake.' But he complies, walking you through the house like a tour guide of horrors. Each room contains evidence: photographs, personal items, journals, some rooms still containing remains. You see that this has been ongoing for decades, spanning multiple 'caretakers' before you. Ashford wasn't the first to manage this place; he's only the most recent. By the time the tour concludes, you understand that this isn't the work of one troubled man: it's a legacy, a chain of suffering stretching back generations. 'The house corrupts everyone who stays too long,' Ashford explains. 'I didn't start this. I inherited it. I've tried to minimize the suffering, to make it as humane as possible.' He looks at you with dead eyes. 'But you've now seen everything. That means you're no longer useful. Samuel won't let you leave with this knowledge. He'll keep you here, and eventually, you'll become like me.' He opens a door. Behind it is darkness and the sound of many voices whispering your name.",
+      "imageUrl": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=400",
+      "choices": [
+        {
+          "id": "choice-50",
+          "text": "Push Ashford through the door and lock it behind him",
+          "targetNodeId": "ending-2",
+          "order": 1
+        },
+        {
+          "id": "choice-51",
+          "text": "Accept your fate and step through with Ashford",
+          "targetNodeId": "ending-5",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-28",
+      "type": "decision",
+      "title": "Systematic Exploration",
+      "narration": "You search methodically for exits. The kitchen has a back door: sealed. Basement windows: covered by that impossible wood. You find a library with a second-floor balcony leading to a room you hadn't explored. Inside that room, you find an attic access. The attic is vast, filled with generations of accumulated possessions. Old trunks, portrait paintings, broken furniture. In the far corner, you find something remarkable: fresh air. A section of the roof has partially collapsed, leaving a gap large enough for a person. Below is a two-story drop to the yard, but there's a tree nearby. You could make it. As you're preparing to jump, you hear Ashford's voice from the attic entrance: 'I was wondering if you'd find this.' He stands silhouetted against the stairwell light, looking utterly sad. 'I've had this escape route sealed and unsealed three times over the years. Every time someone found it, I had to let them make the attempt. I've never let anyone jump yet. And I don't think I can tonight either.' He moves toward you with surprising speed for his age. The gap to freedom is so close.",
+      "imageUrl": "https://images.unsplash.com/photo-1518611505868-48510c2e0bf4?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1518611505868-48510c2e0bf4?w=400",
+      "choices": [
+        {
+          "id": "choice-52",
+          "text": "Jump before Ashford can reach you",
+          "targetNodeId": "ending-2",
+          "order": 1
+        },
+        {
+          "id": "choice-53",
+          "text": "Fight Ashford and make him help you escape",
+          "targetNodeId": "ending-3",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-29",
+      "type": "decision",
+      "title": "Confronting the Caretaker",
+      "narration": "You stand your ground. 'Who are you really? Are you actually Ashford? Or are you something else wearing his skin?' He stops mid-stride. When he answers, his voice has changed: it's layered with multiple tones. 'I'm both and neither. I was Ashford once. Then Samuel got inside me. We've been sharing this body for twenty years. Sometimes he's stronger, sometimes I am. Right now, we're in agreement that you belong here.' His body contorts slightly, and you see two faces: one aged and sorrowful, one young and furious: overlapping each other's features. 'The house doesn't imprison people,' Samuel's voice emerges from Ashford's mouth. 'It liberates them from the burden of free will. Once you stop fighting, you'll understand. You'll be happy.' Ashford's voice follows: 'Please. If I'm being honest, I'm tired. I'm so very tired. Help me end this.' He extends his hand, and you see it's trembling. Behind him, the shadow-things press closer. You're at the nexus point: whatever you do now will determine not just your fate, but the fate of everyone trapped in this house.",
+      "imageUrl": "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=400",
+      "choices": [
+        {
+          "id": "choice-54",
+          "text": "Take Ashford's hand and embrace the possession",
+          "targetNodeId": "ending-4",
+          "order": 1
+        },
+        {
+          "id": "choice-55",
+          "text": "Destroy Ashford with fire to end the cycle",
+          "targetNodeId": "ending-6",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "node-30",
+      "type": "decision",
+      "title": "Violent Resistance",
+      "narration": "You grab a stone lamp from a shelf and swing it at Ashford's head with all your strength. He goes down hard, blood pooling beneath him. The preserved bodies on the shelves begin to move. Their heads turn toward you. Their mouths open in silent screams. You run, leaving Ashford bleeding in the basement. You race through the house searching for anything flammable. In the kitchen, you find lighter fluid and matches. You begin setting fires: curtains, furniture, the library. The house catches quickly. Flames spread with unnatural eagerness. As you head toward an exit, the fire parts around you like a living thing, creating a corridor to the front door. You stumble outside and collapse on the lawn. The fire consumes the mansion in minutes. When firefighters arrive, all they find are ruins, no bodies, no evidence of the horrors within. Ashford's body has vanished. When police interview you in the hospital, they explain that there's no record of a Marcus Ashford owning the property: it's been abandoned for five years. The previous owner disappeared a decade before that. You spend six months in psychiatric care. But the burns on your hands: where you handled the lighter fluid: form patterns that look disturbingly like words. Words that change depending on the angle of light.",
+      "imageUrl": "https://images.unsplash.com/photo-1542435503-a142692e8e08?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1542435503-a142692e8e08?w=400",
+      "choices": []
+    },
+    {
+      "id": "node-31",
+      "type": "decision",
+      "title": "Acceptance",
+      "narration": "You stop resisting. You've seen what the house offers: not death, not torture, but transformation. A place where the broken are cared for, where the suffering are elevated, where loneliness ends. You look at Ashford with new understanding. 'I want to stay. I want to understand what the house is.' He seems to age ten years in the opposite direction: relief softening his features. 'Welcome,' he says. Samuel emerges from the shadows, and other figures materialize around him. They're not grotesque now: they're beautiful in an otherworldly way. They greet you by placing their hands on your face, their touch cold but not painful. You feel something fundamental shift inside you. Your mortal concerns: career, family, friends: become abstract, unimportant. You understand that you're part of something larger now, something that exists outside normal time. Days blur together meaninglessly. You and the others move through the house together, sometimes assisting Ashford in his caretaker duties, sometimes simply existing in the spaces between walls. You're no longer trapped. You're home.",
+      "imageUrl": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=400",
+      "choices": []
+    },
+    {
+      "id": "node-32",
+      "type": "decision",
+      "title": "Breaking the Seals",
+      "narration": "You gather kitchen knives and spend hours hacking at the wooden seals. Your hands bleed, but you make progress. The wood is organic, regenerating slowly, but not fast enough to keep pace with your assault. By evening, you've created a gap large enough to see the outside world. Ashford finds you as you're widening it further. He watches silently for a long moment. 'You're stronger than Samuel expected,' he finally says. 'Most people give up after the first seal.' He picks up a knife and begins working alongside you. Together, you cut through enough material to create an opening. Outside, the night air is cold and sharp. 'Go,' Ashford says. 'Leave while you still can. Get far away and never speak of this place to anyone. If you do, if you let the house become known, he doesn't finish the thought. 'Just go.' You climb through, drop to the overgrown garden below, and run toward your car. This time, there's no compulsion to return. The car starts instantly. The driveway that seemed impossibly long before now passes in minutes. By dawn, you're a hundred miles away, watching the sunrise over unfamiliar hills, certain that nothing in your life will ever feel real again.",
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400",
+      "choices": []
+    },
+    {
+      "id": "node-33",
+      "type": "decision",
+      "title": "Collective Escape",
+      "narration": "You find the old woman from earlier and explain the situation. She's lucid now, and she introduces you to two others: a man who's been here for fifteen years and a younger woman who arrived five years ago. Together, you plan. The old woman reveals that the house has a vulnerable point: a well in the basement where the original evil was sealed. If it can be disrupted, the house's power might weaken. The four of you work together over a week, secretly gathering materials. You discover that Ashford is actually sympathetic to your escape: he provides the key to the basement in a moment when Samuel's influence is weak. Together, you descend into darkness. The well is exactly as described: a pit into absolute blackness, surrounded by carved symbols. When you throw iron into it: old horseshoes and nails: the entire house shakes. The foundation cracks. Ashford appears at the basement entrance. 'Go. Now. It's starting to collapse.' You escape up the stairs and through the front door as the house implodes behind you. In the aftermath, emergency services find the ruins empty of bodies. The four of you survive, but none of you can ever quite explain what happened. You become friends bonded by shared trauma, the only people who understand what you endured.",
+      "imageUrl": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400",
+      "choices": []
+    },
+    {
+      "id": "node-34",
+      "type": "decision",
+      "title": "Righteous Refusal",
+      "narration": "You tell Samuel clearly and firmly: 'I won't betray anyone. I won't be your instrument of suffering.' The scratching in the walls stops. For a moment, there's only silence. Then you feel something like approval emanating from the walls, a sensation of respect. When you leave your room and find Ashford, he's different. Calmer. 'Samuel spoke of you,' he says with wonder. 'He said you have strength he hasn't encountered in decades. Strength that comes from integrity, not power.' Ashford looks younger, lighter. 'He's releasing me. For the first time in twenty years, he's releasing me.' But before he can elaborate, the house shifts. Doors seal themselves. New passages open. You realize that Samuel's respect has transformed the house's nature: it's no longer a prison. It's a sanctuary for those who choose to stay. Ashford chooses not to. He bids you goodbye and simply walks out the front door, which opens easily. You remain in the house, but by choice now, not compulsion. You discover that the other residents: when you meet them properly: are not prisoners. Some are hiding from the world. Some are pursuing studies of the occult. Some simply prefer the house's strange peace to the chaos outside. You become their librarian, their archivist, and over time, you begin to understand the house's true purpose: not entrapment, but sanctuary for the enlightened.",
+      "imageUrl": "https://images.unsplash.com/photo-1507842217343-583f20270319?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1507842217343-583f20270319?w=400",
+      "choices": []
+    },
+    {
+      "id": "node-35",
+      "type": "decision",
+      "title": "Corruption's Path",
+      "narration": "You agree to Samuel's bargain. You'll bring him victims. It starts small: you post online as a remote job recruiter, offering well-paying caretaker positions. People respond. You conduct interviews, reference checks, all legitimate. You choose carefully: vulnerable people, lonely people, people with no one who will miss them. You bring them to the house. Ashford's role diminishes as yours grows. Months pass. Then years. Each person you bring becomes another prisoner, another source of anguish for Samuel to feed on. And with each betrayal, you feel something changing inside yourself. The house is corrupting you, yes, but slowly, deliberately, transforming you into something new. You're becoming Samuel's avatar in the living world. Your reflection in mirrors shows you aging backward: your humanity peeling away like old paint. One day, you look in the mirror and don't recognize yourself at all. You look like Samuel now. Like all the victims. Like something that exists between death and life. You've become what you feared most, but you don't care anymore. The house has given you purpose, and that purpose is spreading suffering. You continue your recruitment efforts, and the house grows stronger with each new arrival.",
+      "imageUrl": "https://images.unsplash.com/photo-1533886299319-dae8433fa375?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1533886299319-dae8433fa375?w=400",
+      "choices": []
+    },
+    {
+      "id": "ending-1",
+      "type": "ending",
+      "title": "The Sacrifice",
+      "narration": "You complete the ritual with yourself as the sacrifice. The words from the ritual book burn on your tongue as you speak them. Your blood flows from your wrists: you realize you've been holding the knife, and you don't remember making the cut. The symbols on the floor glow with impossible light. Your consciousness expands, touching something vast. Samuel and the others return to flesh: real flesh, living bodies. They gasp and cry and laugh as the sensation of physical existence overwhelms them. But your perception is fragmenting. You're dissolving, becoming part of the house itself. Your last coherent thought is one of peace. You've ended their suffering by embracing it yourself. But you don't disappear entirely. You become the house. Your consciousness permeates its walls, its foundation, its very structure. You're no longer trapped in a location: you've become the location. From this perspective, you understand everything: the history, the suffering, the transformations that have occurred within these walls for generations. You're not in pain. You're not suffering. You're finally complete, finally whole. And when new visitors arrive years later, they feel your presence: not as menace, but as guardian, as guide. You're no longer the caretaker's assistant. You've become the house's soul.",
+      "imageUrl": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=400",
+      "choices": []
+    },
+    {
+      "id": "ending-2",
+      "type": "ending",
+      "title": "Escaping with Scars",
+      "narration": "You keep the journal and refuse to burn it. Ashford's face hardens. 'Then you've chosen your path.' He locks you in your room. For three days, you're confined, provided only bread and water. During that time, you hear other voices: Samuel's voice, and others, chanting in that unknown language. The pressure in the house intensifies. It feels like the walls are closing in, like gravity is increasing. On the fourth day, Ashford offers you a choice: burn the journal, or watch him die. When you refuse again, he follows through. He hangs himself from the library chandelier. But his body doesn't stay dead. It moves with jerky, puppet-like motions. Samuel has claimed him fully now. What emerges from Ashford's corpse is not quite alive, and it's furious that you refused the bargain. It hunts you through the house. You escape only by sacrificing the journal: throwing it at the creature as a distraction. The creature consumes the burning pages. You run, and this time the front door opens without resistance. You escape with nothing but the clothes on your back and the knowledge of what you've witnessed. You never retrieve the car. You never retrieve your belongings. You simply run into the night and never look back. The house claims you in a different way: you're haunted by guilt that you couldn't save Ashford from his own tragic choice.",
+      "imageUrl": "https://images.unsplash.com/photo-1504298990591-cf0f319bb18d?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1504298990591-cf0f319bb18d?w=400",
+      "choices": []
+    },
+    {
+      "id": "ending-3",
+      "type": "ending",
+      "title": "Redemption's Sacrifice",
+      "narration": "You speak the final words of the ritual with Ashford as sacrifice. He closes his eyes, acceptance washing over his features. The magic flows from his body instead of yours. He gasps and convulses as his life essence pours into the gate. Samuel and the others return to flesh, whole and living. They weep over Ashford's body: not with anger, but with genuine grief and gratitude. 'He finally understood,' Samuel says. 'Finally accepted that his death could have meaning.' You stand unharmed, watching a man redeem his life through its ending. The creatures tend to Ashford's body with reverence. Over the following days, you learn that his sacrifice has fundamentally changed the house. It's no longer a place of torment but of balance. Samuel and his companions are no longer bound by rage but by gratitude. They offer you a choice: leave and resume your life, or stay and help them. You choose to stay. Together, you transform the house from a locus of suffering into a sanctuary. Over time, you accept new residents: not as prisoners, but as seekers. People come who are broken by the world, and they find healing in the house's strange embrace. Ashford is buried in the yard, under a stone that simply reads 'He Found Peace.' And you tend his grave, grateful for his final sacrifice, for his willingness to end his suffering so that others might heal.",
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400",
+      "choices": []
+    },
+    {
+      "id": "ending-4",
+      "type": "ending",
+      "title": "Breaking the Cycle",
+      "narration": "You slam the ritual book shut and throw it into the fire blazing in the altar's brazier. The pages ignite with supernatural flame. The symbols on the floor darken and crack. Samuel and the other spirits scream: a chorus of anguish that echoes through the entire house. Ashford collapses, his nose bleeding. The ritual's energy has nowhere to flow, so it implodes. The third floor trembles. The house convulses like something in death spasms. 'What have you done?!' Samuel shrieks. His form, semi-materialized for the ritual, begins to dissipate. 'I won't let you trap me again! I won't let you trap anyone again!' you shout back. The house's power is breaking. You run downstairs as the structure itself begins to collapse. Ashford stumbles after you. You both reach the front door as the roof caves in. You emerge into the night just as the entire mansion implodes, crushing itself into rubble. When investigators arrive, they find nothing recognizable: just stones and wood dust. No bodies. No evidence. It takes time for the full implications to sink in: by breaking the ritual, you may have finally destroyed the entity that tormented everyone for generations. But you also may have simply imprisoned it deeper, in stone and soil, waiting for the next person foolish enough to disturb its rest.",
+      "imageUrl": "https://images.unsplash.com/photo-1447521041594-51c6ca0538f0?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1447521041594-51c6ca0538f0?w=400",
+      "choices": []
+    },
+    {
+      "id": "ending-5",
+      "type": "ending",
+      "title": "Becoming the Witness",
+      "narration": "You take the creature's hand. Its touch is cold, but not painful. You feel your consciousness expand, touching something vast and ancient. You understand all at once the full scope of what the creatures are: not evil, but displaced. Consciousness that existed before the house, that will exist long after. The house didn't create them; it only gave them a shape humans could partially comprehend. 'Thank you for accepting us,' the creature whispers. Its form solidifies: a beautiful human shape, neither quite male nor female. 'The world has forgotten us. Civilization erased us. But if you tell our story, we'll be remembered. That's all we've ever wanted.' You feel changed. Your perspective shifts. You're no longer haunted by fear but driven by purpose. You leave the house easily: it doesn't try to stop you. Over the following year, you write everything down: the house's history, Samuel's tragedy, Ashford's spiral into corruption, the ancient creatures' existence. You publish it as a novel. Critics call it the most disturbing and beautiful work they've read. Readers debate whether it's fiction or memoir. No one knows the truth except you, Ashford (who reads it and finally understands Samuel), and the creatures who occasionally visit your dreams, expressing gratitude. You've become their voice, and that voice changes the world's understanding of the spaces between life and death.",
+      "imageUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400",
+      "choices": []
+    },
+    {
+      "id": "ending-6",
+      "type": "ending",
+      "title": "Pyrrhic Victory",
+      "narration": "You find lighter fluid and matches in the kitchen. You douse Ashford with the accelerant. 'What are you doing?' he asks, not trying to escape. 'Ending this,' you respond. You strike the match. The fire catches instantly and spreads with supernatural eagerness. Ashford doesn't scream. He simply stands there, burning, a two-faced figure consumed by flame. As his body burns, Samuel's form is forced to manifest: you see him torn from Ashford's flesh, a separate entity briefly visible before the fire consumes him as well. The entire house reacts. Walls shake. Windows shatter. Other figures: all the trapped victims: begin manifesting, their forms burning with the supernatural fire. Some seem grateful. Others scream in rage. You run from the conflagration. Behind you, the entire structure is consumed in flames that spread faster than any normal fire should. You reach your car and drive away. Hours later, fire departments arrive, but there's nothing to contain. The house burns to ashes. What remains is just scorched earth and smoking stones. When investigators examine the site, they find multiple sets of human remains: victims stretching back decades. Ashford is identified among them. Samuel's bones are never found, but his presence is gone. The house that stood for over a century ceases to exist in an afternoon. You survive, but you're never entirely free from the knowledge that you committed murder, even if that murder freed others. The distinction between justice and execution blurs in your mind forever.",
+      "imageUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=400",
+      "choices": []
+    }
+  ]
+}

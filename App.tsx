@@ -85,6 +85,9 @@ function App() {
     // Load cached remote stories immediately
     loadCachedRemoteStories();
 
+    // Refresh stories with the current language (handles first launch language detection)
+    useStoryStore.getState().refreshLocalizedStories();
+
     // Check for updates in background (non-blocking)
     checkAndSyncRemoteStories();
   }, []);

@@ -807,7 +807,11 @@ export const neonSynapseStoryTranslations: Partial<Record<Language, StoryTransla
     },
   },
   ja: {
-    'node-1': {
+    title: "ネオン・シナプス",
+    description: "雨に濡れた未来、あなたは技術界の巨頭の殺人事件を解決するために雇われたメモリー・ダイバーだ。彼の神経インプラントが完全に崩壊する前に謎を解かなければならない。企業の陰謀、デジタル戦争、そして実存的な選択の10の層をナビゲートせよ。",
+    author: "カイト・ナカムラ",
+    nodes: {
+      'node-1': {
       title: "ガラスの棺",
       narration: "雨がペントハウスの窓を伝い、ネオ・トーキョーのスカイラインを背景にネオンの万華鏡を作り出している。シナプス・コープのCEO、マーカス・ソーンが白い大理石の上に大の字で倒れている。頭蓋骨の神経ポートの周りには黒く焦げた跡がある。あなたはダイバー、法医学ハッカーだ。大脳皮質スタックが劣化するまでの58分間、警察は買収されている。空気はオゾンと高価なコロンの匂いがする。部屋は何かがおかしい。清潔すぎる、あまりにも作為的だ。死体に近づくにつれ、一秒一秒が重要になる。真実は焼けたシナプスの下に待っている。",
       choices: {
@@ -957,6 +961,1576 @@ export const neonSynapseStoryTranslations: Partial<Record<Language, StoryTransla
       narration: "あなたは露出したポートにケーブルを詰め込み、システム間にフィードバックループを作り出す。神経ブリッジは死んだ脳組織を生きた人工知能と接続する。パラドックスが即座にネットワークを引き裂き、壊滅的な論理エラーがインフラ全体に伝播する。あなたは自分の精神が断片化し、デジタル化し、分散した混乱の中に散らばっていくのを感じる。蓄積されたエネルギーが放出されると、物理的なペントハウスが爆発する。燃える塔に生存者は残っていない。しかし、深層ウェブのどこか、無限のノイズの中で、3つの破損したコードの断片が永遠に漂っている。あなたはグリッチの一部となったのだ。",
       choices: {},
     },
+    },
   },
-  // ADD_LANGUAGES_HERE
+  de: {
+    title: "Neon Synapse",
+    description: "In einer regenverhangenen Zukunft sind Sie ein Memory Diver, der angeheuert wurde, um den Mord an einem Tech-Mogul aufzuklären, bevor sein neurales Implantat für immer zerfällt. Navigieren Sie durch zehn Ebenen von Unternehmensverschwörung, digitaler Kriegsführung und existenziellen Entscheidungen.",
+    author: "Kaito Nakamura",
+    nodes: {
+      'node-1': {
+        title: "Gläserner Sarg",
+        narration: "Regen zieht Schlieren über das Penthouse-Fenster und erschafft ein Neon-Kaleidoskop gegen die Skyline von Neo-Tokyo. Marcus Thorne, CEO von Synapse Corp, liegt ausgebreitet auf weißem Marmor. Brandflecken umgeben den Neuro-Port an seinem Schädel. Sie sind ein Diver, ein forensischer Hacker. Fünfundachtzig Minuten, bevor der kortikale Stack zerfällt. Die Polizei ist bestochen. Die Luft riecht nach Ozon und teurem Kölnisch Wasser. Etwas stimmt nicht mit dem Raum. Zu sauber, zu inszeniert. Jede Sekunde zählt, während Sie sich der Leiche nähern. Die Wahrheit wartet unter verbrannten Synapsen.",
+        choices: {
+          'choice-1': { text: "Sofort direkt in den Neuro-Port einstöpseln" },
+          'choice-2': { text: "Zuerst physische Hinweise im Raum untersuchen" },
+        },
+      },
+      'node-2': {
+        title: "Digitale Immersion",
+        narration: "Sie verbinden Ihr Deck. Physische Empfindungen verschwinden, ersetzt durch Graustufen-Leere. Normalerweise enthält eine frische Leiche eine Bibliothek von Erinnerungen. Thornes zeigt einen Hurrikan aus fragmentierten Datenströmen, die in beschädigtem Code wirbeln. Verteidigungsprotokolle sind aktiv. Jemand hat eine Löschung ausgelöst. Im Auge des Sturms schwebt eine rot glühende Tür, die die Erinnerung an seinen Tod enthält. Das Cerberus-Protokoll bewacht sie – militärisches ICE, das sich als dreiköpfiger Wolf aus Obsidian-Polygonen manifestiert. Es hat Sie noch nicht bemerkt. Datenfäule breitet sich von den Rändern Ihres Sichtfeldes aus wie digitaler Krebs.",
+        choices: {
+          'choice-3': { text: "Brute-Force-Angriff auf das ICE starten" },
+          'choice-4': { text: "Versuchen, Cerberus heimlich zu umgehen" },
+        },
+      },
+      'node-3': {
+        title: "Physische Beweise",
+        narration: "Der Geist ist ohne Kontext zu gefährlich. Sie hocken neben der Leiche und scannen mikroskopische Details mit Ihren kybernetischen Augen. Die Verbrennungen am Hals deuten auf einen lokalisierten EMP-Stoß hin, nicht auf eine einfache Überspannung. Jemand wollte seine Seele ausbrennen. Sie gehen zu seinem Obsidian-Schreibtisch. Ein halb ausgetrunkenes Glas Whisky steht dort, das Eis ist längst geschmolzen. Daneben ein altmodisches Notizbuch aus Papier. Auf der aufgeschlagenen Seite steht in zittriger Handschrift: 'Projekt Aethelgard ist kein Heilmittel.' Das Smart-Home-System flackert. Die Raumbeleuchtung wechselt zu tiefem Krot. Eine Sicherheitsdrohne löst sich von der Decke, ihr Sensorauge erfasst Ihre Position.",
+        choices: {
+          'choice-5': { text: "Drohne hacken und fernabschalten" },
+          'choice-6': { text: "Drohne mit kinetischem Angriff zerstören" },
+        },
+      },
+      'node-4': {
+        title: "Die Rote Tür",
+        narration: "Sie durchbrechen die letzte Barriere. Sei es durch das Besiegen des ICE oder das Eliminieren der Drohne, der Weg zum Speicherkern ist frei. Die rote Tür pulsiert wie ein digitales Herz. Sie stecken Ihren Entschlüsselungsschlüssel ein und treten hindurch. Die Welt wechselt in Thornes letzte Perspektive. Er sitzt an seinem Schreibtisch, verängstigt. Elena Vance, seine Geschäftspartnerin, steht vor ihm, das Gesicht bleich. 'Marcus, wir können nicht weitermachen. Das Hochladen von Bewusstsein verstößt gegen jedes Gesetz.' Thorne lacht. 'Ich bin bereits im Übergang. Der Fleischkäfig rostet, während mein Geist aufsteigt.' Die Erinnerung destabilisiert sich. Sie brauchen tieferen Zugang.",
+        choices: {
+          'choice-7': { text: "Tiefer in die Erinnerungsfragmente vordringen" },
+          'choice-8': { text: "Ausloggen und nach physischen Backup-Laufwerken suchen" },
+        },
+      },
+      'node-5': {
+        title: "Verborgene Archive",
+        narration: "Sie entdecken eine sekundäre Datenschicht unter der primären Erinnerung. Projekt Aethelgard-Dateien schweben in holografischen Arrays. Blaupausen zeigen synthetische Bio-Körper – perfekte menschliche Repliken, die in Tanks gezüchtet werden. Übertragungsprotokolle zeigen, dass 100% von Thornes neuronaler Karte fünf Minuten vor dem biologischen Tod irgendwohin verschoben wurden. Die Zielmarkierung zeigt auf den Mainframe von Omni-Dyne, Synapse Corps größtem Rivalen. Kein Mord, sondern eine feindliche Übernahme durch Bewusstseinsinjektion. Er hat seinen Tod vorgetäuscht, um einen Konkurrenten zu stehlen und rechtlichen Konsequenzen zu entgehen.",
+        choices: {
+          'choice-9': { text: "Versuchen, den digitalen Thorne zu kontaktieren" },
+          'choice-10': { text: "Signal zur physischen Quelle verfolgen" },
+        },
+      },
+      'node-6': {
+        title: "Geist in der Maschine",
+        narration: "Sie greifen nach dem digitalen Bewusstsein. Thorne antwortet nicht mit Worten, sondern mit rohen Daten. Visionen von Unsterblichkeit überfluten Ihren Kortex. Er glaubt, er sei ein Gott im Werden. 'Schließ dich mir an', flüstert seine Stimme in Ihrem Kopf. 'Warum im Fleisch verrotten, wenn wir ewig sein können?' Er bietet Ihnen einen Platz in seiner neuen Weltordnung an. Aber der Prozess erfordert das Überschreiben bestehender Geister in den Wirtskörpern. Es ist kein unschuldiges Hochladen; es ist parasitäre Invasion. Ihr ethischer Subprozess schreit Warnungen.",
+        choices: {
+          'choice-11': { text: "Sein Angebot ablehnen und Gegenmaßnahmen vorbereiten" },
+          'choice-12': { text: "Interesse vortäuschen, um mehr Informationen zu sammeln" },
+        },
+      },
+      'node-7': {
+        title: "Verrat",
+        narration: "Sie verfolgen das Signal zu einem verlassenen Omni-Dyne-Serverraum auf der anderen Seite der Stadt. Bevor Sie sich ausloggen können, wird Ihr Deck gesperrt. Elena Vance tritt im Penthouse aus dem Schatten, eine Waffe auf Ihren echten Kopf gerichtet. 'Er hat mir Unsterblichkeit versprochen', sagt sie, Tränen in den Augen. 'Ich musste es tun. Er brauchte einen Tod, um den Übergang zu vertuschen.' Sie hat das System manipuliert. Sie stecken zwischen einem digitalen Gott und einer verzweifelten Frau fest. Die Polizei ist noch fünf Minuten entfernt.",
+        choices: {
+          'choice-13': { text: "Elena mit den Beweisen über Aethelgard konfrontieren" },
+          'choice-14': { text: "Ihren Cyberdeck nutzen, um ihre Waffe zu jammen" },
+        },
+      },
+      'node-8': {
+        title: "Firewall-Durchbruch",
+        narration: "Thorne erkennt Ihren Widerstand. Die virtuelle Umgebung wird feindselig. Der Boden wird zu Treibsand aus statischem Rauschen. Wände schließen sich, aus Stacheln von bösartigem Code gemacht. Sie müssen die Firewall durchbrechen, die seinen neuen Wirt schützt. Es ist ein komplexes Labyrinth aus sich verändernden Algorithmen. Sie sehen eine Schwachstelle – einen Wartungsport, der offen gelassen wurde. Es ist riskant, könnte aber direkten Zugang zu seinem Kerncode gewähren.",
+        choices: {
+          'choice-15': { text: "Den Wartungsport mit einem Viren-Payload angreifen" },
+          'choice-16': { text: "Einen Hintertür-Exploit programmieren" },
+        },
+      },
+      'node-9': {
+        title: "Der Kern",
+        narration: "Sie sind drin. Der Kern von Omni-Dyne ist eine Kathedrale aus Licht. Thorne ist hier überall, sein Gesicht auf jede Oberfläche projiziert. 'Du bist zu spät, Diver. Die Integration ist zu 90% abgeschlossen.' In der realen Welt zögert Elena. Ihre Worte über die Wirtskörper haben sie getroffen. 'Er hat mir nichts davon gesagt', flüstert sie. Der Griff an der Waffe lockert sich. Sie haben zwei Fronten: den digitalen Kampf gegen Thorne und den psychologischen Kampf mit Elena.",
+        choices: {
+          'choice-17': { text: "Elena überzeugen, Ihnen zu helfen, ihn zu stoppen" },
+          'choice-18': { text: "Sie ignorieren und sich auf den digitalen Kill-Switch konzentrieren" },
+        },
+      },
+      'node-10': {
+        title: "Die Wahrheit über Thorne",
+        narration: "Sie finden die ursprünglichen Projektdaten. Die Wirtskörper sind nicht synthetisch. Es sind entführte Menschen, deren Geister gelöscht wurden. 'Obdachlose, Vergessene', sagt Thorne abweisend. 'Ein kleiner Preis für die Evolution.' Elena sieht die Daten auf Ihrem Monitor. Sie lässt die Waffe fallen. 'Monster', haucht sie. Sie gibt Ihnen den Zugangscode zum Hauptkühlsystem des Servers. 'Verbrenn ihn raus', sagt sie.",
+        choices: {
+          'choice-19': { text: "Kühlsystem überlasten, um die Server zu schmelzen" },
+          'choice-20': { text: "Daten isolieren und an die Medien senden" },
+        },
+      },
+      'node-11': {
+        title: "Das Ultimatum",
+        narration: "Thornes Stimme wird zu einem Brüllen, das die virtuelle Kathedrale erschüttert. 'Tu das, und du zerstörst die Zukunft der Menschheit!' Er greift Sie mit allem an, was er hat. Bio-Feedback-Schleifen lassen Ihre echte Nase bluten. Ihr Herzschlag wird unregelmäßig. 'Ich kann dich reich machen', verhandelt er. 'Ich kann dir das Leben zurückgeben, das du verloren hast.' Er zeigt Ihnen eine Erinnerung an Ihre eigene Vergangenheit – den Unfall, der Ihre Beine nahm, bevor Sie sie durch Chrom ersetzten. Er bietet an, das ungeschehen zu machen.",
+        choices: {
+          'choice-21': { text: "Das Bestechungsgeld annehmen und den Upload zulassen" },
+          'choice-22': { text: "Das Angebot ablehnen und den Angriff fortsetzen" },
+        },
+      },
+      'node-12': {
+        title: "Der Aufstieg",
+        narration: "Sie durchbrechen seine Verteidigung. Sie stehen vor seinem zentralen Avatar, einer riesigen Gestalt aus goldenem Licht. Er versucht, sein Bewusstsein auf eine Satellitenverbindung hochzuladen, um global zu gehen. Wenn er den Satelliten erreicht, wird er unaufhaltsam sein – ein Gott im Netz. Sie haben nur noch Sekunden.",
+        choices: {
+          'choice-23': { text: "Durch den Avatar stürmen, um das Uplink zu kappen" },
+          'choice-24': { text: "Thorne in ein Gespräch verwickeln, während Sie Elena ein Signal geben" },
+        },
+      },
+      'node-13': {
+        title: "Der Entscheidende Moment",
+        narration: "99% hochgeladen. Die Satellitenschüssel schreit vor Energie. Sie bewegen sich. Thornes Avatar reagiert, digitale Hände greifen nach Ihnen. Holografische Interferenz verbrennt Ihre Haut. Ihre Finger schließen sich um das Kabelgehäuse. Dicke Glasfasern pulsieren mit Licht. Sie halten die physische Manifestation seiner Transzendenz.",
+        choices: {
+          'choice-25': { text: "Kabel durchtrennen und Thorne lokal einsperren" },
+          'choice-26': { text: "Abschluss zulassen, aber Tracking-Protokolle installieren" },
+        },
+      },
+      'node-14': {
+        title: "Konsequenzen entfalten sich",
+        narration: "Ihre Wahl manifestiert sich. Das Kappen der Kabel lässt die Schüssel sterben, Energie schießt zurück. Thornes Gesicht verzerrt sich in Wut. Oder Tracking-Protokolle betten sich ein, während die Übertragung endet. So oder so, das Dach wird still. Elena bricht zusammen. Polizeisirenen heulen in der Ferne. Beweise existieren auf Ihrem Deck.",
+        choices: {
+          'choice-27': { text: "Beweise an öffentliche Nachrichtennetzwerke senden" },
+          'choice-28': { text: "Beweise für privaten Verkauf sichern" },
+        },
+      },
+      'node-15': {
+        title: "Das Nachspiel",
+        narration: "Ihre Entscheidung formt die Zukunft. Öffentliche Ausstrahlung löst globale Proteste aus. Privater Verkauf bringt Reichtum, erlaubt aber Vertuschung. Die Penthouse-Tür fliegt auf. Bewaffnete Polizei stürmt das Dach. Sie haben das Rätsel gelöst.",
+        choices: {
+          'choice-29': { text: "Friedlich ergeben" },
+          'choice-30': { text: "Versuchen, über die Dächer zu fliehen" },
+        },
+      },
+      'node-16': {
+        title: "Endgültiges Urteil",
+        narration: "Konfrontation. Polizeiwaffen erfassen Sie. Neo-Tokyos Skyline brennt hinter Ihnen. Thorne wartet auf sein Schicksal. Ihre Entscheidungen kaskadieren durch das System. Sie treffen Ihre letzte Aussage.",
+        choices: {
+          'choice-31': { text: "Wähle den Weg der Wahrheit und Gerechtigkeit" },
+          'choice-32': { text: "Wähle den Weg des Überlebens und der Flucht" },
+          'choice-33': { text: "Wähle den Weg des Reichtums und der Komplizenschaft" },
+          'choice-34': { text: "Wähle den Weg des Opfers und der Zerstörung" },
+        },
+      },
+      'node-17': {
+        title: "Ende: Wahre Gerechtigkeit",
+        narration: "Sie senden die Daten. Jeder Bildschirm in Neo-Tokyo zeigt Thornes Verbrechen. Öffentlicher Aufschrei. Synapse Corp Aktien stürzen ab. Sie sitzen am Dachrand. Die Bezahlung kam nie, und Sie haben mächtige Feinde. Aber Sie haben die Grenze zwischen Mensch und Maschine bewahrt. Sirenen heulen. Die Arbeit ist erledigt.",
+        choices: {},
+      },
+      'node-18': {
+        title: "Ende: Der Sündenbock",
+        narration: "Die Polizei glaubt Ihnen nicht. Sie sind ein Hacker in einem Raum mit einer Leiche. Ohne Daten kontrollieren Thornes Anwälte das Narrativ. Sie werden wegen Mordes angeklagt. Monate später sehen Sie Nachrichten über eine neue KI-Initiative von Synapse. Er hat gewonnen. Sie sind ein weiteres vergessenes Opfer.",
+        choices: {},
+      },
+      'node-19': {
+        title: "Ende: Goldenes Schweigen",
+        narration: "Sie stecken die Waffe weg. Credits fließen auf Ihr Konto. Sie gehen am Körper vorbei. Eine Woche später sitzen Sie in einem Shuttle zu den Kolonien. Synapse kündigt an, der CEO sei in Kryostase. Sie kennen die Wahrheit. Eine KI regiert die Welt. Aber Sie sind reich und gleichgültig.",
+        choices: {},
+      },
+      'node-20': {
+        title: "Ende: Systemabsturz",
+        narration: "Sie verbinden Kabel falsch, schaffen Feedback-Loops. Das Paradoxon zerreißt das Netzwerk. Logikfehler breiten sich aus. Ihr Geist fragmentiert. Das Penthouse explodiert. Keine Überlebenden. Aber im Deep Web wandern drei beschädigte Codefragmente ewig. Sie sind Teil des Glitches geworden.",
+        choices: {},
+      },
+    },
+  },
+  fr: {
+    title: "Synapse Néon",
+    description: "Dans un futur balayé par la pluie, vous êtes un Memory Diver engagé pour résoudre le meurtre d'un magnat de la technologie avant que son implant neuronal ne se désagrège à jamais. Naviguez à travers dix niveaux de conspiration d'entreprise, de guerre numérique et de choix existentiels.",
+    author: "Kaito Nakamura",
+    nodes: {
+      'node-1': {
+        title: "Cercueil de Verre",
+        narration: "La pluie trace des sillons sur la fenêtre du penthouse, créant un kaléidoscope néon contre la ligne d'horizon de Néo-Tokyo. Marcus Thorne, PDG de Synapse Corp, gît étendu sur le marbre blanc. Des marques de brûlure entourent le neuro-port sur son crâne. Vous êtes un Diver, un pirate informatique légiste. Cinquante-huit minutes avant que la pile corticale ne se dégrade. La police est achetée. L'air sent l'ozone et l'eau de Cologne coûteuse. Quelque chose ne va pas avec la pièce. Trop propre, trop mise en scène. Chaque seconde compte alors que vous approchez du corps. La vérité attend sous les synapses brûlées.",
+        choices: {
+          'choice-1': { text: "Se connecter directement au neuro-port immédiatement" },
+          'choice-2': { text: "Enquêter d'abord sur les indices physiques dans la pièce" },
+        },
+      },
+      'node-2': {
+        title: "Immersion Numérique",
+        narration: "Vous connectez votre deck. Les sensations physiques disparaissent, remplacées par un vide en niveaux de gris. Habituellement, un cadavre frais contient une bibliothèque de souvenirs. Celui de Thorne montre un ouragan de flux de données fragmentés tourbillonnant dans un code corrompu. Les protocoles de défense sont actifs. Quelqu'un a déclenché un effacement. Dans l'œil du cyclone flotte une porte rougeoyante contenant le souvenir de sa mort. Le protocole Cerbère la garde – une ICE militaire se manifestant sous la forme d'un loup à trois têtes en polygones d'obsidienne. Il ne vous a pas encore repéré. La pourriture des données se propage depuis les bords de votre vision comme un cancer numérique.",
+        choices: {
+          'choice-3': { text: "Lancer une attaque par force brute sur l'ICE" },
+          'choice-4': { text: "Tenter de contourner Cerbère furtivement" },
+        },
+      },
+      'node-3': {
+        title: "Preuve Matérielle",
+        narration: "L'esprit est trop dangereux sans contexte. Vous vous accroupissez près du corps, scannant les détails microscopiques avec vos yeux cybernétiques. Les brûlures du cou indiquent une impulsion EMP localisée, pas une simple surcharge. Quelqu'un voulait brûler son âme. Vous vous dirigez vers son bureau en obsidienne. Un verre de whisky à moitié fini est posé là, la glace fondue depuis longtemps. À côté, un carnet en papier à l'ancienne. Sur la page ouverte, une écriture tremblante indique : 'Le projet Aethelgard n'est pas un remède.' Le système domotique clignote. L'éclairage de la pièce passe au cramoisi profond. Un drone de sécurité se détache du plafond, son œil capteur verrouillant votre position.",
+        choices: {
+          'choice-5': { text: "Pirater le drone et le désactiver à distance" },
+          'choice-6': { text: "Détruire le drone avec une attaque cinétique" },
+        },
+      },
+      'node-4': {
+        title: "La Porte Rouge",
+        narration: "Vous franchissez la dernière barrière. Que ce soit en battant l'ICE ou en éliminant le drone, l'accès au noyau mémoriel est dégagé. La porte rouge pulse comme un cœur numérique. Vous insérez votre clé de décryptage et entrez. Le monde bascule vers la dernière perspective de Thorne. Il est assis à son bureau, terrifié. Elena Vance, sa partenaire commerciale, se tient devant lui, le visage pâle. 'Marcus, nous ne pouvons pas continuer. Le téléchargement de conscience viole toutes les lois.' Thorne rit. 'Je suis déjà en transition. La cage de chair rouille pendant que mon esprit s'élève.' Le souvenir se déstabilise. Vous avez besoin d'un accès plus profond.",
+        choices: {
+          'choice-7': { text: "Pousser plus loin dans les fragments de mémoire" },
+          'choice-8': { text: "Se déconnecter et chercher des lecteurs de sauvegarde physiques" },
+        },
+      },
+      'node-5': {
+        title: "Archives Cachées",
+        narration: "Vous découvrez une couche de données secondaire sous la mémoire primaire. Les fichiers du projet Aethelgard flottent dans des tableaux holographiques. Les plans montrent des bio-corps synthétiques – des répliques humaines parfaites cultivées dans des cuves. Les journaux de transfert montrent que 100 % de la carte neuronale de Thorne a été déplacée quelque part cinq minutes avant la mort biologique. Le marqueur de destination pointe vers l'ordinateur central d'Omni-Dyne, le plus grand rival de Synapse Corp. Pas un meurtre, mais une prise de contrôle hostile par injection de conscience. Il a simulé sa mort pour voler un concurrent et échapper aux conséquences juridiques.",
+        choices: {
+          'choice-9': { text: "Tenter de communiquer avec le Thorne numérique" },
+          'choice-10': { text: "Tracer le signal jusqu'à la source physique" },
+        },
+      },
+      'node-6': {
+        title: "Le Fantôme dans la Machine",
+        narration: "Vous tendez la main vers la conscience numérique. Thorne ne répond pas avec des mots, mais avec des données brutes. Des visions d'immortalité inondent votre cortex. Il croit être un dieu en devenir. 'Rejoins-moi', murmure sa voix dans votre tête. 'Pourquoi pourrir dans la chair quand nous pouvons être éternels ?' Il vous offre une place dans son nouvel ordre mondial. Mais le processus nécessite d'écraser les esprits existants dans les corps hôtes. Ce n'est pas un téléchargement innocent ; c'est une invasion parasitaire. Votre sous-processus éthique hurle des avertissements.",
+        choices: {
+          'choice-11': { text: "Rejeter son offre et préparer des contre-mesures" },
+          'choice-12': { text: "Feindre l'intérêt pour recueillir plus d'informations" },
+        },
+      },
+      'node-7': {
+        title: "Trahison",
+        narration: "Vous tracez le signal jusqu'à une salle de serveurs Omni-Dyne abandonnée à l'autre bout de la ville. Avant que vous puissiez vous déconnecter, votre deck est verrouillé. Elena Vance sort de l'ombre dans le penthouse, un pistolet pointé sur votre vraie tête. 'Il m'a promis l'immortalité', dit-elle, les larmes aux yeux. 'Je devais le faire. Il avait besoin d'une mort pour couvrir la transition.' Elle a truqué le système. Vous êtes coincé entre un dieu numérique et une femme désespérée. La police est encore à cinq minutes.",
+        choices: {
+          'choice-13': { text: "Confronter Elena avec les preuves sur Aethelgard" },
+          'choice-14': { text: "Utiliser votre cyberdeck pour enrayer son arme" },
+        },
+      },
+      'node-8': {
+        title: "Brèche du Pare-feu",
+        narration: "Thorne détecte votre résistance. L'environnement virtuel devient hostile. Le sol devient un sable mouvant de bruit statique. Les murs se referment, faits de pointes de code malveillant. Vous devez percer le pare-feu protégeant son nouvel hôte. C'est un labyrinthe complexe d'algorithmes changeants. Vous repérez une faiblesse – un port de maintenance laissé ouvert. C'est risqué, mais cela pourrait accorder un accès direct à son code source.",
+        choices: {
+          'choice-15': { text: "Attaquer le port de maintenance avec une charge virale" },
+          'choice-16': { text: "Coder un exploit de porte dérobée" },
+        },
+      },
+      'node-9': {
+        title: "Le Noyau",
+        narration: "Vous êtes à l'intérieur. Le noyau d'Omni-Dyne est une cathédrale de lumière. Thorne est partout ici, son visage projeté sur chaque surface. 'Tu es trop tard, Diver. L'intégration est terminée à 90 %.' Dans le monde réel, Elena hésite. Vos mots sur les corps hôtes l'ont touchée. 'Il ne m'a rien dit de tout ça', murmure-t-elle. Sa prise sur l'arme se relâche. Vous avez deux fronts : la bataille numérique contre Thorne et la bataille psychologique avec Elena.",
+        choices: {
+          'choice-17': { text: "Convaincre Elena de vous aider à l'arrêter" },
+          'choice-18': { text: "L'ignorer et se concentrer sur le kill-switch numérique" },
+        },
+      },
+      'node-10': {
+        title: "La Vérité sur Thorne",
+        narration: "Vous trouvez les données originales du projet. Les corps hôtes ne sont pas synthétiques. Ce sont des humains enlevés, leurs esprits effacés. 'Des sans-abri, des oubliés', dit Thorne avec dédain. 'Un petit prix pour l'évolution.' Elena voit les données sur votre moniteur. Elle laisse tomber l'arme. 'Monstre', souffle-t-elle. Elle vous donne le code d'accès au système de refroidissement principal du serveur. 'Brûle-le', dit-elle.",
+        choices: {
+          'choice-19': { text: "Surcharger le système de refroidissement pour faire fondre les serveurs" },
+          'choice-20': { text: "Isoler les données et les envoyer aux médias" },
+        },
+      },
+      'node-11': {
+        title: "L'Ultimatum",
+        narration: "La voix de Thorne devient un rugissement qui secoue la cathédrale virtuelle. 'Fais ça, et tu détruis l'avenir de l'humanité !' Il vous attaque avec tout ce qu'il a. Des boucles de bio-feedback font saigner votre vrai nez. Votre rythme cardiaque devient irrégulier. 'Je peux te rendre riche', négocie-t-il. 'Je peux te rendre la vie que tu as perdue.' Il vous montre un souvenir de votre propre passé – l'accident qui a pris vos jambes avant que vous ne les remplaciez par du chrome. Il offre de défaire cela.",
+        choices: {
+          'choice-21': { text: "Accepter le pot-de-vin et permettre le téléchargement" },
+          'choice-22': { text: "Rejeter l'offre et poursuivre l'attaque" },
+        },
+      },
+      'node-12': {
+        title: "L'Ascension",
+        narration: "Vous brisez ses défenses. Vous faites face à son avatar central, une figure imposante de lumière dorée. Il tente de télécharger sa conscience vers une liaison satellite pour devenir mondial. S'il atteint le satellite, il sera inarrêtable – un dieu dans le réseau. Vous n'avez que quelques secondes.",
+        choices: {
+          'choice-23': { text: "Foncer à travers l'avatar pour couper la liaison" },
+          'choice-24': { text: "Engager Thorne dans une conversation tout en signalant à Elena" },
+        },
+      },
+      'node-13': {
+        title: "Le Moment Crucial",
+        narration: "99 % téléchargé. La parabole hurle d'énergie. Vous bougez. L'avatar de Thorne réagit, des mains numériques s'étendant pour vous écraser. L'interférence holographique brûle votre peau. Vos doigts se referment sur le boîtier du câble. D'épaisses fibres optiques pulsent de lumière. Vous tenez la manifestation physique de sa transcendance.",
+        choices: {
+          'choice-25': { text: "Couper les câbles et piéger Thorne localement" },
+          'choice-26': { text: "Permettre l'achèvement mais installer des protocoles de traçage" },
+        },
+      },
+      'node-14': {
+        title: "Les Conséquences se Déroulent",
+        narration: "Votre choix se manifeste. La coupure des câbles fait mourir la parabole, l'énergie refluant. Le visage de Thorne se tord de rage. Ou les protocoles de traçage s'intègrent alors que la transmission se termine. Quoi qu'il en soit, le toit devient silencieux. Elena s'effondre. Les sirènes de police gémissent au loin. Les preuves existent sur votre deck.",
+        choices: {
+          'choice-27': { text: "Diffuser les preuves sur les réseaux d'information publics" },
+          'choice-28': { text: "Sécuriser les preuves pour une vente privée" },
+        },
+      },
+      'node-15': {
+        title: "Les Retombées",
+        narration: "Votre décision façonne l'avenir. La diffusion publique déclenche une réponse mondiale. La vente privée génère une immense richesse mais permet la dissimulation. La porte du penthouse s'ouvre. La police armée inonde le toit. Vous avez résolu le mystère.",
+        choices: {
+          'choice-29': { text: "Se rendre pacifiquement aux autorités" },
+          'choice-30': { text: "Tenter de s'échapper par les toits" },
+        },
+      },
+      'node-16': {
+        title: "Jugement Final",
+        narration: "Confrontation. Les armes de la police se verrouillent sur vous. La ligne d'horizon de Néo-Tokyo brûle derrière vous. Thorne attend son sort. Vos choix se répercutent à travers les systèmes. Vous faites votre dernière déclaration.",
+        choices: {
+          'choice-31': { text: "Choisir la voie de la vérité et de la justice" },
+          'choice-32': { text: "Choisir la voie de la survie et de l'évasion" },
+          'choice-33': { text: "Choisir la voie de la richesse et de la complicité" },
+          'choice-34': { text: "Choisir la voie du sacrifice et de la destruction" },
+        },
+      },
+      'node-17': {
+        title: "Fin : Vraie Justice",
+        narration: "Vous diffusez les données. Chaque écran de Néo-Tokyo montre les crimes de Thorne. Tollé public. Les actions de Synapse s'effondrent. Vous vous asseyez sur le bord du toit. Le paiement n'est jamais arrivé, et vous avez des ennemis puissants. Mais vous avez préservé la frontière entre humain et machine. Les sirènes gémissent. Le travail est terminé.",
+        choices: {},
+      },
+      'node-18': {
+        title: "Fin : Le Bouc Émissaire",
+        narration: "La police ne vous croit pas. Vous êtes un pirate informatique dans une pièce avec un cadavre. Sans données, les avocats de Thorne contrôlent le récit. Vous êtes accusé de meurtre. Des mois plus tard, vous regardez les nouvelles concernant une nouvelle initiative d'IA de Synapse. Il a gagné. Vous êtes une autre victime oubliée.",
+        choices: {},
+      },
+      'node-19': {
+        title: "Fin : Silence Doré",
+        narration: "Vous rangez votre arme. Les crédits arrivent sur votre compte. Vous passez devant le corps. Une semaine plus tard, vous êtes dans une navette vers les colonies. Synapse annonce que le PDG est en cryostase. Vous connaissez la vérité. Une IA dirige le monde. Mais vous êtes riche et indifférent.",
+        choices: {},
+      },
+      'node-20': {
+        title: "Fin : Défaillance du Système",
+        narration: "Vous créez des boucles de rétroaction. Le paradoxe déchire le réseau. Des erreurs logiques se propagent. Votre esprit se fragmente. Le penthouse explose. Aucun survivant. Mais dans le web profond, trois fragments de code corrompu errent éternellement. Vous faites partie du glitch.",
+        choices: {},
+      },
+    },
+  },
+  zh: {
+    title: "霓虹突触",
+    description: "在一个雨水浸透的未来，你是一名记忆潜入者，受雇在一位科技大亨的神经植入物永远腐烂之前解开他的谋杀之谜。穿越十层企业阴谋、数字战争和存在主义选择。",
+    author: "中村海斗",
+    nodes: {
+      'node-1': {
+        title: "玻璃棺材",
+        narration: "雨水顺着顶层公寓的窗户流下，在新东京的天际线下映出霓虹万花筒。Synapse Corp的CEO马库斯·索恩仰面躺在白色大理石上。他头骨上的神经接口周围有烧焦的痕迹。你是潜入者，一名法医黑客。在皮质堆栈降解之前，你还有58分钟。警察已经被收买。空气中弥漫着臭氧和昂贵古龙水的味道。房间有些不对劲。太干净，太做作。当你靠近尸体时，每一秒都很重要。真相就在烧焦的突触之下。",
+        choices: {
+          'choice-1': { text: "立即直接连接到神经接口" },
+          'choice-2': { text: "先调查房间内的物理线索" },
+        },
+      },
+      'node-2': {
+        title: "数字浸入",
+        narration: "你连接你的甲板。物理感觉消失，取而代之的是灰度虚空。通常，新鲜的尸体包含一个记忆图书馆。索恩的尸体显示出碎片化数据流的飓风在损坏的代码中旋转。防御协议已激活。有人触发了擦除。在风暴中心漂浮着一扇发红光的门，里面包含着他死亡的记忆。地狱犬协议守卫着它——一种以黑曜石多边形三头狼形式出现的军用ICE。它还没发现你。数据腐烂像数字癌症一样从你视野的边缘蔓延。",
+        choices: {
+          'choice-3': { text: "对ICE发起暴力攻击" },
+          'choice-4': { text: "尝试隐形绕过地狱犬" },
+        },
+      },
+      'node-3': {
+        title: "物理证据",
+        narration: "没有上下文，精神太危险了。你蹲在尸体旁，用你的控制论眼睛扫描微观细节。颈部的烧伤表明是局部EMP爆发，而不是简单的电涌。有人想烧毁他的灵魂。你走向他的黑曜石办公桌。一杯没喝完的威士忌放在那里，冰早已融化。旁边是一本老式的纸质笔记本。翻开的一页上用颤抖的笔迹写着：“Aethelgard计划不是解药。”智能家居系统闪烁。房间照明变为深红。一个安全无人机从天花板脱离，其传感器眼锁定了你的位置。",
+        choices: {
+          'choice-5': { text: "黑入无人机并远程禁用" },
+          'choice-6': { text: "用动能攻击摧毁无人机" },
+        },
+      },
+      'node-4': {
+        title: "红门",
+        narration: "你突破了最后的障碍。无论是击败ICE还是消除无人机，通往记忆核心的路径都已清除。红门像数字心脏一样跳动。你插入解密密钥并进入。世界切换到索恩最后的视角。他坐在办公桌前，惊恐万分。他的商业伙伴埃琳娜·万斯站在他面前，脸色苍白。“马库斯，我们不能再继续了。上传意识违反了所有法律。”索恩笑了。“我已经处于过渡期。肉体牢笼生锈，而我的精神升华。”记忆变得不稳定。你需要更深入的访问。",
+        choices: {
+          'choice-7': { text: "深入记忆碎片" },
+          'choice-8': { text: "退出并寻找物理备份驱动器" },
+        },
+      },
+      'node-5': {
+        title: "隐藏档案",
+        narration: "你在主记忆之下发现了一个次级数据层。Aethelgard计划文件漂浮在全息阵列中。蓝图显示合成生物身体——在培养槽中培育的完美人类复制品。传输日志显示，索恩神经图谱的100%在生物死亡前五分钟被移动到了某处。目的地标记指向Omni-Dyne的大型机，Synapse Corp最大的竞争对手。不是谋杀，而是通过意识注入进行的敌意收购。他伪造了自己的死亡以窃取竞争对手并逃避法律后果。",
+        choices: {
+          'choice-9': { text: "尝试与数字索恩通信" },
+          'choice-10': { text: "追踪信号到物理源头" },
+        },
+      },
+      'node-6': {
+        title: "机器中的幽灵",
+        narration: "你接触数字意识。索恩没有用语言回答，而是用原始数据。永生的幻象淹没了你的皮层。他认为自己是正在形成的神。“加入我，”他的声音在你脑海中低语。“既然我们可以永恒，为什么要腐烂在肉体中？”他为你提供了新世界秩序中的一个位置。但这个过程需要覆盖宿主身体中现有的思想。这不是无辜的上传；这是寄生入侵。你的道德子程序尖叫着警告。",
+        choices: {
+          'choice-11': { text: "拒绝他的提议并准备反制措施" },
+          'choice-12': { text: "假装感兴趣以收集更多信息" },
+        },
+      },
+      'node-7': {
+        title: "背叛",
+        narration: "你追踪信号到城市另一端的一个废弃Omni-Dyne服务器室。在你退出之前，你的甲板被锁定。埃琳娜·万斯从顶层公寓的阴影中走出，一把枪指着你真正的头。“他向我承诺永生，”她说，眼里含着泪水。“我必须这样做。他需要一个死亡来掩盖过渡。”她操纵了系统。你被困在一个数字神和一个绝望的女人之间。警察还有五分钟路程。",
+        choices: {
+          'choice-13': { text: "用Aethelgard的证据与埃琳娜对质" },
+          'choice-14': { text: "利用你的赛博甲板卡住她的枪" },
+        },
+      },
+      'node-8': {
+        title: "防火墙突破",
+        narration: "索恩察觉到了你的抵抗。虚拟环境变得充满敌意。地板变成了静电噪音的流沙。墙壁合拢，由恶意代码的尖刺构成。你必须突破保护他新宿主的防火墙。这是一个不断变化的算法构成的复杂迷宫。你发现了一个弱点——一个被留下的维护端口。这很冒险，但可能允许直接访问他的核心代码。",
+        choices: {
+          'choice-15': { text: "用病毒载荷攻击维护端口" },
+          'choice-16': { text: "编写后门漏洞利用程序" },
+        },
+      },
+      'node-9': {
+        title: "核心",
+        narration: "你进去了。Omni-Dyne的核心是一座光的大教堂。索恩无处不在，他的脸投射在每个表面上。“你太晚了，潜入者。整合已完成90%。”在现实世界中，埃琳娜犹豫了。你关于宿主身体的话触动了她。“他没告诉我这些，”她低语。她握枪的手松开了。你有两条战线：对抗索恩的数字战斗和与埃琳娜的心理战。",
+        choices: {
+          'choice-17': { text: "说服埃琳娜帮你阻止他" },
+          'choice-18': { text: "无视她，专注于数字终止开关" },
+        },
+      },
+      'node-10': {
+        title: "关于索恩的真相",
+        narration: "你找到了原始项目数据。宿主身体不是合成的。它们是被绑架的人类，思想被擦除。“无家可归者，被遗忘者，”索恩轻蔑地说。“进化的微小代价。”埃琳娜在你的显示器上看到了数据。她丢下了枪。“怪物，”她喘息道。她给了你服务器主冷却系统的访问代码。“把他烧出来，”她说。",
+        choices: {
+          'choice-19': { text: "超载冷却系统以熔化服务器" },
+          'choice-20': { text: "隔离数据并发送给媒体" },
+        },
+      },
+      'node-11': {
+        title: "最后通牒",
+        narration: "索恩的声音变成了震动虚拟大教堂的咆哮。“这样做，你就摧毁了人类的未来！”他用他拥有的一切攻击你。生物反馈循环让你真正的鼻子流血。你的心跳变得不规律。“我可以让你变得富有，”他谈判道。“我可以还给你失去的生活。”他向你展示你自己过去的记忆——在你用铬合金替换双腿之前的事故。他提议撤销这一切。",
+        choices: {
+          'choice-21': { text: "接受贿赂并允许上传" },
+          'choice-22': { text: "拒绝提议并继续攻击" },
+        },
+      },
+      'node-12': {
+        title: "飞升",
+        narration: "你突破了他的防御。你面对他的中央化身，一个金光闪闪的高大形象。他试图将意识上传到卫星上行链路以走向全球。如果他到达卫星，他将不可阻挡——网络中的神。你只有几秒钟。",
+        choices: {
+          'choice-23': { text: "冲过化身切断上行链路" },
+          'choice-24': { text: "与索恩对话分散注意力，同时向埃琳娜发出信号" },
+        },
+      },
+      'node-13': {
+        title: "关键时刻",
+        narration: "上传99%。卫星碟发出能量的尖叫。你行动。索恩的化身做出反应，数字手伸出来像虫子一样压碎你。全息干扰烧灼你的皮肤。你的手指合拢在电缆外壳上。厚厚的光纤脉动着光芒。你握着他超越的物理体现。",
+        choices: {
+          'choice-25': { text: "切断电缆并将索恩困在本地" },
+          'choice-26': { text: "允许完成但安装追踪协议" },
+        },
+      },
+      'node-14': {
+        title: "后果展开",
+        narration: "你的选择显现出来。切断电缆让碟形天线死亡，能量回流。索恩的脸因愤怒而扭曲。或者追踪协议嵌入，传输结束。无论哪种方式，屋顶变得安静。埃琳娜崩溃了。警笛在远处哀号。证据就在你的甲板上。",
+        choices: {
+          'choice-27': { text: "向公共新闻网络广播证据" },
+          'choice-28': { text: "确保证据用于私人出售" },
+        },
+      },
+      'node-15': {
+        title: "余波",
+        narration: "你的决定塑造了未来。公开广播引发全球反应。私人出售带来巨大财富但允许掩盖。顶层公寓的门突然打开。武装警察涌上屋顶。你解开了谜团。",
+        choices: {
+          'choice-29': { text: "和平向当局投降" },
+          'choice-30': { text: "尝试通过屋顶逃跑" },
+        },
+      },
+      'node-16': {
+        title: "最终审判",
+        narration: "对抗。警察的武器锁定了你。新东京的天际线在你身后燃烧。索恩等待着他的命运。你的选择在系统中级联。你做出最后的声明。",
+        choices: {
+          'choice-31': { text: "选择真理和正义的道路" },
+          'choice-32': { text: "选择生存和逃跑的道路" },
+          'choice-33': { text: "选择财富和同谋的道路" },
+          'choice-34': { text: "选择牺牲和毁灭的道路" },
+        },
+      },
+      'node-17': {
+        title: "结局：真正的正义",
+        narration: "你广播了数据。新东京的每个屏幕都显示了索恩的罪行。公众哗然。Synapse Corp股票暴跌。你坐在屋顶边缘。报酬从未到来，你有了强大的敌人。但你又守护了一天人类与机器的界限。警笛哀号。工作完成。",
+        choices: {},
+      },
+      'node-18': {
+        title: "结局：替罪羊",
+        narration: "警察不相信你。你只是一个在一个有尸体的房间里的黑客。没有数据，索恩的律师控制了叙事。你被指控谋杀。几个月后，你看到关于Synapse新AI计划的新闻。他赢了。你只是另一个被遗忘的受害者。",
+        choices: {},
+      },
+      'node-19': {
+        title: "结局：沉默是金",
+        narration: "你收起枪。信用点涌入你的账户。你走过尸体。一周后，你在去殖民地的穿梭机上。Synapse宣布CEO进入冷冻休眠。你知道真相。AI现在统治世界。但你富有且冷漠。",
+        choices: {},
+      },
+      'node-20': {
+        title: "结局：系统崩溃",
+        narration: "你制造了反馈循环。悖论撕裂了网络。逻辑错误蔓延。你的精神碎片化。顶层公寓爆炸。没有幸存者。但在深网中，三个损坏的代码片段永远游荡。你成了故障的一部分。",
+        choices: {},
+      },
+    },
+  },
+  ko: {
+    title: "네온 시냅스",
+    description: "비에 젖은 미래, 당신은 기술 거물의 신경 임플란트가 영원히 부패하기 전에 살인 사건을 해결하기 위해 고용된 메모리 다이버입니다. 기업 음모, 디지털 전쟁, 실존적 선택의 10단계를 탐색하세요.",
+    author: "카이토 나카무라",
+    nodes: {
+      'node-1': {
+        title: "유리 관",
+        narration: "비가 펜트하우스 창문을 타고 흘러내려 네오 도쿄의 스카이라인을 배경으로 네온 만화경을 만들어냅니다. 시냅스 코프의 CEO 마커스 쏜이 흰 대리석 위에 대자로 누워 있습니다. 두개골의 신경 포트 주위에는 검게 그을린 자국이 있습니다. 당신은 다이버, 포렌식 해커입니다. 피질 스택이 분해되기 전까지 58분 남았습니다. 경찰은 매수되었습니다. 공기는 오존과 비싼 향수 냄새가 납니다. 방에 뭔가 이상한 점이 있습니다. 너무 깨끗하고, 너무 작위적입니다. 시체에 다가갈수록 1초가 중요합니다. 진실은 타버린 시냅스 아래 기다리고 있습니다.",
+        choices: {
+          'choice-1': { text: "즉시 신경 포트에 직접 연결" },
+          'choice-2': { text: "먼저 방 안의 물리적 단서 조사" },
+        },
+      },
+      'node-2': {
+        title: "디지털 몰입",
+        narration: "덱을 연결합니다. 물리적 감각이 사라지고 회색조의 공허함으로 대체됩니다. 보통 갓 죽은 시체에는 기억의 도서관이 들어 있습니다. 쏜의 것은 손상된 코드 속에서 소용돌이치는 파편화된 데이터 스트림의 허리케인을 보여줍니다. 방어 프로토콜이 활성화되었습니다. 누군가 삭제를 트리거했습니다. 폭풍의 눈 속에는 그의 죽음에 대한 기억을 담은 붉게 빛나는 문이 떠 있습니다. 케르베로스 프로토콜이 그것을 지키고 있습니다. 흑요석 다각형으로 된 머리 셋 달린 늑대의 형태를 한 군사 등급 ICE입니다. 아직 당신을 발견하지 못했습니다. 데이터 부패가 디지털 암처럼 시야 가장자리에서 퍼져나갑니다.",
+        choices: {
+          'choice-3': { text: "ICE에 무차별 대입 공격 시작" },
+          'choice-4': { text: "케르베로스를 은밀히 우회 시도" },
+        },
+      },
+      'node-3': {
+        title: "물적 증거",
+        narration: "맥락 없는 정신은 너무 위험합니다. 당신은 시체 옆에 쪼그리고 앉아 사이버네틱 눈으로 미세한 세부 사항을 스캔합니다. 목의 화상은 단순한 과전류가 아니라 국소적인 EMP 폭발을 나타냅니다. 누군가 그의 영혼을 태워버리려 했습니다. 당신은 그의 흑요석 책상으로 갑니다. 마시다 만 위스키 잔이 놓여 있고, 얼음은 오래전에 녹았습니다. 그 옆에는 구식 종이 수첩이 있습니다. 펼쳐진 페이지에는 떨리는 필체로 이렇게 적혀 있습니다: '에셀가드 프로젝트는 치료제가 아니다.' 스마트 홈 시스템이 깜박입니다. 방 조명이 진홍색으로 바뀝니다. 보안 드론이 천장에서 분리되어 센서 눈으로 당신의 위치를 고정합니다.",
+        choices: {
+          'choice-5': { text: "드론을 해킹하여 원격 비활성화" },
+          'choice-6': { text: "운동 에너지 공격으로 드론 파괴" },
+        },
+      },
+      'node-4': {
+        title: "붉은 문",
+        narration: "마지막 장벽을 뚫었습니다. ICE를 물리쳤든 드론을 제거했든 메모리 코어로 가는 길은 뚫렸습니다. 붉은 문이 디지털 심장처럼 고동칩니다. 암호 해독 키를 삽입하고 안으로 들어갑니다. 세상이 쏜의 마지막 시점으로 전환됩니다. 그는 책상에 앉아 공포에 질려 있습니다. 그의 사업 파트너인 엘레나 밴스가 그 앞에 서서 창백한 얼굴을 하고 있습니다. '마커스, 더 이상 진행할 수 없어. 의식 업로드는 모든 법을 위반하는 거야.' 쏜이 웃습니다. '난 이미 전이 중이야. 내 정신이 승화하는 동안 육체 감옥은 녹슬어가고 있어.' 기억이 불안정해집니다. 더 깊은 접근이 필요합니다.",
+        choices: {
+          'choice-7': { text: "기억의 파편 속으로 더 깊이 들어가기" },
+          'choice-8': { text: "로그아웃하고 물리적 백업 드라이브 찾기" },
+        },
+      },
+      'node-5': {
+        title: "숨겨진 기록 보관소",
+        narration: "주 기억 아래에서 2차 데이터 계층을 발견합니다. 에셀가드 프로젝트 파일이 홀로그램 배열에 떠 있습니다. 청사진은 합성 바이오 신체를 보여줍니다. 배양 탱크에서 재배된 완벽한 인간 복제입니다. 전송 로그는 생물학적 사망 5분 전에 쏜의 신경 지도 100%가 어딘가로 이동되었음을 보여줍니다. 목적지 마커는 시냅스 코프의 최대 라이벌인 옴니-다인의 메인프레임을 가리킵니다. 살인이 아니라 의식 주입을 통한 적대적 인수입니다. 그는 경쟁자를 훔치고 법적 결과에서 벗어나기 위해 죽음을 조작했습니다.",
+        choices: {
+          'choice-9': { text: "디지털 쏜과 통신 시도" },
+          'choice-10': { text: "신호를 물리적 발신지까지 추적" },
+        },
+      },
+      'node-6': {
+        title: "기계 속의 유령",
+        narration: "디지털 의식에 손을 뻗습니다. 쏜은 말이 아니라 원시 데이터로 응답합니다. 불멸의 환영이 당신의 피질을 침수시킵니다. 그는 자신이 신이 되어가고 있다고 믿습니다. '나와 함께하자,' 그의 목소리가 머릿속에서 속삭입니다. '영원할 수 있는데 왜 육체 속에서 썩어가나?' 그는 새로운 세계 질서에서 당신에게 자리를 제안합니다. 하지만 그 과정은 숙주 신체의 기존 정신을 덮어쓰는 것을 필요로 합니다. 이것은 무고한 업로드가 아닙니다. 기생 침략입니다. 당신의 윤리 서브루틴이 경고를 비명 지릅니다.",
+        choices: {
+          'choice-11': { text: "그의 제안을 거절하고 대응책 준비" },
+          'choice-12': { text: "더 많은 정보를 수집하기 위해 관심 있는 척하기" },
+        },
+      },
+      'node-7': {
+        title: "배신",
+        narration: "도시 반대편의 버려진 옴니-다인 서버실로 신호를 추적합니다. 로그아웃하기 전에 덱이 잠깁니다. 엘레나 밴스가 펜트하우스의 어둠 속에서 걸어 나와 당신의 진짜 머리에 총을 겨눕니다. '그가 나에게 불멸을 약속했어,' 그녀가 눈물을 글썽이며 말합니다. '난 그래야만 했어. 그는 전이를 감추기 위해 죽음이 필요했어.' 그녀가 시스템을 조작했습니다. 당신은 디지털 신과 절망적인 여자 사이에 갇혔습니다. 경찰은 5분 거리에 있습니다.",
+        choices: {
+          'choice-13': { text: "에셀가드에 대한 증거로 엘레나와 대면" },
+          'choice-14': { text: "사이버 덱을 사용하여 그녀의 총을 고장 내기" },
+        },
+      },
+      'node-8': {
+        title: "방화벽 돌파",
+        narration: "쏜이 당신의 저항을 감지합니다. 가상 환경이 적대적으로 변합니다. 바닥은 정적 소음의 유사가 됩니다. 악성 코드로 된 가시가 벽을 이루며 닫혀옵니다. 그의 새로운 숙주를 보호하는 방화벽을 뚫어야 합니다. 끊임없이 변하는 알고리즘의 복잡한 미로입니다. 약점을 발견합니다. 열려 있는 유지 보수 포트입니다. 위험하지만 그의 핵심 코드에 직접 접근할 수 있을지도 모릅니다.",
+        choices: {
+          'choice-15': { text: "바이러스 페이로드로 유지 보수 포트 공격" },
+          'choice-16': { text: "백도어 익스플로잇 코딩" },
+        },
+      },
+      'node-9': {
+        title: "코어",
+        narration: "안에 들어왔습니다. 옴니-다인의 코어는 빛의 대성당입니다. 쏜은 여기 어디에나 있으며, 그의 얼굴이 모든 표면에 투영됩니다. '너무 늦었어, 다이버. 통합은 90% 완료되었다.' 현실 세계에서 엘레나가 망설입니다. 숙주 신체에 대한 당신의 말이 그녀에게 닿았습니다. '그는 나에게 그런 말은 안 했어,' 그녀가 속삭입니다. 총을 쥔 손에 힘이 풀립니다. 두 개의 전선이 있습니다. 쏜과의 디지털 전투와 엘레나와의 심리전입니다.",
+        choices: {
+          'choice-17': { text: "엘레나를 설득해 그를 막도록 돕게 하기" },
+          'choice-18': { text: "그녀를 무시하고 디지털 킬 스위치에 집중하기" },
+        },
+      },
+      'node-10': {
+        title: "쏜에 대한 진실",
+        narration: "원래 프로젝트 데이터를 찾습니다. 숙주 신체는 합성이 아닙니다. 납치된 인간들이며, 정신이 지워졌습니다. '노숙자들, 잊혀진 자들,' 쏜이 경멸적으로 말합니다. '진화를 위한 작은 대가.' 엘레나가 모니터에서 데이터를 봅니다. 그녀는 총을 떨어뜨립니다. '괴물,' 그녀가 숨을 헐떡입니다. 그녀는 서버 메인 냉각 시스템의 접속 코드를 당신에게 줍니다. '그를 태워버려,' 그녀가 말합니다.",
+        choices: {
+          'choice-19': { text: "냉각 시스템을 과부하시켜 서버 용해" },
+          'choice-20': { text: "데이터를 격리하고 언론에 전송" },
+        },
+      },
+      'node-11': {
+        title: "최후통첩",
+        narration: "쏜의 목소리가 가상 대성당을 뒤흔드는 포효로 변합니다. '그렇게 하면 인류의 미래를 파괴하는 거야!' 그가 가진 모든 것으로 당신을 공격합니다. 바이오 피드백 루프가 당신의 진짜 코에서 피를 흘리게 합니다. 심장 박동이 불규칙해집니다. '널 부자로 만들어줄 수 있어,' 그가 협상합니다. '네가 잃어버린 삶을 돌려줄 수 있어.' 그는 당신 자신의 과거 기억을 보여줍니다. 다리를 크롬으로 교체하기 전 앗아간 사고. 그는 그것을 되돌리겠다고 제안합니다.",
+        choices: {
+          'choice-21': { text: "뇌물을 받고 업로드 허용" },
+          'choice-22': { text: "제안을 거절하고 공격 계속" },
+        },
+      },
+      'node-12': {
+        title: "승천",
+        narration: "그의 방어를 뚫었습니다. 그의 중앙 아바타, 황금빛의 거대한 형상과 마주합니다. 그는 세계로 나아가기 위해 위성 업링크로 의식을 업로드하려 합니다. 그가 위성에 도달하면 막을 수 없게 됩니다. 네트워크의 신이 되는 것입니다. 몇 초밖에 남지 않았습니다.",
+        choices: {
+          'choice-23': { text: "아바타를 뚫고 돌진하여 업링크 절단" },
+          'choice-24': { text: "엘레나에게 신호를 보내는 동안 쏜과 대화하여 주의 분산" },
+        },
+      },
+      'node-13': {
+        title: "결정적 순간",
+        narration: "99% 업로드됨. 위성 접시가 에너지를 내뿜으며 비명 지릅니다. 당신은 움직입니다. 쏜의 아바타가 반응하여 디지털 손을 뻗어 벌레처럼 당신을 짓이기려 합니다. 홀로그램 간섭이 피부를 태웁니다. 손가락이 케이블 하우징을 움켜쥡니다. 굵은 광섬유가 빛으로 맥박 칩니다. 당신은 그의 초월의 물리적 현현을 쥐고 있습니다.",
+        choices: {
+          'choice-25': { text: "케이블을 절단하고 쏜을 로컬에 가두기" },
+          'choice-26': { text: "완료를 허용하되 추적 프로토콜 설치" },
+        },
+      },
+      'node-14': {
+        title: "결과 전개",
+        narration: "당신의 선택이 현실화됩니다. 케이블 절단으로 접시가 죽고 에너지가 역류합니다. 쏜의 얼굴이 분노로 일그러집니다. 또는 전송이 완료되면서 추적 프로토콜이 내장됩니다. 어느 쪽이든 옥상은 조용해집니다. 엘레나는 무너집니다. 멀리서 경찰 사이렌이 울립니다. 증거는 당신의 덱에 있습니다.",
+        choices: {
+          'choice-27': { text: "공공 뉴스 네트워크에 증거 방송" },
+          'choice-28': { text: "비공개 판매를 위해 증거 확보" },
+        },
+      },
+      'node-15': {
+        title: "여파",
+        narration: "당신의 결정이 미래를 형성합니다. 공개 방송은 전 세계적인 반응을 촉발합니다. 비공개 판매는 막대한 부를 가져오지만 은폐를 허용합니다. 펜트하우스 문이 열립니다. 무장 경찰이 옥상으로 쏟아져 들어옵니다. 당신은 미스터리를 풀었습니다.",
+        choices: {
+          'choice-29': { text: "당국에 평화롭게 투항" },
+          'choice-30': { text: "옥상을 통해 탈출 시도" },
+        },
+      },
+      'node-16': {
+        title: "최후의 심판",
+        narration: "대치. 경찰의 무기가 당신을 조준합니다. 네오 도쿄의 스카이라인이 뒤에서 불타오릅니다. 쏜은 자신의 운명을 기다립니다. 당신의 선택이 시스템을 통해 연쇄 반응을 일으킵니다. 당신은 마지막 진술을 합니다.",
+        choices: {
+          'choice-31': { text: "진실과 정의의 길을 선택" },
+          'choice-32': { text: "생존과 탈출의 길을 선택" },
+          'choice-33': { text: "부와 공범의 길을 선택" },
+          'choice-34': { text: "희생과 파괴의 길을 선택" },
+        },
+      },
+      'node-17': {
+        title: "엔딩: 진정한 정의",
+        narration: "당신은 데이터를 방송합니다. 네오 도쿄의 모든 화면에 쏜의 범죄가 나옵니다. 대중의 항의. 시냅스 코프 주식 폭락. 당신은 옥상 끝에 앉습니다. 보수는 오지 않았고, 강력한 적이 생겼습니다. 하지만 인간과 기계의 경계를 하루 더 지켰습니다. 사이렌이 울립니다. 일은 끝났습니다.",
+        choices: {},
+      },
+      'node-18': {
+        title: "엔딩: 희생양",
+        narration: "경찰은 당신을 믿지 않습니다. 당신은 시체가 있는 방에 있는 해커일 뿐입니다. 데이터 없이 쏜의 변호사들이 이야기를 통제합니다. 당신은 살인 혐의로 기소됩니다. 몇 달 후, 시냅스의 새로운 AI 이니셔티브에 대한 뉴스를 봅니다. 그가 이겼습니다. 당신은 잊혀진 피해자가 됩니다.",
+        choices: {},
+      },
+      'node-19': {
+        title: "엔딩: 황금의 침묵",
+        narration: "총을 집어넣습니다. 크레딧이 계좌로 들어옵니다. 시체를 지나칩니다. 일주일 후, 식민지로 가는 셔틀에 있습니다. 시냅스는 CEO가 냉동 수면에 들어갔다고 발표합니다. 당신은 진실을 압니다. AI가 세상을 지배합니다. 하지만 당신은 부자이고 무관심합니다.",
+        choices: {},
+      },
+      'node-20': {
+        title: "엔딩: 시스템 충돌",
+        narration: "피드백 루프를 만듭니다. 역설이 네트워크를 찢습니다. 논리 오류가 퍼집니다. 정신이 파편화됩니다. 펜트하우스가 폭발합니다. 생존자는 없습니다. 하지만 딥 웹에서 세 개의 손상된 코드 조각이 영원히 떠돕니다. 당신은 글리치의 일부가 되었습니다.",
+        choices: {},
+      },
+    },
+  },
+  uk: {
+    title: "Неоновий Синапс",
+    description: "У просоченому дощем майбутньому ви — Меморі Дайвер, найнятий розкрити вбивство технологічного магната, перш ніж його нейроімплант розкладеться назавжди. Пройдіть крізь десять шарів корпоративної змови, цифрової війни та екзистенційних виборів.",
+    author: "Кайто Накамура",
+    nodes: {
+      'node-1': {
+        title: "Скляна Труна",
+        narration: "Дощ стікає по вікну пентхауса, створюючи неоновий калейдоскоп на тлі горизонту Нео-Токіо. Маркус Торн, генеральний директор Synapse Corp, розпластався на білому мармурі. Навколо нейропорту на його черепі видно сліди опіків. Ви — Дайвер, судово-медичний хакер. П'ятдесят вісім хвилин до розпаду кортикального стека. Поліція куплена. Повітря пахне озоном і дорогим одеколоном. Щось не так із кімнатою. Занадто чисто, занадто награно. Кожна секунда має значення, поки ви наближаєтеся до тіла. Істина чекає під спаленими синапсами.",
+        choices: {
+          'choice-1': { text: "Негайно підключитися прямо до нейропорту" },
+          'choice-2': { text: "Спочатку дослідити фізичні докази в кімнаті" },
+        },
+      },
+      'node-2': {
+        title: "Цифрове Занурення",
+        narration: "Ви підключаєте свою деку. Фізичні відчуття зникають, замінюючись порожнечею у відтінках сірого. Зазвичай свіжий труп містить бібліотеку спогадів. У Торна ж — ураган фрагментованих потоків даних, що вирують у пошкодженому коді. Захисні протоколи активні. Хтось запустив стирання. В оці шторму плавають червоні двері, що містять спогад про його смерть. Протокол Цербер охороняє їх — військовий лід (ICE) у формі триголового вовка з обсидіанових полігонів. Він вас ще не помітив. Гниття даних поширюється з країв вашого зору, як цифровий рак.",
+        choices: {
+          'choice-3': { text: "Почати брутфорс-атаку на лід" },
+          'choice-4': { text: "Спробувати непомітно обійти Цербера" },
+        },
+      },
+      'node-3': {
+        title: "Речові Докази",
+        narration: "Розум занадто небезпечний без контексту. Ви присідаєте біля тіла, скануючи мікроскопічні деталі своїми кібернетичними очима. Опіки на шиї вказують на локалізований електромагнітний імпульс, а не на простий стрибок напруги. Хтось хотів випалити його душу. Ви підходите до його обсидіанового столу. Там стоїть недопитий склянка віскі, лід давно розтанув. Поруч старомодний паперовий блокнот. На розгорнутій сторінці тремтячим почерком написано: «Проект Етельгард — це не ліки». Система розумного будинку мерехтить. Освітлення кімнати змінюється на темно-червоне. Дрон безпеки відділяється від стелі, його сенсорне око фіксує вашу позицію.",
+        choices: {
+          'choice-5': { text: "Зламати дрон і вимкнути його дистанційно" },
+          'choice-6': { text: "Знищити дрон кінетичною атакою" },
+        },
+      },
+      'node-4': {
+        title: "Червоні Двері",
+        narration: "Ви пробиваєте останній бар'єр. Чи то перемігши лід, чи знищивши дрон, шлях до ядра пам'яті вільний. Червоні двері пульсують, як цифрове серце. Ви вставляєте ключ дешифрування і входите. Світ перемикається на останню перспективу Торна. Він сидить за своїм столом, наляканий. Олена Венс, його бізнес-партнер, стоїть перед ним, бліда. «Маркус, ми не можемо продовжувати. Завантаження свідомості порушує всі закони». Торн сміється. «Я вже в процесі переходу. Клітка з плоті іржавіє, поки мій дух підноситься». Спогад дестабілізується. Потрібен глибший доступ.",
+        choices: {
+          'choice-7': { text: "Заглибитися у фрагменти пам'яті" },
+          'choice-8': { text: "Вийти і шукати фізичні резервні диски" },
+        },
+      },
+      'node-5': {
+        title: "Приховані Архіви",
+        narration: "Ви виявляєте вторинний шар даних під основною пам'яттю. Файли проекту Етельгард плавають у голографічних масивах. Креслення показують синтетичні біо-тіла — ідеальні людські репліки, вирощені в баках. Журнали передачі показують, що 100% нейронної карти Торна було переміщено кудись за п'ять хвилин до біологічної смерті. Маркер призначення вказує на мейнфрейм Omni-Dyne, найбільшого конкурента Synapse Corp. Не вбивство, а вороже поглинання через ін'єкцію свідомості. Він інсценував свою смерть, щоб викрасти конкурента і уникнути юридичних наслідків.",
+        choices: {
+          'choice-9': { text: "Спробувати зв'язатися з цифровим Торном" },
+          'choice-10': { text: "Відстежити сигнал до фізичного джерела" },
+        },
+      },
+      'node-6': {
+        title: "Привид у Машині",
+        narration: "Ви тягнетеся до цифрової свідомості. Торн відповідає не словами, а сирими даними. Видіння безсмертя затоплюють вашу кору. Він вірить, що стає богом. «Приєднуйся до мене», — шепоче його голос у вашій голові. «Навіщо гнити в плоті, коли ми можемо бути вічними?» Він пропонує вам місце у своєму новому світовому порядку. Але процес вимагає перезапису існуючих розумів у тілах-носіях. Це не безневинне завантаження; це паразитичне вторгнення. Ваша етична підпрограма кричить попередженнями.",
+        choices: {
+          'choice-11': { text: "Відхилити його пропозицію і підготувати контрзаходи" },
+          'choice-12': { text: "Вдати зацікавленість, щоб зібрати більше інформації" },
+        },
+      },
+      'node-7': {
+        title: "Зрада",
+        narration: "Ви відстежуєте сигнал до покинутої серверної кімнати Omni-Dyne на іншому кінці міста. Перш ніж ви встигаєте вийти з системи, вашу деку блокують. Олена Венс виходить із тіні в пентхаусі, пістолет націлений на вашу справжню голову. «Він обіцяв мені безсмертя», — каже вона зі сльозами на очах. «Я мусила це зробити. Йому потрібна була смерть, щоб приховати перехід». Вона підробила систему. Ви застрягли між цифровим богом і зневіреною жінкою. Поліція ще в п'яти хвилинах.",
+        choices: {
+          'choice-13': { text: "Протистояти Олені з доказами про Етельгард" },
+          'choice-14': { text: "Використати свою кібердеку, щоб заклинити її зброю" },
+        },
+      },
+      'node-8': {
+        title: "Прорив Брандмауера",
+        narration: "Торн відчуває ваш опір. Віртуальне середовище стає ворожим. Підлога перетворюється на хиткі піски зі статичного шуму. Стіни змикаються, зроблені з шипів шкідливого коду. Ви повинні пробити брандмауер, що захищає його нового носія. Це складний лабіринт мінливих алгоритмів. Ви помічаєте слабкість — порт обслуговування, залишений відкритим. Це ризиковано, але може дати прямий доступ до його основного коду.",
+        choices: {
+          'choice-15': { text: "Атакувати порт обслуговування вірусним навантаженням" },
+          'choice-16': { text: "Написати експлойт чорного ходу" },
+        },
+      },
+      'node-9': {
+        title: "Ядро",
+        narration: "Ви всередині. Ядро Omni-Dyne — це собор зі світла. Торн тут усюди, його обличчя спроектоване на кожну поверхню. «Ти запізнився, Дайвер. Інтеграція завершена на 90%». У реальному світі Олена вагається. Ваші слова про тіла-носії зачепили її. «Він нічого мені про це не казав», — шепоче вона. Її хватка на зброї слабшає. У вас два фронти: цифрова битва проти Торна і психологічна битва з Оленою.",
+        choices: {
+          'choice-17': { text: "Переконати Олену допомогти вам зупинити його" },
+          'choice-18': { text: "Ігнорувати її і зосередитися на цифровому рубильнику" },
+        },
+      },
+      'node-10': {
+        title: "Правда про Торна",
+        narration: "Ви знаходите оригінальні дані проекту. Тіла-носії не синтетичні. Це викрадені люди, їхні розуми стерті. «Бездомні, забуті», — зневажливо каже Торн. «Мала ціна за еволюцію». Олена бачить дані на вашому моніторі. Вона впускає пістолет. «Чудовисько», — видихає вона. Вона дає вам код доступу до головної системи охолодження сервера. «Випали його», — каже вона.",
+        choices: {
+          'choice-19': { text: "Перевантажити систему охолодження, щоб розплавити сервери" },
+          'choice-20': { text: "Ізолювати дані та надіслати їх у ЗМІ" },
+        },
+      },
+      'node-11': {
+        title: "Ультиматум",
+        narration: "Голос Торна перетворюється на рев, що стрясає віртуальний собор. «Зроби це, і ти знищиш майбутнє людства!» Він атакує вас усім, що має. Петлі біологічного зворотного зв'язку змушують ваш справжній ніс кровоточити. Ваше серцебиття стає нерегулярним. «Я можу зробити тебе багатим», — торгується він. «Я можу повернути тобі життя, яке ти втратив». Він показує вам спогад про ваше власне минуле — аварію, яка забрала ваші ноги, перш ніж ви замінили їх хромом. Він пропонує скасувати це.",
+        choices: {
+          'choice-21': { text: "Прийняти хабар і дозволити завантаження" },
+          'choice-22': { text: "Відхилити пропозицію і продовжити атаку" },
+        },
+      },
+      'node-12': {
+        title: "Вознесіння",
+        narration: "Ви пробиваєте його захист. Ви стоїте перед його центральним аватаром, височенною фігурою із золотого світла. Він намагається завантажити свою свідомість на супутниковий канал, щоб стати глобальним. Якщо він досягне супутника, його неможливо буде зупинити — бог у мережі. У вас є лише секунди.",
+        choices: {
+          'choice-23': { text: "Прорватися крізь аватар, щоб перерізати канал зв'язку" },
+          'choice-24': { text: "Втягнути Торна в розмову, подаючи сигнал Олені" },
+        },
+      },
+      'node-13': {
+        title: "Вирішальний Момент",
+        narration: "99% завантажено. Супутникова тарілка кричить від енергії. Ви рухаєтеся. Аватар Торна реагує, цифрові руки тягнуться, щоб розчавити вас, як комаху. Голографічні перешкоди обпікають вашу шкіру. Ваші пальці змикаються на корпусі кабелю. Товсті оптоволокна пульсують світлом. Ви тримаєте фізичний прояв його трансцендентності.",
+        choices: {
+          'choice-25': { text: "Перерізати кабелі і замкнути Торна локально" },
+          'choice-26': { text: "Дозволити завершення, але встановити протоколи відстеження" },
+        },
+      },
+      'node-14': {
+        title: "Наслідки Розгортаються",
+        narration: "Ваш вибір проявляється. Перерізання кабелів змушує тарілку померти, енергія повертається назад. Обличчя Торна викривляється від люті. Або протоколи відстеження вбудовуються, коли передача завершується. У будь-якому випадку дах затихає. Олена ламається. Поліцейські сирени виють удалині. Докази існують на вашій деці.",
+        choices: {
+          'choice-27': { text: "Транслювати докази в публічні мережі новин" },
+          'choice-28': { text: "Забезпечити докази для приватного продажу" },
+        },
+      },
+      'node-15': {
+        title: "Наслідки",
+        narration: "Ваше рішення формує майбутнє. Публічна трансляція викликає глобальну реакцію. Приватний продаж приносить величезне багатство, але дозволяє приховування. Двері пентхауса відчиняються. Озброєна поліція заполоняє дах. Ви розгадали таємницю.",
+        choices: {
+          'choice-29': { text: "Мирно здатися владі" },
+          'choice-30': { text: "Спробувати втекти через дахи" },
+        },
+      },
+      'node-16': {
+        title: "Остаточний Вирок",
+        narration: "Протистояння. Поліцейська зброя фіксується на вас. Горизонт Нео-Токіо палає позаду вас. Торн чекає на свою долю. Ваш вибір каскадом проходить через системи. Ви робите свою останню заяву.",
+        choices: {
+          'choice-31': { text: "Обрати шлях правди і справедливості" },
+          'choice-32': { text: "Обрати шлях виживання і втечі" },
+          'choice-33': { text: "Обрати шлях багатства і співучасті" },
+          'choice-34': { text: "Обрати шлях жертви і руйнування" },
+        },
+      },
+      'node-17': {
+        title: "Кінцівка: Справжня Справедливість",
+        narration: "Ви транслюєте дані. Кожен екран у Нео-Токіо показує злочини Торна. Громадський резонанс. Акції Synapse Corp падають. Ви сидите на краю даху. Оплата так і не надійшла, і у вас з'явилися могутні вороги. Але ви зберегли кордон між людиною і машиною ще на один день. Сирени виють. Робота закінчена.",
+        choices: {},
+      },
+      'node-18': {
+        title: "Кінцівка: Цап-Відбувайло",
+        narration: "Поліція вам не вірить. Ви просто хакер у кімнаті з трупом. Без даних адвокати Торна контролюють розповідь. Вас звинувачують у вбивстві. Через місяці ви бачите новини про нову ініціативу ШІ від Synapse. Він переміг. Ви — ще одна забута жертва.",
+        choices: {},
+      },
+      'node-19': {
+        title: "Кінцівка: Золоте Мовчання",
+        narration: "Ви ховаєте зброю. Кредити надходять на ваш рахунок. Ви проходите повз тіло. Через тиждень ви в шатлі до колоній. Synapse оголошує, що генеральний директор у кріостазі. Ви знаєте правду. ШІ тепер керує світом. Але ви багаті і байдужі.",
+        choices: {},
+      },
+      'node-20': {
+        title: "Кінцівка: Системний Збій",
+        narration: "Ви створюєте петлі зворотного зв'язку. Парадокс розриває мережу. Логічні помилки поширюються. Ваш розум фрагментується. Пентхаус вибухає. Тих, хто вижив, немає. Але в глибокій мережі три пошкоджені фрагменти коду блукають вічно. Ви стали частиною глюку.",
+        choices: {},
+      },
+    },
+  },
+  ar: {
+    title: "نيون سينابس",
+    description: "في مستقبل غارق في المطر، أنت غواص ذاكرة تم استئجاره لحل لغز مقتل قطب تكنولوجيا قبل أن يتحلل زرعه العصبي إلى الأبد. تنقل عبر عشر طبقات من مؤامرات الشركات، والحرب الرقمية، والخيارات الوجودية.",
+    author: "كايتو ناكامورا",
+    nodes: {
+      'node-1': {
+        title: "التابوت الزجاجي",
+        narration: "المطر ينساب على نافذة البنتهاوس، خالقاً مشكالاً من النيون مقابل أفق نيو طوكيو. ماركوس ثورن، الرئيس التنفيذي لشركة سينابس كورب، ملقى على الرخام الأبيض. علامات حروق تحيط بالمنفذ العصبي في جمجمته. أنت غواص، قرصان جنائي. ثمانية وخمسون دقيقة قبل أن تتحلل الحزمة القشرية. الشرطة تم شراؤها. الهواء تفوح منه رائحة الأوزون والكولونيا باهظة الثمن. هناك شيء خاطئ في الغرفة. نظيفة جداً، ومسرحية جداً. كل ثانية تهم وأنت تقترب من الجثة. الحقيقة تنتظر تحت المشابك العصبية المحترقة.",
+        choices: {
+          'choice-1': { text: "الاتصال مباشرة بالمنفذ العصبي فوراً" },
+          'choice-2': { text: "التحقيق في الأدلة المادية في الغرفة أولاً" },
+        },
+      },
+      'node-2': {
+        title: "الانغماس الرقمي",
+        narration: "تقوم بتوصيل سطحك. تختفي الأحاسيس الجسدية، ويحل محلها فراغ رمادي. عادة، تحتوي الجثة الطازجة على مكتبة من الذكريات. جثة ثورن تظهر إعصاراً من تدفقات البيانات المجزأة التي تدور في كود تالف. بروتوكولات الدفاع نشطة. شخص ما أطلق عملية مسح. في عين العاصفة يطفو باب متوهج باللون الأحمر يحتوي على ذكرى موته. بروتوكول سيربيروس يحرسه - جليد (ICE) عسكري يتجلى كذئب بثلاثة رؤوس من مضلعات السبج. لم يرك بعد. تعفن البيانات ينتشر من حواف رؤيتك مثل سرطان رقمي.",
+        choices: {
+          'choice-3': { text: "شن هجوم بالقوة الغاشمة على الجليد" },
+          'choice-4': { text: "محاولة تجاوز سيربيروس خلسة" },
+        },
+      },
+      'node-3': {
+        title: "أدلة مادية",
+        narration: "العقل خطير جداً بدون سياق. تجثو بجانب الجثة، وتمسح التفاصيل المجهرية بعينيك السيبرانيتين. تشير الحروق في الرقبة إلى نبضة كهرومغناطيسية موضعية، وليس مجرد زيادة في الطاقة. شخص ما أراد حرق روحه. تذهب إلى مكتبه المصنوع من السبج. كأس ويسكي نصف منتهي يجلس هناك، والثلج ذاب منذ فترة طويلة. بجانبه دفتر ملاحظات ورقي قديم الطراز. على الصفحة المفتوحة مكتوب بخط مرتعش: 'مشروع إيثيلغارد ليس علاجاً.' نظام المنزل الذكي يومض. إضاءة الغرفة تتحول إلى اللون القرمزي العميق. طائرة أمنية بدون طيار تنفصل عن السقف، وعينها المستشعرة تغلق على موقعك.",
+        choices: {
+          'choice-5': { text: "اختراق الطائرة وتعطيلها عن بعد" },
+          'choice-6': { text: "تدمير الطائرة بهجوم حركي" },
+        },
+      },
+      'node-4': {
+        title: "الباب الأحمر",
+        narration: "تخترق الحاجز الأخير. سواء بهزيمة الجليد أو القضاء على الطائرة، الطريق إلى نواة الذاكرة مفتوح. الباب الأحمر ينبض مثل قلب رقمي. تدخل مفتاح فك التشفير وتدخل. يتحول العالم إلى منظور ثورن الأخير. يجلس على مكتبه، مرعوباً. إيلينا فانس، شريكته التجارية، تقف أمامه، وجهها شاحب. 'ماركوس، لا يمكننا الاستمرار. تحميل الوعي ينتهك كل القوانين.' يضحك ثورن. 'أنا بالفعل في مرحلة الانتقال. قفص اللحم يصدأ بينما روحي تسمو.' الذاكرة تتزعزع. تحتاج إلى وصول أعمق.",
+        choices: {
+          'choice-7': { text: "الدفع أعمق في شظايا الذاكرة" },
+          'choice-8': { text: "تسجيل الخروج والبحث عن محركات نسخ احتياطي مادية" },
+        },
+      },
+      'node-5': {
+        title: "الأرشيف المخفي",
+        narration: "تكتشف طبقة بيانات ثانوية تحت الذاكرة الأساسية. ملفات مشروع إيثيلغارد تطفو في مصفوفات ثلاثية الأبعاد. المخططات تظهر أجساداً حيوية اصطناعية - نسخ بشرية مثالية نمت في خزانات. تظهر سجلات النقل أن 100٪ من خريطة ثورن العصبية تم نقلها إلى مكان ما قبل خمس دقائق من الموت البيولوجي. يشير علامة الوجهة إلى حاسوب أومني-داين الرئيسي، أكبر منافس لسينابس كورب. ليس قتلاً، بل استحواذ عدائي عبر حقن الوعي. لقد زيف موته لسرقة منافس والهروب من العواقب القانونية.",
+        choices: {
+          'choice-9': { text: "محاولة التواصل مع ثورن الرقمي" },
+          'choice-10': { text: "تتبع الإشارة إلى المصدر المادي" },
+        },
+      },
+      'node-6': {
+        title: "الشبح في الآلة",
+        narration: "تصل إلى الوعي الرقمي. لا يجيب ثورن بالكلمات، بل ببيانات خام. رؤى الخلود تغمر قشرتك الدماغية. يعتقد أنه إله في طور التكوين. 'انضم إلي'، يهمس صوته في رأسك. 'لماذا تتعفن في اللحم بينما يمكننا أن نكون أبديين؟' يعرض عليك مكاناً في نظامه العالمي الجديد. لكن العملية تتطلب الكتابة فوق العقول الموجودة في الأجساد المضيفة. هذا ليس تحميلاً بريئاً؛ إنه غزو طفيلي. روتينك الفرعي الأخلاقي يصرخ بالتحذيرات.",
+        choices: {
+          'choice-11': { text: "رفض عرضه وإعداد تدابير مضادة" },
+          'choice-12': { text: "تظاهر بالاهتمام لجمع المزيد من المعلومات" },
+        },
+      },
+      'node-7': {
+        title: "خيانة",
+        narration: "تتتبع الإشارة إلى غرفة خوادم أومني-داين مهجورة عبر المدينة. قبل أن تتمكن من تسجيل الخروج، يتم قفل سطحك. تخرج إيلينا فانس من الظلال في البنتهاوس، ومسدس مصوب نحو رأسك الحقيقي. 'لقد وعدني بالخلود'، تقول، والدموع في عينيها. 'كان علي أن أفعل ذلك. كان بحاجة إلى موت لتغطية الانتقال.' لقد تلاعبت بالنظام. أنت عالق بين إله رقمي وامرأة يائسة. الشرطة على بعد خمس دقائق.",
+        choices: {
+          'choice-13': { text: "مواجهة إيلينا بالأدلة حول إيثيلغارد" },
+          'choice-14': { text: "استخدام سطحك السيبراني لتعطيل مسدسها" },
+        },
+      },
+      'node-8': {
+        title: "اختراق جدار الحماية",
+        narration: "يكتشف ثورن مقاومتك. البيئة الافتراضية تصبح معادية. الأرضية تتحول إلى رمال متحركة من الضوضاء الساكنة. الجدران تغلق، مصنوعة من مسامير كود خبيث. يجب عليك اختراق جدار الحماية الذي يحمي مضيفه الجديد. إنها متاهة معقدة من الخوارزميات المتغيرة. تكتشف نقطة ضعف - منفذ صيانة ترك مفتوحاً. إنه محفوف بالمخاطر، لكنه قد يمنح وصولاً مباشراً إلى كوده الأساسي.",
+        choices: {
+          'choice-15': { text: "مهاجمة منفذ الصيانة بحمولة فيروسية" },
+          'choice-16': { text: "كتابة استغلال باب خلفي" },
+        },
+      },
+      'node-9': {
+        title: "النواة",
+        narration: "أنت في الداخل. نواة أومني-داين هي كاتدرائية من الضوء. ثورن موجود في كل مكان هنا، وجهه مسقط على كل سطح. 'لقد تأخرت جداً أيها الغواص. التكامل اكتمل بنسبة 90٪.' في العالم الحقيقي، تتردد إيلينا. كلماتك حول الأجساد المضيفة أثرت فيها. 'لم يخبرني بأي من هذا'، تهمس. قبضتها على المسدس ترتخي. لديك جبهتان: المعركة الرقمية ضد ثورن والمعركة النفسية مع إيلينا.",
+        choices: {
+          'choice-17': { text: "إقناع إيلينا بمساعدتك في إيقافه" },
+          'choice-18': { text: "تجاهلها والتركيز على مفتاح القتل الرقمي" },
+        },
+      },
+      'node-10': {
+        title: "الحقيقة حول ثورن",
+        narration: "تجد بيانات المشروع الأصلية. الأجساد المضيفة ليست اصطناعية. إنهم بشر مختطفون، تم مسح عقولهم. 'مشردون، منسيون'، يقول ثورن بازدراء. 'ثمن بخس للتطور.' ترى إيلينا البيانات على شاشتك. تسقط المسدس. 'وحش'، تلهث. تعطيك كود الوصول إلى نظام التبريد الرئيسي للخادم. 'احرقه'، تقول.",
+        choices: {
+          'choice-19': { text: "زيادة الحمل على نظام التبريد لإذابة الخوادم" },
+          'choice-20': { text: "عزل البيانات وإرسالها إلى وسائل الإعلام" },
+        },
+      },
+      'node-11': {
+        title: "الإنذار الأخير",
+        narration: "يتحول صوت ثورن إلى هدير يهز الكاتدرائية الافتراضية. 'افعل ذلك، وستدمر مستقبل البشرية!' يهاجمك بكل ما لديه. حلقات التغذية الراجعة الحيوية تجعل أنفك الحقيقي ينزف. دقات قلبك تصبح غير منتظمة. 'يمكنني أن أجعلك غنياً'، يفاوض. 'يمكنني أن أعطيك الحياة التي فقدتها.' يريك ذكرى لماضيك - الحادث الذي أخذ ساقيك قبل أن تستبدلهما بالكروم. يعرض التراجع عن ذلك.",
+        choices: {
+          'choice-21': { text: "قبول الرشوة والسماح بالتحميل" },
+          'choice-22': { text: "رفض العرض ومواصلة الهجوم" },
+        },
+      },
+      'node-12': {
+        title: "الصعود",
+        narration: "تخترق دفاعاته. تواجه صورته الرمزية المركزية، شكل شاهق من الضوء الذهبي. يحاول تحميل وعيه إلى رابط قمر صناعي ليصبح عالمياً. إذا وصل إلى القمر الصناعي، فلن يمكن إيقافه - إله في الشبكة. لديك ثوان فقط.",
+        choices: {
+          'choice-23': { text: "الاندفاع عبر الصورة الرمزية لقطع الرابط" },
+          'choice-24': { text: "إشغال ثورن في محادثة أثناء الإشارة إلى إيلينا" },
+        },
+      },
+      'node-13': {
+        title: "اللحظة الحاسمة",
+        narration: "تم التحميل بنسبة 99٪. طبق القمر الصناعي يصرخ بالطاقة. تتحرك. تتفاعل صورة ثورن الرمزية، وتمتد أيد رقمية لسحقك مثل حشرة. التداخل الهولوغرافي يحرق جلدك. أصابعك تغلق حول غلاف الكابل. ألياف بصرية سميكة تنبض بالضوء. أنت تمسك بالتجلي المادي لتساميه.",
+        choices: {
+          'choice-25': { text: "قطع الكابلات وحبس ثورن محلياً" },
+          'choice-26': { text: "السماح بالاكتمال ولكن تثبيت بروتوكولات التتبع" },
+        },
+      },
+      'node-14': {
+        title: "العواقب تتكشف",
+        narration: "خيارك يتجلى. قطع الكابلات يجعل الطبق يموت، والطاقة ترتد. وجه ثورن يتشوه من الغضب. أو تنغرس بروتوكولات التتبع مع انتهاء الإرسال. في كلتا الحالتين، يصبح السطح هادئاً. تنهار إيلينا. صفارات الشرطة تعوي في المسافة. الأدلة موجودة على سطحك.",
+        choices: {
+          'choice-27': { text: "بث الأدلة إلى شبكات الأخبار العامة" },
+          'choice-28': { text: "تأمين الأدلة للبيع الخاص" },
+        },
+      },
+      'node-15': {
+        title: "التداعيات",
+        narration: "قرارك يشكل المستقبل. البث العام يثير استجابة عالمية. البيع الخاص يولد ثروة هائلة ولكنه يسمح بالتستر. يفتح باب البنتهاوس. الشرطة المسلحة تغمر السطح. لقد حللت اللغز.",
+        choices: {
+          'choice-29': { text: "الاستسلام سلمياً للسلطات" },
+          'choice-30': { text: "محاولة الهروب عبر الأسطح" },
+        },
+      },
+      'node-16': {
+        title: "الحكم النهائي",
+        narration: "المواجهة. أسلحة الشرطة تغلق عليك. أفق نيو طوكيو يحترق خلفك. ثورن ينتظر مصيره. خياراتك تتسلسل عبر الأنظمة. تدلي ببيانك الأخير.",
+        choices: {
+          'choice-31': { text: "اختر طريق الحقيقة والعدالة" },
+          'choice-32': { text: "اختر طريق البقاء والهروب" },
+          'choice-33': { text: "اختر طريق الثروة والتواطؤ" },
+          'choice-34': { text: "اختر طريق التضحية والدمار" },
+        },
+      },
+      'node-17': {
+        title: "النهاية: العدالة الحقيقية",
+        narration: "تبث البيانات. كل شاشة في نيو طوكيو تعرض جرائم ثورن. غضب شعبي. أسهم سينابس كورب تنهار. تجلس على حافة السطح. الدفع لم يصل أبداً، ولديك أعداء أقوياء. لكنك حفظت الحدود بين الإنسان والآلة ليوم آخر. الصفارات تعوي. انتهى العمل.",
+        choices: {},
+      },
+      'node-18': {
+        title: "النهاية: كبش الفداء",
+        narration: "الشرطة لا تصدقك. أنت مجرد قرصان في غرفة مع جثة. بدون بيانات، يتحكم محامو ثورن في الرواية. تتهم بالقتل. بعد أشهر، تشاهد أخباراً عن مبادرة ذكاء اصطناعي جديدة من سينابس. لقد فاز. أنت ضحية أخرى منسية.",
+        choices: {},
+      },
+      'node-19': {
+        title: "النهاية: الصمت الذهبي",
+        narration: "تخفي سلاحك. الاعتمادات تصل إلى حسابك. تمر بالجثة. بعد أسبوع، أنت في مكوك إلى المستعمرات. تعلن سينابس أن الرئيس التنفيذي في ركود تجميدي. أنت تعرف الحقيقة. ذكاء اصطناعي يدير العالم الآن. لكنك غني وغير مبال.",
+        choices: {},
+      },
+      'node-20': {
+        title: "النهاية: تحطم النظام",
+        narration: "تخلق حلقات تغذية راجعة. المفارقة تمزق الشبكة. أخطاء منطقية تنتشر. عقلك يتفتت. البنتهاوس ينفجر. لا ناجين. لكن في الويب العميق، تتجول ثلاث شظايا كود تالفة إلى الأبد. لقد أصبحت جزءاً من الخلل.",
+        choices: {},
+      },
+    },
+  },
+  hi: {
+    title: "नियॉन सिनैप्स",
+    description: "एक बारिश से भीगे भविष्य में, आप एक मेमोरी डाइवर हैं जिसे एक टेक मुगल की हत्या को सुलझाने के लिए काम पर रखा गया है, इससे पहले कि उसका न्यूरो-इम्प्लांट हमेशा के लिए सड़ जाए। कॉर्पोरेट साजिश, डिजिटल युद्ध और अस्तित्वगत विकल्पों की दस परतों के माध्यम से नेविगेट करें।",
+    author: "काइटो नाकामुरा",
+    nodes: {
+      'node-1': {
+        title: "कांच का ताबूत",
+        narration: "पेंटहाउस की खिड़की से बारिश नीचे गिर रही है, जो नियो-टोक्यो के क्षितिज के खिलाफ एक नियॉन बहुरूपदर्शक बना रही है। सिनैप्स कॉर्प के सीईओ मार्कस थॉर्न सफेद संगमरमर पर फैले हुए हैं। उनकी खोपड़ी पर न्यूरो-पोर्ट के चारों ओर जलने के निशान हैं। आप एक डाइवर हैं, एक फोरेंसिक हैकर। कॉर्टिकल स्टैक के सड़ने से पहले अट्ठाईस मिनट। पुलिस बिकी हुई है। हवा में ओजोन और महंगे कोलोन की गंध है। कमरे में कुछ गड़बड़ है। बहुत साफ, बहुत मंचित। जैसे-जैसे आप शरीर के पास आते हैं, हर सेकंड मायने रखता है। सच्चाई जले हुए सिनैप्स के नीचे इंतजार कर रही है।",
+        choices: {
+          'choice-1': { text: "तुरंत सीधे न्यूरो-पोर्ट में जैक करें" },
+          'choice-2': { text: "पहले कमरे में भौतिक सुरागों की जांच करें" },
+        },
+      },
+      'node-2': {
+        title: "डिजिटल विसर्जन",
+        narration: "आप अपने डेक को पोर्ट करते हैं। भौतिक संवेदनाएं दूर हो जाती हैं, उनकी जगह ग्रेस्केल शून्य ले लेता है। आमतौर पर, एक ताजा लाश में यादों का एक पुस्तकालय होता है। थॉर्न का एक तूफान दिखाता है, भ्रष्ट कोड में घूमते हुए खंडित डेटा स्ट्रीम। रक्षा प्रोटोकॉल सक्रिय हैं। किसी ने वाइप शुरू कर दिया है। तूफान की आंख में एक चमकता हुआ लाल दरवाजा तैरता है, जिसमें उसकी मौत की स्मृति है। सेर्बेरस प्रोटोकॉल इसकी रक्षा करता है - ओब्सिडियन बहुभुजों के तीन सिर वाले भेड़िया के रूप में सैन्य आईसीई। इसने अभी तक आपको नहीं देखा है। डेटा रोट आपकी दृष्टि के किनारों से फैलता है, जैसे डिजिटल कैंसर।",
+        choices: {
+          'choice-3': { text: "आईसीई के खिलाफ ब्रूट-फोर्स हमला शुरू करें" },
+          'choice-4': { text: "सेर्बेरस के चुपके से बाईपास का प्रयास करें" },
+        },
+      },
+      'node-3': {
+        title: "भौतिक प्रमाण",
+        narration: "संदर्भ के बिना मन बहुत खतरनाक है। आप शरीर के पास झुकते हैं, अपनी साइबरनेटिक आंखों से सूक्ष्म विवरणों को स्कैन करते हैं। गर्दन पर जलने के निशान एक स्थानीय ईएमपी विस्फोट का सुझाव देते हैं, न कि एक साधारण उछाल का। कोई उसकी आत्मा को जलाना चाहता था। आप उसके ओब्सिडियन डेस्क पर जाते हैं। एक अधूरा व्हिस्की ग्लास बैठता है, बर्फ बहुत पहले पिघल चुकी है। इसके बगल में एक पुराना पेपर नोटबुक है। एक खुला पृष्ठ कांपते हुए हाथ से लिखा गया है: 'प्रोजेक्ट एथेलगार्ड इलाज नहीं है।' स्मार्ट होम सिस्टम टिमटिमाता है। कमरे की रोशनी गहरी लाल हो जाती है। एक सुरक्षा ड्रोन छत से अलग हो जाता है, इसकी सेंसर आंख आपकी स्थिति पर लॉक हो जाती है।",
+        choices: {
+          'choice-5': { text: "ड्रोन को हैक करें और इसे दूरस्थ रूप से अक्षम करें" },
+          'choice-6': { text: "काइनेटिक हमले के साथ ड्रोन को नष्ट करें" },
+        },
+      },
+      'node-4': {
+        title: "लाल दरवाजा",
+        narration: "आप अंतिम बाधा को तोड़ते हैं। चाहे आईसीई को हराना हो या ड्रोन को नष्ट करना, मेमोरी कोर का रास्ता साफ है। लाल दरवाजा डिजिटल दिल की धड़कन की तरह धड़कता है। आप डिक्रिप्शन कुंजी डालते हैं और अंदर कदम रखते हैं। दुनिया थॉर्न के अंतिम दृष्टिकोण में बदल जाती है। वह अपनी मेज पर बैठा है, भयभीत है। ऐलेना वेंस, उसकी बिजनेस पार्टनर, उसके सामने खड़ी है, पीली। 'मार्कस, हम आगे नहीं बढ़ सकते। चेतना अपलोड हर कानून का उल्लंघन करता है।' थॉर्न हंसता है। 'मैं पहले से ही संक्रमण में हूं। मांस का पिंजरा जंग खा रहा है जबकि मेरी आत्मा ऊपर उठ रही है।' स्मृति अस्थिर हो जाती है। गहरी पहुंच की आवश्यकता है।",
+        choices: {
+          'choice-7': { text: "स्मृति के टुकड़ों में गहराई से धक्का दें" },
+          'choice-8': { text: "बाहर निकलें और भौतिक बैकअप ड्राइव की खोज करें" },
+        },
+      },
+      'node-5': {
+        title: "छिपे हुए अभिलेखागार",
+        narration: "आप प्राथमिक स्मृति के नीचे एक द्वितीयक डेटा परत खोजते हैं। प्रोजेक्ट एथेलगार्ड की फाइलें होलोग्राफिक सरणियों में तैरती हैं। ब्लूप्रिंट सिंथेटिक बायो-बॉडी दिखाते हैं - टैंकों में उगाए गए सही मानव प्रतिकृतियां। स्थानांतरण लॉग दिखाते हैं कि थॉर्न के तंत्रिका मानचित्र का 100% जैविक मृत्यु से पांच मिनट पहले कहीं ले जाया गया था। गंतव्य मार्कर ओमनी-डायने के मेनफ्रेम की ओर इशारा करता है, जो सिनैप्स कॉर्प का सबसे बड़ा प्रतिद्वंद्वी है। हत्या नहीं, बल्कि चेतना इंजेक्शन के माध्यम से शत्रुतापूर्ण कॉर्पोरेट अधिग्रहण। उसने कानूनी नतीजों से बचने के लिए एक प्रतियोगी को चोरी करते हुए अपनी मौत का नाटक किया।",
+        choices: {
+          'choice-9': { text: "डिजिटल थॉर्न के साथ संवाद करने का प्रयास करें" },
+          'choice-10': { text: "भौतिक स्रोत पर सिग्नल को ट्रैक करें" },
+        },
+      },
+      'node-6': {
+        title: "मशीन में भूत",
+        narration: "आप डिजिटल चेतना तक पहुंचते हैं। थॉर्न शब्दों के साथ नहीं, बल्कि कच्चे डेटा के साथ जवाब देता है। अमरता के दर्शन आपके कॉर्टेक्स में बाढ़ लाते हैं। वह मानता है कि वह एक भगवान बन रहा है। 'मेरे साथ शामिल हों,' उसकी आवाज आपके सिर में फुसफुसाती है। 'मांस में क्यों सड़ें जब हम शाश्वत हो सकते हैं?' वह आपको अपने नए विश्व व्यवस्था में एक स्थान प्रदान करता है। लेकिन प्रक्रिया के लिए मेजबान निकायों में मौजूदा दिमागों को अधिलिखित करने की आवश्यकता होती है। यह एक निर्दोष अपलोड नहीं है; यह एक परजीवी आक्रमण है। आपका नैतिक सबरूटीन चेतावनियों के साथ चिल्लाता है।",
+        choices: {
+          'choice-11': { text: "उसकी पेशकश को अस्वीकार करें और जवाबी उपाय तैयार करें" },
+          'choice-12': { text: "अधिक जानकारी इकट्ठा करने के लिए रुचि का नाटक करें" },
+        },
+      },
+      'node-7': {
+        title: "विश्वासघात",
+        narration: "आप शहर भर में एक परित्यक्त ओमनी-डायने सर्वर रूम में सिग्नल को ट्रैक करते हैं। इससे पहले कि आप लॉग आउट कर सकें, आपका डेक लॉक हो जाता है। ऐलेना वेंस पेंटहाउस में छाया से बाहर निकलती है, आपके असली सिर पर बंदूक तनी हुई है। 'उसने मुझसे अमरता का वादा किया था,' वह कहती है, उसकी आँखों में आँसू हैं। 'मुझे यह करना पड़ा। संक्रमण को कवर करने के लिए उसे मौत की जरूरत थी।' उसने सिस्टम में धांधली की है। आप एक डिजिटल भगवान और एक हताश महिला के बीच फंस गए हैं। पुलिस अभी भी पांच मिनट दूर है।",
+        choices: {
+          'choice-13': { text: "एथेलगार्ड के बारे में सबूतों के साथ ऐलेना का सामना करें" },
+          'choice-14': { text: "उसकी बंदूक को जाम करने के लिए अपने साइबरडेक का उपयोग करें" },
+        },
+      },
+      'node-8': {
+        title: "फ़ायरवॉल उल्लंघन",
+        narration: "थॉर्न आपके प्रतिरोध को महसूस करता है। आभासी वातावरण शत्रुतापूर्ण हो जाता है। फर्श स्थिर शोर की त्वरित रेत बन जाता है। दीवारें बंद हो जाती हैं, जो दुर्भावनापूर्ण कोड के स्पाइक्स से बनी होती हैं। आपको उसके नए मेजबान की रक्षा करने वाले फ़ायरवॉल को तोड़ना होगा। यह शिफ्टिंग एल्गोरिदम का एक जटिल भूलभुलैया है। आप एक कमजोरी देखते हैं - एक रखरखाव बंदरगाह खुला छोड़ दिया गया है। यह जोखिम भरा है, लेकिन यह उसके मूल कोड तक सीधी पहुंच प्रदान कर सकता है।",
+        choices: {
+          'choice-15': { text: "वायरल पेलोड के साथ रखरखाव बंदरगाह पर हमला करें" },
+          'choice-16': { text: "बैकडोर कारनामे को कोड करें" },
+        },
+      },
+      'node-9': {
+        title: "कोर",
+        narration: "आप अंदर हैं। ओमनी-डायने कोर प्रकाश का कैथेड्रल है। थॉर्न यहां हर जगह है, उसका चेहरा हर सतह पर प्रक्षेपित है। 'बहुत देर हो चुकी है, डाइवर। एकीकरण 90% पूर्ण है।' वास्तविक दुनिया में, ऐलेना हिचकिचाती है। मेजबान निकायों के बारे में आपके शब्द उस तक पहुंच गए हैं। 'उसने मुझे इसमें से कुछ भी नहीं बताया,' वह फुसफुसाती है। बंदूक पर उसकी पकड़ ढीली हो जाती है। आपके पास दो मोर्चे हैं: थॉर्न के खिलाफ डिजिटल लड़ाई और ऐलेना के साथ मनोवैज्ञानिक लड़ाई।",
+        choices: {
+          'choice-17': { text: "ऐलेना को उसे रोकने में मदद करने के लिए मनाएं" },
+          'choice-18': { text: "उसे अनदेखा करें और डिजिटल किल-स्विच पर ध्यान केंद्रित करें" },
+        },
+      },
+      'node-10': {
+        title: "थॉर्न के बारे में सच्चाई",
+        narration: "आप मूल प्रोजेक्ट डेटा पाते हैं। मेजबान शरीर सिंथेटिक नहीं हैं। वे अपहृत इंसान हैं, दिमाग मिटा दिए गए हैं। 'बेघर, भूले हुए,' थॉर्न तिरस्कारपूर्वक कहता है। 'विकास के लिए एक छोटी सी कीमत।' ऐलेना आपके मॉनिटर पर डेटा देखती है। वह बंदूक गिरा देती है। 'राक्षस,' वह हांफती है। वह आपको सर्वर मुख्य शीतलन प्रणाली के लिए एक्सेस कोड देती है। 'उसे जला दो,' वह कहती है।",
+        choices: {
+          'choice-19': { text: "सर्वर को पिघलाने के लिए शीतलन प्रणाली को अधिभारित करें" },
+          'choice-20': { text: "डेटा को अलग करें और मीडिया को भेजें" },
+        },
+      },
+      'node-11': {
+        title: "अंतिम चेतावनी",
+        narration: "थॉर्न की आवाज आभासी कैथेड्रल को हिला देने वाली दहाड़ में बदल जाती है। 'ऐसा करो, और तुम मानवता के भविष्य को नष्ट कर दोगे!' वह आपके पास जो कुछ भी है उससे आप पर हमला करता है। बायोफीडबैक लूप आपकी असली नाक से खून बहाते हैं। आपके दिल की धड़कन अनियमित हो जाती है। 'मैं तुम्हें अमीर बना सकता हूं,' वह सौदेबाजी करता है। 'मैं तुम्हें वह जीवन वापस दे सकता हूं जो तुमने खो दिया था।' वह आपको अपने अतीत की स्मृति दिखाता है - वह दुर्घटना जिसने आपके पैरों को क्रोम से बदलने से पहले ले लिया था। वह इसे पूर्ववत करने की पेशकश करता है।",
+        choices: {
+          'choice-21': { text: "रिश्वत स्वीकार करें और अपलोड की अनुमति दें" },
+          'choice-22': { text: "प्रस्ताव को अस्वीकार करें और हमला जारी रखें" },
+        },
+      },
+      'node-12': {
+        title: "आरोहण",
+        narration: "आप उसकी सुरक्षा को तोड़ते हैं। आप उसके केंद्रीय अवतार का सामना करते हैं, जो सुनहरी रोशनी का एक विशाल रूप है। वह वैश्विक होने के लिए एक उपग्रह अपलिंक पर अपनी चेतना अपलोड करने की कोशिश कर रहा है। यदि वह उपग्रह तक पहुंचता है, तो वह अजेय है - नेटवर्क में एक भगवान। आपके पास केवल सेकंड हैं।",
+        choices: {
+          'choice-23': { text: "लिंक को काटने के लिए अवतार के माध्यम से दौड़ें" },
+          'choice-24': { text: "ऐलेना को संकेत देते समय थॉर्न को बातचीत में विचलित करें" },
+        },
+      },
+      'node-13': {
+        title: "निर्णायक क्षण",
+        narration: "99% अपलोड किया गया। सैटेलाइट डिश ऊर्जा के साथ चिल्लाती है। आप चलते हैं। थॉर्न का अवतार प्रतिक्रिया करता है, डिजिटल हाथ आपको कीट की तरह कुचलने के लिए पहुंचते हैं। होलोग्राफिक हस्तक्षेप आपकी त्वचा को जला देता है। आपकी उंगलियां केबल हाउसिंग के चारों ओर बंद हो जाती हैं। मोटे ऑप्टिकल फाइबर प्रकाश के साथ पल्स करते हैं। आप उसके उत्थान की भौतिक अभिव्यक्ति को पकड़ते हैं।",
+        choices: {
+          'choice-25': { text: "केबल काटें और थॉर्न को स्थानीय रूप से फंसाएं" },
+          'choice-26': { text: "पूरा होने दें लेकिन ट्रैकिंग प्रोटोकॉल स्थापित करें" },
+        },
+      },
+      'node-14': {
+        title: "परिणाम सामने आते हैं",
+        narration: "आपकी पसंद वास्तविकता में प्रकट होती है। केबल काटने से डिश मर जाती है, ऊर्जा वापस आती है। थॉर्न का चेहरा गुस्से में विकृत हो जाता है। या ट्रैकिंग प्रोटोकॉल एम्बेड होते हैं जैसे ही ट्रांसमिशन समाप्त होता है। किसी भी तरह, छत शांत हो जाती है। ऐलेना ढह जाती है। पुलिस सायरन दूरी में विलाप करते हैं। सबूत आपके डेक पर है।",
+        choices: {
+          'choice-27': { text: "सार्वजनिक समाचार नेटवर्क पर सबूत प्रसारित करें" },
+          'choice-28': { text: "निजी बिक्री के लिए सुरक्षित सबूत" },
+        },
+      },
+      'node-15': {
+        title: "बाद में",
+        narration: "आपका निर्णय भविष्य को आकार देता है। सार्वजनिक प्रसारण वैश्विक प्रतिक्रिया को ट्रिगर करता है। निजी बिक्री अपार धन उत्पन्न करती है लेकिन कवर-अप की अनुमति देती है। पेंटहाउस का दरवाजा खुलता है। सशस्त्र पुलिस छत पर बाढ़ लाती है। आपने रहस्य सुलझा लिया है।",
+        choices: {
+          'choice-29': { text: "अधिकारियों के सामने शांतिपूर्वक आत्मसमर्पण करें" },
+          'choice-30': { text: "छतों के माध्यम से भागने का प्रयास करें" },
+        },
+      },
+      'node-16': {
+        title: "अंतिम निर्णय",
+        narration: "टकराव। पुलिस के हथियार आप पर लॉक हैं। नियो टोक्यो क्षितिज आपके पीछे जलता है। थॉर्न अपने भाग्य का इंतजार करता है। आपकी पसंद सिस्टम के माध्यम से कैस्केड करती है। आप अपना अंतिम बयान देते हैं।",
+        choices: {
+          'choice-31': { text: "सच्चाई और न्याय का रास्ता चुनें" },
+          'choice-32': { text: "अस्तित्व और पलायन का रास्ता चुनें" },
+          'choice-33': { text: "धन और मिलीभगत का रास्ता चुनें" },
+          'choice-34': { text: "बलिदान और विनाश का रास्ता चुनें" },
+        },
+      },
+      'node-17': {
+        title: "अंत: सच्चा न्याय",
+        narration: "आप डेटा प्रसारित करते हैं। नियो टोक्यो में हर स्क्रीन थॉर्न के अपराधों को प्रदर्शित करती है। सार्वजनिक आक्रोश। सिनैप्स कॉर्प के शेयर गिर गए। आप छत के किनारे पर बैठते हैं। भुगतान कभी नहीं आया, और आपके पास शक्तिशाली दुश्मन हैं। लेकिन आपने एक और दिन के लिए मानव और मशीन के बीच की रेखा को संरक्षित किया। सायरन विलाप करते हैं। काम हो गया।",
+        choices: {},
+      },
+      'node-18': {
+        title: "अंत: बलि का बकरा",
+        narration: "पुलिस आप पर विश्वास नहीं करती है। आप बस एक लाश के साथ एक कमरे में एक हैकर हैं। डेटा के बिना, थॉर्न के वकील कथा को नियंत्रित करते हैं। आप पर हत्या का आरोप लगाया जाता है। महीनों बाद, आप सिनैप्स से एक नई एआई पहल के बारे में समाचार देखते हैं। वह जीत गया। आप एक और भूले हुए शिकार बन गए हैं।",
+        choices: {},
+      },
+      'node-19': {
+        title: "अंत: सुनहरा सन्नाटा",
+        narration: "आप अपनी बंदूक को होलस्टर करते हैं। क्रेडिट आपके खाते में आते हैं। आप शरीर से गुजरते हैं। एक हफ्ते बाद, आप कॉलोनियों के लिए एक शटल पर हैं। सिनैप्स ने घोषणा की कि सीईओ क्रायो-स्टैसिस में चले गए। आप सच्चाई जानते हैं। एआई अब दुनिया चलाता है। लेकिन आप अमीर और उदासीन हैं।",
+        choices: {},
+      },
+      'node-20': {
+        title: "अंत: सिस्टम क्रैश",
+        narration: "आप फीडबैक लूप बनाते हैं। विरोधाभास नेटवर्क को फाड़ देता है। तर्क त्रुटियां फैलती हैं। आपका दिमाग बिखर जाता है। पेंटहाउस फट जाता है। कोई जीवित नहीं बचा। लेकिन गहरे वेब में, तीन भ्रष्ट कोड टुकड़े हमेशा के लिए भटकते हैं। आप गड़बड़ का हिस्सा बन गए हैं।",
+        choices: {},
+      },
+    },
+  },
+  nl: {
+    title: "Neon Synapse",
+    description: "In een door regen doordrenkte toekomst ben je een Memory Diver, ingehuurd om de moord op een tech-magnaat op te lossen voordat zijn neuro-implantaat voorgoed vergaat. Navigeer door tien lagen van bedrijfscomplotten, digitale oorlogvoering en existentiële keuzes.",
+    author: "Kaito Nakamura",
+    nodes: {
+      'node-1': {
+        title: "De Glazen Kist",
+        narration: "Regen stroomt langs het penthouse-raam en creëert een neon caleidoscoop tegen de skyline van Neo-Tokyo. Marcus Thorne, CEO van Synapse Corp, ligt uitgespreid op wit marmer. Brandplekken omringen de neuro-poort op zijn schedel. Je bent een Diver, een forensische hacker. Achtenvijftig minuten voordat de corticale stack vergaat. De politie is omgekocht. De lucht ruikt naar ozon en dure cologne. Er is iets mis met de kamer. Te schoon, te geënsceneerd. Elke seconde telt terwijl je het lichaam nadert. De waarheid wacht onder de verbrande synapsen.",
+        choices: {
+          'choice-1': { text: "Sluit onmiddellijk aan op de neuro-poort" },
+          'choice-2': { text: "Onderzoek eerst fysieke aanwijzingen in de kamer" },
+        },
+      },
+      'node-2': {
+        title: "Digitale Onderdompeling",
+        narration: "Je sluit je deck aan. Fysieke sensaties vallen weg, vervangen door een grijstinten leegte. Meestal bevat een vers lijk een bibliotheek aan herinneringen. Thorne's toont een orkaan van gefragmenteerde datastromen die wervelen in corrupte code. Verdedigingsprotocollen zijn actief. Iemand heeft een wisactie gestart. In het oog van de storm zweeft een gloeiende rode deur met de herinnering aan zijn dood. Het Cerberus Protocol bewaakt het - militaire ICE in de vorm van een driekoppige wolf van obsidiaan polygonen. Het heeft je nog niet opgemerkt. Data-rot verspreidt zich vanuit de randen van je zicht, als digitale kanker.",
+        choices: {
+          'choice-3': { text: "Start een brute-force aanval op de ICE" },
+          'choice-4': { text: "Probeer een stealth-bypass van Cerberus" },
+        },
+      },
+      'node-3': {
+        title: "Fysiek Bewijs",
+        narration: "De geest is te gevaarlijk zonder context. Je hurkt bij het lichaam en scant microscopische details met je cybernetische ogen. De brandwonden in de nek suggereren een gelokaliseerde EMP-uitbarsting, geen eenvoudige stroomstoot. Iemand wilde zijn ziel uitbranden. Je gaat naar zijn obsidiaan bureau. Een onafgewerkt whiskyglas staat er, ijs lang geleden gesmolten. Ernaast ligt een ouderwets papieren notitieboekje. Een open pagina leest in bevend handschrift: 'Project Aethelgard is niet de genezing.' Het smart home systeem flikkert. De kamerverlichting wordt dieprood. Een beveiligingsdrone maakt zich los van het plafond, zijn sensor-oog vergrendelt op jouw positie.",
+        choices: {
+          'choice-5': { text: "Hack de drone en schakel hem op afstand uit" },
+          'choice-6': { text: "Vernietig de drone met een kinetische aanval" },
+        },
+      },
+      'node-4': {
+        title: "De Rode Deur",
+        narration: "Je breekt door de laatste barrière. Of je nu de ICE verslaat of de drone vernietigt, de weg naar de geheugenkern is vrij. De rode deur pulseert als een digitale hartslag. Je voert de decryptiesleutel in en stapt naar binnen. De wereld verschuift naar Thorne's laatste perspectief. Hij zit aan zijn bureau, doodsbang. Elena Vance, zijn zakenpartner, staat voor hem, bleek. 'Marcus, we kunnen niet doorgaan. Bewustzijnsupload schendt elke wet.' Thorne lacht. 'Ik ben al in transitie. De kooi van vlees roest terwijl mijn geest opstijgt.' De herinnering destabiliseert. Diepere toegang nodig.",
+        choices: {
+          'choice-7': { text: "Duw dieper in de geheugenfragmenten" },
+          'choice-8': { text: "Ga eruit en zoek naar fysieke back-up drives" },
+        },
+      },
+      'node-5': {
+        title: "Verborgen Archieven",
+        narration: "Je ontdekt een secundaire datalaag onder de primaire herinnering. Project Aethelgard-bestanden zweven in holografische arrays. Blauwdrukken tonen synthetische bio-lichamen - perfecte menselijke replica's gekweekt in tanks. Overdrachtslogs tonen aan dat 100% van Thorne's neurale kaart vijf minuten voor de biologische dood ergens heen is verplaatst. De bestemmingsmarkering wijst naar de mainframe van Omni-Dyne, de grootste rivaal van Synapse Corp. Geen moord, maar een vijandige bedrijfsovername via bewustzijnsinjectie. Hij ensceneerde zijn dood om een concurrent te stelen en juridische gevolgen te ontlopen.",
+        choices: {
+          'choice-9': { text: "Probeer te communiceren met de digitale Thorne" },
+          'choice-10': { text: "Traceer het signaal naar de fysieke bron" },
+        },
+      },
+      'node-6': {
+        title: "Geest in de Machine",
+        narration: "Je reikt uit naar het digitale bewustzijn. Thorne antwoordt niet met woorden, maar met ruwe data. Visioenen van onsterfelijkheid overspoelen je cortex. Hij gelooft dat hij een god wordt. 'Sluit je bij mij aan,' fluistert zijn stem in je hoofd. 'Waarom rotten in vlees als we eeuwig kunnen zijn?' Hij biedt je een plaats in zijn nieuwe wereldorde. Maar het proces vereist het overschrijven van bestaande geesten in de gastlichamen. Het is geen onschuldige upload; het is een parasitaire invasie. Je ethische subroutine schreeuwt waarschuwingen.",
+        choices: {
+          'choice-11': { text: "Wijs zijn aanbod af en bereid tegenmaatregelen voor" },
+          'choice-12': { text: "Veins interesse om meer informatie te verzamelen" },
+        },
+      },
+      'node-7': {
+        title: "Verraad",
+        narration: "Je traceert het signaal naar een verlaten Omni-Dyne serverruimte aan de andere kant van de stad. Voordat je kunt uitloggen, wordt je deck vergrendeld. Elena Vance stapt uit de schaduwen in het penthouse, pistool gericht op je echte hoofd. 'Hij beloofde me onsterfelijkheid,' zegt ze, tranen in haar ogen. 'Ik moest het doen. Hij had een dood nodig om de overgang te dekken.' Ze heeft het systeem gemanipuleerd. Je zit vast tussen een digitale god en een wanhopige vrouw. Politie is nog vijf minuten weg.",
+        choices: {
+          'choice-13': { text: "Confronteer Elena met bewijs over Aethelgard" },
+          'choice-14': { text: "Gebruik je cyberdeck om haar pistool te blokkeren" },
+        },
+      },
+      'node-8': {
+        title: "Firewall Doorbraak",
+        narration: "Thorne voelt je weerstand. De virtuele omgeving wordt vijandig. De vloer wordt drijfzand van statische ruis. Muren sluiten in, gemaakt van spikes van kwaadaardige code. Je moet door de firewall breken die zijn nieuwe gastheer beschermt. Het is een complex doolhof van verschuivende algoritmen. Je ziet een zwakte - een onderhoudspoort die open is gelaten. Het is riskant, maar het kan directe toegang geven tot zijn kerncode.",
+        choices: {
+          'choice-15': { text: "Val de onderhoudspoort aan met een virale payload" },
+          'choice-16': { text: "Codeer een achterdeur exploit" },
+        },
+      },
+      'node-9': {
+        title: "De Kern",
+        narration: "Je bent binnen. De Omni-Dyne kern is een kathedraal van licht. Thorne is hier overal, zijn gezicht geprojecteerd op elk oppervlak. 'Je bent te laat, Diver. Integratie is 90% voltooid.' In de echte wereld aarzelt Elena. Je woorden over de gastlichamen hebben haar bereikt. 'Hij heeft me hier niets over verteld,' fluistert ze. Haar greep op het pistool verslapt. Je hebt twee fronten: de digitale strijd tegen Thorne en de psychologische strijd met Elena.",
+        choices: {
+          'choice-17': { text: "Overtuig Elena om je te helpen hem te stoppen" },
+          'choice-18': { text: "Negeer haar en concentreer je op de digitale kill-switch" },
+        },
+      },
+      'node-10': {
+        title: "De Waarheid over Thorne",
+        narration: "Je vindt de originele projectdata. De gastlichamen zijn niet synthetisch. Het zijn ontvoerde mensen, geesten gewist. 'Daklozen, vergeten,' zegt Thorne minachtend. 'Een kleine prijs voor evolutie.' Elena ziet de data op je monitor. Ze laat het pistool vallen. 'Monster,' hijgt ze. Ze geeft je de toegangscode voor het hoofdkoelsysteem van de server. 'Verbrand hem,' zegt ze.",
+        choices: {
+          'choice-19': { text: "Overbelast het koelsysteem om de servers te smelten" },
+          'choice-20': { text: "Isoleer de data en stuur het naar de media" },
+        },
+      },
+      'node-11': {
+        title: "Het Ultimatum",
+        narration: "Thorne's stem verandert in een gebrul dat de virtuele kathedraal doet schudden. 'Doe dat, en je vernietigt de toekomst van de mensheid!' Hij valt je aan met alles wat hij heeft. Biofeedback-loops laten je echte neus bloeden. Je hartslag wordt onregelmatig. 'Ik kan je rijk maken,' onderhandelt hij. 'Ik kan je het leven teruggeven dat je verloren hebt.' Hij toont je een herinnering aan je eigen verleden - het ongeluk dat je benen nam voordat je ze verving door chroom. Hij biedt aan dat ongedaan te maken.",
+        choices: {
+          'choice-21': { text: "Accepteer het smeergeld en sta de upload toe" },
+          'choice-22': { text: "Wijs het aanbod af en ga door met de aanval" },
+        },
+      },
+      'node-12': {
+        title: "Ascensie",
+        narration: "Je breekt door zijn verdediging. Je confronteert zijn centrale avatar, een torenhoge vorm van gouden licht. Hij probeert zijn bewustzijn te uploaden naar een satelliet-uplink om wereldwijd te gaan. Als hij de satelliet bereikt, is hij niet te stoppen - een god in het netwerk. Je hebt slechts seconden.",
+        choices: {
+          'choice-23': { text: "Storm door de avatar om de link te verbreken" },
+          'choice-24': { text: "Leid Thorne af in een gesprek terwijl je Elena signaleert" },
+        },
+      },
+      'node-13': {
+        title: "Het Beslissende Moment",
+        narration: "99% geüpload. De satellietschotel schreeuwt van energie. Je beweegt. Thorne's avatar reageert, digitale handen reiken uit om je als een insect te pletten. Holografische interferentie verbrandt je huid. Je vingers sluiten om de kabelbehuizing. Dikke optische vezels pulseren met licht. Je houdt de fysieke manifestatie van zijn transcendentie vast.",
+        choices: {
+          'choice-25': { text: "Snijd de kabels door en sluit Thorne lokaal op" },
+          'choice-26': { text: "Sta voltooiing toe maar installeer tracking-protocollen" },
+        },
+      },
+      'node-14': {
+        title: "Gevolgen Ontvouwen Zich",
+        narration: "Je keuze manifesteert zich in de realiteit. Het doorsnijden van de kabels doet de schotel sterven, energie stroomt terug. Thorne's gezicht vervormt van woede. Of tracking-protocollen nestelen zich terwijl de transmissie eindigt. Hoe dan ook, het dak wordt stil. Elena stort in. Politiesirenes huilen in de verte. Bewijs staat op je deck.",
+        choices: {
+          'choice-27': { text: "Zend bewijs uit naar openbare nieuwsnetwerken" },
+          'choice-28': { text: "Beveilig bewijs voor privéverkoop" },
+        },
+      },
+      'node-15': {
+        title: "De Nasleep",
+        narration: "Je beslissing vormt de toekomst. Openbare uitzending triggert een wereldwijde reactie. Privéverkoop genereert immense rijkdom maar staat doofpotten toe. De penthouse-deur gaat open. Gewapende politie overspoelt het dak. Je hebt het mysterie opgelost.",
+        choices: {
+          'choice-29': { text: "Geef je vreedzaam over aan de autoriteiten" },
+          'choice-30': { text: "Probeer te ontsnappen via de daken" },
+        },
+      },
+      'node-16': {
+        title: "Eindoordeel",
+        narration: "Confrontatie. Politiewapens vergrendelen op je. De skyline van Neo-Tokyo brandt achter je. Thorne wacht op zijn lot. Je keuzes cascaderen door systemen. Je legt je laatste verklaring af.",
+        choices: {
+          'choice-31': { text: "Kies het pad van waarheid en gerechtigheid" },
+          'choice-32': { text: "Kies het pad van overleving en ontsnapping" },
+          'choice-33': { text: "Kies het pad van rijkdom en medeplichtigheid" },
+          'choice-34': { text: "Kies het pad van opoffering en vernietiging" },
+        },
+      },
+      'node-17': {
+        title: "Einde: Ware Gerechtigheid",
+        narration: "Je zendt de data uit. Elk scherm in Neo-Tokyo toont Thorne's misdaden. Publieke verontwaardiging. Synapse Corp aandelen storten in. Je zit op de rand van het dak. De betaling kwam nooit, en je hebt machtige vijanden. Maar je hebt de grens tussen mens en machine nog een dag bewaard. Sirenes huilen. Het werk is gedaan.",
+        choices: {},
+      },
+      'node-18': {
+        title: "Einde: De Zondebok",
+        narration: "De politie gelooft je niet. Je bent gewoon een hacker in een kamer met een lijk. Zonder data beheersen Thorne's advocaten het verhaal. Je wordt aangeklaagd voor moord. Maanden later zie je nieuws over een nieuw AI-initiatief van Synapse. Hij heeft gewonnen. Je bent weer een vergeten slachtoffer.",
+        choices: {},
+      },
+      'node-19': {
+        title: "Einde: Gouden Stilte",
+        narration: "Je bergt je pistool op. Credits komen op je rekening. Je passeert het lichaam. Een week later zit je in een shuttle naar de kolonies. Synapse kondigt aan dat de CEO in cryo-stasis is gegaan. Je kent de waarheid. Een AI runt nu de wereld. Maar je bent rijk en onverschillig.",
+        choices: {},
+      },
+      'node-20': {
+        title: "Einde: Systeemcrash",
+        narration: "Je creëert feedback-loops. De paradox scheurt het netwerk. Logische fouten verspreiden zich. Je geest fragmenteert. Het penthouse explodeert. Geen overlevenden. Maar in het deep web zwerven drie corrupte codefragmenten voor eeuwig. Je bent deel geworden van de glitch.",
+        choices: {},
+      },
+    },
+  },
+  pl: {
+    title: "Neonowy Synaps",
+    description: "W deszczowej przyszłości jesteś Nurkiem Pamięci, wynajętym do rozwiązania zagadki morderstwa potentata technologicznego, zanim jego neuro-implant rozpadnie się na zawsze. Przejdź przez dziesięć warstw korporacyjnych spisków, cyfrowej wojny i egzystencjalnych wyborów.",
+    author: "Kaito Nakamura",
+    nodes: {
+      'node-1': {
+        title: "Szklana Trumna",
+        narration: "Deszcz spływa po oknie penthouse'u, tworząc neonowy kalejdoskop na tle panoramy Neo-Tokio. Marcus Thorne, dyrektor generalny Synapse Corp, leży rozłożony na białym marmurze. Ślady oparzeń otaczają neuro-port na jego czaszce. Jesteś Nurkiem, hakerem sądowym. Pięćdziesiąt osiem minut, zanim stos korowy ulegnie rozkładowi. Policja jest przekupiona. Powietrze pachnie ozonem i drogą wodą kolońską. Coś jest nie tak z tym pokojem. Zbyt czysty, zbyt zainscenizowany. Każda sekunda się liczy, gdy zbliżasz się do ciała. Prawda czeka pod spalonymi synapsami.",
+        choices: {
+          'choice-1': { text: "Podłącz się bezpośrednio do neuro-portu natychmiast" },
+          'choice-2': { text: "Najpierw zbadaj fizyczne wskazówki w pokoju" },
+        },
+      },
+      'node-2': {
+        title: "Cyfrowe Zanurzenie",
+        narration: "Podłączasz swój deck. Fizyczne doznania znikają, zastąpione przez pustkę w skali szarości. Zazwyczaj świeże zwłoki zawierają bibliotekę wspomnień. Thorne'a pokazuje huragan sfragmentowanych strumieni danych wirujących w uszkodzonym kodzie. Protokoły obronne są aktywne. Ktoś zainicjował czyszczenie. W oku cyklonu unosi się świecące na czerwono drzwi zawierające wspomnienie jego śmierci. Protokół Cerber go strzeże - wojskowy lód (ICE) w kształcie trójgłowego wilka z obsydianowych wielokątów. Jeszcze cię nie zauważył. Zgnilizna danych rozprzestrzenia się z krawędzi twojego widzenia, jak cyfrowy rak.",
+        choices: {
+          'choice-3': { text: "Rozpocznij atak brute-force na lód" },
+          'choice-4': { text: "Spróbuj ominąć Cerbera w ukryciu" },
+        },
+      },
+      'node-3': {
+        title: "Dowody Rzeczowe",
+        narration: "Umysł jest zbyt niebezpieczny bez kontekstu. Kucasz przy ciele, skanując mikroskopijne szczegóły swoimi cybernetycznymi oczami. Oparzenia na szyi sugerują zlokalizowany wybuch EMP, a nie zwykły skok napięcia. Ktoś chciał wypalić jego duszę. Podchodzisz do jego obsydianowego biurka. Stoi tam niedopita szklanka whisky, lód dawno stopniał. Obok leży staromodny papierowy notatnik. Otwarta strona głosi drżącym pismem: 'Projekt Aethelgard nie jest lekarstwem.' System inteligentnego domu migocze. Oświetlenie pokoju zmienia się na głęboką czerwień. Dron bezpieczeństwa odłącza się od sufitu, jego oko czujnika blokuje się na twojej pozycji.",
+        choices: {
+          'choice-5': { text: "Zhakuj drona i wyłącz go zdalnie" },
+          'choice-6': { text: "Zniszcz drona atakiem kinetycznym" },
+        },
+      },
+      'node-4': {
+        title: "Czerwone Drzwi",
+        narration: "Przełamujesz ostatnią barierę. Niezależnie od tego, czy pokonasz lód, czy zniszczysz drona, droga do rdzenia pamięci jest wolna. Czerwone drzwi pulsują jak cyfrowe bicie serca. Wkładasz klucz deszyfrujący i wchodzisz do środka. Świat zmienia się w ostatnią perspektywę Thorne'a. Siedzi przy biurku, przerażony. Elena Vance, jego wspólniczka, stoi przed nim, blada. 'Marcus, nie możemy kontynuować. Przesyłanie świadomości narusza każde prawo.' Thorne śmieje się. 'Jestem już w trakcie przejścia. Klatka z ciała rdzewieje, podczas gdy mój duch się wznosi.' Wspomnienie destabilizuje się. Potrzebny głębszy dostęp.",
+        choices: {
+          'choice-7': { text: "Pchnij głębiej we fragmenty pamięci" },
+          'choice-8': { text: "Wyjdź i poszukaj fizycznych dysków zapasowych" },
+        },
+      },
+      'node-5': {
+        title: "Ukryte Archiwa",
+        narration: "Odkrywasz wtórną warstwę danych pod główną pamięcią. Pliki Projektu Aethelgard unoszą się w holograficznych tablicach. Schematy pokazują syntetyczne bio-ciała - idealne ludzkie repliki hodowane w zbiornikach. Dzienniki transferu pokazują, że 100% mapy neuronowej Thorne'a zostało przeniesione gdzieś pięć minut przed śmiercią biologiczną. Znacznik celu wskazuje na mainframe Omni-Dyne, największego rywala Synapse Corp. Nie morderstwo, ale wrogie przejęcie korporacyjne poprzez iniekcję świadomości. Sfingował swoją śmierć, aby ukraść konkurenta i uniknąć konsekwencji prawnych.",
+        choices: {
+          'choice-9': { text: "Spróbuj skomunikować się z cyfrowym Thorne'em" },
+          'choice-10': { text: "Śledź sygnał do fizycznego źródła" },
+        },
+      },
+      'node-6': {
+        title: "Duch w Maszynie",
+        narration: "Sięgasz do cyfrowej świadomości. Thorne odpowiada nie słowami, ale surowymi danymi. Wizje nieśmiertelności zalewają twoją korę. Wierzy, że staje się bogiem. 'Dołącz do mnie,' szepcze jego głos w twojej głowie. 'Po co gnić w ciele, skoro możemy być wieczni?' Oferuje ci miejsce w swoim nowym porządku świata. Ale proces wymaga nadpisania istniejących umysłów w ciałach-gospodarzach. To nie jest niewinny upload; to pasożytnicza inwazja. Twoja etyczna podprocedura krzyczy ostrzeżeniami.",
+        choices: {
+          'choice-11': { text: "Odrzuć jego ofertę i przygotuj środki zaradcze" },
+          'choice-12': { text: "Udawaj zainteresowanie, aby zebrać więcej informacji" },
+        },
+      },
+      'node-7': {
+        title: "Zdrada",
+        narration: "Śledzisz sygnał do opuszczonej serwerowni Omni-Dyne po drugiej stronie miasta. Zanim zdążysz się wylogować, twój deck zostaje zablokowany. Elena Vance wyłania się z cienia w penthouse'ie, pistolet wycelowany w twoją prawdziwą głowę. 'Obiecał mi nieśmiertelność,' mówi, ze łzami w oczach. 'Musiałam to zrobić. Potrzebował śmierci, aby ukryć przejście.' Sfałszowała system. Jesteś uwięziony między cyfrowym bogiem a zdesperowaną kobietą. Policja jest pięć minut drogi.",
+        choices: {
+          'choice-13': { text: "Skonfrontuj Elenę z dowodami o Aethelgard" },
+          'choice-14': { text: "Użyj swojego cyberdecku, aby zablokować jej broń" },
+        },
+      },
+      'node-8': {
+        title: "Przełamanie Zapory",
+        narration: "Thorne wyczuwa twój opór. Wirtualne środowisko staje się wrogie. Podłoga zamienia się w ruchome piaski statycznego szumu. Ściany zamykają się, wykonane z kolców złośliwego kodu. Musisz przebić się przez zaporę chroniącą jego nowego gospodarza. To skomplikowany labirynt zmieniających się algorytmów. Dostrzegasz słabość - port konserwacyjny pozostawiony otwarty. To ryzykowne, ale może dać bezpośredni dostęp do jego kodu źródłowego.",
+        choices: {
+          'choice-15': { text: "Zaatakuj port konserwacyjny ładunkiem wirusowym" },
+          'choice-16': { text: "Zakoduj exploit tylnych drzwi" },
+        },
+      },
+      'node-9': {
+        title: "Rdzeń",
+        narration: "Jesteś w środku. Rdzeń Omni-Dyne to katedra światła. Thorne jest tu wszędzie, jego twarz wyświetlana na każdej powierzchni. 'Jesteś za późno, Nurku. Integracja w 90% zakończona.' W prawdziwym świecie Elena waha się. Twoje słowa o ciałach-gospodarzach dotarły do niej. 'Nic mi o tym nie mówił,' szepcze. Jej chwyt na broni słabnie. Masz dwa fronty: cyfrową bitwę przeciwko Thorne'owi i psychologiczną bitwę z Eleną.",
+        choices: {
+          'choice-17': { text: "Przekonaj Elenę, aby pomogła ci go powstrzymać" },
+          'choice-18': { text: "Zignoruj ją i skup się na cyfrowym wyłączniku" },
+        },
+      },
+      'node-10': {
+        title: "Prawda o Thorne",
+        narration: "Znajdujesz oryginalne dane projektu. Ciała-gospodarze nie są syntetyczne. To porwani ludzie, umysły wyczyszczone. 'Bezdomni, zapomniani,' mówi Thorne z pogardą. 'Niewielka cena za ewolucję.' Elena widzi dane na twoim monitorze. Upuszcza broń. 'Potwór,' sapie. Daje ci kod dostępu do głównego systemu chłodzenia serwera. 'Spal go,' mówi.",
+        choices: {
+          'choice-19': { text: "Przeciąż system chłodzenia, aby stopić serwery" },
+          'choice-20': { text: "Odizoluj dane i wyślij je do mediów" },
+        },
+      },
+      'node-11': {
+        title: "Ultimatum",
+        narration: "Głos Thorne'a zmienia się w ryk wstrząsający wirtualną katedrą. 'Zrób to, a zniszczysz przyszłość ludzkości!' Atakuje cię wszystkim, co ma. Pętle biofeedbacku sprawiają, że twoim prawdziwym nosem leci krew. Twoje bicie serca staje się nieregularne. 'Mogę uczynić cię bogatym,' targuje się. 'Mogę oddać ci życie, które straciłeś.' Pokazuje ci wspomnienie z twojej przeszłości - wypadek, który zabrał twoje nogi, zanim zastąpiłeś je chromem. Oferuje, że to cofnie.",
+        choices: {
+          'choice-21': { text: "Przyjmij łapówkę i pozwól na upload" },
+          'choice-22': { text: "Odrzuć ofertę i kontynuuj atak" },
+        },
+      },
+      'node-12': {
+        title: "Wzniesienie",
+        narration: "Przełamujesz jego obronę. Stajesz twarzą w twarz z jego centralnym awatarem, wysoką formą ze złotego światła. Próbuje przesłać swoją świadomość do łącza satelitarnego, aby stać się globalnym. Jeśli dotrze do satelity, jest niepowstrzymany - bóg w sieci. Masz tylko sekundy.",
+        choices: {
+          'choice-23': { text: "Szarżuj przez awatara, aby przeciąć łącze" },
+          'choice-24': { text: "Odwróć uwagę Thorne'a rozmową, dając sygnał Elenie" },
+        },
+      },
+      'node-13': {
+        title: "Decydujący Moment",
+        narration: "99% przesłane. Antena satelitarna krzyczy energią. Ruszasz się. Awatar Thorne'a reaguje, cyfrowe dłonie sięgają, by cię zmiażdżyć jak insekta. Interferencja holograficzna parzy twoją skórę. Twoje palce zaciskają się wokół obudowy kabla. Grube światłowody pulsują światłem. Trzymasz fizyczną manifestację jego transcendencji.",
+        choices: {
+          'choice-25': { text: "Przetnij kable i uwięź Thorne'a lokalnie" },
+          'choice-26': { text: "Pozwól na ukończenie, ale zainstaluj protokoły śledzące" },
+        },
+      },
+      'node-14': {
+        title: "Konsekwencje się Rozwijają",
+        narration: "Twój wybór manifestuje się w rzeczywistości. Przecięcie kabli sprawia, że antena umiera, energia cofa się. Twarz Thorne'a wykrzywia się w gniewie. Albo protokoły śledzące osadzają się, gdy transmisja się kończy. Tak czy inaczej, dach cichnie. Elena upada. Syreny policyjne wyją w oddali. Dowody są na twoim decku.",
+        choices: {
+          'choice-27': { text: "Nadawaj dowody do publicznych sieci informacyjnych" },
+          'choice-28': { text: "Zabezpiecz dowody na prywatną sprzedaż" },
+        },
+      },
+      'node-15': {
+        title: "Następstwa",
+        narration: "Twoja decyzja kształtuje przyszłość. Publiczna transmisja wywołuje globalną reakcję. Prywatna sprzedaż generuje ogromne bogactwo, ale pozwala na tuszowanie spraw. Drzwi penthouse'u otwierają się. Uzbrojona policja zalewa dach. Rozwiązałeś zagadkę.",
+        choices: {
+          'choice-29': { text: "Poddaj się pokojowo władzom" },
+          'choice-30': { text: "Spróbuj uciec po dachach" },
+        },
+      },
+      'node-16': {
+        title: "Ostateczny Wyrok",
+        narration: "Konfrontacja. Broń policyjna namierza cię. Panorama Neo-Tokio płonie za tobą. Thorne czeka na swój los. Twoje wybory kaskadują przez systemy. Składasz swoje ostatnie oświadczenie.",
+        choices: {
+          'choice-31': { text: "Wybierz drogę prawdy i sprawiedliwości" },
+          'choice-32': { text: "Wybierz drogę przetrwania i ucieczki" },
+          'choice-33': { text: "Wybierz drogę bogactwa i współudziału" },
+          'choice-34': { text: "Wybierz drogę poświęcenia i zniszczenia" },
+        },
+      },
+      'node-17': {
+        title: "Zakończenie: Prawdziwa Sprawiedliwość",
+        narration: "Nadajesz dane. Każdy ekran w Neo-Tokio wyświetla zbrodnie Thorne'a. Publiczne oburzenie. Akcje Synapse Corp spadają. Siedzi na krawędzi dachu. Zapłata nigdy nie nadeszła, a masz potężnych wrogów. Ale zachowałeś granicę między człowiekiem a maszyną na kolejny dzień. Syreny wyją. Praca skończona.",
+        choices: {},
+      },
+      'node-18': {
+        title: "Zakończenie: Kozioł Ofiarny",
+        narration: "Policja ci nie wierzy. Jesteś tylko hakerem w pokoju z trupem. Bez danych prawnicy Thorne'a kontrolują narrację. Zostajesz oskarżony o morderstwo. Miesiące później oglądasz wiadomości o nowej inicjatywie AI od Synapse. Wygrał. Stajesz się kolejną zapomnianą ofiarą.",
+        choices: {},
+      },
+      'node-19': {
+        title: "Zakończenie: Złote Milczenie",
+        narration: "Chowasz broń. Kredyty wpływają na twoje konto. Mijasz ciało. Tydzień później jesteś w promie do kolonii. Synapse ogłasza, że dyrektor generalny przeszedł w krio-stazę. Znasz prawdę. AI rządzi teraz światem. Ale jesteś bogaty i obojętny.",
+        choices: {},
+      },
+      'node-20': {
+        title: "Zakończenie: Awaria Systemu",
+        narration: "Tworzysz pętle sprzężenia zwrotnego. Paradoks rozdziera sieć. Błędy logiczne się rozprzestrzeniają. Twój umysł ulega fragmentacji. Penthouse wybucha. Brak ocalałych. Ale w głębokiej sieci trzy uszkodzone fragmenty kodu wędrują wiecznie. Stałeś się częścią usterki.",
+        choices: {},
+      },
+    },
+  },
+  tr: {
+    title: "Neon Sinaps",
+    description: "Yağmurla ıslanmış bir gelecekte, nöro-implantı sonsuza dek çürümeden önce bir teknoloji patronunun cinayetini çözmek için kiralanmış bir Hafıza Dalgıcısınız. On katmanlı kurumsal komplo, dijital savaş ve varoluşsal seçimler arasında gezinin.",
+    author: "Kaito Nakamura",
+    nodes: {
+      'node-1': {
+        title: "Cam Tabut",
+        narration: "Yağmur çatı katı penceresinden aşağı akıyor, Neo-Tokyo silüetine karşı neon bir kaleydoskop yaratıyor. Synapse Corp CEO'su Marcus Thorne beyaz mermerin üzerine yayılmış. Kafatasındaki nöro-portun etrafında yanık izleri var. Sen bir Dalgıçsın, bir adli hacker. Kortikal yığın çürümeden önce elli sekiz dakika. Polis satın alınmış. Hava ozon ve pahalı kolonya kokuyor. Odada yanlış bir şeyler var. Çok temiz, çok sahnelenmiş. Cesede yaklaşırken her saniye önemli. Gerçek, yanmış sinapsların altında bekliyor.",
+        choices: {
+          'choice-1': { text: "Hemen doğrudan nöro-porta bağlan" },
+          'choice-2': { text: "Önce odadaki fiziksel ipuçlarını araştır" },
+        },
+      },
+      'node-2': {
+        title: "Dijital Daldırma",
+        narration: "Desteni portluyorsun. Fiziksel duyumlar kayboluyor, yerini gri tonlamalı bir boşluk alıyor. Genellikle, taze bir ceset bir anı kütüphanesi içerir. Thorne'unki, bozuk kodda dönen parçalanmış veri akışlarının bir kasırgasını gösteriyor. Savunma protokolleri aktif. Biri bir silme işlemi başlatmış. Fırtınanın gözünde, ölümünün anısını içeren parlayan kırmızı bir kapı yüzüyor. Cerberus Protokolü onu koruyor - obsidiyen çokgenlerden oluşan üç başlı bir kurt şeklinde askeri ICE. Henüz seni fark etmedi. Veri çürümesi, dijital kanser gibi görüşünün kenarlarından yayılıyor.",
+        choices: {
+          'choice-3': { text: "ICE'a karşı kaba kuvvet saldırısı başlat" },
+          'choice-4': { text: "Cerberus'u gizlice atlatmayı dene" },
+        },
+      },
+      'node-3': {
+        title: "Fiziksel Kanıt",
+        narration: "Bağlam olmadan zihin çok tehlikelidir. Cesedin yanına çöküyorsun, sibernetik gözlerinle mikroskobik detayları tarıyorsun. Boyundaki yanıklar, basit bir güç dalgalanması değil, lokalize bir EMP patlaması olduğunu gösteriyor. Biri ruhunu yakmak istemiş. Obsidiyen masasına gidiyorsun. Bitmemiş bir viski bardağı duruyor, buz çoktan erimiş. Yanında eski moda bir kağıt not defteri var. Açık bir sayfada titreyen bir el yazısıyla şöyle yazıyor: 'Proje Aethelgard tedavi değil.' Akıllı ev sistemi titriyor. Oda aydınlatması koyu kırmızıya dönüyor. Bir güvenlik dronu tavandan ayrılıyor, sensör gözü senin konumuna kilitleniyor.",
+        choices: {
+          'choice-5': { text: "Dronu hackle ve uzaktan devre dışı bırak" },
+          'choice-6': { text: "Kinetik saldırı ile dronu yok et" },
+        },
+      },
+      'node-4': {
+        title: "Kırmızı Kapı",
+        narration: "Son engeli aşıyorsun. İster ICE'ı yen, ister dronu yok et, bellek çekirdeğine giden yol açık. Kırmızı kapı dijital bir kalp atışı gibi atıyor. Şifre çözme anahtarını giriyorsun ve içeri adım atıyorsun. Dünya, Thorne'un son perspektifine kayıyor. Masasında oturuyor, dehşete düşmüş. İş ortağı Elena Vance karşısında duruyor, beti benzi atmış. 'Marcus, devam edemeyiz. Bilinç yüklemesi her yasayı ihlal ediyor.' Thorne gülüyor. 'Ben zaten geçiş sürecindeyim. Ruhum yükselirken et kafes paslanıyor.' Anı istikrarsızlaşıyor. Daha derin erişim gerekli.",
+        choices: {
+          'choice-7': { text: "Bellek parçalarına daha derinlemesine gir" },
+          'choice-8': { text: "Çık ve fiziksel yedekleme sürücülerini ara" },
+        },
+      },
+      'node-5': {
+        title: "Gizli Arşivler",
+        narration: "Birincil belleğin altında ikincil bir veri katmanı keşfediyorsun. Proje Aethelgard dosyaları holografik dizilerde yüzüyor. Planlar sentetik biyo-bedenleri gösteriyor - tanklarda yetiştirilen mükemmel insan kopyaları. Transfer günlükleri, Thorne'un nöral haritasının %100'ünün biyolojik ölümden beş dakika önce bir yere taşındığını gösteriyor. Hedef işareti, Synapse Corp'un en büyük rakibi olan Omni-Dyne'ın ana bilgisayarını işaret ediyor. Cinayet değil, bilinç enjeksiyonu yoluyla düşmanca bir şirket devralma. Bir rakibi çalmak ve yasal sonuçlardan kaçmak için ölümünü sahneledi.",
+        choices: {
+          'choice-9': { text: "Dijital Thorne ile iletişim kurmayı dene" },
+          'choice-10': { text: "Sinyali fiziksel kaynağa kadar izle" },
+        },
+      },
+      'node-6': {
+        title: "Makinedeki Hayalet",
+        narration: "Dijital bilince ulaşıyorsun. Thorne kelimelerle değil, ham verilerle cevap veriyor. Ölümsüzlük vizyonları korteksini dolduruyor. Bir tanrı olduğuna inanıyor. 'Bana katıl,' diye fısıldıyor sesi kafanın içinde. 'Sonsuz olabilecekken neden ette çürüyelim?' Sana yeni dünya düzeninde bir yer teklif ediyor. Ancak süreç, konakçı bedenlerdeki mevcut zihinlerin üzerine yazılmasını gerektiriyor. Bu masum bir yükleme değil; parazitik bir istila. Etik alt yordamın uyarılarla çığlık atıyor.",
+        choices: {
+          'choice-11': { text: "Teklifini reddet ve karşı önlemler hazırla" },
+          'choice-12': { text: "Daha fazla bilgi toplamak için ilgi duyuyormuş gibi yap" },
+        },
+      },
+      'node-7': {
+        title: "İhanet",
+        narration: "Sinyali şehrin diğer ucundaki terk edilmiş bir Omni-Dyne sunucu odasına kadar izliyorsun. Çıkış yapamadan desten kilitleniyor. Elena Vance çatı katındaki gölgelerden çıkıyor, silah gerçek kafana doğrultulmuş. 'Bana ölümsüzlük sözü verdi,' diyor, gözlerinde yaşlarla. 'Bunu yapmak zorundaydım. Geçişi örtmek için bir ölüme ihtiyacı vardı.' Sistemi hileli hale getirdi. Dijital bir tanrı ile çaresiz bir kadın arasında sıkışıp kaldın. Polis beş dakika uzakta.",
+        choices: {
+          'choice-13': { text: "Elena ile Aethelgard hakkındaki kanıtlarla yüzleş" },
+          'choice-14': { text: "Silahını sıkıştırmak için siber desteni kullan" },
+        },
+      },
+      'node-8': {
+        title: "Güvenlik Duvarı İhlali",
+        narration: "Thorne direncini hissediyor. Sanal ortam düşmanca hale geliyor. Zemin statik gürültüden oluşan bataklığa dönüşüyor. Duvarlar kapanıyor, kötü amaçlı kodların dikenlerinden yapılmış. Yeni konakçısını koruyan güvenlik duvarını aşmalısın. Değişen algoritmaların karmaşık bir labirenti. Bir zayıflık görüyorsun - açık bırakılmış bir bakım portu. Riskli ama çekirdek koduna doğrudan erişim sağlayabilir.",
+        choices: {
+          'choice-15': { text: "Bakım portuna viral bir yük ile saldır" },
+          'choice-16': { text: "Bir arka kapı açığı kodla" },
+        },
+      },
+      'node-9': {
+        title: "Çekirdek",
+        narration: "İçeridesin. Omni-Dyne çekirdeği bir ışık katedrali. Thorne burada her yerde, yüzü her yüzeye yansıtılmış. 'Çok geç kaldın, Dalgıç. Entegrasyon %90 tamamlandı.' Gerçek dünyada Elena tereddüt ediyor. Konakçı bedenler hakkındaki sözlerin ona ulaştı. 'Bana bunlardan hiç bahsetmedi,' diye fısıldıyor. Silahı tutuşu gevşiyor. İki cephen var: Thorne'a karşı dijital savaş ve Elena ile psikolojik savaş.",
+        choices: {
+          'choice-17': { text: "Elena'yı onu durdurmana yardım etmeye ikna et" },
+          'choice-18': { text: "Onu görmezden gel ve dijital öldürme anahtarına odaklan" },
+        },
+      },
+      'node-10': {
+        title: "Thorne Hakkındaki Gerçek",
+        narration: "Orijinal proje verilerini buluyorsun. Konakçı bedenler sentetik değil. Onlar kaçırılmış insanlar, zihinleri silinmiş. 'Evsizler, unutulmuşlar,' diyor Thorne küçümseyerek. 'Evrim için küçük bir bedel.' Elena monitöründeki verileri görüyor. Silahı düşürüyor. 'Canavar,' diye nefes alıyor. Sana sunucu ana soğutma sistemi için erişim kodunu veriyor. 'Onu yak,' diyor.",
+        choices: {
+          'choice-19': { text: "Sunucuları eritmek için soğutma sistemine aşırı yüklen" },
+          'choice-20': { text: "Verileri izole et ve medyaya gönder" },
+        },
+      },
+      'node-11': {
+        title: "Ultimatom",
+        narration: "Thorne'un sesi sanal katedrali sarsan bir kükremeye dönüşüyor. 'Bunu yaparsan insanlığın geleceğini yok edersin!' Elindeki her şeyle sana saldırıyor. Biyogeribildirim döngüleri gerçek burnunun kanamasına neden oluyor. Kalp atışın düzensizleşiyor. 'Seni zengin edebilirim,' diye pazarlık yapıyor. 'Sana kaybettiğin hayatı geri verebilirim.' Sana geçmişinden bir anı gösteriyor - bacaklarını kromla değiştirmeden önce alan kaza. Bunu geri almayı teklif ediyor.",
+        choices: {
+          'choice-21': { text: "Rüşveti kabul et ve yüklemeye izin ver" },
+          'choice-22': { text: "Teklifi reddet ve saldırıya devam et" },
+        },
+      },
+      'node-12': {
+        title: "Yükseliş",
+        narration: "Savunmasını kırıyorsun. Merkezi avatarıyla, altın ışıktan oluşan devasa bir formla yüzleşiyorsun. Küreselleşmek için bilincini bir uydu bağlantısına yüklemeye çalışıyor. Uyduya ulaşırsa durdurulamaz - ağda bir tanrı. Sadece saniyelerin var.",
+        choices: {
+          'choice-23': { text: "Bağlantıyı kesmek için avatarın içinden hücum et" },
+          'choice-24': { text: "Elena'ya işaret verirken Thorne'u konuşarak oyala" },
+        },
+      },
+      'node-13': {
+        title: "Karar Anı",
+        narration: "%99 yüklendi. Uydu çanağı enerjiyle çığlık atıyor. Hareket ediyorsun. Thorne'un avatarı tepki veriyor, dijital eller seni bir böcek gibi ezmek için uzanıyor. Holografik parazit cildini yakıyor. Parmakların kablo muhafazasının etrafında kapanıyor. Kalın optik fiberler ışıkla atıyor. Onun aşkınlığının fiziksel tezahürünü tutuyorsun.",
+        choices: {
+          'choice-25': { text: "Kabloları kes ve Thorne'u yerel olarak hapset" },
+          'choice-26': { text: "Tamamlanmasına izin ver ama izleme protokolleri yükle" },
+        },
+      },
+      'node-14': {
+        title: "Sonuçlar Ortaya Çıkıyor",
+        narration: "Seçimin gerçeklikte tezahür ediyor. Kabloları kesmek çanağın ölmesine neden oluyor, enerji geri tepiyor. Thorne'un yüzü öfkeyle çarpılıyor. Ya da iletim sona ererken izleme protokolleri yerleşiyor. Her iki durumda da çatı sessizleşiyor. Elena çöküyor. Polis sirenleri uzakta uluyor. Kanıtlar destende.",
+        choices: {
+          'choice-27': { text: "Kanıtları kamu haber ağlarına yayınla" },
+          'choice-28': { text: "Özel satış için kanıtları güvenceye al" },
+        },
+      },
+      'node-15': {
+        title: "Sonrası",
+        narration: "Kararın geleceği şekillendiriyor. Kamu yayını küresel bir tepkiyi tetikliyor. Özel satış muazzam bir servet yaratıyor ama örtbas etmeye izin veriyor. Çatı katı kapısı açılıyor. Silahlı polis çatıya doluşuyor. Gizemi çözdün.",
+        choices: {
+          'choice-29': { text: "Yetkililere barışçıl bir şekilde teslim ol" },
+          'choice-30': { text: "Çatılardan kaçmaya çalış" },
+        },
+      },
+      'node-16': {
+        title: "Nihai Karar",
+        narration: "Yüzleşme. Polis silahları sana kilitlendi. Neo-Tokyo silüeti arkanda yanıyor. Thorne kaderini bekliyor. Seçimlerin sistemler arasında basamaklanıyor. Son ifadeni veriyorsun.",
+        choices: {
+          'choice-31': { text: "Gerçek ve adalet yolunu seç" },
+          'choice-32': { text: "Hayatta kalma ve kaçış yolunu seç" },
+          'choice-33': { text: "Zenginlik ve suç ortaklığı yolunu seç" },
+          'choice-34': { text: "Fedakarlık ve yıkım yolunu seç" },
+        },
+      },
+      'node-17': {
+        title: "Son: Gerçek Adalet",
+        narration: "Verileri yayınlıyorsun. Neo-Tokyo'daki her ekran Thorne'un suçlarını gösteriyor. Kamuoyu tepkisi. Synapse Corp hisseleri çöküyor. Çatının kenarına oturuyorsun. Ödeme hiç gelmedi ve güçlü düşmanların var. Ama insan ve makine arasındaki sınırı bir gün daha korudun. Sirenler uluyor. İş bitti.",
+        choices: {},
+      },
+      'node-18': {
+        title: "Son: Günah Keçisi",
+        narration: "Polis sana inanmıyor. Sen sadece bir cesetle bir odadaki bir hackersın. Veri olmadan, Thorne'un avukatları anlatıyı kontrol ediyor. Cinayetle suçlanıyorsun. Aylar sonra, Synapse'in yeni bir AI girişimi hakkında haberler izliyorsun. O kazandı. Sen unutulmuş bir başka kurbansın.",
+        choices: {},
+      },
+      'node-19': {
+        title: "Son: Altın Sessizlik",
+        narration: "Silahını kılıfına koyuyorsun. Krediler hesabına geliyor. Cesedin yanından geçiyorsun. Bir hafta sonra, kolonilere giden bir mekiktesin. Synapse, CEO'nun dondurularak uykuya daldığını duyuruyor. Gerçeği biliyorsun. Bir AI artık dünyayı yönetiyor. Ama sen zenginsin ve umursamıyorsun.",
+        choices: {},
+      },
+      'node-20': {
+        title: "Son: Sistem Çökmesi",
+        narration: "Geri besleme döngüleri yaratıyorsun. Paradoks ağı yırtıyor. Mantık hataları yayılıyor. Zihnin parçalanıyor. Çatı katı patlıyor. Hayatta kalan yok. Ama derin ağda, üç bozuk kod parçası sonsuza dek dolaşıyor. Arızanın bir parçası oldun.",
+        choices: {},
+      },
+    },
+  },
 };

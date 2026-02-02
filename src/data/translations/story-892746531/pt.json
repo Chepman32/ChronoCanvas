@@ -1,0 +1,355 @@
+{
+  "meta": {
+    "storyId": "story-892746531",
+    "language": "pt",
+    "languageName": "Português",
+    "version": "1.0",
+    "lastUpdated": "2025-01-15"
+  },
+  "story": {
+    "title": "A Última Carta",
+    "author": "Elena Rousseau",
+    "description": "Quando você descobre uma misteriosa carta de amor no sótão de sua falecida avó, ela a leva a Paris e a um romance de décadas que nunca foi resolvido. Você consegue encontrar o autor e terminar o que sua avó começou, enquanto navega sua própria conexão inesperada com seu neto?",
+    "genre": "romance",
+    "estimatedDuration": 45,
+    "involvement": "médio"
+  },
+  "nodes": [
+    {
+      "id": "story-892746531-1",
+      "type": "start",
+      "title": "A Descoberta no Sótão",
+      "narration": "Partículas de poeira dançam na luz da tarde que entra pela janela do sótão. Você está organizando as pertences de sua avó quando um envelope desbotado escorrega de um livro antigo. A carta dentro está escrita em francês, datada de 1962, e assinada apenas com um 'J'. Sua avó nunca mencionou um romance em Paris, nunca falou de alguém chamado J. Mas as palavras são inconfundivelmente apaixonadas, prometendo esperar para sempre no Café de Flore. A caligrafia é elegante, o papel fino com a idade, e você sente uma conexão com um segredo guardado por mais de sessenta anos.",
+      "choices": [
+        {
+          "id": "story-892746531-c1",
+          "text": "Pesquisar o café e reservar um voo para Paris",
+          "description": "Seguir o mistério até a fonte"
+        },
+        {
+          "id": "story-892746531-c2",
+          "text": "Perguntar à sua família sobre o passado da avó primeiro",
+          "description": "Reunir informações antes de agir"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-2",
+      "type": "decision",
+      "title": "Cruzando o Atlântico",
+      "narration": "O avião pousa no Aeroporto Charles de Gaulle enquanto a aurora se rompe sobre Paris. Você passou o voo ensaiando o que dirá, como explicará sua missão a estranhos. Sua tia revelou que sua avó passou um ano transformador em Paris antes de conhecer seu avô, voltando de repente sem explicação. Ela lhe mostrou uma fotografia: sua avó aos vinte e três anos, radiante ao lado de um jovem cujo rosto estava de lado. Agora, enquanto você pega sua bagagem e dá o primeiro passo na manhã parisiense, a realidade de sua busca se instala sobre você.",
+      "choices": [
+        {
+          "id": "story-892746531-c3",
+          "text": "Pegar o trem direto para Saint-Germain-des-Prés",
+          "description": "Ir direto ao café"
+        },
+        {
+          "id": "story-892746531-c4",
+          "text": "Fazer check-in no hotel e planejar sua abordagem",
+          "description": "Descansar antes de começar"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-3",
+      "type": "decision",
+      "title": "Chegada em Saint-Germain",
+      "narration": "As ruas de Saint-Germain-des-Prés exalam um charme antigo. Das padarias emite o aroma de croissants frescos. Você passa pelo famoso café Les Deux Magots, imaginando sua avó caminhando por estas mesmas pedras em 1962. O endereço da carta a guia por uma rua estreita ladeada de castanheiros.",
+      "choices": [
+        {
+          "id": "story-892746531-c5",
+          "text": "Perguntar a um comerciante local sobre a história do café",
+          "description": "Reunir conhecimento local"
+        },
+        {
+          "id": "story-892746531-c6",
+          "text": "Continuar direto ao Café de Flore",
+          "description": "Vê-lo por si mesma primeiro"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-4",
+      "type": "decision",
+      "title": "A Icônica Toldo Vermelho",
+      "narration": "Lá está: o Café de Flore, com sua distintiva marquise vermelha. O mesmo toldo das fotos antigas de sua avó ainda pendura sobre a entrada. Um garçom idoso se aproxima com um sorriso conivente.",
+      "choices": [
+        {
+          "id": "story-892746531-c7",
+          "text": "Mostrar-lhe a carta imediatamente",
+          "description": "Ser direta sobre sua missão"
+        },
+        {
+          "id": "story-892746531-c8",
+          "text": "Pedir café e observar o ambiente primeiro",
+          "description": "Levar tempo para absorver a atmosfera"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-5",
+      "type": "decision",
+      "title": "O Reconhecimento do Garçom",
+      "narration": "'Julien', sussurra ele reverentemente. 'Monsieur Moreau. Ele vinha aqui todos os dias por cinco anos depois que ela partiu, sempre esperando'. Aponta para uma mesa onde um jovem está sentado desenhando. 'Esse é seu neto, Luc'. O garçom acaricia sua mão. 'Você tem os olhos dela'.",
+      "choices": [
+        {
+          "id": "story-892746531-c9",
+          "text": "Aproximar-se da mesa de Luc com a carta",
+          "description": "Ser honesta sobre seu propósito"
+        },
+        {
+          "id": "story-892746531-c10",
+          "text": "Apresentar-se casualmente primeiro",
+          "description": "Construir confiança antes de revelar"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-6",
+      "type": "decision",
+      "title": "Primeiro Encontro",
+      "narration": "'Você se parece exatamente com alguém em uma fotografia antiga que meu avô guardou a vida toda. Isto não pode ser coincidência', diz Luc, a voz tremendo.",
+      "choices": [
+        {
+          "id": "story-892746531-c11",
+          "text": "Mostrar-lhe a carta de sua avó",
+          "description": "Revelar a conexão imediatamente"
+        },
+        {
+          "id": "story-892746531-c12",
+          "text": "Perguntar sobre seu avô primeiro",
+          "description": "Conhecer a história de Julien antes de revelar a sua"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-7",
+      "type": "decision",
+      "title": "O Legado de Julien",
+      "narration": "'Julien Moreau passou sua vida pintando a mesma mulher de memória, durante seis décadas. Ele possuía este café mas raramente o deixava. Morreu acreditando que ela simples o havia esquecido. Mas encontrei caixas de pinturas: centenas de telas, todas dela. E cartas. Centenas de cartas nunca enviadas'. Luc estuda seu rosto. 'Sua avó. Éloise era sua avó'.",
+      "choices": [
+        {
+          "id": "story-892746531-c13",
+          "text": "Confirmar a conexão e compartilhar sua história",
+          "description": "Contar-lhe tudo"
+        },
+        {
+          "id": "story-892746531-c14",
+          "text": "Pedir para ver as pinturas de Julien primeiro",
+          "description": "Ver as evidências antes de revelar mais"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-8",
+      "type": "decision",
+      "title": "O Estúdio Acima",
+      "narration": "Luc guia você por uma escada estreita até o estúdio de Julien. As paredes estão cobertas de pinturas: o rosto de sua avó em todas as idades. Cada tela pulsa com amor e saudade. 'Ele a pintou até seus últimos dias', explica Luc.",
+      "choices": [
+        {
+          "id": "story-892746531-c15",
+          "text": "Contar a Luc por que sua avó realmente partiu",
+          "description": "Compartilhar o segredo de família"
+        },
+        {
+          "id": "story-892746531-c16",
+          "text": "Pedir para ler as cartas não enviadas de Julien",
+          "description": "Ouvir primeiro a voz de Julien"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-9",
+      "type": "decision",
+      "title": "Cartas Através do Tempo",
+      "narration": "Luc abre um baú cheio de envelopes envelhecidos. A última carta, escrita dias antes de sua morte: 'Agora entendo que você não podia voltar. Só espero que tenha sido feliz. Te perdoo por não ter voltado'. Luc fecha o baú, lágrimas escorrendo.",
+      "choices": [
+        {
+          "id": "story-892746531-c17",
+          "text": "Revelar a verdade sobre a gravidez",
+          "description": "Dar paz à memória de Julien"
+        },
+        {
+          "id": "story-892746531-c18",
+          "text": "Consolar Luc no luto compartilhado",
+          "description": "Encontrar consolo juntos"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-10",
+      "type": "decision",
+      "title": "Toda a Verdade",
+      "narration": "Você conta tudo a Luc: como sua avó descobriu que estava grávida em 1962, como sua família a forçou a voltar imediatamente. 'Ela guardou a carta dele escondida a vida toda. Nunca deixou de amá-lo. Simplesmente não podia voltar'.",
+      "choices": [
+        {
+          "id": "story-892746531-c19",
+          "text": "Sugerir honrar seu amor com um memorial",
+          "description": "Criar algo duradouro"
+        },
+        {
+          "id": "story-892746531-c20",
+          "text": "Perguntar a Luc sobre seus sonhos para o café",
+          "description": "Mudar para o presente"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-11",
+      "type": "decision",
+      "title": "Conexão Através das Gerações",
+      "narration": "'Então estamos conectados', diz Luc suavemente, pegando sua mão. 'Eles nos reuniram através de sessenta anos e um oceano'. 'Isso parece destino', continua. 'Como se estivessem nos dando uma segunda chance com a história deles'.",
+      "choices": [
+        {
+          "id": "story-892746531-c21",
+          "text": "Reconhecer a conexão e se aproximar",
+          "description": "Abraçar a possibilidade"
+        },
+        {
+          "id": "story-892746531-c22",
+          "text": "Sugerir jantar para continuar conversando",
+          "description": "Levar as coisas devagar"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-12",
+      "type": "decision",
+      "title": "Entardecer Junto ao Sena",
+      "narration": "'Pensei que fossem apenas histórias', admite Luc. 'Mas você é real. Sua avó era real. O amor deles era real'. Ele afasta uma mecha de cabelo do seu rosto. 'E este sentimento, agora mesmo, esta conexão que sinto com você, também é real, não é?'.",
+      "choices": [
+        {
+          "id": "story-892746531-c23",
+          "text": "Beijá-lo sob a torre cintilante",
+          "description": "Seguir seu coração"
+        },
+        {
+          "id": "story-892746531-c24",
+          "text": "Dizer que precisa de tempo para processar tudo",
+          "description": "Ser cautelosa"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-13",
+      "type": "decision",
+      "title": "Um Novo Começo",
+      "narration": "'Eu estava esperando por você', sussurra ele. 'Nossos avós começaram algo lindo que as circunstâncias despedaçaram. Podemos completar o círculo deles'. Você descobre que Julien pintou sua avó grávida: ele sabia sobre o bebê, e esperou mesmo assim.",
+      "choices": [
+        {
+          "id": "story-892746531-c25",
+          "text": "Decidir ficar em Paris permanentemente",
+          "description": "Construir uma nova vida juntos"
+        },
+        {
+          "id": "story-892746531-c26",
+          "text": "Sugerir um relacionamento à distância",
+          "description": "Navegar entre dois mundos"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-14",
+      "type": "decision",
+      "title": "Limites",
+      "narration": "O rosto de Luc cai, mas ele acena com compreensão. 'Você está certa. Isto é muito pesado'. Ele desvia o olhar para o rio. 'Mas estou feliz que você veio. Que a história de meu avô tenha algum encerramento'.",
+      "choices": [
+        {
+          "id": "story-892746531-c27",
+          "text": "Mudar de ideia e alcançar sua mão",
+          "description": "Não deixar este momento passar"
+        },
+        {
+          "id": "story-892746531-c28",
+          "text": "Agradecê-lo e se preparar para voltar para casa",
+          "description": "Algumas histórias terminam diferente"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-15",
+      "type": "decision",
+      "title": "Construindo um Futuro",
+      "narration": "Um ano depois, você está no Café de Flore renovado como co-proprietária com Luc. As paredes agora abrigam uma exposição: 'Julien e Éloise: Uma História de Amor Através do Tempo'. 'Eles nos reuniram', sussurra Luc. 'E demos a eles o final que mereciam'.",
+      "choices": [
+        {
+          "id": "story-892746531-c29",
+          "text": "Aceitar quando Luc propõe em seu lugar especial",
+          "description": "Um novo capítulo começa"
+        },
+        {
+          "id": "story-892746531-c30",
+          "text": "Sugerir esperar até se conhecerem melhor",
+          "description": "Construir devagar mas certeiro"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-16",
+      "type": "decision",
+      "title": "Entre Dois Mundos",
+      "narration": "Agora você divide sua vida entre duas cidades. Vocês escrevem cartas como Julien e Éloise, embora as suas cheguem aos destinos. No sótão de sua avó, agora seu estúdio de escrita, você está compondo um livro sobre o romance deles.",
+      "choices": [
+        {
+          "id": "story-892746531-c31",
+          "text": "Planejar sua eventual mudança para Paris",
+          "description": "Trabalhar em direção à união"
+        },
+        {
+          "id": "story-892746531-c32",
+          "text": "Aceitar isso como seu arranjo permanente",
+          "description": "Amor transcende distância"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-17",
+      "type": "decision",
+      "title": "A Pintura",
+      "narration": "'Estas são o coração do avô, sua alma. Elas nunca foram destinadas à venda'. Ele faz uma pausa. 'Porém, se Éloise era sua avó, então talvez uma deva retornar à família dela'. Você seleciona uma pequena tela: sua avó rindo sob o sol de verão.",
+      "choices": [
+        {
+          "id": "story-892746531-c33",
+          "text": "Partir com a pintura e suas memórias",
+          "description": "Completar sua missão"
+        },
+        {
+          "id": "story-892746531-c34",
+          "text": "Escrever para Luc depois de voltar para casa",
+          "description": "Manter a conexão viva"
+        }
+      ]
+    },
+    {
+      "id": "story-892746531-18",
+      "type": "ending",
+      "title": "Paris para Sempre",
+      "narration": "Naquela noite, Luc propõe no local onde Julien beijou sua avó pela primeira vez em 1962. Seu casamento acontece um ano depois no café. Você escreve um livro sobre a história de amor deles que se torna um bestseller. Anos depois, quando você segura sua primeira filha, uma menina chamada Éloise, você entende por que sua avó guardou aquela carta. Desta vez, a história tem seu final feliz."
+    },
+    {
+      "id": "story-892746531-19",
+      "type": "ending",
+      "title": "Amor Cresce Devagar",
+      "narration": "Vocês constroem seu relacionamento com cuidado. O café prospera com sua contribuição. Quando vocês finalmente se casam, é com a certeza que vem de verdadeiramente conhecer a outra pessoa. A história de amor que começou em 1962 continua através de você, eterna como a Cidade da Luz."
+    },
+    {
+      "id": "story-892746531-20",
+      "type": "ending",
+      "title": "Jornada para a União",
+      "narration": "A distância é temporária, uma ponte que vocês dois estão comprometidos a cruzar. Dentro de dezoito meses, você arranja seus assuntos para fazer de Paris sua casa permanente. Você se torna cidadã francesa e dedica sua vida a preservar histórias de amor que transcenderam fronteiras."
+    },
+    {
+      "id": "story-892746531-21",
+      "type": "ending",
+      "title": "Amor Através da Distância",
+      "narration": "Vocês aceitam que seu amor não requer proximidade física. Eventualmente, você publica seu livro sobre Julien e Éloise, dedicando-o àqueles que amaram através de distâncias impossíveis. Quando você está idosa, sentada com Luc na terraza do café, você percebe que seus avós lhe ensinaram a valorizar cada momento."
+    },
+    {
+      "id": "story-892746531-22",
+      "type": "ending",
+      "title": "A Carta para Casa",
+      "narration": "Você retorna para casa com a pintura de Julien cuidadosamente embrulhada em sua bagagem. Você cumpriu sua missão: encontrou Julien, entendeu a história de sua avó, e deu a eles encerramento. Ela está jovem novamente, eternamente verão, capturada por alguém que a amou completamente."
+    }
+  ]
+}

@@ -23,6 +23,7 @@ import { enchantedForestStoryTranslations } from './story1_enchantedforest_i18n'
 import { neonNightsStoryTranslations } from './story2_neonnights_i18n';
 import { alchemistWatchStoryTranslations } from './story-alchemist-watch_i18n';
 import { glassKeyProtocolStoryTranslations } from './story-glass-key-protocol_i18n';
+import { neonSynapseStoryTranslations } from './story-neon-synapse_i18n';
 
 interface StoryTranslations {
   title: string;
@@ -73,6 +74,7 @@ export const storyTranslationsRegistry: Record<
   'story-2': neonNightsStoryTranslations,
   'story-alchemist-watch': alchemistWatchStoryTranslations,
   'story-glass-key-protocol': glassKeyProtocolStoryTranslations,
+  'story-neon-synapse': neonSynapseStoryTranslations,
 };
 
 /**
