@@ -105,6 +105,12 @@ export interface Translations {
   syncError: string;
   clear: string;
   cancel: string;
+
+  // Onboarding
+  onboardingSkip: string;
+  onboardingNext: string;
+  onboardingGetStarted: string;
+  resetOnboarding: string;
 }
 
 export const translations: Record<Language, Translations> = {
@@ -188,6 +194,11 @@ export const translations: Record<Language, Translations> = {
     syncError: 'Sync Error',
     clear: 'Clear',
     cancel: 'Cancel',
+
+    onboardingSkip: 'Skip',
+    onboardingNext: 'Next',
+    onboardingGetStarted: 'Get Started',
+    resetOnboarding: 'Reset Onboarding',
   },
 
   // Russian (Русский)
@@ -270,6 +281,11 @@ export const translations: Record<Language, Translations> = {
     syncError: 'Ошибка синхронизации',
     clear: 'Очистить',
     cancel: 'Отмена',
+
+    onboardingSkip: 'Пропустить',
+    onboardingNext: 'Далее',
+    onboardingGetStarted: 'Начать',
+    resetOnboarding: 'Сбросить онбординг',
   },
 
   // Spanish (Español)
@@ -352,6 +368,11 @@ export const translations: Record<Language, Translations> = {
     syncError: 'Error de sincronización',
     clear: 'Limpiar',
     cancel: 'Cancelar',
+
+    onboardingSkip: 'Omitir',
+    onboardingNext: 'Siguiente',
+    onboardingGetStarted: 'Comenzar',
+    resetOnboarding: 'Reiniciar introducción',
   },
 
   // German (Deutsch)
@@ -435,6 +456,11 @@ export const translations: Record<Language, Translations> = {
     syncError: 'Synchronisierungsfehler',
     clear: 'Löschen',
     cancel: 'Abbrechen',
+
+    onboardingSkip: 'Überspringen',
+    onboardingNext: 'Weiter',
+    onboardingGetStarted: 'Los geht\'s',
+    resetOnboarding: 'Einführung zurücksetzen',
   },
 
   // French (Français)
@@ -518,6 +544,11 @@ export const translations: Record<Language, Translations> = {
     syncError: 'Erreur de synchronisation',
     clear: 'Effacer',
     cancel: 'Annuler',
+
+    onboardingSkip: 'Passer',
+    onboardingNext: 'Suivant',
+    onboardingGetStarted: 'Commencer',
+    resetOnboarding: 'Réinitialiser l\'introduction',
   },
 
   // Portuguese (Português)
@@ -600,6 +631,11 @@ export const translations: Record<Language, Translations> = {
     syncError: 'Erro de sincronização',
     clear: 'Limpar',
     cancel: 'Cancelar',
+
+    onboardingSkip: 'Pular',
+    onboardingNext: 'Próximo',
+    onboardingGetStarted: 'Começar',
+    resetOnboarding: 'Reiniciar introdução',
   },
 
   // Japanese (日本語)
@@ -683,6 +719,11 @@ export const translations: Record<Language, Translations> = {
     syncError: '同期エラー',
     clear: 'クリア',
     cancel: 'キャンセル',
+
+    onboardingSkip: 'スキップ',
+    onboardingNext: '次へ',
+    onboardingGetStarted: '始める',
+    resetOnboarding: 'チュートリアルをリセット',
   },
 
   // Chinese (中文)
@@ -765,6 +806,11 @@ export const translations: Record<Language, Translations> = {
     syncError: '同步错误',
     clear: '清除',
     cancel: '取消',
+
+    onboardingSkip: '跳过',
+    onboardingNext: '下一步',
+    onboardingGetStarted: '开始',
+    resetOnboarding: '重置引导',
   },
 
   // Korean (한국어)
@@ -847,6 +893,11 @@ export const translations: Record<Language, Translations> = {
     syncError: '동기화 오류',
     clear: '지우기',
     cancel: '취소',
+
+    onboardingSkip: '건너뛰기',
+    onboardingNext: '다음',
+    onboardingGetStarted: '시작하기',
+    resetOnboarding: '온보딩 재설정',
   },
 
   // Ukrainian (Українська)
@@ -929,6 +980,11 @@ export const translations: Record<Language, Translations> = {
     syncError: 'Помилка синхронізації',
     clear: 'Очистити',
     cancel: 'Скасувати',
+
+    onboardingSkip: 'Пропустити',
+    onboardingNext: 'Далі',
+    onboardingGetStarted: 'Почати',
+    resetOnboarding: 'Скинути онбординг',
   },
 
   // Italian (Italiano)
@@ -1011,6 +1067,11 @@ export const translations: Record<Language, Translations> = {
     syncError: 'Errore di sincronizzazione',
     clear: 'Svuota',
     cancel: 'Annulla',
+
+    onboardingSkip: 'Salta',
+    onboardingNext: 'Avanti',
+    onboardingGetStarted: 'Inizia',
+    resetOnboarding: 'Reimposta introduzione',
   },
 
   // Arabic (العربية)
@@ -1093,6 +1154,11 @@ export const translations: Record<Language, Translations> = {
     syncError: 'خطأ في المزامنة',
     clear: 'مسح',
     cancel: 'إلغاء',
+
+    onboardingSkip: 'تخطي',
+    onboardingNext: 'التالي',
+    onboardingGetStarted: 'ابدأ',
+    resetOnboarding: 'إعادة تعيين المقدمة',
   },
 
   // Hindi (हिंदी)
@@ -1175,6 +1241,11 @@ export const translations: Record<Language, Translations> = {
     syncError: 'सिंक त्रुटि',
     clear: 'साफ़ करें',
     cancel: 'रद्द करें',
+
+    onboardingSkip: 'छोड़ें',
+    onboardingNext: 'अगला',
+    onboardingGetStarted: 'शुरू करें',
+    resetOnboarding: 'परिचय रीसेट करें',
   },
 
   // Dutch (Nederlands)
@@ -1257,6 +1328,11 @@ export const translations: Record<Language, Translations> = {
     syncError: 'Synchronisatiefout',
     clear: 'Wissen',
     cancel: 'Annuleren',
+
+    onboardingSkip: 'Overslaan',
+    onboardingNext: 'Volgende',
+    onboardingGetStarted: 'Aan de slag',
+    resetOnboarding: 'Introductie resetten',
   },
 
   // Polish (Polski)
@@ -1339,6 +1415,11 @@ export const translations: Record<Language, Translations> = {
     syncError: 'Błąd synchronizacji',
     clear: 'Wyczyść',
     cancel: 'Anuluj',
+
+    onboardingSkip: 'Pomiń',
+    onboardingNext: 'Dalej',
+    onboardingGetStarted: 'Rozpocznij',
+    resetOnboarding: 'Zresetuj wprowadzenie',
   },
 
   // Turkish (Türkçe)
@@ -1421,6 +1502,11 @@ export const translations: Record<Language, Translations> = {
     syncError: 'Senkronizasyon Hatası',
     clear: 'Temizle',
     cancel: 'İptal',
+
+    onboardingSkip: 'Atla',
+    onboardingNext: 'İleri',
+    onboardingGetStarted: 'Başla',
+    resetOnboarding: 'Tanıtımı sıfırla',
   },
 };
 

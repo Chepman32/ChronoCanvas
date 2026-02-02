@@ -6,6 +6,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 import { SplashScreen } from './src/screens/SplashScreen';
+import { OnboardingScreen } from './src/screens/OnboardingScreen';
 import { HomeScreen } from './src/screens/HomeScreen';
 import { StoryDetailScreen } from './src/screens/StoryDetailScreen';
 import { StoryPlayScreen } from './src/screens/StoryPlayScreen';
@@ -20,6 +21,10 @@ import {
   getAllCachedStories,
   getLastSyncTimestamp,
 } from './src/services/storyCacheService';
+import {
+  hasCompletedOnboarding,
+  setHasCompletedOnboarding,
+} from './src/services/settingsStorageService';
 
 type RootStackParamList = {
   Home: undefined;
@@ -32,6 +37,7 @@ const Stack = createNativeStackNavigator<RootStackParamList>();
 
 function App() {
   const [showSplash, setShowSplash] = useState(true);
+  const [showOnboarding, setShowOnboarding] = useState(false);
   const setStories = useStoryStore(state => state.setStories);
   const setRemoteStories = useStoryStore(state => state.setRemoteStories);
   const initializeUser = useUserStore(state => state.initializeUser);
@@ -92,12 +98,35 @@ function App() {
     checkAndSyncRemoteStories();
   }, []);
 
+  const handleSplashFinish = () => {
+    setShowSplash(false);
+    if (!hasCompletedOnboarding()) {
+      setShowOnboarding(true);
+    }
+  };
+
+  const handleOnboardingComplete = () => {
+    setHasCompletedOnboarding();
+    setShowOnboarding(false);
+  };
+
   if (showSplash) {
     return (
       <SafeAreaProvider>
         <StatusBar barStyle="light-content" />
-        <SplashScreen onFinish={() => setShowSplash(false)} />
+        <SplashScreen onFinish={handleSplashFinish} />
       </SafeAreaProvider>
+    );
+  }
+
+  if (showOnboarding) {
+    return (
+      <GestureHandlerRootView style={{ flex: 1 }}>
+        <SafeAreaProvider>
+          <StatusBar barStyle="light-content" />
+          <OnboardingScreen onComplete={handleOnboardingComplete} />
+        </SafeAreaProvider>
+      </GestureHandlerRootView>
     );
   }
 

@@ -1,0 +1,92 @@
+{
+  "story_id": "story-5",
+  "title": "Station Omega",
+  "author": "Commander Alex Rivera",
+  "translations": {
+    "ru": {
+      "title": "Станция Омега",
+      "description": "Один на космической станции, ты обнаруживаешь, что здесь не так пусто, как казалось.",
+      "nodes": [
+        {"title": "Пробуждение", "narration": "Ты выходишь из крио-сна. Станция погружена в тишину. Слишком гробовую тишину.", "choices": ["Исследовать тишину", "Остаться в капсуле"]},
+        {"title": "Пустые коридоры", "narration": "Перед тебя растягиваются бесконечные коридоры. Где все? Почему никого нет?", "choices": ["Следовать по крови", "Проверить другие отсеки"]},
+        {"title": "Кровавый след", "narration": "Капли крови ведут в медблок. Свежие. Ещё не успели высохнуть.", "choices": ["Войти в медблок", "Позвать на помощь"]},
+        {"title": "Записи камер", "narration": "На мониторах — кошмар. Члены экипажа набрасываются друг на друга. Их глаза... это не глаза людей.", "choices": ["Смотреть дальше", "Стереть записи"]},
+        {"title": "Разгерметизация", "narration": "Шлюз третий — открыт. Тела кружатся в вакууме, застывшие навечно.", "choices": ["Закрыть шлюз", "Осмотреть тела"]},
+        {"title": "Медблок", "narration": "Здесь прошла резня. Но в углу шевелится тень. Что-то движется.", "choices": ["Искать выживших", "Забаррикадировать дверь"]},
+        {"title": "Заражение", "narration": "Сирены contamination wail повсюду. Что-то проникло на борт. Что-то чужеродное.", "choices": ["Изолировать сектор", "Эвакуироваться немедленно"]},
+        {"title": "Карантин", "narration": "Протоколы карантина провалились. Оно уже здесь. Среди нас.", "choices": ["Вступить в бой", "Спрятаться и ждать"]},
+        {"title": "Существо", "narration": "Ты видишь это. Не человек. Никогда не было человеком. Оно носит их лица.", "choices": ["Попытаться починить", "Искать другой путь"]},
+        {"title": "Связь потеряна", "narration": "Все каналы связи мертвы. Ты один. Полностью один.", "choices": ["Бежать к капсуле", "Искать оружие"]},
+        {"title": "Жизнеобеспечение", "narration": "Кислород падает. Системы жизнеобеспечения отказывают. Время на исходе.", "choices": ["Проверить системы", "Покинуть сектор"]},
+        {"title": "Спасательная капсула", "narration": "Осталась одна капсула. Но из ангара доносятся звуки. Не человеческие.", "choices": ["Читать логи", "Уничтожить доказательства"]},
+        {"title": "Инженерный отсек", "narration": "Здесь могут быть ответы. Или новые кошмары.", "choices": ["Изолировать себя", "Искать лекарство"]},
+        {"title": "Правда", "narration": "Журналы миссии открывают страшную тайну. Они привезли это сюда осознанно.", "choices": ["Дать отпор", "Бежать, спасая жизнь"]},
+        {"title": "Инфекция", "narration": "Воздух заражён. Ты чувствуешь, как оно меняет тебя изнутри.", "choices": ["Активировать взрыв", "Найти выход"]},
+        {"title": "Последний рубеж", "narration": "Стоять насмерть или бежать. В любом случае — время вышло.", "choices": ["Направиться к шаттлу", "Искать других"]},
+        {"title": "Самоуничтожение", "narration": "Самоуничтожение — единственный выход. Но успеешь ли ты добраться?", "choices": ["Остаться", "Попытаться сбежать"]},
+        {"title": "Эвакуация", "narration": "Сирена эвакуации. Последний шанс. Решай сейчас.", "choices": ["Просканировать себя", "Притвориться, что всё нормально"]},
+        {"title": "Жертва", "narration": "Кто-то должен остаться, чтобы оно не достигло Земли. Этот кто-то — ты.", "choices": []},
+        {"title": "Выживший", "narration": "Ты выжил. Но принёс ли ты заразу с собой?", "choices": []},
+        {"title": "Поглощён", "narration": "Оно поглощает тебя. Ты становишься частью его. Навсегда.", "choices": []},
+        {"title": "Дрейф", "narration": "Твоя капсула дрейфует в пустоте. Спасение может никогда не прийти.", "choices": []}
+      ]
+    },
+    "zh": {
+      "title": "欧米茄空间站",
+      "description": "独自漂浮在太空站中，你渐渐发现这里并不像表面那般空寂。",
+      "nodes": [
+        {"title": "苏醒", "narration": "你从冷冻休眠中醒来。站内死寂一片。那种令人窒息的死寂。", "choices": ["探查这诡异的寂静", "留在休眠舱内"]},
+        {"title": "空荡荡的走廊", "narration": "长长的走廊在眼前延伸。人呢？所有人都去哪儿了？", "choices": ["循着血迹前行", "检查其他舱室"]},
+        {"title": "血痕", "narration": "一道血迹通向医疗舱。血迹未干，还是新鲜的。", "choices": ["进入医疗舱", "呼叫支援"]},
+        {"title": "监控录像", "narration": "屏幕上呈现出噩梦般的场景。船员们互相撕咬攻击。他们的眼睛……那绝不是人类的眼睛。", "choices": ["继续观看", "删除录像"]},
+        {"title": "气闸破损", "narration": "三号气闸敞开着。几具尸体在虚空中漂浮，永远凝固在那一刻。", "choices": ["关闭气闸", "检查尸体"]},
+        {"title": "医疗舱", "narration": "这里曾发生过屠杀。但角落里有什么东西在暗影中蠕动。", "choices": ["搜寻幸存者", "封锁舱门"]},
+        {"title": "污染警报", "narration": "污染警报声嘶力竭地响彻各处。有东西混进了空间站。某种不属于这里的东西。", "choices": ["封锁该区域", "立即撤离"]},
+        {"title": "隔离区", "narration": "隔离协议已经失效。它就在这里。在我们中间。", "choices": ["正面对抗", "躲藏起来等待"]},
+        {"title": "那东西", "narration": "你看见了它。那不是人。从来都不是。它披着人皮，戴着人脸。", "choices": ["尝试修复系统", "寻找其他出路"]},
+        {"title": "通讯中断", "narration": "所有通讯频道都归于死寂。你孤身一人。彻底地孤身一人。", "choices": ["奔向逃生舱", "搜寻武器"]},
+        {"title": "生命维持", "narration": "氧气含量正在下降。生命维持系统濒临崩溃。时间不多了。", "choices": ["检查系统状况", "离开该区域"]},
+        {"title": "逃生舱", "narration": "只剩下一艘逃生舱了。但从舱库传来异响。那不是人类能发出的声音。", "choices": ["查阅航行日志", "销毁证据"]},
+        {"title": "工程舱", "narration": "这里或许藏有答案。也可能是新的噩梦。", "choices": ["自我隔离", "寻找解药"]},
+        {"title": "真相", "narration": "任务日志揭露了可怕的真相。他们是故意把这东西带上来的。", "choices": ["奋起反击", "逃命要紧"]},
+        {"title": "感染蔓延", "narration": "空气已被污染。你能感觉到它正在体内改变你。", "choices": ["启动自毁程序", "寻找逃生路线"]},
+        {"title": "最后一战", "narration": "要么死战到底，要么转身逃跑。无论如何，时间已经耗尽。", "choices": ["前往穿梭机", "寻找其他船员"]},
+        {"title": "自毁装置", "narration": "自毁程序是唯一的出路。但你来得及赶到吗？", "choices": ["留下", "尝试逃离"]},
+        {"title": "撤离", "narration": "撤离警报响起。最后的机会。现在就做决定。", "choices": ["扫描自身", "假装一切正常"]},
+        {"title": "牺牲", "narration": "必须有人留下来阻止它抵达地球。那个人就是你。", "choices": []},
+        {"title": "幸存者", "narration": "你活下来了。但你身上是否携带着那东西？", "choices": []},
+        {"title": "被吞噬", "narration": "它正在吞噬你。你成为了它的一部分。永世如此。", "choices": []},
+        {"title": "漂泊", "narration": "你的逃生舱在虚空中漂流。救援队可能永远不会到来。", "choices": []}
+      ]
+    },
+    "es": {
+      "title": "Estación Omega",
+      "description": "A solas en una estación espacial, descubres que no estás tan solo como creías.",
+      "nodes": [
+        {"title": "El Despertar", "narration": "Despiertas del sueño criogénico. La estación yace en silencio. Un silencio sepulcral.", "choices": ["Investigar el silencio", "Quedarte en la cápsula"]},
+        {"title": "Corredores Vacíos", "narration": "Corredores interminables se extienden ante ti. ¿Dónde está todo el mundo?", "choices": ["Seguir la sangre", "Revisar otras secciones"]},
+        {"title": "Rastro de Sangre", "narration": "Un rastro de sangre conduce a la enfermería. Fresca. Aún no se ha secado.", "choices": ["Entrar a la enfermería", "Pedir refuerzos"]},
+        {"title": "Grabaciones", "narration": "Las pantallas muestran una pesadilla. La tripulación se ataca mutuamente. Sus ojos... no son humanos.", "choices": ["Seguir viendo", "Borrar las grabaciones"]},
+        {"title": "Compromiso de Airlock", "narration": "La esclusa tres está abierta. Cuerpos flotan en el vacío, congelados por siempre.", "choices": ["Cerrar la esclusa", "Inspeccionar los cuerpos"]},
+        {"title": "Enfermería", "narration": "Aquí ocurrió una masacre. Pero en la sombra, algo se mueve.", "choices": ["Buscar sobrevivientes", "Barricar la puerta"]},
+        {"title": "Contaminación", "narration": "Alarmas de contaminación aullan por todas partes. Algo abordó la estación. Algo que no es de aquí.", "choices": ["Aislar el sector", "Evacuar inmediatamente"]},
+        {"title": "Cuarentena", "narration": "Los protocolos de cuarentena fallaron. Ya está aquí. Entre nosotros.", "choices": ["Enfrentarlo", "Esconderse y esperar"]},
+        {"title": "La Cosa", "narration": "Lo ves. No es humano. Nunca lo fue. Usa sus rostros.", "choices": ["Intentar reparar", "Buscar otra ruta"]},
+        {"title": "Comunicaciones Caídas", "narration": "Todos los canales están muertos. Estás solo. Completamente solo.", "choices": ["Correr a la cápsula", "Buscar armas"]},
+        {"title": "Soporte Vital", "narration": "El oxígeno disminuye. Los sistemas de soporte vital fallan. Se acaba el tiempo.", "choices": ["Revisar sistemas", "Abandonar el sector"]},
+        {"title": "Cápsula de Escape", "narration": "Queda una sola cápsula. Pero desde el hangar se escuchan sonidos. No humanos.", "choices": ["Leer los registros", "Destruir evidencia"]},
+        {"title": "Ingeniería", "narration": "Aquí podría haber respuestas. O nuevas pesadillas.", "choices": ["Aislamiento personal", "Buscar cura"]},
+        {"title": "La Verdad", "narration": "Los registros de la misión revelan una verdad terrible. Lo trajeron a propósito.", "choices": ["Contraatacar", "Salvar la vida"]},
+        {"title": "Infección", "narration": "El aire está infectado. Sientes cómo te cambia por dentro.", "choices": ["Activar autodestrucción", "Buscar salida"]},
+        {"title": "Última resistencia", "narration": "Resistir o huir. De cualquier forma, se acabó el tiempo.", "choices": ["Ir al transbordador", "Buscar a otros"]},
+        {"title": "Autodestrucción", "narration": "La autodestrucción es la única salida. ¿Pero llegarás a tiempo?", "choices": ["Quedarse", "Intentar escapar"]},
+        {"title": "Evacuación", "narration": "La alarma de evacuación suena. Última oportunidad. Decide ahora.", "choices": ["Escanearse", "Fingir normalidad"]},
+        {"title": "Sacrificio", "narration": "Alguien debe quedarse para evitar que llegue a la Tierra. Ese alguien eres tú.", "choices": []},
+        {"title": "Superviviente", "narration": "Sobreviviste. Pero, ¿traes la infección contigo?", "choices": []},
+        {"title": "Consumido", "narration": "Te consume. Te conviertes en parte de ello. Para siempre.", "choices": []},
+        {"title": "A la Deriva", "narration": "Tu cápsula deriva en el vacío. El rescate quizás nunca llegue.", "choices": []}
+      ]
+    }
+  }
+}
+</content>

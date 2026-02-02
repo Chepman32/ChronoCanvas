@@ -1,4 +1,6 @@
-{
+import json
+
+fr_json = {
   "title": "La Maison de Minuit",
   "description": "Un nouveau poste de gardien dans un domaine isolé tourne au cauchemar lorsque vous découvrez les sombres secrets de la maison. Chaque décision détermine si vous en sortirez vivant.",
   "author": "Marcus Vincent",
@@ -7,276 +9,184 @@
       "title": "L'Offre d'Emploi",
       "narration": "Le domaine s'étend sur dix hectares de bois envahis par la végétation. Vous êtes arrivé ce matin en tant que nouveau gardien, engagé sans entretien préalable par un vieil homme nommé M. Ashford qui vous a à peine regardé. Le manoir se dresse devant vous avec son architecture victorienne, sa peinture écaillée et ses fenêtres sombres comme des yeux fixes. Votre clé clique dans la serrure. L'air à l'intérieur sent la poussière, le vieux bois et quelque chose de plus doux, de plus pourri. Dans le hall, une note sur la table indique : 'Le dîner est à sept heures. Ne quittez pas votre chambre après la tombée de la nuit. Ashford.' Il n'est que 15h. Votre téléphone n'a pas de réseau. Dehors, le soleil commence sa descente à travers les arbres.",
       "choices": {
-        "choice-1": {
-          "text": "Explorer le manoir immédiatement pour trouver des réponses"
-        },
-        "choice-2": {
-          "text": "Rester dans votre chambre et attendre M. Ashford"
-        }
+        "choice-1": { "text": "Explorer le manoir immédiatement pour trouver des réponses" },
+        "choice-2": { "text": "Rester dans votre chambre et attendre M. Ashford" }
       }
     },
     "node-2": {
       "title": "Couloirs Interdits",
       "narration": "Vous vous déplacez dans la maison pièce par pièce, vos pas résonnant sur le parquet. La bibliothèque contient des centaines de livres reliés en cuir, beaucoup jamais ouverts. Dans le bureau, vous trouvez un bureau couvert de correspondance datant d'il y a cinq ans, toute adressée à 'Samuel Ashford'. Mais M. Ashford a dit qu'il s'appelait Marcus. Vous examinez une photo de famille aux visages griffés lorsque vous entendez un bruit à l'étage. Une porte claque. Puis le silence. Votre cœur s'accélère. Dans le couloir, vous repérez une porte verrouillée avec des marques de griffures fraîches autour du cadre. Les bruits de grattement continuent au-dessus, maintenant plus lents, délibérés. L'horloge grand-père dans le hall principal sonne une fois, une note unique et étrange.",
       "choices": {
-        "choice-3": {
-          "text": "Essayer de crocheter la serrure de la porte suspecte"
-        },
-        "choice-4": {
-          "text": "Monter pour enquêter sur les grattements"
-        }
+        "choice-3": { "text": "Essayer de crocheter la serrure de la porte suspecte" },
+        "choice-4": { "text": "Monter pour enquêter sur les grattements" }
       }
     },
     "node-3": {
       "title": "Installation",
       "narration": "Vous déballez vos affaires dans la chambre d'amis au deuxième étage, avec de hauts plafonds, un lit à baldaquin et des fenêtres donnant sur la forêt sombre. Vous essayez de dormir mais ne parvenez qu'à somnoler. À 18h45, vous descendez. M. Ashford attend dans la salle à manger avec le dîner déjà servi : poulet rôti, légumes et pain. Il semble différent à la lumière de la lampe, plus vieux et les yeux cernés. 'Vous n'avez pas erré, j'espère', dit-il doucement. Vous mentez en disant non. Il vous étudie un long moment. 'Bien. La maison a des règles. Brisez-les et vous le regretterez'. Derrière lui, un portrait au mur montre le même homme, trente ans plus jeune, debout entre une femme et un garçon. Leurs visages ont été peints de traits noirs. Ashford remarque votre regard. Sa mâchoire se crispe. 'Finissez de manger', dit-il froidement.",
       "choices": {
-        "choice-5": {
-          "text": "Lui demander directement à propos du portrait de famille"
-        },
-        "choice-6": {
-          "text": "Finir de manger en silence et l'observer attentivement"
-        }
+        "choice-5": { "text": "Lui demander directement à propos du portrait de famille" },
+        "choice-6": { "text": "Finir de manger en silence et l'observer attentivement" }
       }
     },
     "node-4": {
       "title": "Secrets Verrouillés",
       "narration": "Votre trombone et votre carte de crédit fonctionnent mieux que prévu. La serrure cède après deux minutes. La porte s'ouvre lentement vers l'intérieur. À l'intérieur se trouve une chambre intacte et parfaitement préservée comme un musée. Une chambre d'enfant. Un train en bois repose sur une étagère. Un petit bureau d'écolier contient du papier à dessin avec des croquis grossiers de maisons et de bonshommes allumettes. Un dessin montre un grand homme et un petit garçon avec une grande croix rouge sur le visage du garçon. Sur la table de chevet : un journal. Vos mains tremblent en l'ouvrant. L'écriture est enfantine au début, puis devient de plus en plus erratique. Dernière entrée, datée d'il y a vingt ans : 'Père dit que je suis la raison pour laquelle Mère est malade. Il dit que je suis mauvais. Je peux le sentir en moi. Je peux le sentir grandir'. Vous entendez des pas dans le couloir. Des pas lourds, délibérés. Ils s'arrêtent devant cette porte.",
       "choices": {
-        "choice-7": {
-          "text": "Cacher le journal et quitter rapidement la pièce"
-        },
-        "choice-8": {
-          "text": "Affronter Ashford directement quand il entrera"
-        }
+        "choice-7": { "text": "Cacher le journal et quitter rapidement la pièce" },
+        "choice-8": { "text": "Affronter Ashford directement quand il entrera" }
       }
     },
     "node-5": {
       "title": "Obscurité à l'Étage",
       "narration": "L'escalier grince à chaque pas. À l'étage, le couloir s'étend plus loin que l'extérieur de la maison ne devrait le permettre. Des portes bordent les deux côtés, la plupart fermées. Le bruit de grattement vient du fond. Vous approchez prudemment. Au bout du couloir, un escalier étroit en colimaçon monte vers l'ombre, un troisième étage que vous n'aviez pas remarqué de l'extérieur. Le grattement semble maintenant délibéré, rythmé. Vous poussez une porte voisine. À l'intérieur se trouve une vieille femme assise sur un lit, ses ongles ensanglantés et usés. Elle gratte le cadre de lit en bois de manière obsessionnelle. Elle lève les yeux avec un regard sauvage et non reconnaissant. 'Il m'enferme', murmure-t-elle. 'Il dit que je suis contagieuse. Il dit que je les ai tous tués'. Avant que vous puissiez répondre, vous entendez la voix de M. Ashford d'en bas : 'Le dîner est prêt !' La femme vous saisit le poignet avec une force surprenante. 'Ne le laissez pas vous attraper ici. S'il vous plaît. Il vous ajoutera à la collection'.",
       "choices": {
-        "choice-9": {
-          "text": "Essayer de libérer la femme et s'échapper ensemble"
-        },
-        "choice-10": {
-          "text": "La laisser et aller dîner pour maintenir votre couverture"
-        }
+        "choice-9": { "text": "Essayer de libérer la femme et s'échapper ensemble" },
+        "choice-10": { "text": "La laisser et aller dîner pour maintenir votre couverture" }
       }
     },
     "node-6": {
       "title": "Questions Dangereuses",
       "narration": "La fourchette d'Ashford s'arrête à mi-chemin de sa bouche. Ses yeux deviennent très calmes, très concentrés. 'Qu'est-ce qu'il y a avec ça ?' Sa voix sonne comme de la glace qui craque. Vous essayez de faire marche arrière mais il se lève brusquement, sa chaise raclant le sol. 'Ma famille ne vous regarde pas'. Il marche vers le portrait et place sa main sur les visages peints. 'Ceci est mon fardeau. Ma malédiction. Et vous faites partie de la solution ou du problème'. Il se tourne vers vous. 'Il y a une raison pour laquelle je vous ai engagé sans références. Il y a une raison pour laquelle je suis prêt à payer autant. Certaines maisons ont besoin de gens qui ne posent pas de questions. Certaines maisons ont besoin de gens qui comprennent que certains problèmes n'ont qu'une seule solution'. Sa signification plane dans l'air comme une menace. Il quitte la salle à manger, vous laissant seul avec la nourriture à moitié finie et la certitude grandissante que vous avez commis une terrible erreur.",
       "choices": {
-        "choice-11": {
-          "text": "Emballer vos affaires et tenter de vous échapper"
-        },
-        "choice-12": {
-          "text": "Jouer le jeu et gagner sa confiance pour connaître la vérité"
-        }
+        "choice-11": { "text": "Emballer vos affaires et tenter de vous échapper" },
+        "choice-12": { "text": "Jouer le jeu et gagner sa confiance pour connaître la vérité" }
       }
     },
     "node-7": {
       "title": "Le Poids du Savoir",
       "narration": "Vous mangez méthodiquement, essayant de ne pas fixer Ashford, mais vous le surprenez en train de vous observer avec une intensité troublante. Ses doigts tambourinent contre la table selon un motif qui semble rituel. Quand vous avez fini, il se lève. 'Bien. Vous êtes adaptable. C'est utile'. Il vous conduit à une porte que vous n'aviez pas remarquée auparavant, cachée derrière un rideau de velours dans le salon. 'Ceci est l'archive', dit-il. La pièce au-delà contient des photographies couvrant chaque mur : des douzaines, des centaines peut-être. Des images de personnes : hommes, femmes, enfants, tous avec les yeux griffés, leurs bouches peintes. Certaines photos sont jaunies et cassantes. D'autres sont récentes. Au centre se trouve un journal en cuir, ouvert sur un piédestal comme un texte sacré. La voix d'Ashford devient presque méditative. 'Cette maison collectionne les brisés. Les gens que la société veut oublier. Je les garde ici. Je leur donne un but'. Sa main bouge vers vous, et vous réalisez avec horreur que ce n'est pas une explication. C'est une initiation.",
       "choices": {
-        "choice-13": {
-          "text": "Courir vers la porte d'entrée et s'échapper immédiatement"
-        },
-        "choice-14": {
-          "text": "Feindre d'être impressionné par sa collection"
-        }
+        "choice-13": { "text": "Courir vers la porte d'entrée et s'échapper immédiatement" },
+        "choice-14": { "text": "Feindre d'être impressionné par sa collection" }
       }
     },
     "node-8": {
       "title": "Évasion de Justesse",
       "narration": "Vous glissez le journal sous votre chemise et fermez doucement la porte juste au moment où les pas atteignent le couloir. À travers une fente dans la porte, vous voyez passer Ashford, portant un plateau avec de la nourriture. Il ne s'arrête pas. Vous attendez cinq minutes agonisantes avant de vous aventurer dehors. Votre cœur bat la chamade alors que vous retournez dans votre chambre. À l'intérieur, vous examinez enfin le journal plus en détail. Les dernières pages sont différentes des premières entrées enfantines. Elles sont écrites à l'encre rouge, et l'écriture n'est pas celle d'un enfant. Elles sont écrites de la main d'Ashford. Entrées datées d'il y a quelques mois : 'Il revient chaque nuit. Dans les murs. Dans le noir. Il chuchote ce que je lui ai fait. Il me dit de finir ce que j'ai commencé. De compléter la collection. D'amener d'autres ici pour qu'il puisse se nourrir'. Vous entendez du mouvement dans les murs derrière votre tête de lit. Des grattements. Des chuchotements. Le mot 'père' répété encore et encore. Votre chambre semble soudain beaucoup moins sûre que vous ne le pensiez.",
       "choices": {
-        "choice-15": {
-          "text": "Chercher des preuves pour contacter les autorités"
-        },
-        "choice-16": {
-          "text": "Affronter la présence surnaturelle dans les murs"
-        }
+        "choice-15": { "text": "Chercher des preuves pour contacter les autorités" },
+        "choice-16": { "text": "Affronter la présence surnaturelle dans les murs" }
       }
     },
     "node-9": {
       "title": "Point de Confrontation",
       "narration": "La porte s'ouvre. Le visage d'Ashford pâlit quand il vous voit tenir le journal. Pendant un moment, rien ne se passe. Puis quelque chose change dans son expression : pas de la colère, mais quelque chose de plus complexe. Du désespoir, peut-être. De la résignation. 'Vous avez trouvé la chambre de Samuel'. Il ferme la porte derrière lui doucement. 'C'était mon fils. Mon seul enfant. J'ai été dur avec lui. Trop dur. Sa mère a essayé de m'arrêter, mais je l'ai convaincue qu'il développait des inclinations sombres. Des tendances mauvaises qui devaient être purgées'. Il s'assoit au bord du lit, semblant soudain beaucoup plus vieux. 'Elle s'est ôté la vie plutôt que de voir ce que je lui faisais. La culpabilité l'a rendue folle d'abord, puis elle a utilisé les couteaux de cuisine. J'ai trouvé Samuel trois jours plus tard. Il s'était aussi ôté la vie, mais pas proprement. Il a pris son temps. Il voulait que je le trouve'. Les mains d'Ashford tremblent. 'Maintenant il visite. Chaque nuit. Et il amène d'autres avec lui. Des gens qu'il a connus. Des gens que j'ai blessés. Il me fait tout documenter'.",
       "choices": {
-        "choice-17": {
-          "text": "Essayer d'aider Ashford à se libérer de la hantise"
-        },
-        "choice-18": {
-          "text": "Utiliser ses aveux comme levier pour s'échapper"
-        }
+        "choice-17": { "text": "Essayer d'aider Ashford à se libérer de la hantise" },
+        "choice-18": { "text": "Utiliser ses aveux comme levier pour s'échapper" }
       }
     },
     "node-10": {
       "title": "La Captive",
       "narration": "Vous essayez la porte. Verrouillée de l'extérieur. La prise de la femme sur votre poignet se resserre. 'Il arrive. Je peux l'entendre dans les escaliers'. Les pas deviennent plus forts. Vous regardez autour désespérément. La chambre a une fenêtre verrouillée et peinte. Vous tirez fort dessus ; le cadre éclate mais tient bon. La femme vous regarde avec des yeux soudainement vifs et concentrés. Très différents de son expression frénétique d'il y a quelques instants. 'Vous essayez de m'aider', dit-elle. Cela sonne comme une observation, pas une question. Sa bouche sourit, mais son visage semble faux, comme si les muscles n'étaient pas tout à fait alignés. 'C'est très gentil. Mais je ne suis pas ce que vous pensez'. Sa forme vacille juste un instant, et vous voyez quelque chose d'autre sous la forme humaine. Quelque chose qui n'a pas le bon nombre d'angles. 'Je suis ici depuis plus longtemps que la maison. Plus longtemps qu'Ashford. Il pense qu'il a le contrôle, mais cet endroit est à moi. Il me nourrit'. La poignée de porte extérieure commence à tourner. Vous avez fait un choix terrible.",
       "choices": {
-        "choice-19": {
-          "text": "Pousser la créature et trouver une autre sortie"
-        },
-        "choice-20": {
-          "text": "Négocier avec l'entité pour votre vie"
-        }
+        "choice-19": { "text": "Pousser la créature et trouver une autre sortie" },
+        "choice-20": { "text": "Négocier avec l'entité pour votre vie" }
       }
     },
     "node-11": {
       "title": "La Performance du Dîner",
       "narration": "Vous quittez la femme et descendez à la salle à manger. Ashford est déjà là, servant de la soupe dans des bols. Il ne reconnaît pas votre retard. Vous mangez mécaniquement, essayant de paraître normal. Ses yeux ne vous quittent jamais. 'Je suppose que vous avez entendu quelque chose à l'étage', dit-il finalement. Ce n'est pas une question. Votre réponse compte. Vous décidez d'admettre une partie de la vérité. 'J'ai entendu des bruits. Rien de plus'. Ashford hoche la tête lentement. 'La maison fait des bruits. Le vieux bois qui travaille. Le vent dans les chevrons. L'esprit interprète des motifs'. Il verse plus de soupe dans votre bol bien que vous n'ayez pas fini. 'Vous semblez être quelqu'un qui pourrait garder des secrets. Quelqu'un qui comprend que certaines vérités sont trop terribles pour que le monde les supporte'. Il se lève et marche vers la fenêtre, regardant l'obscurité. 'Il y en a d'autres ici. Dans la maison. Ils sont ici depuis très longtemps. Ils ne sont pas vivants, mais ils ne sont pas entièrement morts non plus. Ils sont piégés'. Il se tourne vers vous. 'Courriez-vous si vous connaissiez la vérité ? Ou resteriez-vous ?'",
       "choices": {
-        "choice-21": {
-          "text": "Admettre que vous voulez partir et demander votre salaire final"
-        },
-        "choice-22": {
-          "text": "Lui dire que vous voulez comprendre toute l'histoire"
-        }
+        "choice-21": { "text": "Admettre que vous voulez partir et demander votre salaire final" },
+        "choice-22": { "text": "Lui dire que vous voulez comprendre toute l'histoire" }
       }
     },
     "node-12": {
       "title": "Départ Précipité",
       "narration": "Vous faites vos valises fébrilement, jetant des vêtements dans votre sac sans soin. Vos mains tremblent en saisissant votre portefeuille et vos clés sur la commode. Le couloir est sombre, éclairé seulement par le clair de lune des fenêtres. L'escalier est devant : vingt marches entre vous et la porte d'entrée. Vous bougez aussi vite que le silence le permet. À mi-chemin, une porte claque à l'étage. La voix d'Ashford résonne dans la maison : 'Où allez-vous ?' Vous vous figez. Sa silhouette apparaît en haut des escaliers, bloquant votre retraite. Il ne bouge pas, reste juste là à respirer lourdement. 'Je vous ai donné un abri. Un emploi. Et c'est ainsi que vous me remboursez ? En m'abandonnant à mon heure la plus sombre ?' Sa voix se brise légèrement sur les derniers mots. Derrière lui, d'autres formes émergent dans l'obscurité. Au moins trois d'entre elles. Elles ne bougent pas comme des personnes vivantes. 'Vous ne partez pas', dit-il. 'Pas tant que Samuel ne le permet pas. Il a décidé que vous apparteniez ici maintenant'.",
       "choices": {
-        "choice-23": {
-          "text": "Combattre pour passer Ashford vers la porte d'entrée"
-        },
-        "choice-24": {
-          "text": "Se rendre et demander ce que Samuel veut de vous"
-        }
+        "choice-23": { "text": "Combattre pour passer Ashford vers la porte d'entrée" },
+        "choice-24": { "text": "Se rendre et demander ce que Samuel veut de vous" }
       }
     },
     "node-13": {
       "title": "Construire la Confiance",
       "narration": "Au cours des trois jours suivants, vous établissez une routine prudente. Vous êtes attentif aux besoins d'Ashford, respectueux de son espace, intéressé par son histoire sans paraître trop impatient. Il commence à s'ouvrir. Vous apprenez que Samuel était sensible, artiste, brillant. Qu'Ashford a été élevé par un homme qui croyait en une discipline stricte et voyait la douceur comme une faiblesse. Qu'Ashford a répété le cycle, non par méchanceté, mais par héritage aveugle du traumatisme. Un soir, Ashford vous emmène au troisième étage : celui que vous avez entrevu mais jamais exploré. À l'intérieur se trouve un espace rituel. Des symboles sont dessinés au sol à la craie. Des photographies tapissent les murs. Un livre est ouvert sur un autel de pierre, écrit dans une langue que vous ne reconnaissez pas. 'Samuel voulait que je trouve quelqu'un', dit Ashford. 'Quelqu'un d'assez fort pour accomplir le rituel qui le libérera. Pour le ramener, lui et les autres, dans le monde des vivants de façon permanente. Cela nécessite un sacrifice. Quelqu'un prêt à donner sa vie pour qu'ils puissent avoir la leur'. Il vous regarde avec un espoir désespéré. 'Je pense que cela pourrait être vous. Le ferez-vous ?'",
       "choices": {
-        "choice-25": {
-          "text": "Accepter le rituel tout en planifiant secrètement de s'échapper"
-        },
-        "choice-26": {
-          "text": "Refuser et exiger des réponses sur les autres victimes"
-        }
+        "choice-25": { "text": "Accepter le rituel tout en planifiant secrètement de s'échapper" },
+        "choice-26": { "text": "Refuser et exiger des réponses sur les autres victimes" }
       }
     },
     "node-14": {
       "title": "Fuite Désespérée",
       "narration": "Vous courez. La porte d'entrée est à quinze mètres. Votre main atteint la poignée et tourne. C'est verrouillé. Depuis le salon, vous entendez Ashford rire : un son dénué de chaleur humaine. 'Les portes ne fonctionnent plus comme ça', appelle-t-il. 'Cette maison est scellée depuis des décennies. Pas par moi, remarquez. Par Samuel. Par ce que Samuel est devenu. Il ne vous laissera pas partir parce qu'il a faim'. Vous tournez le pêne dormant. Il bouge mais la porte ne s'ouvre pas. Vous voyez maintenant que le cadre de la porte s'est déformé, le bois semblant avoir poussé autour des bords de l'ouverture, la scellant naturellement, impossiblement. Derrière vous, Ashford émerge du salon, et il n'est pas seul. Les ombres autour de lui bougent avec intention. Elles ont du poids et de la présence. 'Vous étiez ma dernière chance', dit-il tristement. 'Samuel voulait que je trouve quelqu'un qui courrait. Quelqu'un qui choisirait la survie plutôt que l'acceptation. Il a dit que j'avais besoin d'apprendre que tout le monde ne peut pas être sauvé'.",
       "choices": {
-        "choice-27": {
-          "text": "Chercher une autre sortie à travers la maison"
-        },
-        "choice-28": {
-          "text": "Affronter Ashford et exiger la vérité sur lui-même"
-        }
+        "choice-27": { "text": "Chercher une autre sortie à travers la maison" },
+        "choice-28": { "text": "Affronter Ashford et exiger la vérité sur lui-même" }
       }
     },
     "node-15": {
       "title": "Fausse Acceptation",
       "narration": "Vous feignez la fascination pour la collection, posant des questions sur différentes photographies, exprimant de l'admiration pour le 'travail de préservation' d'Ashford. Il s'épanouit sous l'attention, descendant un registre relié en cuir rempli d'entrées, de dates, de noms. 'Chacun était brisé avant d'arriver', explique-t-il. 'Perdu. Souffrant. La maison leur offre la paix'. Il vous montre des pages documentant les arrivées : des dates remontant à des décennies, certaines entrées de sa main, d'autres plus anciennes, d'écritures différentes. Les entrées les plus anciennes datent de 1947. Il ouvre une porte vers le sous-sol de la collection. À l'intérieur, la température chute dramatiquement. L'air sent la pourriture et quelque chose de chimique. Dans l'obscurité, vous distinguez des formes sur des étagères. Vous comprenez immédiatement et avec horreur que ce ne sont pas seulement des photographies des morts. Certains d'entre eux restent. Préservés. Arrangés comme des trophées. Ashford vous prend le bras doucement. 'Je vous ai amené ici pour vous montrer que vous êtes en sécurité. Vous êtes choisi. La maison vous a choisi au moment où vous avez accepté le travail. Et Samuel approuve'. Derrière lui, vous voyez du mouvement parmi les formes préservées. L'une d'elles tend un bras flétri vers vous.",
       "choices": {
-        "choice-29": {
-          "text": "Saisir un objet lourd et attaquer Ashford"
-        },
-        "choice-30": {
-          "text": "Accepter ce qu'il vous montre et demander à rester"
-        }
+        "choice-29": { "text": "Saisir un objet lourd et attaquer Ashford" },
+        "choice-30": { "text": "Accepter ce qu'il vous montre et demander à rester" }
       }
     },
     "node-16": {
       "title": "Construire un Dossier",
       "narration": "Vous passez la journée suivante à chercher des preuves. Votre téléphone n'a toujours pas de réseau, mais vous trouvez un vieux téléphone fixe dans le bureau. Il ne fonctionne pas. Il y a un ordinateur dans le bureau d'Ashford : protégé par mot de passe. Vous vérifiez son bureau et trouvez des documents : titres de propriété, certificats de décès, rapports de police des décennies passées, tous soigneusement classés, marqués 'Clos' ou 'Aucun acte criminel suspecté'. Un document est une lettre d'un détective datée de 1987 : 'L'enquête sur les rapports de personnes disparues à la propriété a déterminé qu'il n'y avait aucune preuve d'activité criminelle. Le propriétaire a pleinement coopéré et fourni la documentation des départs volontaires des locataires'. Vous photographiez tout avec votre téléphone, espérant que peut-être une fois échappé, vous aurez des preuves. Mais les photos ne se téléchargent pas. Pas de réseau. En vous tournant pour quitter le bureau, vous remarquez quelque chose : les fenêtres ne sont pas couvertes par des rideaux. Elles sont couvertes par ce qui ressemble au même bois qui a scellé la porte d'entrée. Toute la maison est consumée de l'intérieur par du bois vivant, la transformant en une prison parfaite. La question passe de 'Comment je prouve ça ?' à 'Comment je survis assez longtemps pour m'échapper ?'",
       "choices": {
-        "choice-31": {
-          "text": "Tenter de couper à travers les fenêtres scellées"
-        },
-        "choice-32": {
-          "text": "Trouver un autre résident et essayer d'organiser l'évasion"
-        }
+        "choice-31": { "text": "Tenter de couper à travers les fenêtres scellées" },
+        "choice-32": { "text": "Trouver un autre résident et essayer d'organiser l'évasion" }
       }
     },
     "node-17": {
       "title": "Parler aux Morts",
       "narration": "Vous pressez vos mains contre le mur et parlez directement à la présence derrière. 'Samuel ? Si c'est ton nom, je veux comprendre ce qui t'est arrivé'. Le grattement s'arrête. Silence. Puis une voix, jeune et désespérée, traverse le bois comme venant d'une grande distance : 'Il l'a tuée. Il a dit que c'était pour son bien, mais il l'a tuée lentement. Il m'a tué lentement. Il m'a fait me regarder mourir morceau par morceau'. Votre voix tremble quand vous demandez : 'Que veux-tu ?' La réponse vient immédiatement : 'Je veux qu'il ressente ce que j'ai ressenti. Chaque moment. Chaque jour. Jusqu'à ce qu'il comprenne que la mort est une miséricorde'. Vous réalisez avec une certitude accablante que Samuel n'est pas piégé. Il a le contrôle. Toute la maison est à lui maintenant : une extension de sa volonté, sa douleur, son besoin de rétribution. 'Amène-moi quelqu'un', murmure Samuel. 'Amène-moi quelqu'un de nouveau. Quelqu'un qui a encore une force vitale brûlante. Si tu le fais, il te laissera partir. Tu peux avoir la liberté'. Vos mains tombent du mur. On vous a offert un marché. Trahir quelqu'un d'autre ou rester piégé vous-même.",
       "choices": {
-        "choice-33": {
-          "text": "Refuser le marché et planifier une autre route d'évasion"
-        },
-        "choice-34": {
-          "text": "Accepter les termes de Samuel tout en cherchant des victimes"
-        }
+        "choice-33": { "text": "Refuser le marché et planifier une autre route d'évasion" },
+        "choice-34": { "text": "Accepter les termes de Samuel tout en cherchant des victimes" }
       }
     },
     "node-18": {
       "title": "Le Coût de la Rédemption",
       "narration": "Vous dites à Ashford que vous croyez qu'il peut briser le cycle. Que la hantise de Samuel est une manifestation de culpabilité, pas une véritable présence surnaturelle. Qu'avec une aide psychiatrique, des médicaments, une séparation de la maison, il pourrait guérir. Ashford écoute avec un désespoir croissant dans les yeux, voulant tellement y croire. Il se lève et fait les cent pas. 'J'ai essayé de partir. Trois fois j'ai fait mes valises et je suis parti. Chaque fois, la voiture est tombée en panne à quelques kilomètres. J'ai marché. Mes jambes ont lâché. J'ai pris des médicaments pour faire taire les voix. Les voix sont devenues plus fortes'. Il se rassied, vaincu. 'La maison ne me laissera pas partir parce que Samuel ne le fera pas. Mais peut-être que si quelqu'un restait volontairement. Quelqu'un de fort. Quelqu'un qui pourrait être ce que Samuel ne pouvait pas être. Peut-être qu'alors il me libérerait'. Il vous regarde directement. 'Resteriez-vous ? Pour un an. Juste un an. Si vous pouviez convaincre Samuel de me laisser partir, je vous céderais la maison. Vous seriez libre d'en faire ce que vous voulez'. Son offre est tentante : pouvoir, argent, liberté de partir après le temps servi. Mais quelque chose dans son ton suggère que l'année pourrait devenir permanente.",
       "choices": {
-        "choice-35": {
-          "text": "Accepter le marché d'un an avec Ashford"
-        },
-        "choice-36": {
-          "text": "Rejeter l'offre et tenter une évasion violente"
-        }
+        "choice-35": { "text": "Accepter le marché d'un an avec Ashford" },
+        "choice-36": { "text": "Rejeter l'offre et tenter une évasion violente" }
       }
     },
     "node-19": {
       "title": "La Confession comme Arme",
       "narration": "Vous vous levez du lit, tenant toujours le journal de Samuel. 'Je pourrais partir d'ici tout de suite et apporter ça à la police. Je pourrais leur montrer vos aveux. Tout ça finit'. Le visage d'Ashford devient gris. Il semble vieillir visiblement, ses épaules se voûtant. 'Vous pourriez', accepte-t-il doucement. 'Mais vous ne partirez pas'. Sa certitude est terrifiante. 'Parce qu'au moment où vous franchirez cette porte avec ce journal, Samuel le verra comme une trahison. De moi. De son histoire. Il vous tuera avant que vous n'atteigniez votre voiture. Et si vous mourez ici, vous resterez ici. Tout comme les autres'. Il marche vers la fenêtre et regarde dehors. 'Je suis venu dans cette maison chercher pénitence pour ce que j'ai fait à mon fils. Au lieu de cela, je suis devenu son geôlier et son prisonnier. Samuel ne veut plus de ma souffrance. Il veut qu'elle soit répandue. Partagée. Multipliée'. Ashford se tourne vers vous. 'Le journal est à vous si vous le voulez. Une preuve si vous pouvez survivre en partant avec. Mais le coup le plus fort est de le brûler. De pardonner ce qui s'est passé ici. De laisser Samuel reposer. Alors la maison me libérera, et peut-être vous aussi'. Il tend la main. Le choix semble impossible.",
       "choices": {
-        "choice-37": {
-          "text": "Brûler le journal et faire confiance à sa promesse de rédemption"
-        },
-        "choice-38": {
-          "text": "Garder le journal et tenter de s'échapper avec les preuves"
-        }
+        "choice-37": { "text": "Brûler le journal et faire confiance à sa promesse de rédemption" },
+        "choice-38": { "text": "Garder le journal et tenter de s'échapper avec les preuves" }
       }
     },
     "node-20": {
       "title": "Le Prix de la Résistance",
       "narration": "Vous poussez la créature violemment. Elle vole en arrière mais ne tombe pas : au lieu de cela, elle se contorsionne, sa forme ondulant comme un reflet sur une eau troublée. Sa bouche s'ouvre impossiblement large, et vous apercevez quelque chose qui se tortille à l'intérieur, quelque chose avec trop d'yeux. Vous n'attendez pas d'en voir plus. Vous vous précipitez vers la fenêtre et tirez plus fort. Le cadre éclate davantage. Vos mains saignent, mais la fenêtre cède. Vous êtes au deuxième étage, mais il y a un toit en dessous et des arbres au-delà. Vous sautez juste au moment où la créature bondit. Le toit vous attrape douloureusement, vous coupant le souffle, mais vous êtes vivant. Vous glissez le long de la pente vers la gouttière. En bas, Ashford se tient dans la cour, regardant calmement. 'Courir n'aidera pas', appelle-t-il. 'Les bois ne fonctionnent pas comme des bois normaux. Vous vous retrouverez à marcher en rond, revenant toujours à la maison'. Mais vous courez quand même, dans l'obscurité entre les arbres. Il a raison. Après des minutes de course, vous êtes de retour aux murs de pierre de la maison. Les arbres semblent bloquer chaque direction. Au-dessus, la créature sort par la fenêtre. Derrière, Ashford approche lentement, presque doucement. Vous êtes piégé entre eux.",
       "choices": {
-        "choice-39": {
-          "text": "Exiger qu'Ashford vous protège de la créature"
-        },
-        "choice-40": {
-          "text": "Entrer dans la maison volontairement pour paraître coopératif"
-        }
+        "choice-39": { "text": "Exiger qu'Ashford vous protège de la créature" },
+        "choice-40": { "text": "Entrer dans la maison volontairement pour paraître coopératif" }
       }
     },
     "node-21": {
       "title": "Pacte Impie",
       "narration": "Vous parlez directement à la créature, votre voix tremblante mais ferme. 'Je veux vivre. Que veux-tu de moi ?' La créature reprend sa forme humaine précédente. Quand elle parle, sa voix est superposée : plusieurs voix parlant l'une sur l'autre, créant une harmonie troublante. 'Nous voulons être rappelés. Nous voulons que le monde sache que nous avons existé. Nous voulons que nos morts signifient quelque chose'. Vous demandez ce qu'elle entend par 'nous'. Le rire de la créature remplit la pièce comme du verre brisé. 'Nous tous. Dans les murs. Dans la terre sous la maison. Dans les fondations mêmes. Nous ne sommes pas des fantômes, enfant. Nous sommes plus vieux que ça. La maison ne nous retient pas. Nous la retenons. Ashford pense qu'il nous a amenés ici, mais il a simplement ouvert une porte'. La créature tend une main, et vous voyez qu'elle n'est pas flétrie comme la femme que vous avez vue : elle est jeune, belle, totalement fausse. 'Prends ma main. Accepte de raconter notre histoire. Écris-la. Répands-la pour que le monde sache que nous étions ici. Et nous te laisserons partir. Vivant. Inchangé. Juste notre témoin'. Derrière vous, la porte s'ouvre. Ashford se tient dans l'encadrement, regardant. Attendant de voir ce que vous choisirez.",
       "choices": {
-        "choice-41": {
-          "text": "Accepter le marché de la créature pour devenir sa voix"
-        },
-        "choice-42": {
-          "text": "Refuser et se jeter par la fenêtre à la place"
-        }
+        "choice-41": { "text": "Accepter le marché de la créature pour devenir sa voix" },
+        "choice-42": { "text": "Refuser et se jeter par la fenêtre à la place" }
       }
     },
     "node-22": {
       "title": "Face au Rejet",
       "narration": "L'expression d'Ashford se durcit. 'Partez alors. Voyez si ça m'importe'. Mais ses mains tremblent en se levant, et vous entendez le courant sous-jacent de désespoir sous ses mots durs. 'La maison ne vous laissera pas partir facilement, cependant. Samuel vous a marqué maintenant. Vous êtes venu ici à sa demande, même si vous ne le saviez pas. Les publicités sont placées de manière spécifique, pour atteindre des personnes spécifiques. Je choisis soigneusement. Vous avez été choisi'. Il s'avance vers vous avec une intensité soudaine. 'Vous ne pouvez pas simplement vous éloigner de ça. S'éloigner est un choix, et chaque choix que vous faites ici nourrit la maison, vous rend plus lié à elle'. Vous attrapez vos clés de voiture. Vos mains tremblent pire que les siennes. La porte d'entrée s'ouvre quand vous tirez la poignée, ce qui vous surprend tous les deux. Vous êtes si proche de la liberté. Mais Ashford vous saisit le bras, sa prise étonnamment forte pour son âge. 'Au moins laissez-moi vous conduire', dit-il urgemment. 'Au moins acceptez ça. Un trajet. Une conversation. Alors je vous laisserai partir. Mais vous devez comprendre ce que vous laissez derrière. Ce que vous abandonnez'. Ses doigts s'enfoncent dans votre poignet. Le choix est de s'engager à s'échapper par tous les moyens nécessaires, ou de l'écouter une fois de plus.",
       "choices": {
-        "choice-43": {
-          "text": "Se libérer de la prise d'Ashford et partir en voiture"
-        },
-        "choice-44": {
-          "text": "Accepter de le laisser vous conduire loin de la maison"
-        }
+        "choice-43": { "text": "Se libérer de la prise d'Ashford et partir en voiture" },
+        "choice-44": { "text": "Accepter de le laisser vous conduire loin de la maison" }
       }
     },
     "node-23": {
       "title": "L'Histoire Complète",
       "narration": "Toute l'attitude d'Ashford change. Il semble presque soulagé. 'Enfin. Quelqu'un prêt à écouter'. Il verse deux verres de vin et s'assoit en face de vous. Ce qui suit est une histoire qui se déroule sur des heures. La maison a été construite en 1889 sur une terre qui était sacrée pour les peuples indigènes. Le premier propriétaire a scellé quelque chose sous les fondations : un acte fait pour gagner du pouvoir. Ce pouvoir a corrompu tous ceux qui y vivaient. Des générations ont souffert de tragédies inexpliquées, de folie, de morts qui semblaient accidentelles mais formaient des motifs. Quand le père d'Ashford a hérité de la propriété, quelque chose se nourrissait déjà de la famille. La mère d'Ashford l'a senti et a essayé de protéger Samuel, mais Ashford était déjà infecté par l'influence de la maison. Sa cruauté envers Samuel n'était pas entièrement la sienne : c'était la maison s'exprimant à travers lui. 'Le temps que je comprenne ce qui se passait, c'était trop tard', dit Ashford. 'Samuel était déjà trop loin. La chose sous la maison l'avait marqué comme un conduit. Et maintenant elle vous a marqué aussi. Ce qui signifie que vous avez deux choix : la combattre et mourir, ou l'accepter et devenir quelque chose de nouveau'.",
       "choices": {
-        "choice-45": {
-          "text": "Demander à Ashford de vous aider à combattre l'influence de la maison"
-        },
-        "choice-46": {
-          "text": "Demander ce qui se passe si vous acceptez et devenez un conduit"
-        }
+        "choice-45": { "text": "Demander à Ashford de vous aider à combattre l'influence de la maison" },
+        "choice-46": { "text": "Demander ce qui se passe si vous acceptez et devenez un conduit" }
       }
     },
     "node-24": {
@@ -293,51 +203,33 @@
       "title": "La Chambre du Rituel",
       "narration": "Vous vous tenez devant l'autel avec Ashford à vos côtés. Le livre rituel s'ouvre à une page marquée d'une plume noire. La langue n'est pas du latin ni aucune langue que vous ayez rencontrée. En lisant les mots à haute voix, la température baisse. Les symboles au sol commencent à briller. Vous voyez Samuel émerger : plus solide qu'avant, presque humain. D'autres figures se matérialisent autour de lui. Ashford prend votre main. 'Le rituel nécessite un participant volontaire', murmure-t-il. 'Un sacrifice de conscience. Vos souvenirs, votre identité ancreront la porte. Vous deviendrez le pont entre les mondes'. Il serre votre main. 'Je peux prendre votre place si vous le souhaitez. Si vous prononcez les derniers mots et me laissez mourir à la place'. Vous êtes à mi-chemin de l'incantation. S'arrêter maintenant piégerait tout le monde, y compris vous-même. Vous devez terminer le rituel, mais le choix demeure : laisser Ashford être le sacrifice, ou vous faire le pont. Le livre semble brûlant dans vos mains. Les autres esprits se pressent plus près, attendant.",
       "choices": {
-        "choice-47": {
-          "text": "Terminer le rituel avec vous-même comme sacrifice"
-        },
-        "choice-48": {
-          "text": "Terminer le rituel avec Ashford comme sacrifice"
-        },
-        "choice-49": {
-          "text": "Détruire le livre et arrêter le rituel complètement"
-        }
+        "choice-47": { "text": "Terminer le rituel avec vous-même comme sacrifice" },
+        "choice-48": { "text": "Terminer le rituel avec Ashford comme sacrifice" },
+        "choice-49": { "text": "Détruire le livre et arrêter le rituel complètement" }
       }
     },
     "node-27": {
       "title": "Exiger la Vérité",
       "narration": "Vous refusez le rituel et exigez de voir chaque victime. Le visage d'Ashford devient vide, illisible. 'Vous faites une erreur'. Mais il obtempère, vous guidant à travers la maison comme un guide touristique des horreurs. Chaque pièce contient des preuves : photographies, objets personnels, journaux, certaines pièces contenant encore des restes. Vous voyez que cela dure depuis des décennies, couvrant plusieurs 'gardiens' avant vous. Ashford n'était pas le premier à gérer cet endroit ; il est seulement le plus récent. Au moment où la visite se termine, vous comprenez que ce n'est pas l'œuvre d'un homme troublé : c'est un héritage, une chaîne de souffrance remontant à des générations. 'La maison corrompt tous ceux qui restent trop longtemps', explique Ashford. 'Je n'ai pas commencé ça. Je l'ai hérité. J'ai essayé de minimiser la souffrance, de la rendre aussi humaine que possible'. Il vous regarde avec des yeux morts. 'Mais vous avez maintenant tout vu. Cela signifie que vous n'êtes plus utile. Samuel ne vous laissera pas partir avec ce savoir. Il vous gardera ici, et finalement, vous deviendrez comme moi'. Il ouvre une porte. Derrière se trouve l'obscurité et le son de nombreuses voix chuchotant votre nom.",
       "choices": {
-        "choice-50": {
-          "text": "Pousser Ashford à travers la porte et la verrouiller derrière lui"
-        },
-        "choice-51": {
-          "text": "Accepter votre sort et entrer avec Ashford"
-        }
+        "choice-50": { "text": "Pousser Ashford à travers la porte et la verrouiller derrière lui" },
+        "choice-51": { "text": "Accepter votre sort et entrer avec Ashford" }
       }
     },
     "node-28": {
       "title": "Exploration Systématique",
       "narration": "Vous cherchez méthodiquement des sorties. La cuisine a une porte arrière : scellée. Fenêtres du sous-sol : couvertes par ce bois impossible. Vous trouvez une bibliothèque avec un balcon au deuxième étage menant à une pièce que vous n'aviez pas explorée. À l'intérieur de cette pièce, vous trouvez un accès au grenier. Le grenier est vaste, rempli de générations de possessions accumulées. Vieilles malles, portraits, meubles cassés. Dans le coin le plus éloigné, vous trouvez quelque chose de remarquable : de l'air frais. Une section du toit s'est partiellement effondrée, laissant un espace assez grand pour une personne. En bas, il y a une chute de deux étages vers la cour, mais il y a un arbre à proximité. Vous pourriez réussir. Alors que vous vous préparez à sauter, vous entendez la voix d'Ashford depuis l'entrée du grenier : 'Je me demandais si vous trouveriez ça'. Il se tient silhouetté contre la lumière de la cage d'escalier, semblant totalement triste. 'J'ai fait sceller et desceller cette route d'évasion trois fois au fil des ans. Chaque fois que quelqu'un la trouvait, je devais les laisser faire la tentative. Je n'ai encore jamais laissé personne sauter. Et je ne pense pas pouvoir ce soir non plus'. Il se déplace vers vous avec une vitesse surprenante pour son âge. L'espace vers la liberté est si proche.",
       "choices": {
-        "choice-52": {
-          "text": "Sauter avant qu'Ashford ne puisse vous atteindre"
-        },
-        "choice-53": {
-          "text": "Combattre Ashford et le forcer à vous aider à vous échapper"
-        }
+        "choice-52": { "text": "Sauter avant qu'Ashford ne puisse vous atteindre" },
+        "choice-53": { "text": "Combattre Ashford et le forcer à vous aider à vous échapper" }
       }
     },
     "node-29": {
       "title": "Affronter le Gardien",
       "narration": "Vous tenez bon. 'Qui êtes-vous vraiment ? Êtes-vous vraiment Ashford ? Ou êtes-vous autre chose portant sa peau ?' Il s'arrête à mi-pas. Quand il répond, sa voix a changé : elle est superposée de multiples tons. 'Je suis les deux et aucun. J'étais Ashford autrefois. Puis Samuel est entré en moi. Nous partageons ce corps depuis vingt ans. Parfois il est plus fort, parfois je le suis. En ce moment, nous sommes d'accord que vous appartenez ici'. Son corps se contorsionne légèrement, et vous voyez deux visages : un âgé et douloureux, un jeune et furieux : se chevauchant les traits de l'autre. 'La maison n'emprisonne pas les gens', la voix de Samuel émerge de la bouche d'Ashford. 'Elle les libère du fardeau du libre arbitre. Une fois que vous arrêterez de vous battre, vous comprendrez. Vous serez heureux'. La voix d'Ashford suit : 'S'il vous plaît. Si je suis honnête, je suis fatigué. Je suis tellement fatigué. Aidez-moi à finir ça'. Il tend la main, et vous voyez qu'elle tremble. Derrière lui, les choses de l'ombre se pressent plus près. Vous êtes au point de nexus : quoi que vous fassiez maintenant déterminera non seulement votre sort, mais le sort de tous ceux piégés dans cette maison.",
       "choices": {
-        "choice-54": {
-          "text": "Prendre la main d'Ashford et embrasser la possession"
-        },
-        "choice-55": {
-          "text": "Détruire Ashford par le feu pour finir le cycle"
-        }
+        "choice-54": { "text": "Prendre la main d'Ashford et embrasser la possession" },
+        "choice-55": { "text": "Détruire Ashford par le feu pour finir le cycle" }
       }
     },
     "node-30": {
@@ -402,3 +294,6 @@
     }
   }
 }
+
+with open('src/data/translations/story-midnight-house/fr.json', 'w') as f:
+    json.dump(fr_json, f, indent=2, ensure_ascii=False)

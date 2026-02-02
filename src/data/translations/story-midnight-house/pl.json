@@ -1,416 +1,417 @@
 {
-  "title": "Dom o Północy",
-  "description": "Wiktoriańska posiadłość kryje mroczne sekrety. Czy odkryjesz prawdę, czy staniesz się kolejnym duchem?",
+  "title": "The Midnight House",
+  "description": "A Victorian mansion hides dark secrets. Will you uncover the truth or become just another ghost?",
   "nodes": {
     "node-1": {
-      "title": "Przybycie",
-      "narration": "Stoisz przed żelazną bramą Domu o Północy. Mgła kłębi się wokół twoich kostek, zimna i lepka. W liście napisano, żeby przyjść samemu, po zmroku. 'Wiem, co zrobiłeś zeszłego lata' - głosił liścik napisany drżącą ręką. - 'Przyjdź do Posiadłości Blackwood, jeśli chcesz, by to pozostało tajemnicą.' Ogromny dom rysuje się na tle ciemnego nieba, w jednym z okien na piętrze migocze samotne światło. Brama jest lekko uchylona, jakby zapraszając cię do środka... lub wabiąc w pułapkę.",
+      "title": "Arrival",
+      "narration": "You stand before the iron gates of the Midnight House. Fog swirls around your ankles, cold and clammy. The letter said to come alone, after dark. 'I know what you did last summer,' the note read in shaky lettering. 'Come to Blackwood Manor if you want to keep it a secret.' The massive house looms against the dark sky, a solitary light flickering in one of the second-floor windows. The gate stands slightly ajar, as if inviting you in... or luring you into a trap.",
       "choices": {
         "choice-1": {
-          "text": "Wejść przez główną bramę i podejść do drzwi frontowych"
+          "text": "Enter through the main gate and head for the front door"
         },
         "choice-2": {
-          "text": "Obejść teren w poszukiwaniu innego wejścia"
+          "text": "Walk around the perimeter looking for another entrance"
         }
       }
     },
     "node-2": {
-      "title": "Główne Wejście",
-      "narration": "Żwir chrzęści pod twoimi butami, gdy idziesz podjazdem. Wiatr wyje przez powykręcane gałęzie starych dębów. Wchodzisz po kamiennych schodach do masywnych dębowych drzwi. Kołatka w kształcie głowy gargulca patrzy na ciebie pustymi oczami. Wyciągasz rękę, by zapukać, ale drzwi otwierają się same ze skrzypieniem, ukazując ciemny przedsionek. Zapach starego papieru i zwiędłych kwiatów wydostaje się na zewnątrz.",
+      "title": "Front Entrance",
+      "narration": "Gravel crunches under your shoes as you walk up the path. The wind moans through the twisted branches of old oak trees. You climb the stone steps to the massive oak door. A gargoyle-shaped knocker stares at you with empty eyes. You reach out to knock, but the door creaks open on its own, revealing a dark vestibule. The smell of old paper and withered flowers wafts out.",
       "choices": {
         "choice-3": {
-          "text": "Wejść do przedsionka i zawołać gospodarza"
+          "text": "Step into the hall and call out to the host"
         },
         "choice-4": {
-          "text": "Zostać na ganku i czekać, aż ktoś się pojawi"
+          "text": "Stay on the porch and wait for someone to appear"
         }
       }
     },
     "node-3": {
-      "title": "W Cieniu Ogrodu",
-      "narration": "Decydujesz się nie iść prosto do drzwi frontowych. Zamiast tego skradasz się przez wysoką trawę na tyły domu. Jest tu ciemno, światło księżyca ledwo przebija się przez gęste chmury. Natykasz się na starą oranżerię, której szyby są powybijane i brudne. Wewnątrz widać dziwne, nienaturalne cienie roślin. Obok znajdują się drzwi dla służby, które wyglądają mniej imponująco niż główne wejście.",
+      "title": "Garden Shadows",
+      "narration": "You decide not to go straight to the front door. Instead, you creep through the tall grass to the side of the house. It is dark here, moonlight barely piercing the thick clouds. You stumble upon an old greenhouse, its glass broken and grimy. Inside, strange, unnatural shadows of plants seem to be moving. Nearby is a servants' entrance that looks less imposing than the main one.",
       "choices": {
         "choice-5": {
-          "text": "Spróbować otworzyć drzwi dla służby"
+          "text": "Try the servants' door"
         },
         "choice-6": {
-          "text": "Zajrzeć do oranżerii"
+          "text": "Look inside the greenhouse"
         }
       }
     },
     "node-4": {
-      "title": "Główny Hol",
-      "narration": "Wchodzisz do środka. 'Halo? Jest tu kto?' - twój głos odbija się echem od wysokich ścian. Drzwi za tobą zatrzaskują się z hukiem. Szarpiesz za klamkę - zamknięte. Jesteś w pułapce. Jedyne światło pochodzi z żyrandola powyżej, który słabo migocze. Przed tobą szerokie schody prowadzące na górę, a po lewej i prawej ciemne korytarze.",
+      "title": "Grand Hall",
+      "narration": "You step inside. 'Hello? Is anyone there?' Your voice echoes off the high walls. The door slams shut behind you. You pull the handle - locked. You are trapped. The only light comes from a chandelier above, flickering weakly. Before you is a wide staircase leading up, and dark corridors to the left and right.",
       "choices": {
         "choice-7": {
-          "text": "Wejść po schodach na piętro"
+          "text": "Climb the stairs to the first floor"
         },
         "choice-8": {
-          "text": "Zbadac korytarz po lewej"
+          "text": "Explore the left corridor"
         }
       }
     },
     "node-5": {
-      "title": "Oczekiwanie",
-      "narration": "Decydujesz się poczekać. Mijają minuty, które ciągną się jak godziny. Chłód przenika do kości. Nagle słyszysz szept tuż przy uchu: 'Dlaczego każesz nam czekać?' Odwracasz się gwałtownie, ale nikogo nie ma. Patrząc z powrotem na drzwi, widzisz wysoką postać w ciemnym płaszczu stojącą w wejściu. 'Spóźniłeś się' - mówi postać głosem przypominającym zgrzyt kamieni. - 'Kolacja już podana.'",
+      "title": "Waiting",
+      "narration": "You decide to wait. Minutes pass and feel like hours. The cold seeps into your bones. Suddenly, you hear a whisper close to your ear: 'Why do you make us wait?' You spin around, but there is no one. When you look back at the door, a tall figure in a dark coat stands in the doorway. 'You're late,' the figure says in a voice like grinding stones. 'Dinner is served.'",
       "choices": {
         "choice-9": {
-          "text": "Podążyć za postacią do środka"
+          "text": "Follow the figure inside"
         },
         "choice-10": {
-          "text": "Popchnąć postać i spróbować uciec"
+          "text": "Push the figure and try to run"
         }
       }
     },
     "node-6": {
-      "title": "Kuchnia",
-      "narration": "Drzwi dla służby ustępują z protestującym jękiem. Znajdujesz się w przestronnej, opuszczonej kuchni. Rzędy miedzianych garnków słabo lśnią w świetle księżyca. Na dużym stole do krojenia leży świeże czerwone jabłko, wyglądające dziwnie nie na miejscu wśród kurzu i pajęczyn. Z głębi domu dobiegają ciche kroki.",
+      "title": "Kitchen",
+      "narration": "The servants' door opens with a groan of protest. You find yourself in a vast, abandoned kitchen. Rows of copper pots gleam dimly in the moonlight. On a large chopping table sits a fresh red apple, looking oddly out of place amidst the dust and cobwebs. From deeper in the house come the sounds of soft footsteps.",
       "choices": {
         "choice-11": {
-          "text": "Schować się w spiżarni"
+          "text": "Hide in the pantry"
         },
         "choice-12": {
-          "text": "Wziąć nóż ze stołu i iść w stronę dźwięku"
+          "text": "Grab a knife from the table and move towards the sound"
         }
       }
     },
     "node-7": {
-      "title": "Oranżeria",
-      "narration": "Przecierasz brudną szybę i zaglądasz do środka. Rośliny wewnątrz... poruszają się, choć nie ma wiatru. To nie są zwykłe kwiaty; ich pnącza wiją się jak węże, a pąki przypominają małe usta. W centrum oranżerii stoi posąg kobiety, która wydaje się patrzeć prosto na ciebie. Nagle jedno z pnączy rozbija szybę i chwyta cię za rękę!",
+      "title": "Greenhouse",
+      "narration": "You wipe the grimy glass and peer inside. The plants within are... moving, though there is no wind. These are no ordinary flowers; their vines twist like snakes, and the buds look like tiny mouths. In the center of the greenhouse is a statue of a woman that seems to be looking right at you. Suddenly, one of the vines smashes through the glass and grabs your arm!",
       "choices": {
         "choice-13": {
-          "text": "Próbować się wyrwać i uciec do drzwi służbowych"
+          "text": "Try to break free and run for the servants' door"
         },
         "choice-14": {
-          "text": "Użyć zapalniczki, by odstraszyć roślinę"
+          "text": "Use a lighter to scare the plant"
         }
       }
     },
     "node-8": {
-      "title": "Pierwsze Piętro",
-      "narration": "Wchodzisz po skrzypiących schodach. Na górze znajduje się długi korytarz z wieloma drzwiami. Te, spod których widziałeś światło z ulicy, znajdują się na samym końcu. Słychać cichą melodię pozytywki dobiegającą z pokoju po prawej.",
+      "title": "First Floor",
+      "narration": "You climb the creaking stairs. At the top is a long hallway with many doors. The room you saw the light from outside is at the very end. A soft music box melody is drifting from a room on the right.",
       "choices": {
         "choice-15": {
-          "text": "Iść do pokoju ze światłem na końcu korytarza"
+          "text": "Go to the lit room at the end of the hall"
         },
         "choice-16": {
-          "text": "Sprawdzić pokój z muzyką"
+          "text": "Check the room with the music"
         }
       }
     },
     "node-9": {
-      "title": "Biblioteka",
-      "narration": "Korytarz po lewej prowadzi cię do ogromnej biblioteki. Regały od podłogi do sufitu są wypełnione starymi księgami. W kominku żarzą się węgle, choć nikogo nie ma. Na stole leży otwarty dziennik. Czytasz ostatni wpis: 'Przyszli po mnie. Nie mogę się już ukrywać. Sekret jest w portrecie.'",
+      "title": "Library",
+      "narration": "The left corridor leads you into a massive library. Floor-to-ceiling shelves are packed with old books. Embers still glow in the fireplace, though no one is there. On a table lies an open diary. You read the last entry: 'They have come for me. I can hide no longer. The secret is in the portrait.'",
       "choices": {
         "choice-17": {
-          "text": "Obejrzeć portret nad kominkiem"
+          "text": "Examine the portrait above the fireplace"
         },
         "choice-18": {
-          "text": "Przeczytać wcześniejsze strony dziennika"
+          "text": "Read the previous pages of the diary"
         }
       }
     },
     "node-10": {
-      "title": "Jadalnia",
-      "narration": "Postać prowadzi cię do jadalni. Długi stół jest nakryty dla jednej osoby. 'Siadaj' - rozkazuje gospodarz. Zauważasz, że na talerzu nie ma jedzenia, lecz stare, pożółkłe zdjęcie... twoje. Zrobione wczoraj. 'Obserwowaliśmy cię' - mówi.",
+      "title": "Dining Room",
+      "narration": "The figure leads you into the dining room. A long table is set for one. 'Sit,' the host commands. You notice there is no food on the plate, but an old, yellowed photograph... of you. Taken yesterday. 'We have been watching you,' he says.",
       "choices": {
         "choice-19": {
-          "text": "Zażądać wyjaśnień"
+          "text": "Demand an explanation"
         },
         "choice-20": {
-          "text": "Przewrócić stół i wywołać chaos"
+          "text": "Flip the table and create chaos"
         }
       }
     },
     "node-11": {
-      "title": "Ucieczka",
-      "narration": "Popychasz postać. W dotyku jest twarda jak drewno i zimna. Postać nie upada, ale udaje ci się przemknąć obok. Biegniesz z powrotem do bramy, ale ta się zatrzasnęła. Kraty są zbyt wysokie, by się wspiąć. Słyszysz za sobą ciężkie kroki.",
+      "title": "Escape",
+      "narration": "You push the figure. It feels hard and cold as wood. The figure doesn't fall, but you manage to slip past. You sprint back to the gate, but it is locked. The bars are too high to climb. You hear heavy footsteps behind you.",
       "choices": {
         "choice-21": {
-          "text": "Schować się w krzakach"
+          "text": "Hide in the bushes"
         },
         "choice-22": {
-          "text": "Biec do oranżerii"
+          "text": "Run to the greenhouse"
         }
       }
     },
     "node-12": {
-      "title": "Spiżarnia",
-      "narration": "Wciskasz się do wąskiej spiżarni pachnącej stęchlizną. Przez szparę w drzwiach widzisz, jak do kuchni wchodzi kobieta w stroju pokojówki z epoki wiktoriańskiej. Nuci upiorną kołysankę. Bierze jabłko, a jej twarz się zmienia - szczęka opada nienaturalnie nisko, odsłaniając rzędy ostrych zębów.",
+      "title": "Pantry",
+      "narration": "You squeeze yourself into a narrow pantry smelling of mold. Through a crack in the door, you see a woman in a Victorian maid's uniform enter the kitchen. She is humming a creepy lullaby. She picks up the apple, and her face changes - her jaw drops unnaturally low, revealing rows of sharp teeth.",
       "choices": {
         "choice-23": {
-          "text": "Wstrzymać oddech i mieć nadzieję, że odejdzie"
+          "text": "Hold your breath and hope she leaves"
         },
         "choice-24": {
-          "text": "Wyskoczyć i zaatakować, póki jest rozproszona"
+          "text": "Jump out and attack while she is distracted"
         }
       }
     },
     "node-13": {
-      "title": "Uzbrojony",
-      "narration": "Ściskając zardzewiały nóż, skradasz się w stronę dźwięku. Prowadzi cię on do korytarza dla służby. Przed sobą widzisz światło wydobywające się spod drzwi. Głosy kłócą się w środku. 'On nie przyjdzie' - mówi jeden. 'Musi przyjść' - odpowiada drugi. - 'Rytuał wymaga jego krwi.'",
+      "title": "Armed",
+      "narration": "Clutching the rusty knife tight, you creep towards the sound. It leads you to a servants' corridor. Ahead, you see light spilling from under a door. Voices are arguing inside. 'He won't come,' one says. 'He must,' another replies. 'The ritual requires his blood.'",
       "choices": {
         "choice-25": {
-          "text": "Wtargnąć do pokoju"
+          "text": "Burst into the room"
         },
         "choice-26": {
-          "text": "Podsłuchiwać dalej"
+          "text": "Keep listening"
         }
       }
     },
     "node-14": {
-      "title": "Ogień",
-      "narration": "Pstrykasz zapalniczką. Płomień wybucha, a roślina cofa się z piskiem. Ogień przenosi się na suche liście obok. Cała oranżeria zaczyna wypełniać się dymem. Drzwi do domu otwierają się i ktoś wybiega, kaszląc.",
+      "title": "Fire",
+      "narration": "You flick the lighter. The flame flares up and the plant recoils with a shriek. The fire catches onto nearby dry leaves. The whole greenhouse starts filling with smoke. A door leading to the house opens and someone runs out coughing.",
       "choices": {
         "choice-27": {
-          "text": "Wykorzystać zamieszanie i wejść do domu"
+          "text": "Take advantage of the confusion and enter the house"
         },
         "choice-28": {
-          "text": "Pomóc tej osobie wyjść"
+          "text": "Help the person out"
         }
       }
     },
     "node-15": {
-      "title": "Pokój Pana",
-      "narration": "Docierasz do końca korytarza i popychasz drzwi. Pokój jest oświetlony świecami. Na środku stoi starzec. 'Czekałem na ciebie, Anton' - mówi (choć nie tak masz na imię, a może...?). 'Nadszedł czas, by spłacić dług.'",
+      "title": "Master's Room",
+      "narration": "You reach the end of the hall and push the door open. The room is lit by candles. In the center stands an old man. 'I have been waiting for you, Anton,' he says (though that is not your name, or is it...?). 'It is time to pay the debt.'",
       "choices": {
         "choice-29": {
-          "text": "Powiedzieć, że się myli"
+          "text": "Say he has the wrong person"
         },
         "choice-30": {
-          "text": "Zapytać, o jaki dług chodzi"
+          "text": "Ask what debt he is talking about"
         }
       }
     },
     "node-16": {
-      "title": "Dziecięcy Pokój",
-      "narration": "Źródłem muzyki jest stary pokój dziecięcy. Na środku stoi kołyska, która sama się kołysze. Pozytywka na półce gra 'Baa, Baa, Black Sheep', ale w tonacji molowej. Podchodzisz do kołyski i zaglądasz do środka. Jest pusta, tylko lustro leży na dnie.",
+      "title": "Nursery",
+      "narration": "The source of the music is an old nursery. In the center of the room is a crib rocking by itself. A music box on the shelf plays 'Baa, Baa, Black Sheep', but in a minor key. You approach the crib and look inside. It is empty, save for a mirror lying at the bottom.",
       "choices": {
         "choice-31": {
-          "text": "Wziąć lustro"
+          "text": "Pick up the mirror"
         },
         "choice-32": {
-          "text": "Zatrzymać kołyskę"
+          "text": "Stop the crib"
         }
       }
     },
     "node-17": {
-      "title": "Rozmowa z Umarłymi",
-      "narration": "Przyciskasz dłonie do ściany i mówisz bezpośrednio do obecności za nią. 'Samuel? Jeśli tak masz na imię, chcę zrozumieć, co ci się stało.' Drapanie ustaje. Cisza. Potem głos, młody i zdesperowany, dobiega przez drewno jakby z dużej odległości: 'On ją zabił. Powiedział, że to dla jej dobra, ale zabijał ją powoli. Mnie też zabijał powoli. Kazał mi patrzeć, jak umieram kawałek po kawałku.' Twój głos drży, gdy pytasz: 'Czego chcesz?' Odpowiedź przychodzi natychmiast: 'Chcę, żeby poczuł to, co ja. Każdą chwilę. Każdy dzień. Aż zrozumie, że śmierć to łaska.' Uświadamiasz sobie z przerażającą pewnością, że Samuel nie jest w pułapce. On ma kontrolę. Cały dom jest teraz jego: przedłużeniem jego woli, jego bólu, jego pragnienia kary. 'Przyprowadź mi kogoś' - szepcze Samuel. - 'Przyprowadź kogoś nowego. Kogoś, w kim siła życiowa płonie jasno. Jeśli to zrobisz, on cię wypuści. Będziesz wolny.' Twoje ręce opadają ze ściany. Zaproponowano ci układ. Zdradzić kogoś innego lub zostać uwięzionym samemu.",
+      "title": "Conversation with the Dead",
+      "narration": "You press your hands to the wall and speak directly to the presence behind it. 'Samuel? If that is your name, I want to understand what happened to you.' The scratching stops. Silence. Then a voice comes, young and desperate, sounding as if through wood from very far away: 'He killed her. Said it was for her own good, but he killed her slowly. Killed me slowly too. Made me watch myself die in pieces.' Your voice trembles as you ask: 'What do you want?' The answer comes immediately: 'I want him to feel what I felt. Every moment. Every day. Until he understands that death is a mercy.' You realize with a sinking feeling that Samuel isn't trapped. He is in control. The whole house is his now: an extension of his will, his pain, his need for punishment. 'Bring me someone,' Samuel whispers. 'Bring me someone new. Someone whose life burns bright. If you do, he will let you go. You can have your freedom.' Your hands drop from the wall. You have been offered a pact. Betray another or remain trapped yourself.",
       "choices": {
         "choice-33": {
-          "text": "Odrzucić układ i szukać innej drogi ucieczki"
+          "text": "Refuse the pact and find another way out"
         },
         "choice-34": {
-          "text": "Przyjąć warunki Samuela i szukać ofiary"
+          "text": "Accept Samuel's terms and hunt for a victim"
         }
       }
     },
     "node-18": {
-      "title": "Tajne Przejście",
-      "narration": "Kartkujesz dziennik wstecz. Strony są wypełnione szalonymi rysunkami oczu i drzwi. Jeden wpis przykuwa uwagę: 'Za kominkiem jest przejście. Trzeba nacisnąć pękniętą cegłę.' Patrzysz na kominek.",
+      "title": "Secret Passage",
+      "narration": "You flip through the diary backwards. The pages are filled with mad drawings of eyes and doors. A note catches your eye: 'Behind the fireplace is a passage. Must press the cracked brick.' You look at the fireplace.",
       "choices": {
         "choice-35": {
-          "text": "Szukać cegły"
+          "text": "Search for the brick"
         },
         "choice-36": {
-          "text": "Zignorować i szukać innego wyjścia z biblioteki"
+          "text": "Ignore it and look for another exit from the library"
         }
       }
     },
     "node-19": {
-      "title": "Prawda",
-      "narration": "Gospodarz śmieje się suchym, trzeszczącym dźwiękiem. 'Wyjaśnienia? Nie jesteś tu po to, by zadawać pytania. Jesteś tu, by stać się częścią kolekcji.' Ściany zaczynają się przesuwać, odsłaniając wnęki z zabalsamowanymi ciałami poprzednich gości.",
+      "title": "The Truth",
+      "narration": "The host laughs, a dry, cracking sound. 'Explanation? You are not here to ask questions. You are here to be part of the collection.' The walls begin to shift, revealing niches containing the preserved bodies of previous guests.",
       "choices": {
         "choice-37": {
-          "text": "Walczyć o życie"
+          "text": "Fight for your life"
         },
         "choice-38": {
-          "text": "Błagać o litość"
+          "text": "Beg for mercy"
         }
       }
     },
     "node-20": {
       "title": "Chaos",
-      "narration": "Z siłą przewracasz ciężki dębowy stół. Zastawa leci na podłogę z ogłuszającym brzękiem. Gospodarz syczy jak wściekły kot i cofa się w cień. 'Głupiec! Rozbiłeś urnę!' - krzyczy. Z odłamków rozbitej wazy unosi się szary dym.",
+      "narration": "You flip the heavy oak table with all your might. Crockery flies onto the floor with a deafening crash. The host hisses like an angry cat and retreats into the shadows. 'Fool! You broke the urn!' he screams. From the shards of a broken vase, gray smoke rises.",
       "choices": {
         "choice-39": {
-          "text": "Biec do wyjścia, póki jest rozproszony"
+          "text": "Run for the exit while he is distracted"
         },
         "choice-40": {
-          "text": "Zaatakować gospodarza"
+          "text": "Attack the host"
         }
       }
     },
     "node-21": {
-      "title": "Ogrodowy Labirynt",
-      "narration": "Krzewy okazują się być częścią starego labiryntu. Nurkujesz w głąb, gałęzie drapią ci twarz. Kroki za tobą stają się głośniejsze, a potem cichną. Zgubiłeś się. Dookoła tylko wysokie żywopłoty.",
+      "title": "Garden Maze",
+      "narration": "The bushes turn out to be part of an old maze. You dive in, branches scratching your face. Footsteps boom behind you, then fall silent. You are lost. Only high hedges all around.",
       "choices": {
         "choice-41": {
-          "text": "Iść zgodnie z zasadą prawej ręki"
+          "text": "Follow the right-hand rule"
         },
         "choice-42": {
-          "text": "Próbować przedrzeć się przez żywopłot"
+          "text": "Try to break through the hedge"
         }
       }
     },
     "node-22": {
-      "title": "Duch Oranżerii",
-      "narration": "Dobiegasz do oranżerii, ale drzwi są zamknięte. Wewnątrz widzisz postać dziewczyny, która wali pięściami w szybę. 'Nie wchodź!' - krzyczy bezgłośnie. Ale kroki prześladowcy są już bardzo blisko.",
+      "title": "Greenhouse Ghost",
+      "narration": "You run to the greenhouse, but the door is locked. Inside, you see the figure of a girl banging her fists on the glass. 'Don't come in!' she screams soundlessly. But the pursuer's steps are very close now.",
       "choices": {
         "choice-43": {
-          "text": "Rozbić szybę i wejść"
+          "text": "Smash the glass and enter"
         },
         "choice-44": {
-          "text": "Schować się za oranżerią"
+          "text": "Hide behind the greenhouse"
         }
       }
     },
     "node-23": {
-      "title": "Odkrycie",
-      "narration": "Pokojówka odchodzi, mrucząc coś o 'świeżym mięsie'. Wypuszczasz powietrze. Teraz droga do kuchni jest wolna, ale drzwi, którymi wyszła, prowadzą do piwnicy.",
+      "title": "Discovery",
+      "narration": "The maid leaves, muttering about 'fresh meat'. You exhale. The way to the kitchen is clear now, but the door she exited through leads to the cellar.",
       "choices": {
         "choice-45": {
-          "text": "Zbadac piwnicę"
+          "text": "Explore the cellar"
         },
         "choice-46": {
-          "text": "Wyjść przez kuchnię do domu"
+          "text": "Go up into the house through the kitchen"
         }
       }
     },
     "node-24": {
-      "title": "Starcie",
-      "narration": "Wyskakujesz z krzykiem. Stworzenie piszczy nieludzkim głosem i rzuca się na ciebie. Udaje ci się uderzyć je czymś ciężkim, a ono rozsypuje się w proch. Ale hałas z pewnością przyciągnął uwagę.",
+      "title": "Confrontation",
+      "narration": "You jump out with a yell. The creature screams with an inhuman voice and lunges at you. You manage to strike it with something heavy, and it turns to dust. But the noise has definitely attracted attention.",
       "choices": {
         "choice-47": {
-          "text": "Uciekać"
+          "text": "Run"
         },
         "choice-48": {
-          "text": "Zabarykadować się"
+          "text": "Barricade yourself"
         }
       }
     },
     "node-25": {
-      "title": "Rytuał",
-      "narration": "Wpadasz do pokoju. Pięć zakapturzonych postaci stoi wokół pentagramu. Odwracają głowy w twoją stronę. 'Ochotnik' - mówi przywódca. - 'Jak miło.'",
+      "title": "The Ritual",
+      "narration": "You burst into the room. Five hooded figures stand around a pentagram. They turn their heads towards you. 'A volunteer,' the leader says. 'How kind.'",
       "choices": {
         "choice-49": {
-          "text": "Próbować przerwać rytuał"
+          "text": "Try to disrupt the ritual"
         },
         "choice-50": {
-          "text": "Poddac się"
+          "text": "Surrender"
         }
       }
     },
     "node-26": {
-      "title": "Tajemna Wiedza",
-      "narration": "Słuchasz. Mówią o tym, że dom żywi się strachem. Jedynym sposobem na pokonanie go jest brak strachu. 'Jeśli on się zaśmieje, czar pryśnie' - mówi głos.",
+      "title": "Secret Knowledge",
+      "narration": "You listen. They are talking about how the house feeds on fear. The only way to defeat it is not to be afraid. 'If he laughs, the spell breaks,' one voice says.",
       "choices": {
         "choice-51": {
-          "text": "Wejść i opowiedzieć żart"
+          "text": "Walk in and tell a joke"
         },
         "choice-52": {
-          "text": "Wykorzystać tę wiedzę później"
+          "text": "Use this knowledge later"
         }
       }
     },
     "node-27": {
-      "title": "W Domu",
-      "narration": "Wykorzystując panikę, przemykasz przez otwarte drzwi. Znajdujesz się w korytarzu z portretami, których oczy cię śledzą.",
+      "title": "Into the House",
+      "narration": "Taking advantage of the panic, you slip through the open door. You find yourself in a corridor with paintings whose eyes follow you.",
       "choices": {
         "choice-53": {
-          "text": "Biec w głąb domu"
+          "text": "Run deeper into the house"
         },
         "choice-54": {
-          "text": "Schować się za zasłoną"
+          "text": "Hide behind a curtain"
         }
       }
     },
     "node-28": {
-      "title": "Ratunek",
-      "narration": "Chwytasz człowieka za rękę i wyciągasz go. To młody chłopak, śmiertelnie przerażony. 'Dzięki' - chrypi. - 'Wiem, gdzie jest wyjście. Tajny tunel.'",
+      "title": "Rescue",
+      "narration": "You grab the person's hand and pull them out. It's a young boy, terrified. 'Thank you,' he gasps. 'I know where the exit is. A secret tunnel.'",
       "choices": {
         "choice-55": {
-          "text": "Zaufać mu"
+          "text": "Trust him"
         },
         "choice-56": {
-          "text": "Nie ufać i iść samemu"
+          "text": "Don't trust him and go alone"
         }
       }
     },
     "node-29": {
-      "title": "Rozwiązanie",
-      "narration": "Zdecydowanie odrzucasz układ. 'Nie stanę się taki jak on. I nie będę twoją marionetką.' Samuel krzyczy z wściekłości, ściany drżą. 'WIĘC ZOSTAŃ TU NA ZAWSZE!' Podłoga pod tobą zapada się.",
+      "title": "Decision",
+      "narration": "You refuse the pact firmly. 'I won't become like him. And I won't be your puppet.' Samuel screams in rage, the walls shaking. 'Then stay here forever!' The floor beneath you collapses.",
       "choices": {
         "choice-57": {
-          "text": "Próbować chwycić się krawędzi"
+          "text": "Try to grab the ledge"
         },
         "choice-58": {
-          "text": "Zaakceptować upadek"
+          "text": "Accept the fall"
         }
       }
     },
     "node-30": {
-      "title": "Nowy Pan",
-      "narration": "Zgadzasz się. 'Mądry wybór' - szepcze Samuel. Drzwi się otwierają. W korytarzu stoi ten sam chłopak, którego uratowałeś z oranżerii (lub mogłeś uratować). Patrzy na ciebie z nadzieją. Zaciskasz rękę na rękojeści noża w kieszeni...",
+      "title": "New Master",
+      "narration": "You agree. 'Wise choice,' Samuel whispers. The door opens. Standing in the hallway is the same boy you saved from the greenhouse (or could have). He looks at you hopefully. You grip the knife handle in your pocket...",
       "choices": {
         "choice-59": {
-          "text": "Wypełnić swoją część umowy"
+          "text": "Fulfill your end of the bargain"
         },
         "choice-60": {
-          "text": "W ostatniej chwili zmienić zdanie i zaatakować 'obecność'"
+          "text": "Change your mind at the last second and attack the 'presence'"
         }
       }
     },
     "node-31": {
-      "title": "Lustro",
-      "narration": "Bierzesz lustro. W odbiciu nie widzisz siebie, lecz ducha stojącego za twoim ramieniem. Uśmiecha się i przykłada palec do ust.",
+      "title": "The Mirror",
+      "narration": "You pick up the mirror. In the reflection you see not yourself, but a ghost looking over your shoulder. He smiles and puts a finger to his lips.",
       "choices": {
         "choice-61": {
-          "text": "Rozbić lustro"
+          "text": "Smash the mirror"
         },
         "choice-62": {
-          "text": "Zapytać, kim jest"
+          "text": "Ask who he is"
         }
       }
     },
     "node-32": {
-      "title": "Kołyska",
-      "narration": "Zatrzymujesz kołyskę ręką. Muzyka gwałtownie cichnie. Cisza naciska na uszy. Nagle kołyska zaczyna trząść się z dziką siłą, a płacz dziecka, głośny i przenikliwy, rozdziera powietrze.",
+      "title": "The Crib",
+      "narration": "You stop the crib with your hand. The music stops abruptly. Silence presses on your ears. Suddenly, the crib begins to shake with savage force, and a loud, piercing baby's cry tears through the air.",
       "choices": {
         "choice-63": {
-          "text": "Uciec z pokoju"
+          "text": "Run from the room"
         },
         "choice-64": {
-          "text": "Próbować uspokoić 'dziecko'"
+          "text": "Try to soothe the 'baby'"
         }
       }
     }
   },
   "endings": {
     "ending-1": {
-      "title": "Wieczny Gość",
-      "narration": "Nie udało ci się uciec. Dom pochłonął cię, jak wielu innych. Teraz jesteś częścią kolekcji, kolejnym duchem błąkającym się po korytarzach i straszącym nowych gości. Może następnym razem będziesz miał więcej szczęścia... ale dla ciebie nie będzie następnego razu."
+      "title": "Eternal Guest",
+      "narration": "You couldn't escape. The house swallowed you, just like so many others. You are now part of the collection, another ghost wandering the halls and scaring new guests. Maybe next time you'll be luckier... but for you, there is no next time."
     },
     "ending-2": {
-      "title": "Wolność... czy nie?",
-      "narration": "Wybiegasz za bramę, płuca płoną od zimnego powietrza. Nie zatrzymujesz się, dopóki nie dobiegasz do miasta. Jesteś uratowany. Ale każdej nocy śni ci się ten dom. I czasem, patrząc w lustro, widzisz za swoim ramieniem cień z oczami jak węgle. Opuściłeś Dom o Północy, ale czy on opuścił ciebie?"
+      "title": "Freedom... or not?",
+      "narration": "You run out the gate, lungs burning from the cold air. You don't stop until you reach the town. You survived. But every night you dream of this house. And sometimes, when you look in the mirror, you see a shadow with coal-like eyes over your shoulder. You left the Midnight House, but has it left you?"
     },
     "ending-3": {
-      "title": "Dziedzic",
-      "narration": "Wykonałeś rytuał. Złożyłeś ofiarę. Dom cię przyjął. Teraz jesteś nowym Panem. Moc płynie w twoich żyłach, starożytna i mroczna. Patrzysz przez okno na przybywających nowych gości. 'Witajcie' - szepczesz z uśmiechem. Kolacja podana."
+      "title": "The Heir",
+      "narration": "You performed the ritual. You made the sacrifice. The house has accepted you. You are the new master now. Ancient and dark power flows through your veins. You watch from the window as new guests arrive. 'Welcome,' you whisper with a smile. Dinner is served."
     },
     "ending-4": {
-      "title": "Niszczyciel Klątwy",
-      "narration": "Twoja odwaga (lub głupota) złamała czar. Śmiech, brak strachu, a może ogień - coś zadziałało. Dom zaczął się walić, cegła po cegle, rozpływając się w porannej mgle. Stoisz na pustym polu, gdzie przed chwilą była posiadłość. To koniec. Klątwa zdjęta."
+      "title": "Curse Breaker",
+      "narration": "Your courage (or foolishness) broke the spell. Laughter, fearlessness, or maybe fire - something worked. The house began to crumble brick by brick, dissolving into the morning mist. You stand in an empty field, where the manor just stood. It is over. The curse is lifted."
     },
     "ending-5": {
-      "title": "Zapomniany",
-      "narration": "Schowałeś się zbyt dobrze. Nikt cię nie znalazł. Nikt po ciebie nie przyszedł. Zostałeś w ciemności, czekając na ratunek, który nigdy nie nadszedł. Z czasem zapomniałeś swojego imienia. Zapomniałeś, jak wygląda słońce. Stałeś się po prostu kolejnym cieniem w kącie."
+      "title": "The Forgotten",
+      "narration": "You hid too well. No one found you. No one came for you. You stayed in the dark, waiting for a rescue that never came. Over time you forgot your name. You forgot what the sun looks like. You just became another shadow in the corner."
     },
     "ending-6": {
-      "title": "Pakt z Diabłem",
-      "narration": "Zawarłeś układ z Samuelem. Jesteś wolny, bogaty i odnosisz sukcesy. Ale cena była wysoka. W każdym cieniu widzisz twarze tych, których zdradziłeś. I wiesz, że gdy wybije twoja godzina, Samuel przyjdzie po dług. A odsetki będą straszne."
+      "title": "Deal with the Devil",
+      "narration": "You made a deal with Samuel. You are free, rich, and successful. But the price was heavy. In every shadow you see the faces of those you betrayed. And you know that when your time comes, Samuel will come to collect the debt. And the interest will be terrible."
     }
-  }
+  },
+  "author": "Marcus Vincent"
 }

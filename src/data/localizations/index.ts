@@ -24,6 +24,7 @@ import { neonNightsStoryTranslations } from './story2_neonnights_i18n';
 import { alchemistWatchStoryTranslations } from './story-alchemist-watch_i18n';
 import { glassKeyProtocolStoryTranslations } from './story-glass-key-protocol_i18n';
 import { neonSynapseStoryTranslations } from './story-neon-synapse_i18n';
+import { midnightHouseTranslations } from './story_midnight_house_i18n';
 
 interface StoryTranslations {
   title: string;

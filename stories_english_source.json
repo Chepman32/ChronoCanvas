@@ -1,0 +1,1679 @@
+[
+  {
+    "story_num": 5,
+    "story_id": "story-5",
+    "title": "Station Omega",
+    "description": "Alone on a space station, you discover you\\",
+    "author": "Commander Alex Rivera",
+    "nodes": [
+      {
+        "node_num": 1,
+        "title": "Awakening",
+        "narration": "You wake from cryo-sleep. The station is silent. Too silent.",
+        "choices": [
+          "Investigate the silence"
+        ]
+      },
+      {
+        "node_num": 2,
+        "title": "Empty Corridors",
+        "narration": "Empty corridors stretch before you. Where is everyone?",
+        "choices": [
+          "Follow the blood"
+        ]
+      },
+      {
+        "node_num": 3,
+        "title": "Blood Trail",
+        "narration": "A trail of blood leads to the medical bay. Fresh blood.",
+        "choices": [
+          "Enter medical bay"
+        ]
+      },
+      {
+        "node_num": 4,
+        "title": "Security Footage",
+        "narration": "Security footage shows crew members attacking each other. Their eyes... wrong.",
+        "choices": [
+          "Watch footage"
+        ]
+      },
+      {
+        "node_num": 5,
+        "title": "Airlock Breach",
+        "narration": "Airlock 3 is open. Bodies float in the void.",
+        "choices": [
+          "Close the airlock"
+        ]
+      },
+      {
+        "node_num": 6,
+        "title": "Medical Bay",
+        "narration": "The medical bay is a massacre. But something moves in the shadows.",
+        "choices": [
+          "Search for survivors"
+        ]
+      },
+      {
+        "node_num": 7,
+        "title": "Contamination",
+        "narration": "Contamination alerts everywhere. Something got on board.",
+        "choices": [
+          "Seal the area"
+        ]
+      },
+      {
+        "node_num": 8,
+        "title": "Quarantine",
+        "narration": "Quarantine protocols failed. It\\",
+        "choices": [
+          "Confront it"
+        ]
+      },
+      {
+        "node_num": 9,
+        "title": "The Thing",
+        "narration": "You see it. Not human. Never was. It wears their faces.",
+        "choices": [
+          "Try to repair"
+        ]
+      },
+      {
+        "node_num": 10,
+        "title": "Communications Down",
+        "narration": "All communications are dead. You\\",
+        "choices": [
+          "Rush to pod"
+        ]
+      },
+      {
+        "node_num": 11,
+        "title": "Life Support Failing",
+        "narration": "Oxygen levels dropping. Life support is failing.",
+        "choices": [
+          "Check systems"
+        ]
+      },
+      {
+        "node_num": 12,
+        "title": "Escape Pod",
+        "narration": "One escape pod remains. But you hear something in the pod bay.",
+        "choices": [
+          "Read the logs"
+        ]
+      },
+      {
+        "node_num": 13,
+        "title": "Engineering",
+        "narration": "Engineering might have answers. Or more horrors.",
+        "choices": [
+          "Quarantine yourself"
+        ]
+      },
+      {
+        "node_num": 14,
+        "title": "The Truth",
+        "narration": "The mission logs reveal the truth. They brought it here deliberately.",
+        "choices": [
+          "Fight back"
+        ]
+      },
+      {
+        "node_num": 15,
+        "title": "Infection Spreads",
+        "narration": "The infection is airborne now. You feel it changing you.",
+        "choices": [
+          "Activate destruct"
+        ]
+      },
+      {
+        "node_num": 16,
+        "title": "Final Stand",
+        "narration": "Make your stand or run. Either way, time is running out.",
+        "choices": [
+          "Head to shuttle"
+        ]
+      },
+      {
+        "node_num": 17,
+        "title": "Self Destruct",
+        "narration": "The self-destruct is your only option. But can you reach it?",
+        "choices": [
+          "Stay behind"
+        ]
+      },
+      {
+        "node_num": 18,
+        "title": "Evacuation",
+        "narration": "The evacuation alarm sounds. This is your last chance.",
+        "choices": [
+          "Scan yourself"
+        ]
+      },
+      {
+        "node_num": 19,
+        "title": "Sacrifice",
+        "narration": "Someone must stay to ensure it doesn\\",
+        "choices": []
+      },
+      {
+        "node_num": 20,
+        "title": "Survival",
+        "narration": "You made it. But did the infection come with you?",
+        "choices": []
+      },
+      {
+        "node_num": 21,
+        "title": "Consumed",
+        "narration": "The thing takes you. You become part of it.",
+        "choices": []
+      },
+      {
+        "node_num": 22,
+        "title": "Drifting",
+        "narration": "Your pod drifts in space. Rescue may never come.",
+        "choices": []
+      }
+    ]
+  },
+  {
+    "story_num": 6,
+    "story_id": "story-6",
+    "title": "Crown of Thorns",
+    "description": "Navigate deadly court politics where one wrong move means death.",
+    "author": "Lady Elara Blackwood",
+    "nodes": [
+      {
+        "node_num": 1,
+        "title": "The Summons",
+        "narration": "A royal summons arrives. The King demands your presence immediately.",
+        "choices": [
+          "Attend immediately"
+        ]
+      },
+      {
+        "node_num": 2,
+        "title": "Royal Court",
+        "narration": "The court is a nest of vipers. Everyone has secrets.",
+        "choices": [
+          "Seek allies"
+        ]
+      },
+      {
+        "node_num": 3,
+        "title": "Whispers",
+        "narration": "Whispers of treason echo through the halls.",
+        "choices": [
+          "Investigate whispers"
+        ]
+      },
+      {
+        "node_num": 4,
+        "title": "The Queen",
+        "narration": "The Queen takes you aside. \"Trust no one,\" she warns.",
+        "choices": [
+          "Pledge loyalty"
+        ]
+      },
+      {
+        "node_num": 5,
+        "title": "Poison Plot",
+        "narration": "You discover poison in the King\\",
+        "choices": [
+          "Warn the King"
+        ]
+      },
+      {
+        "node_num": 6,
+        "title": "Secret Meeting",
+        "narration": "A hooded figure offers information. For a price.",
+        "choices": [
+          "Pay the price"
+        ]
+      },
+      {
+        "node_num": 7,
+        "title": "The Spy",
+        "narration": "You\\",
+        "choices": [
+          "Confront the spy"
+        ]
+      },
+      {
+        "node_num": 8,
+        "title": "Betrayal",
+        "narration": "Your closest ally betrays you to save themselves.",
+        "choices": [
+          "Seek revenge"
+        ]
+      },
+      {
+        "node_num": 9,
+        "title": "Evidence",
+        "narration": "Evidence points to the Duke. But is it too convenient?",
+        "choices": [
+          "Present evidence"
+        ]
+      },
+      {
+        "node_num": 10,
+        "title": "The Trial",
+        "narration": "The trial begins. Your life hangs in the balance.",
+        "choices": [
+          "Defend yourself"
+        ]
+      },
+      {
+        "node_num": 11,
+        "title": "Dungeon",
+        "narration": "Thrown in the dungeon. Escape seems impossible.",
+        "choices": [
+          "Bribe the guard"
+        ]
+      },
+      {
+        "node_num": 12,
+        "title": "Escape Plan",
+        "narration": "A guard offers help. But why?",
+        "choices": [
+          "Trust the guard"
+        ]
+      },
+      {
+        "node_num": 13,
+        "title": "Allies",
+        "narration": "You gather allies. The rebellion grows.",
+        "choices": [
+          "Lead the rebellion"
+        ]
+      },
+      {
+        "node_num": 14,
+        "title": "The Conspiracy",
+        "narration": "The conspiracy goes deeper than you imagined.",
+        "choices": [
+          "Expose everything"
+        ]
+      },
+      {
+        "node_num": 15,
+        "title": "Assassination Attempt",
+        "narration": "An assassin strikes during the feast.",
+        "choices": [
+          "Save the King"
+        ]
+      },
+      {
+        "node_num": 16,
+        "title": "Civil War",
+        "narration": "The kingdom tears itself apart.",
+        "choices": [
+          "Pick a side"
+        ]
+      },
+      {
+        "node_num": 17,
+        "title": "The Truth",
+        "narration": "The truth emerges. Everything was a lie.",
+        "choices": [
+          "Reveal the truth"
+        ]
+      },
+      {
+        "node_num": 18,
+        "title": "Final Gambit",
+        "narration": "One final move will decide everything.",
+        "choices": [
+          "Play your trump card"
+        ]
+      },
+      {
+        "node_num": 19,
+        "title": "Coronation",
+        "narration": "You claim the throne. Long live the Monarch.",
+        "choices": []
+      },
+      {
+        "node_num": 20,
+        "title": "Exile",
+        "narration": "Banished from the kingdom forever.",
+        "choices": []
+      },
+      {
+        "node_num": 21,
+        "title": "Executed",
+        "narration": "The executioner\\",
+        "choices": []
+      },
+      {
+        "node_num": 22,
+        "title": "Revolution",
+        "narration": "The people rise up. Revolution sweeps the land.",
+        "choices": []
+      },
+      {
+        "node_num": 23,
+        "title": "Peace Treaty",
+        "narration": "Peace is achieved, but at what cost?",
+        "choices": []
+      },
+      {
+        "node_num": 24,
+        "title": "New Order",
+        "narration": "A new order emerges from the chaos.",
+        "choices": []
+      },
+      {
+        "node_num": 25,
+        "title": "Martyrdom",
+        "narration": "Your death inspires a movement.",
+        "choices": []
+      }
+    ]
+  },
+  {
+    "story_num": 7,
+    "story_id": "story-7",
+    "title": "After the Fall",
+    "description": "Survive in a world where civilization has crumbled.",
+    "author": "Survivor 2847",
+    "nodes": [
+      {
+        "node_num": 1,
+        "title": "The Wasteland",
+        "narration": "The world ended three years ago. You\\",
+        "choices": [
+          "Search for supplies"
+        ]
+      },
+      {
+        "node_num": 2,
+        "title": "Scavenger Camp",
+        "narration": "A scavenger camp offers temporary shelter. But can you trust them?",
+        "choices": [
+          "Join the camp"
+        ]
+      },
+      {
+        "node_num": 3,
+        "title": "Raiders",
+        "narration": "Raiders on the horizon. Fight or hide?",
+        "choices": [
+          "Fight"
+        ]
+      },
+      {
+        "node_num": 4,
+        "title": "Safe Haven",
+        "narration": "Rumors of a safe haven to the north. Is it real?",
+        "choices": [
+          "Travel north"
+        ]
+      },
+      {
+        "node_num": 5,
+        "title": "Water Source",
+        "narration": "Clean water is more valuable than gold. You found a source.",
+        "choices": [
+          "Guard it"
+        ]
+      },
+      {
+        "node_num": 6,
+        "title": "The Caravan",
+        "narration": "A trading caravan passes through. Join them or go alone?",
+        "choices": [
+          "Join caravan"
+        ]
+      },
+      {
+        "node_num": 7,
+        "title": "Mutant Territory",
+        "narration": "Mutants control this territory. The radiation changed them.",
+        "choices": [
+          "Sneak through"
+        ]
+      },
+      {
+        "node_num": 8,
+        "title": "Old World Ruins",
+        "narration": "Pre-war ruins might have supplies. Or death.",
+        "choices": [
+          "Explore ruins"
+        ]
+      },
+      {
+        "node_num": 9,
+        "title": "Survivors",
+        "narration": "Other survivors. Strength in numbers, or more mouths to feed?",
+        "choices": [
+          "Welcome them"
+        ]
+      },
+      {
+        "node_num": 10,
+        "title": "The Warlord",
+        "narration": "The Warlord controls the region. Bow or resist?",
+        "choices": [
+          "Serve the Warlord"
+        ]
+      },
+      {
+        "node_num": 11,
+        "title": "Resistance",
+        "narration": "A resistance forms. Will you join the fight?",
+        "choices": [
+          "Lead the fight"
+        ]
+      },
+      {
+        "node_num": 12,
+        "title": "Supply Run",
+        "narration": "Supplies are running low. Someone must go.",
+        "choices": [
+          "Go yourself"
+        ]
+      },
+      {
+        "node_num": 13,
+        "title": "Ambush",
+        "narration": "The supply run was a trap. Raiders everywhere.",
+        "choices": [
+          "Fight your way out"
+        ]
+      },
+      {
+        "node_num": 14,
+        "title": "The Bunker",
+        "narration": "An old government bunker. Sealed for decades.",
+        "choices": [
+          "Break in"
+        ]
+      },
+      {
+        "node_num": 15,
+        "title": "Radio Signal",
+        "narration": "A radio signal. Someone else is out there.",
+        "choices": [
+          "Trace the signal"
+        ]
+      },
+      {
+        "node_num": 16,
+        "title": "New Settlement",
+        "narration": "Found others building a new settlement.",
+        "choices": [
+          "Help build"
+        ]
+      },
+      {
+        "node_num": 17,
+        "title": "Betrayal",
+        "narration": "Someone in your group is working for the raiders.",
+        "choices": [
+          "Confront them"
+        ]
+      },
+      {
+        "node_num": 18,
+        "title": "Final Battle",
+        "narration": "The final confrontation with the Warlord.",
+        "choices": [
+          "All-out attack"
+        ]
+      },
+      {
+        "node_num": 19,
+        "title": "Rebuild",
+        "narration": "Begin rebuilding civilization from the ashes.",
+        "choices": []
+      },
+      {
+        "node_num": 20,
+        "title": "Nomad Life",
+        "narration": "Choose the nomad life. Keep moving, stay free.",
+        "choices": []
+      },
+      {
+        "node_num": 21,
+        "title": "Raider King",
+        "narration": "Join the raiders. Become what you feared.",
+        "choices": []
+      },
+      {
+        "node_num": 22,
+        "title": "Sacrifice",
+        "narration": "Give your life to save the others.",
+        "choices": []
+      },
+      {
+        "node_num": 23,
+        "title": "Hope",
+        "narration": "Against all odds, there\\",
+        "choices": []
+      }
+    ]
+  },
+  {
+    "story_num": 8,
+    "story_id": "story-8",
+    "title": "City of Shadows",
+    "description": "A hard-boiled detective story in a city where everyone has something to hide.",
+    "author": "Detective Jake Morrison",
+    "nodes": [
+      {
+        "node_num": 1,
+        "title": "The Case",
+        "narration": "A dame walks into your office. She\\",
+        "choices": [
+          "Take the case"
+        ]
+      },
+      {
+        "node_num": 2,
+        "title": "Crime Scene",
+        "narration": "The body\\",
+        "choices": [
+          "Examine the body"
+        ]
+      },
+      {
+        "node_num": 3,
+        "title": "First Lead",
+        "narration": "A matchbook from the Blue Moon Club. Your first lead.",
+        "choices": [
+          "Go to the club"
+        ]
+      },
+      {
+        "node_num": 4,
+        "title": "The Witness",
+        "narration": "The witness is scared. They saw something they shouldn\\",
+        "choices": [
+          "Reassure them"
+        ]
+      },
+      {
+        "node_num": 5,
+        "title": "Interrogation",
+        "narration": "The suspect\\",
+        "choices": [
+          "Use intimidation"
+        ]
+      },
+      {
+        "node_num": 6,
+        "title": "The Femme Fatale",
+        "narration": "She\\",
+        "choices": [
+          "Play along"
+        ]
+      },
+      {
+        "node_num": 7,
+        "title": "Corruption",
+        "narration": "The case leads to City Hall. Corruption runs deep.",
+        "choices": [
+          "Dig deeper"
+        ]
+      },
+      {
+        "node_num": 8,
+        "title": "Following Shadows",
+        "narration": "Someone\\",
+        "choices": [
+          "Lose the tail"
+        ]
+      },
+      {
+        "node_num": 9,
+        "title": "The Informant",
+        "narration": "Your informant has information. Meet at the docks.",
+        "choices": [
+          "Go alone"
+        ]
+      },
+      {
+        "node_num": 10,
+        "title": "Ambush",
+        "narration": "It was a trap. Bullets fly in the darkness.",
+        "choices": [
+          "Shoot back"
+        ]
+      },
+      {
+        "node_num": 11,
+        "title": "Police Station",
+        "narration": "The police station isn\\",
+        "choices": [
+          "Find the dirty cop"
+        ]
+      },
+      {
+        "node_num": 12,
+        "title": "Evidence Room",
+        "narration": "Evidence disappears. Someone\\",
+        "choices": [
+          "Set a trap"
+        ]
+      },
+      {
+        "node_num": 13,
+        "title": "The Connection",
+        "narration": "All the pieces connect. The conspiracy is bigger than you thought.",
+        "choices": [
+          "Gather more proof"
+        ]
+      },
+      {
+        "node_num": 14,
+        "title": "Mob Boss",
+        "narration": "The mob boss wants to talk. It\\",
+        "choices": [
+          "Accept the meeting"
+        ]
+      },
+      {
+        "node_num": 15,
+        "title": "Undercover",
+        "narration": "Go undercover to get the evidence you need.",
+        "choices": [
+          "Infiltrate"
+        ]
+      },
+      {
+        "node_num": 16,
+        "title": "The Setup",
+        "narration": "They knew you were coming. Someone tipped them off.",
+        "choices": [
+          "Find the leak"
+        ]
+      },
+      {
+        "node_num": 17,
+        "title": "Betrayed",
+        "narration": "Your partner sold you out. Trust no one.",
+        "choices": [
+          "Confront your partner"
+        ]
+      },
+      {
+        "node_num": 18,
+        "title": "Shootout",
+        "narration": "Guns blazing in the warehouse district.",
+        "choices": [
+          "Take them down"
+        ]
+      },
+      {
+        "node_num": 19,
+        "title": "The Truth",
+        "narration": "The truth comes out. But can you prove it?",
+        "choices": [
+          "Build your case"
+        ]
+      },
+      {
+        "node_num": 20,
+        "title": "Final Confrontation",
+        "narration": "Face the mastermind behind it all.",
+        "choices": [
+          "Arrest them"
+        ]
+      },
+      {
+        "node_num": 21,
+        "title": "Justice Served",
+        "narration": "The guilty go to prison. Justice wins.",
+        "choices": []
+      },
+      {
+        "node_num": 22,
+        "title": "Corrupt Victory",
+        "narration": "The corrupt win. The city stays dark.",
+        "choices": []
+      },
+      {
+        "node_num": 23,
+        "title": "Death in the Rain",
+        "narration": "You die in the rain, case unsolved.",
+        "choices": []
+      },
+      {
+        "node_num": 24,
+        "title": "Walking Away",
+        "narration": "Some cases aren\\",
+        "choices": []
+      }
+    ]
+  },
+  {
+    "story_num": 9,
+    "story_id": "story-9",
+    "title": "Blackwood Manor",
+    "description": "Inherit a mansion with a dark past. The dead don\\",
+    "author": "Eleanor Blackwood",
+    "nodes": [
+      {
+        "node_num": 1,
+        "title": "Inheritance",
+        "narration": "You inherit Blackwood Manor from a relative you never knew. The locals warn you to stay away.",
+        "choices": [
+          "Move in immediately"
+        ]
+      },
+      {
+        "node_num": 2,
+        "title": "First Night",
+        "narration": "Your first night. The house creaks and groans. Or is it something else?",
+        "choices": [
+          "Investigate sounds"
+        ]
+      },
+      {
+        "node_num": 3,
+        "title": "Strange Sounds",
+        "narration": "Footsteps in empty hallways. Whispers in the walls.",
+        "choices": [
+          "Follow the sounds"
+        ]
+      },
+      {
+        "node_num": 4,
+        "title": "The Portrait",
+        "narration": "A portrait of your ancestor. Her eyes seem to follow you.",
+        "choices": [
+          "Examine the portrait"
+        ]
+      },
+      {
+        "node_num": 5,
+        "title": "Locked Room",
+        "narration": "One room remains locked. You find the key.",
+        "choices": [
+          "Unlock the door"
+        ]
+      },
+      {
+        "node_num": 6,
+        "title": "Diary Entries",
+        "narration": "Old diaries reveal the family\\",
+        "choices": [
+          "Read everything"
+        ]
+      },
+      {
+        "node_num": 7,
+        "title": "The Séance",
+        "narration": "The locals perform a séance. Contact is made.",
+        "choices": [
+          "Participate"
+        ]
+      },
+      {
+        "node_num": 8,
+        "title": "Ghostly Encounter",
+        "narration": "You see her. The ghost of Blackwood Manor.",
+        "choices": [
+          "Speak to her"
+        ]
+      },
+      {
+        "node_num": 9,
+        "title": "Hidden Passage",
+        "narration": "A hidden passage behind the bookshelf.",
+        "choices": [
+          "Enter the passage"
+        ]
+      },
+      {
+        "node_num": 10,
+        "title": "The Basement",
+        "narration": "The basement holds terrible secrets.",
+        "choices": [
+          "Explore deeper"
+        ]
+      },
+      {
+        "node_num": 11,
+        "title": "Family Secrets",
+        "narration": "Your family\\",
+        "choices": [
+          "Expose the truth"
+        ]
+      },
+      {
+        "node_num": 12,
+        "title": "The Curse",
+        "narration": "A curse has plagued the Blackwoods for generations.",
+        "choices": [
+          "Break the curse"
+        ]
+      },
+      {
+        "node_num": 13,
+        "title": "Ritual Chamber",
+        "narration": "An ancient ritual chamber beneath the house.",
+        "choices": [
+          "Perform the ritual"
+        ]
+      },
+      {
+        "node_num": 14,
+        "title": "Possession",
+        "narration": "Something tries to take control of your body.",
+        "choices": [
+          "Fight the possession"
+        ]
+      },
+      {
+        "node_num": 15,
+        "title": "Exorcism",
+        "narration": "A priest arrives to perform an exorcism.",
+        "choices": [
+          "Allow the exorcism"
+        ]
+      },
+      {
+        "node_num": 16,
+        "title": "The Truth",
+        "narration": "The truth about what happened here.",
+        "choices": [
+          "Reveal to the world"
+        ]
+      },
+      {
+        "node_num": 17,
+        "title": "Breaking the Curse",
+        "narration": "Perform the ritual to break the curse.",
+        "choices": [
+          "Complete the ritual"
+        ]
+      },
+      {
+        "node_num": 18,
+        "title": "Escape",
+        "narration": "Run. Leave this place forever.",
+        "choices": [
+          "Never look back"
+        ]
+      },
+      {
+        "node_num": 19,
+        "title": "Trapped Forever",
+        "narration": "The house won\\",
+        "choices": []
+      },
+      {
+        "node_num": 20,
+        "title": "New Guardian",
+        "narration": "Become the new guardian of the manor.",
+        "choices": []
+      },
+      {
+        "node_num": 21,
+        "title": "Burned Down",
+        "narration": "Burn it all down. End the curse with fire.",
+        "choices": []
+      }
+    ]
+  },
+  {
+    "story_num": 10,
+    "story_id": "story-10",
+    "title": "Into the Wild",
+    "description": "Lost in the wilderness with nothing but your wits. Nature is beautiful and deadly.",
+    "author": "Ranger Sarah Mitchell",
+    "nodes": [
+      {
+        "node_num": 1,
+        "title": "Lost",
+        "narration": "Your plane crashed in the mountains. You\\",
+        "choices": [
+          "Follow the river"
+        ]
+      },
+      {
+        "node_num": 2,
+        "title": "Finding Shelter",
+        "narration": "Night falls soon. You need shelter.",
+        "choices": [
+          "Build a shelter"
+        ]
+      },
+      {
+        "node_num": 3,
+        "title": "Water Source",
+        "narration": "Found a stream. Clean water means life.",
+        "choices": [
+          "Set up camp"
+        ]
+      },
+      {
+        "node_num": 4,
+        "title": "Making Fire",
+        "narration": "Fire keeps you warm and signals rescuers.",
+        "choices": [
+          "Rub sticks"
+        ]
+      },
+      {
+        "node_num": 5,
+        "title": "First Night",
+        "narration": "The first night is the hardest. Strange sounds in the darkness.",
+        "choices": [
+          "Stay by the fire"
+        ]
+      },
+      {
+        "node_num": 6,
+        "title": "Wildlife Encounter",
+        "narration": "A bear. Stay calm. Back away slowly.",
+        "choices": [
+          "Play dead"
+        ]
+      },
+      {
+        "node_num": 7,
+        "title": "Foraging",
+        "narration": "Berries, roots, insects. You eat what you can find.",
+        "choices": [
+          "Eat unknown berries"
+        ]
+      },
+      {
+        "node_num": 8,
+        "title": "River Crossing",
+        "narration": "The river is fast and cold. Cross or follow it?",
+        "choices": [
+          "Cross carefully"
+        ]
+      },
+      {
+        "node_num": 9,
+        "title": "Mountain Pass",
+        "narration": "The mountain pass is treacherous but might lead to help.",
+        "choices": [
+          "Take the pass"
+        ]
+      },
+      {
+        "node_num": 10,
+        "title": "Storm Coming",
+        "narration": "Dark clouds gather. A storm is coming.",
+        "choices": [
+          "Seek shelter now"
+        ]
+      },
+      {
+        "node_num": 11,
+        "title": "Cave Shelter",
+        "narration": "A cave offers shelter from the storm.",
+        "choices": [
+          "Enter cautiously"
+        ]
+      },
+      {
+        "node_num": 12,
+        "title": "Injured",
+        "narration": "You twisted your ankle. Movement is painful.",
+        "choices": [
+          "Rest and heal"
+        ]
+      },
+      {
+        "node_num": 13,
+        "title": "Signal Fire",
+        "narration": "Build a signal fire on high ground.",
+        "choices": [
+          "Three puffs of smoke"
+        ]
+      },
+      {
+        "node_num": 14,
+        "title": "Following Trail",
+        "narration": "Animal tracks might lead to water or danger.",
+        "choices": [
+          "Follow tracks"
+        ]
+      },
+      {
+        "node_num": 15,
+        "title": "Other Survivors",
+        "narration": "You find other survivors from the crash.",
+        "choices": [
+          "Join together"
+        ]
+      },
+      {
+        "node_num": 16,
+        "title": "Rescue Helicopter",
+        "narration": "The sound of helicopter rotors in the distance.",
+        "choices": [
+          "Signal frantically"
+        ]
+      },
+      {
+        "node_num": 17,
+        "title": "Final Push",
+        "narration": "One final push to reach the rescue point.",
+        "choices": [
+          "Sprint to safety"
+        ]
+      },
+      {
+        "node_num": 18,
+        "title": "Rescued",
+        "narration": "Rescued after 7 days. You survived.",
+        "choices": []
+      },
+      {
+        "node_num": 19,
+        "title": "Choose to Stay",
+        "narration": "You\\",
+        "choices": []
+      },
+      {
+        "node_num": 20,
+        "title": "Never Found",
+        "narration": "Rescue never comes. The wilderness claims you.",
+        "choices": []
+      }
+    ]
+  },
+  {
+    "story_num": 11,
+    "story_id": "story-11",
+    "title": "Digital Heist",
+    "description": "Pull off the ultimate cyber heist in a neon-soaked megacity.",
+    "author": "Ghost Protocol",
+    "nodes": [
+      {
+        "node_num": 1,
+        "title": "The Job",
+        "narration": "The biggest score of your career. One last job.",
+        "choices": [
+          "Accept the job"
+        ]
+      },
+      {
+        "node_num": 2,
+        "title": "Assembling the Crew",
+        "narration": "You need a crew. The best of the best.",
+        "choices": [
+          "Hire professionals"
+        ]
+      },
+      {
+        "node_num": 3,
+        "title": "The Hacker",
+        "narration": "The hacker can crack any system. For a price.",
+        "choices": [
+          "Pay their fee"
+        ]
+      },
+      {
+        "node_num": 4,
+        "title": "The Muscle",
+        "narration": "Muscle for when things go wrong. And they will.",
+        "choices": [
+          "Hire heavy muscle"
+        ]
+      },
+      {
+        "node_num": 5,
+        "title": "The Inside Man",
+        "narration": "Someone on the inside. But can you trust them?",
+        "choices": [
+          "Trust them"
+        ]
+      },
+      {
+        "node_num": 6,
+        "title": "Planning",
+        "narration": "Plan every detail. Leave nothing to chance.",
+        "choices": [
+          "Plan meticulously"
+        ]
+      },
+      {
+        "node_num": 7,
+        "title": "Reconnaissance",
+        "narration": "Scout the target. Learn the patterns.",
+        "choices": [
+          "Physical recon"
+        ]
+      },
+      {
+        "node_num": 8,
+        "title": "Security Systems",
+        "narration": "Biometric locks, AI security, laser grids. Tough but not impossible.",
+        "choices": [
+          "Bypass security"
+        ]
+      },
+      {
+        "node_num": 9,
+        "title": "The Vault",
+        "narration": "The vault holds data worth billions.",
+        "choices": [
+          "Crack the vault"
+        ]
+      },
+      {
+        "node_num": 10,
+        "title": "Backup Plan",
+        "narration": "Always have a backup plan. And a backup for the backup.",
+        "choices": [
+          "Prepare extraction"
+        ]
+      },
+      {
+        "node_num": 11,
+        "title": "Infiltration",
+        "narration": "Infiltration begins. No turning back now.",
+        "choices": [
+          "Go in hot"
+        ]
+      },
+      {
+        "node_num": 12,
+        "title": "First Obstacle",
+        "narration": "First security checkpoint. Talk or fight your way through.",
+        "choices": [
+          "Hack the guard"
+        ]
+      },
+      {
+        "node_num": 13,
+        "title": "Alarm Triggered",
+        "narration": "Alarms blare. The plan is falling apart.",
+        "choices": [
+          "Abort mission"
+        ]
+      },
+      {
+        "node_num": 14,
+        "title": "Improvise",
+        "narration": "Improvise. Adapt. Overcome.",
+        "choices": [
+          "Create a diversion"
+        ]
+      },
+      {
+        "node_num": 15,
+        "title": "The Data",
+        "narration": "You\\",
+        "choices": [
+          "Download everything"
+        ]
+      },
+      {
+        "node_num": 16,
+        "title": "Double Cross",
+        "narration": "Your partner pulls a gun. They had other plans.",
+        "choices": [
+          "Talk them down"
+        ]
+      },
+      {
+        "node_num": 17,
+        "title": "Escape Route",
+        "narration": "Multiple escape routes. Choose wisely.",
+        "choices": [
+          "Rooftop escape"
+        ]
+      },
+      {
+        "node_num": 18,
+        "title": "Chase Scene",
+        "narration": "Corporate security is on your tail.",
+        "choices": [
+          "Outrun them"
+        ]
+      },
+      {
+        "node_num": 19,
+        "title": "Betrayal Revealed",
+        "narration": "The inside man was working for them all along.",
+        "choices": [
+          "Confront them"
+        ]
+      },
+      {
+        "node_num": 20,
+        "title": "Final Hack",
+        "narration": "One final hack to open the exit.",
+        "choices": [
+          "Hack the door"
+        ]
+      },
+      {
+        "node_num": 21,
+        "title": "Confrontation",
+        "narration": "Face the one who betrayed you.",
+        "choices": [
+          "Spare them"
+        ]
+      },
+      {
+        "node_num": 22,
+        "title": "Clean Getaway",
+        "narration": "You made it. Rich and free.",
+        "choices": []
+      },
+      {
+        "node_num": 23,
+        "title": "Caught",
+        "narration": "Caught by corporate security. Game over.",
+        "choices": []
+      },
+      {
+        "node_num": 24,
+        "title": "Revenge",
+        "narration": "Get revenge on those who betrayed you.",
+        "choices": []
+      },
+      {
+        "node_num": 25,
+        "title": "New Identity",
+        "narration": "Disappear with a new identity.",
+        "choices": []
+      },
+      {
+        "node_num": 26,
+        "title": "Legendary",
+        "narration": "The heist becomes legend in the underground.",
+        "choices": []
+      }
+    ]
+  },
+  {
+    "story_num": 12,
+    "story_id": "story-12",
+    "title": "Curse of the Pharaoh",
+    "description": "Uncover the secrets of an ancient tomb and face the pharaoh\\",
+    "author": "Dr. James Carter",
+    "nodes": [
+      {
+        "node_num": 1,
+        "title": "The Discovery",
+        "narration": "You discover an untouched tomb in the Valley of the Kings.",
+        "choices": [
+          "Enter immediately"
+        ]
+      },
+      {
+        "node_num": 2,
+        "title": "Opening the Tomb",
+        "narration": "Breaking the seal. The air inside is 3000 years old.",
+        "choices": [
+          "Enter cautiously"
+        ]
+      },
+      {
+        "node_num": 3,
+        "title": "Hieroglyphics",
+        "narration": "Hieroglyphics warn of a terrible curse.",
+        "choices": [
+          "Translate them"
+        ]
+      },
+      {
+        "node_num": 4,
+        "title": "The Warning",
+        "narration": "\"Death shall come on swift wings to he who disturbs the pharaoh\\",
+        "choices": [
+          "Take the warning seriously"
+        ]
+      },
+      {
+        "node_num": 5,
+        "title": "First Chamber",
+        "narration": "The first chamber is filled with artifacts.",
+        "choices": [
+          "Catalog everything"
+        ]
+      },
+      {
+        "node_num": 6,
+        "title": "Treasure Room",
+        "narration": "Gold, jewels, treasures beyond imagination.",
+        "choices": [
+          "Admire but don\\"
+        ]
+      },
+      {
+        "node_num": 7,
+        "title": "The Curse",
+        "narration": "Strange things start happening. The curse is real.",
+        "choices": [
+          "Leave immediately"
+        ]
+      },
+      {
+        "node_num": 8,
+        "title": "Team Member Dies",
+        "narration": "A team member dies mysteriously. Accident or curse?",
+        "choices": [
+          "Investigate death"
+        ]
+      },
+      {
+        "node_num": 9,
+        "title": "Traps",
+        "narration": "Ancient traps protect the inner chambers.",
+        "choices": [
+          "Disarm the traps"
+        ]
+      },
+      {
+        "node_num": 10,
+        "title": "Deeper In",
+        "narration": "You venture deeper into the tomb.",
+        "choices": [
+          "Push deeper"
+        ]
+      },
+      {
+        "node_num": 11,
+        "title": "The Sarcophagus",
+        "narration": "The pharaoh\\",
+        "choices": [
+          "Open it carefully"
+        ]
+      },
+      {
+        "node_num": 12,
+        "title": "Ancient Guardians",
+        "narration": "Stone guardians seem to move in the torchlight.",
+        "choices": [
+          "Show respect"
+        ]
+      },
+      {
+        "node_num": 13,
+        "title": "The Artifact",
+        "narration": "A golden artifact pulses with otherworldly energy.",
+        "choices": [
+          "Take the artifact"
+        ]
+      },
+      {
+        "node_num": 14,
+        "title": "Possession",
+        "narration": "Someone in your team is acting strange. Possessed?",
+        "choices": [
+          "Restrain them"
+        ]
+      },
+      {
+        "node_num": 15,
+        "title": "Breaking the Curse",
+        "narration": "Find a way to break the curse before it\\",
+        "choices": [
+          "Find ritual items"
+        ]
+      },
+      {
+        "node_num": 16,
+        "title": "Escape Attempt",
+        "narration": "Try to escape with the treasure.",
+        "choices": [
+          "Take what you can carry"
+        ]
+      },
+      {
+        "node_num": 17,
+        "title": "Sandstorm",
+        "narration": "A massive sandstorm traps you inside.",
+        "choices": [
+          "Wait it out"
+        ]
+      },
+      {
+        "node_num": 18,
+        "title": "The Truth",
+        "narration": "Ancient texts reveal the pharaoh\\",
+        "choices": [
+          "Read everything"
+        ]
+      },
+      {
+        "node_num": 19,
+        "title": "Final Chamber",
+        "narration": "The final chamber holds the ultimate secret.",
+        "choices": [
+          "Enter the chamber"
+        ]
+      },
+      {
+        "node_num": 20,
+        "title": "Treasure Claimed",
+        "narration": "You escape with the treasure. But at what cost?",
+        "choices": []
+      },
+      {
+        "node_num": 21,
+        "title": "Cursed Forever",
+        "narration": "The curse follows you. Forever.",
+        "choices": []
+      },
+      {
+        "node_num": 22,
+        "title": "Museum Donation",
+        "narration": "Donate everything to a museum. End the curse.",
+        "choices": []
+      },
+      {
+        "node_num": 23,
+        "title": "Sealed Away",
+        "narration": "Seal the tomb forever. Some secrets should stay buried.",
+        "choices": []
+      }
+    ]
+  },
+  {
+    "story_num": 13,
+    "story_id": "story-13",
+    "title": "Dead Rising",
+    "description": "The dead walk. Survive the zombie apocalypse and find other survivors.",
+    "author": "Anonymous Survivor",
+    "nodes": [
+      {
+        "node_num": 1,
+        "title": "Outbreak",
+        "narration": "It started with news reports. Now the dead are everywhere.",
+        "choices": [
+          "Barricade home"
+        ]
+      },
+      {
+        "node_num": 2,
+        "title": "Escape Home",
+        "narration": "Your home isn\\",
+        "choices": [
+          "Take supplies"
+        ]
+      },
+      {
+        "node_num": 3,
+        "title": "The Streets",
+        "narration": "The streets are chaos. Zombies and panicked people.",
+        "choices": [
+          "Avoid main roads"
+        ]
+      },
+      {
+        "node_num": 4,
+        "title": "First Kill",
+        "narration": "You have to kill one. It\\",
+        "choices": [
+          "Use weapon"
+        ]
+      },
+      {
+        "node_num": 5,
+        "title": "Survivors",
+        "narration": "Find other survivors. Strength in numbers.",
+        "choices": [
+          "Approach them"
+        ]
+      },
+      {
+        "node_num": 6,
+        "title": "Safe House",
+        "narration": "Barricade a building. Make it safe.",
+        "choices": [
+          "Upper floor"
+        ]
+      },
+      {
+        "node_num": 7,
+        "title": "Supply Run",
+        "narration": "Food and water are running low. Someone must go.",
+        "choices": [
+          "Go yourself"
+        ]
+      },
+      {
+        "node_num": 8,
+        "title": "Horde",
+        "narration": "A massive horde approaches. Hundreds of them.",
+        "choices": [
+          "Fight the horde"
+        ]
+      },
+      {
+        "node_num": 9,
+        "title": "Bitten",
+        "narration": "Someone got bitten. They\\",
+        "choices": [
+          "End their suffering"
+        ]
+      },
+      {
+        "node_num": 10,
+        "title": "Amputation",
+        "narration": "Cut off the infected limb. It might work.",
+        "choices": [
+          "Perform amputation"
+        ]
+      },
+      {
+        "node_num": 11,
+        "title": "The Mall",
+        "narration": "The mall has supplies. And zombies.",
+        "choices": [
+          "Rush in"
+        ]
+      },
+      {
+        "node_num": 12,
+        "title": "Fortification",
+        "narration": "Fortify your position. They keep coming.",
+        "choices": [
+          "Board windows"
+        ]
+      },
+      {
+        "node_num": 13,
+        "title": "Raiders",
+        "narration": "Living humans are sometimes worse than the dead.",
+        "choices": [
+          "Negotiate"
+        ]
+      },
+      {
+        "node_num": 14,
+        "title": "Rescue Mission",
+        "narration": "A survivor is trapped. Risk your life to save them?",
+        "choices": [
+          "Attempt rescue"
+        ]
+      },
+      {
+        "node_num": 15,
+        "title": "The Cure",
+        "narration": "Rumors of a cure. Is it real?",
+        "choices": [
+          "Search for cure"
+        ]
+      },
+      {
+        "node_num": 16,
+        "title": "Military Checkpoint",
+        "narration": "The military has a checkpoint. But they\\",
+        "choices": [
+          "Approach carefully"
+        ]
+      },
+      {
+        "node_num": 17,
+        "title": "Quarantine Zone",
+        "narration": "The quarantine zone is a death trap.",
+        "choices": [
+          "Enter anyway"
+        ]
+      },
+      {
+        "node_num": 18,
+        "title": "Infection Spreads",
+        "narration": "The infection is spreading faster.",
+        "choices": [
+          "Find isolated area"
+        ]
+      },
+      {
+        "node_num": 19,
+        "title": "Last Stand",
+        "narration": "Make your final stand. Go out fighting.",
+        "choices": [
+          "Fight to the end"
+        ]
+      },
+      {
+        "node_num": 20,
+        "title": "Evacuation",
+        "narration": "A helicopter offers evacuation. Limited seats.",
+        "choices": [
+          "Take a seat"
+        ]
+      },
+      {
+        "node_num": 21,
+        "title": "Immune",
+        "narration": "You\\",
+        "choices": [
+          "Offer yourself"
+        ]
+      },
+      {
+        "node_num": 22,
+        "title": "Sacrifice",
+        "narration": "Someone must stay behind to buy time.",
+        "choices": [
+          "Stay behind"
+        ]
+      },
+      {
+        "node_num": 23,
+        "title": "New World",
+        "narration": "Rebuild in this new world of the dead.",
+        "choices": []
+      },
+      {
+        "node_num": 24,
+        "title": "Overrun",
+        "narration": "Your position is overrun. It\\",
+        "choices": []
+      },
+      {
+        "node_num": 25,
+        "title": "Hope",
+        "narration": "Against all odds, there\\",
+        "choices": []
+      }
+    ]
+  }
+]

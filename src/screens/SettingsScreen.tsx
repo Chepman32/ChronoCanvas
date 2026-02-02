@@ -26,6 +26,7 @@ import {
   getLastSyncTimestamp,
 } from '../services/storyCacheService';
 import { syncStories } from '../services/remoteStoryService';
+import { resetOnboarding } from '../services/settingsStorageService';
 
 interface SettingsScreenProps {
   onBack: () => void;
@@ -439,6 +440,27 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({ onBack }) => {
             >
               <Text style={[styles.cacheButtonText, { color: theme.error }]}>
                 {t.clearCache || 'Clear Cache'}
+              </Text>
+            </TouchableOpacity>
+
+            {/* Reset Onboarding Button */}
+            <TouchableOpacity
+              style={[
+                styles.cacheButton,
+                styles.clearCacheButton,
+                { borderColor: theme.textSecondary },
+              ]}
+              onPress={() => {
+                resetOnboarding();
+                Alert.alert(
+                  t.resetOnboarding || 'Reset Onboarding',
+                  'Onboarding will show on next app launch.',
+                );
+              }}
+              activeOpacity={0.7}
+            >
+              <Text style={[styles.cacheButtonText, { color: theme.textSecondary }]}>
+                {t.resetOnboarding || 'Reset Onboarding'}
               </Text>
             </TouchableOpacity>
           </View>

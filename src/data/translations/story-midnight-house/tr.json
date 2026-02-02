@@ -1,416 +1,417 @@
 {
-  "title": "Gece Yarısı Evi",
-  "description": "Viktorya döneminden kalma bir köşk karanlık sırlar saklıyor. Gerçeği ortaya mı çıkaracaksınız yoksa bir başka hayalet mi olacaksınız?",
+  "title": "The Midnight House",
+  "description": "A Victorian mansion hides dark secrets. Will you uncover the truth or become just another ghost?",
   "nodes": {
     "node-1": {
-      "title": "Varış",
-      "narration": "Gece Yarısı Evi'nin demir kapılarının önünde duruyorsunuz. Sis ayak bileklerinizin etrafında dönüyor, soğuk ve yapışkan. Mektupta yalnız gelmeniz, hava karardıktan sonra gelmeniz söyleniyordu. Titrek bir el yazısıyla yazılmış notta 'Geçen yaz ne yaptığını biliyorum' yazıyordu. 'Bunun bir sır olarak kalmasını istiyorsan Blackwood Malikanesi'ne gel.' Devasa ev karanlık gökyüzüne karşı yükseliyor, ikinci kattaki bir pencerede yalnız bir ışık titriyor. Kapı hafifçe aralık, sanki sizi içeri davet ediyor... ya da bir tuzağa çekiyor.",
+      "title": "Arrival",
+      "narration": "You stand before the iron gates of the Midnight House. Fog swirls around your ankles, cold and clammy. The letter said to come alone, after dark. 'I know what you did last summer,' the note read in shaky lettering. 'Come to Blackwood Manor if you want to keep it a secret.' The massive house looms against the dark sky, a solitary light flickering in one of the second-floor windows. The gate stands slightly ajar, as if inviting you in... or luring you into a trap.",
       "choices": {
         "choice-1": {
-          "text": "Ana kapıdan gir ve ön kapıya yaklaş"
+          "text": "Enter through the main gate and head for the front door"
         },
         "choice-2": {
-          "text": "Başka bir giriş aramak için çevreyi dolaş"
+          "text": "Walk around the perimeter looking for another entrance"
         }
       }
     },
     "node-2": {
-      "title": "Ön Giriş",
-      "narration": "Siz araba yolunda yürürken çakıl taşları botlarınızın altında gıcırdıyor. Rüzgar yaşlı meşe ağaçlarının bükülmüş dalları arasında uğulduyor. Taş basamakları tırmanıp masif meşe kapıya ulaşıyorsunuz. Çörten şeklindeki kapı tokmağı boş gözlerle size bakıyor. Kapıyı çalmak için uzanıyorsunuz ama kapı gıcırdayarak kendiliğinden açılıyor ve karanlık bir giriş holünü ortaya çıkarıyor. Dışarıya eski kağıt ve solmuş çiçek kokusu yayılıyor.",
+      "title": "Front Entrance",
+      "narration": "Gravel crunches under your shoes as you walk up the path. The wind moans through the twisted branches of old oak trees. You climb the stone steps to the massive oak door. A gargoyle-shaped knocker stares at you with empty eyes. You reach out to knock, but the door creaks open on its own, revealing a dark vestibule. The smell of old paper and withered flowers wafts out.",
       "choices": {
         "choice-3": {
-          "text": "Giriş holüne gir ve ev sahibine seslen"
+          "text": "Step into the hall and call out to the host"
         },
         "choice-4": {
-          "text": "Verandada kal ve birinin görünmesini bekle"
+          "text": "Stay on the porch and wait for someone to appear"
         }
       }
     },
     "node-3": {
-      "title": "Bahçenin Gölgelerinde",
-      "narration": "Doğrudan ön kapıya gitmemeye karar veriyorsunuz. Bunun yerine uzun otların arasından evin yan tarafına doğru süzülüyorsunuz. Burası karanlık, ay ışığı kalın bulutların arasından zar zor sızıyor. Camları kırık ve kirli eski bir seraya rastlıyorsunuz. İçeride bitkilerin garip, doğal olmayan gölgeleri görünüyor. Yakınlarda, ana girişten daha az heybetli görünen bir hizmetçi kapısı var.",
+      "title": "Garden Shadows",
+      "narration": "You decide not to go straight to the front door. Instead, you creep through the tall grass to the side of the house. It is dark here, moonlight barely piercing the thick clouds. You stumble upon an old greenhouse, its glass broken and grimy. Inside, strange, unnatural shadows of plants seem to be moving. Nearby is a servants' entrance that looks less imposing than the main one.",
       "choices": {
         "choice-5": {
-          "text": "Hizmetçi kapısını açmayı dene"
+          "text": "Try the servants' door"
         },
         "choice-6": {
-          "text": "Seranın içine bak"
+          "text": "Look inside the greenhouse"
         }
       }
     },
     "node-4": {
-      "title": "Büyük Salon",
-      "narration": "İçeri giriyorsunuz. 'Kimse var mı?' Sesiniz yüksek duvarlarda yankılanıyor. Arkanızdaki kapı gürültüyle kapanıyor. Kolu çekiyorsunuz - kilitli. Kapana kısıldınız. Tek ışık, yukarıda zayıfça titreyen bir avizeden geliyor. Önünüzde yukarı çıkan geniş bir merdiven, sağda ve solda ise karanlık koridorlar var.",
+      "title": "Grand Hall",
+      "narration": "You step inside. 'Hello? Is anyone there?' Your voice echoes off the high walls. The door slams shut behind you. You pull the handle - locked. You are trapped. The only light comes from a chandelier above, flickering weakly. Before you is a wide staircase leading up, and dark corridors to the left and right.",
       "choices": {
         "choice-7": {
-          "text": "Merdivenlerden ikinci kata çık"
+          "text": "Climb the stairs to the first floor"
         },
         "choice-8": {
-          "text": "Soldaki koridoru keşfet"
+          "text": "Explore the left corridor"
         }
       }
     },
     "node-5": {
-      "title": "Bekleyiş",
-      "narration": "Beklemeye karar veriyorsunuz. Dakikalar geçiyor ve saatler gibi hissettiriyor. Soğuk kemiklerinize işliyor. Aniden kulağınızın hemen dibinde bir fısıltı duyuyorsunuz: 'Neden bizi bekletiyorsun?' Hızla arkanızı dönüyorsunuz ama kimse yok. Kapıya tekrar baktığınızda, girişte duran koyu renk paltolu uzun bir figür görüyorsunuz. Figür, taşların sürtünmesine benzeyen bir sesle 'Geciktiniz,' diyor. 'Akşam yemeği servis edildi.'",
+      "title": "Waiting",
+      "narration": "You decide to wait. Minutes pass and feel like hours. The cold seeps into your bones. Suddenly, you hear a whisper close to your ear: 'Why do you make us wait?' You spin around, but there is no one. When you look back at the door, a tall figure in a dark coat stands in the doorway. 'You're late,' the figure says in a voice like grinding stones. 'Dinner is served.'",
       "choices": {
         "choice-9": {
-          "text": "Figürü içeriye kadar takip et"
+          "text": "Follow the figure inside"
         },
         "choice-10": {
-          "text": "Figürü it ve kaçmaya çalış"
+          "text": "Push the figure and try to run"
         }
       }
     },
     "node-6": {
-      "title": "Mutfak",
-      "narration": "Hizmetçi kapısı protesto eden bir iniltiyle açılıyor. Kendinizi geniş, terk edilmiş bir mutfakta buluyorsunuz. Bakır tencere sıraları ay ışığında zayıfça parlıyor. Büyük bir kesme masasının üzerinde taze kırmızı bir elma duruyor, toz ve örümcek ağlarının arasında garip bir şekilde yersiz görünüyor. Evin derinliklerinden hafif ayak sesleri geliyor.",
+      "title": "Kitchen",
+      "narration": "The servants' door opens with a groan of protest. You find yourself in a vast, abandoned kitchen. Rows of copper pots gleam dimly in the moonlight. On a large chopping table sits a fresh red apple, looking oddly out of place amidst the dust and cobwebs. From deeper in the house come the sounds of soft footsteps.",
       "choices": {
         "choice-11": {
-          "text": "Kilerde saklan"
+          "text": "Hide in the pantry"
         },
         "choice-12": {
-          "text": "Masadan bir bıçak al ve sese doğru git"
+          "text": "Grab a knife from the table and move towards the sound"
         }
       }
     },
     "node-7": {
-      "title": "Sera",
-      "narration": "Kirli camı siliyor ve içeri bakıyorsunuz. İçerideki bitkiler... hareket ediyor, rüzgar olmamasına rağmen. Bunlar sıradan çiçekler değil; sarmaşıkları yılan gibi kıvrılıyor ve tomurcukları küçük ağızlara benziyor. Seranın ortasında, doğrudan size bakıyormuş gibi görünen bir kadın heykeli var. Aniden sarmaşıklardan biri camı kırıyor ve kolunuzu yakalıyor!",
+      "title": "Greenhouse",
+      "narration": "You wipe the grimy glass and peer inside. The plants within are... moving, though there is no wind. These are no ordinary flowers; their vines twist like snakes, and the buds look like tiny mouths. In the center of the greenhouse is a statue of a woman that seems to be looking right at you. Suddenly, one of the vines smashes through the glass and grabs your arm!",
       "choices": {
         "choice-13": {
-          "text": "Kurtulmaya çalış ve hizmetçi kapısına koş"
+          "text": "Try to break free and run for the servants' door"
         },
         "choice-14": {
-          "text": "Bitkiyi korkutmak için çakmak kullan"
+          "text": "Use a lighter to scare the plant"
         }
       }
     },
     "node-8": {
-      "title": "İkinci Kat",
-      "narration": "Gıcırdayan merdivenleri çıkıyorsunuz. Tepede birçok kapısı olan uzun bir koridor var. Sokaktan ışığını gördüğünüz oda en sonda. Sağdaki bir odadan gelen sessiz bir müzik kutusu melodisi duyuluyor.",
+      "title": "First Floor",
+      "narration": "You climb the creaking stairs. At the top is a long hallway with many doors. The room you saw the light from outside is at the very end. A soft music box melody is drifting from a room on the right.",
       "choices": {
         "choice-15": {
-          "text": "Koridorun sonundaki ışıklı odaya git"
+          "text": "Go to the lit room at the end of the hall"
         },
         "choice-16": {
-          "text": "Müzik gelen odayı kontrol et"
+          "text": "Check the room with the music"
         }
       }
     },
     "node-9": {
-      "title": "Kütüphane",
-      "narration": "Soldaki koridor sizi devasa bir kütüphaneye götürüyor. Yerden tavana kadar raflar eski kitaplarla dolu. Kimse olmamasına rağmen şöminede kömürler parlıyor. Masanın üzerinde açık bir günlük duruyor. Son girdiyi okuyorsunuz: 'Benim için geldiler. Artık saklanamam. Sır portrede.'",
+      "title": "Library",
+      "narration": "The left corridor leads you into a massive library. Floor-to-ceiling shelves are packed with old books. Embers still glow in the fireplace, though no one is there. On a table lies an open diary. You read the last entry: 'They have come for me. I can hide no longer. The secret is in the portrait.'",
       "choices": {
         "choice-17": {
-          "text": "Şöminenin üzerindeki portreyi incele"
+          "text": "Examine the portrait above the fireplace"
         },
         "choice-18": {
-          "text": "Günlüğün önceki sayfalarını oku"
+          "text": "Read the previous pages of the diary"
         }
       }
     },
     "node-10": {
-      "title": "Yemek Odası",
-      "narration": "Figür sizi yemek odasına götürüyor. Uzun masa bir kişi için hazırlanmış. 'Oturun,' diye emrediyor ev sahibi. Tabakta yemek olmadığını, eski, sararmış bir fotoğraf olduğunu fark ediyorsunuz... sizin fotoğrafınız. Dün çekilmiş. 'Sizi izliyorduk,' diyor.",
+      "title": "Dining Room",
+      "narration": "The figure leads you into the dining room. A long table is set for one. 'Sit,' the host commands. You notice there is no food on the plate, but an old, yellowed photograph... of you. Taken yesterday. 'We have been watching you,' he says.",
       "choices": {
         "choice-19": {
-          "text": "Açıklama talep et"
+          "text": "Demand an explanation"
         },
         "choice-20": {
-          "text": "Masayı devir ve kaos yarat"
+          "text": "Flip the table and create chaos"
         }
       }
     },
     "node-11": {
-      "title": "Kaçış",
-      "narration": "Figürü itiyorsunuz. Dokunuşu ahşap gibi sert ve soğuk. Figür düşmüyor ama yanından geçmeyi başarıyorsunuz. Kapıya geri koşuyorsunuz ama kapanmış. Parmaklıklar tırmanmak için çok yüksek. Arkanızda ağır ayak sesleri duyuyorsunuz.",
+      "title": "Escape",
+      "narration": "You push the figure. It feels hard and cold as wood. The figure doesn't fall, but you manage to slip past. You sprint back to the gate, but it is locked. The bars are too high to climb. You hear heavy footsteps behind you.",
       "choices": {
         "choice-21": {
-          "text": "Çalılıkların arasına saklan"
+          "text": "Hide in the bushes"
         },
         "choice-22": {
-          "text": "Seraya koş"
+          "text": "Run to the greenhouse"
         }
       }
     },
     "node-12": {
-      "title": "Kiler",
-      "narration": "Küf kokan dar bir kilere sıkışıyorsunuz. Kapı aralığından, Viktorya dönemi hizmetçi kıyafeti giymiş bir kadının mutfağa girdiğini görüyorsunuz. Ürpertici bir ninni mırıldanıyor. Elmayı alıyor ve yüzü değişiyor - çenesi doğal olmayan bir şekilde aşağı düşüyor ve sıra sıra keskin dişleri ortaya çıkarıyor.",
+      "title": "Pantry",
+      "narration": "You squeeze yourself into a narrow pantry smelling of mold. Through a crack in the door, you see a woman in a Victorian maid's uniform enter the kitchen. She is humming a creepy lullaby. She picks up the apple, and her face changes - her jaw drops unnaturally low, revealing rows of sharp teeth.",
       "choices": {
         "choice-23": {
-          "text": "Nefesini tut ve gitmesini um"
+          "text": "Hold your breath and hope she leaves"
         },
         "choice-24": {
-          "text": "Fırla ve o dalgınken saldır"
+          "text": "Jump out and attack while she is distracted"
         }
       }
     },
     "node-13": {
-      "title": "Silahlı",
-      "narration": "Paslı bıçağı sıkıca tutarak sese doğru sürünüyorsunuz. Sizi bir hizmetçi koridoruna götürüyor. İleride bir kapının altından sızan ışığı görüyorsunuz. İçeride sesler tartışıyor. 'Gelmeyecek,' diyor biri. 'Gelmeli,' diye cevap veriyor diğeri. 'Ritüel onun kanını gerektiriyor.'",
+      "title": "Armed",
+      "narration": "Clutching the rusty knife tight, you creep towards the sound. It leads you to a servants' corridor. Ahead, you see light spilling from under a door. Voices are arguing inside. 'He won't come,' one says. 'He must,' another replies. 'The ritual requires his blood.'",
       "choices": {
         "choice-25": {
-          "text": "Odaya dal"
+          "text": "Burst into the room"
         },
         "choice-26": {
-          "text": "Dinlemeye devam et"
+          "text": "Keep listening"
         }
       }
     },
     "node-14": {
-      "title": "Ateş",
-      "narration": "Çakmağı çakıyorsunuz. Alev parlıyor ve bitki bir çığlıkla geri çekiliyor. Ateş yakındaki kuru yapraklara sıçrıyor. Tüm sera dumanla dolmaya başlıyor. Eve açılan bir kapı açılıyor ve biri öksürerek dışarı koşuyor.",
+      "title": "Fire",
+      "narration": "You flick the lighter. The flame flares up and the plant recoils with a shriek. The fire catches onto nearby dry leaves. The whole greenhouse starts filling with smoke. A door leading to the house opens and someone runs out coughing.",
       "choices": {
         "choice-27": {
-          "text": "Karmaşadan faydalan ve eve gir"
+          "text": "Take advantage of the confusion and enter the house"
         },
         "choice-28": {
-          "text": "Kişinin dışarı çıkmasına yardım et"
+          "text": "Help the person out"
         }
       }
     },
     "node-15": {
-      "title": "Efendinin Odası",
-      "narration": "Koridorun sonuna ulaşıp kapıyı itiyorsunuz. Oda mum ışığıyla aydınlanmış. Ortada yaşlı bir adam duruyor. 'Seni bekliyordum, Anton,' diyor (adınız bu olmasa da, ya da öyle mi...?). 'Borcu ödeme zamanı geldi.'",
+      "title": "Master's Room",
+      "narration": "You reach the end of the hall and push the door open. The room is lit by candles. In the center stands an old man. 'I have been waiting for you, Anton,' he says (though that is not your name, or is it...?). 'It is time to pay the debt.'",
       "choices": {
         "choice-29": {
-          "text": "Yanıldığını söyle"
+          "text": "Say he has the wrong person"
         },
         "choice-30": {
-          "text": "Hangi borçtan bahsettiğini sor"
+          "text": "Ask what debt he is talking about"
         }
       }
     },
     "node-16": {
-      "title": "Çocuk Odası",
-      "narration": "Müziğin kaynağı eski bir çocuk odası. Odanın ortasında kendi kendine sallanan bir beşik var. Raftaki bir müzik kutusu 'Baa, Baa, Black Sheep' çalıyor ama minör tonda. Beşiğe yaklaşıp içine bakıyorsunuz. Boş, dibinde sadece bir ayna duruyor.",
+      "title": "Nursery",
+      "narration": "The source of the music is an old nursery. In the center of the room is a crib rocking by itself. A music box on the shelf plays 'Baa, Baa, Black Sheep', but in a minor key. You approach the crib and look inside. It is empty, save for a mirror lying at the bottom.",
       "choices": {
         "choice-31": {
-          "text": "Aynayı al"
+          "text": "Pick up the mirror"
         },
         "choice-32": {
-          "text": "Beşiği durdur"
+          "text": "Stop the crib"
         }
       }
     },
     "node-17": {
-      "title": "Ölülerle Konuşma",
-      "narration": "Ellerinizi duvara bastırıyor ve arkasındaki varlığa doğrudan sesleniyorsunuz. 'Samuel? Eğer adın buysa, sana ne olduğunu anlamak istiyorum.' Tırmalama duruyor. Sessizlik. Sonra genç ve çaresiz bir ses, sanki çok uzaklardan geliyormuş gibi ahşabın içinden geliyor: 'Onu öldürdü. İyiliği için olduğunu söyledi ama onu yavaş yavaş öldürdü. Beni yavaş yavaş öldürdü. Parça parça ölmemi izletti bana.' Sorarken sesiniz titriyor: 'Ne istiyorsun?' Cevap hemen geliyor: 'Benim hissettiğimi hissetmesini istiyorum. Her an. Her gün. Ölümün merhamet olduğunu anlayana kadar.' Samuel'in kapana kısılmadığını, içinizi kemiren bir kesinlikle fark ediyorsunuz. Kontrol onda. Bütün ev artık onun: iradesinin, acısının, cezalandırma ihtiyacının bir uzantısı. 'Bana birini getir,' diye fısıldıyor Samuel. 'Bana yeni birini getir. Yaşam gücü parlak yanan birini. Bunu yaparsan gitmene izin verir. Özgürlüğüne kavuşabilirsin.' Elleriniz duvardan düşüyor. Size bir anlaşma teklif edildi. Başkasını ihanet etmek ya da kendiniz kapana kısılmak.",
+      "title": "Conversation with the Dead",
+      "narration": "You press your hands to the wall and speak directly to the presence behind it. 'Samuel? If that is your name, I want to understand what happened to you.' The scratching stops. Silence. Then a voice comes, young and desperate, sounding as if through wood from very far away: 'He killed her. Said it was for her own good, but he killed her slowly. Killed me slowly too. Made me watch myself die in pieces.' Your voice trembles as you ask: 'What do you want?' The answer comes immediately: 'I want him to feel what I felt. Every moment. Every day. Until he understands that death is a mercy.' You realize with a sinking feeling that Samuel isn't trapped. He is in control. The whole house is his now: an extension of his will, his pain, his need for punishment. 'Bring me someone,' Samuel whispers. 'Bring me someone new. Someone whose life burns bright. If you do, he will let you go. You can have your freedom.' Your hands drop from the wall. You have been offered a pact. Betray another or remain trapped yourself.",
       "choices": {
         "choice-33": {
-          "text": "Anlaşmayı reddet ve başka bir kaçış yolu planla"
+          "text": "Refuse the pact and find another way out"
         },
         "choice-34": {
-          "text": "Samuel'in şartlarını kabul et ve bir kurban ara"
+          "text": "Accept Samuel's terms and hunt for a victim"
         }
       }
     },
     "node-18": {
-      "title": "Gizli Geçit",
-      "narration": "Günlüğü geriye doğru karıştırıyorsunuz. Sayfalar çılgınca çizilmiş gözler ve kapılarla dolu. Bir giriş dikkatinizi çekiyor: 'Şöminenin arkasında bir geçit var. Çatlak tuğlaya basmak gerek.' Şömineye bakıyorsunuz.",
+      "title": "Secret Passage",
+      "narration": "You flip through the diary backwards. The pages are filled with mad drawings of eyes and doors. A note catches your eye: 'Behind the fireplace is a passage. Must press the cracked brick.' You look at the fireplace.",
       "choices": {
         "choice-35": {
-          "text": "Tuğlayı ara"
+          "text": "Search for the brick"
         },
         "choice-36": {
-          "text": "Görmezden gel ve kütüphaneden başka bir çıkış ara"
+          "text": "Ignore it and look for another exit from the library"
         }
       }
     },
     "node-19": {
-      "title": "Gerçek",
-      "narration": "Ev sahibi gülüyor, kuru, çatırtılı bir ses. 'Açıklama mı? Soru sormak için burada değilsin. Koleksiyonun bir parçası olmak için buradasın.' Duvarlar kaymaya başlıyor, önceki misafirlerin mumyalanmış bedenlerinin olduğu nişleri ortaya çıkarıyor.",
+      "title": "The Truth",
+      "narration": "The host laughs, a dry, cracking sound. 'Explanation? You are not here to ask questions. You are here to be part of the collection.' The walls begin to shift, revealing niches containing the preserved bodies of previous guests.",
       "choices": {
         "choice-37": {
-          "text": "Hayatın için savaş"
+          "text": "Fight for your life"
         },
         "choice-38": {
-          "text": "Merhamet dilen"
+          "text": "Beg for mercy"
         }
       }
     },
     "node-20": {
-      "title": "Kaos",
-      "narration": "Ağır meşe masayı tüm gücünüzle deviriyorsunuz. Tabaklar sağır edici bir şangırtıyla yere uçuyor. Ev sahibi kızgın bir kedi gibi tıslıyor ve gölgelere çekiliyor. 'Aptal! Urnayı kırdın!' diye bağırıyor. Kırık vazonun parçalarından gri bir duman yükseliyor.",
+      "title": "Chaos",
+      "narration": "You flip the heavy oak table with all your might. Crockery flies onto the floor with a deafening crash. The host hisses like an angry cat and retreats into the shadows. 'Fool! You broke the urn!' he screams. From the shards of a broken vase, gray smoke rises.",
       "choices": {
         "choice-39": {
-          "text": "O dalgınken çıkışa koş"
+          "text": "Run for the exit while he is distracted"
         },
         "choice-40": {
-          "text": "Ev sahibine saldır"
+          "text": "Attack the host"
         }
       }
     },
     "node-21": {
-      "title": "Bahçe Labirenti",
-      "narration": "Çalıların eski bir labirentin parçası olduğu ortaya çıkıyor. İçeri dalıyorsunuz, dallar yüzünüzü çiziyor. Arkadaki ayak sesleri yükseliyor, sonra susuyor. Kayboldunuz. Etrafınızda sadece yüksek çitler var.",
+      "title": "Garden Maze",
+      "narration": "The bushes turn out to be part of an old maze. You dive in, branches scratching your face. Footsteps boom behind you, then fall silent. You are lost. Only high hedges all around.",
       "choices": {
         "choice-41": {
-          "text": "Sağ el kuralını izle"
+          "text": "Follow the right-hand rule"
         },
         "choice-42": {
-          "text": "Çitlerin arasından geçmeye çalış"
+          "text": "Try to break through the hedge"
         }
       }
     },
     "node-22": {
-      "title": "Seranın Hayaleti",
-      "narration": "Seraya koşuyorsunuz ama kapı kilitli. İçeride cama yumruklarını vuran bir kız figürü görüyorsunuz. 'Girme!' diye sessizce bağırıyor. Ama takipçinin ayak sesleri artık çok yakın.",
+      "title": "Greenhouse Ghost",
+      "narration": "You run to the greenhouse, but the door is locked. Inside, you see the figure of a girl banging her fists on the glass. 'Don't come in!' she screams soundlessly. But the pursuer's steps are very close now.",
       "choices": {
         "choice-43": {
-          "text": "Camı kır ve gir"
+          "text": "Smash the glass and enter"
         },
         "choice-44": {
-          "text": "Seranın arkasına saklan"
+          "text": "Hide behind the greenhouse"
         }
       }
     },
     "node-23": {
-      "title": "Keşif",
-      "narration": "Hizmetçi 'taze et' hakkında mırıldanarak gidiyor. Nefes veriyorsunuz. Şimdi mutfağa giden yol açık ama çıktığı kapı bodruma gidiyor.",
+      "title": "Discovery",
+      "narration": "The maid leaves, muttering about 'fresh meat'. You exhale. The way to the kitchen is clear now, but the door she exited through leads to the cellar.",
       "choices": {
         "choice-45": {
-          "text": "Bodrumu keşfet"
+          "text": "Explore the cellar"
         },
         "choice-46": {
-          "text": "Mutfaktan eve çık"
+          "text": "Go up into the house through the kitchen"
         }
       }
     },
     "node-24": {
-      "title": "Çatışma",
-      "narration": "Bir çığlıkla dışarı fırlıyorsunuz. Yaratık insanlık dışı bir sesle ciyaklıyor ve üzerinize atılıyor. Ona ağır bir şeyle vurmayı başarıyorsunuz ve toza dönüşüyor. Ama gürültü kesinlikle dikkat çekti.",
+      "title": "Confrontation",
+      "narration": "You jump out with a yell. The creature screams with an inhuman voice and lunges at you. You manage to strike it with something heavy, and it turns to dust. But the noise has definitely attracted attention.",
       "choices": {
         "choice-47": {
-          "text": "Kaç"
+          "text": "Run"
         },
         "choice-48": {
-          "text": "Barikat kur"
+          "text": "Barricade yourself"
         }
       }
     },
     "node-25": {
-      "title": "Ritüel",
-      "narration": "Odaya dalıyorsunuz. Kukuletalı beş figür bir pentagramın etrafında duruyor. Başlarını size çeviriyorlar. 'Bir gönüllü,' diyor lider. 'Ne kadar nazik.'",
+      "title": "The Ritual",
+      "narration": "You burst into the room. Five hooded figures stand around a pentagram. They turn their heads towards you. 'A volunteer,' the leader says. 'How kind.'",
       "choices": {
         "choice-49": {
-          "text": "Ritüeli bölmeye çalış"
+          "text": "Try to disrupt the ritual"
         },
         "choice-50": {
-          "text": "Teslim ol"
+          "text": "Surrender"
         }
       }
     },
     "node-26": {
-      "title": "Gizli Bilgi",
-      "narration": "Dinliyorsunuz. Evin korkuyla beslendiğinden bahsediyorlar. Onu yenmenin tek yolu korkmamak. 'Eğer gülerse, büyü bozulur,' diyor bir ses.",
+      "title": "Secret Knowledge",
+      "narration": "You listen. They are talking about how the house feeds on fear. The only way to defeat it is not to be afraid. 'If he laughs, the spell breaks,' one voice says.",
       "choices": {
         "choice-51": {
-          "text": "İçeri gir ve bir şaka yap"
+          "text": "Walk in and tell a joke"
         },
         "choice-52": {
-          "text": "Bu bilgiyi daha sonra kullan"
+          "text": "Use this knowledge later"
         }
       }
     },
     "node-27": {
-      "title": "Evde",
-      "narration": "Panikten yararlanarak açık kapıdan süzülüyorsunuz. Kendinizi gözleri sizi takip eden portrelerle dolu bir koridorda buluyorsunuz.",
+      "title": "Into the House",
+      "narration": "Taking advantage of the panic, you slip through the open door. You find yourself in a corridor with paintings whose eyes follow you.",
       "choices": {
         "choice-53": {
-          "text": "Evin derinliklerine koş"
+          "text": "Run deeper into the house"
         },
         "choice-54": {
-          "text": "Bir perdenin arkasına saklan"
+          "text": "Hide behind a curtain"
         }
       }
     },
     "node-28": {
-      "title": "Kurtuluş",
-      "narration": "Kişinin elini tutup dışarı çekiyorsunuz. Bu genç bir çocuk, ölesiye korkmuş. 'Teşekkürler,' diye hırıldıyor. 'Çıkışın nerede olduğunu biliyorum. Gizli bir tünel.'",
+      "title": "Rescue",
+      "narration": "You grab the person's hand and pull them out. It's a young boy, terrified. 'Thank you,' he gasps. 'I know where the exit is. A secret tunnel.'",
       "choices": {
         "choice-55": {
-          "text": "Ona güven"
+          "text": "Trust him"
         },
         "choice-56": {
-          "text": "Güvenme ve yalnız git"
+          "text": "Don't trust him and go alone"
         }
       }
     },
     "node-29": {
-      "title": "Çözüm",
-      "narration": "Anlaşmayı kararlılıkla reddediyorsunuz. 'Onun gibi olmayacağım. Ve senin kuklan olmayacağım.' Samuel öfkeyle bağırıyor, duvarlar titriyor. 'ÖYLEYSE SONSUZA KADAR BURADA KAL!' Altınızdaki zemin çöküyor.",
+      "title": "Decision",
+      "narration": "You refuse the pact firmly. 'I won't become like him. And I won't be your puppet.' Samuel screams in rage, the walls shaking. 'Then stay here forever!' The floor beneath you collapses.",
       "choices": {
         "choice-57": {
-          "text": "Kenara tutunmaya çalış"
+          "text": "Try to grab the ledge"
         },
         "choice-58": {
-          "text": "Düşüşü kabullen"
+          "text": "Accept the fall"
         }
       }
     },
     "node-30": {
-      "title": "Yeni Efendi",
-      "narration": "Kabul ediyorsunuz. 'Bilgece bir seçim,' diye fısıldıyor Samuel. Kapı açılıyor. Koridorda, seradan kurtardığınız (veya kurtarabileceğiniz) aynı çocuk duruyor. Size umutla bakıyor. Cebinizdeki bıçağın sapını sıkıyorsunuz...",
+      "title": "New Master",
+      "narration": "You agree. 'Wise choice,' Samuel whispers. The door opens. Standing in the hallway is the same boy you saved from the greenhouse (or could have). He looks at you hopefully. You grip the knife handle in your pocket...",
       "choices": {
         "choice-59": {
-          "text": "Anlaşmanın sana düşen kısmını yerine getir"
+          "text": "Fulfill your end of the bargain"
         },
         "choice-60": {
-          "text": "Son anda fikrini değiştir ve 'varlığa' saldır"
+          "text": "Change your mind at the last second and attack the 'presence'"
         }
       }
     },
     "node-31": {
-      "title": "Ayna",
-      "narration": "Aynayı alıyorsunuz. Yansımada kendinizi değil, omzunuzun arkasında duran bir hayaleti görüyorsunuz. Gülümsüyor ve parmağını dudaklarına götürüyor.",
+      "title": "The Mirror",
+      "narration": "You pick up the mirror. In the reflection you see not yourself, but a ghost looking over your shoulder. He smiles and puts a finger to his lips.",
       "choices": {
         "choice-61": {
-          "text": "Aynayı kır"
+          "text": "Smash the mirror"
         },
         "choice-62": {
-          "text": "Kim olduğunu sor"
+          "text": "Ask who he is"
         }
       }
     },
     "node-32": {
-      "title": "Beşik",
-      "narration": "Elinizle beşiği durduruyorsunuz. Müzik aniden kesiliyor. Sessizlik kulaklarınıza baskı yapıyor. Aniden beşik vahşi bir güçle sallanmaya başlıyor ve yüksek, delici bir bebek ağlaması havayı yırtıyor.",
+      "title": "The Crib",
+      "narration": "You stop the crib with your hand. The music stops abruptly. Silence presses on your ears. Suddenly, the crib begins to shake with savage force, and a loud, piercing baby's cry tears through the air.",
       "choices": {
         "choice-63": {
-          "text": "Odadan kaç"
+          "text": "Run from the room"
         },
         "choice-64": {
-          "text": "'Bebeği' sakinleştirmeye çalış"
+          "text": "Try to soothe the 'baby'"
         }
       }
     }
   },
   "endings": {
     "ending-1": {
-      "title": "Ebedi Misafir",
-      "narration": "Kaçamadınız. Ev sizi de diğer pek çoğu gibi yuttu. Artık koleksiyonun bir parçasısınız, koridorlarda dolaşan ve yeni misafirleri korkutan bir başka hayalet. Belki bir dahaki sefere daha şanslı olursunuz... ama sizin için bir dahaki sefer olmayacak."
+      "title": "Eternal Guest",
+      "narration": "You couldn't escape. The house swallowed you, just like so many others. You are now part of the collection, another ghost wandering the halls and scaring new guests. Maybe next time you'll be luckier... but for you, there is no next time."
     },
     "ending-2": {
-      "title": "Özgürlük... mü?",
-      "narration": "Kapıdan dışarı koşuyorsunuz, ciğerleriniz soğuk havayla yanıyor. Şehre varana kadar durmuyorsunuz. Kurtuldunuz. Ama her gece rüyanızda bu evi görüyorsunuz. Ve bazen aynaya baktığınızda, omzunuzun üzerinden kömür gözlü bir gölge görüyorsunuz. Gece Yarısı Evi'ni terk ettiniz, ama o sizi terk etti mi?"
+      "title": "Freedom... or not?",
+      "narration": "You run out the gate, lungs burning from the cold air. You don't stop until you reach the town. You survived. But every night you dream of this house. And sometimes, when you look in the mirror, you see a shadow with coal-like eyes over your shoulder. You left the Midnight House, but has it left you?"
     },
     "ending-3": {
-      "title": "Varis",
-      "narration": "Ritüeli gerçekleştirdiniz. Kurbanı verdiniz. Ev sizi kabul etti. Artık yeni Efendi sizsiniz. Damarlarınızda kadim ve karanlık bir güç akıyor. Pencereden gelen yeni misafirlere bakıyorsunuz. 'Hoş geldiniz,' diye fısıldıyorsunuz bir gülümsemeyle. Akşam yemeği servis edildi."
+      "title": "The Heir",
+      "narration": "You performed the ritual. You made the sacrifice. The house has accepted you. You are the new master now. Ancient and dark power flows through your veins. You watch from the window as new guests arrive. 'Welcome,' you whisper with a smile. Dinner is served."
     },
     "ending-4": {
-      "title": "Lanet Kıran",
-      "narration": "Cesaretiniz (ya da aptallığınız) büyüyü bozdu. Kahkaha, korkusuzluk ya da belki de ateş - bir şeyler işe yaradı. Ev tuğla tuğla çökmeye, sabah sisinde erimeye başladı. Az önce köşkün olduğu boş bir arazide duruyorsunuz. Bitti. Lanet kalktı."
+      "title": "Curse Breaker",
+      "narration": "Your courage (or foolishness) broke the spell. Laughter, fearlessness, or maybe fire - something worked. The house began to crumble brick by brick, dissolving into the morning mist. You stand in an empty field, where the manor just stood. It is over. The curse is lifted."
     },
     "ending-5": {
-      "title": "Unutulan",
-      "narration": "Çok iyi saklandınız. Kimse sizi bulamadı. Kimse sizin için gelmedi. Karanlıkta kaldınız, hiç gelmeyen bir kurtuluşu beklediniz. Zamanla adınızı unuttunuz. Güneşin neye benzediğini unuttunuz. Köşedeki bir başka gölgeye dönüştünüz."
+      "title": "The Forgotten",
+      "narration": "You hid too well. No one found you. No one came for you. You stayed in the dark, waiting for a rescue that never came. Over time you forgot your name. You forgot what the sun looks like. You just became another shadow in the corner."
     },
     "ending-6": {
-      "title": "Şeytanla Anlaşma",
-      "narration": "Samuel ile bir anlaşma yaptınız. Özgür, zengin ve başarılısınız. Ama bedeli ağır oldu. Her gölgede ihanet ettiğiniz kişilerin yüzlerini görüyorsunuz. Ve saatiniz geldiğinde Samuel'in borcunu tahsil etmeye geleceğini biliyorsunuz. Ve faizi korkunç olacak."
+      "title": "Deal with the Devil",
+      "narration": "You made a deal with Samuel. You are free, rich, and successful. But the price was heavy. In every shadow you see the faces of those you betrayed. And you know that when your time comes, Samuel will come to collect the debt. And the interest will be terrible."
     }
-  }
+  },
+  "author": "Marcus Vincent"
 }

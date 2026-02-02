@@ -11,6 +11,7 @@ const SETTINGS_KEYS = {
   FONT_SIZE: 'user_font_size',
   HAPTICS_ENABLED: 'user_haptics_enabled',
   HAS_LAUNCHED_BEFORE: 'has_launched_before',
+  HAS_COMPLETED_ONBOARDING: 'has_completed_onboarding',
 } as const;
 
 // Language
@@ -61,4 +62,17 @@ export function hasLaunchedBefore(): boolean {
 
 export function setHasLaunchedBefore(): void {
   storage.set(SETTINGS_KEYS.HAS_LAUNCHED_BEFORE, true);
+}
+
+// Onboarding Completion
+export function hasCompletedOnboarding(): boolean {
+  return storage.getBoolean(SETTINGS_KEYS.HAS_COMPLETED_ONBOARDING) ?? false;
+}
+
+export function setHasCompletedOnboarding(): void {
+  storage.set(SETTINGS_KEYS.HAS_COMPLETED_ONBOARDING, true);
+}
+
+export function resetOnboarding(): void {
+  storage.delete(SETTINGS_KEYS.HAS_COMPLETED_ONBOARDING);
 }

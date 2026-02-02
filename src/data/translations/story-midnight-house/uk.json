@@ -1,416 +1,417 @@
 {
-  "title": "Будинок Опівночі",
-  "description": "Нова робота доглядачем з проживанням у віддаленому маєтку перетворюється на жах, коли ви розкриваєте темні таємниці будинку. Кожне рішення визначає, чи виберетеся ви живим.",
+  "title": "The Midnight House",
+  "description": "A Victorian mansion hides dark secrets. Will you uncover the truth or become just another ghost?",
   "nodes": {
     "node-1": {
-      "title": "Пропозиція роботи",
-      "narration": "Маєток розкинувся на десяти акрах зарослого лісу. Ви прибули цього ранку як новий доглядач з проживанням, найнятий без співбесіди літнім чоловіком на ім'я містер Ешфорд, який ледве глянув на вас. Особняк височіє перед вами своєю вікторіанською архітектурою, облупленою фарбою та темними вікнами, схожими на очі, що стежать за вами. Ключ брязкає в замку. Повітря всередині пахне пилом, старим деревом і чимось солодкуватим, гнилим. У холі записка на столі говорить: «Вечеря о сьомій. Не залишайте свою кімнату після настання темряви. Ешфорд». Зараз лише 3-тя година дня. Телефон не ловить мережу. Зовні сонце починає опускатися за дерева.",
+      "title": "Arrival",
+      "narration": "You stand before the iron gates of the Midnight House. Fog swirls around your ankles, cold and clammy. The letter said to come alone, after dark. 'I know what you did last summer,' the note read in shaky lettering. 'Come to Blackwood Manor if you want to keep it a secret.' The massive house looms against the dark sky, a solitary light flickering in one of the second-floor windows. The gate stands slightly ajar, as if inviting you in... or luring you into a trap.",
       "choices": {
         "choice-1": {
-          "text": "Негайно оглянути особняк у пошуках відповідей"
+          "text": "Enter through the main gate and head for the front door"
         },
         "choice-2": {
-          "text": "Залишитися у своїй кімнаті та чекати на містера Ешфорда"
+          "text": "Walk around the perimeter looking for another entrance"
         }
       }
     },
     "node-2": {
-      "title": "Бібліотека",
-      "narration": "Ви вирішуєте роззирнутися. Перший поверх — це лабіринт затінених коридорів. Ви знаходите бібліотеку, стіни якої заставлені книгами у шкіряних палітурках. Одна книга лежить відкритою на столі: «Історія окультизму в Новій Англії». На полях почерком, схожим на почерк Ешфорда, надряпано: «Судина має бути готова до опівночі». Підлога скрипить над вами. Хтось ходить нагорі, хоча Ешфорд сказав, що він буде у своєму кабінеті у східному крилі. Звук важкий, волокучий, не схожий на кроки людини.",
+      "title": "Front Entrance",
+      "narration": "Gravel crunches under your shoes as you walk up the path. The wind moans through the twisted branches of old oak trees. You climb the stone steps to the massive oak door. A gargoyle-shaped knocker stares at you with empty eyes. You reach out to knock, but the door creaks open on its own, revealing a dark vestibule. The smell of old paper and withered flowers wafts out.",
       "choices": {
         "choice-3": {
-          "text": "Піднятися нагору, щоб з'ясувати джерело шуму"
+          "text": "Step into the hall and call out to the host"
         },
         "choice-4": {
-          "text": "Сховатися в бібліотеці та спостерігати"
+          "text": "Stay on the porch and wait for someone to appear"
         }
       }
     },
     "node-3": {
-      "title": "Очікування",
-      "narration": "Ви дотримуєтесь інструкцій і залишаєтесь у своїй кімнаті. Вона спартанська: ліжко, стілець, шафа. Коли сутінки густішають, ви чуєте дряпання в стінах. Не миші. Щось більше. Воно ритмічне. Шкряб. Пауза. Шкряб. Пауза. Потім шепіт просто за узголів'ям ліжка: «Він привів ще одного». Ви схоплюєтесь. Стіни суцільні. Шепіт продовжується: «Не їж вечерю. М'ясо... це ми».",
+      "title": "Garden Shadows",
+      "narration": "You decide not to go straight to the front door. Instead, you creep through the tall grass to the side of the house. It is dark here, moonlight barely piercing the thick clouds. You stumble upon an old greenhouse, its glass broken and grimy. Inside, strange, unnatural shadows of plants seem to be moving. Nearby is a servants' entrance that looks less imposing than the main one.",
       "choices": {
         "choice-5": {
-          "text": "Оглянути стіни на наявність потаємних ходів"
+          "text": "Try the servants' door"
         },
         "choice-6": {
-          "text": "Втекти з кімнати та покинути будинок"
+          "text": "Look inside the greenhouse"
         }
       }
     },
     "node-4": {
-      "title": "Повзучий Жах",
-      "narration": "Ви піднімаєтеся сходами. Звук волочіння стає гучнішим, супроводжуваний вологим хрипом. У кінці коридору ви бачите фігуру. Це не Ешфорд. Це гуманоїд, але його кінцівки занадто довгі, суглоби вивернуті назад. На ньому лахміття вікторіанського одягу. Він вас не бачить. Він тягне великий мішок, який залишає мокрий слід на килимі. Він зникає в кімнаті ліворуч.",
+      "title": "Grand Hall",
+      "narration": "You step inside. 'Hello? Is anyone there?' Your voice echoes off the high walls. The door slams shut behind you. You pull the handle - locked. You are trapped. The only light comes from a chandelier above, flickering weakly. Before you is a wide staircase leading up, and dark corridors to the left and right.",
       "choices": {
         "choice-7": {
-          "text": "Тихо піти за істотою"
+          "text": "Climb the stairs to the first floor"
         },
         "choice-8": {
-          "text": "Відступити на перший поверх і пошукати зброю"
+          "text": "Explore the left corridor"
         }
       }
     },
     "node-5": {
-      "title": "Прихований Спостерігач",
-      "narration": "Ви ховаєтесь за важким оксамитовим кріслом. Двері бібліотеки зі скрипом відчиняються. Входить містер Ешфорд. У руці він тримає ніж м'ясника. Він виглядає молодшим, ніж вранці. Його шкіра рум'яна, рухи плавні. Він підходить до столу, закриває книгу і говорить у порожню кімнату: «Я знаю, що ти тут, новий доглядачу. Будинок чує твій страх».",
+      "title": "Waiting",
+      "narration": "You decide to wait. Minutes pass and feel like hours. The cold seeps into your bones. Suddenly, you hear a whisper close to your ear: 'Why do you make us wait?' You spin around, but there is no one. When you look back at the door, a tall figure in a dark coat stands in the doorway. 'You're late,' the figure says in a voice like grinding stones. 'Dinner is served.'",
       "choices": {
         "choice-9": {
-          "text": "Вийти та спробувати домовитися з ним"
+          "text": "Follow the figure inside"
         },
         "choice-10": {
-          "text": "Спробувати непомітно прослизнути повз нього до дверей"
+          "text": "Push the figure and try to run"
         }
       }
     },
     "node-6": {
-      "title": "Голос у Стіні",
-      "narration": "Ви простукуєте стіни. Одна панель звучить глухо. Ви підчіплюєте її нігтями, і вона з клацанням відчиняється, відкриваючи вузький прохід між стінами. Повітря тут затхле. Шепіт стає гучнішим: «Сюди. Швидко. До того, як годинник проб'є шосту».",
+      "title": "Kitchen",
+      "narration": "The servants' door opens with a groan of protest. You find yourself in a vast, abandoned kitchen. Rows of copper pots gleam dimly in the moonlight. On a large chopping table sits a fresh red apple, looking oddly out of place amidst the dust and cobwebs. From deeper in the house come the sounds of soft footsteps.",
       "choices": {
         "choice-11": {
-          "text": "Увійти в прохід"
+          "text": "Hide in the pantry"
         },
         "choice-12": {
-          "text": "Ігнорувати голос і забарикадувати двері"
+          "text": "Grab a knife from the table and move towards the sound"
         }
       }
     },
     "node-7": {
-      "title": "Спроба Втечі",
-      "narration": "Ви відчиняєте двері. Коридор порожній, але всі двері тепер відчинені. З кожної виходить слабке зеленувате світіння. Ви біжите до сходів. Вхідні двері внизу. Вони здаються нескінченно далекими. Сходи починають витягуватися, сходинки розтягуються, як іриска. Будинок не хоче вас відпускати.",
+      "title": "Greenhouse",
+      "narration": "You wipe the grimy glass and peer inside. The plants within are... moving, though there is no wind. These are no ordinary flowers; their vines twist like snakes, and the buds look like tiny mouths. In the center of the greenhouse is a statue of a woman that seems to be looking right at you. Suddenly, one of the vines smashes through the glass and grabs your arm!",
       "choices": {
         "choice-13": {
-          "text": "Стрибнути через поруччя на поверх нижче"
+          "text": "Try to break free and run for the servants' door"
         },
         "choice-14": {
-          "text": "Спробувати втримати рівновагу і спуститися бігом"
+          "text": "Use a lighter to scare the plant"
         }
       }
     },
     "node-8": {
-      "title": "Кімната Жертвоприношень",
-      "narration": "Ви зазираєте в кімнату. Істота вивалює вміст мішка в центр намальованої на підлозі пентаграми. Це кістки. Людські кістки. Вона починає наспівувати мовою, від якої у вас болять зуби. Кімната пульсує темною енергією. У кутку ви бачите люк, прочинений на кілька дюймів.",
+      "title": "First Floor",
+      "narration": "You climb the creaking stairs. At the top is a long hallway with many doors. The room you saw the light from outside is at the very end. A soft music box melody is drifting from a room on the right.",
       "choices": {
         "choice-15": {
-          "text": "Прокрастися до люка"
+          "text": "Go to the lit room at the end of the hall"
         },
         "choice-16": {
-          "text": "Атакувати істоту, поки вона відволіклася"
+          "text": "Check the room with the music"
         }
       }
     },
     "node-9": {
-      "title": "Кухня",
-      "narration": "Ви тихо спускаєтеся назад. Кухня знаходиться поруч з бібліотекою. Ви хапаєте найбільший ніж, який можете знайти. На стільниці готується вечеря: сире м'ясо, яке смикається саме по собі. Радіо вмикається, граючи джаз 1920-х років. Статичний шум перериває музику: «Не їжте м'ясо», — говорить ваш власний голос з радіо.",
+      "title": "Library",
+      "narration": "The left corridor leads you into a massive library. Floor-to-ceiling shelves are packed with old books. Embers still glow in the fireplace, though no one is there. On a table lies an open diary. You read the last entry: 'They have come for me. I can hide no longer. The secret is in the portrait.'",
       "choices": {
         "choice-17": {
-          "text": "Розбити радіо і вибігти"
+          "text": "Examine the portrait above the fireplace"
         },
         "choice-18": {
-          "text": "Обішукати кухню на предмет ключів від чорного ходу"
+          "text": "Read the previous pages of the diary"
         }
       }
     },
     "node-10": {
-      "title": "Конфронтація",
-      "narration": "Ви виходите з піднятими руками. «Містере Ешфорд, я йду». Він сміється, звук схожий на тріск скла. «Ніхто не йде. Контракт скріплений кров'ю. Твоєю кров'ю». Він робить випад. Він неприродно швидкий.",
+      "title": "Dining Room",
+      "narration": "The figure leads you into the dining room. A long table is set for one. 'Sit,' the host commands. You notice there is no food on the plate, but an old, yellowed photograph... of you. Taken yesterday. 'We have been watching you,' he says.",
       "choices": {
         "choice-19": {
-          "text": "Ухилитися вліво і штовхнути його"
+          "text": "Demand an explanation"
         },
         "choice-20": {
-          "text": "Схопити важку лампу, щоб захиститися"
+          "text": "Flip the table and create chaos"
         }
       }
     },
     "node-11": {
-      "title": "Стелс",
-      "narration": "Ви повзете до дверей. Ешфорд повертається спиною, наспівуючи. Ви майже біля мети. Мостина під вами кричить, як поранена тварина. Ешфорд завмирає. «Миші», — шепоче він. «Або щури?» Він повертається повільно.",
+      "title": "Escape",
+      "narration": "You push the figure. It feels hard and cold as wood. The figure doesn't fall, but you manage to slip past. You sprint back to the gate, but it is locked. The bars are too high to climb. You hear heavy footsteps behind you.",
       "choices": {
         "choice-21": {
-          "text": "Рвонути до дверей"
+          "text": "Hide in the bushes"
         },
         "choice-22": {
-          "text": "Завмерти і сподіватися, що він не помітить вас у тіні"
+          "text": "Run to the greenhouse"
         }
       }
     },
     "node-12": {
-      "title": "Тунелі",
-      "narration": "Ви протискуєтесь у прохід. Він вузький, повний павутиння. Голос веде вас: «Вниз. У підвал. Серце будинку там». Крізь щілини в дереві ви бачите, як Ешфорд входить у вашу кімнату з сокирою. Він рубає ваше ліжко, думаючи, що ви спите.",
+      "title": "Pantry",
+      "narration": "You squeeze yourself into a narrow pantry smelling of mold. Through a crack in the door, you see a woman in a Victorian maid's uniform enter the kitchen. She is humming a creepy lullaby. She picks up the apple, and her face changes - her jaw drops unnaturally low, revealing rows of sharp teeth.",
       "choices": {
         "choice-23": {
-          "text": "Спуститися в підвал"
+          "text": "Hold your breath and hope she leaves"
         },
         "choice-24": {
-          "text": "Спробувати знайти вихід назовні через стіни"
+          "text": "Jump out and attack while she is distracted"
         }
       }
     },
     "node-13": {
-      "title": "Барикада",
-      "narration": "Ви присуваєте шафу до дверей. Удари з іншого боку стрясають кімнату. «Відчиняй, порося!» — кричить голос Ешфорда, але він спотворений, демонічний. Двері починають тріскатися. Вікно забите зовні.",
+      "title": "Armed",
+      "narration": "Clutching the rusty knife tight, you creep towards the sound. It leads you to a servants' corridor. Ahead, you see light spilling from under a door. Voices are arguing inside. 'He won't come,' one says. 'He must,' another replies. 'The ritual requires his blood.'",
       "choices": {
         "choice-25": {
-          "text": "Спробувати виламати дошки на вікні"
+          "text": "Burst into the room"
         },
         "choice-26": {
-          "text": "Приготуватися битися стільцем"
+          "text": "Keep listening"
         }
       }
     },
     "node-14": {
-      "title": "Стрибок",
-      "narration": "Ви стрибаєте. Це довге падіння. Ви приземляєтеся на килим у холі, підвернувши щиколотку. Біль сліпучий. Вхідні двері просто перед вами. Ви повзете до них. Ручка крижана. Вона не повертається. Замкової щілини немає.",
+      "title": "Fire",
+      "narration": "You flick the lighter. The flame flares up and the plant recoils with a shriek. The fire catches onto nearby dry leaves. The whole greenhouse starts filling with smoke. A door leading to the house opens and someone runs out coughing.",
       "choices": {
         "choice-27": {
-          "text": "Вистрілити в замок (якщо є зброя) або розбити скло"
+          "text": "Take advantage of the confusion and enter the house"
         },
         "choice-28": {
-          "text": "Сховатися в шафі у передпокої"
+          "text": "Help the person out"
         }
       }
     },
     "node-15": {
-      "title": "Нескінченні Сходи",
-      "narration": "Ви біжите, але сходинки рухаються вгору з тією ж швидкістю. Ви біжите на місці. Зверху істота з коридору перехиляється через поруччя, її слина капає поруч з вами. Вона посміхається, показуючи ряди голчастих зубів.",
+      "title": "Master's Room",
+      "narration": "You reach the end of the hall and push the door open. The room is lit by candles. In the center stands an old man. 'I have been waiting for you, Anton,' he says (though that is not your name, or is it...?). 'It is time to pay the debt.'",
       "choices": {
         "choice-29": {
-          "text": "Здатися і дозволити їй забрати вас"
+          "text": "Say he has the wrong person"
         },
         "choice-30": {
-          "text": "Стрибнути через поруччя у відчайдушній спробі"
+          "text": "Ask what debt he is talking about"
         }
       }
     },
     "node-16": {
-      "title": "Люк",
-      "narration": "Ви ковзаєте в люк. Це жолоб. Ви скочуєтесь у темряву, приземляючись на купу чогось м'якого. Гнилий одяг. Ви в підвалі. У центрі кімнати б'ється гігантське серце з плоті та трубок, підвішене до стелі. Воно качає чорну рідину в труби, що ведуть нагору.",
+      "title": "Nursery",
+      "narration": "The source of the music is an old nursery. In the center of the room is a crib rocking by itself. A music box on the shelf plays 'Baa, Baa, Black Sheep', but in a minor key. You approach the crib and look inside. It is empty, save for a mirror lying at the bottom.",
       "choices": {
         "choice-31": {
-          "text": "Знищити серце"
+          "text": "Pick up the mirror"
         },
         "choice-32": {
-          "text": "Шукати інший вихід"
+          "text": "Stop the crib"
         }
       }
     },
     "node-17": {
-      "title": "Розмова з Мертвими",
-      "narration": "Ви притискаєте руки до стіни і звертаєтесь прямо до присутності за нею. «Семюель? Якщо це твоє ім'я, я хочу зрозуміти, що з тобою сталося». Дряпання припиняється. Тиша. Потім голос, молодий і відчайдушний, доноситься крізь дерево, наче з величезної відстані: «Він убив її. Він сказав, що це для її ж блага, але він убивав її повільно. Він убивав мене повільно. Змусив мене дивитися, як я вмираю по шматках». Ваш голос тремтить, коли ви запитуєте: «Чого ти хочеш?» Відповідь приходить негайно: «Я хочу, щоб він відчув те, що відчував я. Кожну мить. Кожен день. Поки він не зрозуміє, що смерть — це милосердя». Ви розумієте з тонучою впевненістю, що Семюель не в пастці. Він контролює. Весь будинок тепер його: продовження його волі, його болю, його жаги помсти. «Приведи мені когось», — шепоче Семюель. «Приведи когось нового. Когось, у кому життєва сила горить яскраво. Якщо зробиш це, він дозволить тобі піти. Ти отримаєш свободу». Ваші руки опускаються зі стіни. Вам запропонували угоду. Зрадити когось іншого або залишитися в пастці самому.",
+      "title": "Conversation with the Dead",
+      "narration": "You press your hands to the wall and speak directly to the presence behind it. 'Samuel? If that is your name, I want to understand what happened to you.' The scratching stops. Silence. Then a voice comes, young and desperate, sounding as if through wood from very far away: 'He killed her. Said it was for her own good, but he killed her slowly. Killed me slowly too. Made me watch myself die in pieces.' Your voice trembles as you ask: 'What do you want?' The answer comes immediately: 'I want him to feel what I felt. Every moment. Every day. Until he understands that death is a mercy.' You realize with a sinking feeling that Samuel isn't trapped. He is in control. The whole house is his now: an extension of his will, his pain, his need for punishment. 'Bring me someone,' Samuel whispers. 'Bring me someone new. Someone whose life burns bright. If you do, he will let you go. You can have your freedom.' Your hands drop from the wall. You have been offered a pact. Betray another or remain trapped yourself.",
       "choices": {
         "choice-33": {
-          "text": "Відмовитися від угоди та спланувати інший шлях втечі"
+          "text": "Refuse the pact and find another way out"
         },
         "choice-34": {
-          "text": "Погодитися на умови Семюеля, поки шукаєте жертв"
+          "text": "Accept Samuel's terms and hunt for a victim"
         }
       }
     },
     "node-18": {
-      "title": "Відчайдушний Ривок",
-      "narration": "Ви кидаєтесь до дверей, ігноруючи біль у нозі. Ешфорд з'являється нагорі сходів, його обличчя спотворене люттю. «Невдячний!» — реве він. Він жбурляє сокиру. Вона летить, обертаючись, до вашої голови.",
+      "title": "Secret Passage",
+      "narration": "You flip through the diary backwards. The pages are filled with mad drawings of eyes and doors. A note catches your eye: 'Behind the fireplace is a passage. Must press the cracked brick.' You look at the fireplace.",
       "choices": {
         "choice-35": {
-          "text": "Пригнутися"
+          "text": "Search for the brick"
         },
         "choice-36": {
-          "text": "Спробувати зловити її (божевілля)"
+          "text": "Ignore it and look for another exit from the library"
         }
       }
     },
     "node-19": {
-      "title": "Серце Будинку",
-      "narration": "Ви знаходите гострий шматок металу на підлозі. Ви підходите до серця. Воно б'ється швидше, відчуваючи загрозу. Будинок здригається. Штукатурка падає зі стелі. Ви встромляєте метал в орган. Лунає крик, не людський, а самої будівлі.",
+      "title": "The Truth",
+      "narration": "The host laughs, a dry, cracking sound. 'Explanation? You are not here to ask questions. You are here to be part of the collection.' The walls begin to shift, revealing niches containing the preserved bodies of previous guests.",
       "choices": {
         "choice-37": {
-          "text": "Продовжувати завдавати ударів"
+          "text": "Fight for your life"
         },
         "choice-38": {
-          "text": "Тікати, поки будинок помирає"
+          "text": "Beg for mercy"
         }
       }
     },
     "node-20": {
-      "title": "Ритуал",
-      "narration": "Ви знаходите книгу заклинань поруч із серцем. Є ритуал вигнання. Він вимагає жертви. «Плоть від плоті», — йдеться в ньому. Ви дивитеся на свою руку.",
+      "title": "Chaos",
+      "narration": "You flip the heavy oak table with all your might. Crockery flies onto the floor with a deafening crash. The host hisses like an angry cat and retreats into the shadows. 'Fool! You broke the urn!' he screams. From the shards of a broken vase, gray smoke rises.",
       "choices": {
         "choice-39": {
-          "text": "Пожертвувати пальцем, щоб завершити ритуал"
+          "text": "Run for the exit while he is distracted"
         },
         "choice-40": {
-          "text": "Відмовитися і шукати інший шлях"
+          "text": "Attack the host"
         }
       }
     },
     "node-21": {
-      "title": "Ключі",
-      "narration": "Ви обшукуєте шухляди. Ви знаходите іржавий ключ з міткою «Підвал». Також є дробовик під прилавком з двома набоями.",
+      "title": "Garden Maze",
+      "narration": "The bushes turn out to be part of an old maze. You dive in, branches scratching your face. Footsteps boom behind you, then fall silent. You are lost. Only high hedges all around.",
       "choices": {
         "choice-41": {
-          "text": "Взяти дробовик і піти нагору за Ешфордом"
+          "text": "Follow the right-hand rule"
         },
         "choice-42": {
-          "text": "Взяти ключ і піти в підвал"
+          "text": "Try to break through the hedge"
         }
       }
     },
     "node-22": {
-      "title": "Скло",
-      "narration": "Ви розбиваєте скло поруч з дверима. Зовні ніч — суцільна чорна стіна. Нічого не видно. Ви просовуєте руку, щоб відкрити двері зсередини. Щось холодне хапає вас за зап'ястя.",
+      "title": "Greenhouse Ghost",
+      "narration": "You run to the greenhouse, but the door is locked. Inside, you see the figure of a girl banging her fists on the glass. 'Don't come in!' she screams soundlessly. But the pursuer's steps are very close now.",
       "choices": {
         "choice-43": {
-          "text": "Висмикнути руку назад"
+          "text": "Smash the glass and enter"
         },
         "choice-44": {
-          "text": "Вистрілити в темряву"
+          "text": "Hide behind the greenhouse"
         }
       }
     },
     "node-23": {
-      "title": "Шафа",
-      "narration": "Ви ховаєтесь серед пальто. Вони пахнуть нафталіном і старим потом. Кроки Ешфорда проходять повз. Він наспівує колискову. Він зупиняється просто перед шафою. «Я чую, як б'ється твоє серце», — шепоче він.",
+      "title": "Discovery",
+      "narration": "The maid leaves, muttering about 'fresh meat'. You exhale. The way to the kitchen is clear now, but the door she exited through leads to the cellar.",
       "choices": {
         "choice-45": {
-          "text": "Вирватися назовні та атакувати"
+          "text": "Explore the cellar"
         },
         "choice-46": {
-          "text": "Затримати подих і молитися"
+          "text": "Go up into the house through the kitchen"
         }
       }
     },
     "node-24": {
-      "title": "Битва",
-      "narration": "Ви ухиляєтесь від його удару. Він сильний, неприродно сильний. Ви штовхаєте його, і він натикається на стіну, але миттєво відскакує. Його очі повністю чорні. «Вона обіцяла мені вічність!» — кричить він.",
+      "title": "Confrontation",
+      "narration": "You jump out with a yell. The creature screams with an inhuman voice and lunges at you. You manage to strike it with something heavy, and it turns to dust. But the noise has definitely attracted attention.",
       "choices": {
         "choice-47": {
-          "text": "Використати лампу, щоб вдарити його по голові"
+          "text": "Run"
         },
         "choice-48": {
-          "text": "Тікати до вікна"
+          "text": "Barricade yourself"
         }
       }
     },
     "node-25": {
-      "title": "Вікно",
-      "narration": "Ви вириваєте дошки. Скло розбивається. Ви вилізаєте на дах ганку. Холодне нічне повітря б'є в обличчя. Ліс попереду здається нескінченним, але це вихід.",
+      "title": "The Ritual",
+      "narration": "You burst into the room. Five hooded figures stand around a pentagram. They turn their heads towards you. 'A volunteer,' the leader says. 'How kind.'",
       "choices": {
         "choice-49": {
-          "text": "Зістрибнути і бігти в ліс"
+          "text": "Try to disrupt the ritual"
         },
         "choice-50": {
-          "text": "Забратися на дах, щоб сховатися"
+          "text": "Surrender"
         }
       }
     },
     "node-26": {
-      "title": "Смерть Ешфорда",
-      "narration": "Ви б'єте його лампою. Череп хрустить. Він падає. Але він не помирає. Його тіло починає конвульсувати і змінюватися. Кістки ламаються і перебудовуються. Він стає чимось іншим.",
+      "title": "Secret Knowledge",
+      "narration": "You listen. They are talking about how the house feeds on fear. The only way to defeat it is not to be afraid. 'If he laughs, the spell breaks,' one voice says.",
       "choices": {
         "choice-51": {
-          "text": "Добити його, поки він трансформується"
+          "text": "Walk in and tell a joke"
         },
         "choice-52": {
-          "text": "Тікати, поки він недієздатний"
+          "text": "Use this knowledge later"
         }
       }
     },
     "node-27": {
-      "title": "Ліс",
-      "narration": "Ви біжите між деревами. Гілки дряпають обличчя. Ви чуєте виття позаду. Не вовка. Це будинок кричить, втративши свою здобич. Ви бачите вогні дороги попереду.",
+      "title": "Into the House",
+      "narration": "Taking advantage of the panic, you slip through the open door. You find yourself in a corridor with paintings whose eyes follow you.",
       "choices": {
         "choice-53": {
-          "text": "Бігти до дороги"
+          "text": "Run deeper into the house"
         },
         "choice-54": {
-          "text": "Сховатися в канаві та чекати на машину"
+          "text": "Hide behind a curtain"
         }
       }
     },
     "node-28": {
-      "title": "Дах",
-      "narration": "Ви деретеся на пік даху. Звідси видно весь маєток. Він живий. Земля пульсує. Дерева — це пальці, що тягнуться до неба. Ешфорд (або те, чим він став) вилазить з вікна внизу.",
+      "title": "Rescue",
+      "narration": "You grab the person's hand and pull them out. It's a young boy, terrified. 'Thank you,' he gasps. 'I know where the exit is. A secret tunnel.'",
       "choices": {
         "choice-55": {
-          "text": "Скинути на нього черепицю"
+          "text": "Trust him"
         },
         "choice-56": {
-          "text": "Спробувати перестрибнути на найближче дерево"
+          "text": "Don't trust him and go alone"
         }
       }
     },
     "node-29": {
-      "title": "Підвал",
-      "narration": "Ви знаходите серце. Воно величезне, заповнює кімнату. Ви розумієте, що Ешфорд був лише маріонеткою. Будинок — справжній монстр. І він голодний.",
+      "title": "Decision",
+      "narration": "You refuse the pact firmly. 'I won't become like him. And I won't be your puppet.' Samuel screams in rage, the walls shaking. 'Then stay here forever!' The floor beneath you collapses.",
       "choices": {
         "choice-57": {
-          "text": "Підпалити підвал"
+          "text": "Try to grab the ledge"
         },
         "choice-58": {
-          "text": "Спробувати спілкуватися з будинком"
+          "text": "Accept the fall"
         }
       }
     },
     "node-30": {
-      "title": "Вогонь",
-      "narration": "Вогонь поширюється швидко. Стародавнє дерево спалахує як папір. Крик будинку оглушливий. Ви біжите вгору сходами, крізь дим. Вхідні двері плавляться.",
+      "title": "New Master",
+      "narration": "You agree. 'Wise choice,' Samuel whispers. The door opens. Standing in the hallway is the same boy you saved from the greenhouse (or could have). He looks at you hopefully. You grip the knife handle in your pocket...",
       "choices": {
         "choice-59": {
-          "text": "Прорватися через двері"
+          "text": "Fulfill your end of the bargain"
         },
         "choice-60": {
-          "text": "Знайти вікно на першому поверсі"
+          "text": "Change your mind at the last second and attack the 'presence'"
         }
       }
     },
     "node-31": {
-      "title": "Шосе",
-      "narration": "Ви вибігаєте на асфальт. Світло фар засліплює вас. Вантажівка сигналить і гальмує юзом. Водій дивиться на вас широко розкритими очима. Ви в крові, одяг порваний. «Допоможіть», — хрипите ви.",
+      "title": "The Mirror",
+      "narration": "You pick up the mirror. In the reflection you see not yourself, but a ghost looking over your shoulder. He smiles and puts a finger to his lips.",
       "choices": {
         "choice-61": {
-          "text": "Сісти у вантажівку"
+          "text": "Smash the mirror"
         },
         "choice-62": {
-          "text": "Попросити викликати поліцію"
+          "text": "Ask who he is"
         }
       }
     },
     "node-32": {
-      "title": "Останній Вибір",
-      "narration": "Будинок руйнується позаду вас. Ешфорд мертвий. Семюель вільний, але якою ціною? Ви стоїте на згарищі, коли сходить сонце. Жах закінчився, але шрами залишаться назавжди.",
+      "title": "The Crib",
+      "narration": "You stop the crib with your hand. The music stops abruptly. Silence presses on your ears. Suddenly, the crib begins to shake with savage force, and a loud, piercing baby's cry tears through the air.",
       "choices": {
         "choice-63": {
-          "text": "Піти геть і ніколи не озиратися"
+          "text": "Run from the room"
         },
         "choice-64": {
-          "text": "Шукати останки, щоб поховати їх належним чином"
+          "text": "Try to soothe the 'baby'"
         }
       }
     }
   },
   "endings": {
     "ending-1": {
-      "title": "Жертвоприношення",
-      "narration": "Ви вирішили поступитися вимогам Семюеля. Ваше тіло залишається в пастці будинку, але душа звільняється від мук минулого. Місцеві жителі досі говорять про доглядача, який зник без сліду."
+      "title": "Eternal Guest",
+      "narration": "You couldn't escape. The house swallowed you, just like so many others. You are now part of the collection, another ghost wandering the halls and scaring new guests. Maybe next time you'll be luckier... but for you, there is no next time."
     },
     "ending-2": {
-      "title": "Одержимий",
-      "narration": "Ви не змогли втекти. Будинок поглинув вас. Тепер ви — новий Ешфорд, який чекає наступного доглядача, щоб продовжити цикл. Ви стали частиною голоду."
+      "title": "Freedom... or not?",
+      "narration": "You run out the gate, lungs burning from the cold air. You don't stop until you reach the town. You survived. But every night you dream of this house. And sometimes, when you look in the mirror, you see a shadow with coal-like eyes over your shoulder. You left the Midnight House, but has it left you?"
     },
     "ending-3": {
-      "title": "Той, що вижив",
-      "narration": "Ви вибралися. Поліція знайшла тільки руїни після пожежі. Вони вам не повірили, але це не важливо. Ви живі. Але щоночі о 3-й годині ранку ви прокидаєтеся від запаху диму та старого дерева."
+      "title": "The Heir",
+      "narration": "You performed the ritual. You made the sacrifice. The house has accepted you. You are the new master now. Ancient and dark power flows through your veins. You watch from the window as new guests arrive. 'Welcome,' you whisper with a smile. Dinner is served."
     },
     "ending-4": {
-      "title": "Новий Господар",
-      "narration": "Ви вбили Ешфорда і зайняли його місце. Сила будинку тепер ваша. Ви відчуваєте, як вона тече по венах. Це п'янить. Навіщо йти, коли можна бути богом?"
+      "title": "Curse Breaker",
+      "narration": "Your courage (or foolishness) broke the spell. Laughter, fearlessness, or maybe fire - something worked. The house began to crumble brick by brick, dissolving into the morning mist. You stand in an empty field, where the manor just stood. It is over. The curse is lifted."
     },
     "ending-5": {
-      "title": "Зламаний",
-      "narration": "Ви втекли, але розум залишився там. Ви проводите свої дні в лікарні, кричачи про серця, що б'ються, і стіни, які шепочуть. Ніхто не слухає. Але іноді лікарі знаходять деревні тріски під вашими нігтями."
+      "title": "The Forgotten",
+      "narration": "You hid too well. No one found you. No one came for you. You stayed in the dark, waiting for a rescue that never came. Over time you forgot your name. You forgot what the sun looks like. You just became another shadow in the corner."
     },
     "ending-6": {
-      "title": "Визволитель",
-      "narration": "Ви спалили будинок дотла. Прокляття знято. Душі, спіймані в пастку, вільні. Коли ви йдете, ви відчуваєте легкий вітерець, схожий на шепіт вдячності. Ви зробили те, що ніхто інший не зміг."
+      "title": "Deal with the Devil",
+      "narration": "You made a deal with Samuel. You are free, rich, and successful. But the price was heavy. In every shadow you see the faces of those you betrayed. And you know that when your time comes, Samuel will come to collect the debt. And the interest will be terrible."
     }
-  }
+  },
+  "author": "Marcus Vincent"
 }
