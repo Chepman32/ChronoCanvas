@@ -3324,3 +3324,421 @@ A renowned art curator is found dead in a locked gallery on the eve of the bigge
 
 ---
 
+
+---
+## cover-story-glass-key-protocol.jpg
+Story: The Glass Key Protocol
+Folder: src/assets/images/covers/
+
+Prompt:
+A noir detective mystery cover art. Rain-slicked city streets at night, neon reflections on wet pavement, a silhouetted detective figure in a trench coat, vintage 1940s aesthetic, dramatic shadows, foggy atmosphere, cinematic composition, high contrast black and white with subtle blue tones, 800x600px
+
+
+---
+## story-glass-key-protocol-node-1.jpg
+Story: The Glass Key Protocol
+Node: node-1
+Folder: src/assets/images/nodes/
+
+Prompt:
+Rain on Glass. You stand under the awning of the Glassward Hotel while rain needles the street and turns neon into ... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-2.jpg
+Story: The Glass Key Protocol
+Node: node-2
+Folder: src/assets/images/nodes/
+
+Prompt:
+Back-of-House Whispers. The service corridor smells of bleach, wet wool, and fried oil seeping from the kitchen vents. Your ... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-3.jpg
+Story: The Glass Key Protocol
+Node: node-3
+Folder: src/assets/images/nodes/
+
+Prompt:
+The Lobby Performance. The lobby is a stage built from marble and money. A chandelier throws prismatic shards across the fl... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-4.jpg
+Story: The Glass Key Protocol
+Node: node-4
+Folder: src/assets/images/nodes/
+
+Prompt:
+Keypad Breathing. Up close, the keypad closet looks newer than the rest of the corridor, its paint too fresh, its scre... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-5.jpg
+Story: The Glass Key Protocol
+Node: node-5
+Folder: src/assets/images/nodes/
+
+Prompt:
+Stairwell to Silence. The staff stairwell is narrow and loud with its own emptiness. Each step echoes like a confession. T... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-6.jpg
+Story: The Glass Key Protocol
+Node: node-6
+Folder: src/assets/images/nodes/
+
+Prompt:
+The Silence That Talks. You press play. At first it is just ambient hotel noise: distant laughter, an elevator chime, the so... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-7.jpg
+Story: The Glass Key Protocol
+Node: node-7
+Folder: src/assets/images/nodes/
+
+Prompt:
+Access, Controlled. You demand names, times, and keys, and the lobby temperature seems to drop. The concierge hands you ... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-8.jpg
+Story: The Glass Key Protocol
+Node: node-8
+Folder: src/assets/images/nodes/
+
+Prompt:
+A Room That Watches Back. The keycard opens a mid-level suite with blackout curtains and air that smells faintly of antiseptic... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-9.jpg
+Story: The Glass Key Protocol
+Node: node-9
+Folder: src/assets/images/nodes/
+
+Prompt:
+Rooftop Drift. The roof hits you with wind and wet tar. Footprints in rooftop grime stop at an open maintenance hat... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-10.jpg
+Story: The Glass Key Protocol
+Node: node-10
+Folder: src/assets/images/nodes/
+
+Prompt:
+The Guard's Tells. The security guard's jaw tightens when you mention the stuttering display. In the elevator, mirrored... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-11.jpg
+Story: The Glass Key Protocol
+Node: node-11
+Folder: src/assets/images/nodes/
+
+Prompt:
+Penthouse Threshold. The penthouse corridor swallows footsteps in thick carpet. Two doors stand at the end: one marked by... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-12.jpg
+Story: The Glass Key Protocol
+Node: node-12
+Folder: src/assets/images/nodes/
+
+Prompt:
+GK-PRIVATE. You connect to GK-PRIVATE. It requires no password, which is its own arrogance. A blank page loads a... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-13.jpg
+Story: The Glass Key Protocol
+Node: node-13
+Folder: src/assets/images/nodes/
+
+Prompt:
+The Locked Room. Inside the marked suite, Everett Caul lies on the carpet in a posture that looks almost composed. Th... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-14.jpg
+Story: The Glass Key Protocol
+Node: node-14
+Folder: src/assets/images/nodes/
+
+Prompt:
+Second System. You pop the elevator maintenance panel and find a slim device taped inside, wired to the button circ... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-15.jpg
+Story: The Glass Key Protocol
+Node: node-15
+Folder: src/assets/images/nodes/
+
+Prompt:
+The Conduit Route. You follow a matte black cable through a maintenance shaft and into a crawlspace parallel to the pen... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-16.jpg
+Story: The Glass Key Protocol
+Node: node-16
+Folder: src/assets/images/nodes/
+
+Prompt:
+Room 1407. Room 1407 is cold like it is preserving something. A wall is covered in printed surveillance stills.... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-17.jpg
+Story: The Glass Key Protocol
+Node: node-17
+Folder: src/assets/images/nodes/
+
+Prompt:
+Identity Required. You spoof your device identity and pull a file list: /GK/KEYS, /GK/CUTS, /GK/ROOMS, /GK/HEART. You e... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-18.jpg
+Story: The Glass Key Protocol
+Node: node-18
+Folder: src/assets/images/nodes/
+
+Prompt:
+Tempered Truth. The glass sliver suggests a small screen, tinted like privacy glass. Beneath Caul's jaw you spot a p... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-19.jpg
+Story: The Glass Key Protocol
+Node: node-19
+Folder: src/assets/images/nodes/
+
+Prompt:
+Lockwork Lies. The key teeth show micro-scratches consistent with rapid duplication. The lock cylinder holds a smea... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-20.jpg
+Story: The Glass Key Protocol
+Node: node-20
+Folder: src/assets/images/nodes/
+
+Prompt:
+The Missing Watch. Caul's missing watch is not vanity; it is data. A warm charging puck suggests it was removed recentl... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-21.jpg
+Story: The Glass Key Protocol
+Node: node-21
+Folder: src/assets/images/nodes/
+
+Prompt:
+Clinic Smell in a Hotel. The hotel's incident log shows a private nurse visit authorized by a vendor badge that does not exis... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-22.jpg
+Story: The Glass Key Protocol
+Node: node-22
+Folder: src/assets/images/nodes/
+
+Prompt:
+A Trap in the Dark. You set a subtle trap and wait. The lock turns and a gloved hand slips inside, wrist showing a thin ... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-23.jpg
+Story: The Glass Key Protocol
+Node: node-23
+Folder: src/assets/images/nodes/
+
+Prompt:
+Name at Knife-Point. A figure with hotel clothing that sits too crisp steps in, showing a small remote. Your phone flashe... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-24.jpg
+Story: The Glass Key Protocol
+Node: node-24
+Folder: src/assets/images/nodes/
+
+Prompt:
+High Stakes: Heart Data. The watch export reveals heart rate spikes and a note field that should not exist: 'Stimulus deliver... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-25.jpg
+Story: The Glass Key Protocol
+Node: node-25
+Folder: src/assets/images/nodes/
+
+Prompt:
+High Stakes: Linen Cart. Inside the linen cart you find a medical cooler, a sealed syringe kit, and electrodes. A slim tablet... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-26.jpg
+Story: The Glass Key Protocol
+Node: node-26
+Folder: src/assets/images/nodes/
+
+Prompt:
+High Stakes: Family Line. You call your sibling and give them a crowded meet point by the ferry terminal. Signal drops and ret... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-27.jpg
+Story: The Glass Key Protocol
+Node: node-27
+Folder: src/assets/images/nodes/
+
+Prompt:
+High Stakes: GK Service Mode. You force GK service mode. Menus appear: CAMERA ROUTE, ACCESS OVERRIDE, HVAC ZONES, and CUTS. CUTS l... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-28.jpg
+Story: The Glass Key Protocol
+Node: node-28
+Folder: src/assets/images/nodes/
+
+Prompt:
+Pre-Climax: The IT Core. Server racks blink like language. A floor plan shows moving dots, including one labeled with your ba... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-29.jpg
+Story: The Glass Key Protocol
+Node: node-29
+Folder: src/assets/images/nodes/
+
+Prompt:
+Pre-Climax: Evidence on Paper. You go primitive and write room numbers, timestamps, and operator tags in a notebook. In a banquet h... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-30.jpg
+Story: The Glass Key Protocol
+Node: node-30
+Folder: src/assets/images/nodes/
+
+Prompt:
+Pre-Climax: Footsteps to the Operator. You confront a clinic-badged person pushing a cart. They say, 'HK is not a person. HK is a key-holde... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-31.jpg
+Story: The Glass Key Protocol
+Node: node-31
+Folder: src/assets/images/nodes/
+
+Prompt:
+Pre-Climax: Ferry Terminal Lights. At the ferry terminal cafe, bright lights and noise feel like a shield until your phone call turns i... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-32.jpg
+Story: The Glass Key Protocol
+Node: node-32
+Folder: src/assets/images/nodes/
+
+Prompt:
+Final Decision: The Meeting Room. In a windowless meeting room, an operator slides a folder: stills of you with corrected timestamps a... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-33.jpg
+Story: The Glass Key Protocol
+Node: node-33
+Folder: src/assets/images/nodes/
+
+Prompt:
+Final Decision: Alarm and Chaos. You trigger an alarm in the IT core. Sirens and red strobes fracture the hotel's calm. The trench-co... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-34.jpg
+Story: The Glass Key Protocol
+Node: node-34
+Folder: src/assets/images/nodes/
+
+Prompt:
+Final Decision: Terms in Public. The voice on the line orders you back to the hotel and wants your sibling as leverage. The trench-co... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-35.jpg
+Story: The Glass Key Protocol
+Node: node-35
+Folder: src/assets/images/nodes/
+
+Prompt:
+Final Decision: Counter-Trap. You vanish into the crowd, then set a five-minute mirror stream with a city IT friend. The hooded fi... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-36.jpg
+Story: The Glass Key Protocol
+Node: node-36
+Folder: src/assets/images/nodes/
+
+Prompt:
+Ending: The Confession Cut. You sign. The pen feels heavier than it should, like it contains gravity. The operator watches witho... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-37.jpg
+Story: The Glass Key Protocol
+Node: node-37
+Folder: src/assets/images/nodes/
+
+Prompt:
+Ending: The Key-Holder's Coat. You take the Glass Key, and the world shifts subtly, like your eyes adjusted to darkness you did not... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-38.jpg
+Story: The Glass Key Protocol
+Node: node-38
+Folder: src/assets/images/nodes/
+
+Prompt:
+Ending: Broadcast Under Rain. You trigger the live stream. The five-minute window opens like a lung. You speak fast and specific: ... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-39.jpg
+Story: The Glass Key Protocol
+Node: node-39
+Folder: src/assets/images/nodes/
+
+Prompt:
+Ending: Burn the Heart. You choose destruction. You rip open the GK HEART rack and smash the core module until sparks spit a... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-40.jpg
+Story: The Glass Key Protocol
+Node: node-40
+Folder: src/assets/images/nodes/
+
+Prompt:
+Ending: The Newspaper Witnesses. You go to the old newspaper office where the air still smells like ink. The trench-coat woman meets ... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px
+
+
+---
+## story-glass-key-protocol-node-41.jpg
+Story: The Glass Key Protocol
+Node: node-41
+Folder: src/assets/images/nodes/
+
+Prompt:
+Ending: Quiet Reconstruction. You choose silence, not surrender. You cut power to every device you control and walk your sibling h... Film noir style, dramatic lighting, high contrast shadows, cinematic atmosphere, detailed, high quality, 800x600px

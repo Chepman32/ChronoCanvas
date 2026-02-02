@@ -132,6 +132,7 @@ Maintain continuity (names, facts, tone)
 All images should be various and different each other but have the same visual style/mood
 Do not use any abstract images - they should be realistic and relevant to the story content (people, car(s), buildings, etc.)
 Before using an image link ensure it's not broken - it doesn't leading to 404, etc
+Use only the images that are not listed yet in https://github.com/Chepman32/ChronoCanvas/blob/main/IMAGE_MAPPING.json
 
 === NODE MODEL RULES ===
 

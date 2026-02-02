@@ -89,6 +89,12 @@
       "file": "story_midnight_curator.ts",
       "url": "https://images.unsplash.com/photo-1551641506-ee5bf4cb45f1?w=800",
       "suggestedFilename": "cover-story-847362951.jpg"
+    },
+    {
+      "storyId": "story-glass-key-protocol",
+      "file": "story-glass-key-protocol.ts",
+      "url": "https://images.unsplash.com/photo-1560263816-d704d83cce0f?w=800",
+      "suggestedFilename": "cover-story-glass-key-protocol.jpg"
     }
   ],
   "thumbnails": [
@@ -181,6 +187,12 @@
       "file": "story_midnight_curator.ts",
       "url": "https://images.unsplash.com/photo-1551641506-ee5bf4cb45f1?w=400",
       "suggestedFilename": "thumb-story-847362951.jpg"
+    },
+    {
+      "storyId": "story-glass-key-protocol",
+      "file": "story-glass-key-protocol.ts",
+      "url": "https://images.unsplash.com/photo-1560263816-d704d83cce0f?w=400",
+      "suggestedFilename": "thumb-story-glass-key-protocol.jpg"
     }
   ],
   "nodes": [
@@ -2409,6 +2421,97 @@
       "file": "story_midnight_curator.ts",
       "url": "https://images.unsplash.com/photo-1479044769763-c28e05b5baa5?w=800",
       "suggestedFilename": "story-847362951-story-847362951-22.jpg"
+    },
+    {
+      "storyId": "story-glass-key-protocol",
+      "nodeId": "node-1",
+      "file": "story-glass-key-protocol.ts",
+      "url": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800",
+      "suggestedFilename": "story-glass-key-protocol-node-1.jpg"
+    },
+    {
+      "storyId": "story-glass-key-protocol",
+      "nodeId": "node-2",
+      "file": "story-glass-key-protocol.ts",
+      "url": "https://images.unsplash.com/photo-1555685812-4b943f3e99a8?w=800",
+      "suggestedFilename": "story-glass-key-protocol-node-2.jpg"
+    },
+    {
+      "storyId": "story-glass-key-protocol",
+      "nodeId": "node-3",
+      "file": "story-glass-key-protocol.ts",
+      "url": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800",
+      "suggestedFilename": "story-glass-key-protocol-node-3.jpg"
+    },
+    {
+      "storyId": "story-glass-key-protocol",
+      "nodeId": "node-4",
+      "file": "story-glass-key-protocol.ts",
+      "url": "https://images.unsplash.com/photo-1514539079130-25950c84af65?w=800",
+      "suggestedFilename": "story-glass-key-protocol-node-4.jpg"
+    },
+    {
+      "storyId": "story-glass-key-protocol",
+      "nodeId": "node-5",
+      "file": "story-glass-key-protocol.ts",
+      "url": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800",
+      "suggestedFilename": "story-glass-key-protocol-node-5.jpg"
+    },
+    {
+      "storyId": "story-glass-key-protocol",
+      "nodeId": "node-6",
+      "file": "story-glass-key-protocol.ts",
+      "url": "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=800",
+      "suggestedFilename": "story-glass-key-protocol-node-6.jpg"
+    },
+    {
+      "storyId": "story-glass-key-protocol",
+      "nodeId": "node-7",
+      "file": "story-glass-key-protocol.ts",
+      "url": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800",
+      "suggestedFilename": "story-glass-key-protocol-node-7.jpg"
+    },
+    {
+      "storyId": "story-glass-key-protocol",
+      "nodeId": "node-9",
+      "file": "story-glass-key-protocol.ts",
+      "url": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=800",
+      "suggestedFilename": "story-glass-key-protocol-node-9.jpg"
+    },
+    {
+      "storyId": "story-glass-key-protocol",
+      "nodeId": "node-10",
+      "file": "story-glass-key-protocol.ts",
+      "url": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=800",
+      "suggestedFilename": "story-glass-key-protocol-node-10.jpg"
+    },
+    {
+      "storyId": "story-glass-key-protocol",
+      "nodeId": "node-11",
+      "file": "story-glass-key-protocol.ts",
+      "url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800",
+      "suggestedFilename": "story-glass-key-protocol-node-11.jpg"
+    },
+    {
+      "storyId": "story-glass-key-protocol",
+      "nodeId": "node-12",
+      "file": "story-glass-key-protocol.ts",
+      "url": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800",
+      "suggestedFilename": "story-glass-key-protocol-node-12.jpg"
+    },
+    {
+      "storyId": "story-glass-key-protocol",
+      "nodeId": "node-14",
+      "file": "story-glass-key-protocol.ts",
+      "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800",
+      "suggestedFilename": "story-glass-key-protocol-node-14.jpg"
+    },
+    {
+      "storyId": "story-glass-key-protocol",
+      "nodeId": "node-15",
+      "file": "story-glass-key-protocol.ts",
+      "url": "https://images.unsplash.com/photo-1520352823777-93d6b37c0ce1?w=800",
+      "suggestedFilename": "story-glass-key-protocol-node-15.jpg"
     }
   ]
 }
