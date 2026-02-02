@@ -21,6 +21,7 @@ import { velvetGuillotineTranslations } from './story_velvet_guillotine_i18n';
 import { newStoriesTranslations } from './newStories_i18n';
 import { enchantedForestStoryTranslations } from './story1_enchantedforest_i18n';
 import { neonNightsStoryTranslations } from './story2_neonnights_i18n';
+import { alchemistWatchStoryTranslations } from './story-alchemist-watch_i18n';
 
 interface StoryTranslations {
   title: string;
@@ -69,6 +70,7 @@ export const storyTranslationsRegistry: Record<
   ...newStoriesTranslations,
   'story-1': enchantedForestStoryTranslations,
   'story-2': neonNightsStoryTranslations,
+  'story-alchemist-watch': alchemistWatchStoryTranslations,
 };
 
 /**
