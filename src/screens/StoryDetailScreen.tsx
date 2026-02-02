@@ -14,6 +14,7 @@ import { useSettingsStore } from '../store/settingsStore';
 import { useTranslation } from '../localization/useTranslation';
 import { calculateEstimatedDuration } from '../utils/storyDuration';
 import { useResponsive } from '../hooks';
+import { StoryGenre } from '../types';
 
 interface StoryDetailScreenProps {
   storyId: string;
@@ -54,6 +55,16 @@ export const StoryDetailScreen: React.FC<StoryDetailScreenProps> = ({
       default:
         return involvement;
     }
+  };
+
+  const genreLabels: Record<StoryGenre, string> = {
+    fantasy: t.genreFantasy,
+    scifi: t.genreSciFi,
+    mystery: t.genreMystery,
+    romance: t.genreRomance,
+    horror: t.genreHorror,
+    adventure: t.genreAdventure,
+    detective: t.genreDetective,
   };
 
   return (
@@ -151,7 +162,7 @@ export const StoryDetailScreen: React.FC<StoryDetailScreenProps> = ({
                 { backgroundColor: theme.primaryLight },
               ]}
             >
-              <Text style={styles.genreText}>{story.genre}</Text>
+              <Text style={styles.genreText}>{genreLabels[story.genre]}</Text>
             </View>
           </View>
         </View>
