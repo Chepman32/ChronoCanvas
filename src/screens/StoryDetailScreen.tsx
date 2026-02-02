@@ -6,7 +6,6 @@ import {
   ScrollView,
   Image,
   TouchableOpacity,
-  Dimensions,
 } from 'react-native';
 import { spacing, borderRadius } from '../theme/colors';
 import { useStoryStore } from '../store/storyStore';
@@ -14,8 +13,7 @@ import { useUserStore } from '../store/userStore';
 import { useSettingsStore } from '../store/settingsStore';
 import { useTranslation } from '../localization/useTranslation';
 import { calculateEstimatedDuration } from '../utils/storyDuration';
-
-const { width, height } = Dimensions.get('window');
+import { useResponsive } from '../hooks';
 
 interface StoryDetailScreenProps {
   storyId: string;
@@ -33,6 +31,13 @@ export const StoryDetailScreen: React.FC<StoryDetailScreenProps> = ({
   const progress = useUserStore(state => state.getStoryProgress(storyId));
   const theme = useSettingsStore(state => state.theme);
   const t = useTranslation();
+  const { width, height, isTablet, isLandscape, insets } = useResponsive();
+
+  const heroImageHeight = isTablet
+    ? isLandscape
+      ? height * 0.5
+      : height * 0.35
+    : height * 0.4;
 
   if (!story) return null;
 
@@ -56,9 +61,9 @@ export const StoryDetailScreen: React.FC<StoryDetailScreenProps> = ({
       <ScrollView showsVerticalScrollIndicator={false}>
         <Image
           source={typeof story.coverImageUrl === 'string' ? { uri: story.coverImageUrl } : story.coverImageUrl}
-          style={styles.heroImage}
+          style={[styles.heroImage, { width, height: heroImageHeight }]}
         />
-        <TouchableOpacity style={styles.backButton} onPress={onBack}>
+        <TouchableOpacity style={[styles.backButton, { top: insets.top + spacing.sm }]} onPress={onBack}>
           <Text style={styles.backButtonText}>← {t.back}</Text>
         </TouchableOpacity>
 
@@ -174,13 +179,10 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   heroImage: {
-    width,
-    height: height * 0.4,
     backgroundColor: '#F5F5F5',
   },
   backButton: {
     position: 'absolute',
-    top: 50,
     left: spacing.md,
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
     paddingHorizontal: spacing.md,

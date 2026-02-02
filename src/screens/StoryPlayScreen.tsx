@@ -5,7 +5,6 @@ import {
   StyleSheet,
   Image,
   TouchableOpacity,
-  Dimensions,
   ScrollView,
   Animated,
 } from 'react-native';
@@ -15,11 +14,10 @@ import { useUserStore } from '../store/userStore';
 import { useSettingsStore } from '../store/settingsStore';
 import { Choice } from '../types';
 import { useTranslation } from '../localization/useTranslation';
+import { useResponsive } from '../hooks';
 
 const FALLBACK_IMAGE =
   'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=80';
-
-const { width, height } = Dimensions.get('window');
 
 interface StoryPlayScreenProps {
   storyId: string;
@@ -36,8 +34,12 @@ export const StoryPlayScreen: React.FC<StoryPlayScreenProps> = ({
   const theme = useSettingsStore(state => state.theme);
   const fontSize = useSettingsStore(state => state.fontSize);
   const t = useTranslation();
+  const { width, height, isTablet, insets } = useResponsive();
   const [fadeAnim] = useState(new Animated.Value(0));
   const [imageError, setImageError] = useState(false);
+
+  const narrationPanelMaxHeight = isTablet ? height * 0.55 : height * 0.6;
+  const narrationScrollMaxHeight = isTablet ? height * 0.3 : height * 0.25;
 
   useEffect(() => {
     const progress = getStoryProgress(storyId);
@@ -84,7 +86,7 @@ export const StoryPlayScreen: React.FC<StoryPlayScreenProps> = ({
 
   if (!currentNode || !currentStory) {
     return (
-      <View style={styles.container}>
+      <View style={[styles.container, styles.loadingContainer]}>
         <Text style={styles.loadingText}>{t.loadingStory}</Text>
       </View>
     );
@@ -97,24 +99,24 @@ export const StoryPlayScreen: React.FC<StoryPlayScreenProps> = ({
       <Animated.View style={[styles.content, { opacity: fadeAnim }]}>
         <Image
           source={imageError ? { uri: FALLBACK_IMAGE } : (typeof currentNode.imageUrl === 'string' ? { uri: currentNode.imageUrl } : currentNode.imageUrl)}
-          style={styles.backgroundImage}
+          style={[styles.backgroundImage, { width, height }]}
           resizeMode="cover"
           onError={() => {
             console.log('Image failed to load:', currentNode.imageUrl);
             setImageError(true);
           }}
         />
-        <View style={styles.overlay} />
+        <View style={[styles.overlay, { width, height }]} />
 
-        <View style={styles.topBar}>
+        <View style={[styles.topBar, { paddingTop: insets.top + spacing.sm }]}>
           <TouchableOpacity style={styles.exitButton} onPress={handleExit}>
             <Text style={styles.exitButtonText}>✕</Text>
           </TouchableOpacity>
         </View>
 
-        <View style={styles.narrationPanel}>
+        <View style={[styles.narrationPanel, { width, maxHeight: narrationPanelMaxHeight, paddingBottom: insets.bottom + spacing.md }]}>
           <ScrollView
-            style={styles.narrationScroll}
+            style={[styles.narrationScroll, { maxHeight: narrationScrollMaxHeight }]}
             contentContainerStyle={styles.narrationContent}
           >
             <Text style={[styles.nodeTitle, { fontSize: 24 * fontSize }]}>
@@ -178,24 +180,23 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#000000',
   },
+  loadingContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
   content: {
     flex: 1,
   },
   backgroundImage: {
     position: 'absolute',
-    width,
-    height,
     resizeMode: 'cover',
     backgroundColor: '#1a1a2e',
   },
   overlay: {
     position: 'absolute',
-    width,
-    height,
     backgroundColor: 'rgba(0, 0, 0, 0.3)',
   },
   topBar: {
-    paddingTop: 50,
     paddingHorizontal: spacing.md,
     flexDirection: 'row',
     justifyContent: 'flex-end',
@@ -216,16 +217,12 @@ const styles = StyleSheet.create({
   narrationPanel: {
     position: 'absolute',
     bottom: 0,
-    width,
-    maxHeight: height * 0.6,
     backgroundColor: 'rgba(0, 0, 0, 0.85)',
     borderTopLeftRadius: borderRadius.xlarge,
     borderTopRightRadius: borderRadius.xlarge,
     padding: spacing.lg,
   },
-  narrationScroll: {
-    maxHeight: height * 0.25,
-  },
+  narrationScroll: {},
   narrationContent: {
     paddingBottom: spacing.md,
   },
@@ -289,6 +286,5 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 18,
     textAlign: 'center',
-    marginTop: height / 2,
   },
 });

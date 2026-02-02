@@ -6,7 +6,6 @@ import {
   ScrollView,
   TouchableOpacity,
   Image,
-  Dimensions,
   FlatList,
 } from 'react-native';
 import { spacing, borderRadius } from '../theme/colors';
@@ -15,11 +14,7 @@ import { useSettingsStore } from '../store/settingsStore';
 import { Story, StoryGenre } from '../types';
 import { useTranslation } from '../localization/useTranslation';
 import { calculateEstimatedDuration } from '../utils/storyDuration';
-
-const { width } = Dimensions.get('window');
-const CARD_WIDTH = width * 0.65;
-const FEATURED_CARD_WIDTH = width - spacing.md * 2;
-const FEATURED_CARD_HEIGHT = 210;
+import { useResponsive } from '../hooks';
 
 interface HomeScreenProps {
   onStoryPress: (storyId: string) => void;
@@ -33,6 +28,20 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
   const stories = useStoryStore(state => state.stories);
   const theme = useSettingsStore(state => state.theme);
   const t = useTranslation();
+  const { width, isTablet, isLandscape, insets } = useResponsive();
+
+  const CARD_WIDTH = isTablet
+    ? isLandscape
+      ? width * 0.28
+      : width * 0.4
+    : width * 0.65;
+  const FEATURED_CARD_WIDTH = isTablet
+    ? isLandscape
+      ? width * 0.42
+      : width * 0.65
+    : width - spacing.md * 2;
+  const FEATURED_CARD_HEIGHT = isTablet ? 260 : 210;
+  const CARD_IMAGE_HEIGHT = isTablet ? 170 : 140;
 
   const genreLabels: Record<StoryGenre, string> = {
     fantasy: t.genreFantasy,
@@ -80,13 +89,13 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
 
   const renderStoryCard = (story: Story, index: number) => (
     <TouchableOpacity
-      style={styles.card}
+      style={[styles.card, { width: CARD_WIDTH }]}
       onPress={() => onStoryPress(story.id)}
       activeOpacity={0.8}
     >
       <Image
         source={typeof story.thumbnailUrl === 'string' ? { uri: story.thumbnailUrl } : story.thumbnailUrl}
-        style={styles.cardImage}
+        style={[styles.cardImage, { height: CARD_IMAGE_HEIGHT }]}
       />
       {(index + 1) % 4 === 0 && (
         <View style={styles.premiumBadge}>
@@ -113,13 +122,13 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
 
   const renderFeaturedCard = (story: Story, index: number) => (
     <TouchableOpacity
-      style={styles.featuredCard}
+      style={[styles.featuredCard, { width: FEATURED_CARD_WIDTH }]}
       onPress={() => onStoryPress(story.id)}
       activeOpacity={0.8}
     >
       <Image
         source={typeof story.coverImageUrl === 'string' ? { uri: story.coverImageUrl } : story.coverImageUrl}
-        style={styles.featuredCardImage}
+        style={[styles.featuredCardImage, { height: FEATURED_CARD_HEIGHT }]}
       />
       {(index + 1) % 4 === 0 && (
         <View style={styles.featuredPremiumBadge}>
@@ -163,7 +172,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
 
   return (
     <View style={[styles.container, { backgroundColor: theme.background }]}>
-      <View style={[styles.header, { backgroundColor: theme.primary }]}>
+      <View style={[styles.header, { backgroundColor: theme.primary, paddingTop: insets.top + spacing.md }]}>
         <View style={styles.headerTop}>
           <View>
             <Text style={styles.headerTitle}>{t.appName}</Text>
@@ -219,7 +228,6 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   header: {
-    paddingTop: 60,
     paddingHorizontal: spacing.md,
     paddingBottom: spacing.lg,
   },
@@ -273,7 +281,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: spacing.md,
   },
   featuredCard: {
-    width: FEATURED_CARD_WIDTH,
     backgroundColor: '#FFFFFF',
     borderRadius: borderRadius.large,
     shadowColor: '#000',
@@ -284,7 +291,6 @@ const styles = StyleSheet.create({
   },
   featuredCardImage: {
     width: '100%',
-    height: FEATURED_CARD_HEIGHT,
     borderTopLeftRadius: borderRadius.large,
     borderTopRightRadius: borderRadius.large,
     backgroundColor: '#F5F5F5',
@@ -314,7 +320,6 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   card: {
-    width: CARD_WIDTH,
     backgroundColor: '#FFFFFF',
     borderRadius: borderRadius.medium,
     shadowColor: '#000',
@@ -325,7 +330,6 @@ const styles = StyleSheet.create({
   },
   cardImage: {
     width: '100%',
-    height: 140,
     borderTopLeftRadius: borderRadius.medium,
     borderTopRightRadius: borderRadius.medium,
     backgroundColor: '#F5F5F5',

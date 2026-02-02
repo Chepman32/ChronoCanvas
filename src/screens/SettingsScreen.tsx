@@ -17,6 +17,7 @@ import { ThemeName } from '../theme/colors';
 import { spacing, borderRadius } from '../theme/colors';
 import { useTranslation } from '../localization/useTranslation';
 import { Language, languageNames } from '../localization/translations';
+import { useResponsive } from '../hooks';
 import {
   clearCache,
   getCacheSize,
@@ -61,6 +62,10 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({ onBack }) => {
     useSyncStore();
 
   const t = useTranslation();
+  const { isTablet, isLandscape, insets } = useResponsive();
+
+  const gridColumns = isTablet ? (isLandscape ? 4 : 3) : 2;
+  const cardWidthPercent = `${Math.floor(100 / gridColumns) - 2}%` as const;
 
   const [cacheSize, setCacheSize] = useState(0);
 
@@ -139,7 +144,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({ onBack }) => {
 
   return (
     <View style={[styles.container, { backgroundColor: theme.background }]}>
-      <View style={[styles.header, { backgroundColor: theme.primary }]}>
+      <View style={[styles.header, { backgroundColor: theme.primary, paddingTop: insets.top + spacing.md }]}>
         <TouchableOpacity style={styles.backButton} onPress={onBack}>
           <Text style={styles.backButtonText}>← {t.back}</Text>
         </TouchableOpacity>
@@ -163,6 +168,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({ onBack }) => {
                 style={[
                   styles.themeCard,
                   {
+                    width: cardWidthPercent,
                     backgroundColor: theme.surface,
                     borderColor:
                       themeName === option.value ? theme.primary : theme.border,
@@ -211,6 +217,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({ onBack }) => {
                 style={[
                   styles.themeCard,
                   {
+                    width: cardWidthPercent,
                     backgroundColor: theme.surface,
                     borderColor:
                       language === lang ? theme.primary : theme.border,
@@ -456,7 +463,6 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   header: {
-    paddingTop: 60,
     paddingHorizontal: spacing.md,
     paddingBottom: spacing.lg,
   },
@@ -493,7 +499,6 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   themeCard: {
-    width: '48%',
     padding: spacing.md,
     borderRadius: borderRadius.medium,
     marginBottom: spacing.md,

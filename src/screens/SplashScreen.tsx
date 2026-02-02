@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { View, Text, StyleSheet, Animated } from 'react-native';
 import { colors } from '../theme/colors';
+import { useIsTablet } from '../hooks';
 
 interface SplashScreenProps {
   onFinish: () => void;
@@ -9,6 +10,7 @@ interface SplashScreenProps {
 export const SplashScreen: React.FC<SplashScreenProps> = ({ onFinish }) => {
   const fadeAnim = new Animated.Value(0);
   const scaleAnim = new Animated.Value(0.8);
+  const isTablet = useIsTablet();
 
   useEffect(() => {
     Animated.parallel([
@@ -47,8 +49,8 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({ onFinish }) => {
           },
         ]}
       >
-        <Text style={styles.logo}>Fableflow</Text>
-        <Text style={styles.tagline}>Your Story, Your Choice</Text>
+        <Text style={[styles.logo, isTablet && styles.logoTablet]}>Fableflow</Text>
+        <Text style={[styles.tagline, isTablet && styles.taglineTablet]}>Your Story, Your Choice</Text>
       </Animated.View>
     </View>
   );
@@ -70,8 +72,14 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     marginBottom: 8,
   },
+  logoTablet: {
+    fontSize: 56,
+  },
   tagline: {
     fontSize: 16,
     color: 'rgba(255, 255, 255, 0.8)',
+  },
+  taglineTablet: {
+    fontSize: 20,
   },
 });
