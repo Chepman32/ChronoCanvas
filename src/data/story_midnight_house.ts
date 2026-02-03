@@ -7,7 +7,7 @@ export const midnightHouseStory: Story = {
   coverImageUrl: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800",
   thumbnailUrl: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=400",
   author: "Marcus Vincent",
-  genre: "Horror",
+  genre: "horror",
   involvement: "high",
   estimatedDuration: 25,
   isPremium: false,

@@ -321,6 +321,78 @@ export const enchantedForestStoryTranslations: Partial<Record<
           "The blue path reveals the hidden truths of existence—why we are here, where we go, and what connects all living things. You become a philosopher and teacher, sharing your insights with those who seek understanding. The forest has given you the greatest gift: the answer to life's deepest questions.",
         choices: {},
       },
+      'node-2a': {
+        title: 'The Winding Trail',
+        narration: 'The path winds through ancient trees, their roots forming natural steps. You notice strange mushrooms glowing faintly in the shadows. A small wooden sign points ahead, but the writing is in a language you do not recognize.',
+        choices: {
+          'choice-1a': { text: 'Head toward the light', description: 'Light usually means safety' },
+          'choice-1b': { text: 'Enter the darkness', description: 'Face the unknown head-on' },
+        },
+      },
+      'node-2b': {
+        title: 'The Singing Waters',
+        narration: 'The stream sings a melody that seems to call your name. Silver fish leap from the water, creating ripples that reflect rainbow patterns on the rocks.',
+        choices: {
+          'choice-2a': { text: 'Take the boat', description: 'Let the current guide you' },
+          'choice-2b': { text: 'Walk along the shore', description: 'Keep your feet on solid ground' },
+        },
+      },
+      'node-2c': {
+        title: 'The Hidden Grove',
+        narration: 'Beyond the main entrance, you discover a hidden grove where wildflowers bloom in impossible colors. A family of deer watches you from the shadows.',
+        choices: {
+          'choice-3a': { text: 'Pick up the acorn', description: 'Accept this mysterious gift' },
+          'choice-3b': { text: 'Back away slowly', description: 'Do not interfere with magic' },
+        },
+      },
+      'node-3a': {
+        title: 'The Lantern Grove',
+        narration: 'You emerge into a grove lit by hundreds of floating lanterns. An old woman tends a fire in the center, stirring a cauldron that smells of cinnamon and starlight.',
+        choices: {
+          'choice-4a': { text: 'Approach the old woman', description: 'Seek her wisdom' },
+          'choice-4b': { text: 'Sneak past quietly', description: 'Avoid disturbing her' },
+        },
+      },
+      'node-3b': {
+        title: 'The Shadow Path',
+        narration: 'In the darkness, your other senses sharpen. You hear breathing that is not your own. A pair of golden orbs appears before you—the shadow creatures seem curious.',
+        choices: {
+          'choice-5a': { text: 'Reach out to them', description: 'Show you mean no harm' },
+          'choice-5b': { text: 'Light a torch', description: 'Drive away the darkness' },
+        },
+      },
+      'node-3c': {
+        title: 'The River Journey',
+        narration: 'The boat drifts silently downstream. Water sprites dance alongside, playing games with the ripples. You pass under ancient stone bridges carved with runes.',
+        choices: {
+          'choice-6a': { text: 'Let the river guide you', description: 'Trust the current' },
+          'choice-6b': { text: 'Paddle to the shore', description: 'Take control of your journey' },
+        },
+      },
+      'node-3d': {
+        title: 'The Fisherman\'s Rest',
+        narration: 'You find an old fisherman sitting by a campfire, mending his nets. He offers you a cup of tea that smells of memory and honey.',
+        choices: {
+          'choice-7a': { text: 'Drink the tea', description: 'Accept his hospitality' },
+          'choice-7b': { text: 'Ask about the forest', description: 'Learn what awaits you' },
+        },
+      },
+      'node-3e': {
+        title: 'The Acorn\'s Secret',
+        narration: 'As you touch the silver acorn, visions flood your mind—the forest as it was centuries ago, a great kingdom of nature ruled by benevolent spirits.',
+        choices: {
+          'choice-8a': { text: 'Seek the Heart Tree', description: 'The vision showed you the way' },
+          'choice-8b': { text: 'Find the source of the blight', description: 'Stop the corruption' },
+        },
+      },
+      'node-3f': {
+        title: 'The Deer\'s Warning',
+        narration: 'The deer block your path, their eyes filled with concern. One stamps its hoof three times, pointing with its antlers toward a hidden trail.',
+        choices: {
+          'choice-9a': { text: 'Follow the deer', description: 'Trust their guidance' },
+          'choice-9b': { text: 'Go your own way', description: 'Make your own path' },
+        },
+      },
     },
   },
 
@@ -628,6 +700,78 @@ export const enchantedForestStoryTranslations: Partial<Record<
           'Синяя тропа открывает скрытые истины существования — зачем мы здесь, куда мы идём и что связывает все живые существа. Вы становитесь философом и учителем, делясь своими прозрениями с теми, кто ищет понимания. Лес даровал вам величайший дар: ответ на самые глубокие вопросы жизни.',
         choices: {},
       },
+      'node-2a': {
+        title: 'Извилистая тропа',
+        narration: 'Тропа вьётся между древними деревьями, их корни образуют естественные ступени. Вы замечаете странные грибы, слабо светящиеся в тени. Маленький деревянный указатель указывает вперёд, но надпись на незнакомом языке.',
+        choices: {
+          'choice-1a': { text: 'Идти к свету', description: 'Свет обычно означает безопасность' },
+          'choice-1b': { text: 'Войти во тьму', description: 'Встретить неизвестность лицом к лицу' },
+        },
+      },
+      'node-2b': {
+        title: 'Поющие воды',
+        narration: 'Ручей поёт мелодию, которая кажется зовёт ваше имя. Серебряные рыбки выпрыгивают из воды, создавая рябь, отражающую радужные узоры на камнях.',
+        choices: {
+          'choice-2a': { text: 'Сесть в лодку', description: 'Позволить течению вести вас' },
+          'choice-2b': { text: 'Идти по берегу', description: 'Держаться твёрдой земли' },
+        },
+      },
+      'node-2c': {
+        title: 'Скрытая поляна',
+        narration: 'За главным входом вы обнаруживаете скрытую поляну, где дикие цветы цветут невозможными цветами. Семья оленей наблюдает за вами из теней.',
+        choices: {
+          'choice-3a': { text: 'Поднять жёлудь', description: 'Принять этот таинственный дар' },
+          'choice-3b': { text: 'Медленно отступить', description: 'Не вмешиваться в магию' },
+        },
+      },
+      'node-3a': {
+        title: 'Поляна фонарей',
+        narration: 'Вы выходите на поляну, освещённую сотнями плавающих фонарей. Старуха разводит костёр в центре, помешивая котёлок, от которого пахнет корицей и звёздным светом.',
+        choices: {
+          'choice-4a': { text: 'Подойти к старухе', description: 'Попросить её мудрости' },
+          'choice-4b': { text: 'Проскользнуть мимо тихо', description: 'Не беспокоить её' },
+        },
+      },
+      'node-3b': {
+        title: 'Тропа теней',
+        narration: 'В темноте ваши чувства обостряются. Вы слышите дыхание, которое не ваше. Пара золотистых глаз появляется перед вами — теневые существа кажутся любопытными.',
+        choices: {
+          'choice-5a': { text: 'Протянуть руку к ним', description: 'Показать, что вы не опасны' },
+          'choice-5b': { text: 'Зажечь факел', description: 'Отогнать тьму' },
+        },
+      },
+      'node-3c': {
+        title: 'Речное путешествие',
+        narration: 'Лодка плывёт по течению бесшумно. Водяные духи танцуют рядом, играя с рябью. Вы проезжаете под древними каменными мостами, вырезанными рунами.',
+        choices: {
+          'choice-6a': { text: 'Позволить реке вести', description: 'Довериться течению' },
+          'choice-6b': { text: 'Грести к берегу', description: 'Взять контроль над путешествием' },
+        },
+      },
+      'node-3d': {
+        title: 'Привал рыбака',
+        narration: 'Вы находите старого рыбака у костра, штопающего сети. Он предлагает вам чашку чая, который пахнет воспоминаниями и мёдом.',
+        choices: {
+          'choice-7a': { text: 'Выпить чай', description: 'Принить его гостеприимство' },
+          'choice-7b': { text: 'Спросить о лесе', description: 'Узнать, что вас ждёт' },
+        },
+      },
+      'node-3e': {
+        title: 'Тайна жёлудя',
+        narration: 'Когда вы касаетесь серебряного жёлудя, видения заливают ваш разум — лес таким, каким он был столетия назад, великое королевство природы под властью добрых духов.',
+        choices: {
+          'choice-8a': { text: 'Искать Древо Сердца', description: 'Видение показало вам путь' },
+          'choice-8b': { text: 'Найти источник чумы', description: 'Остановить разложение' },
+        },
+      },
+      'node-3f': {
+        title: 'Предупреждение оленя',
+        narration: 'Олени блокируют ваш путь, их глаза полны беспокойства. Один топает копытом три раза, указывая рогами на скрытую тропу.',
+        choices: {
+          'choice-9a': { text: 'Следовать за оленями', description: 'Довериться их указаниям' },
+          'choice-9b': { text: 'Идти своим путём', description: 'Проложить свой собственный путь' },
+        },
+      },
     },
   },
 
@@ -934,6 +1078,78 @@ export const enchantedForestStoryTranslations: Partial<Record<
         narration:
           'Niebieska ścieżka odsłania ukryte prawdy istnienia — po co tu jesteśmy, dokąd idziemy i co łączy wszystkie żywe istoty. Stajesz się filozofem i nauczycielem, dzieląc się swoimi spostrzeżeniami z tymi, którzy szukają zrozumienia. Las obdarzył cię największym darem: odpowiedzią na najgłębsze pytania życia.',
         choices: {},
+      },
+      'node-2a': {
+        title: 'Kręta ścieżka',
+        narration: 'Ścieżka wije się między starożytnymi drzewami, a ich korzenie tworzą naturalne stopnie. Zauważasz dziwne grzyby, które słabo świecą w cieniu. Mały drewniany znak wskazuje naprzód, ale napis jest w nieznanym języku.',
+        choices: {
+          'choice-1a': { text: 'Idź ku światłu', description: 'Światło zazwyczaj oznacza bezpieczeństwo' },
+          'choice-1b': { text: 'Wejdź w ciemność', description: 'Staw czoła nieznanemu' },
+        },
+      },
+      'node-2b': {
+        title: 'Śpiewające wody',
+        narration: 'Strumień śpiewa melodię, która wydaje się wołać twoje imię. Srebrne rybki wyskakują z wody, tworząc fale odbijające tęczowe wzory na kamieniach.',
+        choices: {
+          'choice-2a': { text: 'Wejdź do łodzi', description: 'Pozwól prądowi prowadzić cię' },
+          'choice-2b': { text: 'Idź wzdłuż brzegu', description: 'Trzymaj się stałego gruntu' },
+        },
+      },
+      'node-2c': {
+        title: 'Ukryta polana',
+        narration: 'Za głównym wejściem odkrywasz ukrytą polanę, gdzie dzikie kwiaty kwitną niemożliwymi kolorami. Rodzina jeleni obserwuje cię z cienia.',
+        choices: {
+          'choice-3a': { text: 'Podnieś żołądź', description: 'Przyjmij ten tajemniczy dar' },
+          'choice-3b': { text: 'Powoli się wycofaj', description: 'Nie wtrącaj się w magię' },
+        },
+      },
+      'node-3a': {
+        title: 'Polana latarni',
+        narration: 'Wychodzisz na polanę oświetloną setkami unoszących się latarni. Staruszka rozpala ogień w centrum, mieszając kociołek, z którego pachnie cynamonem i światłem gwiazd.',
+        choices: {
+          'choice-4a': { text: 'Podejdź do staruszki', description: 'Poszukaj jej mądrości' },
+          'choice-4b': { text: 'Przemknij cicho', description: 'Nie przeszkadzaj jej' },
+        },
+      },
+      'node-3b': {
+        title: 'Ścieżka cieni',
+        narration: 'W ciemności twoje zmysły się ostrzą. Słyszysz oddech, który nie jest twój. Para złotych oczu pojawia się przed tobą — stworzenia cienia wydają się ciekawe.',
+        choices: {
+          'choice-5a': { text: 'Sięgnij do nich', description: 'Pokaż, że nie jesteś niebezpieczny' },
+          'choice-5b': { text: 'Zapal pochodnię', description: 'Przepędź ciemność' },
+        },
+      },
+      'node-3c': {
+        title: 'Rzeczna podróż',
+        narration: 'Łódź dryfuje w dół rzeki w ciszy. Wodne duchy tańczą w pobliżu, bawiąc się falami. Przepływasz pod starożytnymi kamiennymi mostami wyrytymi runami.',
+        choices: {
+          'choice-6a': { text: 'Pozwól rzece prowadzić', description: 'Zaufaj prądowi' },
+          'choice-6b': { text: 'Wiosłuj do brzegu', description: 'Przejmij kontrolę nad podróżą' },
+        },
+      },
+      'node-3d': {
+        title: 'Odpoczynek rybaka',
+        narration: 'Znajdujesz starego rybaka przy ognisku, łatającego sieci. Oferuje ci filiżankę herbaty, która pachnie wspomnieniami i miodem.',
+        choices: {
+          'choice-7a': { text: 'Wypij herbatę', description: 'Przyjmij jego gościnę' },
+          'choice-7b': { text: 'Spytaj o las', description: 'Dowiedz się, co cię czeka' },
+        },
+      },
+      'node-3e': {
+        title: 'Tajemnica żołędzia',
+        narration: 'Gdy dotykasz srebrnego żołędzia, wizje zalewają twój umysł — las taki, jakim był wieki temu, wielkie królestwo natury pod władzą dobrych duchów.',
+        choices: {
+          'choice-8a': { text: 'Szukaj Drzewa Serca', description: 'Wizja pokazała ci drogę' },
+          'choice-8b': { text: 'Znajdź źródło zarazy', description: 'Zatrzymaj zniszczenie' },
+        },
+      },
+      'node-3f': {
+        title: 'Ostrzeżenie jeleni',
+        narration: 'Jelenie blokują twój szlak, ich oczy pełne są niepokoju. Jeden stąpa kopytem trzy razy, wskazując rogami na ukrytą ścieżkę.',
+        choices: {
+          'choice-9a': { text: 'Podążaj za jeleniami', description: 'Zaufaj ich wskazówkom' },
+          'choice-9b': { text: 'Idź własną drogą', description: 'Utoruj własną ścieżkę' },
+        },
       },
     },
   },
@@ -2814,6 +3030,78 @@ export const enchantedForestStoryTranslations: Partial<Record<
           'Der blaue Pfad enthüllt die verborgenen Wahrheiten der Existenz: warum wir hier sind, wohin wir gehen und was alle lebenden Wesen verbindet. Du wirst ein Philosoph und Lehrer, deine Erkenntnisse mit denen teilend, die Verständnis suchen. Der Wald hat dir das größte Geschenk gegeben: die Antwort auf die tiefsten Fragen des Lebens.',
         choices: {},
       },
+      'node-2a': {
+        title: 'Der gewundene Pfad',
+        narration: 'Der Pfad windet sich durch uralte Bäume, ihre Wurzeln bilden natürliche Stufen. Du bemerkst seltsame Pilze, die schwach im Schatten leuchten. Ein kleines Holzschild zeigt nach vorne, aber die Schrift ist in einer Sprache, die du nicht kennst.',
+        choices: {
+          'choice-1a': { text: 'Zum Licht gehen', description: 'Licht bedeutet normalerweise Sicherheit' },
+          'choice-1b': { text: 'In die Dunkelheit eintreten', description: 'Dem Unbekannten ins Gesicht sehen' },
+        },
+      },
+      'node-2b': {
+        title: 'Die singenden Gewässer',
+        narration: 'Der Bach singt eine Melodie, die deinen Namen zu rufen scheint. Silberne Fische springen aus dem Wasser und erzeugen Wellen, die Regenbogenmuster auf den Steinen reflektieren.',
+        choices: {
+          'choice-2a': { text: 'Ins Boot steigen', description: 'Lass die Strömung dich führen' },
+          'choice-2b': { text: 'Am Ufer entlang gehen', description: 'Bleib auf festem Boden' },
+        },
+      },
+      'node-2c': {
+        title: 'Die verborgene Lichtung',
+        narration: 'Hinter dem Haupteingang entdeckst du eine verborgene Lichtung, auf der Wildblumen in unmöglichen Farben blühen. Eine Hirschfamilie beobachtet dich aus dem Schatten.',
+        choices: {
+          'choice-3a': { text: 'Die Eichel aufheben', description: 'Dieses mysteriöse Geschenk annehmen' },
+          'choice-3b': { text: 'Langsam zurückweichen', description: 'Dich nicht in die Magie einmischen' },
+        },
+      },
+      'node-3a': {
+        title: 'Die Laternenlichtung',
+        narration: 'Du trittst in eine Lichtung, die von hunderten schwebenden Laternen erleuchtet wird. Eine alte Frau hütet ein Feuer in der Mitte und rührt in einem Kessel, der nach Zimt und Sternenlicht riecht.',
+        choices: {
+          'choice-4a': { text: 'Die alte Frau ansprechen', description: 'Ihre Weisheit suchen' },
+          'choice-4b': { text: 'Leise vorbeischleichen', description: 'Sie nicht stören' },
+        },
+      },
+      'node-3b': {
+        title: 'Der Schattenpfad',
+        narration: 'In der Dunkelheit schärfen sich deine Sinne. Du hörst Atmung, die nicht deine eigene ist. Ein Paar goldener Augen erscheint vor dir – die Schattenwesen scheinen neugierig zu sein.',
+        choices: {
+          'choice-5a': { text: 'Zu ihnen ausstrecken', description: 'Zeigen, dass du keine Bedrohung bist' },
+          'choice-5b': { text: 'Eine Fackel anzünden', description: 'Die Dunkelheit vertreiben' },
+        },
+      },
+      'node-3c': {
+        title: 'Die Flussreise',
+        narration: 'Das Boot treibt lautlos flussabwärts. Wassergeister tanzen daneben und spielen mit den Wellen. Du fährst unter uralten Steinbrücken hindurch, die mit Runen verziert sind.',
+        choices: {
+          'choice-6a': { text: 'Den Fluss führen lassen', description: 'Der Strömung vertrauen' },
+          'choice-6b': { text: 'Ans Ufer paddeln', description: 'Die Kontrolle über deine Reise übernehmen' },
+        },
+      },
+      'node-3d': {
+        title: 'Die Rast des Fischers',
+        narration: 'Du findest einen alten Fischer am Lagerfeuer, der seine Netze flickt. Er bietet dir eine Tasse Tee an, der nach Erinnerungen und Honig duftet.',
+        choices: {
+          'choice-7a': { text: 'Den Tee trinken', description: 'Seine Gastfreundschaft annehmen' },
+          'choice-7b': { text: 'Nach dem Wald fragen', description: 'Erfahren, was dich erwartet' },
+        },
+      },
+      'node-3e': {
+        title: 'Das Geheimnis der Eichel',
+        narration: 'Als du die silberne Eichel berührst, überfluten Visionen deinen Geist – der Wald, wie er vor Jahrhunderten war, ein großes Königreich der Natur, beherrscht von gütigen Geistern.',
+        choices: {
+          'choice-8a': { text: 'Den Herzbaum suchen', description: 'Die Vision zeigte dir den Weg' },
+          'choice-8b': { text: 'Die Quelle der Seuche finden', description: 'Die Verderbnis stoppen' },
+        },
+      },
+      'node-3f': {
+        title: 'Die Warnung der Hirsche',
+        narration: 'Die Hirsche blockieren deinen Weg, ihre Augen voller Sorge. Einer stampft dreimal mit dem Huf und weist mit seinem Geweih auf einen verborgenen Pfad.',
+        choices: {
+          'choice-9a': { text: 'Den Hirschen folgen', description: 'Ihren Hinweisen vertrauen' },
+          'choice-9b': { text: 'Deinen eigenen Weg gehen', description: 'Deinen eigenen Pfad schaffen' },
+        },
+      },
     },
   },
 
@@ -3120,6 +3408,78 @@ export const enchantedForestStoryTranslations: Partial<Record<
         narration:
           "Le chemin bleu révèle les vérités cachées de l'existence: pourquoi nous sommes ici, où nous allons et ce qui relie tous les êtres vivants. Vous devenez un philosophe et un enseignant, partageant vos connaissances avec ceux qui cherchent la compréhension. La forêt vous a donné le plus grand cadeau: la réponse aux questions les plus profondes de la vie.",
         choices: {},
+      },
+      'node-2a': {
+        title: 'Le Sentier Sinueux',
+        narration: "Le sentier serpente à travers d'anciens arbres, leurs racines formant des marches naturelles. Vous remarquez d'étranges champignons qui brillent faiblement dans l'ombre. Un petit panneau en bois pointe en avant, mais l'écriture est dans une langue que vous ne reconnaissez pas.",
+        choices: {
+          'choice-1a': { text: 'Aller vers la lumière', description: 'La lumière signifie généralement la sécurité' },
+          'choice-1b': { text: 'Entrer dans les ténèbres', description: "Faire face à l'inconnu" },
+        },
+      },
+      'node-2b': {
+        title: 'Les Eaux Chantantes',
+        narration: "Le ruisseau chante une mélodie qui semble appeler votre nom. Des poissons argentés sautent hors de l'eau, créant des ondulations qui reflètent des motifs arc-en-ciel sur les rochers.",
+        choices: {
+          'choice-2a': { text: "Prendre le bateau", description: 'Laissez le courant vous guider' },
+          'choice-2b': { text: "Marcher le long du rivage", description: 'Restez sur un sol stable' },
+        },
+      },
+      'node-2c': {
+        title: 'Le Clairière Cachée',
+        narration: "Au-delà de l'entrée principale, vous découvrez une clairière cachée où les fleurs sauvages fleurissent en couleurs impossibles. Une famille de cerfs vous observe depuis l'ombre.",
+        choices: {
+          'choice-3a': { text: 'Ramasser le gland', description: 'Accepter ce cadeau mystérieux' },
+          'choice-3b': { text: "Reculer lentement", description: "Ne pas interférer avec la magie" },
+        },
+      },
+      'node-3a': {
+        title: 'La Clairière des Lanternes',
+        narration: "Vous émergez dans une clairière éclairée par des centaines de lanternes flottantes. Une vieille femme entretient un feu au centre, remuant un chaudron qui sent la cannelle et la lumière des étoiles.",
+        choices: {
+          'choice-4a': { text: "Approcher la vieille femme", description: "Chercher sa sagesse" },
+          'choice-4b': { text: 'Passer discrètement', description: "Éviter de la déranger" },
+        },
+      },
+      'node-3b': {
+        title: 'Le Sentier des Ombres',
+        narration: "Dans l'obscurité, vos autres sens s'aiguisent. Vous entendez une respiration qui n'est pas la vôtre. Une paire d'orbes dorées apparaît devant vous – les créatures des ombres semblent curieuses.",
+        choices: {
+          'choice-5a': { text: 'Tendre la main vers eux', description: 'Montrer que vous ne voulez pas de mal' },
+          'choice-5b': { text: "Allumer une torche", description: "Chasser l'obscurité" },
+        },
+      },
+      'node-3c': {
+        title: 'Le Voyage Fluvial',
+        narration: "Le bateau dérive silencieusement en aval. Les esprits de l'eau dansent à côté, jouant avec les ondulations. Vous passez sous d'anciens ponts de pierre gravés de runes.",
+        choices: {
+          'choice-6a': { text: 'Laissez la rivière guider', description: 'Faire confiance au courant' },
+          'choice-6b': { text: 'Pagayer vers la rive', description: 'Prendre le contrôle de votre voyage' },
+        },
+      },
+      'node-3d': {
+        title: 'Le Repos du Pêcheur',
+        narration: "Vous trouvez un vieux pêcheur assis près d'un feu de camp, raccommodant ses filets. Il vous offre une tasse de thé qui sent les souvenirs et le miel.",
+        choices: {
+          'choice-7a': { text: 'Boire le thé', description: "Accepter son hospitalité" },
+          'choice-7b': { text: 'Demander des nouvelles de la forêt', description: 'Apprendre ce qui vous attend' },
+        },
+      },
+      'node-3e': {
+        title: 'Le Secret du Gland',
+        narration: "Lorsque vous touchez le gland argenté, des visions inondent votre esprit – la forêt telle qu'elle était il y a des siècles, un grand royaume de la nature régi par des esprits bienveillants.",
+        choices: {
+          'choice-8a': { text: "Chercher l'Arbre de Cœur", description: 'La vision vous a montré le chemin' },
+          'choice-8b': { text: 'Trouver la source du fléau', description: "Arrêter la corruption" },
+        },
+      },
+      'node-3f': {
+        title: "L'Avertissement du Cerf",
+        narration: "Les cerfs bloquent votre chemin, leurs yeux pleins d'inquiétude. L'un frappe le sol trois fois de son sabot, pointant avec ses bois vers un sentier caché.",
+        choices: {
+          'choice-9a': { text: 'Suivre les cerfs', description: 'Faire confiance à leurs indications' },
+          'choice-9b': { text: 'Aller votre propre chemin', description: 'Créer votre propre sentier' },
+        },
       },
       'path-1': {
         title: '[FR] The Mossy Stone',

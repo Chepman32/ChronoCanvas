@@ -484,9 +484,9 @@ export const newStories: Story[] = [
     description:
       "Inherit a mansion with a dark past. The dead don't rest easy here.",
     coverImageUrl:
-      'https://images.unsplash.com/photo-1515630278258-407f66498911?w=800',
+      'https://images.unsplash.com/photo-1505577058444-a3dab90d4253?w=800',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1515630278258-407f66498911?w=400',
+      'https://images.unsplash.com/photo-1505577058444-a3dab90d4253?w=400',
     author: 'Eleanor Blackwood',
     genre: 'horror',
     involvement: 'medium',
@@ -548,7 +548,6 @@ export const newStories: Story[] = [
         'Burn it all down. End the curse with fire.',
       ],
       [
-        'https://images.unsplash.com/photo-1515630278258-407f66498911?w=800',
         'https://images.unsplash.com/photo-1505577058444-a3dab90d4253?w=800',
         'https://images.unsplash.com/photo-1505533542167-8c89838bb19e?w=800',
         'https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800',
@@ -556,6 +555,7 @@ export const newStories: Story[] = [
         'https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2?w=800',
         'https://images.unsplash.com/photo-1560263816-d704d83cce0f?w=800',
         'https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?w=800',
+        'https://images.unsplash.com/photo-1519973344572-288480798439?w=800',
       ],
       3,
     ),
@@ -648,9 +648,9 @@ export const newStories: Story[] = [
     title: 'Digital Heist',
     description: 'Pull off the ultimate cyber heist in a neon-soaked megacity.',
     coverImageUrl:
-      'https://images.unsplash.com/photo-1515630278258-407f66498911?w=800',
+      'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800',
     thumbnailUrl:
-      'https://images.unsplash.com/photo-1515630278258-407f66498911?w=400',
+      'https://images.unsplash.com/photo-1518770660439-4636190af475?w=400',
     author: 'Ghost Protocol',
     genre: 'scifi',
     involvement: 'high',
@@ -723,10 +723,10 @@ export const newStories: Story[] = [
         'The heist becomes legend in the underground.',
       ],
       [
-        'https://images.unsplash.com/photo-1515630278258-407f66498911?w=800',
-        'https://images.unsplash.com/photo-1515630278258-407f66498911?w=800',
-        'https://images.unsplash.com/photo-1515630278258-407f66498911?w=800',
+        'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800',
         'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800',
+        'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800',
+        'https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800',
         'https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800',
         'https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800',
         'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800',

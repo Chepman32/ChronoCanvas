@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { View, Text, StyleSheet, Animated } from 'react-native';
 import { colors } from '../theme/colors';
 import { useIsTablet } from '../hooks';
+import { useTranslation } from '../localization/useTranslation';
 
 interface SplashScreenProps {
   onFinish: () => void;
@@ -11,6 +12,7 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({ onFinish }) => {
   const fadeAnim = new Animated.Value(0);
   const scaleAnim = new Animated.Value(0.8);
   const isTablet = useIsTablet();
+  const t = useTranslation();
 
   useEffect(() => {
     Animated.parallel([
@@ -49,8 +51,8 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({ onFinish }) => {
           },
         ]}
       >
-        <Text style={[styles.logo, isTablet && styles.logoTablet]}>Fableflow</Text>
-        <Text style={[styles.tagline, isTablet && styles.taglineTablet]}>Your Story, Your Choice</Text>
+        <Text style={[styles.logo, isTablet && styles.logoTablet]}>{t.appName}</Text>
+        <Text style={[styles.tagline, isTablet && styles.taglineTablet]}>{t.appTagline}</Text>
       </Animated.View>
     </View>
   );
